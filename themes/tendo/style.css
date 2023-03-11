@@ -1,0 +1,22 @@
+/*
+Theme Name: Tendo
+Theme URI: http://philhoyt.com/projects/tendo/
+Author: Phil Hoyt
+Author URI: http://philhoyt.com/
+Description: Tendo is a Clean and Minimalist theme built for the Site Editing features included in WordPress. Take advantage of Global Style and Template editing to customize the look and feel of Tendo to meet match your own unique needs. Use block patterns to better display your content with more to come in future iterations.
+Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing
+Version: 1.6.3
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tendo
+*/
+
+hr.wp-block-separator.is-style-tendo-striped {
+	background-image: linear-gradient(45deg, currentColor 25%, #ffffff 25%, #ffffff 50%, currentColor 50%, currentColor 75%, #ffffff 75%, #ffffff 100%);
+	background-size: 56.57px 56.57px;
+	border: none;
+	height: 0.5rem;
+}

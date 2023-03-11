@@ -1,0 +1,38 @@
+.wp-block-search .wp-block-search__button {
+	font-size: var(--wp--preset--font-size--small);
+	font-family: var(--wp--preset--font-family--system);
+	line-height: 1.7;
+	padding: var(--wp--custom--input-padding);
+	border-radius: var(--wp--custom--global-border-radius);
+	background: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--foreground);
+	box-shadow: var(--wp--custom--shadow-button-input);
+}
+
+.wp-block-search .wp-block-search__button:focus,
+.wp-block-search .wp-block-search__button:hover {
+	color: var(--wp--preset--color--foreground);
+	filter: brightness(94%) !important;
+	box-shadow: var(--wp--custom--shadow-button-input);
+}
+
+.wp-block-search .wp-block-search__button:active {
+	color: var(--wp--preset--color--foreground);
+	filter: brightness(93%) !important;
+	margin-top: 1px;
+	margin-bottom: -1px;
+}
+
+.wp-block-search .wp-block-search__button:visited {
+	background-color: initial;
+	color: var(--wp--preset--color--foreground);
+	box-shadow: var(--wp--custom--shadow-button-input);
+}
+
+.wp-block-search button.wp-block-search__button {
+	margin-bottom: 0;
+}
+
+.wp-block-search button.wp-block-search__button svg {
+	vertical-align: middle;
+}

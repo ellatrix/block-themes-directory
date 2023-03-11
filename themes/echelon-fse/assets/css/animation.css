@@ -1,0 +1,73 @@
+:root {
+	--echelon-fse-transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+body .echelon-fse-animate-init {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) translateX(0) scale(1) rotate(0)
+}
+
+.echelon-fse-animate {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, transform;
+}
+
+.echelon-fse-move-up {
+    transform: translateY(30px)
+}
+
+.echelon-fse-move-down {
+    transform: translateY(-30px)
+}
+
+.echelon-fse-move-right {
+    transform: translateX(-40px)
+}
+
+.echelon-fse-move-left {
+    transform: translateX(40px)
+}
+
+.echelon-fse-flip {
+    transform: perspective(500px) translateY(60px) scaleY(.75) rotateX(-40deg)
+}
+
+.echelon-fse-scale {
+    transform: scale(0.5)
+}
+
+.echelon-fse-flip,
+.echelon-fse-move-down,
+.echelon-fse-move-up,
+.echelon-fse-move-right,
+.echelon-fse-move-left,
+.echelon-fse-scale {
+    transition-duration: .7s;
+    transition-timing-function: var(--echelon-fse-transition)
+}
+
+.echelon-fse-delay-1 {
+    transition-delay: .1s
+}
+
+.echelon-fse-delay-3 {
+    transition-delay: .3s
+}
+
+.echelon-fse-delay-5 {
+    transition-delay: .5s
+}
+
+.echelon-fse-delay-7 {
+    transition-delay: .7s
+}
+
+.echelon-fse-delay-10 {
+    transition-delay: 1s
+}
+
+.echelon-fse-delay-20 {
+    transition-delay: 2s
+}

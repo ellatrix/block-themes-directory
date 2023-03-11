@@ -1,0 +1,15 @@
+/* --- Block Contact Us
+-------------------------------------------------------- */
+
+.wp-block-contact-form-7-contact-form-selector input[type="text"],
+.wp-block-contact-form-7-contact-form-selector input[type="email"],
+.wp-block-contact-form-7-contact-form-selector input[type="tel"],
+.wp-block-contact-form-7-contact-form-selector input[type="number"],
+.wp-block-contact-form-7-contact-form-selector textarea {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact-section .two-col .wp-block-col + .wp-block-col {
+  margin-top: 14px;
+}

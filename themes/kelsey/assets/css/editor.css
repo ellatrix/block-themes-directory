@@ -1,0 +1,12 @@
+:root {
+    --kelsey-pro: #dc5d3e;
+  }
+  
+.block-editor-block-icon svg.kelsey-pro-icon {
+    fill: var( --kelsey-pro );
+}
+
+.editor-block-list-item-kelsey-pro-header-social .dashicon,
+.editor-block-list-item-kelsey-pro-header-search .dashicon {
+    color: var( --kelsey-pro );
+}

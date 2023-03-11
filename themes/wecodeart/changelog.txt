@@ -1,0 +1,580 @@
+v5.7.1
+- Updated - core/archives type attribute
+- Updated - core/latest-posts featured image alignment
+- Updated - core/search query params output and styles extension ouput
+- Updated - Starter content for homepage
+- Added - Fragment cache for WooCommerce Mini Cart block (which changed the fragments loading on mouseover instead of page load) for LiteSpeed
+- Fixed - Captcha4WP comment hooks and class name change after was bought (ANR plugin)
+- Fixed - core/comments-title text alignment class
+- Added - Google Fonts API with Open Sans and Shadows Into Light as default fonts (temporary until Google Fonts Provider is added to WP)
+
+v5.7.0
+- Removed - align{left/center/right/none} styles (as they were added in core)
+- Updated - core/social-links styles regarding .nav-bar margin
+- Updated - core/latest-posts and core/latest-comments template filter now takes a string as 1st argument (without parse_blocks)
+- Updated - single.html template comments markup: remove group and rename core/comments-query-loop to core/comments
+- Updated - core/navigation disable view_script_handles (we use Bootstraps's offcanvas and Navigation js)
+- Updated - core/latest-comments remove background from comment content (works better on dark style)
+- Fixed - A bug with spacing margin/padding generation when all paddings are equal but not on all dirrections
+- Fixed - core/post-template issue with double css-# classes in wrapper (from Styles Gutenberg Extension)
+- Fixed - core/comment-template issue with double css-# classes in wrapper (from Styles Gutenberg Extension)
+- Added - core/post-template $args as 3rd parameter to template filter and new filter for Query Template - wecodeart/filter/gutenberg/latest-posts/query
+- Added - core/comment-template support for threaded comments
+
+v5.6.9
+- Removed - core/pullquote redundant is-style-solid CSS rules and extra attributes processor
+- Updated - Offcanvas menu label support
+- Updated - core/comment-template: remove custom title as it was added as a separate block in WP Core / comment-form top margin removed
+- Updated - Single template to use core/comments-title block
+- Updated - Single template markup: remove unnecessary group wrapper and use col- classes for width
+- Updated - CSS for core/comment-template and core/comment-title blocks
+- Updated - Romanian local translation
+- Updated - Gutenberg Styles extension UI - moved Popover into label
+- Updated - theme.json custom spacer to spacing (to follow WP naming standard) for custom number scaled spacing utilities
+- Fixed - core/navigation justification and alignment
+- Fixed - core/search styles and button markup after Gutenberg updates
+- Fixed - core/separator inline CSS generation for custom color
+- Fixed - core/cover styles updated to 6.1
+- Fixed - page-sidebar columns vertical alignment
+- Added - Pillar Content template/pattern with table of contents
+- Added - Support for individual border (top/bottom/left/right) CSS generation
+
+v5.6.8
+- Removed - Deprecated pattern block filter
+- Updated - Grid layout for post-template
+- Updated - Query Overlay as a default post listing
+- Updated - Gutenberg block styles (custom CSS) interface improvements - moved description to a Popover component
+- Updated - Link hover color (darken) apply to a:where(:not(.wp-element-button)), in sync with WP Core
+- Fixed - Dark footer partial to properly include footer-credits pattern
+- Fixed - core/navigation offcanvas justification and alignment when having 'navbar-expand' class
+- Fixed - core/navigation blockGap css generation after adding spacing utilities
+
+v5.6.7
+- Removed - layout CSS generation and let WP handle block layout support
+- Updated - core/image styles output to img (as Gutenberg introduced border/border-radius controls)
+- Updated - core/buttons and core/button increased CSS specificity for group and outline/link styles
+- Updated - core/page-list default pages number
+- Updated - skip link PHP js code to JavaScript file
+- Updated - Footers columns vertical alignment after Layout support updates
+- Updated - core/recent-posts and core/recent-comments entry meta layout
+- Fixed - spacings: margin/padding after Gutenberg update with spacing.spacingSizes (theme.json)
+- Fixed - Media/Text mobile figure order after markup update
+- Fixed - Gallery flex layout
+- Fixed - single.html template link color for post meta
+- Fixed - issue with generated css class applied to blocks like pattern/html/etc
+- Added - footer .flex-wrap to columns (due to WP layout nowrap CSS)
+- Added - whatsapp icon styles
+- Added - spacing utilities in theme.json
+
+v5.6.6
+- Updated - Theme description
+- Added - query/overlay template part with new base design for post listing
+
+v5.6.5
+- Fixed - core/paragraph top margin in theme.json (it should be 0)
+
+v5.6.4
+- Removed - Old Customizer activation errors (if server does not match our requirements) and code.
+- Updated - Navigation block custom styles to use main stylesheed as dependency
+- Updated - Moved some styles from stylesheet to global styles / added blockGap (with reset on fist .wp-site-blocks children)
+- Fixed - CSS: moved box sizing to global styles to fix an issue with loaders in FSE admin
+- Added - WooCommerce to render fields using woocommerce_form_field() with wecodeart_input() function (excepting: state/country/select/radio)
+
+v5.6.3
+- Removed - Deprecated .site-header/footer classes
+- Updated - Gutenberg block overwrites - small refactoring on their register method
+- Updated - Social icons NOT to load styles for individual icons more than once (if multiple blocks are on the same page)
+- Fixed - Bug with spacer height default value (in CSS processor)
+- Fixed - Button double CSS rules for active style
+- Fixed - Couple of wrong local translations in Romanian.
+- Fixed - CSS for .text-wrap utility
+- Added - Text transform utilities (uppercase/lowercase/capitalize)
+- Added - Extend button styles to WooCommerce '.wc-block-components-button' class (when WOO is active)
+- Added - Product search results template with legacy template block
+
+v5.6.2
+- Updated - JavaScript's SweetAlert2 and Photoswipe unpkg URLs (latest versions) / rebuild
+- Updated - Added deps to custom block styles due to https://github.com/WordPress/gutenberg/pull/41934 (also updated enqueueing with negative priority)
+- Updated - Cleanup some reboot.scss rules after https://github.com/WordPress/gutenberg/pull/41934 + updated theme.json headings margin
+- Updated - .has-background-dim to use CSS variable instead of opacity (compatability with WooCommerce's different className approach)
+- Updated - Minor adjustments to views/meta/author and views/meta/author-name templates
+- Removed - WooCommerce's unnecessary div wrappers (the hooks - if FSE after all)
+- Fixed - Issue with block custom className suggestion
+
+v5.6.1
+- Updated - core/latest-posts remove textColor from post-excerpt
+- Updated - core/post-template removed no results message and use Gutenberg block in patters
+- Updated - remove textColor from default patterns
+- Updated - local translations
+- Updated - wecodeart( 'layout' ) PHP to match exactly header/content-only/footer block template (to be used in old PHP templates)
+- Updated - merge duotone filters from wp_body_open in a single SVG
+- Removed - html patterns excepting 'section.html' for demo purpose 
+- Fixed - core/navigation and core/navigation-submenu styles
+- Fixed - Styles sort_breakpoints issue with 1st breakpoint (sm) being ordered as last
+
+v5.6.0
+- Updated - core/button default CSS update to remove outline (Outline registered using register_block_style)
+- Fixed - register_block_style to init instead of wp_enqueue_scripts hooks 
+
+v5.5.9
+- Fixed - Corectly overwrite core styles using wp_enqueue_scripts hook
+- Fixed - Issue with core/pages not enqueueing submenu styles when used in navigation block
+
+v5.5.8
+- Updated - Revert entry-meta pattern post-author-name to post-author (as it will not land in WP 6)
+- Updated - core/latest-comments add isLink (false) attribute to render pattern
+- Updated - Commnents template remove date format to use default / add isLink (false)
+- Updated - Blocks to cache and load dynamic CSS via wp_enqueue_block_style
+- Updated - column classes to utilities from base CSS (loaded on demand)
+- Updated - offset classes to utilities from base CSS (loaded on demand)
+- Updated - core/media-text CSS moved from flex to grid
+- Updated - core/navigation (and child blocks) assets loading optimization and code splitting
+- Updated - core/cover to use the featured image (inline CSS + placeholder support)
+- Updated - core/post-featured-image style improvements (deprecated .ratio class in favor of modifier)
+- Updated - core/comment-template intro to match upcoming core/comments-title block
+- Updated - core/table inline CSS generation (border control)
+- Updated - single.html and core/latest-comments to use core/avatar block
+- Updated - removed unnecessary nav wrapper on pagination-numbers block (it has been added into WP core)
+- Fixed - Utilitites to properly order CSS (based on breakpoints) when generating inline styles
+- Fixed - core/embed styles
+- Fixed - wecodeart/filter/gutenberg/styles/element - incorect filter ussage 
+- Added - core/comments-title overwrite markup with custom SVG, response messages and call to action
+- Removed - .ratio .row .row-cols-{x} classes (not necessary with Gutenberg columns and embed blocks)
+
+v5.5.7
+- Updated - core/columns grid lines to transparent black (in Editor)
+- Updated - Homepage starter content adjust core/image markup to latest Gutenberg version
+- Fixed - Starter content block validation errors
+
+v5.5.6
+- Fixed - core/image restore align classes display table CSS rule
+
+v5.5.5
+- Removed - ArrayAccess implementation where it was not necessary (prepare for PHP 8)
+- Removed - .lead classes (unnecessary with fw-100/200/300 and guttenberg classes)
+- Updated - Singleton Class __clone() and __wakeup() marked as public (PHP 8 warning fix)
+- Updated - core/gallery to use grid layout / temporary fix fatal error caused by Gutenberg plugin (when setting blockGap)
+- Updated - core/image aligncenter fix and style improvements
+- Updated - core/cover inner container padding removed (use columns block for adding gutters)
+- Updated - core/media-text CSS variable --wp--gutter-x to --wp--custom--gutter (set in theme.json)
+- Updated - core/column add blockGap CSS output support
+- Updated - Gutenberg Styles core_blocks() list to 5.9.2 (added new blocks)
+- Updated - WooCommerce updated block names exclude from theme Gutenberg Extensions
+- Updated - Implement Configuration where ArrayAccess was removed + code cleanup
+- Updated - Romanian local translations
+- Updated - Query Pagination Numbers border to currentColor if button styles are having transparent border
+- Updated - Query Comments Template and Pagination cleanup unnecessary methods after WP5.9 updates
+- Updated - Gutenberg Editor Styles (cleanup)
+- Updated - Remove emoji CSS properly when enabling Clean Header
+- Updated - Remove DNS prefech ( s.w.org ) when enabling Clean Header
+- Updated - Templates for Post Meta blocks (author, terms, comments, date)
+- Updated - entry-meta.html template to use new core/post-author-name instead of core/post-author block
+- Updated - WeCodeArt\Gutenberg\Blocks storage loaded into init hook
+- Updated - WeCodeArt\Gutenberg\Blocks storage static ::load method to normal instance function
+- Fixed - ArrayAccess methods PHP 8 warnings (in class-config.php)
+- Fixed - Issue with core/cover top-left content alignment
+- Fixed - Issue with invalid starter content for About page
+- Fixed - Issue with blockGap CSS generation due to being saved as array after Gutenberg plugin update (logical block margin based on writing mode)
+- Fixed - Generate CSS for vertical blockGap (eg, Group block with multiple Columns)
+- Fixed - core/spacer double output of units in generated CSS
+- Fixed - core/spacer height issue with .vr class in navigation - on mobile
+- Fixed - core/table styleing issues (allow to be cleared of inline style attr)
+- Fixed - core/post-featured-image issue with image aspect ratio when having custom sizes and add source size support (previously pulling full image)
+- Fixed - Editor Styles: add frontend / minor style fixes
+- Added - WooCommerce HTML starter templates
+- Added - New Header/Footer template parts: Header Dark, Header Logo Left, Header with Search, Header with Topbar Footer Dark (removed as patterns)
+- Added - Author Box template
+- Added - Default patterns as PHP files for Gutenberg 12.9.0 / Maintain HTML registration as well for backwards compat
+- Added - Translation request notification
+- Added - Template for post-author-name
+- Added - wecodeart( 'blocks' ) binding for WeCodeArt\Gutenberg\Blocks;
+
+v5.5.3/4
+- Updated - Certain blocks logic to make use of custom palette colors along with default ones - previously was overwriting them
+- Updated - Starter features.php to about.php + fixed a slug (for some reason it does not loads on WP.org)
+- Updated - core/separator faded style width to 100% for backend overwrite
+- Added - Home.html template
+
+v5.5.2
+- Updated - Header default pattern for WP.org directory
+
+v5.5.1
+- Updated - /views/ folder params inline documentation
+- Updated - core/site-logo is-style-rounded CSS
+- Updated - 404 page base design improvements + added big title and "Home" button
+- Updated - Header columns adjustments and Navigation remove ID to allow usage of core/page-list fallback
+- Updated - Page List fallback max pages changed to 3 and remove "ul" tag when used in Navigation
+- Updated - Navigation blocks wp_kses to wp_kses_post + add className support to main container
+- Updated - core/page-list to use Navigation link markup and styles (not sure why WP complicates things)
+- Updated - Allow inline CSS for mark formatting on text blocks (headings, paragraph, lists etc)
+- Updated - Gutenberg restricted blocks (skipped by our Styles extension) list
+- Updated - core/comment-template to load Utilities CSS only if there are comments
+- Updated - Starter content for Homepage and transformed About into Features
+- Updated - core/latest-comments and core/latest-posts change render function earlier using metadata filter (rather than render)
+- Fixed - ANR -> Captcha 4WP double captcha containers on comment form.
+- Fixed - core/cover bug with solid color only background style
+- Fixed - Gutenberg Advanced CSS bug in editor when replacing selector with block class
+- Fixed - Gutenberg Advanced CSS bug when custom CSS was applied for sidebar block navigation
+- Fixed - Markup Select input - bug with placeholder undefined $value variable
+- Fixed - Gutenberg Columns gridlines with gutter support
+- Added - core/archives custom markup using inputs and navigation as rendering content
+- Added - core/code default styleing
+- Added - core/tag-cloud default styleing
+- Added - missing "sticky-top" class in gutenberg block Advanced class suggestions
+
+v5.5.0
+- Fixed - Grid gap default to 1 rem (--wp--custom--gutter variable)
+
+v5.4.9
+- Updated - Get WP core colors from 'default' instead of deprecated 'core' ( [ 'settings', 'color', 'palette', 'default' ] )
+- Updated - Home starter content
+- Updated - core/latest-posts and core/post-template grid classes
+- Updated - core/table and core/calendar to load table CSS
+- Updated - core/search width styles output
+- Removed - Containers CSS - fully updated to Gutenberg (not needed anymore)
+- Removed - Cover block inner container class
+- Fixed - Editor preview for outline/link button styles (after transfering most of the properties to theme.json)
+- Added - Color classes will also output rgb color value in global styles to allow more styleing flexibility
+- Added - Custom Grid classes (experimental): .grid, .span-{number}, .start-{number}
+- Added - Custom global styles gutter
+
+v5.4.8
+- Updated - Output custom duotones into wp_body_open (previously wp_footer) as per WP updates
+- Updated - core/social-link to use global link color set in theme styles
+- Updated - Yoast author social profiles rendering improvements / bail early if certain conditions are not met
+- Updated - Footer Credits template pass "copy" and "year" variables (copyright symbol and current year)
+- Updated - ANR Captcha plugin extension updates after was bought by WPWhiteSecurity
+- Updated - core/button style improvements
+- Updated - core/separator style improvements
+- Updated - Added upcoming blocks to Gutenberg Styles extension / collect template classes into register_styles function
+- Updated - Normalized buttons markup and styles for blocks like: File/Search/Login/Comments.
+- Updated - Styles extension utilities hooks priority for require / moved into Utilities class
+- Added - Styles extention to support mixed border radius (array) and unitless value
+- Added - ::load() method for Gutenberg\Blocks registry - used to queque blocks for the current page (currently used for CSS).
+- Fixed - core/search block styles and gradient classes to reflect the admin block settings
+- Fixed - CSS padding variables inside table block
+
+v5.4.7
+- Updated - Input validation message trim() text before skipping empty
+- Updated - Admin donate link form click on new tab
+- Updated - Temporary remove "gutenberg_experimental_global_styles_render_svg_filters"
+- Updated - Propery disabled default color palette and gradients
+- Updated - Inputs markup for checkbox/radio groups wrapper from fieldset to span
+- Updated - Post Content block pagination implementation to be the same as core
+- Updated - Styles Extension to use Focal property parser for "object-position" css property (same as background-position)
+- Removed - Yoast custom author box template / will be replaced by a block pattern with post-author blocks
+- Fixed - Cover Block bug with custom gradient (Styles Extension)
+- Fixed - Cover Block bug with object position (Styles Extension)
+- Fixed - Issue with Codemirror when switching between Code Editor/Visual Editor views in Gutenberg
+- Fixed - Issue with Core frontend JS routing inline callback hooking into "un-registered" script (used core handle by default)
+- Added - Yoast shortcode for author social profiles: [yoast-socials]
+- Added - Base dark style variation (requires Gutenberg plugin until it lands in WP 6.0)
+
+v5.4.6
+- Added - Admin Donate button on admin page
+- Fixed - Admin Activation issue with wrong version_compare implementation
+
+v5.4.5
+- Updated - Inputs to add form classes to Gutenberg Class suggestion extension
+- Updated - Admin style improvements / show Licenses tab for upcoming extensions
+- Updated - Pass $attributes to Comments/Latest Posts Blocks (widgets) template filter
+- Updated - Scripts to wecodeart( 'assets' ) refactored as extension
+- Updated - Locale integration moved from Support to own extension
+- Removed - 2nd post-author with box style from single.html template
+- Removed - CF7 Plugin integration - it will be re-made as an extension
+
+v5.4.4
+- Updated - Header/Footer/Content PHP fallbacks
+- Updated - Adjusted WooCommerce wrapper on legacy template
+- Updated - Adjusted Single Post comment form margins
+- Updated - JS logging only when developer mode is enabled
+- Fixed - a notice on WooCommerce Leave a Review form regarding Privacy Policy field
+- Fixed - Inputs label return vs echo bug (visible on comment form)
+
+v5.4.3
+- Updated - Post content remove get_the_content args
+- Updated - Post comments message margin bottom to 0 when there are no comments
+- Fixed - Double unique classes generated by Gutenberg Styles extension for blocks without wrapper (eg: pattern)
+- Fixed - Gutenberg Style output for blockGap after WP 5.9 RC1
+
+v5.4.2
+- Fixed - Inputs get_content() method to return HTML instead of echoing it
+- Fixed - Faded separator to max-width styleing
+- Updated - CF7 Submit module wrapper to .wp-block-button and button default background + color to primary
+
+v5.4.1
+- Updated - Bump required WP version to 5.9-beta4
+- Updated - Post Excerpt custom classname and text align support
+- Fixed - CSS Splitting string issue with ending "}" when having media queries
+
+v5.4.0
+- Updated - Revert back the removal of GB Block support hooks
+
+v5.3.9
+- Updated - Headers Navigation pattern updated
+
+v5.3.8
+- Removed - Classic Menus support.
+- Updated - Header/Footer containers for non-FSE pages + adjustments to filters names/logic
+- Fixed - Gutenberg Editor admin columns widths overflowing with custom "col-" classes
+
+v5.3.7
+- Updated - Forms/Inputs validation JS as a chunk loaded in "common" route
+- Fixed - Navigation fatal error after Gutenberg Plugin update
+- Fixed - Logged in Privacy Policy commenting Validation
+
+v5.3.6
+- Fixed - Temporary fallback after updating Navigation: fallback first to Classic Menu - since we insert it with theme starter content
+
+v5.3.5
+- Updated - FSE Folder naming updated to match upcoming WP 5.9
+- Updated - Navigation block PHP render to WP 5.9
+- Updated - Latest Comments PHP render to WP 5.9 - it might be changed to query-comments-loop if it will be properly done (similar to Latest Posts render)
+- Fixed - Temporary fixed Core/Pattern block to render shortcodes/emoji (submitted bug report to WP Gutenberg github)
+
+v5.3.4
+- Updated - Minimum required WP version to 5.9-beta2 failsafe to theme updates on WP 5.8.2+
+
+v5.3.3
+- Updated - Global cleanup / JSON cleanup / Clean old changelog before block-based update
+- Updated - CSS utilities class suggestion added to Gutenberg Class extentsion from Styles\Utilities class
+- Updated - Core/Navigation and Core/Navigation-Link cleanup and styles
+- Updated - Header/Footer template parts will now use pattern block
+- Updated - Comment blocks naming in Gutenberg Styles extension (remove previous "post" prefix)
+- Updated - theme.json template parts naming
+- Updated - gutenberg_ prefixed functions renamed to wp_ (in progress)
+- Updated - Normalized some filters usage / block wrap context (to block classname)
+- Updated - Forms.css to chunk, loaded only by blocks with inputs (comment form, search and login form)
+- Removed - Navigation Area block used in header (will be deprecated until WP 5.9)
+- Added - Header/Footer/Query patterns and show them into block types
+- Added - Threaded Comments Template
+- Added - Comments Pagination
+- Added - Block Patterns index.json to extend glob registration with custom pattern attributes (description, name etc)
+
+v5.3.2
+- Removed - Gutenberg hide title plugin (and related PHP code) - not necessary in a FSE theme
+- Fixed - Navigation offcanvas background inheritance
+- Fixed - Height of Gutenberg Editor mode with Codemirror
+- Fixed - Core/Image block attributes parsing for styles (output was reset when processing border radius)
+- Added - Core/Template Part filter support to maintain experimental layout after upcomming Gutenberg plugin update (avoid additional group wrapper)
+
+v5.3.1
+- Updated - Site logo width on header template part
+- Updated - CORE/Navigation - improved styleing for dropdowns
+- Updated - CORE/Navigation - blockGap support
+- Fixed - CORE/Navigation - temporary fix for the (hopefully temporary) issue with dropdown-item class for submenu
+- Fixed - Content/Sidebar page template column class
+- Fixed - Single template column class to match attribute
+- Added - wecodeart( 'markup' ) API - moved all Markup class calls.
+- Added - wecodeart( 'styles' ) API - moved all Styles class calls.
+
+v5.3.0
+- Updated - theme.json blockGap back to null (issues with 0 set on main block wrappers)
+- Updated - Styles Extension: Move Gutenberg utilities to Styles extension
+- Updated - Utilities now will generate own inline CSS / method to load any utility programatically
+- Updated - Added couple more missing utilities
+- Updated - JSON custom navbarBreakpoint to mobileBreakpoint rename (it is used on multiple places not just navbar)
+- Updated - Markup::wrap error wording
+- Updated - CF7 Support extension notification wording
+- Updated - Prepare CORE/Navigation block for upcomming GB plugin update
+- Updated - Local RO translations
+- Fixed - Utilities responsive classes (generating wrong classnames for breakpoints)
+- Fixed - Search post spacing issue - added post bottom margin
+- Added - Opt out from the core colors and gradients
+
+v5.2.9
+- Updated - Placeholder from site url to "Placeholder" text
+- Updated - Gutenberg styles extension to skip blocks with null blockName
+- Updated - WP Social Links add blockGap CSS support
+- Fixed - Latest Posts block double "list-unstyled" class
+
+v5.2.8
+- Updated - Pagination class updated to block-templates/template-parts to be picked up by Utilitiy feature
+- Updated - Pagination to inherit button border radius
+- Updated - Buttons selector to extend couple of other blocks buttons
+- Updated - Minor updates to code structure (moved some code to its Gutenberg block)
+- Updated - Sanitize link hover color output in global styles
+- Updated - Gutenberg Styles extension: normalized hooks priorioty (20 for all hooks / 10 is for WP)
+- Updated - Post featured image refactor/merge with Media class (from core) and style attributes will reflect on frontend
+- Added - wecodeart/filter/gutenberg/featured/ratio filter (boolean) for using aspect ratio calc function or real size
+- Added - wecodeart/filter/gutenberg/featured/placeholder filter (string) for changing placeholder text
+- Added - Post featured image block on single template
+
+v5.2.7
+- Removed - Redirect to admin about screen after switch theme
+- Updated - Code cleanup
+- Updated - Navigation add core color pallete
+- Fixed - Double post dates (with updated posts)
+
+v5.2.6
+- Updated - Gutenberg Styles extension will process all blocks / customCSSId block attribute is not required anymore
+- Updated - Styles extension better method naming
+- Removed - Styles extension unnecessary methods
+- Removed - customCSSId attribute from starter content
+- Added - Gutenberg Styles extension filter CSS element (class or ID) via 
+
+v5.2.5
+- Fixed - Fatal error caused by Navigation WP_Block_List namespacing
+
+v5.2.4
+- Fixed - Social links svg height
+- Updated - block-templates/block-patterns
+- Updated - Search block markup/styles
+- Updated - Columns styles to block (conditionaly when used)
+- Updated - Navigation styles/scripts to chunks loaded only when used.
+- Updated - WP Block Latest Posts - normalized to use Query Template to inherit the loop styles (with CSS modifier)
+- Updated - WP Block Latest Comments - normalized to use Comment Query Template to inherit the loop styles (with CSS modifier)
+- Updated - WeCodeArt\Support\FileSystem is now pointing to /assets/ folder
+- Added - /cache/ folder for caching certain assets like utilities.css editor style
+- Added - Block gap support to Gutenberg Styles extension
+- Added - New Utilities PHP styles extension (removed BootStrap`s utilities) / loaded when used
+- Added - wecodeart/filter/latest-comments/template to filter the latest comments widget block template (takes an array of blocks)
+
+v5.2.3
+- Fixed - Starter content conflict with WordPress default pages.
+
+v5.2.2
+- Updated - Gutenberg remove from theme activation check - WP does that automatically until 5.9 for FSE themes
+- Updated - Pattern to use spacing attributes instead of BootStrap's classes
+- Updated - Reduce WooCommerce starter support to minimum / eventually all support extensions will be moved to own plugin
+- Updated - Duotone support transparency
+- Updated - BEM class naming for some post meta block views
+- Updated - Updated starter content
+- Updated - Updated page templates
+- Updated - Block Table CSS from SASS to block class (enqueued when needed)
+- Updated - Block Button CSS from SASS to block class (enqueued when needed)
+- Updated - Block Buttons CSS from SASS to block class (enqueued when needed)
+- Removed - Widgets - sidebar registration
+- Removed - Comment Walker in favor of Gutenberg block
+- Removed - comments.php
+- Removed - page-full.html
+- Removed - Removed unnecessary Boostrap CSS
+- Added - Gutenberg Flex layout support
+- Added - Gutenberg Comment Template/Form blocks
+- Added - Site logo block wrapper (move custom logo filter to it and added styles)
+- Added - Align wide support / refactored couple of blocks with this support
+
+v5.2.1
+- Updated - Gubenberg Editor columns grid highlight: add top/bottom border for better visuals and remove padding bottom
+- Fix - A but with Gutenberg Styles extension not adding clientId when block is added
+
+v5.2.0
+- Fixed - Double textdomain
+
+v5.1.9
+- Updated - Gubenberg Style extension to remove styles for all core blocks
+- Updated - Add missing menu items attributes
+- Updated - Button styles with block-gap support and proper BEM ussage / added button blocks to inline style removal
+- Fixed - inline style removal for columns/column/group to avoid removing for child elements (fixes issue where you need to have inline style)
+- Fixed - CSS dropcap for paragraph
+- Fixed - WPSEO template name for author box
+- Fixed - Issue with navigation link not adding active class when on Blog page
+- Fixed - Post Author block duotone and show avatar if set (or icon if not)
+- Fixed - A bug with Gutenberg Block Styles extension causing FSE screen to crash when viewving templates
+
+v5.1.8
+- Removed - Gutenberg 'block-templates' support declaration - is added by default for block based themes
+- Removed - Base input styles - we use Bootstrap so let's stick to that
+- Updated - Comment Walker and template - prepare block-views structure for upcomming comments query
+- Updated - Post meta block-views structure changed
+- Updated - Latest Posts/Comments widgets markup (Gubenberg blocks)
+- Updated - RO translations
+- Updated - Gutenberg pattern categories registering via JSON file under /block-patterns/categories.json
+- Updated - Default skip links hooks replaced (to fix invalid markup)
+- Fixed - Header pattern navigation attribute for overlay/offcanvas
+- Fixed - TextArea input markup - remove type[textarea] and aria-required (HTML Validation)
+- Added - Login/out Gutenberg block custom markup
+
+v5.1.7
+- Removed - FSE class used to hide/show Customizer/Site editor links in admin
+- Updated - Enable FSE Admin link by default with developer mode control (to easily disable, eg: production)
+- Updated - Add rel home to home-link block
+- Updated - Starter content page templates to default page / add back filter for starter content meta
+- Updated - New navigation offcanvas option (off/mobile/allways)
+- Fixed - File block wrapped into Dynamic's CLASS save_html method (for valid markup)
+- Fixed - Query Pagination numbers WP_Query namespacing fatal error and template part HTML
+- Fixed - Media / Text image fill generated styles
+- Fixed - Admin welcome screen vars
+- Added - Letter Spacing style generation from block attributes
+- Added - Filter pagination arguments with 'wecodeart/filter/query/pagination/args'
+
+v5.1.6
+- Updated - Theme starter content (due to cover updates in Gutenberg plugin)
+- Fixed - Added back theme support for custom-logo (to be managed in WP Customizer as well + starter content logo fails to be set )
+- Fixed - Social links in header.html (block template part)
+- Removed - Theme page meta set in starter content
+- Removed - Google Fonts license mention in style.css (was removed in FSE theme update 5.0)
+
+v5.1.5
+- Updated - Spacer GB block styles + CSS var to reduce height on bellow "lg" breakpoint
+- Updated - Theme description and missing feature tags + RO translation files
+- Updated - Clear more redundant CSS (comment reply, textarea) in favor of BS Classes
+- Updated - Blocks inline CSS variables naming (old to new --wp-- prefix)
+- Updated - Duotones filter ids prefixed with "wp-duotone" (to fix a HTML Validation warning)
+- Updated - Cover styles updated to be compatible with Gutenberg 11.8
+- Removed - Unnecessary theme supports for FSE themes
+- Added - should_load_separate_core_block_assets disable in upcomming Gutenberg support for WP 5.9, we use or own approach
+
+v5.1.4
+- Updated - Properly add Gutenberg Editor styles
+- Updated - Post featured image styles moved to PHP (micro optimization) from global CSS
+- Updated - Social links styles moved to PHP (micro optimization) from global CSS
+- Updated - Generate inline CSS only for used social services + style (micro optimization) / shaved 13kb minified CSS
+- Updated - Navigation global styles improvements
+- Updated - Navigation now generates customizable styles for container and dropdowns based on attributes
+- Updated - Navigation menu (submenu) now uses 'navigation-link' render function (they are the same in WP as well but duplicated)
+- Updated - Bootstrap variable names to --wp--{name} to follow their standard (they dont overlap WP Core ones)
+- Updated - General styles cleanup
+- Removed - Custom Highlight post format - WP will have it's own with color/background option
+- Added - New filter for navigation responsive breakpoint: 'wecodeart/filter/navigation/responsive'
+
+v5.1.3
+- Fixed - Navigation upcomming changes regarding open on hover/clicked
+- Updated - Navigation responsive offcanvas normalized / container changes
+- Removed - Search form and filter for get_search_form (is FSE after all)
+- Removed - Some unnecessary conditionals for styles and patterns Gutenberg extensions
+
+v5.1.2
+- Fixed - Header classnames extra space 
+- Fixed - Duotone output RGB SVG filter (was RRR)
+- Fixed - Buttons border radius updated style output from normalized attributes
+- Fixed - Fixed typography inline styles for font size, style and weight
+- Added - Navigation Submenu for rendering Gutenberg submenu block with Boostrap markup
+- Added - Ability to use FA/Glyphicons into navigation menus
+- Updated - Masive improvements to Navigation menu functionality and code
+- Updated - Gutenberg Blocks Styles into wp_enqueue_scripts hook instead of footer
+- Updated - credits.tpl.php moved to "general" views folder
+
+v5.1.1
+- Added - Function to programatically update About page on WP.org
+
+v5.1.0
+- Added - Function to programatically update Homepage on WP.org
+
+v5.0.8
+- Fixed - Blocks custom gradient style output
+- Added - Blocks sample gradients in theme.json
+- Added - Content Only post/page template (for landing pages)
+- Updated - blockGap to null to avoid outputing this
+
+v5.0.7
+- Cleanup - Some old Gutenberg unused CSS
+- Cleanup - Starter content: remove customizer defaults for wp_parse_args (since it was removed)
+- Fixed - Post title visual representation when is hidden on single template (Gubenberg Plugin)
+- Fixed - Post title bottom margin (when blockGap is set to 0 - as we use it)
+- Updated - Gallery Block: CSS support for upcomming image innerBlocks
+- Updated - Header clean_head function to pass theme check
+- Added - Theme starter content notification for "fresh sites"
+- Removed - Credits for Google Fonts (was removed)
+
+v5.0.6
+- Cleanup - Customizer assets / Admin JS
+- Updated - Better CSS/JS naming and folder structure
+- Fixed - Textarea CSS
+- Fixed - Activation Requirements
+
+v5.0.0
+- Complete rework to block based theme!!!
+
+v1.0.0
+- Initial release

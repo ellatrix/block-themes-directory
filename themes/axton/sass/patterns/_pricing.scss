@@ -1,0 +1,46 @@
+/* --- Block Pricing
+-------------------------------------------------------- */
+
+.pricing-columns .wp-block-column {
+  color: var(--wp--preset--color--foreground);
+  padding-bottom: var(--wp--custom--spacing--wp-comment-horizontal);
+  padding-top: var(--wp--custom--spacing--wp-comment-horizontal);
+  padding-left: var(--wp--custom--spacing--wp-comment-vertical);
+  padding-right: var(--wp--custom--spacing--wp-comment-vertical);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pricing-columns .wp-block-column ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: var(--wp--custom--spacing--section-pricing-content);
+  margin-top: var(--wp--custom--spacing--section-pricing-content);
+}
+
+.pricing-columns .wp-block-column {
+  overflow: hidden;
+}
+
+.pricing-columns .wp-block-column ul li {
+  margin-bottom: 10px;
+  padding-left: 28px;
+  position: relative;
+}
+
+.pricing-columns .wp-block-column ul li:before {
+  content: "\2713";
+  left: 0;
+  font-weight: 700;
+  position: absolute;
+}
+
+.pricing-columns sup,
+.pricing-columns .package-amount {
+  font-weight: var(--wp--custom--typography--font-weight--bold);
+}
+
+.package-month {
+  font-size: var(--wp--custom--typography--font-size--heading-five);
+  font-weight: var(--wp--custom--typography--font-weight--normal);
+}

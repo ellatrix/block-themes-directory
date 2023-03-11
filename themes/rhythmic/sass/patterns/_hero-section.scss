@@ -1,0 +1,11 @@
+.hero-section {
+  .hero-content .wp-block-media-text__content {
+    padding: 0;
+    h2 {
+      margin-bottom: clamp(14px,3vw,28px);
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

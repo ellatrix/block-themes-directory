@@ -1,0 +1,95 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Kampala",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+
+				{
+					"slug": "background",
+					"color": "#f7f9fe",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#010110",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#0B119C",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#c1cbf9",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#ffffff",
+					"name": "Background Alt"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Hind\", sans-serif",
+					"name": "Hind",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Hind",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": ["file:./assets/fonts/Hind/Hind-Variable.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Hind\", sans-serif",
+					"name": "Hind",
+					"slug": "heading"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "0.5rem"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--white)"
+				}
+			},
+			"core/separator": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"letterSpacing": "-0.01em"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "900"
+				}
+			}
+		},
+		"typography": {
+			"fontSize": "1.3rem",
+			"lineHeight": "var(--wp--custom--typography--line-height--large)"
+		}
+	}
+}

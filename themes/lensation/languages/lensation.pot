@@ -1,0 +1,309 @@
+# <!=Copyright (C) 2022 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lensation\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2022-12-23 11:19-0800\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:19
+msgid "Lensation Pro"
+msgstr ""
+
+#: inc/about.php:20
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"25+ Pre-Designed Block Patterns and 10+ Custom Blocks that are highly "
+"customizable and fully responsive."
+msgstr ""
+
+#: inc/about.php:22
+msgid "Get Lensation Pro"
+msgstr ""
+
+#: inc/about.php:24 inc/about.php:96
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:49 inc/block-patterns.php:18
+msgid "Lensation"
+msgstr ""
+
+#: inc/about.php:68
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Getting Started with Lensation!"
+msgstr ""
+
+#: inc/about.php:77
+msgid ""
+"Awesome! Lensation has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in "
+"this astounding theme."
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:84
+msgid "More Features with Lensation Pro Theme"
+msgstr ""
+
+#: inc/about.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you "
+"activate the Lensation Pro. With the pro theme installed, get more options, "
+"blocks, block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:86
+msgid "Buy Lensation Pro"
+msgstr ""
+
+#: inc/about.php:95
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:97
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:98
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:99
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:100
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:107
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:108
+msgid ""
+"Loved Lensation? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:109
+msgid "Review"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:34
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/patterns/404-header.php:6
+msgid "404 Header"
+msgstr ""
+
+#: inc/patterns/404-header.php:16
+msgid "404 Nothing Found"
+msgstr ""
+
+#: inc/patterns/404-header.php:19
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: inc/patterns/archive-header.php:6
+msgid "Archive Header"
+msgstr ""
+
+#: inc/patterns/block-style-guide.php:6
+msgid "Block Style Guide"
+msgstr ""
+
+#: inc/patterns/blog-header.php:6
+msgid "Blog Header"
+msgstr ""
+
+#: inc/patterns/blog-header.php:14
+msgid "Blog"
+msgstr ""
+
+#: inc/patterns/blog-sidebar-on-left.php:6
+msgid "Blog - Sidebar On Left"
+msgstr ""
+
+#: inc/patterns/blog-sidebar-on-right.php:6
+msgid "Blog - Sidebar On Right"
+msgstr ""
+
+#: inc/patterns/contact-us.php:6
+msgid "Contact Us"
+msgstr ""
+
+#: inc/patterns/contact-us.php:14
+msgid "Make it Happen"
+msgstr ""
+
+#: inc/patterns/contact-us.php:18
+msgid "Lets Create The Future"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:6
+msgid "Footer Three Columns"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Header Default"
+msgstr ""
+
+#: inc/patterns/header-media.php:6
+msgid "Header Media"
+msgstr ""
+
+#: inc/patterns/header-media.php:13
+msgid "Magnificient Flamingo"
+msgstr ""
+
+#: inc/patterns/header-media.php:17
+msgid ""
+"Make your photos look brilliant in today’s article we present tips on how "
+"to use colored lightning in the scenery."
+msgstr ""
+
+#: inc/patterns/header-media.php:22
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/hero-content.php:6 inc/patterns/hero-content.php:15
+msgid "Hero Content"
+msgstr ""
+
+#: inc/patterns/hero-content.php:19
+msgid "Another Planet"
+msgstr ""
+
+#: inc/patterns/hero-content.php:24
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum "
+"tempor lorem. Donec quam nibh, consequat sed tincidunt nec, feugiat ut "
+"lacus. Quisque eu velit a nunc vehicula luctus."
+msgstr ""
+
+#: inc/patterns/hero-content.php:29
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:9
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: inc/patterns/post-header.php:6
+msgid "Post Header"
+msgstr ""
+
+#: inc/patterns/recent-blog.php:6
+msgid "Recent Blog"
+msgstr ""
+
+#: inc/patterns/recent-blog.php:11
+msgid "Tagline"
+msgstr ""
+
+#: inc/patterns/recent-blog.php:15
+msgid "Interesting Articles"
+msgstr ""
+
+#: inc/patterns/search-header.php:6
+msgid "Search Header"
+msgstr ""
+
+#: inc/patterns/services.php:6
+msgid "Services"
+msgstr ""
+
+#: inc/patterns/services.php:11
+msgid "Statistics"
+msgstr ""
+
+#: inc/patterns/services.php:15
+msgid "Featured Services"
+msgstr ""
+
+#: inc/patterns/services.php:33 inc/patterns/services.php:51
+#: inc/patterns/services.php:69
+msgid "Lorem ipsum dolor sit amet, cons ectetur adipiscing elit."
+msgstr ""
+
+#: inc/patterns/services.php:75
+msgid "Are you interested in working with us?"
+msgstr ""
+
+#: inc/patterns/services.php:75
+msgid "Lets Start Now"
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/patterns/sidebar.php:12
+msgid "About"
+msgstr ""
+
+#: inc/patterns/sidebar.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus commodo, rhoncus et ante"
+msgstr ""
+
+#: inc/patterns/sidebar.php:26
+msgid "Categories"
+msgstr ""
+
+#: inc/patterns/sidebar.php:34
+msgid "Recent Post"
+msgstr ""
+
+#: inc/patterns/sidebar.php:42
+msgid "Tags"
+msgstr ""

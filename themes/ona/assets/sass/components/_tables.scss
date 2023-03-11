@@ -1,0 +1,47 @@
+// Base
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+
+/*-------------------------------------------------------*/
+/* Tables
+/*-------------------------------------------------------*/
+table {
+	border-collapse: collapse;
+}
+
+th {
+	text-align: inherit;
+}
+
+table th {
+	font-weight: normal;
+}
+
+table caption {
+	margin-bottom: 10px;
+}
+
+table th,
+table td {
+	padding: 10px;
+	border: 1px solid var(--wp--preset--color--stroke);
+}
+
+table > thead > tr > th {
+	border-bottom: none;
+}
+
+table thead tr th,
+table tbody tr th {
+	font-size: 1rem;
+	color: var(--wp--preset--color--foreground);
+	font-weight: var(--wp--custom--typography--font-weight);
+}
+
+.table-responsive {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}

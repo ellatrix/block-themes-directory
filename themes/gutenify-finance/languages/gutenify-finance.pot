@@ -1,0 +1,852 @@
+# Copyright (c) 2023 CodeYatri. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gutenify Finance 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/gutenify-finance\n"
+"Last-Translator: inf@codeyatri.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-16T06:13:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: gutenify-finance\n"
+
+#. Theme Name of the theme
+#: inc/core/block-patterns.php:20
+#: inc/core/theme-info.php:6
+msgid "Gutenify Finance"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://gutenify.com/themes/gutenify-finance"
+msgstr ""
+
+#. Description of the theme
+msgid "Gutenify Finance is modern block-based theme where you can build your own unique looking finance website by using WordPress Blocks Editor. Gutenify Finance is a multipurpose block based free theme, the theme is built in accordance of Full Site Editing features introduced in WordPress 5.9, which means that all the aspects including colors, typography, and the layout of every single page on your site can be customized to suit your need.The true efficiency of Gutenify Finance Theme lies in its customizability with combination of Gutenify Plugin. With Gutenify Plugin you can create different customized template, you can also use its in-built template kits and then further customize them according to your needs. Furthermore, using different blocks in combination of Gutenify Plugin’s solid additional blocks, each website will garner an exhibit look. With strong typography, and simple design, we want to achieve unique look for every website. Gutenify Plugin offers a wide variety of flexible and easy to use blocks which will make your website in combination with truly unique spectacle. You can create. A single-page website, a blog, a business website, a portfolio, a construction site, or an education site, Gutenify Corporate with Gutenify Plugin will help you create something unique which you can truly call yours.Official Support Forum: https://gutenify.com/contact/"
+msgstr ""
+
+#. Author of the theme
+msgid "Codeyatri"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://gutenify.com"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Hey, Thank you for installing "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Gutenify Finance Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "We recommend installing plugin: "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+#: inc/core/templates/admin-plugin-notice.php:20
+msgid "Gutenify"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:20
+msgid "provides multiple site demo and add advance features to your site."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:21
+msgid "Get Site Demo"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:22
+msgid "Learn more about Gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:13
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:21
+#: inc/core/templates/theme-info.php:252
+#: inc/core/templates/theme-info.php:314
+msgid "Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:24
+#: inc/core/templates/theme-info.php:27
+msgid "Import Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:30
+#: inc/core/templates/theme-info.php:102
+#: inc/core/templates/theme-info.php:317
+msgid "https://gutenify.com/pricing"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:31
+#: inc/core/templates/theme-info.php:318
+msgid "Get Gutenify Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:33
+#: inc/core/templates/theme-info.php:320
+msgid "https://gutenify.com/documentations/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:34
+#: inc/core/templates/theme-info.php:322
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:40
+msgid "Gutenify Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid ""
+"Gutenify has pre-built site demos for your site which will give your\n"
+"                                                website a base structure."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:46
+msgid "Learn about site demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:50
+#: inc/core/templates/theme-info.php:55
+msgid "Browse Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:62
+msgid "Import Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:63
+msgid ""
+"From Edit screen of page/post, you can easily import Beautiful\n"
+"                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:68
+msgid ""
+"Learn about\n"
+"                                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:72
+msgid "Create page to add pattern"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:79
+msgid "To add fresh block follow below steps"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:82
+msgid ""
+"At the top left corner of the\n"
+"                                                        page/post edit\n"
+"                                                        Screen, click on Sign"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:86
+msgid ""
+"Type Block name in search bar, if\n"
+"                                                        you already know\n"
+"                                                        the block name."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:90
+msgid ""
+"OR Scroll down and navigate to\n"
+"                                                        Gutenify section and\n"
+"                                                        Add New Block."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:100
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:102
+msgid "Checkout all features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:107
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:110
+msgid "Free Gutenify Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:113
+msgid "Gutenify Pro Plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:120
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:127
+msgid "Painless Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:134
+#: inc/core/templates/theme-info.php:261
+msgid "Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:141
+msgid "Premium site demos"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:148
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:155
+msgid "Premium Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:162
+msgid "Multiple Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:169
+msgid "Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info.php:176
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:183
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:190
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:204
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:211
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:218
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:225
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:232
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:245
+msgid "gutenify Core Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:249
+msgid ""
+"Global page settings(typography,\n"
+"                                                        color, ...)"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:254
+msgid "Predefined sections"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:256
+msgid "Fully Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:258
+msgid "Highly customizable row columns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:263
+msgid "Device specific responsive controls"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:266
+msgid "Google fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:268
+msgid ""
+"Classic &amp; gradient color and\n"
+"                                                        background"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:271
+msgid "Box-shadow"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:273
+msgid "Border"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:275
+msgid "Advanced Typography"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:277
+msgid "Font Awesome 4 icon picker"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:279
+msgid "&amp; More..."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:290
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:292
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:297
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:300
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "We are always ready with all fix issues you stuck to ensure smoothly works with gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "https://gutenify.com/contact/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:304
+msgid "Get Support"
+msgstr ""
+
+#: inc/core/theme-info.php:6
+msgid "Gutenify Theme"
+msgstr ""
+
+#: patterns/case-studies.php
+msgctxt "Pattern title"
+msgid "Case Studies"
+msgstr ""
+
+#: patterns/case-studies.php:13
+msgid "OUR BUSINESS SERVICES"
+msgstr ""
+
+#: patterns/case-studies.php:18
+msgid "Your results are our top priority!"
+msgstr ""
+
+#: patterns/case-studies.php:34
+#: patterns/portfolio.php:95
+msgid "Our Services"
+msgstr ""
+
+#: patterns/case-studies.php:38
+#: patterns/case-studies.php:89
+#: patterns/service-one.php:23
+#: patterns/service-one.php:77
+#: patterns/service-two.php:51
+#: patterns/service-two.php:123
+#: patterns/service-two.php:149
+#: patterns/service-two.php:221
+msgid "We always provide people a complete solution focused of any business."
+msgstr ""
+
+#: patterns/case-studies.php:43
+msgid "More services"
+msgstr ""
+
+#: patterns/case-studies.php:60
+msgid "Our Approach"
+msgstr ""
+
+#: patterns/case-studies.php:64
+#: patterns/service-one.php:41
+#: patterns/service-two.php:75
+#: patterns/service-two.php:173
+msgid "We are customer focused provide a best solution of business."
+msgstr ""
+
+#: patterns/case-studies.php:69
+msgid "More About"
+msgstr ""
+
+#: patterns/case-studies.php:85
+msgid "Our Results"
+msgstr ""
+
+#: patterns/case-studies.php:94
+msgid "Our Solutions"
+msgstr ""
+
+#: patterns/cover-with-archive-title.php
+msgctxt "Pattern title"
+msgid "Cover With Arcive Title"
+msgstr ""
+
+#: patterns/cover-with-post-title.php
+msgctxt "Pattern title"
+msgid "Cover With Post Title"
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr ""
+
+#: patterns/footer-default.php:13
+#: patterns/footer-default.php:30
+#: patterns/footer-default.php:42
+#: patterns/home-banner.php:31
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:18
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie orci nec bibendum iaculis."
+msgstr ""
+
+#: patterns/footer-default.php:25
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:30
+#: patterns/footer-default.php:42
+#: patterns/home-banner.php:27
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:30
+msgid "Cases"
+msgstr ""
+
+#: patterns/footer-default.php:30
+msgid "Pricing"
+msgstr ""
+
+#: patterns/footer-default.php:37
+msgid "Pages"
+msgstr ""
+
+#: patterns/footer-default.php:42
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:42
+#: patterns/footer-default.php:54
+msgid "FAQ"
+msgstr ""
+
+#: patterns/footer-default.php:49
+msgid "Terms"
+msgstr ""
+
+#: patterns/footer-default.php:54
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-default.php:54
+msgid "Terms and Conditions"
+msgstr ""
+
+#: patterns/footer-default.php:54
+msgid "Disclaimer"
+msgstr ""
+
+#: patterns/footer-default.php:54
+msgid "Support"
+msgstr ""
+
+#: patterns/footer-default.php:61
+msgid "News Letter"
+msgstr ""
+
+#: patterns/footer-default.php:66
+msgid "Nsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: patterns/footer-default.php:71
+msgid "Subscribe"
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "Proudly powered by "
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "Gutenify Finance "
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header-default.php
+msgctxt "Pattern title"
+msgid "Default Header"
+msgstr ""
+
+#: patterns/header-default.php:13
+msgid "Contact : +123 456 789"
+msgstr ""
+
+#: patterns/header-default.php:17
+msgid "/"
+msgstr ""
+
+#: patterns/header-default.php:21
+msgid "E-mail : support@gutenify.com"
+msgstr ""
+
+#: patterns/header-default.php:51
+msgid "Get A Quote"
+msgstr ""
+
+#: patterns/hero-section.php
+msgctxt "Pattern title"
+msgid "Hero Style One"
+msgstr ""
+
+#: patterns/hero-section.php:14
+msgid "Accounting & support of your business"
+msgstr ""
+
+#: patterns/hero-section.php:30
+msgid "BUSINESS ANALYTICS"
+msgstr ""
+
+#: patterns/hero-section.php:35
+msgid "Marketing can't work without analytics"
+msgstr ""
+
+#: patterns/hero-section.php:39
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+msgstr ""
+
+#: patterns/hero-section.php:44
+msgid "structure model"
+msgstr ""
+
+#: patterns/hero-section.php:44
+msgid "Feasibility study"
+msgstr ""
+
+#: patterns/hero-section.php:44
+msgid "Business process models"
+msgstr ""
+
+#: patterns/hero-section.php:50
+msgid "Explore Services"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgid "4"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgid "0"
+msgstr ""
+
+#: patterns/hidden-404.php:20
+msgid "PhotoThis page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-banner.php
+msgctxt "Pattern title"
+msgid "Main Banner"
+msgstr ""
+
+#: patterns/home-banner.php:12
+msgid "Start Your Business With Us"
+msgstr ""
+
+#: patterns/home-banner.php:16
+msgid "Need Better Plan To"
+msgstr ""
+
+#: patterns/home-page.php
+msgctxt "Pattern title"
+msgid "Home Page"
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:20
+msgid "From Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:25
+msgid "Recent News"
+msgstr ""
+
+#: patterns/latest-news.php:31
+msgid "Explore More"
+msgstr ""
+
+#: patterns/portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/portfolio.php:14
+msgid "What We Do"
+msgstr ""
+
+#: patterns/portfolio.php:19
+msgid "Creating long-term value with entrepreneurial intelligence! Our main goal is&nbsp;growth"
+msgstr ""
+
+#: patterns/portfolio.php:32
+msgid "Strategic Block"
+msgstr ""
+
+#: patterns/portfolio.php:36
+#: patterns/portfolio.php:52
+#: patterns/portfolio.php:68
+#: patterns/portfolio.php:84
+msgid "What We Are"
+msgstr ""
+
+#: patterns/portfolio.php:48
+msgid "Salse Increase"
+msgstr ""
+
+#: patterns/portfolio.php:64
+msgid "Market Research"
+msgstr ""
+
+#: patterns/portfolio.php:80
+msgid "Business Strategy"
+msgstr ""
+
+#: patterns/primary-sidebar.php
+msgctxt "Pattern title"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: patterns/primary-sidebar.php:18
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:54
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:74
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:92
+msgid "Social Links"
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/section-title-two.php
+msgctxt "Pattern title"
+msgid "Section Title Style Two"
+msgstr ""
+
+#: patterns/section-title-two.php:17
+#: patterns/section-title.php:19
+msgid "Section Sub Title Here"
+msgstr ""
+
+#: patterns/section-title-two.php:28
+#: patterns/section-title.php:24
+msgid "Section Main Title Here"
+msgstr ""
+
+#: patterns/section-title.php
+msgctxt "Pattern title"
+msgid "Section Title"
+msgstr ""
+
+#: patterns/section-title.php:30
+msgid "View More"
+msgstr ""
+
+#: patterns/service-one.php
+msgctxt "Pattern title"
+msgid "Services Style One"
+msgstr ""
+
+#: patterns/service-one.php:19
+msgid "Solution Focused"
+msgstr ""
+
+#: patterns/service-one.php:37
+msgid "Customer Oriented"
+msgstr ""
+
+#: patterns/service-one.php:55
+msgid "99.99% Success"
+msgstr ""
+
+#: patterns/service-one.php:59
+#: patterns/service-two.php:99
+#: patterns/service-two.php:197
+msgid "Our success rate almost 100% - ensures goal of any type business."
+msgstr ""
+
+#: patterns/service-one.php:73
+msgid "Decision Maker"
+msgstr ""
+
+#: patterns/service-two.php
+msgctxt "Pattern title"
+msgid "Services Style Two"
+msgstr ""
+
+#: patterns/service-two.php:20
+msgid "SERVICES"
+msgstr ""
+
+#: patterns/service-two.php:25
+msgid "Our Best Services"
+msgstr ""
+
+#: patterns/service-two.php:31
+#: patterns/team.php:31
+msgid "View More "
+msgstr ""
+
+#: patterns/service-two.php:47
+msgid "Business Analysis"
+msgstr ""
+
+#: patterns/service-two.php:56
+#: patterns/service-two.php:80
+#: patterns/service-two.php:104
+#: patterns/service-two.php:128
+#: patterns/service-two.php:154
+#: patterns/service-two.php:178
+#: patterns/service-two.php:202
+#: patterns/service-two.php:226
+msgid "Know More"
+msgstr ""
+
+#: patterns/service-two.php:71
+msgid "Reports Analysis"
+msgstr ""
+
+#: patterns/service-two.php:95
+msgid "Profit Planning"
+msgstr ""
+
+#: patterns/service-two.php:119
+msgid "Project Reporting"
+msgstr ""
+
+#: patterns/service-two.php:145
+msgid "Estate Planning"
+msgstr ""
+
+#: patterns/service-two.php:169
+msgid "Security Enhanced"
+msgstr ""
+
+#: patterns/service-two.php:193
+msgid "Cloud Computing"
+msgstr ""
+
+#: patterns/service-two.php:217
+msgid "Cryptocurrency"
+msgstr ""
+
+#: patterns/team.php
+msgctxt "Pattern title"
+msgid "Team Member"
+msgstr ""
+
+#: patterns/team.php:20
+msgid "Meet Our Export"
+msgstr ""
+
+#: patterns/team.php:25
+msgid "Our Professional Export"
+msgstr ""
+
+#: patterns/team.php:47
+#: patterns/team.php:73
+msgid "Clark Roberts"
+msgstr ""
+
+#: patterns/team.php:51
+#: patterns/team.php:77
+msgid "Chief Finance Officer"
+msgstr ""
+
+#: patterns/team.php:99
+msgid "Ashley Hardy"
+msgstr ""
+
+#: patterns/team.php:103
+msgid "VP Sales and Marketing"
+msgstr ""
+
+#: patterns/team.php:125
+msgid "Dennis Norris"
+msgstr ""
+
+#: patterns/team.php:129
+msgid "Chief Marketing Officer"
+msgstr ""
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/testimonials.php:17
+msgid "This company has been our partner for two years. They take full responsibility for all assigned tasks and perform the work efficiently and on time. This company has competent employees, discipline, and a strong team spirit."
+msgstr ""
+
+#: patterns/testimonials.php:27
+msgid "Jennifer Lee"
+msgstr ""
+
+#: patterns/testimonials.php:31
+msgid "Business Owner"
+msgstr ""

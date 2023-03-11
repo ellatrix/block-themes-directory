@@ -1,0 +1,191 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonborder .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: #FFFFFF00;
+    color: #FFFFFF;
+    font-family: 'Heebo';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+}
+
+.is-style-custombuttonborder:hover .wp-block-button__link {
+    border: 1px solid var(--wp--preset--color--white);
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--intrace-primary);
+}
+
+.is-style-custombuttonborder2 .wp-block-button__link {
+    padding: 18px 32px;
+    background-color: var(--wp--preset--color--intrace-primary);
+    color: #ffffff;
+    border-radius: 0px;
+    font-family: 'Heebo';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid var(--wp--preset--color--intrace-primary);
+    border-radius: 0;
+}
+
+.is-style-custombuttonborder2:hover .wp-block-button__link {
+    border: 1px solid var(--wp--preset--color--intrace-primary);
+    background-color: #FFFFFF00;
+    color: var(--wp--preset--color--intrace-primary);
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 3px 15px 0px #1010101a;
+}
+
+.is-style-lineseparator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.is-style-lineseparator:before {
+    content: "";
+    width: 70px;
+    margin-right: 20px;
+    border-top-width: 3px;
+    border-top-color: var(--wp--preset--color--intrace-accent);
+    border-top-style: solid;
+    display: inline-block;
+}
+
+.is-style-customborderhover {
+    border: 2px solid #121212;
+}
+
+.is-style-customborderhover:hover {
+    border: 2px solid var(--wp--preset--color--intrace-accent);
+}
+
+.is-style-customborderbottom {
+    border-bottom: 5px solid var(--wp--preset--color--white);
+}
+
+.is-style-customborderbottomhover {
+    border-bottom: 5px solid var(--wp--preset--color--white);
+}
+
+.is-style-customborderbottomhover:hover {
+    border-bottom: 5px solid var(--wp--preset--color--intrace-accent);
+}
+
+.is-style-iconsborderhover.wp-block-social-links {
+    gap: 20px;
+}
+
+.is-style-iconsborderhover.wp-block-social-links .wp-block-social-link {
+    font-size: 20px;
+    background-color: #ffffff00;
+    border: 2px solid var(--wp--preset--color--intrace-accent);
+    color: #ffffff;
+}
+
+.is-style-iconsborderhover.wp-block-social-links .wp-block-social-link {
+    padding: 8px;
+}
+
+.is-style-iconsborderhover.wp-block-social-links .wp-block-social-link:hover {
+    background-color: var(--wp--preset--color--white);
+    border: 2px solid var(--wp--preset--color--white);
+    color: #082222;
+}
+
+/* INTRACE ADVANCE CLASSES */
+
+.intrace-z-index-1 {
+    z-index: 1;
+}
+
+.intrace-z-index-10 {
+    z-index: 10;
+}
+
+.intrace-z-index-100 {
+    z-index: 100;
+}
+
+.intrace-z-index-1000 {
+    z-index: 1000;
+}
+
+.intrace-margin-top-n10 {
+    position: relative;
+    margin-top: -10px !important;
+}
+
+.intrace-margin-top-n20 {
+    position: relative;
+    margin-top: -20px !important;
+}
+
+.intrace-margin-top-n30 {
+    position: relative;
+    margin-top: -30px !important;
+}
+
+.intrace-margin-top-n40 {
+    position: relative;
+    margin-top: -40px !important;
+}
+
+.intrace-margin-top-n50 {
+    position: relative;
+    margin-top: -50px !important;
+}
+
+.intrace-margin-top-n60 {
+    position: relative;
+    margin-top: -60px !important;
+}
+
+.intrace-margin-top-n70 {
+    position: relative;
+    margin-top: -70px !important;
+}
+
+.intrace-margin-top-n80 {
+    position: relative;
+    margin-top: -80px !important;
+}
+
+.intrace-margin-top-n90 {
+    position: relative;
+    margin-top: -90px !important;
+}
+
+.intrace-margin-top-n100 {
+    position: relative;
+    margin-top: -100px !important;
+}
+
+.intrace-margin-top-n260 {
+    position: relative;
+    margin-top: -260px !important;
+}
+
+.intrace-radius-5 {
+    border-radius: 5px;
+}
+
+.intrace-radius-10 {
+    border-radius: 10px;
+}
+
+.intrace-radius-25 {
+    border-radius: 25px;
+}
+
+.intrace-radius-50 {
+    border-radius: 50px;
+}

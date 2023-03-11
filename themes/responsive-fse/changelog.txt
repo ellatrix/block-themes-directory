@@ -1,0 +1,44 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+= Version 1.1.0 = ( 26th October 2021 )
+[+] Added new block patterns
+[*] Updated block styles
+[*] Updated Resources in readme.txt
+
+----
+
+= Version 1.0.5 = ( 11th October 2021 )
+[*] Updated Resources in readme.txt
+
+----
+= Version 1.0.4 = ( 11th October 2021 )
+[*] Updated readme.txt
+
+----
+
+= Version 1.0.3 = ( 4th October 2021 )
+[*] Updated images and resource licenses
+[*] Updated class prefixes
+
+----
+
+= Version 1.0.2 = ( 28th September 2021 )
+[*] Added Theme URI
+
+----
+
+= Version 1.0.1 = ( 27th September 2021 )
+[!] Fix - PHP Warnings
+
+----
+
+= Version 1.0.0 = ( 26th September 2021)
+* Initial Release

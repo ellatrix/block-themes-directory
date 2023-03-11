@@ -1,0 +1,81 @@
+.estory-notice {
+	position: relative;
+	padding: 8px 40px 8px 8px;
+}
+.estory-notice .links {
+	margin: 1.2em 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.estory-notice .links a {
+	margin-right: 10px;
+}
+.estory-notice .links a > span {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.estory-notice .notice-text .coupon-code {
+	display: inline-block;
+}
+.estory-notice .notice-dismiss {
+	text-decoration: none;
+}
+
+.estory-message__content {
+	display: flex;
+}
+.estory-message__content .estory-message__image {
+	display: flex;
+	flex: 0 0 160px;
+	min-height: 100px;
+	margin-right: 12px;
+	border-right: 1px solid #FCFCFD;
+}
+.estory-message__content .estory-message__image .estory-screenshot {
+	width: 100%;
+	box-shadow: 0 0 1px 0 #ccd0d4;
+	border: 1px solid #dddddd;
+}
+.estory-message__content .estory-message__heading {
+	margin-top: 0;
+	margin-bottom: 12px;
+	line-height: 1.4;
+}
+.estory-message__content .estory-message__heading > a {
+	font-size: inherit;
+}
+.estory-message__content .estory-message__cta {
+	display: flex;
+	align-items: center;
+}
+.estory-message__content .estory-message__cta .plugin-install-notice {
+	margin-left: 15px;
+	line-height: 1.4;
+}
+.estory-message__content .estory-message__cta a:before {
+	margin: 5px;
+	vertical-align: middle;
+}
+
+a.estory-message-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923;
+	text-decoration: none;
+}
+a.estory-message-close:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+	.estory-message__content .estory-message__image {
+		display: none;
+	}
+}

@@ -1,0 +1,15 @@
+.product-section {
+  [class*="wp-container-"].alignfull {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .wc-block-grid .wc-block-grid__product {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .wc-block-components-pagination {
+    display: none;
+  }
+}

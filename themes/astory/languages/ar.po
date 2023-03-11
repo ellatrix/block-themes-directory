@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Astory\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-26 11:41+0000\n"
+"PO-Revision-Date: 2022-05-26 11:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: astory"
+
+#: patterns/footer-mega.php:40
+msgid "About Us"
+msgstr "عنا"
+
+#: patterns/footer-mega.php:48
+msgid "Accessibility"
+msgstr "الوصول"
+
+#. Description of the theme
+msgid "An block theme, lightweight and easy to use."
+msgstr "وهي كتلة موضوع, خفيفة الوزن وسهلة الاستخدام."
+
+#. Name of the theme
+#: inc/block-styles.php:63
+msgid "Astory"
+msgstr "حكاية"
+
+#: inc/block-styles.php:80
+msgid "Astory Call To Action"
+msgstr "حكاية دعوة إلى العمل"
+
+#: inc/block-styles.php:88
+msgid "Astory Clients"
+msgstr "حكاية العملاء"
+
+#: inc/block-styles.php:68
+msgid "Astory Footer"
+msgstr "حكاية تذييل الصفحة"
+
+#: inc/block-styles.php:72
+msgid "Astory General"
+msgstr "حكاية العامة"
+
+#: inc/block-styles.php:100
+msgid "Astory Header"
+msgstr "حكاية رأس"
+
+#: inc/block-styles.php:76
+msgid "Astory Hero"
+msgstr "حكاية بطل"
+
+#: inc/block-styles.php:104
+msgid "Astory Page"
+msgstr "حكاية الصفحة"
+
+#: inc/theme-page.php:74
+msgid "Astory plugin"
+msgstr "حكاية المساعد"
+
+#: inc/theme-page.php:75
+msgid ""
+"Astory plugin is installed and activated. Start using Pro Features Now!!!"
+msgstr ""
+"حكاية هو تثبيت البرنامج المساعد و تفعيلها. البدء في استخدام ميزات برو الآن!!!"
+
+#: inc/block-styles.php:92
+msgid "Astory Price"
+msgstr "حكاية السعر"
+
+#: inc/block-styles.php:108
+msgid "Astory Query"
+msgstr "حكاية الاستعلام"
+
+#: inc/block-styles.php:96
+msgid "Astory Team Member"
+msgstr "حكاية عضو في الفريق"
+
+#: inc/block-styles.php:84
+msgid "Astory Testimonials"
+msgstr "حكاية الشهادات"
+
+#: inc/block-styles.php:15 inc/block-styles.php:20 inc/block-styles.php:23
+#: inc/block-styles.php:30
+msgid "Box Shadow"
+msgstr "مربع الظل"
+
+#: inc/block-styles.php:16
+msgid "Box Shadow Solid"
+msgstr "مربع الظل الصلبة"
+
+#: patterns/footer-mega.php:46
+msgid "Brand Guide"
+msgstr "العلامة التجارية دليل"
+
+#: inc/theme-page.php:68
+msgid "Buy Astory Pro"
+msgstr "شراء حكاية برو"
+
+#. Author of the theme
+msgid "codeclove"
+msgstr "codeclove"
+
+#: patterns/footer-mega.php:72
+msgid "Connect"
+msgstr "الاتصال"
+
+#: patterns/footer-three-columns.php:18
+msgid "Contact Us"
+msgstr "الاتصال بنا"
+
+#: patterns/footer-mega.php:62
+msgid "Copywriting"
+msgstr "كوبيوريتنغ"
+
+#: patterns/general-pricing-four-columns.php:19
+msgid "Create a four-column table"
+msgstr "إنشاء أربعة أعمدة الجدول"
+
+#: patterns/general-pricing-three-columns.php:19
+msgid "Create a three-column table"
+msgstr "إنشاء ثلاثة أعمدة الجدول"
+
+#: patterns/general-pricing-two-columns.php:19
+msgid "Create a two-column table"
+msgstr "إنشاء جدول عمودين"
+
+#: patterns/footer-mega.php:61
+msgid "Development"
+msgstr "التنمية"
+
+#: patterns/footer-mega.php:80
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: patterns/general-pricing-four-columns.php:132
+#: patterns/general-pricing-three-columns.php:132
+msgid "Enterprise"
+msgstr "المؤسسة"
+
+#: patterns/footer-mega.php:76
+msgid "Facebook"
+msgstr "Facebook"
+
+#: patterns/general-pricing-four-columns.php:35
+#: patterns/general-pricing-four-columns.php:41
+#: patterns/general-pricing-four-columns.php:47
+#: patterns/general-pricing-four-columns.php:53
+#: patterns/general-pricing-four-columns.php:59
+#: patterns/general-pricing-four-columns.php:87
+#: patterns/general-pricing-four-columns.php:93
+#: patterns/general-pricing-four-columns.php:99
+#: patterns/general-pricing-four-columns.php:105
+#: patterns/general-pricing-four-columns.php:111
+#: patterns/general-pricing-four-columns.php:139
+#: patterns/general-pricing-four-columns.php:145
+#: patterns/general-pricing-four-columns.php:151
+#: patterns/general-pricing-four-columns.php:157
+#: patterns/general-pricing-four-columns.php:163
+#: patterns/general-pricing-four-columns.php:191
+#: patterns/general-pricing-four-columns.php:197
+#: patterns/general-pricing-four-columns.php:203
+#: patterns/general-pricing-four-columns.php:209
+#: patterns/general-pricing-four-columns.php:215
+#: patterns/general-pricing-three-columns.php:35
+#: patterns/general-pricing-three-columns.php:41
+#: patterns/general-pricing-three-columns.php:47
+#: patterns/general-pricing-three-columns.php:53
+#: patterns/general-pricing-three-columns.php:59
+#: patterns/general-pricing-three-columns.php:87
+#: patterns/general-pricing-three-columns.php:93
+#: patterns/general-pricing-three-columns.php:99
+#: patterns/general-pricing-three-columns.php:105
+#: patterns/general-pricing-three-columns.php:111
+#: patterns/general-pricing-three-columns.php:139
+#: patterns/general-pricing-three-columns.php:145
+#: patterns/general-pricing-three-columns.php:151
+#: patterns/general-pricing-three-columns.php:157
+#: patterns/general-pricing-three-columns.php:163
+#: patterns/general-pricing-two-columns.php:35
+#: patterns/general-pricing-two-columns.php:41
+#: patterns/general-pricing-two-columns.php:47
+#: patterns/general-pricing-two-columns.php:53
+#: patterns/general-pricing-two-columns.php:59
+#: patterns/general-pricing-two-columns.php:87
+#: patterns/general-pricing-two-columns.php:93
+#: patterns/general-pricing-two-columns.php:99
+#: patterns/general-pricing-two-columns.php:105
+#: patterns/general-pricing-two-columns.php:111
+msgid "Feature Item"
+msgstr "ميزة البند"
+
+#: inc/block-styles.php:33
+msgid "Fill"
+msgstr "ملء"
+
+#: inc/block-styles.php:11 inc/block-styles.php:34
+msgid "Fill Base"
+msgstr "ملء قاعدة"
+
+#: inc/theme-page.php:49
+msgid "Free Full Site Editing WordPress Theme"
+msgstr "مجانا موقع كامل تحرير وورد موضوع"
+
+#: inc/block-styles.php:17
+msgid "Full-height"
+msgstr "كامل الارتفاع"
+
+#: inc/upgrade-button/class-customize.php:74
+msgid "Get Astory PRO"
+msgstr "الحصول على حكاية برو"
+
+#: patterns/general-cta-stacked.php:23
+msgid "Get in Touch"
+msgstr "الحصول على اتصال"
+
+#: patterns/general-cta-buttons.php:29
+msgid "Get Started"
+msgstr "نبدأ"
+
+#: inc/theme-page.php:57
+msgid "Getting Started"
+msgstr "الشروع في العمل"
+
+#: inc/theme-page.php:58
+msgid ""
+"Great! Astory has been installed and activated successfully. Now, you can "
+"start building your your website with a Astory theme customizable block "
+"patterns, templates, and template parts."
+msgstr ""
+"كبيرة! حكاية تم تثبيت و تفعيل بنجاح. الآن يمكنك البدء في بناء الخاصة بك موقع "
+"الويب الخاص بك مع حكاية موضوع تخصيص كتلة أنماط ، قوالب ، قالب أجزاء."
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://codeclove.com/"
+msgstr ""
+
+#: patterns/footer-mega.php:77
+msgid "Instagram"
+msgstr "Instagram"
+
+#: patterns/footer-mega.php:26 patterns/general-boxes-three.php:28
+#: patterns/general-boxes-three.php:45 patterns/general-boxes-three.php:62
+#: patterns/general-boxes-two.php:28 patterns/general-boxes-two.php:45
+#: patterns/general-cta-buttons.php:32
+msgid "Learn More"
+msgstr "معرفة المزيد"
+
+#: inc/theme-page.php:95
+msgid "Leave us a review"
+msgstr "ترك لنا استعراض"
+
+#: patterns/general-cta-stacked.php:15
+msgid "Let’s Connect"
+msgstr "دعونا الاتصال"
+
+#: patterns/general-cta-button.php:29
+msgid "Let’s Get Started"
+msgstr "دعونا نبدأ"
+
+#: patterns/footer-mega.php:79
+msgid "LinkedIn"
+msgstr "ينكدين"
+
+#: inc/theme-page.php:96
+msgid ""
+"Loved Astory? Feel free to leave your feedback. Your opinion helps us reach "
+"more audiences!"
+msgstr ""
+"أحب حكاية? لا تتردد في ترك ملاحظاتك. رأيك يساعدنا على الوصول إلى المزيد من "
+"الجماهير!"
+
+#: patterns/footer-mega.php:63
+msgid "Marketing"
+msgstr "التسويق"
+
+#: patterns/general-team-four-columns.php:32
+#: patterns/general-team-four-columns.php:48
+#: patterns/general-team-four-columns.php:64
+#: patterns/general-team-four-columns.php:80
+#: patterns/general-team-two-columns.php:44
+#: patterns/general-team-two-columns.php:65
+#: patterns/general-team-two-columns.php:86
+#: patterns/general-team-two-columns.php:111
+#: patterns/general-team-two-columns.php:132
+#: patterns/general-team-two-columns.php:153
+msgid "Member Name"
+msgstr "اسم عضو"
+
+#: inc/theme-page.php:66
+msgid "More Features with Astory Pro"
+msgstr "المزيد من الميزات مع حكاية برو"
+
+#: patterns/footer-mega.php:47
+msgid "Newsletter"
+msgstr "النشرة الإخبارية"
+
+#: inc/block-styles.php:27
+msgid "No Disc"
+msgstr "لا القرص"
+
+#: patterns/hidden-404.php:10
+msgid "Not found, error 404"
+msgstr "لم يتم العثور على خطأ 404"
+
+#: patterns/hidden-404.php:13
+msgid ""
+"Oops, the page you are looking for does not exist or is no longer available. "
+"Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+"عفوا الصفحة التي تبحث عنها غير موجودة أو لم تعد متوفرة. لا يزال كل شيء رائع. "
+"مجرد استخدام نموذج البحث للعثور على طريقك."
+
+#: patterns/footer-mega.php:17
+msgid "Our Company"
+msgstr "شركتنا"
+
+#: patterns/footer-mega.php:45
+msgid "Our Mission"
+msgstr "مهمتنا"
+
+#: patterns/general-team-four-columns.php:16
+#: patterns/general-team-two-columns.php:18
+msgid "Our Team"
+msgstr "فريقنا"
+
+#: inc/block-styles.php:35
+msgid "Outline"
+msgstr "مخطط"
+
+#: inc/block-styles.php:12 inc/block-styles.php:36
+msgid "Outline Base"
+msgstr "مخطط قاعدة"
+
+#: patterns/general-pricing-four-columns.php:28
+#: patterns/general-pricing-three-columns.php:28
+#: patterns/general-pricing-two-columns.php:28
+msgid "Personal"
+msgstr "الشخصية"
+
+#: patterns/general-pricing-four-columns.php:16
+#: patterns/general-pricing-three-columns.php:16
+#: patterns/general-pricing-two-columns.php:16
+msgid "Pricing Table"
+msgstr "جدول التسعير"
+
+#: functions.php:32
+msgid "Primary"
+msgstr "الابتدائية"
+
+#: patterns/footer-three-columns.php:18
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: patterns/general-pricing-four-columns.php:80
+#: patterns/general-pricing-three-columns.php:80
+#: patterns/general-pricing-two-columns.php:80
+msgid "Professional"
+msgstr "المهنية"
+
+#: patterns/general-team-two-columns.php:47
+#: patterns/general-team-two-columns.php:68
+#: patterns/general-team-two-columns.php:89
+#: patterns/general-team-two-columns.php:114
+#: patterns/general-team-two-columns.php:135
+#: patterns/general-team-two-columns.php:156
+msgid "Read more"
+msgstr "قراءة المزيد"
+
+#: inc/theme-page.php:97
+msgid "Review"
+msgstr "استعراض"
+
+#: inc/block-styles.php:24
+msgid "Rounded Corner with Box Shadow"
+msgstr "تقريب الزاوية مع مربع الظل"
+
+#: patterns/general-boxes-three.php:20 patterns/general-boxes-three.php:37
+#: patterns/general-boxes-three.php:54 patterns/general-boxes-two.php:20
+#: patterns/general-boxes-two.php:37 patterns/general-portfolio.php:20
+msgid "Sample Heading"
+msgstr "عينة العنوان"
+
+#: patterns/general-portfolio.php:35 patterns/general-portfolio.php:38
+#: patterns/general-portfolio.php:41 patterns/general-portfolio.php:44
+#: patterns/general-team-four-columns.php:29
+#: patterns/general-team-four-columns.php:45
+#: patterns/general-team-four-columns.php:61
+#: patterns/general-team-four-columns.php:77
+#: patterns/general-team-two-columns.php:37
+#: patterns/general-team-two-columns.php:58
+#: patterns/general-team-two-columns.php:79
+#: patterns/general-team-two-columns.php:104
+#: patterns/general-team-two-columns.php:125
+#: patterns/general-team-two-columns.php:146
+msgid "Sample Image"
+msgstr "صورة نموذج"
+
+#: patterns/footer-mega.php:56
+msgid "Services"
+msgstr "الخدمات"
+
+#: patterns/general-pricing-four-columns.php:67
+#: patterns/general-pricing-four-columns.php:119
+#: patterns/general-pricing-four-columns.php:171
+#: patterns/general-pricing-four-columns.php:223
+#: patterns/general-pricing-three-columns.php:67
+#: patterns/general-pricing-three-columns.php:119
+#: patterns/general-pricing-three-columns.php:171
+#: patterns/general-pricing-two-columns.php:67
+#: patterns/general-pricing-two-columns.php:119
+msgid "Sign Up Now"
+msgstr "اشترك الآن"
+
+#: patterns/footer-mega.php:64
+msgid "Social Media"
+msgstr "وسائل الاعلام الاجتماعية"
+
+#: patterns/footer-mega.php:44
+msgid "Start Here"
+msgstr "تبدأ هنا"
+
+#: inc/theme-page.php:88
+msgid "Support"
+msgstr "الدعم"
+
+#: patterns/footer-three-columns.php:18
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+#: patterns/general-team-four-columns.php:19
+#: patterns/general-team-two-columns.php:21
+msgid "The people who are ready to serve you."
+msgstr "الناس الذين هم على استعداد لخدمتك."
+
+#: inc/theme-page.php:86
+msgid "Theme Info"
+msgstr "موضوع المعلومات"
+
+#: inc/theme-page.php:59
+msgid "Theme instructions"
+msgstr "موضوع تعليمات"
+
+#: patterns/footer-mega.php:78
+msgid "Twitter"
+msgstr "تويتر"
+
+#: patterns/general-pricing-four-columns.php:184
+msgid "Ultimate"
+msgstr "في نهاية المطاف"
+
+#: inc/upgrade-button/class-customize.php:75
+msgid "Upgrade Now"
+msgstr "الترقية الآن"
+
+#: inc/theme-page.php:85
+msgid "Useful Links"
+msgstr "روابط مفيدة"
+
+#: inc/theme-page.php:87
+msgid "View Demo"
+msgstr "عرض تجريبي"
+
+#: patterns/general-team-four-columns.php:38
+#: patterns/general-team-four-columns.php:54
+#: patterns/general-team-four-columns.php:70
+#: patterns/general-team-four-columns.php:86
+msgid "View profile"
+msgstr "عرض الملف الشخصي"
+
+#: patterns/general-portfolio.php:26
+msgid "View Project"
+msgstr "عرض المشروع"
+
+#: patterns/footer-mega.php:60
+msgid "Web Design"
+msgstr "تصميم مواقع الإنترنت"
+
+#: inc/theme-page.php:67
+msgid ""
+"With Astory Pro you get more options, blocks, block patterns, templates and "
+"template parts. Faster support and faster updates with trending and easy to "
+"use patterns."
+msgstr ""
+"مع حكاية برو يمكنك الحصول على المزيد من الخيارات كتل كتلة أنماط ، قوالب ، "
+"قالب أجزاء. الدعم أسرع وأسرع مع التحديثات تتجه وسهلة الاستخدام أنماط."
+
+#: patterns/footer-three-columns.php:15
+msgid "Your Company LLC"
+msgstr "الشركة ذ. م. م"

@@ -1,0 +1,84 @@
+/* --- Block Logo
+-------------------------------------------------------- */
+
+.logo-columns figure.wp-block-image {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* --- Block Logo with Heading On Side
+-------------------------------------------------------- */
+.logo-columns-main {
+    order: 2;
+}
+
+.wp-block-columns > .wp-block-column.logo-columns-main {
+    margin-bottom: 0;
+}
+
+.wp-block-columns.logo-columns-with-heading-right > .wp-block-column:last-child {
+    margin-bottom: var(--wp--style--block-gap, 2em);
+}
+
+.logo-columns-with-heading-right .section-heading {
+    max-width: none;
+}
+
+/* --- Block Logo Slider
+-------------------------------------------------------- */
+
+.wp-block-group.section-heading + .logo-slider-wrap-outer {
+    margin-top: var(--wp--custom--spacing--wp-post);
+}
+
+.logo-slider-section {
+    .photobrust-slider-wrapper.pagination-enabled {
+        padding-bottom: var(--wp--custom--spacing--wp-block-page-numbers);
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 0;
+        }
+    }
+
+    .logo-slider-wrap {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .wp-block-photobrust-pro-slides {
+        > .wp-block-image {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .photobrust-slider-wrapper:hover .swiper-button-prev,
+	.photobrust-slider-wrapper:focus .swiper-button-prev {
+		left: 0;
+	}
+
+	.photobrust-slider-wrapper:hover .swiper-button-next,
+	.photobrust-slider-wrapper:focus .swiper-button-next {
+		right: 0;
+	}
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        margin-top: 0;
+    }
+
+    .navigation-enabled {
+        min-height: 60px;
+    }
+}
+
+
+/* Editor Styles */
+.logo-slider-wrap.pagination-enabled {
+    padding-bottom: var(--wp--custom--spacing--wp-block-page-numbers);
+}

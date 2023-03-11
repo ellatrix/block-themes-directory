@@ -1,0 +1,199 @@
+/* --- WP Block Header
+-------------------------------------------------------- */
+header,
+.header {
+  position: static;
+  z-index: 9;
+}
+
+.header:not(.absolute-header) {
+  padding-top: clamp(21px, 2vw, 32px);
+  padding-bottom: clamp(21px, 2vw, 32px);
+}
+
+header .wp-block-buttons .wp-block-button__link {
+  margin-top: 0;
+}
+
+.wp-block-fse-pro-header-social .social-container {
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+}
+
+.wp-block-fse-pro-header-search .search-container,
+.wp-block-fse-pro-header-social .social-container {
+  position: absolute;
+  right: 0;
+  top: auto;
+}
+
+.wp-block-fse-pro-header-search,
+.wp-block-fse-pro-header-social {
+  button {
+    transition: 0.3s ease-in-out;
+  }
+  .search-container,
+  .social-container {
+    background-color: transparent;
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 100%;
+  }
+}
+
+.wp-block-fse-pro-header-social {
+  .social-container {
+    border: 1px solid;
+    display: block;
+    padding: 10px;
+    .wp-block-social-links {
+      border-radius: 45px;
+      padding: 15px;
+    }
+  }
+}
+
+.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+  display: none;
+}
+
+html.has-modal-open {
+  overflow: auto;
+}
+
+.nav-row > .wp-block-group {
+  gap: 0;
+}
+
+.wp-block-group.nav-row {
+  gap: 0;
+}
+
+.wp-block-search .wp-block-search__inside-wrapper,
+.wp-block-fse-pro-header-social .wp-block-group.social-container {
+  margin-top: 20px;
+}
+
+.wp-block-group.site-title-section,
+.wp-block.site-title-section {
+  gap: 0;
+}
+
+.wp-block-navigation__container > .wp-block-navigation-item,
+.wp-block-page-list > .wp-block-navigation-item {
+  a {
+    position: relative;
+  }
+}
+
+.nav-row
+  .wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-only)
+  .wp-block-social-link
+  .wp-block-social-link-anchor {
+  &:hover,
+  &:focus {
+    svg {
+      fill: var(--wp--preset--color--foreground);
+    }
+  }
+}
+.header svg,
+.footer svg {
+  &:hover,
+  &:focus {
+    fill: var(--wp--preset--color--foreground);
+  }
+}
+
+.wp-block-social-links.is-style-circle-shape,
+.wp-block-social-links.is-style-pill-shape {
+  svg {
+    fill: var(--wp--preset--color--foreground);
+  }
+}
+
+.wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation__submenu-container
+  li
+  .wp-block-navigation-item__content {
+  padding: 7px 13px;
+  font-size: var(--wp--preset--font-size--medium);
+  a {
+    font-size: var(--wp--preset--font-size--medium);
+  }
+}
+
+.wp-block-navigation__responsive-container
+  ul.wp-block-navigation__container
+  > li
+  > a {
+  font-size: var(--wp--preset--font-size--small);
+  text-transform: uppercase;
+  font-weight: var(--wp--custom--typography--font-weight--semi-bold);
+}
+
+.wp-block-fse-pro-header-search .search-controller {
+  height: 42px;
+  width: 42px;
+}
+
+.wp-block-navigation__responsive-container-open:not(.always-shown) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wp-block-navigation__responsive-container-open:not(.always-shown) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  padding: 9px;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation__responsive-container-content
+  .wp-block-navigation__submenu-container {
+  padding-bottom: 10px;
+}
+
+[class*="wp-container-"].site-section {
+  gap: 10px;
+  @include flex;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open
+  .wp-block-navigation__responsive-container-content
+  > ul
+  > .wp-block-navigation-item
+  > a {
+  margin-bottom: 10px;
+}
+
+.header .wp-block-social-links .wp-social-link a,
+.header .wp-block-social-links .wp-social-link .wp-block-social-link-anchor {
+  padding: 9px;
+}
+
+.wp-block-fse-pro-header-search .search-controller svg {
+  width: 25px;
+  height: 25px;
+}
+
+.wp-block-fse-pro-header-social .social-controller {
+  height: 42px;
+  width: 42px;
+}
+
+.wp-block-navigation .wp-block-navigation__submenu-icon svg {
+  margin: 0;
+}
+
+.is-menu-open.has-modal-open::-webkit-scrollbar {
+  display: none;
+}

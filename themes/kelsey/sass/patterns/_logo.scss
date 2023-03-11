@@ -1,0 +1,27 @@
+/* --- Block Logo
+-------------------------------------------------------- */
+
+.logo-columns figure.wp-block-image {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* --- Block Logo with Heading On Side
+-------------------------------------------------------- */
+.logo-columns-main {
+    order: 2;
+}
+
+.wp-block-columns > .wp-block-column.logo-columns-main {
+    margin-bottom: 0;
+}
+
+.wp-block-columns.logo-columns-with-heading-right > .wp-block-column:last-child {
+    margin-bottom: var(--wp--style--block-gap, 2em);
+}
+
+.logo-columns-with-heading-right .section-heading {
+    max-width: none;
+}

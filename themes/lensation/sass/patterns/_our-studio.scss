@@ -1,0 +1,38 @@
+/* --- Block Our Studio
+-------------------------------------------------------- */
+
+.our-studio-section h4,
+.what-we-do-section .entry-title {
+  font-family: var(--wp--preset--font-family--source-sans-pro);
+  font-weight: 700;
+}
+
+.what-we-do-section h2 {
+  font-size: var(--wp--custom--typography--font-size--post-title);
+}
+
+.wp-block-studio-content-container .wp-block-column.wp-block-studio-content {
+  border-bottom: 1px solid;
+  padding-top: clamp(35px, 3.5vw, 42px);
+  padding-bottom: clamp(35px, 3.5vw, 42px);
+}
+
+.wp-block-studio-content-container
+  > .wp-block-columns:first-child
+  .wp-block-column.wp-block-studio-content {
+  padding-top: 0;
+}
+
+.wp-block-studio-content-container
+  > .wp-block-columns:last-child
+  .wp-block-column.wp-block-studio-content {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.wp-block-studio-content-container .wp-block-columns.alignwide {
+  margin: 0;
+}
+
+.wp-block-column.wp-block-empty-container {
+  margin: 0;
+}

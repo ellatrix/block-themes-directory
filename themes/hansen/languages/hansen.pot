@@ -1,0 +1,252 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Hansen\n"
+"POT-Creation-Date: 2022-02-01 15:45+0000\n"
+"PO-Revision-Date: 2021-02-01 12:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/block-patterns.php:13
+msgid "Hansen - Design"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Hansen - Blog"
+msgstr ""
+
+#: inc/block-patterns.php:23
+msgid "Hansen - Template Parts"
+msgstr ""
+
+#: inc/block-patterns.php:29
+msgid "Header (dark)"
+msgstr ""
+
+#: inc/block-patterns.php:56
+msgid "Header (light)"
+msgstr ""
+
+#: inc/block-patterns.php:83
+msgid "Latest Posts - Style 1"
+msgstr ""
+
+#: inc/block-patterns.php:103
+msgid "Latest Posts (2 columns)"
+msgstr ""
+
+#: inc/block-patterns.php:127
+msgid "Latest Posts (3 columns)"
+msgstr ""
+
+#: inc/block-patterns.php:150
+msgid "Latest Posts (3 columns bordered)"
+msgstr ""
+
+#: inc/block-patterns.php:174
+msgid "Content and Sidebar"
+msgstr ""
+
+#: inc/block-patterns.php:217
+msgid "2 Columns of Text and a full-width Cover"
+msgstr ""
+
+#: inc/block-patterns.php:227
+msgid "Build your site with blocks"
+msgstr ""
+
+#: inc/block-patterns.php:233
+msgid "Welcome to the Hansen full site editing theme."
+msgstr ""
+
+#: inc/block-patterns.php:237
+msgid ""
+"Everything on this website is built with blocks. Not only the page content, "
+"the entire site layout too."
+msgstr ""
+
+#: inc/block-patterns.php:241
+msgid ""
+"Make use of blocks to create all the various parts of your website. Design "
+"your website header, footer, pages, posts and more using the visual block "
+"editor. This is a modular approach with a great deal of flexibility."
+msgstr ""
+
+#: inc/block-patterns.php:248
+msgid "What is full site editing?"
+msgstr ""
+
+#: inc/block-patterns.php:253
+msgid ""
+"With the new global styles feature, you can easily edit your color scheme "
+"and typography, either globally across the whole site, or by block type. "
+"This differs from the previous customizer, as it gives you more control "
+"over the design and layout of your site."
+msgstr ""
+
+#: inc/block-patterns.php:262
+msgid "Learn More"
+msgstr ""
+
+#: inc/block-patterns.php:273
+msgid "Media and Text - Overlap"
+msgstr ""
+
+#: inc/block-patterns.php:279 inc/block-patterns.php:298
+#: inc/block-patterns.php:322
+msgid "Content here"
+msgstr ""
+
+#: inc/block-patterns.php:283 inc/block-patterns.php:302
+#: inc/block-patterns.php:326
+msgid "Replace with your own text"
+msgstr ""
+
+#: inc/block-patterns.php:292
+msgid "Media and Text - Angled"
+msgstr ""
+
+#: inc/block-patterns.php:311
+msgid "Cover with Offset Box"
+msgstr ""
+
+#: inc/block-patterns.php:335
+msgid "Click Here"
+msgstr ""
+
+#: inc/block-styles.php:15
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/block-styles.php:24
+msgid "Box Shadow 2"
+msgstr ""
+
+#: inc/block-styles.php:33
+msgid "Border"
+msgstr ""
+
+#: inc/block-styles.php:42
+msgid "Border 2"
+msgstr ""
+
+#: inc/block-styles.php:51 inc/block-styles.php:60
+msgid "With Icon"
+msgstr ""
+
+#: inc/block-styles.php:69
+msgid "With Tag Icon"
+msgstr ""
+
+#: inc/block-styles.php:78
+msgid "With Category Icon"
+msgstr ""
+
+#: inc/block-styles.php:87
+msgid "Read More Button"
+msgstr ""
+
+#: inc/block-styles.php:96
+msgid "Read More Button (Outline)"
+msgstr ""
+
+#: inc/block-styles.php:105
+msgid "Read More Arrow"
+msgstr ""
+
+#: inc/block-styles.php:114 inc/block-styles.php:123
+msgid "No Spacing"
+msgstr ""
+
+#: inc/block-styles.php:132
+msgid "Toggle to Open (Left)"
+msgstr ""
+
+#: inc/block-styles.php:141
+msgid "Toggle to Open (Right)"
+msgstr ""
+
+#: inc/block-styles.php:150
+msgid "Toggle to Open (Center)"
+msgstr ""
+
+#: inc/block-styles.php:159
+msgid "Hide on Mobile"
+msgstr ""
+
+#: inc/block-styles.php:168
+msgid "Show Only on Mobile"
+msgstr ""
+
+#: inc/block-styles.php:177
+msgid "Toggle to Open on Mobile (Left)"
+msgstr ""
+
+#: inc/block-styles.php:186
+msgid "Toggle to Open on Mobile (Right)"
+msgstr ""
+
+#: inc/block-styles.php:195
+msgid "Toggle to Open on Mobile (Center)"
+msgstr ""
+
+#: inc/block-styles.php:204
+msgid "Narrow Width"
+msgstr ""
+
+#: inc/block-styles.php:213
+msgid "Text Columns"
+msgstr ""
+
+#: inc/block-styles.php:222 inc/block-styles.php:231 inc/block-styles.php:240
+#: inc/block-styles.php:249 inc/block-styles.php:258 inc/block-styles.php:267
+msgid "No Margin"
+msgstr ""
+
+#: inc/block-styles.php:276
+msgid "Text Indent"
+msgstr ""
+
+#: inc/block-styles.php:285
+msgid "Angled Divider"
+msgstr ""
+
+#: inc/block-styles.php:294
+msgid "Overlapping Content (requires image fill)"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hansen"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://uxlthemes.com/theme/hansen/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A block template theme for full site editing, with various block styles and "
+"patterns."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "UXL Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://uxlthemes.com/"
+msgstr ""

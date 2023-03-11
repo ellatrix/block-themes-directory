@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/*
+Theme Name: Scandinavia
+Theme URI: https://lnpthemes.com/scandinavia-wordpress-theme/
+Author: Remon Lumapas
+Author URI: https://lnpthemes.com/
+Description: Scandinavian design is the inspiration for this WordPress theme: minimalist aesthetics, functional and muted, dark hues. It reminds us of the Nordic landscapes; beautiful, calm, and relaxing. Created on a solidly designed foundation, the Scandinavia theme adopts the vision that everyone deserves a truly unique website. The Scandinavia theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, so the colors, typography, and layout of every page on your site are configurable to suit your vision. It also includes block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Scandinavia will help you create a site that is uniquely yours.
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 7.4
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: scandinavia
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, blog
+Scandinavia WordPress Theme, (C) 2022
+*/
+a:where(:not(.wp-element-button)) { text-decoration: none; }
+
+a:hover, .wp-block-button__link:hover { opacity: 0.85; }
+
+.index main.wp-block-group .wp-block-post-featured-image, .archive main.wp-block-group .wp-block-post-featured-image { position: relative; z-index: 10; height: 30rem; }
+
+.index main.wp-block-group .wp-block-post-featured-image a img, .archive main.wp-block-group .wp-block-post-featured-image a img { height: 100%; left: 0; -o-object-fit: cover; object-fit: cover; position: absolute; top: 0; width: 100%; }
+
+.single .wp-block-post-content, .page .wp-block-post-content { padding-top: 4rem; margin-top: 0; }
+
+.single.page-template-page-no-title .wp-block-post-content, .page.page-template-page-no-title .wp-block-post-content { padding-top: 0; }
+
+.entry-content a { text-decoration: underline; text-decoration-thickness: 0.5px; font-weight: 600; }
+
+.justified, .wp-block-calendar .wp-calendar-nav { display: flex; gap: var(--wp--style--block-gap, 0.5em); flex-wrap: wrap; align-items: center; justify-content: space-between; }
+
+main .wp-block-group .wp-block-post-template li { margin-top: 0; }
+
+main .wp-block-group .wp-block-spacer, main .wp-block-group .wp-block-post-excerpt__excerpt { margin: 0; }
+
+main .wp-block-group .post-meta > *:first-child::before { content: ""; padding: 0; }
+
+main .wp-block-group .post-meta > *::before { content: "/"; padding: 0 0.5rem; }
+
+.wp-block-post-title a:hover, .wp-block-comments a:hover, .wp-block-post-author-name a:hover { opacity: 0.85; text-decoration: underline; }
+
+.post a:hover img, .wp-block-avatar a:hover img { opacity: 0.9; }
+
+.wp-block-button a { text-decoration: none; }
+
+.wp-block-button.is-style-outline a { border-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--primary) !important; }
+
+.wp-site-blocks > * + * { margin-block-start: 3.75rem; }
+
+.wp-site-blocks > * > *:not(.entry-content) { padding-right: inherit; padding-left: inherit; }
+
+.wp-site-blocks > * > .entry-content > *:not(.alignfull):not(.alignwide):not(table):not(ul):not(ol):not(hr):not(pre) { padding-right: inherit; padding-left: inherit; }
+
+.wp-site-blocks blockquote, .wp-site-blocks .wp-block-quote { padding-left: 1em !important; }
+
+.wp-block-query-pagination .wp-block-query-pagination-previous, .wp-block-query-pagination .wp-block-query-pagination-next { background-color: var(--wp--preset--color--foreground); border-radius: 0; color: var(--wp--preset--color--background); font-size: var(--wp--preset--font-size--medium); padding: calc(0.667em + 2px) calc(1.333em + 2px); }
+
+.wp-block-query-pagination .wp-block-query-pagination-numbers a { font-weight: 700; }
+
+.wp-block-site-title a { color: inherit; }
+
+.wp-block-button__link, .wp-block-button__link:active, .wp-block-button__link:focus, .wp-block-button__link:hover, .wp-block-button__link:visited { background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--background); }
+
+.wp-block-post-comments-form { margin-top: 3.75rem; }
+
+.wp-block-post-comments-form .comment-reply-title { font-weight: 700; font-size: var(--wp--preset--font-size--large) !important; margin-top: 0; }
+
+#header-default-block, #header-with-background-image-block { padding-right: 5vmin; padding-left: 5vmin; }
+
+#footer-default .wp-block-separator { opacity: 0.25; }
+
+#footer-default .wp-block-navigation__container { row-gap: 0.5rem; line-height: 1.25rem; }
+
+.featured-item-block h2, .featured-item-block p { color: var(--wp--preset--color--background) !important; }
+
+.featured-item-block .wp-block-button a { text-decoration: none; }
+
+.featured-item-block .wp-block-button.is-style-outline a { border-color: var(--wp--preset--color--background); color: var(--wp--preset--color--background) !important; }
+
+@media (max-width: 782px) { #footer-default .wp-block-columns > * + * { margin-top: 1rem; }
+  #footer-default ul { align-items: center !important; }
+  #footer-default ul li > a { padding-left: 0; }
+  #footer-default ul li > span { margin: 0; }
+  #footer-default ul:not(.is-vertical) { --navigation-layout-direction: column; --navigation-layout-justify: initial; --navigation-layout-align: flex-start; }
+  #footer-default .wp-block-navigation { display: flex; gap: var(--wp--style--block-gap, 0.5em); flex-wrap: wrap; align-items: center; justify-content: space-between; }
+  #footer-default .wp-block-navigation ~ p { text-align: center; }
+  #footer-default .wp-block-navigation__container { row-gap: 1.25rem; }
+  .md-text-center { text-align: center; }
+  .md-align-center { width: 100%; display: flex; align-items: center !important; justify-content: center !important; }
+  .wp-site-blocks > * + * { margin-block-start: 3.75rem; }
+  .wp-site-blocks > * > *:not(.entry-content) { padding-right: 5vmin; padding-left: 5vmin; }
+  .wp-site-blocks > * > .entry-content > *:not(.alignfull):not(.alignwide):not(table):not(ul):not(ol):not(hr):not(pre) { padding-right: 5vmin; padding-left: 5vmin; } }
+
+@media (max-width: 600px) { .wp-block-query-pagination { display: flex; flex-direction: column; }
+  .wp-block-query-pagination > * { flex: 1; } }
+
+.mt-0 { margin-top: 0rem !important; }
+
+.mr-0 { margin-right: 0rem !important; }
+
+.mb-0 { margin-bottom: 0rem !important; }
+
+.ml-0 { margin-left: 0rem !important; }
+
+.mt-1 { margin-top: 1rem !important; }
+
+.mr-1 { margin-right: 1rem !important; }
+
+.mb-1 { margin-bottom: 1rem !important; }
+
+.ml-1 { margin-left: 1rem !important; }
+
+.mt-2 { margin-top: 2rem !important; }
+
+.mr-2 { margin-right: 2rem !important; }
+
+.mb-2 { margin-bottom: 2rem !important; }
+
+.ml-2 { margin-left: 2rem !important; }
+
+.mt-3 { margin-top: 3rem !important; }
+
+.mr-3 { margin-right: 3rem !important; }
+
+.mb-3 { margin-bottom: 3rem !important; }
+
+.ml-3 { margin-left: 3rem !important; }
+
+.mt-4 { margin-top: 4rem !important; }
+
+.mr-4 { margin-right: 4rem !important; }
+
+.mb-4 { margin-bottom: 4rem !important; }
+
+.ml-4 { margin-left: 4rem !important; }
+
+.mt-5 { margin-top: 5rem !important; }
+
+.mr-5 { margin-right: 5rem !important; }
+
+.mb-5 { margin-bottom: 5rem !important; }
+
+.ml-5 { margin-left: 5rem !important; }
+
+.m-0 { margin: 0rem !important; }
+
+.m-1 { margin: 1rem !important; }
+
+.m-2 { margin: 2rem !important; }
+
+.m-3 { margin: 3rem !important; }
+
+.m-4 { margin: 4rem !important; }
+
+.m-5 { margin: 5rem !important; }
+
+.pt-0 { padding-top: 0rem !important; }
+
+.pr-0 { padding-right: 0rem !important; }
+
+.pb-0 { padding-bottom: 0rem !important; }
+
+.pl-0 { padding-left: 0rem !important; }
+
+.pt-1 { padding-top: 1rem !important; }
+
+.pr-1 { padding-right: 1rem !important; }
+
+.pb-1 { padding-bottom: 1rem !important; }
+
+.pl-1 { padding-left: 1rem !important; }
+
+.pt-2 { padding-top: 2rem !important; }
+
+.pr-2 { padding-right: 2rem !important; }
+
+.pb-2 { padding-bottom: 2rem !important; }
+
+.pl-2 { padding-left: 2rem !important; }
+
+.pt-3 { padding-top: 3rem !important; }
+
+.pr-3 { padding-right: 3rem !important; }
+
+.pb-3 { padding-bottom: 3rem !important; }
+
+.pl-3 { padding-left: 3rem !important; }
+
+.pt-4 { padding-top: 4rem !important; }
+
+.pr-4 { padding-right: 4rem !important; }
+
+.pb-4 { padding-bottom: 4rem !important; }
+
+.pl-4 { padding-left: 4rem !important; }
+
+.pt-5 { padding-top: 5rem !important; }
+
+.pr-5 { padding-right: 5rem !important; }
+
+.pb-5 { padding-bottom: 5rem !important; }
+
+.pl-5 { padding-left: 5rem !important; }
+
+.m-0 { padding: 0rem !important; }
+
+.m-1 { padding: 1rem !important; }
+
+.m-2 { padding: 2rem !important; }
+
+.m-3 { padding: 3rem !important; }
+
+.m-4 { padding: 4rem !important; }
+
+.m-5 { padding: 5rem !important; }

@@ -1,0 +1,124 @@
+/* --- Block Header Media & Text
+-------------------------------------------------------- */
+.header-media-with-social-wrap {
+    position: relative;
+}
+
+.content > .video-play  {
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.content > .video-play,
+.content.has-text-align-center > .video-play {
+    justify-content: center;
+    text-decoration: none;
+}
+
+.content.has-text-align-left > .video-play {
+    justify-content: flex-start;
+}
+
+.content.has-text-align-right > .video-play {
+    justify-content: flex-end;
+}
+
+.content > .video-play > span {
+    display: inline-block;
+    padding-left: 7px;
+}
+
+.modal.active .close {
+    left: unset;
+    top: 50px;
+    right: 50px;
+}
+
+/* When Media Left and Right */
+
+.wp-block-media-text:not(.is-stacked-on-mobile).has-media-on-the-right .wp-block-media-text__content  {
+    padding-left: 0;
+}
+
+.wp-block-media-text:not(.is-stacked-on-mobile):not(.has-media-on-the-right) .wp-block-media-text__content  {
+    padding-right: 0;
+}
+
+.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content  {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-media-title {
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.header-media {
+    padding-top: var(--wp--custom--spacing--wp-comment-horizontal);
+    padding-bottom: var(--wp--custom--spacing--wp-comment-horizontal);
+
+    
+    .wp-block-media-text__content {
+        max-width: 480px;
+    }
+}
+
+.wp-block-featured-slider .header-media {
+    padding-bottom: var(--wp--custom--spacing--wp-comment-vertical);
+    padding-top: var(--wp--custom--spacing--wp-comment-vertical);
+}
+
+/* Header Media With Search */
+.header-media-with-social,
+.header-media-with-social-wrap,
+.featured-slider-wrap {
+    .wp-block-social-links.header-media-social {
+        .wp-block-social-link {
+            .wp-block-social-link-anchor {
+                color: #ffffff;
+                &:hover,
+                &:focus {
+                    color:var(--wp--preset--color--text-link);
+                }
+            }
+            &:hover {
+                transform: none;
+            }
+
+            svg {
+                width: 1em;
+                height: 1em;
+            }
+            background-color: rgba(239, 239, 239, 0.2);
+            &:hover {
+                background-color: var(--wp--preset--color--color-light);
+            }
+        }
+        position: absolute;
+        bottom: var(--wp--custom--spacing--wp-post);
+        left: 7px;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 21px;
+        display: none;
+        z-index: 1;
+    }
+}
+
+/* For Editor View Header Media with Social */
+.header-media-with-social {
+    .block-editor-block-list__layout {
+        position: static;
+    }
+}
+
+/* --- Block  Header Media & Text Styles
+-------------------------------------------------------- */
+
+.wp-block-custom-header-media.wp-block-section.wp-block-cover {
+    .wp-block-cover__background.has-background-dim.has-background-dim-100 {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "version": 2,
+    "title": "Sea",
+    "settings": {
+        "color": {
+            "duotone": [
+                {
+                    "colors": [
+                        "#66A9DC",
+                        "#060606"
+                    ],
+                    "slug": "duotone-primary",
+                    "name": "Duotone-Primary"
+                },
+                {
+                    "colors": [
+                        "#88E8A1",
+                        "#060606"
+                    ],
+                    "slug": "secondary",
+                    "name": "Secondary"
+                },
+                {
+                    "colors": [
+                        "#F8D651",
+                        "#060606"
+                    ],
+                    "slug": "tertiary",
+                    "name": "Tertiary"
+                },
+                {
+                    "colors": [
+                        "#E97AF7",
+                        "#060606"
+                    ],
+                    "slug": "quarternary",
+                    "name": "Quarternary"
+                }
+            ],
+            "palette": [
+                {
+                    "slug": "primary",
+                    "color": "#2a3637",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#f3f3eb",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "foreground",
+                    "color": "black",
+                    "name": "Foreground"
+                },
+                {
+                    "slug": "background",
+                    "color": "lightblue",
+                    "name": "Background"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "border": {
+                    "color": "var:preset|color|foreground"
+                },
+                "color": {
+                    "background": "var:preset|color|foreground",
+                    "text": "var:preset|color|secondary"
+                }
+            }
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var:preset|color|primary"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+li#accordion-section-auto_car_dealership_go_pro {
+	display: block !important;
+}
+#accordion-section-auto_car_dealership_go_pro h3.accordion-section-title{
+    background: #23393D !important;
+    color: #fff !important;
+    font-size: 13px;
+    padding: 15px 15px 15px 10px;
+}
+a.button.button-secondary.alignright {
+    color: #23393d !important;
+    background: #f0c541 !important;
+    font-size: 14px;
+    margin: -5px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 2px 2px 0px 0px #fff !important;
+    font-size: 14px;
+}

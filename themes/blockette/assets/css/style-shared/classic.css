@@ -1,0 +1,34 @@
+/* Tweaks for classic features */
+.maybe-classic-editor .entry-content {
+	max-width: var(--wp--style--global--content-size);
+	margin: 0 auto;
+}
+
+.maybe-classic-editor .entry-content .aligncenter {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	float: none;
+	display: inherit;
+}
+
+.maybe-classic-editor .entry-content .alignright {
+	float: right;
+	margin-inline-start: var(--wp--custom--v-spacing);
+	margin-block-end: var(--wp--custom--v-spacing);
+}
+
+.maybe-classic-editor .entry-content .alignleft {
+	float: left;
+	margin-inline-end: var(--wp--custom--v-spacing);
+	margin-block-end: var(--wp--custom--v-spacing);
+}
+.maybe-classic-editor .entry-content {
+
+}
+
+
+/* CLassic "sticky" feature on query block */
+.tag-sticky, .tag-sticky-2 {
+	padding: var(--wp--custom--v-spacing, 1.25rem) var(--wp--custom--h-spacing, 2.375rem);
+	background: var(--wp--preset--color--secondary)
+}

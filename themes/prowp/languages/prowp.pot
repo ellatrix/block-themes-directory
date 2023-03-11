@@ -1,0 +1,524 @@
+# <!=Copyright (C) 2023 Themes Harbor
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: ProWP 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/prowp\n"
+"POT-Creation-Date: 2023-03-06 23:30:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.7\n"
+
+#: functions.php:111
+msgid "Unstyled"
+msgstr ""
+
+#: functions.php:121
+msgid "Highlighted marker"
+msgstr ""
+
+#: functions.php:131
+msgid "Inline and bordered items"
+msgstr ""
+
+#: functions.php:141 functions.php:151
+msgid "Frame with shadow"
+msgstr ""
+
+#: functions.php:179
+msgid "Page Layouts"
+msgstr ""
+
+#: functions.php:182
+msgid "Quotes"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "ProWP"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themesharbor.com/prowp-block-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"ProWP is a WordPress block theme built for Full Site Editing. The theme "
+"comes with clean and modern design, based on block patterns, which you can "
+"customize to build own unique website using WordPress Blocks Editor. Full "
+"Site Editing support allows to customize colors, typography, and the layout "
+"of every page on a website. ProWP is suitable for various types of website, "
+"such as business website, portfolio, single-page website, blog, "
+"construction site, education site, etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themes Harbor"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themesharbor.com"
+msgstr ""
+
+#: patterns/columns-grid-1.php:18 patterns/columns-grid-2.php:18
+#: patterns/columns-grid-3.php:18 patterns/columns-grid-4.php:18
+#: patterns/columns-portfolio-1.php:18 patterns/columns-posts-1.php:18
+#: patterns/columns-quotes-1.php:18 patterns/pages-about-1.php:58
+#: patterns/pages-about-1.php:153 patterns/pages-services-1.php:57
+#: patterns/pages-services-1.php:184 patterns/pages-team-1.php:152
+msgctxt "sample title for section"
+msgid "Section main title"
+msgstr ""
+
+#: patterns/columns-grid-1.php:40 patterns/columns-grid-1.php:61
+#: patterns/columns-grid-1.php:86 patterns/columns-grid-1.php:107
+#: patterns/columns-grid-2.php:31 patterns/columns-grid-2.php:45
+#: patterns/columns-grid-2.php:63 patterns/columns-grid-2.php:77
+#: patterns/columns-grid-3.php:36 patterns/columns-grid-3.php:66
+#: patterns/columns-grid-3.php:100 patterns/columns-grid-3.php:130
+#: patterns/columns-grid-4.php:36 patterns/columns-grid-4.php:64
+#: patterns/columns-grid-4.php:96 patterns/columns-grid-4.php:124
+#: patterns/columns-portfolio-1.php:38 patterns/columns-portfolio-1.php:63
+#: patterns/columns-portfolio-1.php:88 patterns/columns-text-1.php:23
+#: patterns/columns-text-2.php:23 patterns/columns-text-2.php:43
+#: patterns/pages-about-1.php:71 patterns/pages-about-1.php:85
+#: patterns/pages-about-1.php:103 patterns/pages-about-1.php:117
+#: patterns/pages-about-1.php:171 patterns/pages-about-1.php:201
+#: patterns/pages-about-1.php:235 patterns/pages-about-1.php:265
+#: patterns/pages-posts-2.php:33 patterns/pages-posts-2.php:63
+#: patterns/pages-posts-2.php:93 patterns/pages-resources-1.php:28
+#: patterns/pages-resources-1.php:48 patterns/pages-resources-1.php:73
+#: patterns/pages-resources-1.php:93 patterns/pages-resources-1.php:118
+#: patterns/pages-services-1.php:79 patterns/pages-services-1.php:100
+#: patterns/pages-services-1.php:125 patterns/pages-services-1.php:146
+#: patterns/pages-services-1.php:202 patterns/pages-services-1.php:230
+#: patterns/pages-services-1.php:262 patterns/pages-services-1.php:290
+#: patterns/pages-team-1.php:35 patterns/pages-team-1.php:72
+#: patterns/pages-team-1.php:108 patterns/pages-team-1.php:171
+#: patterns/pages-team-1.php:213 patterns/pages-team-1.php:258
+#: patterns/text-bio-1.php:22 patterns/text-columns-1.php:22
+#: patterns/text-list-1.php:33 patterns/text-list-1.php:61
+#: patterns/text-list-1.php:89
+msgctxt "sample title for section"
+msgid "Section title"
+msgstr ""
+
+#: patterns/header-cover-1.php:20
+msgctxt "sample title for section"
+msgid "Professional WordPress theme"
+msgstr ""
+
+#: patterns/columns-grid-1.php:43 patterns/pages-services-1.php:82
+msgctxt "sample description for section"
+msgid "Sample text, which can be edited using the Block editor, to fit your needs."
+msgstr ""
+
+#: patterns/columns-grid-1.php:64 patterns/pages-services-1.php:103
+msgctxt "sample description for section"
+msgid "Select main Group block of the section and click Modify to make changes."
+msgstr ""
+
+#: patterns/columns-grid-1.php:89 patterns/pages-services-1.php:128
+msgctxt "sample description for section"
+msgid "You can duplicate or remove items in the section  using the Block editor."
+msgstr ""
+
+#: patterns/columns-grid-1.php:110 patterns/pages-services-1.php:149
+msgctxt "sample description for section"
+msgid "After making changes, select main Group block again and click Done."
+msgstr ""
+
+#: patterns/columns-grid-1.php:125 patterns/pages-services-1.php:164
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a grid of items with image, title, and description. "
+"Also, the pattern displays a section title and description."
+msgstr ""
+
+#: patterns/columns-grid-2.php:34 patterns/columns-grid-3.php:44
+#: patterns/columns-grid-4.php:43 patterns/columns-portfolio-1.php:41
+#: patterns/columns-text-2.php:26 patterns/pages-about-1.php:74
+#: patterns/pages-about-1.php:179 patterns/pages-resources-1.php:31
+#: patterns/pages-resources-1.php:76 patterns/pages-services-1.php:209
+#: patterns/pages-team-1.php:43 patterns/pages-team-1.php:174
+#: patterns/pages-team-1.php:216 patterns/pages-team-1.php:261
+#: patterns/text-bio-1.php:30 patterns/text-columns-1.php:25
+msgctxt "sample description for section"
+msgid ""
+"Sample text, which can be edited using the Block editor, to fit your needs. "
+"The title can be edited as well, with an option to add a link."
+msgstr ""
+
+#: patterns/columns-grid-2.php:48 patterns/columns-grid-3.php:74
+#: patterns/columns-grid-4.php:71 patterns/columns-portfolio-1.php:91
+#: patterns/pages-about-1.php:88 patterns/pages-about-1.php:209
+#: patterns/pages-services-1.php:237 patterns/pages-team-1.php:116
+msgctxt "sample description for section"
+msgid ""
+"Use List View in the top toolbar of the Block editor to select main Group "
+"block of the section. Then, click Modify to make changes."
+msgstr ""
+
+#: patterns/columns-grid-2.php:66 patterns/columns-grid-3.php:108
+#: patterns/columns-grid-4.php:103 patterns/columns-portfolio-1.php:66
+#: patterns/columns-text-2.php:46 patterns/pages-about-1.php:106
+#: patterns/pages-about-1.php:243 patterns/pages-resources-1.php:51
+#: patterns/pages-resources-1.php:96 patterns/pages-services-1.php:269
+#: patterns/pages-team-1.php:80
+msgctxt "sample description for section"
+msgid ""
+"It is possible to duplicate or to remove items in the section using the "
+"Block editor. Also, change font sizes and colors if needed."
+msgstr ""
+
+#: patterns/columns-grid-2.php:80 patterns/columns-grid-3.php:138
+#: patterns/columns-grid-4.php:131 patterns/pages-about-1.php:120
+#: patterns/pages-about-1.php:273 patterns/pages-services-1.php:297
+msgctxt "sample description for section"
+msgid ""
+"Once finished making changes, select main Group block again and click Done "
+"to lock the newly made changes for the section."
+msgstr ""
+
+#: patterns/columns-grid-2.php:93 patterns/pages-about-1.php:133
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a grid of items with title and description. Also, the "
+"pattern displays main page title and description."
+msgstr ""
+
+#: patterns/columns-grid-3.php:157 patterns/pages-about-1.php:292
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a grid of items with image, title, sub-title, text "
+"and social links Also, the pattern displays a section title and description."
+msgstr ""
+
+#: patterns/columns-grid-4.php:149 patterns/pages-services-1.php:315
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a grid of items with image, title, text and link. "
+"Also, the pattern displays a main section title and description."
+msgstr ""
+
+#: patterns/columns-portfolio-1.php:104
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays three (3) showcase sections with images, titles and "
+"descriptions. The pattern also displays a section title and description."
+msgstr ""
+
+#: patterns/columns-posts-1.php:46
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays latest four (4) posts. Each post displays title, date "
+"and categories. The pattern also displays a section title and description."
+msgstr ""
+
+#: patterns/columns-quotes-1.php:38 patterns/quote-1.php:16
+msgctxt "sample description for section"
+msgid ""
+"WordPress is software designed for everyone, emphasizing accessibility, "
+"performance, security, and ease of use. We believe great software should "
+"work with minimum set up, so you can focus on sharing your story, product, "
+"or services freely."
+msgstr ""
+
+#: patterns/columns-quotes-1.php:60 patterns/header-columns-2.php:29
+#: patterns/pages-services-1.php:30
+msgctxt "sample description for section"
+msgid ""
+"The basic WordPress software is simple and predictable so you can easily "
+"get started. It also offers powerful features for growth and success."
+msgstr ""
+
+#: patterns/columns-quotes-1.php:82
+msgctxt "sample description for section"
+msgid ""
+"The WordPress community is welcoming and inclusive. Our contributors "
+"passion drives the success of WordPress which, in turn, helps you reach "
+"your goals."
+msgstr ""
+
+#: patterns/columns-quotes-1.php:85
+msgctxt "sample description for section"
+msgid "WordPress is open source software that is both free and priceless."
+msgstr ""
+
+#: patterns/columns-quotes-1.php:98
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays list of three (3) quotes with images and captions. "
+"The pattern also displays a section title and description."
+msgstr ""
+
+#: patterns/columns-text-1.php:26 patterns/pages-resources-1.php:121
+msgctxt "sample description for section"
+msgid ""
+"Sample text, which can be edited using the Block editor, to fit your needs. "
+"The title can be edited as well, with an option to add a link. It is "
+"possible to duplicate or to remove items in the section."
+msgstr ""
+
+#: patterns/cover-cta-1.php:20
+msgctxt "sample description for section"
+msgid "Start using a professional WordPress theme by Themes Harbor"
+msgstr ""
+
+#: patterns/header-columns-1.php:37 patterns/pages-about-1.php:38
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a page header section, with main page title, short "
+"sub-title text, image, and additional content for the page."
+msgstr ""
+
+#: patterns/header-columns-2.php:36 patterns/pages-services-1.php:37
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a page header section, with main page title, "
+"sub-title, image, text, and additional content for the page."
+msgstr ""
+
+#: patterns/header-cover-1.php:25
+msgctxt "sample description for section"
+msgid ""
+"Start using a professional WordPress theme by Themes Harbor to improve "
+"online presence, and take brand to next level"
+msgstr ""
+
+#: patterns/pages-team-1.php:138 patterns/pages-team-1.php:293
+msgctxt "sample description for section"
+msgid ""
+"This pattern displays a page header section, with main page title, "
+"sub-title text, and additional content for the page."
+msgstr ""
+
+#: patterns/columns-grid-3.php:39 patterns/columns-grid-3.php:69
+#: patterns/columns-grid-3.php:103 patterns/columns-grid-3.php:133
+#: patterns/pages-about-1.php:174 patterns/pages-about-1.php:204
+#: patterns/pages-about-1.php:238 patterns/pages-about-1.php:268
+#: patterns/pages-team-1.php:38 patterns/pages-team-1.php:75
+#: patterns/pages-team-1.php:111 patterns/text-bio-1.php:25
+msgctxt "sample sub title for section"
+msgid "Short sub-title text"
+msgstr ""
+
+#: patterns/columns-grid-4.php:46 patterns/columns-grid-4.php:74
+#: patterns/columns-grid-4.php:106 patterns/columns-grid-4.php:134
+#: patterns/pages-posts-1.php:77 patterns/pages-services-1.php:212
+#: patterns/pages-services-1.php:240 patterns/pages-services-1.php:272
+#: patterns/pages-services-1.php:300
+msgctxt "sample label for link"
+msgid "Learn more"
+msgstr ""
+
+#: patterns/cover-cta-1.php:25
+msgctxt "sample label for link"
+msgid "Get started today"
+msgstr ""
+
+#: patterns/columns-text-1.php:31 patterns/columns-text-2.php:31
+#: patterns/columns-text-2.php:51 patterns/pages-posts-2.php:51
+#: patterns/pages-posts-2.php:81 patterns/pages-posts-2.php:111
+#: patterns/pages-resources-1.php:36 patterns/pages-resources-1.php:56
+#: patterns/pages-resources-1.php:81 patterns/pages-resources-1.php:101
+#: patterns/pages-resources-1.php:126
+msgctxt "sample label for call to action"
+msgid "Call to action link"
+msgstr ""
+
+#: patterns/pages-team-1.php:195 patterns/pages-team-1.php:240
+#: patterns/pages-team-1.php:282 patterns/text-columns-1.php:46
+msgctxt "sample label for call to action"
+msgid "Call to action"
+msgstr ""
+
+#: patterns/header-columns-1.php:21 patterns/header-columns-2.php:23
+#: patterns/pages-about-1.php:22 patterns/pages-services-1.php:24
+msgctxt "sample sub-title for section"
+msgid "Sub-title for the page, to share mission, slogan, etc"
+msgstr ""
+
+#: patterns/pages-posts-2.php:20
+msgctxt "sample sub-title for section"
+msgid ""
+"This pattern uses multiple Posts List blocks, by default it shows all "
+"recent posts but it is possible to filter by category or tag"
+msgstr ""
+
+#: patterns/pages-team-1.php:24 patterns/pages-team-1.php:159
+msgctxt "sample sub-title for section"
+msgid "Additional sub-title with"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgctxt "Error title for a webpage that is not found"
+msgid "404: Page not found"
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgctxt "Message to convey that a webpage could not be found"
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-404.php:32
+msgctxt "Example title for a section"
+msgid "Section title"
+msgstr ""
+
+#: patterns/hidden-archive-sidebar.php:14
+#: patterns/hidden-archive-sidebar.php:24 patterns/hidden-search-sidebar.php:14
+#: patterns/hidden-search-sidebar.php:24 patterns/pages-posts-1.php:69
+#: patterns/pages-posts-1.php:87 patterns/pages-posts-2.php:132
+#: patterns/pages-posts-2.php:143 patterns/pages-posts-2.php:169
+msgctxt "Example title for a section"
+msgid "Sidebar section title"
+msgstr ""
+
+#: patterns/hidden-404.php:35
+msgctxt "Help text for sidebar area shown on 404 page"
+msgid ""
+"The 404 template appears when a user lands on a page that does not exist. "
+"Use the sidebar to help the user navigate the website with additional info "
+"or links."
+msgstr ""
+
+#: patterns/hidden-archive-sidebar.php:17
+msgctxt "Help text for sidebar area shown on archive pages"
+msgid ""
+"The Archive template shows a list of posts grouped by category, author, "
+"date, tag, etc. The template includes a sidebar."
+msgstr ""
+
+#: patterns/hidden-archive-sidebar.php:27
+msgctxt "Help text for sidebar area shown on archive pages"
+msgid ""
+"Use the Block editor to modify the sidebar section, and add as many "
+"additional content to the sidebar as needed."
+msgstr ""
+
+#: patterns/hidden-post-meta.php:14
+msgctxt "Label for a list of post categories"
+msgid "Posted in:"
+msgstr ""
+
+#: patterns/hidden-post-meta.php:22
+msgctxt "Label for a list of post tags"
+msgid "Tagged with:"
+msgstr ""
+
+#: patterns/hidden-query-no-results.php:12
+msgctxt "Message explaining that there are no results returned from Query block"
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/hidden-search-sidebar.php:17
+msgctxt "Help text for sidebar area shown on search pages"
+msgid ""
+"The Search template is displayed when using a search form. Depending on the "
+"search term, the template displays either a list of found pages or a "
+"message with search info."
+msgstr ""
+
+#: patterns/hidden-search-sidebar.php:27
+msgctxt "Help text for sidebar area shown on search pages"
+msgid ""
+"Use the Block editor to modify the sidebar section, and add as many "
+"additional content to the sidebar as needed."
+msgstr ""
+
+#: patterns/pages-posts-1.php:74 patterns/pages-posts-1.php:90
+msgctxt "Help text for sidebar area"
+msgid ""
+"Use the Block editor to modify the sidebar section, and add as many "
+"additional content to the sidebar as needed."
+msgstr ""
+
+#: patterns/pages-posts-2.php:123
+msgctxt "Example caption for a section"
+msgid ""
+"Add optional caption. It is possible to use ads instead of image in the "
+"sidebar."
+msgstr ""
+
+#: patterns/pages-posts-2.php:148 patterns/pages-posts-2.php:151
+#: patterns/pages-posts-2.php:154 patterns/pages-posts-2.php:157
+#: patterns/pages-team-1.php:181 patterns/pages-team-1.php:184
+#: patterns/pages-team-1.php:223 patterns/pages-team-1.php:226
+#: patterns/pages-team-1.php:229 patterns/pages-team-1.php:268
+#: patterns/pages-team-1.php:271 patterns/text-columns-1.php:32
+#: patterns/text-columns-1.php:35
+msgctxt "Example label for a section"
+msgid "List item"
+msgstr ""
+
+#: patterns/pages-resources-1.php:15
+msgctxt "sample text for section"
+msgid "This pattern displays paragraph and grid with mixed layout."
+msgstr ""
+
+#: patterns/text-list-1.php:14
+msgctxt "sample text for section"
+msgid "Example of bold text."
+msgstr ""
+
+#: patterns/text-list-1.php:14
+msgctxt "sample text for section"
+msgid ""
+"This is a pre-made pattern layout that displays Paragraph block with text "
+"as introduction. Below, the pattern displays list with Columns with text "
+"and media."
+msgstr ""
+
+#: patterns/text-list-1.php:36
+msgctxt "sample text for section"
+msgid ""
+"This is example of section description text. The text has custom color, "
+"which can be changed in Color settings in Settings Sidebar."
+msgstr ""
+
+#: patterns/text-list-1.php:64
+msgctxt "sample text for section"
+msgid ""
+"Use editor options to customize content of this pattern by Themes Harbor. "
+"WordPress provides many options by default."
+msgstr ""
+
+#: patterns/text-list-1.php:92
+msgctxt "sample text for section"
+msgid ""
+"The title can be edited as well, with an option to add a link. It is "
+"possible to duplicate or to remove items in the section."
+msgstr ""
+
+#: patterns/pages-team-1.php:24 patterns/pages-team-1.php:159
+msgctxt "Example text with custom color"
+msgid "highlighted text"
+msgstr ""
+
+#: patterns/quote-1.php:32
+msgctxt "sample name for quote"
+msgid "Themes Harbor"
+msgstr ""
+
+#: patterns/quote-1.php:35
+msgctxt "sample caption for quote"
+msgid "WordPress Developer"
+msgstr ""
+
+#: patterns/site-footer-default.php:30
+#: patterns/site-footer-links-oriented.php:26
+msgctxt "Sample copyright year for footer area"
+msgid "© 2022"
+msgstr ""
+
+#: patterns/site-header-search-oriented.php:33
+msgctxt "Sample text for link shown in site header with search form"
+msgid "Go back to home page"
+msgstr ""

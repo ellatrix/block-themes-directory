@@ -1,0 +1,137 @@
+.spice-fse-nav-tabs {
+    margin: 30px 0 0;
+    border-bottom: 1px solid #dedede;
+}
+.spice-fse-nav-tabs:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+.spice-fse-nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    display: block;
+}
+.spice-fse-nav-tabs > li.active > a, .spice-fse-nav-tabs > li.active > a:focus, .spice-fse-nav-tabs > li.active > a:hover {
+    background: #fff;
+    border-bottom-color: #fff;
+    color: #00a4e7;
+    border-bottom-color: transparent;
+}
+.spice-fse-nav-tabs li:last-child .nav-tab {
+    border-right: 1px solid #ccc;
+}
+.spice-fse-nav-tabs > li.spice-fse-w-red-tab > a {
+    color: red;
+    font-weight: bold;
+}
+.spice-fse-tab-content {
+    background-color: #fff;
+}
+.spice-fse-tab-content > .tab-pane {
+    display: none;
+}
+.spice-fse-tab-content > .active {
+    display: block;
+}
+.spice-fse-tab-pane.active {
+    display: block;
+}
+.spice-fse-tab-content img {
+    max-width: 100%;
+}
+.spice-fse-pane-first-half {
+    border-left: none;
+}
+.spice-fse-pane-center {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.spice-fse-tab-center {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.spice-fse-info-title {
+    font-size: 28px !important;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 50px !important;
+    font-weight: 700 !important;
+}
+.theme-welcome-inner p{font-size:16px;}
+.theme-welcome-inner .spice-fse-page h2{font-weight:700;}
+.spice-fse-clear {
+    clear: both;
+}
+.spice-fse-child-theme-container {
+    position: relative;
+}
+.spice-fse-action-required-box {
+    position: relative;
+}
+.spice-fse-dismiss-required-action {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    background-color: #D24A4A;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.spice-fse-dismiss-required-action:hover {
+    background-color: #CC8C8C;
+}
+
+/*Breakpoints*/
+
+@media (max-width: 782px) {
+   .spice-fse-tab-content h1 {
+    line-height: 30px;
+  } 
+}
+
+a:focus{ box-shadow:none !important; }
+
+.theme-info-wrap h3 { margin: 1.25em 0 .6em; }
+.theme-info-wrap h3 > i { line-height: 1.2; margin-right: 15px }
+
+/* Extra css */
+.spice-fse-page {
+border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    margin-bottom: 30px;
+}
+.spice-fse-page .spice-fse-page-top {
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    padding: 12px 15px;
+    font-weight: 700;
+}
+.spice-fse-page .spice-fse-page-content {
+    padding: 15px 15px 0;
+    overflow: auto;
+}
+.spice-fse-page-list-flex {
+    list-style: none;
+    margin: -15px;
+    box-sizing: border-box;
+}
+.spice-fse-page-list-flex li {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0px;
+    border-right: 1px solid #eee;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+.spice-fse-page-list-flex a{
+text-decoration: none;
+}

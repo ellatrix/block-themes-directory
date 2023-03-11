@@ -1,0 +1,72 @@
+.editor-post-title .editor-post-title__input,
+.wp-block {
+	font-family: 'Open Sans';
+}
+.wp-block-button__link {
+	border: 2px solid;
+	border-color: #111111;
+	border-radius: 6px;
+	background: #111111;
+	color: white;
+	line-height: 1;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: all 0.5s ease 0s;
+	font-weight: 700;
+}
+.wp-block-group.site-branding {
+	background-color: #111111;
+	text-align: center !important;
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+}
+
+.site-branding .site-title,
+.site-branding .site-description,
+.has-text-shadow-outline {
+	text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111 !important;
+}
+
+.site-branding a {
+	text-decoration: none;
+}
+
+code {
+	font-size: 1em;
+}
+
+@media screen and (min-width: 1400px) {
+	.site-branding {
+		margin: 0 auto;
+	}
+}
+
+.light-heading {
+	font-weight: 300 !important;
+	text-align: center;
+}
+
+.wp-block-verse {
+	padding: 1.6em;
+}
+
+pre {
+	line-height: 1.6;
+}
+.fact-file, .bh-fact-file {
+	border: 3px solid #111111;
+	border-radius: 15px;
+}
+.menu-item a, a.wp-block-navigation-item__content {
+	padding: 8px 16px !important;
+}
+.wp-block-navigation__container,
+.wp-block-navigation .wp-block-page-list {
+	gap: 0px;
+}
+.wp-block-post time::before, .wp-block-post-date time::before {
+	content: '\f017';
+	font-weight: 400;
+	font-family: 'Font Awesome 5 Free';
+	padding-right: 5px;
+}

@@ -1,0 +1,365 @@
+# Copyright (C) 2022 ThemeGrill
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: eStory 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/eStory\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-13T12:16:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: estory\n"
+
+#. Theme Name of the theme
+#: inc/admin/class-estory-welcome-notice.php:45
+msgid "eStory"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/estory/"
+msgstr ""
+
+#. Description of the theme
+msgid "eStory is the first FSE/block theme that provides a comprehensive solution for your blogging website. It is suitable for any kind of blog niches: personal, corporate, fashion, food, lifestyle, travel, news, affiliate, etc. Optimized for SEO and speed, and it is fast, light-weighted, GDPR compliant, translation & RTL ready. Grow your profit with advertisement spaces. Patterns available allow you to give unique look to your site as you need. eStory uses available Gutenberg blocks and makes the experience seamless. Responsive and clean design provides great readability on any screen size and hence engages your readers to your content. Import the exclusive demo site and publish your blog posts instantly. CHECK OUT THE DEMO SITES HERE: https://themegrilldemos.com/estory | THE DOCUMENTATION: https://docs.themegrill.com/estory | CONTACT FOR SUPPORT: https://themegrill.com/contact/"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeGrill"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themegrill.com/"
+msgstr ""
+
+#: inc/admin/class-estory-admin.php:33
+msgid "Processing..."
+msgstr ""
+
+#: inc/admin/class-estory-admin.php:33
+msgid "Activating..."
+msgstr ""
+
+#: inc/admin/class-estory-admin.php:33
+msgid "Redirecting..."
+msgstr ""
+
+#: inc/admin/class-estory-welcome-notice.php:25
+msgid "Get started with eStory"
+msgstr ""
+
+#: inc/admin/class-estory-welcome-notice.php:50
+msgid "Welcome! Thank you for choosing eStory!"
+msgstr ""
+
+#: inc/admin/class-estory-welcome-notice.php:55
+msgid "Clicking the button will install and activate the ThemeGrill demo importer plugin."
+msgstr ""
+
+#: inc/admin/class-estory-welcome-notice.php:69
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/class-estory-welcome-notice.php:73
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/patterns/404/default.php:3
+#: inc/patterns/contact/default.php:3
+#: inc/patterns/home/default.php:3
+#: inc/patterns/query/default.php:3
+#: inc/patterns/search/style-1.php:3
+#: inc/patterns/sidebar/default.php:3
+msgid "Default"
+msgstr ""
+
+#: inc/patterns/404/default.php:12
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: inc/patterns/404/default.php:16
+msgid "Sorry, but the page you are looking for is not found. Please, make sure you have typed the current URL."
+msgstr ""
+
+#: inc/patterns/404/default.php:21
+msgid "Go to Home Page"
+msgstr ""
+
+#: inc/patterns/contact/default.php:6
+msgid "Jeniffer Fox"
+msgstr ""
+
+#: inc/patterns/contact/default.php:12
+msgid "Email"
+msgstr ""
+
+#: inc/patterns/contact/default.php:16
+msgid "info@estory.com"
+msgstr ""
+
+#: inc/patterns/contact/default.php:22
+msgid "Phone"
+msgstr ""
+
+#: inc/patterns/contact/default.php:26
+msgid "+88-256-458-8999"
+msgstr ""
+
+#: inc/patterns/contact/default.php:32
+msgid "Fax"
+msgstr ""
+
+#: inc/patterns/contact/default.php:36
+msgid "+1-525-698-5896"
+msgstr ""
+
+#: inc/patterns/contact/default.php:42
+msgid "Address"
+msgstr ""
+
+#: inc/patterns/contact/default.php:46
+msgid "Mars 9 Str. 589 Leipzig, Germany"
+msgstr ""
+
+#: inc/patterns/footer/default.php:3
+msgid "Footer Default"
+msgstr ""
+
+#: inc/patterns/footer/default.php:39
+#: inc/patterns/footer/style-1.php:31
+#: inc/patterns/home/default.php:309
+#: inc/patterns/home/style-1.php:310
+#: inc/patterns/home/style-2.php:226
+msgid "Copyright © 2022 | "
+msgstr ""
+
+#: inc/patterns/footer/default.php:39
+#: inc/patterns/footer/style-1.php:31
+#: inc/patterns/home/default.php:309
+#: inc/patterns/home/style-1.php:310
+#: inc/patterns/home/style-2.php:226
+msgid "Built with eStory by ThemeGrill"
+msgstr ""
+
+#: inc/patterns/footer/style-1.php:3
+#: inc/patterns/home/style-1.php:3
+#: inc/patterns/search/default.php:3
+msgid "Style 1"
+msgstr ""
+
+#: inc/patterns/footer/style-1.php:10
+msgid "Vestibulum ac diam sit amet quam vehicula elentum sed sit ame porttitor tincidunt."
+msgstr ""
+
+#: inc/patterns/header/default.php:3
+msgid "Header Default"
+msgstr ""
+
+#: inc/patterns/home/default.php:44
+#: inc/patterns/home/style-1.php:44
+#: inc/patterns/home/style-2.php:44
+#: inc/patterns/search/default.php:9
+#: inc/patterns/search/style-1.php:7
+msgid "Discover Your Story"
+msgstr ""
+
+#: inc/patterns/home/default.php:60
+#: inc/patterns/home/style-1.php:61
+#: inc/patterns/home/style-2.php:61
+msgid "Brilliant Hairstyle You Must try on Your Party"
+msgstr ""
+
+#: inc/patterns/home/default.php:65
+#: inc/patterns/home/style-1.php:66
+#: inc/patterns/home/style-2.php:66
+msgid "Explore"
+msgstr ""
+
+#: inc/patterns/home/default.php:75
+#: inc/patterns/home/style-1.php:76
+#: inc/patterns/home/style-2.php:76
+msgid "Coding"
+msgstr ""
+
+#: inc/patterns/home/default.php:80
+#: inc/patterns/home/style-1.php:81
+#: inc/patterns/home/style-2.php:81
+msgid "Full Site Editing Support"
+msgstr ""
+
+#: inc/patterns/home/default.php:84
+#: inc/patterns/home/style-1.php:85
+#: inc/patterns/home/style-2.php:85
+msgid "Quet metus nunc risus purus, dolor pretium egestas bibendum. Et, lorem quam…"
+msgstr ""
+
+#: inc/patterns/home/default.php:88
+#: inc/patterns/home/default.php:108
+#: inc/patterns/home/default.php:128
+#: inc/patterns/home/style-1.php:89
+#: inc/patterns/home/style-1.php:109
+#: inc/patterns/home/style-1.php:129
+#: inc/patterns/home/style-2.php:89
+#: inc/patterns/home/style-2.php:109
+#: inc/patterns/home/style-2.php:129
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/home/default.php:95
+#: inc/patterns/home/style-1.php:96
+#: inc/patterns/home/style-2.php:96
+msgid "Responsive design"
+msgstr ""
+
+#: inc/patterns/home/default.php:100
+#: inc/patterns/home/style-1.php:101
+#: inc/patterns/home/style-2.php:101
+msgid "Fully Responsive Design"
+msgstr ""
+
+#: inc/patterns/home/default.php:104
+#: inc/patterns/home/style-1.php:105
+#: inc/patterns/home/style-2.php:105
+msgid "Gestas Quet metus nunc risus purus, dolor pretium egestas bibendum. Endum et, lorem quam..."
+msgstr ""
+
+#: inc/patterns/home/default.php:115
+#: inc/patterns/home/style-1.php:116
+#: inc/patterns/home/style-2.php:116
+msgid "Rocket"
+msgstr ""
+
+#: inc/patterns/home/default.php:120
+#: inc/patterns/home/style-1.php:121
+#: inc/patterns/home/style-2.php:121
+msgid "Super Fast Load time"
+msgstr ""
+
+#: inc/patterns/home/default.php:124
+#: inc/patterns/home/style-1.php:125
+#: inc/patterns/home/style-2.php:125
+msgid "Muse qaduet metus nunc risus rt tresust purus, dolor pretium egestas bibendum. Et, lorem quam..."
+msgstr ""
+
+#: inc/patterns/home/default.php:193
+#: inc/patterns/home/style-1.php:154
+#: inc/patterns/sidebar/default.php:14
+msgid "Jennifer Fox"
+msgstr ""
+
+#: inc/patterns/home/default.php:197
+#: inc/patterns/home/style-1.php:158
+#: inc/patterns/sidebar/default.php:18
+msgid "Blogger"
+msgstr ""
+
+#: inc/patterns/home/default.php:213
+#: inc/patterns/home/style-1.php:174
+#: inc/patterns/sidebar/default.php:34
+msgid "Categories"
+msgstr ""
+
+#: inc/patterns/home/default.php:225
+#: inc/patterns/home/style-1.php:186
+#: inc/patterns/sidebar/default.php:46
+msgid "Instagram"
+msgstr ""
+
+#: inc/patterns/home/style-2.php:3
+msgid "Style 2"
+msgstr ""
+
+#: inc/register-block-patterns.php:22
+msgid "eStory - Headers"
+msgstr ""
+
+#: inc/register-block-patterns.php:23
+msgid "eStory - Footers"
+msgstr ""
+
+#: inc/register-block-patterns.php:24
+msgid "eStory - Home"
+msgstr ""
+
+#: inc/register-block-patterns.php:25
+msgid "eStory - Query"
+msgstr ""
+
+#: inc/register-block-patterns.php:26
+msgid "eStory - Search Bar"
+msgstr ""
+
+#: inc/register-block-patterns.php:27
+msgid "eStory - 404"
+msgstr ""
+
+#: inc/register-block-patterns.php:28
+msgid "eStory - Contact"
+msgstr ""
+
+#: inc/register-block-patterns.php:29
+msgid "eStory - Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Serif"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Monospace"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Marcellus"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Home sidebar left"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Home no sidebars"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""

@@ -1,0 +1,5 @@
+div.is-style-ballyhoo-site-logo-rounded-square a img.custom-logo,
+div.is-style-ballyhoo-site-logo-rounded-square img.custom-logo,
+div.is-style-ballyhoo-logo-rounded-square img.custom-logo {
+	border-radius: 15% !important;
+}

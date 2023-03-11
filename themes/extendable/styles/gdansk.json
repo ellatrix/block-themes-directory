@@ -1,0 +1,188 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Gdansk",
+	"version": 2,
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": ["#fcece8", "#0c0c0b"],
+					"slug": "foreground-and-background",
+					"name": "Foreground and background"
+				},
+				{
+					"colors": ["#0c0c0b", "#FBCBCB"],
+					"slug": "background-and-primary",
+					"name": "Background and primary"
+				},
+				{
+					"colors": ["#0c0c0b", "#a53915"],
+					"slug": "background-and-secondary",
+					"name": "Background and secondary"
+				},
+				{
+					"colors": ["#0c0c0b", "#083021"],
+					"slug": "background-and-tertiary",
+					"name": "Background and tertiary"
+				}
+			],
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#fcece8",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#0c0c0b",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#f5ac8e",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#9d2c1e",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#50140d",
+					"name": "Background Alt"
+				}
+			]
+		},
+		"custom": {
+			"elements": {
+				"button": {
+					"color": {
+						"text": "var(--wp--preset--color--background)"
+					}
+				}
+			}
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Inter\", sans-serif",
+					"name": "Body (Inter)",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Inter/Inter-VariableFont_slnt,wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Montserrat\", sans-serif",
+					"name": "Headings (Montserrat)",
+					"slug": "heading",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Montserrat/Montserrat-VariableFont_wght.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"color": {
+					"text": "var(--wp--preset--color--background)"
+				}
+			},
+			"core/comments-title": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)"
+				}
+			},
+			"core/pullquote": {
+				"border": {
+					"color": "var(--wp--preset--color--primary)",
+					"width": "7px 0"
+				},
+				"color": {
+					"background": "transparent"
+				}
+			},
+			"core/query-pagination-next": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"core/query-pagination-numbers": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"core/query-pagination-previous": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"width": "0 0 0 5px"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"letterSpacing": "0.03em"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)",
+					"letterSpacing": "0"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)",
+					"letterSpacing": "0.01em"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--bold)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--bold)",
+					"letterSpacing": "0.02em"
+				}
+			}
+		}
+	}
+}

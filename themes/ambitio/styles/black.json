@@ -1,0 +1,39 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#505050",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#303030",
+					"name": "Secondary"
+				},
+				{
+					"slug": "light-background",
+					"color": "#fafafa",
+					"name": "Light Background"
+				},
+				{
+					"slug": "dark-background",
+					"color": "#010101",
+					"name": "Dark Background"
+				},
+				{
+					"slug": "light-gray",
+					"color": "#c0c0c0",
+					"name": "Light Gray"
+				},
+				{
+					"slug": "dark-gray",
+					"color": "#808080",
+					"name": "Dark Gray"
+				}
+			]
+		}
+	}
+}

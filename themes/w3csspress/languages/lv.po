@@ -1,0 +1,1190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: w3csspress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 15:45+0000\n"
+"PO-Revision-Date: 2022-10-31 15:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=n%10==0||( n%100 >= 11 && n%100<=19)? 0 :"
+"(n%10==1 && n%100!=11 ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.0.3\n"
+"X-Domain: w3csspress"
+
+#. border and color
+#: classes/class-w3csspress-constants.php:222
+#, fuzzy, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. arrow
+#. arrow and text
+#: attachment.php:62 template-parts/nav/below.php:19
+#, fuzzy, php-format
+msgid "%s older"
+msgstr "%s vecāks"
+
+#: inc/patterns/notfound.php:22
+#, fuzzy
+msgid "404"
+msgstr "404"
+
+#: inc/block-patterns.php:23
+#, fuzzy
+msgid "404 not found"
+msgstr "404 nav atrasts"
+
+#: inc/patterns/query.php:43
+#, fuzzy
+msgid "add text or blocks to display when the query returns no results."
+msgstr ""
+"pievienot tekstu vai blokus, kas tiek rādīti, ja pēc vaicājuma netiek iegūti "
+"rezultāti."
+
+#: classes/class-w3csspress-constants.php:36
+#, fuzzy
+msgid "all borders"
+msgstr "visas robežas"
+
+#: classes/class-w3csspress-constants.php:57
+#, fuzzy
+msgid "amber"
+msgstr "dzintars"
+
+#. color of the container
+#: inc/patterns/badge.php:30
+#, fuzzy, php-format
+msgid "badge %s"
+msgstr "žetons %s"
+
+#: inc/block-patterns.php:24
+#, fuzzy
+msgid "badges"
+msgstr "nozīmītes"
+
+#: inc/patterns/navigation.php:37
+#, fuzzy
+msgid "basic navigation"
+msgstr "pamata navigācija"
+
+#: classes/class-w3csspress-constants.php:58
+#, fuzzy
+msgid "black"
+msgstr "melns"
+
+#: classes/class-w3csspress-constants.php:59
+#, fuzzy
+msgid "blue"
+msgstr "zils"
+
+#: classes/class-w3csspress-constants.php:60
+#, fuzzy
+msgid "blue grey"
+msgstr "zili pelēks"
+
+#. border and direction
+#: classes/class-w3csspress-constants.php:27
+#, fuzzy, php-format
+msgid "border %s"
+msgstr "robeža %s"
+
+#: inc/images.php:134
+#, fuzzy
+msgid "border images on the page."
+msgstr "lappusē esošajiem robežattēliem."
+
+#: inc/patterns/image.php:58
+#, fuzzy
+msgid "bordered image"
+msgstr "norobežots attēls"
+
+#: inc/images.php:133
+#, fuzzy
+msgid "bordered images"
+msgstr "attēli ar apmalēm"
+
+#: inc/block-patterns.php:25
+#, fuzzy
+msgid "borders"
+msgstr "robežas"
+
+#: classes/class-w3csspress-constants.php:204
+#, fuzzy
+msgid "bottom"
+msgstr "apakšā"
+
+#: classes/class-w3csspress-constants.php:61
+#, fuzzy
+msgid "brown"
+msgstr "brūns"
+
+#. color of the card
+#: inc/patterns/card.php:40
+#, fuzzy, php-format
+msgid "card %s"
+msgstr "karte %s"
+
+#: inc/patterns/image.php:70
+#, fuzzy
+msgid "card image"
+msgstr "kartes attēls"
+
+#: inc/images.php:145
+#, fuzzy
+msgid "card images"
+msgstr "kartes attēli"
+
+#. color of the card
+#: inc/patterns/card.php:54
+#, fuzzy, php-format
+msgid "card-2 %s"
+msgstr "karte-2 %s"
+
+#. color of the card
+#: inc/patterns/card.php:68
+#, fuzzy, php-format
+msgid "card-4 %s"
+msgstr "karte-4 %s"
+
+#: inc/block-patterns.php:26 inc/patterns/card.php:26
+#, fuzzy
+msgid "cards"
+msgstr "kartes"
+
+#: template-parts/entry/footer.php:16
+#, fuzzy
+msgid "categories: "
+msgstr "kategorijas"
+
+#. index for headings
+#: inc/colors.php:143
+#, fuzzy, php-format
+msgid "change color of h%s."
+msgstr "mainīt h%s krāsu."
+
+#: inc/fonts.php:192
+#, fuzzy
+msgid "change font family of headings."
+msgstr "mainīt virsrakstu fontu ģimeni."
+
+#: inc/fonts.php:179 inc/fonts.php:204
+#, fuzzy
+msgid "change font family of website."
+msgstr "mainīt tīmekļa vietnes fontu ģimeni."
+
+#: inc/fonts.php:229
+#, fuzzy
+msgid "change font size of div."
+msgstr "mainīt divsadaļas šrifta lielumu."
+
+#. index for headings
+#: inc/fonts.php:397
+#, fuzzy, php-format
+msgid "change font size of h%s."
+msgstr "mainīt h%s fonta lielumu."
+
+#: inc/fonts.php:242
+#, fuzzy
+msgid "change font size of inputs."
+msgstr "mainīt ievades ievades fonta lielumu."
+
+#: inc/fonts.php:281
+#, fuzzy
+msgid "change font size of ordered list."
+msgstr "mainīt sakārtotā saraksta fonta lielumu."
+
+#: inc/fonts.php:216
+#, fuzzy
+msgid "change font size of paragraphs."
+msgstr "mainīt rindkopas šrifta lielumu."
+
+#: inc/fonts.php:255
+#, fuzzy
+msgid "change font size of tables."
+msgstr "mainīt tabulu fontu lielumu."
+
+#: inc/fonts.php:268
+#, fuzzy
+msgid "change font size of unordered list."
+msgstr "mainīt sakārtotā saraksta fonta lielumu."
+
+#: inc/fonts.php:307
+#, fuzzy
+msgid "change font weight of div."
+msgstr "mainīt divsvītru svaru."
+
+#. index for headings
+#: inc/fonts.php:418
+#, fuzzy, php-format
+msgid "change font weight of h%s."
+msgstr "mainīt h%s fonta svaru."
+
+#: inc/fonts.php:320
+#, fuzzy
+msgid "change font weight of inputs."
+msgstr "mainīt ievades fontu svaru."
+
+#: inc/fonts.php:359
+#, fuzzy
+msgid "change font weight of ordered list."
+msgstr "mainīt sakārtotā saraksta fonta svaru."
+
+#: inc/fonts.php:294
+#, fuzzy
+msgid "change font weight of paragraphs."
+msgstr "mainīt rindkopu šrifta svaru."
+
+#: inc/fonts.php:333
+#, fuzzy
+msgid "change font weight of tables."
+msgstr "mainīt tabulu fontu svaru."
+
+#: inc/fonts.php:346
+#, fuzzy
+msgid "change font weight of unordered list."
+msgstr "mainīt sakārtotā saraksta fonta svaru."
+
+#: inc/colors.php:122
+#, fuzzy
+msgid "change link color"
+msgstr "mainīt saites krāsu"
+
+#: inc/colors.php:108
+#, fuzzy
+msgid "change theme text color"
+msgstr "mainīt tēmas teksta krāsu"
+
+#: classes/class-w3csspress-constants.php:190
+#, fuzzy
+msgid "circle"
+msgstr "aplis"
+
+#: inc/images.php:121
+#, fuzzy
+msgid "circle images"
+msgstr "apļa attēli"
+
+#: inc/images.php:122
+#, fuzzy
+msgid "circle images on the page."
+msgstr "apļa attēlus lapā."
+
+#: inc/patterns/image.php:46
+#, fuzzy
+msgid "circular image"
+msgstr "apļveida attēls"
+
+#: inc/block-patterns.php:27
+#, fuzzy
+msgid "colors"
+msgstr "krāsas"
+
+#: comments.php:65
+#, fuzzy
+msgid "comment:"
+msgstr "komentārs:"
+
+#: template-parts/entry/footer.php:20
+#, fuzzy
+msgid "comments"
+msgstr "komentāri"
+
+#: comments.php:53
+#, fuzzy
+msgctxt "comments count"
+msgid "Trackback or Pingback"
+msgid_plural "Trackbacks and Pingbacks"
+msgstr[0] "Trackback vai Pingback"
+msgstr[1] "Trackbacks un Pingbacks"
+msgstr[2] ""
+
+#. color of the container
+#: inc/patterns/container.php:40
+#, fuzzy, php-format
+msgid "container %s"
+msgstr "konteiners %s"
+
+#: inc/block-patterns.php:28 inc/patterns/container.php:26
+#, fuzzy
+msgid "containers"
+msgstr "konteineri"
+
+#: inc/content.php:58
+#, fuzzy
+msgid "content options"
+msgstr "satura opcijas"
+
+#: classes/class-w3csspress-constants.php:156
+#, fuzzy
+msgid "cursive"
+msgstr "kursīvs"
+
+#: inc/content.php:59
+#, fuzzy
+msgid "customize content options here."
+msgstr "pielāgot satura opcijas šeit."
+
+#: inc/fonts.php:32
+#, fuzzy
+msgid "customize fonts options here."
+msgstr "pielāgot fontu opcijas šeit."
+
+#: inc/images.php:28
+#, fuzzy
+msgid "customize images options here."
+msgstr "pielāgot attēlu opcijas šeit."
+
+#: inc/layout.php:32
+#, fuzzy
+msgid "customize layout options here."
+msgstr "pielāgot izkārtojuma opcijas šeit."
+
+#: inc/speed.php:28
+#, fuzzy
+msgid "customize speed options here."
+msgstr "pielāgot ātruma opcijas šeit."
+
+#: classes/class-w3csspress-constants.php:62
+#, fuzzy
+msgid "cyan"
+msgstr "ciāns"
+
+#: classes/class-w3csspress-constants.php:93
+#: classes/class-w3csspress-constants.php:94
+#: classes/class-w3csspress-constants.php:95
+#: classes/class-w3csspress-constants.php:96
+#: classes/class-w3csspress-constants.php:97
+#, fuzzy
+msgid "dark"
+msgstr "tumšs"
+
+#: classes/class-w3csspress-constants.php:63
+#, fuzzy
+msgid "dark grey"
+msgstr "tumši pelēks"
+
+#: classes/class-w3csspress-constants.php:64
+#, fuzzy
+msgid "deep orange"
+msgstr "tumši oranžs"
+
+#: classes/class-w3csspress-constants.php:65
+#, fuzzy
+msgid "deep purple"
+msgstr "tumši violeta"
+
+#: classes/class-w3csspress-constants.php:55
+#: classes/class-w3csspress-constants.php:98
+#: classes/class-w3csspress-constants.php:115
+#: classes/class-w3csspress-constants.php:135
+#: classes/class-w3csspress-constants.php:152
+#: classes/class-w3csspress-constants.php:168
+#: classes/class-w3csspress-constants.php:184
+#, fuzzy
+msgid "default"
+msgstr "noklusējuma"
+
+#: inc/speed.php:93
+#, fuzzy
+msgid "disable jQuery"
+msgstr "atspējot jQuery"
+
+#: inc/speed.php:94
+#, fuzzy
+msgid "disable or enable jQuery (do only if you know what you are doing)."
+msgstr ""
+"atspējojiet vai iespējojiet jQuery (veiciet tikai tad, ja zināt, ko darāt)."
+
+#: inc/speed.php:141
+#, fuzzy
+msgid "enable block styles"
+msgstr "iespējot bloku stilus"
+
+#: inc/speed.php:142
+#, fuzzy
+msgid "enable block styles."
+msgstr "iespējot bloku stilus."
+
+#: inc/speed.php:105
+#, fuzzy
+msgid "enable Dashicons"
+msgstr "iespējot domuzīmes"
+
+#: inc/speed.php:106
+#, fuzzy
+msgid "enable Dashicons on the frontend."
+msgstr "iespējojiet priekšpusē paneļa ikonas (Dashicons)."
+
+#: inc/speed.php:153
+#, fuzzy
+msgid "enable full site editor"
+msgstr "iespējot pilnu vietnes redaktoru"
+
+#: inc/speed.php:117
+#, fuzzy
+msgid "enable Gutenberg for posts"
+msgstr "iespējot Gutenberg amatu"
+
+#: inc/speed.php:129
+#, fuzzy
+msgid "enable Gutenberg for widgets"
+msgstr "iespējot Gutenberg widgets"
+
+#: inc/speed.php:118
+#, fuzzy
+msgid "enable Gutenberg to edit posts."
+msgstr "iespējot Gutenberg rediģēt ziņojumus."
+
+#: inc/speed.php:130
+#, fuzzy
+msgid "enable Gutenberg to edit widgets."
+msgstr "iespējot Gutenberg rediģēt logrīkus."
+
+#: inc/speed.php:154
+#, fuzzy
+msgid "enable the full site editor."
+msgstr "iespējot pilnu vietnes redaktoru."
+
+#: inc/fonts.php:31
+#, fuzzy
+msgid "fonts options"
+msgstr "fontu opcijas"
+
+#: functions.php:364
+#, fuzzy
+msgid "foot widgets sidebar"
+msgstr "kāju logrīki sānu josla"
+
+#: inc/patterns/footer.php:28
+#, fuzzy
+msgid "footer"
+msgstr "footer"
+
+#: inc/content.php:79
+#, fuzzy
+msgid "footer content"
+msgstr "footer saturs"
+
+#: inc/block-patterns.php:29
+#, fuzzy
+msgid "footers"
+msgstr "kājenes"
+
+#: classes/class-w3csspress-constants.php:172
+#, fuzzy
+msgid "four columns"
+msgstr "četras kolonnas"
+
+#. Name of the template
+#, fuzzy
+msgid "Full-Width"
+msgstr "Pilna platuma"
+
+#: inc/images.php:169
+#, fuzzy
+msgid "grayscale images"
+msgstr "pelēkās skalas attēli"
+
+#: classes/class-w3csspress-constants.php:66
+#, fuzzy
+msgid "green"
+msgstr "zaļš"
+
+#: classes/class-w3csspress-constants.php:67
+#, fuzzy
+msgid "grey"
+msgstr "pelēks"
+
+#: inc/patterns/image.php:94
+#, fuzzy
+msgid "greyscale image"
+msgstr "pelēkās skalas attēls"
+
+#: inc/layout.php:96
+#, fuzzy
+msgid "grid layout setting"
+msgstr "režģa izkārtojuma iestatījumi"
+
+#. index for headings
+#: inc/colors.php:138
+#, fuzzy, php-format
+msgid "h%s color"
+msgstr "h%s krāsa"
+
+#: functions.php:355
+#, fuzzy
+msgid "head widgets sidebar"
+msgstr "galvas logrīki sānu josla"
+
+#: inc/patterns/header.php:21
+#, fuzzy
+msgid "header"
+msgstr "galvene"
+
+#: inc/images.php:193
+#, fuzzy
+msgid "header thumbnail"
+msgstr "galvenes sīktēls"
+
+#: inc/block-patterns.php:30
+#, fuzzy
+msgid "headers"
+msgstr "galvenes"
+
+#: inc/patterns/header.php:51
+#, fuzzy
+msgid "homepage header"
+msgstr "mājaslapas galvene"
+
+#: inc/block-patterns.php:31
+#, fuzzy
+msgid "hover"
+msgstr "hover"
+
+#. hover border and color
+#: classes/class-w3csspress-constants.php:244
+#, fuzzy, php-format
+msgid "hover %1$s %2$s"
+msgstr "hover %1$s %2$s"
+
+#. Author URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori"
+msgstr "https://github.com/matteomarchiori"
+
+#. URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori/w3csspress"
+msgstr "https://github.com/matteomarchiori/w3csspress"
+
+#: inc/patterns/image.php:22
+#, fuzzy
+msgid "image"
+msgstr "attēls"
+
+#: inc/block-patterns.php:32
+#, fuzzy
+msgid "images"
+msgstr "attēli"
+
+#: inc/images.php:27
+#, fuzzy
+msgid "images options"
+msgstr "attēlu opcijas"
+
+#: inc/images.php:146
+#, fuzzy
+msgid "images with card effect."
+msgstr "attēlus ar kartes efektu."
+
+#: inc/images.php:170
+#, fuzzy
+msgid "images with grayscale effect."
+msgstr "attēlus ar pelēkās skalas efektu."
+
+#: inc/images.php:158
+#, fuzzy
+msgid "images with opacity effect."
+msgstr "attēlus ar necaurspīdīguma efektu."
+
+#: inc/images.php:182
+#, fuzzy
+msgid "images with sepia effect."
+msgstr "attēlus ar sepijas efektu."
+
+#: classes/class-w3csspress-constants.php:68
+#, fuzzy
+msgid "indigo"
+msgstr "indigo"
+
+#: classes/class-w3csspress-constants.php:123
+#, fuzzy
+msgid "jumbo"
+msgstr "jumbo"
+
+#: classes/class-w3csspress-constants.php:69
+#, fuzzy
+msgid "khaki"
+msgstr "haki"
+
+#: classes/class-w3csspress-constants.php:119
+#, fuzzy
+msgid "large"
+msgstr "liels"
+
+#: inc/layout.php:31
+#, fuzzy
+msgid "layout options"
+msgstr "izkārtojuma iespējas"
+
+#: classes/class-w3csspress-constants.php:205
+#, fuzzy
+msgid "left"
+msgstr "pa kreisi"
+
+#: inc/patterns/sidebar.php:26
+#, fuzzy
+msgid "left sidebar"
+msgstr "kreisā sānjoslaukā"
+
+#: classes/class-w3csspress-constants.php:99
+#: classes/class-w3csspress-constants.php:100
+#: classes/class-w3csspress-constants.php:101
+#: classes/class-w3csspress-constants.php:102
+#: classes/class-w3csspress-constants.php:103
+#, fuzzy
+msgid "light"
+msgstr "gaismas"
+
+#: classes/class-w3csspress-constants.php:70
+#, fuzzy
+msgid "light blue"
+msgstr "gaiši zils"
+
+#: classes/class-w3csspress-constants.php:71
+#, fuzzy
+msgid "light green"
+msgstr "gaiši zaļš"
+
+#: classes/class-w3csspress-constants.php:72
+#, fuzzy
+msgid "lime"
+msgstr "kaļķis"
+
+#: inc/colors.php:121
+#, fuzzy
+msgid "link color"
+msgstr "saites krāsa"
+
+#: functions.php:90
+#, fuzzy
+msgid "main menu"
+msgstr "galvenā izvēlne"
+
+#. Author of the theme
+#, fuzzy
+msgid "matteomarchiori97"
+msgstr "matteomarchiori97"
+
+#: classes/class-w3csspress-constants.php:118
+#, fuzzy
+msgid "medium"
+msgstr "vidēja"
+
+#: functions.php:147
+#, fuzzy
+msgid "menu"
+msgstr "izvēlne"
+
+#: classes/class-w3csspress-constants.php:155
+#, fuzzy
+msgid "monospace"
+msgstr "monospace"
+
+#: inc/block-patterns.php:33
+#, fuzzy
+msgid "navigation"
+msgstr "navigācija"
+
+#. arrow
+#. arrow and text
+#: attachment.php:75 template-parts/nav/below.php:24
+#, fuzzy, php-format
+msgid "newer %s"
+msgstr "jaunāks %s"
+
+#: 404.php:19
+#, fuzzy
+msgid "Not Found"
+msgstr "Nav atrasts"
+
+#: inc/patterns/notfound.php:25
+#, fuzzy
+msgid "not found"
+msgstr "nav atrasts"
+
+#: search.php:62
+#, fuzzy
+msgid "Nothing Found"
+msgstr "Nekas nav atrasts"
+
+#: 404.php:22
+#, fuzzy
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr "Netika atrasts nekas par pieprasīto lapu. Mēģiniet meklēt tā vietā?"
+
+#: inc/patterns/notfound.php:29
+#, fuzzy
+msgid "nothing found for the requested page. Try a search instead?"
+msgstr "pieprasītajai lapai nekas nav atrasts. Mēģiniet meklēt tā vietā?"
+
+#: classes/class-w3csspress-constants.php:169
+#, fuzzy
+msgid "one column"
+msgstr "viena sleja"
+
+#: inc/images.php:157
+#, fuzzy
+msgid "opacity images"
+msgstr "necaurspīdīguma attēli"
+
+#: inc/patterns/image.php:82
+#, fuzzy
+msgid "opaque image"
+msgstr "necaurspīdīgs attēls"
+
+#: classes/class-w3csspress-constants.php:73
+#, fuzzy
+msgid "orange"
+msgstr "apelsīns"
+
+#: inc/patterns/panel.php:26
+#, fuzzy
+msgid "panel"
+msgstr "panelis"
+
+#. color of the panel
+#: inc/patterns/panel.php:40
+#, fuzzy, php-format
+msgid "panel %s"
+msgstr "panelis %s"
+
+#: inc/block-patterns.php:34
+#, fuzzy
+msgid "panels"
+msgstr "paneļi"
+
+#: classes/class-w3csspress-constants.php:74
+#, fuzzy
+msgid "pink"
+msgstr "rozā"
+
+#: inc/images.php:205
+#, fuzzy
+msgid "post thumbnail"
+msgstr "ziņu sīktēlu"
+
+#: inc/images.php:194
+#, fuzzy
+msgid "posts get the thumbnail as header image if they have one."
+msgstr "amati saņem sīktēlu kā galvenes attēlu, ja tāds ir."
+
+#: inc/images.php:206
+#, fuzzy
+msgid "posts show the thumbnail if they have."
+msgstr "amati rāda sīktēlu, ja tie ir."
+
+#: functions.php:337
+#, fuzzy
+msgid "primary sidebar"
+msgstr "primārā sānu josla"
+
+#: classes/class-w3csspress-constants.php:75
+#, fuzzy
+msgid "purple"
+msgstr "violeta"
+
+#: inc/block-patterns.php:35
+#, fuzzy
+msgid "query"
+msgstr "vaicājums"
+
+#: inc/patterns/query.php:22
+#, fuzzy
+msgid "query loop"
+msgstr "vaicājuma cilpa"
+
+#: inc/patterns/query.php:33
+#, fuzzy
+msgid "read all"
+msgstr "lasīt visu"
+
+#: classes/class-w3csspress-constants.php:76
+#, fuzzy
+msgid "red"
+msgstr "sarkans"
+
+#: classes/class-w3csspress-constants.php:203
+#, fuzzy
+msgid "right"
+msgstr "pa labi"
+
+#: inc/patterns/sidebar.php:36
+#, fuzzy
+msgid "right sidebar"
+msgstr "labajā sānjoslā"
+
+#: inc/images.php:110
+#, fuzzy
+msgid "round images on the page."
+msgstr "apaļi attēli lapā."
+
+#: classes/class-w3csspress-constants.php:187
+#, fuzzy
+msgid "round large"
+msgstr "apaļi lieli"
+
+#: classes/class-w3csspress-constants.php:186
+#, fuzzy
+msgid "round medium"
+msgstr "apaļš vidējs"
+
+#: classes/class-w3csspress-constants.php:185
+#, fuzzy
+msgid "round small"
+msgstr "apaļš mazs"
+
+#: classes/class-w3csspress-constants.php:188
+#, fuzzy
+msgid "round xlarge"
+msgstr "apaļa xlarge"
+
+#: classes/class-w3csspress-constants.php:189
+#, fuzzy
+msgid "round xxlarge"
+msgstr "apaļas xxlarge"
+
+#: inc/patterns/image.php:34
+#, fuzzy
+msgid "rounded image"
+msgstr "noapaļots attēls"
+
+#: inc/images.php:109
+#, fuzzy
+msgid "rounded images"
+msgstr "noapaļoti attēli"
+
+#: classes/class-w3csspress-constants.php:154
+#, fuzzy
+msgid "sans serif"
+msgstr "sans serif"
+
+#: inc/block-patterns.php:36 inc/patterns/search.php:25
+#: inc/patterns/search.php:25
+#, fuzzy
+msgid "search"
+msgstr "meklēt"
+
+#: inc/patterns/search.php:22
+#, fuzzy
+msgid "search bar"
+msgstr "meklēšanas josla"
+
+#. search text completed with query text
+#: search.php:38
+#, fuzzy, php-format
+msgid "search results for: %s"
+msgstr "meklēšanas rezultāti: %s"
+
+#: functions.php:346
+#, fuzzy
+msgid "secondary sidebar"
+msgstr "sekundārā sānu josla"
+
+#: inc/colors.php:79
+#, fuzzy
+msgid "select color theme"
+msgstr "izvēlieties krāsu tēmu"
+
+#: inc/fonts.php:228
+#, fuzzy
+msgid "select div font size"
+msgstr "atlasīt div fonta lielumu"
+
+#: inc/fonts.php:306
+#, fuzzy
+msgid "select div font weight"
+msgstr "atlasīt div fontu svaru"
+
+#: inc/fonts.php:178
+#, fuzzy
+msgid "select font family"
+msgstr "atlasīt fontu ģimeni"
+
+#. index for headings
+#: inc/fonts.php:392
+#, fuzzy, php-format
+msgid "select h%s font size"
+msgstr "atlasīt h%s fonta lielumu"
+
+#. index for headings
+#: inc/fonts.php:413
+#, fuzzy, php-format
+msgid "select h%s font weight"
+msgstr "atlasīt h%s fonta svaru"
+
+#: inc/fonts.php:241
+#, fuzzy
+msgid "select input font size"
+msgstr "atlasīt ievades fonta lielumu"
+
+#: inc/fonts.php:319
+#, fuzzy
+msgid "select input font weight"
+msgstr "atlasīt ievades fonta svaru"
+
+#: inc/layout.php:70
+#, fuzzy
+msgid "select layout"
+msgstr "izvēlieties izkārtojumu"
+
+#: inc/fonts.php:280
+#, fuzzy
+msgid "select ordered list font size"
+msgstr "atlasīt sakārtotā saraksta fonta lielumu"
+
+#: inc/fonts.php:358
+#, fuzzy
+msgid "select ordered list font weight"
+msgstr "atlasīt pasūtīto sarakstu fontu svars"
+
+#: inc/fonts.php:215
+#, fuzzy
+msgid "select paragraphs font size"
+msgstr "atlasīt rindkopas fonta lielumu"
+
+#: inc/fonts.php:293
+#, fuzzy
+msgid "select paragraphs font weight"
+msgstr "atlasīt punktus fonta svars"
+
+#: inc/layout.php:83
+#, fuzzy
+msgid "select rounded style"
+msgstr "izvēlieties noapaļotu stilu"
+
+#: inc/fonts.php:254
+#, fuzzy
+msgid "select table font size"
+msgstr "atlasīt tabulas fonta lielumu"
+
+#: inc/fonts.php:332
+#, fuzzy
+msgid "select table font weight"
+msgstr "atlasīt tabulas fonta svaru"
+
+#: inc/colors.php:92
+#, fuzzy
+msgid "select theme kind"
+msgstr "atlasīt tēmas veidu"
+
+#: inc/fonts.php:267
+#, fuzzy
+msgid "select unordered list font size"
+msgstr "atlasīt nesakārtota saraksta fonta lielumu"
+
+#: inc/fonts.php:345
+#, fuzzy
+msgid "select unordered list font weight"
+msgstr "atlasīt nesakārtotu sarakstu fonta svars"
+
+#: inc/patterns/image.php:106
+#, fuzzy
+msgid "sepia image"
+msgstr "sepijas attēls"
+
+#: inc/images.php:181
+#, fuzzy
+msgid "sepia images"
+msgstr "sepijas attēli"
+
+#: classes/class-w3csspress-constants.php:153
+#, fuzzy
+msgid "serif"
+msgstr "serif"
+
+#: inc/content.php:80
+#, fuzzy
+msgid "set footer content."
+msgstr "iestatīt kājenes saturu."
+
+#: functions.php:338
+#, fuzzy
+msgid "sidebar on the left."
+msgstr "sānjoslas kreisajā pusē."
+
+#: functions.php:347
+#, fuzzy
+msgid "sidebar on the right."
+msgstr "sānu josla labajā pusē."
+
+#: inc/block-patterns.php:37
+#, fuzzy
+msgid "sidebars"
+msgstr "sānu joslas"
+
+#: inc/content.php:20
+#, fuzzy
+msgid "skip to the content"
+msgstr "pāriet uz saturu"
+
+#: classes/class-w3csspress-constants.php:117
+#, fuzzy
+msgid "small"
+msgstr "mazs"
+
+#: search.php:65
+#, fuzzy
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr "Atvainojiet, nekas neatbilda jūsu meklēšanai. Lūdzu, mēģiniet vēlreiz."
+
+#: inc/speed.php:27
+#, fuzzy
+msgid "speed options"
+msgstr "ātruma opcijas"
+
+#: classes/class-w3csspress-constants.php:77
+#, fuzzy
+msgid "teal"
+msgstr "tējas krāsas"
+
+#: inc/colors.php:107
+#, fuzzy
+msgid "text theme color"
+msgstr "teksta tēmas krāsa"
+
+#: inc/patterns/query.php:44
+#, fuzzy
+msgid "the query did not return any results."
+msgstr "vaicājums neatdeva nekādus rezultātus."
+
+#. thick border and direction
+#: classes/class-w3csspress-constants.php:32
+#, fuzzy, php-format
+msgid "thick border %s"
+msgstr "bieza robeža %s"
+
+#: classes/class-w3csspress-constants.php:171
+#, fuzzy
+msgid "three columns"
+msgstr "trīs kolonnas"
+
+#: classes/class-w3csspress-constants.php:116
+#, fuzzy
+msgid "tiny"
+msgstr "mazs"
+
+#: classes/class-w3csspress-constants.php:202
+#, fuzzy
+msgid "top"
+msgstr "top"
+
+#: classes/class-w3csspress-constants.php:170
+#, fuzzy
+msgid "two columns"
+msgstr "divas kolonnas"
+
+#. Description of the theme
+#, fuzzy
+msgid ""
+"Universal theme with classic mode and blocks mode made to integrate the "
+"W3CSS framework inside WordPress, with global custom options and all of the "
+"W3CSS framework functionalities. The theme has been developed starting from "
+"resources on the w3schools website applied to the blankslate WordPress theme,"
+" slightly modified. The theme is accessibility ready and it is highly "
+"customizable. Please add issues on GitHub or contact me if you are "
+"interested in more options."
+msgstr ""
+"Universāla tēma ar klasisko režīmu un bloku režīmu, kas izstrādāta, lai "
+"integrētu W3CSS ietvaru WordPress sistēmā, ar globālām pielāgotām opcijām un "
+"visām W3CSS ietvara funkcijām. Tēma ir izstrādāta, sākot no resursiem "
+"w3schools tīmekļa vietnē, kas tika piemērota blankslate WordPress tēmai, "
+"nedaudz modificēta. Tēma ir gatava pieejamībai un ir ļoti viegli pielāgojama."
+" Lūdzu, pievienojiet jautājumus GitHub vai sazinieties ar mani, ja jūs "
+"interesē vairāk iespēju."
+
+#: inc/fonts.php:203
+#, fuzzy
+msgid "use Google font"
+msgstr "izmantot Google fontu"
+
+#: inc/fonts.php:191
+#, fuzzy
+msgid "use Google font for headings"
+msgstr "virsrakstiem izmantot Google fontu"
+
+#: inc/layout.php:84
+#, fuzzy
+msgid ""
+"using this option you can change some elements roundness (images have more "
+"controls)."
+msgstr ""
+"izmantojot šo opciju, varat mainīt dažu elementu noapaļojumu (attēliem ir "
+"vairāk vadības elementu)."
+
+#: inc/layout.php:71
+#, fuzzy
+msgid "using this option you can change the page layout."
+msgstr "izmantojot šo opciju, varat mainīt lapas izkārtojumu."
+
+#: inc/colors.php:93
+#, fuzzy
+msgid ""
+"using this option you can change the theme between default, light and dark."
+msgstr ""
+"izmantojot šo opciju, varat mainīt tēmu starp noklusējuma, gaišo un tumšo."
+
+#: inc/colors.php:80
+#, fuzzy
+msgid "using this option you can change the theme colors."
+msgstr "izmantojot šo opciju, varat mainīt tēmas krāsas."
+
+#: inc/layout.php:97
+#, fuzzy
+msgid "using this option you can enable or disable the grid layout."
+msgstr "izmantojot šo opciju, varat iespējot vai atspējot režģa izkārtojumu."
+
+#. Name of the theme
+#, fuzzy
+msgid "W3CSSPress"
+msgstr "W3CSSPress"
+
+#: classes/class-w3csspress-constants.php:56
+#, fuzzy
+msgid "w3schools"
+msgstr "w3schools"
+
+#: classes/class-w3csspress-constants.php:138
+#, fuzzy
+msgid "weight"
+msgstr "svars"
+
+#: functions.php:365
+#, fuzzy
+msgid "widgets area on the foot of the website."
+msgstr "logrīku apgabalā tīmekļa vietnes apakšdaļā."
+
+#: functions.php:356
+#, fuzzy
+msgid "widgets area on the head of the website."
+msgstr "logrīku apgabalā tīmekļa vietnes galvenē."
+
+#: classes/class-w3csspress-constants.php:120
+#, fuzzy
+msgid "XL"
+msgstr "XL"
+
+#: classes/class-w3csspress-constants.php:121
+#, fuzzy
+msgid "XXL"
+msgstr "XXL"
+
+#: classes/class-w3csspress-constants.php:122
+#, fuzzy
+msgid "XXXL"
+msgstr "XXXL"
+
+#: footer.php:27 inc/patterns/footer.php:22
+#, fuzzy
+msgid "Y"
+msgstr "Y"
+
+#: classes/class-w3csspress-constants.php:78
+#, fuzzy
+msgid "yellow"
+msgstr "dzeltens"

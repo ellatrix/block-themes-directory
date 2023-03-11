@@ -1,0 +1,128 @@
+/* --- Block Cover News
+-------------------------------------------------------- */
+
+.wp-block-section.wp-block-cover-news {
+    
+    .wp-block-post-template > li {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border: 0;
+        position: relative;
+
+        .cover-news-img-wrapper {
+            height: 0;
+            margin: 0;
+            position: relative;
+            padding-top: 42.8571%;
+            overflow: hidden;
+            background-color: var(--wp--preset--color--foreground);
+
+            .wp-block-post-featured-image,
+            .wp-block-post-featured-image a,
+            .wp-block-post-featured-image img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+
+            a {
+                &:before {
+                    content: "";
+                    background-color: rgba(0,0,0, 0.2);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+            }
+        }
+
+        .wp-block-post-container-wrapper {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+
+            .wp-block-post-container {
+                padding-bottom: var(--wp--custom--spacing--wp-footer-vertical);
+                padding-top: var(--wp--custom--spacing--newsletter-inner-gap);
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    background: var(--wp--preset--gradient--vertical-background-to-tertiary);
+                    mix-blend-mode: multiply;
+                    opacity: 0.3;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .wp-block-post-title,
+                .wp-block-post-content-wrapper {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .wp-block-post-title {
+                    font-size: calc(0.8571428571428571 * var(--wp--custom--typography--font-size--heading-two));
+                }
+
+                .wp-block-post-content-wrapper {
+                    margin-top: 14px;
+                }
+
+                .wp-block-post-date {
+                    svg.icon {
+                        display: none;
+                    }
+
+                    a {
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .wp-block-post-featured-image img {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+}
+
+/* Editor Styles */
+.wp-block-section.wp-block-cover-news {
+    .block-editor-block-list__layout,
+    .block-editor-block-list__layout .block-editor-block-list__block {
+        position: static;
+
+       .wp-block-post-featured-image:before {
+            content: "";
+            background-color: rgba(0,0,0, 0.2);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+main .wp-block-group.wp-block-cover-news:first-child {
+    padding-top: 0;
+}
+main .wp-block-group.wp-block-cover-news:last-child {
+    padding-bottom: 0;
+}

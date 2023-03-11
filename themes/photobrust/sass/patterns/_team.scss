@@ -1,0 +1,421 @@
+/* --- Team Style One
+-------------------------------------------------------- */
+.team-section.style-one {
+  > .wp-block-columns {
+    > .wp-block-column {
+      .section-heading,
+      .section-content {
+        max-width: 368px;
+      }
+    }
+  }
+    .team-columns {
+      > .wp-block-columns {
+        > .wp-block-column {
+          border: 1px solid;
+          border-color: var(--wp--preset--color--border-color-third);
+          margin-bottom: -1px;
+          padding: var(--wp--custom--spacing--extra-small) var(--wp--custom--spacing--wp-block-page-numbers);
+          position: relative;
+          transition:.2s all;
+
+          .team-content-wrapper {
+            max-width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+    
+          .wp-block-image {
+            text-align: center;
+            padding-top: 100%;
+            overflow: hidden;
+            position: relative;
+
+            &:before {
+              border-radius: 50%;
+              content: "";
+              width: 14px;
+              height: 14px;
+              background-color: var(--wp--preset--color--gradient-color-third);
+              border: 2px solid var(--wp--preset--color--background);
+              position: absolute;
+              right: 13%;
+              top: 2%;
+              transition: all 0.5s ease;
+              z-index: 1;
+            }
+
+            &:hover:before,
+            &:focus:before {
+              width: 0;
+              height: 0;
+            }
+            > a {
+              display: block;
+              position: absolute;
+              left: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              border-radius: 50%;
+              border: 1px solid;
+              border-color: var(--wp--preset--color--gradient-color-third);
+              padding: 5px;
+              &:after {
+                border-radius: 50%;
+                content: "";
+                width: calc(100% - 10px);
+                height: calc(100% - 10px);
+                background-color: var(--wp--preset--color--primary);
+                opacity: 0;
+                position: absolute;
+                left: 5px;
+                top: 5px;
+                transition: all 0.5s ease;
+                z-index: 2;
+              }
+    
+              &:hover:after,
+              &:focus:after {
+                opacity: 0.82;
+              }
+              &:before {
+                content: "+";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: var(--wp--preset--color--color-light);
+                background-color: transparent;
+                display: none;
+                transition: all 0.5s ease;
+                font-size: 45px;
+                z-index: 3;
+              }
+              &:hover:before,
+              &:focus:before {
+                display: block;
+              }
+              > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+    
+        &+ .wp-block-columns {
+          margin-top: 0;
+        }
+      }
+      &:hover .team-column {
+        filter:blur(3px);
+        opacity:.5;
+        transform: scale(.98);
+  
+        &:hover {
+          transform:scale(1);
+          filter:blur(0px);
+          opacity:1;
+        }
+      }
+  }
+
+  .team-column {
+    h6 {
+      > a {
+        text-decoration: none;
+      }
+    }
+    h6 + .team-member-email {
+      margin-top: 14px;
+    }
+    .team-member-email {
+      font-size: var(--wp--preset--font-size--medium);
+      font-weight: var(--wp--custom--typography--font-weight--light);
+      > a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.team-section.style-one .team-columns > .wp-block-columns:nth-child(2n + 1) {
+  .wp-block-column {
+    
+    &:nth-child(1) {
+      .wp-block-image {
+        > a {
+          border-color: #359d9e;
+        }
+        
+        &:before {
+          background-color: #359d9e;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .wp-block-image {
+        > a {
+          border-color: #7ea310;
+        }
+
+        &:before {
+          background-color: #7ea310;
+        }
+      }
+    }
+  }
+}
+
+.team-section.style-one .team-columns > .wp-block-columns:nth-child(2n) {
+  .wp-block-column {
+    &:nth-child(1) {
+    
+      .wp-block-image {
+        > a {
+          border-color: #dfe667;
+        }
+        &:before {
+          background-color: #dfe667;
+        }
+      }
+    }
+    &:nth-child(2) {
+
+      .wp-block-image {
+        > a {
+          border-color: #1c54bb;
+        }
+        &:before {
+          background-color: #1c54bb;
+        }
+      }
+    }
+    &:nth-child(3) {
+
+      .wp-block-image {
+        > a {
+          border-color: #68e48e;
+        }
+        &:before {
+          background-color: #68e48e;
+        }
+      }
+    }
+  }
+}
+
+/* --- Team Style One Editor Styles -------------------- */
+.team-section.style-one .team-columns > .wp-block-columns {
+  > .wp-block-column {
+    .wp-block-image {
+      > .components-resizable-box__container {
+        position: absolute !important;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        border-radius: 50%;
+        border: 1px solid;
+        border-color: var(--wp--preset--color--gradient-color-third);
+        padding: 5px;
+
+        &:before {
+          content: "+";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          color: var(--wp--preset--color--color-light);
+          background-color: transparent;
+          display: none;
+          transition: all 0.5s ease;
+          font-size: 45px;
+          z-index: 3;
+        }
+        &:hover:before,
+        &:focus:before {
+          display: block;
+        }
+    
+        &:after {
+          border-radius: 50%;
+          content: "";
+          width: calc(100% - 10px);
+          height: calc(100% - 10px);
+          background-color: var(--wp--preset--color--primary);
+          opacity: 0;
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          transition: all 0.5s ease;
+          z-index: 2;
+        }
+    
+        &:hover:after {
+          opacity: 0.82;
+        }
+      }
+    
+      margin-bottom: 0;
+      &:before {
+        border-radius: 50%;
+        content: "";
+        width: 14px;
+        height: 14px;
+        background-color: var(--wp--preset--color--gradient-color-third);
+        border: 2px solid var(--wp--preset--color--background);
+        position: absolute;
+        right: 13%;
+        top: 2%;
+        transition: all 0.5s ease;
+      }
+
+      &:hover:before,
+      &:focus:before {
+        width: 0;
+        height: 0;
+      }
+    
+      img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+      }
+    }
+  }
+
+  &:nth-child(2n + 1) .wp-block-column:nth-child(1) .wp-block-image {
+    > .components-resizable-box__container {
+      border-color: #359d9e;
+    }
+    &:before {
+      background-color: #359d9e;
+    }
+  }
+
+  &:nth-child(2n + 1) .wp-block-column:nth-child(2) .wp-block-image {
+    > .components-resizable-box__container {
+      border-color: #7ea310;
+    }
+    &:before {
+      background-color: #7ea310;
+    }
+  }
+
+  &:nth-child(2n) .wp-block-column:nth-child(1) .wp-block-image {
+    > .components-resizable-box__container {
+      border-color: #dfe667;
+    }
+    &:before {
+      background-color: #dfe667;
+    }
+  }
+
+  &:nth-child(2n) .wp-block-column:nth-child(2) .wp-block-image {
+    > .components-resizable-box__container {
+      border-color: #1c54bb;
+    }
+    &:before {
+      background-color: #1c54bb;
+    }
+  }
+
+  &:nth-child(2n) .wp-block-column:nth-child(3) .wp-block-image {
+    > .components-resizable-box__container {
+      border-color: #68e48e;
+    }
+    &:before {
+      background-color: #68e48e;
+    }
+  }
+}
+
+
+/* --- Team Style Two
+-------------------------------------------------------- */
+.team-section.style-two {
+  .heading-content {
+      max-width: 480px;
+  }
+}
+
+.team-section.style-two {
+  .team-columns {
+    .team-img {
+      position: relative;
+      > .wp-block-social-links {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        opacity: 0;
+        transition: opacity 0.3s;
+        gap: 14px;
+      }
+  
+      .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor {
+        
+        width: 33px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          color: var(--wp--preset--color--color-dark);
+          fill: var(--wp--preset--color--color-dark);
+          width: 0.875em;
+          height: 0.875em;
+        }
+  
+        &:hover,
+        &:focus {
+          svg  {
+            color: var(--wp--preset--color--color-light);
+            fill: var(--wp--preset--color--color-light);
+          }
+        }
+      }
+  
+      .wp-block-social-links:not(.is-style-logos-only) .wp-social-link {
+        background-color: var(--wp--preset--color--color-light);
+        transition: all 0.4s ease;
+  
+        &:hover,
+        &:focus {
+          background-color: var(--wp--preset--color--text-link);
+          transform: none;
+        }
+      }
+    }
+    > .wp-block-column {
+      &:hover {
+        .team-img {
+          > .wp-block-social-links {
+            opacity: 1;
+          }
+        }
+      }
+  
+      .team-content {
+        margin-top: 28px;
+      }
+    }
+  }
+  
+  .team-content {
+    > h6 {
+      margin-top: 7px;
+    }
+  }
+}
+
+

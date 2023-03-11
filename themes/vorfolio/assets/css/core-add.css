@@ -1,0 +1,329 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonone .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 13px;
+    padding-right: 28px;
+    padding-bottom: 13px;
+    padding-left: 28px;
+    background-color: #00000000;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+.is-style-custombuttonone:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--thirteenth);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--wp--preset--color--thirteenth);
+}
+
+.is-style-custombuttontwo .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: 30px;
+}
+
+.is-style-custombuttontwo:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--thirteenth);
+}
+
+.is-style-custombuttonthree .wp-block-button__link {
+    color: var(--wp--preset--color--secondary);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.is-style-custombuttonthree:hover .wp-block-button__link {
+    color: #ffffff;
+    background-color: var(--wp--preset--color--thirteenth);
+}
+
+.is-style-custombuttonfour .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    background-color: #00000000;
+}
+
+.is-style-custombuttonfour:hover .wp-block-button__link {
+    color: #E9E9E9;
+}
+
+.is-style-custombuttonfour .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    background-color: #00000000;
+}
+
+.is-style-custombuttonfour:hover .wp-block-button__link {
+    color: var(--wp--preset--color--secondary);
+}
+
+.is-style-custombuttonfive .wp-block-button__link {
+    color: var(--wp--preset--color--secondary);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF00;
+}
+
+.is-style-custombuttonfive:hover .wp-block-button__link {
+    color: var(--wp--preset--color--thirteenth);
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 3px 15px 0px #1010101a;
+}
+
+.is-style-customsociallinks .wp-block-social-link-anchor {
+    background-color: var(--wp--preset--color--secondary);
+    color: #ffffff;
+    padding : 10px;
+}
+
+.is-style-customsociallinks .wp-block-social-link-anchor:hover {
+    background-color: var(--wp--preset--color--thirteenth);
+    color: #ffffff;
+    padding : 10px;
+}
+
+
+/* VORFOLIO ADVANCE CLASSES */
+
+.vorfolio-z-index-1 {
+    z-index: 1;
+}
+
+.vorfolio-z-index-10 {
+    z-index: 10;
+}
+
+.vorfolio-z-index-100 {
+    z-index: 100;
+}
+
+.vorfolio-z-index-1000 {
+    z-index: 1000;
+}
+
+.vorfolio-margin-top-n10 {
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.vorfolio-margin-top-n20 {
+    position: relative;
+    margin-top: -20px!important;
+}
+
+.vorfolio-margin-top-n30 {
+    position: relative;
+    margin-top: -30px!important;
+}
+
+.vorfolio-margin-top-n40 {
+    position: relative;
+    margin-top: -40px!important;
+}
+
+.vorfolio-margin-top-n50 {
+    position: relative;
+    margin-top: -50px!important;
+}
+
+.vorfolio-margin-top-n60 {
+    position: relative;
+    margin-top: -60px!important;
+}
+
+.vorfolio-margin-top-n70 {
+    position: relative;
+    margin-top: -70px!important;
+}
+
+.vorfolio-margin-top-n80 {
+    position: relative;
+    margin-top: -80px!important;
+}
+
+.vorfolio-margin-top-n90 {
+    position: relative;
+    margin-top: -90px!important;
+}
+
+.vorfolio-margin-top-n100 {
+    position: relative;
+    margin-top: -100px!important;
+}
+
+.vorfolio-margin-top-n340 {
+    position: relative;
+    margin-top: -340px!important;
+}
+
+.vorfolio-radius-5 {
+    border-radius: 5px;
+}
+
+.vorfolio-radius-10 {
+    border-radius: 10px;
+}
+
+.vorfolio-radius-25 {
+    border-radius: 25px;
+}
+
+.vorfolio-radius-50 {
+    border-radius: 50px;
+}
+
+.vorfolio-margin-left-n10 {
+    position: relative;
+    margin-left: -10px!important;
+}
+
+.vorfolio-margin-left-n20 {
+    position: relative;
+    margin-left: -20px!important;
+}
+
+.vorfolio-margin-left-n30 {
+    position: relative;
+    margin-left: -30px!important;
+}
+
+.vorfolio-margin-left-n40 {
+    position: relative;
+    margin-left: -40px!important;
+}
+
+.vorfolio-margin-left-n50 {
+    position: relative;
+    margin-left: -50px!important;
+}
+
+.vorfolio-margin-left-n60 {
+    position: relative;
+    margin-left: -60px!important;
+}
+
+.vorfolio-margin-left-n70 {
+    position: relative;
+    margin-left: -70px!important;
+}
+
+.vorfolio-margin-left-n80 {
+    position: relative;
+    margin-left: -80px!important;
+}
+
+.vorfolio-margin-left-n90 {
+    position: relative;
+    margin-left: -90px!important;
+}
+
+.vorfolio-margin-left-n100 {
+    position: relative;
+    margin-left: -100px!important;
+}
+
+
+.vorfolio-post-template-gap {
+    margin-left: -17.5px!important;
+    margin-right: -17.5px!important;    
+}
+
+.vorfolio-post-template-gap .wp-block-post-template {
+    gap: 0!important;
+}
+
+.vorfolio-post-template-gap .wp-block-post-template > .wp-block-post {
+    padding-left: 17.5px!important;
+    padding-right: 17.5px!important;
+    padding-bottom: 35px!important;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .vorfolio-post-template-gap .wp-block-post-template.column-2 > .wp-block-post,
+    .vorfolio-post-template-gap .wp-block-post-template.columns-2 > .wp-block-post {
+        width: calc(50% - 35px)!important;
+    }
+
+    .vorfolio-post-template-gap .wp-block-post-template.column-3 > .wp-block-post,
+    .vorfolio-post-template-gap .wp-block-post-template.columns-3 > .wp-block-post {
+        width: calc(33.33333% - 35px)!important;
+    }
+
+    .vorfolio-post-template-gap .wp-block-post-template.column-4 > .wp-block-post,
+    .vorfolio-post-template-gap .wp-block-post-template.columns-4 > .wp-block-post {
+        width: calc(25% - 35px)!important;
+    }
+
+    .vorfolio-post-template-gap .wp-block-post-template.column-5 > .wp-block-post,
+    .vorfolio-post-template-gap .wp-block-post-template.columns-5 > .wp-block-post {
+        width: calc(20% - 35px)!important;
+    }
+
+    .vorfolio-post-template-gap .wp-block-post-template.column-6 > .wp-block-post,
+    .vorfolio-post-template-gap .wp-block-post-template.columns-6 > .wp-block-post {
+        width: calc(16.66667% - 35px)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.column-2 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.columns-2 > .wp-block-post {
+        width: calc(50%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.column-3 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.columns-3 > .wp-block-post {
+        width: calc(33.33333%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.column-4 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.columns-4 > .wp-block-post {
+        width: calc(25%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.column-5 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.columns-5 > .wp-block-post {
+        width: calc(20%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.column-6 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .vorfolio-post-template-gap .wp-block-post-template.columns-6 > .wp-block-post {
+        width: calc(16.66667%)!important;
+    }
+
+}

@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1024px) {
+    .zenithwp-your-business {
+        margin-top: 48px !important;
+        margin-bottom: 48px !important;
+
+        h2 {
+            font-size: 38px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zenithwp-your-business {
+        p {
+            text-align: left !important;
+            max-width: 100% !important;
+            margin: 0 !important;
+        }
+
+        h2 {
+            text-align: left !important;
+            font-size: 28px !important;
+        }
+
+        >.wp-container-12.wp-block-group {
+            max-width: 500px !important;
+            margin: 0 auto !important;
+            font-size: 14px !important;
+            padding-bottom: 48px !important;
+        }
+
+        >.wp-block-cover.alignfull {
+            min-height: 450px !important;
+            margin-top: 0 !important;
+        }
+    }
+}

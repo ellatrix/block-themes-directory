@@ -1,0 +1,144 @@
+/*
+Theme Name: Blockette
+Author: Micemade
+Author URI: https://micemade.com
+Description: WordPress Block theme, created for Full Site Editing, adapted to WooCommerce plugin. Features additional global style variations, custom templates for WooCommerce pages, and patterns.
+Tags: site-editor, full-site-editing, editor-style, block-patterns, patterns, templates, template-parts, wide-blocks, block-styles, full-width-template, template-editing, translation-ready, blog, e-commerce
+Text Domain: blockette
+Requires at least: 6.0
+Requires PHP: 7.4
+Tested up to: 6.1
+Version: 1.0.4
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+/*
+ * Frontend styles only.
+ */
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Sticky header only for screens above 782px width.
+ */
+@media screen and (min-width: 782px) {
+	.is-style-blockette-sticky,
+	.is-style-blockette-sticky-no-shadow {
+		position: sticky;
+		top: 0;
+		z-index: 999;
+	}
+	/* Sticky header if WP admin bar is on. */
+	.admin-bar .is-style-blockette-sticky,
+	.admin-bar .is-style-blockette-sticky-no-shadow {
+		top: 32px;
+	}
+}
+
+/*
+ * Navigation modal if WP admin bar is on.
+ */
+.admin-bar .has-modal-open {
+	top: 32px
+}
+/* Mobile WP admin bar */
+@media screen and (max-width: 782px) {
+	.admin-bar .has-modal-open {
+		top: 46px;
+	}
+}
+
+/*
+ * Animations.
+ */
+:root {
+	--blockette-transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+body .blockette-animate-init {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0) translateX(0) scale(1) rotate(0)
+}
+
+.blockette-animate {
+	opacity: 0;
+	visibility: hidden;
+	transition-property: opacity, transform;
+}
+
+.blockette-move-up {
+	transform: translateY(30px)
+}
+
+.blockette-move-down {
+	transform: translateY(-30px)
+}
+
+.blockette-move-right {
+	transform: translateX(-40px)
+}
+
+.blockette-move-left {
+	transform: translateX(40px)
+}
+
+.blockette-flip {
+	transform: perspective(500px) translateY(60px) scaleY(.75) rotateX(-40deg)
+}
+
+.blockette-scale {
+	transform: scale(0.5)
+}
+
+.blockette-flip,
+.blockette-move-down,
+.blockette-move-up,
+.blockette-move-right,
+.blockette-move-left,
+.blockette-scale {
+	transition-duration: .7s;
+	transition-timing-function: var(--blockette-transition)
+}
+
+.blockette-delay-1 {
+	transition-delay: .1s
+}
+
+.blockette-delay-3 {
+	transition-delay: .3s
+}
+
+.blockette-delay-5 {
+	transition-delay: .5s
+}
+
+.blockette-delay-7 {
+	transition-delay: .7s
+}
+
+.blockette-delay-10 {
+	transition-delay: 1s
+}
+
+.blockette-delay-20 {
+	transition-delay: 2s
+}

@@ -1,0 +1,43 @@
+/* --- Featured Content Two
+-------------------------------------------------------- */
+.wp-block-columns.featured-content-two-columns
+  .wp-block-lensation-featured-content
+  .wp-block-image {
+  margin-bottom: 0;
+}
+
+/* --- Featured Content Three
+-------------------------------------------------------- */
+
+.wp-block-columns.featured-content-three-columns
+  .wp-block-lensation-featured-content
+  .wp-block-image {
+  margin-bottom: 0;
+}
+
+.featured-content-columns .wp-block-image {
+  margin: 0;
+}
+.wp-block-group-featured-content {
+  padding: var(--wp--custom--spacing--wp-post);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wp-block-lensation-featured-content .wp-block-image {
+  overflow: hidden;
+}
+
+.wp-block-lensation-featured-content .wp-block-image img {
+  transition: all 0.5s ease;
+}
+
+.wp-block-lensation-featured-content .wp-block-image:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transform: scale(1.1);
+}
+
+.featured-content-columns .wp-block-buttons .wp-block-button__link {
+  margin-top: 0;
+}

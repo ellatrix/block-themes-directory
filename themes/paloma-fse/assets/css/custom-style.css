@@ -1,0 +1,15 @@
+
+
+
+
+.wp-block-navigation-animation .wp-block-navigation-item a:hover:before, 
+.wp-block-navigation-animation .wp-block-navigation-item .wp-block-navigation-item__content:hover:before {
+    border-bottom-color: var(--wp--preset--color--primary);
+    border-right-color: var(--wp--preset--color--primary);
+}
+
+.wp-block-navigation-animation .wp-block-navigation-item a:hover:after, .wp-block-navigation-animation .wp-block-navigation-item .wp-block-navigation-item__content:hover:after {
+    border-top-color: var(--wp--preset--color--primary);
+    border-left-color: var(--wp--preset--color--primary);
+   
+}

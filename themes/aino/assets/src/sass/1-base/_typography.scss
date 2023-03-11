@@ -1,0 +1,187 @@
+button,
+input,
+select,
+table,
+textarea {
+	font-family: var(--wp--custom--body--typography--font-family);
+	line-height: var(--wp--custom--line-height--body);
+}
+
+.wp-block-calendar table,
+.hentry .entry-summary,
+.posts-container .hentry .entry-footer {
+	font-size: var(--wp--preset--font-size--text-m) !important;
+	color: var(--wp--preset--color--font-secondary);
+}
+
+.has-text-xs-font-size p,
+.single .navigation a span.nav-subtitle,
+.entry-content .sharedaddy h3.sd-title,
+.blocks-gallery-grid .blocks-gallery-item figcaption,
+div[class*='wp-block-'] figcaption,
+.is-style-btn li a,
+.wp-block-tag-cloud.is-style-btn a,
+.logged-in-as,
+#cancel-comment-reply-link {
+	font-size: var(--wp--preset--font-size--text-xs) !important;
+}
+
+.has-text-xxs-font-size p {
+	font-size: var(--wp--preset--font-size--text-xxs) !important;
+}
+
+.hentry {
+
+	.entry-summary,
+	.entry-cats,
+	.entry-footer {
+
+		.blog-1-column &,
+		.blog-2-column & {
+			font-size: var(--wp--preset--font-size--text-m) !important;
+		}
+	}
+}
+
+.page-header .description p,
+.entry-content p.has-m-font-size,
+.mc4wp-form .mc4wp-alert p,
+input,
+select,
+table,
+textarea,
+address,
+.hentry ol,
+.hentry ul,
+dl,
+.authorbox-wrap .wp-block-post-author__bio {
+	font-size: var(--wp--preset--font-size--text-m) !important;
+}
+
+.authorbox__content .author-bio,
+.wp-block-separator.is-style-dots:before,
+.wp-block-post-author__byline,
+.wp-block-post-author__name,
+.wp-block-post-comments p.nocomments,
+.comment-reply-title {
+	font-size: var(--wp--preset--font-size--text-l) !important;
+}
+
+/* Headings */
+h1.site-title,
+.site-title,
+h2.entry-title {
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+.wp-block-ainoblocks-accordion-faq-block.is-style-toggle h3 {
+	font-size: var(--wp--preset--font-size--text-xxs) !important;
+}
+
+.nav-title,
+.wp-block-ainoblocks-accordion-faq-block h3 {
+	font-size: var(--wp--preset--font-size--text-m) !important;
+}
+
+.authorbox__details .author-name,
+.related-title {
+	font-size: var(--wp--preset--font-size--text-xxxl) !important;
+}
+
+dfn,
+em,
+i {
+	font-style: italic;
+}
+
+dt,
+.wp-block-post-author__name,
+.wp-block-comment-author-name {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5rem 1.5rem;
+
+	@include breakpoint(sm) {
+		margin: 0 1.5rem 1.5rem;
+	}
+}
+
+code,
+kbd,
+tt,
+var,
+pre,
+.wp-block-code {
+	font-family: var(--wp--preset--font-family--monospace);
+	font-size: var(--wp--preset--font-size--text-xs);
+	line-height: 1.2;
+}
+
+pre {
+	@include s-r-6(padding);
+	@include s-r-6(margin-bottom);
+	border: none;
+}
+
+abbr,
+acronym {
+	text-decoration: none;
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+ins,
+mark {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+.dropcap {
+	font-size: 6.125rem;
+	font-weight: 300;
+	float: left;
+	padding: 0 10px 0 0;
+	line-height: 0.9;
+	color: var(--wp--preset--color--font-secondary);
+
+	@include breakpoint(sm) {
+		font-size: 7.75rem;
+		margin-left: -11px;
+		line-height: 0.79;
+	}
+}
+
+.indent {
+	text-indent: 3.5rem;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.serif {
+	font-family: var(--wp--custom--serif--typography--font-family) !important;
+}
+
+.sans-serif {
+	font-family: var(--wp--custom--sans-serif--typography--font-family) !important;
+}
+
+//Default paragraph and heading spacing if no individual spacing is set
+.wp-block-post-content p:not([class*="pt__"]) {
+	@include s-r-7 (padding-top);
+}

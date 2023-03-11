@@ -1,0 +1,40 @@
+/*
+Theme Name: LaVenta
+Theme URI: https://catchthemes.com/themes/laventa
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: LaVenta is a free eCommerce WordPress block theme for full site editing. This theme is ideal for all online stores and businesses to display their products online. It is a block-based theme that comes with a pixel-perfect design and extensive functionality for eCommerce websites. This is an elegant theme that can impress visitors and smooth the shopping experience. This theme is compatible with the WooCommerce plugin that lets you build a mobile-friendly eCommerce website with ease. This theme includes powerful features and stunning designs. So, create a fully functional online store with LaVenta. There are 15+ block patterns, 16 Templates, and 9 Template Parts available in this theme to help you build the eCommerce site beautifully. Some of the block patterns are CTA, Featured Content, Footer Dark, Footer Three Columns Dark, Header Media, Header With Social And Cart Dark, Header, Hero Content, Hidden 404, Hidden Archive, Hidden Post, Hidden Search, Recent Products, Product Category, and many more. All the block patterns, Templates, and Templates Parts are fully responsive, highly customizable, and fast loading. Build a beautiful eCommerce website and sell the products with LaVenta right away.
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.1.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: laventa
+Tags: e-commerce, blog, portfolio, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+LaVenta is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

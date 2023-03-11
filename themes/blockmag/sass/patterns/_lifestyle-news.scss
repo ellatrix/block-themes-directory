@@ -1,0 +1,98 @@
+/* --- Block Lifestyle News
+-------------------------------------------------------- */
+
+.wp-block-lifestyle-news .wp-block-post-template > li {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    &:first-child {
+
+        .wp-block-post-featured-image,
+        .wp-block-post-excerpt__excerpt,
+        .wp-block-post-excerpt__more-link {
+            display: block;
+        }
+
+        .wp-block-post-terms + .wp-block-post-featured-image {
+            margin-top: 14px;
+        }
+
+        .wp-block-post-excerpt__more-text,
+        .wp-block-post-excerpt {
+            margin-top: var(--wp--custom--spacing--tiny);
+        }
+
+        .wp-block-post-excerpt__excerpt {
+            margin-top: 0;
+        }
+
+        .wp-block-post-container .wp-block-post-title {
+            font-size: var(--wp--preset--font-size--large);
+        }
+
+        .wp-block-post-featured-image {
+            margin-bottom: 21px;
+        }
+    }
+
+    .wp-block-post-featured-image,
+    .wp-block-post-excerpt__excerpt,
+    .wp-block-post-excerpt__more-link,
+    .wp-block-post-date svg.icon {
+        display: none;
+    }
+
+    .wp-block-post-container {
+        .wp-block-post-title {
+            font-size: var(--wp--preset--font-size--content-heading);
+            line-height: var(--wp--custom--typography--line-height--heading-six);
+        }
+
+        .wp-block-post-meta {
+            margin-top: 14px;
+        }
+    }
+
+    &:not(:first-child) {
+        border-top: 1px solid var(--wp--preset--color--border-color);
+        padding-top: var(--wp--style--block-gap, 2em);
+
+        .post-featured-image-wrapper {
+            .wp-block-post-terms {
+                margin-bottom: 7px;
+            }
+        }
+    }
+
+    .post-featured-image-wrapper {
+        .wp-block-post-terms {
+            font-size: var(--wp--preset--font-size--tiny);
+        }
+    }
+
+    .wp-block-post-excerpt {
+        margin-top: 0;
+        display: none;
+    }
+
+    .wp-block-post-featured-image {
+        position: relative;
+        padding-top: 75%;
+        overflow: hidden;
+
+        a,
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.wp-block-lifestyle-news .wp-block-post-template.is-flex-container {
+    gap: var( --wp--style--block-gap) 0;
+}

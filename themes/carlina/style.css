@@ -1,0 +1,308 @@
+/*
+Theme Name: Carlina
+Author: Monique Leung
+Description: Carlina is a highly customizable theme that is built based on the Full Site Editing features in WordPress 5.9. The in-built block patterns and default modern design can help you build a stylish website, and you can customize your website like colors and layouts with just a few clicks. Carlina is an all-purpose website theme and can fit many of your purposes, including building a small business website, a portfolio, or a blog. Check out the demo site at https://carlina-demo.netlify.app/.
+Requires at least: 5.9
+Tested up to: 5.9
+Requires PHP: 5.6
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: carlina
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
+*/
+
+/* break long words in title when overflow*/
+.wp-block-post-title{
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+/* break long comments */
+@media screen and (max-width: 800px){
+	#wpcomm .wc-comment-author {
+	    white-space: nowrap;
+            width: 100%;
+	    overflow: hidden;
+            text-overflow: ellipsis;
+    }
+}
+
+/* sticky posts*/
+.sticky {
+  box-shadow: 0 0 1rem var(--wp--preset--color--tertiary);
+}
+
+.sticky h4, .sticky div {
+  padding: 0 0 0 .5rem;
+}
+
+.sticky div {
+  padding-bottom: .5rem;
+}
+.sticky .wp-post-image {
+  box-shadow: none;
+}
+
+/* add style to blockquotes */
+blockquote {
+  padding-left: 2em;
+  border-left: 2px dotted black;
+}
+
+
+ /* set no margin at the bottom of header image */
+ .wp-block-image.alignfull{
+    margin-bottom: 0;
+ }
+
+ /* set alignment to centre */
+ .aligncenter{
+   margin: auto;
+ }
+
+ /* set alignment for figures */
+ figure.alignleft {
+   margin-right: 2em !important;
+ }
+ figure.alignright {
+  margin-left: 2em !important;
+}
+
+/* set style for tables */
+table {
+  border-spacing:0;
+}
+tr.odd {
+  background:linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)) no-repeat, linear-gradient(var(--wp--preset--color--tertiary), var(--wp--preset--color--tertiary)) no-repeat;
+}
+
+th, td {
+  padding: 1em;
+}
+
+ /* to set a round rectangle white frame for the content */
+ .blockcontainer {
+    background-color: var(--wp--custom--container-color);
+    width: 90%;
+    margin: auto;
+    border-radius: 0 0 2rem 2rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem 0;
+ }
+
+ /* default to have shadow for all post images */
+ .wp-post-image {
+   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+ }
+
+ /* set the link styles */
+
+ :link:not(figure a, .custom-logo-link, .wp-block-site-title a, .wp-block-post-title a, .wp-block-button__link, .wp-block-navigation-item__content, .wp-block-query-pagination-previous, .wp-block-query-pagination-next, .wp-block-social-link-anchor, .wp-block-latest-posts__featured-image a) , :visited:not(figure a, .custom-logo-link, .wp-block-site-title a, .wp-block-post-title a, .wp-block-button__link, .wp-block-navigation-item__content, .wp-block-query-pagination-previous, .wp-block-query-pagination-next, .wp-block-social-link-anchor, .wp-block-latest-posts__featured-image a) {
+   text-decoration: none;
+   border-bottom: 1px solid #bbb;
+ }
+
+ a:not(.wp-block-social-link-anchor):hover {
+   color: var(--wp--preset--color--secondary) !important;
+ }
+
+ a:hover {
+  cursor: pointer;
+ }
+
+ /* add css transition for hover */
+ a, img {
+    transition: all .5s;
+ }
+
+ /* zoom in when hover images */
+ figure a:hover, a img:hover {
+    transform: scale(1.03);
+ }
+
+/* set a smaller font for the second level in menu */
+ .wp-block-navigation__submenu-container {
+    font-size: var(--wp--preset--font-size--x-small);
+ }
+
+/* add css transition for nav links and buttons*/
+ .wp-block-navigation-link, .wp-block-button__link {
+   transition: all .5s;
+ }
+
+/* add css transition for nav links */
+ .wp-block-navigation-link:hover {
+   color: var(--wp--preset--color--secondary);
+ }
+
+ /* add css transition for buttons */
+ .wp-block-button__link:hover {
+  background-color: var(--wp--preset--color--secondary);
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+ }
+
+ /* add style to the nav bar */
+ .floating {
+   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.3);
+   background-image: var(--wp--preset--gradient--diagonal-tertiary-to-white);
+   padding: .5rem;
+   margin-top: 0;
+ }
+
+ .floating li:hover, .floating li>li:hover  {
+   color: var(--wp--preset--color--primary);
+ }
+
+ /* add style for pulldown menu */
+ .postform {
+   padding: .5rem;
+   border-radius: 2rem;
+ }
+
+
+ /* make nav bar sticky using js */
+ .stickynav {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1000;
+ }
+
+ /* add default border radius to buttons */
+ input, button {
+   border-radius: 2rem;
+ }
+
+ /* add animation in site title and tagline in large header pattern */
+.clipin {
+  animation: text-clip 5s 0s cubic-bezier(0.5, 0, 0.2, 1) both;
+  text-shadow: 0 0 .5em rgba(0, 0, 0, 0.5);
+}
+
+.moveleft {
+  animation: move-in 2s ease both;
+}
+
+.vibrate {
+  animation: vibrate 2s 5s ease alternate infinite, text-clip 5s 0s cubic-bezier(0.5, 0, 0.2, 1) both;
+  width: max-content;
+}
+
+@keyframes text-clip {
+  from {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes move-in {
+  from {
+    transform: translateX(20%);
+    opacity: 0%;
+  }
+  to {
+    transform: none;
+    opacity: 100%;
+  }
+}
+
+@keyframes vibrate {
+  0% {
+    transform: none;
+  }33% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+/* add animation to the down arrow in front page */
+.arrow-down {
+  opacity: 60%;
+  margin-bottom: 0;
+  animation: arrow-down 2s ease infinite;
+}
+
+@keyframes arrow-down {
+  from {
+    opacity: 60%;
+    transform: none;
+  }
+  to {
+    opacity: 0%;
+    transform: translateY(20px);
+  }
+}
+
+/* to add the padding on the left of the site title and tagline in larger viewport*/
+@media screen and (min-width : 600px) {
+   .headerline {
+      padding-left: 4rem;
+   }
+}
+
+@media screen and (max-width : 600px) {
+/* change the flex direction to column when the screen size is small */
+  .wp-block-columns:not(.reverse-columns) {
+    flex-direction: column;
+  }
+
+/* reverse the flex direction when the screen size is small and this class name is added (intended for 2n columns) */
+  .reverse-columns{
+    flex-direction: column-reverse;
+}
+
+/* to fix the issue that the footer not centered in mobile view*/
+  footer .wp-block-column {
+    margin: auto;
+  }
+
+  footer .wp-block-column p {
+    text-align: center;
+  }
+
+  /* to set bigger font size for mobile */
+  .forminator-ui#forminator-module-174.forminator-design--flat .forminator-label, .forminator-ui#forminator-module-174.forminator-design--flat .forminator-input, .forminator-ui#forminator-module-174.forminator-design--flat .forminator-input input {
+    font-size: 1rem;
+  }
+
+  .forminator-ui#forminator-module-174.forminator-design--flat .forminator-button-submit {
+    font-size: 1.2rem;
+  }
+
+  html {
+    font-size: 1.2rem;
+  }
+
+  /* to set a padding for post templates for smaller viewport */
+  .wp-block-post-template {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  /* to display in block instead of flex and set a padding for block columns for smaller viewport */
+  .wp-block-columns.alignfull {
+    display: block;
+    padding-right: 2rem;
+  }
+
+  /* to allow wrap the tagline and description in smaller viewport */
+  .headerline p {
+    width: 100vw;
+  }
+
+}
+
+/* set a wider gap between image and arrows in larger viewport */
+@media screen and (min-width : 600px) {
+  .slides {
+    gap: 4rem;
+  }
+
+}

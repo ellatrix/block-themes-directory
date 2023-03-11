@@ -1,0 +1,7 @@
+.taxonomy-category.wp-block-post-terms a, 
+.taxonomy-post_tag.wp-block-post-terms a, .wp-block-tag-cloud a {
+    border: none;
+    color: var(--wp--preset--color--white);
+    background: var(--wp--preset--color--primary);
+    padding: 0 10px;
+}

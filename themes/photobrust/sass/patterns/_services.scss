@@ -1,0 +1,13 @@
+/* --- Services Style
+-------------------------------------------------------- */
+
+.wp-block-columns.service-columns > .wp-block-column {
+    padding: var(--wp--custom--spacing--wp-comment-vertical);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+.wp-block-section .wp-block-columns.service-columns > .wp-block-column {
+    border-radius: 0;
+}

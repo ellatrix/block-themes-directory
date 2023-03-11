@@ -1,0 +1,85 @@
+.zenithwp-our-team {
+    .wp-block-columns {
+        .wp-block-column {
+            .wp-block-cover {
+                position: relative;
+                transition: all .5s;
+                bottom: 0;
+            }
+
+            .wp-block-cover:hover {
+                bottom: 8px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .zenithwp-our-team {
+        h2 {
+            font-size: 38px !important;
+        }
+
+        h3 {
+            font-size: 28px !important;
+        }
+
+        .wp-block-group:last-child {
+            h5 {
+                margin-bottom: 24px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zenithwp-our-team {
+        margin-top: 48px !important;
+
+        h2 {
+            font-size: 28px !important;
+        }
+
+        h3 {
+            font-size: 21px !important;
+        }
+
+        .wp-block-columns {
+            gap: 0 !important;
+
+            .wp-block-cover.is-light {
+                margin-bottom: 32px !important;
+            }
+
+            .wp-container-12.wp-block-group {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                margin: 14px 0 !important;
+            }
+
+            .wp-container-13.wp-block-social-links {
+                margin-bottom: 48px !important;
+            }
+        }
+
+        .wp-block-group:last-child {
+            padding-bottom: 30px !important;
+            margin-bottom: 48px !important;
+            display: flex !important;
+            flex-wrap: wrap !important;
+            justify-content: space-between !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .zenithwp-our-team {
+        .wp-block-cover {
+            min-height: 600px !important;
+        }
+    }
+}

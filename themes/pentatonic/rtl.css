@@ -1,0 +1,221 @@
+/*
+Theme Name: Pentatonic
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+@charset "UTF-8";
+
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.wp-block-main-header .wp-block-navigation,
+.editor-styles-wrapper .wp-block-main-header .wp-block-navigation {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.search-container .wp-block-search__button,
+.editor-styles-wrapper .search-container .wp-block-search__button {
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.content > .video-play > span,
+.editor-styles-wrapper .content > .video-play > span {
+  padding-left: 0;
+  padding-right: 7px;
+}
+
+.content > .video-play svg {
+  transform: rotate(180deg);
+}
+
+.wp-block-custom-header-media-with-title-and-nav .content > .video-play > span,
+.editor-styles-wrapper .wp-block-custom-header-media-with-title-and-nav .content > .video-play > span {
+  padding-left: 0;
+  padding-right: 14px;
+}
+
+.wp-block-case-study-videos .wp-block-separator:not(.is-style-wide):not(.is-style-dots),
+.editor-styles-wrapper .wp-block-case-study-videos .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link,
+.wp-block-case-study-videos .content .video-play span,
+.wp-block-featured-podcast .content .video-play span,
+.wp-block-featured-podcast .content .video-play span,
+.wp-block-favourite-podcast .content .video-play span {
+  transform: rotate(180deg);
+}
+
+.simple-audio-player .simp-album .simp-cover,
+.editor-styles-wrapper .simple-audio-player .simp-album .simp-cover {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.simple-audio-player ul li::before {
+  left: inherit;
+  right: 0;
+  transform: translateY(-50%) translateX(15px) rotate(180deg);
+}
+
+.simple-audio-player ul li.simp-active:before {
+  transform: translateY(-50%) translateX(0) rotate(180deg);
+}
+
+.wp-block-team-slider .navigation-wrap,
+.wp-block-logo-slider .navigation-wrap,
+.editor-styles-wrapper .wp-block-team-slider .navigation-wrap,
+.editor-styles-wrapper .wp-block-logo-slider .navigation-wrap {
+  right: unset;
+  left: 0;
+}
+
+.wp-block-team-slider .wp-block-group-heading,
+.wp-block-logo-slider .wp-block-group-heading,
+.editor-styles-wrapper .wp-block-team-slider .wp-block-group-heading,
+.editor-styles-wrapper .wp-block-logo-slider .wp-block-group-heading {
+  padding-right: 0;
+  padding-left: 130px;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: unset;
+}
+
+svg.icon,
+.editor-styles-wrapper svg.icon {
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+.wp-block-widget-area ul,
+.editor-styles-wrapper .wp-block-widget-area ul {
+  padding-right:  0;
+}
+
+.wp-block-archives-list > li>a,
+.wp-block-categories-list > li>a {
+  float: right;
+}
+
+/* Style Guide */
+.has-drop-cap:not(:focus):first-letter,
+.block-editor .editor-styles-wrapper .has-drop-cap:not(:focus):first-letter {
+  margin: 0.15em -0.07em 0 0.15em;
+}
+
+/* --- > Media Quries
+-------------------------------------------------------- */
+
+/* --- > 360px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 22.5em) {
+}
+
+/* --- > 600px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 37.5em) {
+
+}
+
+
+/* --- > 601px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 37.5625em) {
+
+}
+
+/* --- > 768px
+-------------------------------------------------------- */
+@media screen and (min-width: 48em) {
+}
+
+
+/* --- > 782px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 48.875em) {
+  .wp-block-main-header .wp-block-fse-pro-header-search .search-container,
+  .wp-block-main-header .wp-block-fse-pro-header-social .social-container,
+  .editor-styles-wrapper .wp-block-main-header .wp-block-fse-pro-header-search .search-container,
+  .editor-styles-wrapper .wp-block-main-header .wp-block-fse-pro-header-social .social-container {
+    right: auto;
+    left: 0;
+  }
+
+  .wp-block-music-playlist .simple-audio-player,
+  .editor-styles-wrapper .wp-block-music-playlist .simple-audio-player {
+    margin: 0 auto 0 0;
+  }
+
+}
+
+
+/* --- > 1024px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 64em) {
+  .content > .video-play > span,
+  .editor-styles-wrapper .content > .video-play > span {
+    padding-right: 14px;
+  }
+
+  .wp-block-subscribe .tnp-subscription-minimal form input.tnp-submit,
+    .editor-styles-wrapper .wp-block-subscribe .tnp-subscription-minimal form input.tnp-submit {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 28px;
+      border-top-left-radius: 28px;
+  }
+
+  .wp-block-subscribe .tnp-subscription-minimal form input.tnp-email,
+    .editor-styles-wrapper .wp-block-subscribe .tnp-subscription-minimal form input.tnp-email {
+      border-bottom-right-radius: 28px;
+      border-top-right-radius: 28px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+  }
+}
+
+/* --- > 1200px
+-------------------------------------------------------- */
+
+@media screen and (min-width:75em) {
+}
+
+
+/* --- > 1366px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 85.375em) {
+}
+
+/* --- > 1600px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 100em) {
+}
+
+/* --- > 1920px
+-------------------------------------------------------- */
+
+@media screen and (min-width: 120em) {
+
+}
+
+

@@ -1,0 +1,82 @@
+/* --- Block Episode
+-------------------------------------------------------- */
+
+.wp-block-episode .wp-block-cover__inner-container.block-editor-block-list__layout {
+    position: static;
+}
+
+.wp-block-episode .wp-block-cover .block-editor-block-list__layout {
+    width: auto;
+}
+
+.wp-block-episode-content-container {
+    position: absolute;
+    bottom: clamp(28px,2vw,35px);
+    left: clamp(28px,2vw,35px);
+    right: clamp(28px,2vw,35px);
+    width: calc(100% - clamp(28px, 2vw, 35px));
+}
+
+.wp-block-episode .wp-block-post-date svg {
+    display: none;
+}
+
+.wp-block-episode-date {
+    border: 1px solid var(--wp--preset--color--ironside-grey);
+    padding: 14px;
+    text-align: center;
+}
+
+.wp-block-episode-date .wp-block-post-date + .wp-block-post-date {
+    margin-top: 3px;
+}
+
+.wp-block-episode .wp-block-post-date:nth-child(1) {
+    color: var(--wp--preset--color--color-light);
+    font-weight: var(--wp--custom--typography--font-weight--medium);
+    font-size: clamp(16px, 1vw, 18px);
+    line-height: var(--wp--custom--typography--line-height--heading-six);
+    text-transform: uppercase;
+}
+
+.wp-block-episode .wp-block-post-date:nth-child(2) {
+    font-size: clamp(28px,2.2vw,42px);
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+    color: var(--wp--preset--color--color-light);
+    line-height: 1;
+}
+
+.wp-block-episode-title p:not(.has-text-color) {
+   font-size: var(--wp--preset--font-size--medium);
+   line-height: var(--wp--custom--typography--line-height--paragraph);
+}
+
+.wp-block-episode-title h2:not(.has-text-color) {
+    font-size: clamp(24px,2vw,32px);
+    font-weight: var(--wp--custom--typography--font-weight--semi-bold);
+}
+
+.wp-block-episode-title p + h2 {
+    margin-top: 1px;
+}
+
+.wp-block-episode .wp-block-cover .wp-block-cover__background {
+    transition: opacity 0.3s ease-out;
+}
+
+.wp-block-episode .wp-block-cover:hover .wp-block-cover__background {
+    opacity: 0.3;
+    transition: opacity 0.3s ease-out;
+}
+
+.wp-block-episode .wp-block-cover {
+    overflow: hidden;
+}
+
+.wp-block-episode .wp-block-cover .wp-block-cover__image-background {
+    transition: 0.3s ease-out;
+}
+
+.wp-block-episode .wp-block-cover:hover .wp-block-cover__image-background {
+    transform: scale(1.05);
+}

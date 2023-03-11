@@ -1,0 +1,32 @@
+/* --- Block CTA
+-------------------------------------------------------- */
+
+.wp-block-cta .wp-block-button__link {
+    margin-top: 0;
+}
+
+.wp-block-cta-with-video .wp-block-group-heading,
+.wp-block-cta-just-video .wp-block-group-heading,
+.wp-block-cta .wp-block-group-heading {
+    border-left: 0;
+    padding-left: 0;
+}
+
+
+.wp-block-cta .wp-block-group-heading {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wp-block-cta.wp-block-section .wp-block-group-heading h2 {
+    font-size: var(--wp--custom--typography--font-size--huge-post-title);
+    line-height: var(--wp--custom--typography--line-height--heading-two);
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+
+.wp-block-cta .wp-block-group-heading p {
+    font-style: italic;
+    font-size: var(--wp--preset--font-size--content-heading);
+    line-height: var(--wp--custom--typography--line-height--heading-two);
+}

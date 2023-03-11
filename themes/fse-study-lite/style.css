@@ -1,0 +1,144 @@
+/*
+Theme Name: FSE Study Lite
+Theme URI: https://flythemes.net/wordpress-themes/fse-study-lite-wordpress-theme/
+Author: Flythemes
+Author URI: https://flythemes.net
+Description: FSE Study lite theme is beautifully designed and developed WordPress theme. This theme is full site-editing (FSE) compatible and useful for educational purpose. Your educational website has to be simple to use and easy to manage. By using this theme you can easily access the editor and all the block patterns provided with the theme. So it should not be complicated when navigating through. Our theme is smart. Users of your site can get the work done in minutes. Hence, it saves time. An attractive, friendly and simple design. There is beauty in simplicity. Our team have put together an irresistible theme for your site. It feels like an interaction between your customer and your site. The theme is designed such that it generates lots of engagements from your users. It is easy to use and easy to navigate also.
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.0.5
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: fse-study-lite
+Tags: education, one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+
+FSE Study Lite is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+FSE Study Lite WordPress Theme has been created by Flythemes(flythemes.net), 2022.
+FSE Study Lite WordPress Theme is released under the terms of GNU GPL
+*/
+
+/* --- > Default Css
+-------------------------------------------------------- */
+img{
+    display: block;
+}
+.site-header{
+    box-shadow: 0 -1px 8px -5px rgb(0, 0, 0.2);
+}
+ul.inline-list{
+    margin: 0;
+    padding: 0;
+}
+ul.inline-list li{
+    display: inline-block;
+}
+ul.inline-list li:not(:last-child){
+    margin-right: 10px;
+}
+ul.inline-list li a{
+    padding: 2px 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.wp-block-post-title a,
+.wp-block-site-title a,
+.site-top-header a,
+.site-header a{
+	text-decoration: none;
+}
+.text-right{
+    text-align: right;
+}
+.sitenav-main ul li{
+    margin: 0 5px;
+}
+.sitenav-main ul > li > a{
+    padding: 12px 0 !important;
+}
+.sitenav-main ul li a span{
+    display: block;
+    position: relative;
+    padding: 0 10px;
+}
+.sitenav-main ul li a .wp-block-navigation-item__content{
+    color: none;
+}
+.page-numbers {
+    padding: 6px 18px;
+    display: inline-block;
+}
+.footer-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-menu li{
+    margin: 14px 0;
+}
+.wp-block-categories,
+.wp-block-archives{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wp-block-categories li,
+.wp-block-archives li{
+    line-height: 2.2;
+}
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+/* --- > Media Queries
+-------------------------------------------------------- */
+/* --- > 600px
+-------------------------------------------------------- */
+@media screen and (max-width:781px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: block; 
+    }
+    
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none; 
+    }
+    .site-top-header .wp-container-7,
+    .site-top-header .wp-container-10{
+        gap: 1em;
+    }  
+    .site-top-header .text-right{
+        text-align: center;
+    }
+    .site-top-header .wp-container-7 .wp-block-group{
+        justify-content: center;
+    }
+    .hero-banner{
+        text-align: center;
+    }
+    .hero-banner .wp-block-cover{
+        padding-top: 5em !important;
+        padding-bottom: 4em !important;
+    }
+    .hero-banner .wp-container-17{
+        justify-content: center;
+    }
+    .site-copyright p{
+        margin: 0 !important;
+    }
+    .site-copyright .has-text-align-right{
+        text-align: left;
+    }
+    .site-copyright .wp-container-70{
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width:1110px) and (min-width:782px) {
+    .site-top-header p{
+        font-size: 12px !important;
+    }
+    .sitenav-main ul li{
+        margin: 0 1px;
+    }
+}

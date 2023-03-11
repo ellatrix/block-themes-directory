@@ -1,0 +1,79 @@
+.entry-content ul li {
+  margin-bottom: 25px;
+}
+
+blockquote {
+  margin: 0;
+}
+
+body [class*="is-layout"] > h1 + *,
+body [class*="is-layout"] > h2 + *,
+body [class*="is-layout"] > h3 + *,
+body [class*="is-layout"] > h4 + *,
+body [class*="is-layout"] > h5 + *,
+body [class*="is-layout"] > h6 + * {
+  margin-block-start: calc( var(--wp--style--block-gap) / 2);
+}
+
+body [class*="is-layout"] .wp-block-post-title {
+  margin-block-start: 0;
+}
+
+main .wp-block-query .wp-block-post-template {
+  margin-block-start: 0;
+  row-gap: var(--wp--custom--spacing--query-gap);
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+  padding: 12px 58px;
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color) {
+  color: var(--wp--preset--color--text-dark);
+}
+
+.wp-block-embed figcaption,
+.wp-block-table figcaption {
+  margin-top: 15px;
+}
+
+figure.wp-block-gallery {
+  --wp--style--block-gap: 20px;
+}
+
+figure.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  font-size: var(--wp--preset--font-size--medium);
+}
+
+.wp-block-pullquote:not([class*="has-text-align"]) {
+  text-align: left;
+}
+
+.wp-block-pullquote p {
+  margin: 0 0 20px 0;
+  font-size: inherit;
+}
+
+/*
+Third party plugins
+===================== */
+
+div.wp-block-ifb-instagram {
+  margin-block-start: 0;
+}
+
+div.wp-block-jetpack-contact-form {
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .wp-block-media-text.is-stacked-on-mobile {
+    grid-row-gap: var(--wp--style--block-gap);
+  }
+
+  .wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
+    padding: 0;
+  }
+}

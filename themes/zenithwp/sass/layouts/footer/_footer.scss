@@ -1,0 +1,47 @@
+footer,
+body.editor-styles-wrapper {
+    // color: var(--wp--preset--color--contrast);
+    // p,h2,li,a {
+    //     color: var(--wp--preset--color--contrast);
+    // }
+}
+
+footer {
+    a {
+        text-decoration: inherit;
+    }
+}
+
+.wp-block-separator {
+    &.is-style-wide {
+        height: 2px;
+        width: 100%;
+        border: none;
+    }
+}
+
+.zenithfooter li {
+    padding-bottom: 4px;
+    list-style: circle;
+    list-style: circle;
+    color: var(--wp--preset--color--primary);
+}
+
+.zenithheadquarter {
+    gap: 0 !important;
+    max-width: 300px;
+
+    div {
+        margin-bottom: 14px;
+        gap: 0.5rem;
+
+        figure {
+            display: flex;
+        }
+    }
+
+    img {
+        max-width: 16px;
+        filter: invert(54%) sepia(71%) saturate(337%) hue-rotate(119deg) brightness(89%) contrast(95%);
+    }
+}

@@ -1,0 +1,56 @@
+.wp-block-post-author {
+    display: flex;
+    align-items: center;
+}
+.comment-author.vcard {
+    vertical-align: middle;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.wp-block-post-comments {
+	.comment-metadata {
+		display: flex;
+		justify-content: space-between;
+	}
+	ul, ol {
+		list-style: none;
+		margin:0;
+		padding:0;
+	}
+	input:not([type=submit]),
+	textarea {
+		color: inherit;
+		border: 1px solid var(--wp--preset--color--border);
+		font-size: var(--wp--preset--font-size--normal);
+		font-family: inherit;
+		background: inherit;
+		border-radius: 0;
+		&:active,
+		&:hover,
+		&:focus {
+			border:1px solid var(--wp--preset--color--primary);
+		}
+	}
+
+	.depth-1 {
+		border: 1px solid var(--wp--preset--color--border);
+		padding:50px 30px;
+		margin: 50px 0;
+	}
+	.children li {
+	    border-top: 1px solid var(--wp--preset--color--border);
+		padding-top: 50px;
+		padding-left: 30px;
+	}
+	.children li:last-child {
+	    border-bottom: none;
+    	padding-bottom: 0;
+	}
+
+	.comment-form {
+		p {
+			margin-bottom: 25px;
+		}
+	}
+}

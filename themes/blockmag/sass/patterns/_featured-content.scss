@@ -1,0 +1,34 @@
+/* --- Block featured Content
+-------------------------------------------------------- */
+
+.wp-block-feature-content .wp-block-entry-content {
+    margin-block-start: 0 !important;
+    > h2 {
+        > a {
+            text-decoration: none;
+        }
+    line-height: var(--wp--custom--typography--line-height--heading-six);
+    }
+    .wp-block-post-meta,
+    .taxonomy-category.wp-block-post-terms > a,
+    .taxonomy-post_tag.wp-block-post-terms > a,
+    .wp-block-post-date a {
+        text-transform: capitalize;
+    }
+
+    .wp-block-post-meta {
+        svg.icon {
+            display: none;
+        }
+
+        margin-top: 14px;
+    }
+}
+
+.wp-block-feature-content .wp-block-post-group .wp-block-image {
+    margin-bottom: 21px;
+}
+
+.wp-block-feature-content .wp-block-post-group > p + .wp-block-image {
+    margin-top: 14px;
+}

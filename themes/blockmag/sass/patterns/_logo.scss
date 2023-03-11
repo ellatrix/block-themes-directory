@@ -1,0 +1,38 @@
+/* --- Block Logo
+-------------------------------------------------------- */
+
+.wp-block-logo .wp-block-column .wp-block-image {
+    text-align: center;
+}
+
+.wp-block-logo .wp-block-group-heading + div {
+    margin-top: var(--wp--custom--spacing--wp-comment-horizontal);
+}
+
+/* --- Block Logo SSlider
+-------------------------------------------------------- */
+.wp-block-logo-slider {
+    .fse-slider-wrapper.vertical .wp-block-fse-pro-slider,
+    .swiper-wrapper.vertical {
+        height: 360px;
+    }
+
+    .swiper-button-next {
+        transform: rotate(-90deg);
+    }
+
+    .swiper-button-prev {
+        transform: rotate(270deg);
+    }
+
+    .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .horizontal-outside-slider-bottom-left .swiper-pagination,
+    .horizontal-outside-slider-bottom-center .swiper-pagination {
+        margin-top: 150px;
+    }
+}

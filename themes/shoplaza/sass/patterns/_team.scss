@@ -1,0 +1,94 @@
+/* --- Block Team
+-------------------------------------------------------- */
+
+/* --- Block Team
+-------------------------------------------------------- */
+
+.wp-block-team .wp-block-column .wp-block-image {
+    text-align: center;
+}
+
+.wp-block-team .wp-block-column .wp-block-image img {
+    max-width: 200px;
+    width: 100%;
+}
+
+/* --- Block Team Slider
+-------------------------------------------------------- */
+
+.wp-block-team .wp-block-section-content h2,
+.wp-block-team-slider .wp-block-section-content h2 {
+    font-size: var(--wp--preset--font-size--normal);
+    line-height: 1.75;
+    font-weight: var(--wp--custom--typography--font-weight--semi-bold);
+}
+
+
+
+/* Slider Buttons Above The Wrapper */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-weight: 100;
+}
+
+.wp-block-team-slider .fse-slider-wrapper,
+.wp-block-logo-slider .fse-slider-wrapper,
+.wp-block-team-slider .block-editor-block-list__block.fse-pro-slider,
+.wp-block-logo-slider .block-editor-block-list__block.fse-pro-slider {
+    margin-top: -110px;
+    padding-top: 110px;
+}
+
+.wp-block-logo-slider .fse-slider-wrapper,
+.wp-block-logo-slider .block-editor-block-list__block.fse-pro-slider {
+    padding-top: 130px;
+}
+
+.wp-block-team-slider .navigation-wrap,
+.wp-block-logo-slider .navigation-wrap {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.wp-block-team-slider .swiper-button-next,
+.wp-block-team-slider .swiper-button-prev,
+.wp-block-logo-slider .swiper-button-prev,
+.wp-block-logo-slider .swiper-button-next {
+    position: initial;
+    transform: none;
+    background-color: transparent;
+    border: 1px solid var(--wp--preset--color--border-color);
+    color: var(--wp--preset--color--foreground);
+}
+
+.fse-pro-slider .swiper-button-prev:hover,
+.fse-pro-slider .swiper-button-prev:focus,
+.fse-pro-slider .swiper-button-next:hover,
+.fse-pro-slider .swiper-button-next:focus,
+.fse-slider-wrapper .swiper-button-prev:hover,
+.fse-slider-wrapper .swiper-button-prev:focus,
+.fse-slider-wrapper .swiper-button-next:hover,
+.fse-slider-wrapper .swiper-button-next:focus,
+.wp-block-team-slider .swiper-button-prev:hover,
+.wp-block-team-slider .swiper-button-prev:focus,
+.wp-block-team-slider .swiper-button-next:hover,
+.wp-block-team-slider .swiper-button-next:focus,
+.wp-block-logo-slider .swiper-button-prev:hover,
+.wp-block-logo-slider .swiper-button-prev:focus,
+.wp-block-logo-slider .swiper-button-next:hover,
+.wp-block-logo-slider .swiper-button-next:focus {
+    border-color: transparent;
+    background: var(--wp--preset--color--border-color);
+    color: var(--wp--preset--color--foreground);
+}
+
+.wp-block-team-slider .wp-block-group-heading,
+.wp-block-logo-slider .wp-block-group-heading {
+    position: relative;
+    z-index: 1;
+    padding-right: 130px;
+}

@@ -1,0 +1,26 @@
+/*
+Theme Name: Choyu
+Theme URI: https://www.wpmount.com/themes/choyu/
+Author: wpmount
+Author URI: https://wpmount.com
+Description: WordPress Full Site Editing theme. It comes with 11 block patterns. It has templates and parts to make the home page and inner pages. 
+Tags: block-patterns, block-styles, blog, custom-background, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, grid-layout, one-column, photography, portfolio, template-editing, threaded-comments, translation-ready, wide-blocks
+Requires at least: 6.0
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: choyu
+*/
+
+.journal-section .wp-block-cover,
+.journal-section .wp-block-group.has-background {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+ul.wp-block-page-list, ul.wp-block-categories-list  {
+    list-style: none;
+    padding-left: 0;
+}

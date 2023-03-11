@@ -1,0 +1,25 @@
+<?php
+/**
+ * Gutenverse About Section 1 content.
+ */
+return array(
+	'title'      => __( 'Gutenverse About Section 1', 'hypebiz' ),
+	'categories' => array( 'hypebiz-gutenverse' ),
+	'content'    => '<!-- wp:gutenverse/section {"sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"width":{"Desktop":"1170"},"height":{},"gap":"no","elementId":"guten-tZeRCh","background":{},"backgroundHover":{},"border":{"radius":{"Desktop":{}}},"topDivider":{},"bottomDivider":{},"margin":{"Desktop":{},"Tablet":{},"Mobile":{}},"padding":{"Desktop":{"unit":"px","dimension":{"top":"120","bottom":"140"}},"Tablet":{"unit":"px","dimension":{"top":"80","bottom":"60","right":"20","left":"20"}},"Mobile":{"unit":"px","dimension":{"top":"40","bottom":"40","right":"20","left":"20"}}},"animation":{},"wrapColumn":{"Desktop":false,"Tablet":false,"Mobile":true}} -->
+			<div class="section-wrapper" data-id="tZeRCh"><section class="wp-block-gutenverse-section guten-element guten-section guten-tZeRCh layout-boxed align-stretch"><div class="guten-background-overlay"></div><div class="guten-shape-divider guten-shape-divider-top"></div><div class="guten-shape-divider guten-shape-divider-bottom"></div><div class="guten-container guten-column-gap-no"><!-- wp:gutenverse/column {"width":{"Desktop":100,"Tablet":null},"sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"elementId":"guten-KbzO3H","background":{},"backgroundHover":{},"verticalAlign":{"Desktop":"default"},"horizontalAlign":{"Desktop":"default"},"margin":{"Desktop":{}},"padding":{"Desktop":{}},"animation":{}} -->
+			<div class="wp-block-gutenverse-column guten-element guten-column guten-KbzO3H"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="KbzO3H"><div class="guten-column-wrapper"><!-- wp:gutenverse/heading {"elementId":"guten-yt0JFG","type":6,"textAlign":{"Desktop":"center"},"color":{"type":"variable","id":"seven"},"typography":{"type":"variable","id":"h6-style-2","font":{"label":"Open Sans","value":"Open Sans","type":"google"},"size":{"Desktop":{"unit":"px","point":"14"},"Tablet":{"unit":"px","point":"14"},"Mobile":{"unit":"px","point":"14"}},"lineHeight":{"Desktop":{"unit":"px","point":"14"},"Tablet":{"unit":"px","point":"14"},"Mobile":{"unit":"px","point":"14"}},"spacing":{"Desktop":"0.0625"},"weight":"600","transform":"uppercase"},"margin":{"Desktop":{"unit":"px","dimension":{"bottom":"50"}},"Mobile":{"unit":"px","dimension":{"bottom":"20"}}},"padding":{"Desktop":{},"Mobile":{}},"animation":{"type":{"Desktop":"fadeInUp"},"duration":"normal"}} -->
+			<h6 class="wp-block-gutenverse-heading guten-element guten-yt0JFG animated guten-element-hide desktop-fadeInUp">OUR STORY</h6>
+			<!-- /wp:gutenverse/heading -->
+			
+			<!-- wp:gutenverse/text-editor {"elementId":"guten-DFONDN","alignment":{"Desktop":"center"},"textColor":{"type":"variable","id":"primary"},"typography":{"type":"variable","id":"text-editor-style-2","font":{"label":"Cormorant Garamond","value":"Cormorant Garamond","type":"google"},"size":{"Desktop":{"unit":"px","point":"32"},"Tablet":{"unit":"px","point":"26"},"Mobile":{"unit":"px","point":"20"}},"lineHeight":{"Desktop":{"unit":"px","point":"44"},"Tablet":{"unit":"px","point":"34"},"Mobile":{"unit":"px","point":"24"}},"weight":"600"},"margin":{"Desktop":{"unit":"px","dimension":{"bottom":"50"}},"Tablet":{"unit":"px","dimension":{"bottom":"20"}},"Mobile":{}},"padding":{"Desktop":{"unit":"%","dimension":{"right":"18","left":"18"}},"Tablet":{"unit":"%","dimension":{"right":"10","left":"10"}},"Mobile":{"unit":"px","dimension":{"right":"0","left":"0"}}},"animation":{"type":{"Desktop":"fadeInUp"},"duration":"normal","delay":"200"}} -->
+			<div class="guten-element gutenverse-text-editor guten-DFONDN animated guten-element-hide desktop-fadeInUp"><div class="text-content-inner"><!-- wp:paragraph -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut commodo consequat. </p>
+			<!-- /wp:paragraph --></div></div>
+			<!-- /wp:gutenverse/text-editor -->
+			
+			<!-- wp:gutenverse/divider {"elementId":"guten-IEjLw1","width":{"Desktop":"20"},"dividerColor":{"type":"variable","id":"nie"},"size":{"Desktop":"4"},"margin":{"Mobile":{}},"padding":{"Mobile":{"unit":"px","dimension":{"top":"15","bottom":"15"}}},"animation":{"type":{"Desktop":"fadeInUp"},"duration":"normal","delay":"400"}} -->
+			<div class="wp-block-gutenverse-divider guten-element guten-divider guten-IEjLw1 animated guten-element-hide desktop-fadeInUp"><div class="guten-divider-wrapper"><div class="guten-divider-default guten-divider-line guten-divider-regular"></div></div></div>
+			<!-- /wp:gutenverse/divider --></div></div></div>
+			<!-- /wp:gutenverse/column --></div></section></div>
+			<!-- /wp:gutenverse/section -->',
+);

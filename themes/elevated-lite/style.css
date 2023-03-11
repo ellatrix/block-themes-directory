@@ -1,0 +1,239 @@
+/*
+Theme Name: Elevated Lite
+Theme URI: https://risingthemes.net/shop/elevate-lite/
+Author: Risingthemes
+Author URI: https://risingthemes.net
+Description: Elevated Lite is a modern fully responsive and dynamic full site editing nightclub WordPress theme which is widely used for cafe, restaurant, clubs, bars, hotels and relevant businesses. Elevated Lite WordPress theme has nicely designed for nightclubs, bars and entertainment purpose. This theme has inbuilt music player and equilizer graphics which can make it feel more relevant to disco clubs. This theme has section where you can display the latest video of club event. Elevated Lite WordPress theme has a section where you can display the artists info so the visitor get proper info about the weekend event and hosts. This theme has a numbers of block patterns which you can use it in any pages. By using the block patterns you can create the desired layout. This theme is fully responsive and working well with all the screen resolutions. This theme is tested with the latest version of WordPress and most popular plugins like woocommerce, contact form 7, jetpack etc. Elevated Lite theme has nicely design event section where you can display the event details, ticket info and more.
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0.2
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: elevated-lite
+Tags: entertainment, e-commerce, one-column, two-columns, three-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, right-sidebar, custom-background, wide-blocks
+
+Elevated Lite is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+Elevated Lite WordPress Theme has been created by Risingthemes(risingthemes.net), 2023.
+Elevated Lite WordPress Theme is released under the terms of GNU GPL
+*/
+
+a{
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{
+    background-color: var(--wp--preset--color--secondary);
+}
+.featured-icon{
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.featured-icon figure{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.team-overlay{
+    position: relative;
+}
+
+.team-overlay:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background-color: #ffa646;
+    opacity: 0.8;
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transition: transform 500ms ease;
+    transition: transform 500ms ease;
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    z-index: 1;
+}
+
+.team-member:hover .team-overlay:before{
+    -webkit-transform:scale(1, 1);
+    -ms-transform:scale(1, 1);
+    transform:scale(1, 1);
+    -webkit-transform-origin:bottom center;
+    -ms-transform-origin:bottom center;
+    transform-origin:bottom center;
+}
+
+.team-thumbnail{
+    position: relative;
+}
+
+.team-member-social{
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition:.3s;
+    transition:.3s;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+    text-align:center;
+    margin:0;
+    z-index:9;
+}
+
+.team-member:hover .team-member-social{
+    opacity:1;
+    visibility:visible;
+}
+
+.price-feat-list{
+    list-style: none;
+}
+.price-feat-list li{
+    padding: 5px 5px 5px 25px;
+    position: relative;
+    list-style: none;
+}
+.price-feat-list li:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    transform: translateY(-50%);
+}
+
+.round-cls img{
+    border-radius: 50%;
+}
+
+.truncate-line p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 0;
+}
+
+.sidebar-meta-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-meta-list li{
+    margin: 5px 0;
+}
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+/* --- > Media Queries
+-------------------------------------------------------- */
+/* --- > 781px
+-------------------------------------------------------- */
+
+@media screen and (max-width:999px) {
+    .has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog{
+        margin-top: 0;
+    }
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: block; 
+    }
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none; 
+    }
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content{
+        background-color: var(--wp--preset--color--secondary);
+        padding: 2em;
+    }
+    .wp-block-navigation__responsive-container-close{
+        top: 20px;
+        right: 20px;
+    }
+    .wp-block-navigation__responsive-container-close svg path{
+        fill: var(--wp--preset--color--body-text);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container {
+        width: 100%;
+        gap: 0 !important;
+        border: 1px solid #9292923b;
+        border-bottom: none;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item {
+        width: 100%;
+        gap: 0 !important;
+        border: none !important;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item a {
+        padding: 0;
+        width: 100%;
+        border-bottom: 1px solid #9292923b;
+        padding: 7px 50px 7px 20px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon {
+        display: block !important;
+        margin-left: 15px;
+        padding: 3px 10px;
+        float: right;
+        font-size: 19px;
+        line-height: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 42px;
+        width: 42px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon svg {
+        stroke: currentColor;
+        display: block;
+        width: 30px;
+        height: 13px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container {
+        width: 100%;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+        box-shadow: none;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container li.wp-block-navigation-item a {
+        padding-left: 35px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation-submenu__toggle[aria-expanded=true] + ul.wp-block-navigation__submenu-container {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .wp-block-navigation.is-responsive .wp-block-navigation__responsive-container {
+        transition-timing-function: ease-in;
+        transition: 0s;
+        transform: translateX(130%);
+        display: block;
+    }
+    .wp-block-navigation.is-responsive .wp-block-navigation__responsive-container.is-menu-open {
+        visibility: visible;
+        transition-timing-function: ease-out;
+        transition: .7s;
+        transform: translateX(0);
+        top: 0;
+    } 
+}

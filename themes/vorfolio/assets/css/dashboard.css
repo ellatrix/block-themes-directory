@@ -1,0 +1,290 @@
+.notice.hide {
+  display: none;
+}
+
+.notice {
+  padding: 10px;
+  border-left: 4px solid #3B57F7;
+}
+
+
+.install-template,
+.comparison,
+.benefits {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px !important;
+  margin: 40px 20px 0 0;
+  display: flex;
+}
+
+#gutenverse-theme-dashboard h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+#gutenverse-theme-dashboard .install-template,
+#gutenverse-theme-dashboard .benefits,
+#gutenverse-theme-dashboard .comparison {
+  padding: 30px !important;
+}
+#gutenverse-theme-dashboard .install-template span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+#gutenverse-theme-dashboard .install-template span.description {
+  max-width: 1024px;
+  margin-top: 20px;
+}
+#gutenverse-theme-dashboard .install-template span.note {
+  max-width: 1024px;
+  margin-top: 20px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: italic;
+}
+#gutenverse-theme-dashboard .install-template a, #gutenverse-theme-dashboard .install-template span {
+  text-decoration: none;
+  margin-right: 20px;
+}
+#gutenverse-theme-dashboard .install-template a.gutenverse-button, #gutenverse-theme-dashboard .install-template span.gutenverse-button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 50px;
+  background: #3B57F7;
+  color: #fff;
+  padding: 17px 25px;
+  font-weight: 400;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+#gutenverse-theme-dashboard .install-template a.gutenverse-button.active, #gutenverse-theme-dashboard .install-template span.gutenverse-button.active {
+  cursor: default;
+  background-color: #999999;
+}
+#gutenverse-theme-dashboard .install-template a.gutenverse-button:hover:not(.active), #gutenverse-theme-dashboard .install-template span.gutenverse-button:hover:not(.active) {
+  background: #0058e6;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail .image {
+  cursor: pointer;
+  height: auto;
+  box-shadow: 0px 1px 20px 2px rgba(230, 230, 239, 0.6);
+  position: relative;
+  overflow: hidden;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail .image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail .image .hover {
+  display: none;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail .image:hover .hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 1s ease-in-out;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail .image:first-child {
+  border-radius: 5px;
+  width: 350px;
+  height: 280px;
+}
+#gutenverse-theme-dashboard .install-template .thumbnail .image:not(:first-child) {
+  border-radius: 2px;
+  width: 75px;
+  margin-top: 10px;
+  height: 60px;
+}
+#gutenverse-theme-dashboard .install-template .content {
+  padding: 30px 30px 30px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#gutenverse-theme-dashboard .install-template .content > * {
+  width: 100%;
+}
+#gutenverse-theme-dashboard .install-template .gutenverse-bottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 30px;
+}
+#gutenverse-theme-dashboard .install-template .loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  width: 10px;
+  height: 10px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#gutenverse-theme-dashboard .popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+#gutenverse-theme-dashboard .popup.hide {
+  display: none;
+}
+#gutenverse-theme-dashboard .popup img {
+  width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#gutenverse-theme-dashboard .comparison {
+  width: 75%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#gutenverse-theme-dashboard .comparison > * {
+  width: 100%;
+}
+#gutenverse-theme-dashboard .comparison table {
+  margin-top: 40px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-style: normal;
+}
+#gutenverse-theme-dashboard .comparison table th {
+  width: 200px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+#gutenverse-theme-dashboard .comparison table td {
+  border: 1px solid #E6E6EF;
+  width: 200px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+}
+#gutenverse-theme-dashboard .comparison table .thead_th {
+  text-align: center;
+}
+#gutenverse-theme-dashboard .comparison table .thead_th:first-child {
+  border: none;
+}
+#gutenverse-theme-dashboard .comparison table .thead_th:nth-child(2) {
+  background: #3B57F7;
+  color: #FFFFFF;
+  border-radius: 5px 0px 0px 0px;
+}
+#gutenverse-theme-dashboard .comparison table .thead_th:nth-child(3) {
+  background: #F5F7FE;
+  border-radius: 0px 5px 0px 0px;
+}
+#gutenverse-theme-dashboard .comparison table .tbody_td.center {
+  text-align: center;
+}
+#gutenverse-theme-dashboard .benefits {
+  width: 20%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+#gutenverse-theme-dashboard .benefits span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+#gutenverse-theme-dashboard .benefits span.description {
+  margin-top: 20px;
+}
+#gutenverse-theme-dashboard .benefits .features {
+  margin-top: 20px;
+}
+#gutenverse-theme-dashboard .benefits .features ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+#gutenverse-theme-dashboard .bottom-container {
+  display: flex;
+}
+@media only screen and (max-width: 1270px) {
+  #gutenverse-theme-dashboard .comparison {
+    width: 65%;
+  }
+  #gutenverse-theme-dashboard .benefits {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 780px) {
+  #gutenverse-theme-dashboard .install-template {
+    flex-wrap: wrap;
+  }
+  #gutenverse-theme-dashboard .install-template .thumbnail {
+    width: 100%;
+  }
+  #gutenverse-theme-dashboard .install-template .thumbnail .image:first-child {
+    width: 100%;
+    height: 500px;
+  }
+  #gutenverse-theme-dashboard .install-template .thumbnail .image:not(:first-child) {
+    border-radius: 2px;
+    width: 22%;
+    height: 100px;
+  }
+  #gutenverse-theme-dashboard .install-template .content {
+    padding: 30px 10px;
+  }
+}
+@media only screen and (max-width: 624px) {
+  #gutenverse-theme-dashboard .bottom-container {
+    flex-wrap: wrap;
+  }
+  #gutenverse-theme-dashboard .comparison {
+    width: 100%;
+  }
+  #gutenverse-theme-dashboard .benefits {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

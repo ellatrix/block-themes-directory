@@ -1,0 +1,44 @@
+/* --- Block Product Reviews
+-------------------------------------------------------- */
+
+
+.wp-product-review-section .wc-block-review-list.wc-block-components-review-list {
+
+    padding: 0;
+    gap: 1.5rem;
+}
+.wp-product-review-section .wc-block-review-list.wc-block-components-review-list li {
+    padding: var(--wp--custom--spacing--wp-comment-vertical);
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.wp-product-review-section .wc-block-review-list.wc-block-components-review-list li:not(:first-child) {
+    margin-top: calc(1.666666666666667 * var(--wp--style--block-gap, 2em));
+}
+
+.wp-product-review-section .wc-block-review-list-item__product.wc-block-components-review-list-item__product a {
+    text-decoration: none;
+    font-size: var(--wp--preset--font-size--content-heading);
+    color: var(--wp--preset--color--foreground);
+}
+
+.wp-product-review-section .wc-block-components-review-list-item__rating> .wc-block-components-review-list-item__rating__stars {
+    font-size: 0.8em;
+}
+
+.wp-product-review-section .wc-block-components-review-list-item__product {
+    margin-right: 14px;
+}
+
+.wp-product-review-section .wc-block-components-review-list-item__product+.wc-block-components-review-list-item__author {
+    font-weight: 500;
+    order: 4;
+    margin-top: 7px;
+    font-size: var(--wp--preset--font-size--small);
+}
+
+
+
+
+

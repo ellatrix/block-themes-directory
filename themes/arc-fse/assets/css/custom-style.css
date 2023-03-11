@@ -1,0 +1,16 @@
+.taxonomy-category.wp-block-post-terms a, 
+.taxonomy-post_tag.wp-block-post-terms a, 
+.wp-block-tag-cloud a {
+    background-color: #213040;
+    color: var(--wp--preset--color--white);
+}
+
+.wp-block-navigation ul li li a:hover, 
+.wp-block-navigation ul li li a:focus, 
+.wp-block-navigation ul li li a:active {
+    color: var(--wp--preset--color--secondary);
+}
+
+.widget a:not(.wp-block-button__link):not(.arc-icon-wrapper):hover, .entry-summery a:not(.wp-block-button__link):not(.arc-icon-wrapper):hover, .entry-content a:not(.wp-block-button__link):not(.arc-icon-wrapper):hover {
+    color: var(--wp--preset--color--secondary);
+}

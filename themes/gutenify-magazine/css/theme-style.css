@@ -1,0 +1,11 @@
+.wp-block-navigation ul li.current-menu-item > a {
+    color: var(--wp--preset--color--secondary);
+}
+.wp-block-cover-image, .wp-block-cover {
+    z-index: 8;
+}
+
+
+ .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+    z-index: 999;
+}

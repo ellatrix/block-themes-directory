@@ -1,0 +1,239 @@
+# Copyright (C) 2022 Zenithwp
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zenithwp 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zenithwp\n"
+"POT-Creation-Date: 2022-11-25 03:27:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:5
+msgid "Rainbow"
+msgstr ""
+
+#: patterns/related-post.php.php:15
+msgctxt "Title"
+msgid "Related Posts"
+msgstr ""
+
+#: patterns/call-to-action.php:16
+msgctxt "sample content for call to action"
+msgid "Got any book recommendations?"
+msgstr ""
+
+#: patterns/call-to-action.php:25
+msgctxt "sample content for call to action button"
+msgid "Get In Touch"
+msgstr ""
+
+#: patterns/footer-default.php:18
+msgctxt "Label"
+msgid "WORK HARD PRAY HARDER."
+msgstr ""
+
+#: patterns/footer-default.php:24 patterns/footer-headquarter.php:13
+msgctxt "Label"
+msgid "Zenith Headquarter"
+msgstr ""
+
+#: patterns/footer-default.php:33 patterns/footer-headquarter.php:22
+msgctxt "Label"
+msgid " 1428 Callison Lane Building 201 Virginia, VA 22902 United States"
+msgstr ""
+
+#: patterns/footer-default.php:43 patterns/footer-headquarter.php:32
+msgctxt "Label"
+msgid " (+1)672.342.1198"
+msgstr ""
+
+#: patterns/footer-default.php:53 patterns/footer-headquarter.php:42
+msgctxt "Label"
+msgid "(+1)498.341.032"
+msgstr ""
+
+#: patterns/footer-default.php:63 patterns/footer-headquarter.php:52
+msgctxt "Label"
+msgid "hello@zenithwp.com"
+msgstr ""
+
+#: patterns/footer-default.php:71
+msgctxt "Label"
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgctxt "Label"
+msgid "Maintenance"
+msgstr ""
+
+#: patterns/footer-default.php:80
+msgctxt "Label"
+msgid "CNC Services"
+msgstr ""
+
+#: patterns/footer-default.php:84
+msgctxt "Label"
+msgid "Milling"
+msgstr ""
+
+#: patterns/footer-default.php:88
+msgctxt "Label"
+msgid "Overhaul"
+msgstr ""
+
+#: patterns/footer-default.php:92
+msgctxt "Label"
+msgid "Tune Up"
+msgstr ""
+
+#: patterns/footer-default.php:96
+msgctxt "Label"
+msgid "Booking"
+msgstr ""
+
+#: patterns/footer-default.php:104
+msgctxt "Label"
+msgid "2023 Overseas"
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgctxt "Label"
+msgid "Travel Guide"
+msgstr ""
+
+#: patterns/footer-default.php:113
+msgctxt "Label"
+msgid "Download"
+msgstr ""
+
+#: patterns/footer-default.php:127
+msgctxt "Label"
+msgid "Copyright © 2022 Zenith. All rights reserved"
+msgstr ""
+
+#: patterns/footer-default.php:132 patterns/header-default.php:28
+msgctxt "Label"
+msgid "Facebook"
+msgstr ""
+
+#: patterns/footer-default.php:136 patterns/header-default.php:32
+msgctxt "Label"
+msgid "Twitter"
+msgstr ""
+
+#: patterns/footer-default.php:140 patterns/header-default.php:44
+msgctxt "Label"
+msgid "Instagram"
+msgstr ""
+
+#: patterns/footer-default.php:144 patterns/header-default.php:36
+msgctxt "Label"
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/footer-default.php:148 patterns/header-default.php:40
+msgctxt "Label"
+msgid "Youtube"
+msgstr ""
+
+#: patterns/header-default.php:14
+msgctxt "Label"
+msgid "Tel: (+1) 767-123-786"
+msgstr ""
+
+#: patterns/header-default.php:18
+msgctxt "Label"
+msgid "Mon → Sat : 6am-10pm"
+msgstr ""
+
+#: patterns/header-default.php:22
+msgctxt "Label"
+msgid "Email: hello@example.com"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:20
+msgctxt "Message to convey that a webpage could not be found"
+msgid "This page could not be found."
+msgstr ""
+
+#: patterns/hidden-404.php:23 patterns/hidden-no-results.php:15
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:23 patterns/hidden-no-results.php:15
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: patterns/hidden-404.php:23 patterns/hidden-no-results.php:15
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-comments.php:14
+msgctxt "Title of comments section"
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php:11
+msgctxt "Message explaining that there are no results returned from a search"
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/post-meta.php:29
+msgctxt "Verb to explain the publication status of a post"
+msgid "Posted"
+msgstr ""
+
+#: patterns/post-meta.php:37
+msgctxt ""
+"Preposition to show the relationship between the post and its categories"
+msgid "in"
+msgstr ""
+
+#: patterns/post-meta.php:49
+msgctxt "Preposition to show the relationship between the post and its author"
+msgid "by"
+msgstr ""
+
+#: patterns/post-meta.php:65
+msgctxt "Label for a list of post tags"
+msgid "Tags:"
+msgstr ""
+
+#. #-#-#-#-#  zenithrico.pot (Zenithwp 2.0.0)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#. #-#-#-#-#  zenithrico.pot (Zenithwp 2.0.0)  #-#-#-#-#
+#. Author of the plugin/theme
+msgid "Zenithwp"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://zenithwp.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Zenithwp is a minimalist, lightweight, and customizable WordPress theme for "
+"creating beautiful, fast-loading, and accessible websites, as well as a new "
+"generation clean design blog theme. This theme is ideal for a fashion blog, "
+"lifestyle blog, travel blog, food blog, photography blog, and many other "
+"types of websites. You can also customize your logo, colors, header image, "
+"background image, copyright, and many more with its user friendly customizer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://zenithwp.com/about/"
+msgstr ""

@@ -1,0 +1,462 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Approach\n"
+"POT-Creation-Date: 2022-08-26 13:41+0530\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:23
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:140
+#, php-format
+msgid "Thank for installing the %1$s theme."
+msgstr ""
+
+#: functions.php:142
+msgid ""
+"This theme have some features to build a beautiful website. You can get access:"
+msgstr ""
+
+#: functions.php:144
+msgid "Block patterns"
+msgstr ""
+
+#: functions.php:145
+msgid "Templates"
+msgstr ""
+
+#: functions.php:146
+msgid "and much more."
+msgstr ""
+
+#: functions.php:149 inc/about.php:54
+msgid "Theme instructions"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/about.php:29
+msgid "Approach"
+msgstr ""
+
+#: inc/about.php:44
+msgid ""
+"Approach Theme is a  Full Site Editing WordPress theme. It is based on block "
+"patterns that allow you to create stunning blogs and websites. The theme comes "
+"with a clean and modern responsive design having built in  business  about, and "
+"service templates."
+msgstr ""
+
+#: inc/about.php:52
+msgid "Getting Started with Approach!"
+msgstr ""
+
+#: inc/about.php:53
+msgid ""
+"Awesome! Approach has been installed and activated successfully. Now, you can "
+"start building your dream website with a wide range of highly-customizable "
+"block patterns, templates, and template parts available in this outstanding "
+"theme."
+msgstr ""
+
+#: inc/about.php:62
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:63
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:64
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:65
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:71
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:72
+msgid ""
+"If  you like our theme. Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:73
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:15
+msgid "Approach: Layout"
+msgstr ""
+
+#: inc/block-patterns.php:16
+msgid "Approach: Posts"
+msgstr ""
+
+#: inc/block-patterns.php:17
+msgid "Approach-Front-Page-Sections"
+msgstr ""
+
+#: inc/block-styles.php:19
+msgid "Approach style "
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "Approach_menu_style"
+msgstr ""
+
+#: inc/patterns/404-banner.php:3
+msgid "404 Page Banner"
+msgstr ""
+
+#: inc/patterns/404-banner.php:9
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/patterns/404-page-not-found.php:3
+msgid "Page Not found 404 "
+msgstr ""
+
+#: inc/patterns/404-page-not-found.php:10
+msgid "404"
+msgstr ""
+
+#: inc/patterns/404-page-not-found.php:14
+msgid "Sorry! the page you requested was not found."
+msgstr ""
+
+#: inc/patterns/404-page-not-found.php:18
+msgid "Check out our help center or head back home"
+msgstr ""
+
+#: inc/patterns/404-page-not-found.php:23
+msgid "Back to Home"
+msgstr ""
+
+#: inc/patterns/about-us.php:3
+msgid "About us"
+msgstr ""
+
+#: inc/patterns/about-us.php:20
+msgid "Read About Me"
+msgstr ""
+
+#: inc/patterns/about-us.php:24
+msgid "My About"
+msgstr ""
+
+#: inc/patterns/about-us.php:28
+msgid ""
+"There are many variations of passages of Lorem Ipsum available, but the "
+"majority have suffered alteration in some form, by injected humour, or "
+"randomised words which dont look even slightly believable. If you to use a "
+"passage of Lorem Ipsum."
+msgstr ""
+
+#: inc/patterns/about-us.php:35
+msgid "Educational Skill"
+msgstr ""
+
+#: inc/patterns/about-us.php:39
+msgid "Lorem Ipsum is simply dummy text printing typesetting industry."
+msgstr ""
+
+#: inc/patterns/about-us.php:45
+msgid "My Strategy"
+msgstr ""
+
+#: inc/patterns/about-us.php:49 inc/patterns/about-us.php:62
+#: inc/patterns/about-us.php:72
+msgid "Lorem Ipsum is simply dummy text printing typesetting industry"
+msgstr ""
+
+#: inc/patterns/about-us.php:58
+msgid "Development Skill"
+msgstr ""
+
+#: inc/patterns/about-us.php:68
+msgid "My Quality"
+msgstr ""
+
+#: inc/patterns/archivebanner.php:3
+msgid "Archive Page Banner"
+msgstr ""
+
+#: inc/patterns/banner.php:3
+msgid "Main banner"
+msgstr ""
+
+#: inc/patterns/banner.php:12
+msgid "Lorem Ipsum&nbsp;is simply"
+msgstr ""
+
+#: inc/patterns/banner.php:16
+msgid "AMAZINGLY CLEAN"
+msgstr ""
+
+#: inc/patterns/banner.php:20
+msgid ""
+"From top-notch security to luxurious finishes, opting for exclusive condo "
+"living is a great way to up your quality of life.From top-notch security to "
+"luxurious finishes, opting for exclusive condo living is a great way to up your "
+"quality of life."
+msgstr ""
+
+#: inc/patterns/banner.php:27
+msgid "Learn More"
+msgstr ""
+
+#: inc/patterns/footer-default.php:3
+msgid "Footer standard"
+msgstr ""
+
+#: inc/patterns/footer-default.php:11
+msgid "About Approach"
+msgstr ""
+
+#: inc/patterns/footer-default.php:15
+msgid ""
+"Aenean ligula nibh, molestie id viverra a, dapibus dolor. In iaculis viverra "
+"neque, ac eleifend ante lobo rtis id in viverra ipsum ac eros tristique. neque "
+"ac eleifend ante lobo rtis id in viverra ipsum."
+msgstr ""
+
+#: inc/patterns/footer-default.php:23
+msgid "Categories"
+msgstr ""
+
+#: inc/patterns/footer-default.php:33 inc/patterns/sidebar-widgets.php:28
+msgid "Tags"
+msgstr ""
+
+#: inc/patterns/footer-default.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/patterns/footer-default.php:59
+msgid "Proudly powered by "
+msgstr ""
+
+#: inc/patterns/footer-default.php:59
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/patterns/footer-default.php:59
+msgid "| Theme:"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: inc/patterns/footer-default.php:59
+msgid "https://webriti.com/approach-full-site-editing-wordpress-theme/"
+msgstr ""
+
+#: inc/patterns/footer-default.php:59
+msgid "Approach "
+msgstr ""
+
+#: inc/patterns/footer-default.php:59
+msgid "by"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: inc/patterns/footer-default.php:59
+msgid "https://webriti.com/"
+msgstr ""
+
+#: inc/patterns/footer-default.php:59
+msgid "Webriti "
+msgstr ""
+
+#: inc/patterns/informational-table.php:3
+msgid "Pricing table"
+msgstr ""
+
+#: inc/patterns/informational-table.php:10
+msgid "Affordable Pricing Plans"
+msgstr ""
+
+#: inc/patterns/informational-table.php:14
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor "
+"incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+"nostrud exercitation ullamco laboris nisi ut aliquip."
+msgstr ""
+
+#: inc/patterns/informational-table.php:19
+msgid "All Pricing"
+msgstr ""
+
+#: inc/patterns/informational-table.php:31
+msgid "Personal Plan"
+msgstr ""
+
+#: inc/patterns/informational-table.php:36 inc/patterns/informational-table.php:64
+#: inc/patterns/informational-table.php:90
+msgid "Get Started →"
+msgstr ""
+
+#: inc/patterns/informational-table.php:43 inc/patterns/informational-table.php:71
+#: inc/patterns/informational-table.php:97
+msgid "Free Diagnostics"
+msgstr ""
+
+#: inc/patterns/informational-table.php:43 inc/patterns/informational-table.php:71
+#: inc/patterns/informational-table.php:97
+msgid "Maintenance Service"
+msgstr ""
+
+#: inc/patterns/informational-table.php:43 inc/patterns/informational-table.php:71
+#: inc/patterns/informational-table.php:97
+msgid "30 Day Warranty"
+msgstr ""
+
+#: inc/patterns/informational-table.php:43 inc/patterns/informational-table.php:71
+#: inc/patterns/informational-table.php:97
+msgid "24/7 Support"
+msgstr ""
+
+#: inc/patterns/informational-table.php:59
+msgid "Residential Plan"
+msgstr ""
+
+#: inc/patterns/informational-table.php:71 inc/patterns/informational-table.php:97
+msgid "Replace & Installation"
+msgstr ""
+
+#: inc/patterns/informational-table.php:85
+msgid "Business Plan"
+msgstr ""
+
+#: inc/patterns/pagebanner.php:3
+msgid "Page Banner"
+msgstr ""
+
+#: inc/patterns/posts-list.php:6
+msgid "Posts List"
+msgstr ""
+
+#: inc/patterns/service.php:3
+msgid "Services"
+msgstr ""
+
+#: inc/patterns/service.php:10
+msgid "— what we provide —"
+msgstr ""
+
+#: inc/patterns/service.php:14
+msgid "Our Services"
+msgstr ""
+
+#: inc/patterns/service.php:18
+msgid "Enter your desired description of your business services"
+msgstr ""
+
+#: inc/patterns/service.php:35 patterns/service1.php:35
+msgid "SEO OPTIMIZATION"
+msgstr ""
+
+#: inc/patterns/service.php:39 inc/patterns/service.php:59
+#: inc/patterns/service.php:79 patterns/call-to-action.php:16
+#: patterns/service1.php:39 patterns/service1.php:57 patterns/service1.php:75
+msgid ""
+"Lorem ipsum dolor sit amet, suas hinc eros has te. Ne ponderum detraxit "
+"quaerendum per."
+msgstr ""
+
+#: inc/patterns/service.php:55 patterns/service1.php:53
+msgid "WEB DESIGN"
+msgstr ""
+
+#: inc/patterns/service.php:75 patterns/service1.php:71
+msgid "WEB HOSTING"
+msgstr ""
+
+#: inc/patterns/sidebar-widgets.php:6
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: inc/patterns/sidebar-widgets.php:12
+msgid "Category"
+msgstr ""
+
+#: inc/patterns/sidebar-widgets.php:20
+msgid "Archives"
+msgstr ""
+
+#: patterns/call-to-action.php:13
+msgid "LETS TALK ABOUT YOUR PROJECTS"
+msgstr ""
+
+#: patterns/call-to-action.php:22
+msgid "CONTACT US"
+msgstr ""
+
+#: patterns/hero-banner1.php:14
+msgid "Welcome to approach Theme"
+msgstr ""
+
+#: patterns/hero-banner1.php:19
+msgid "WE WLL HELP YOU GET THERE"
+msgstr ""
+
+#: patterns/hero-banner1.php:24
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod veniam,"
+"quis nostrud exercitation ullamco laboris nisi ut."
+msgstr ""
+
+#: patterns/hero-banner1.php:32
+msgid "GET STARTED"
+msgstr ""
+
+#: patterns/latest-news.php:16
+msgid "All News &amp; Article"
+msgstr ""
+
+#: patterns/latest-news.php:33
+msgid ""
+"Norem ipsum dolor sitna amet, no ectetur adipiscing elit. Curabitur laoreet "
+"cursus volutpat. Em iquam sat amet ligula eta justo tincidunt lam sreet nome "
+"vitae lorem. Aliquam porttitor tellus enim,…"
+msgstr ""
+
+#: patterns/service1.php:12
+msgid "Our Services For Clients"
+msgstr ""
+
+#: patterns/service1.php:16
+msgid "Services We Provide"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Approach Theme is a Full Site Editing WordPress theme. It is based on block "
+"patterns that allow you to create stunning blogs and websites. The theme comes "
+"with a clean and modern responsive design having a built-in business, about, "
+"and service templates."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webriti"
+msgstr ""

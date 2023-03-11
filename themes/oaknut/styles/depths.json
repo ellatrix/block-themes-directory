@@ -1,0 +1,57 @@
+{
+    "title": "Depths",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#fff",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#182848",
+					"name": "Background"
+				}
+			]
+		}
+    },
+	"styles": {
+		"blocks": {
+			"core/social-links": {
+				"color": {
+					"text": "var(--wp--preset--color--background)"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontSize": "48px",
+					"fontWeight": "900",
+					"letterSpacing": "-0.02em"
+				}
+			}
+		},
+		"color": {
+			"gradient": "linear-gradient(180deg, #4B6CB7 0%, #182848 100%)",
+			"text": "var(--wp--preset--color--foreground)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)",
+					"background": "#4B6CB7"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "#F2C94C"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--recursive)"
+		}
+	}
+}

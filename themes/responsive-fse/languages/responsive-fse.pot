@@ -1,0 +1,307 @@
+# <!=Copyright (C) 2021 CyberChimps
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive FSE 1.1.0\n"
+"Report-Msgid-Bugs-To: https://cyberchimps.com/forum/free/responsive/\n"
+"POT-Creation-Date: 2021-10-26 06:25:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: CyberChimps <support@cyberchimps.com>\n"
+"Language-Team: CyberChimps Translate <support@cyberchimps.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_"
+"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+
+#: comments.php:32
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: fullwidth-template.php:37
+msgid "Pages:"
+msgstr ""
+
+#: fullwidth-template.php:40
+msgid "Read more &#8250;"
+msgstr ""
+
+#: fullwidth-template.php:46
+msgid "Edit"
+msgstr ""
+
+#: functions.php:50
+msgid "Dark"
+msgstr ""
+
+#: functions.php:55
+msgid "Light"
+msgstr ""
+
+#: functions.php:60
+msgid "White"
+msgstr ""
+
+#: functions.php:65
+msgid "Primary"
+msgstr ""
+
+#: functions.php:70
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:122
+msgid "(no title)"
+msgstr ""
+
+#: functions.php:166 functions.php:167
+msgid "Additional CSS"
+msgstr ""
+
+#: includes/class-requiregutenberg.php:72
+msgid ""
+"This is an experimental theme and requires the Gutenberg plugin to be "
+"installed with the \"Full Site Editing\" experiment enabled."
+msgstr ""
+
+#: includes/class-requiregutenberg.php:74
+msgid "The Gutenberg plugin is not installed. Click the button below to install it."
+msgstr ""
+
+#: includes/class-requiregutenberg.php:75
+msgid "Install Gutenberg"
+msgstr ""
+
+#: includes/class-requiregutenberg.php:78
+msgid ""
+"The Gutenberg plugin is installed but not activated, or the \"Full Site "
+"Editing\" experiment is not enabled. Click the button below to enable the "
+"plugin and experiment."
+msgstr ""
+
+#: includes/class-requiregutenberg.php:79
+msgid "Activate Plugin & Experiment."
+msgstr ""
+
+#: includes/class-requiregutenberg.php:82
+msgid ""
+"Congratulations! All steps required were completed. Enjoy your Full Site "
+"Editing experience."
+msgstr ""
+
+#: includes/class-requiregutenberg.php:126
+#: includes/class-requiregutenberg.php:128
+msgid "Installing Gutenberg..."
+msgstr ""
+
+#: includes/class-requiregutenberg.php:148
+msgid "An error occured:"
+msgstr ""
+
+#: includes/class-requiregutenberg.php:148
+msgid "Please check your browser console for more details"
+msgstr ""
+
+#: includes/class-requiregutenberg.php:180
+msgid "An error occured"
+msgstr ""
+
+#: includes/class-requiregutenberg.php:180
+msgid ""
+"Could not activate the plugin. Please go to the plugins page on your "
+"dashboard and manually activate the plugin."
+msgstr ""
+
+#: includes/class-responsive-fse-scripts.php:109
+msgid "Skip to content"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:26
+msgid "Responsive-FSE - Template Parts"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:30
+msgid "Responsive-FSE - Design"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:34
+msgid "Responsive-FSE - Blog"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:44
+msgid "Sidebar"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:126
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:143
+msgid "Latest Posts in 2 columns"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:155
+msgid "Latest Posts in 3 columns"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:171
+msgid "Transparent Header"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:213
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:228
+msgid "Contact Information"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:287
+msgid "Call Now Button"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:481
+msgid "Our Services"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:547
+msgid "Video with text & button"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:729
+msgid "Team"
+msgstr ""
+
+#: includes/responsive-fse-block-patterns.php:818
+msgid "Portfolio"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:17
+msgid "Post Box Shadow"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:26
+msgid "Post Box Shadow 2"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:34
+msgid "Post Border"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:42
+msgid "Post Border 2"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:51
+msgid "Read More Button"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:60
+msgid "Outlined Read More Button"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:69
+msgid "Read More With Arrow"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:78
+msgid "Text Indent"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:88
+msgid "Post Author With Icon"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:97
+msgid "Date With Icon"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:106
+msgid "Terms With Icon"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:115
+msgid "Comments Count With Icon"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:124
+msgid "Transparent Template part"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:132
+msgid "Full Width Group"
+msgstr ""
+
+#: includes/responsive-fse-block-styles.php:140
+msgid "Call Now"
+msgstr ""
+
+#: index.php:16
+msgid ""
+"This theme requires the Gutenberg plugin installed. Please visit your "
+"dashboard and follow the instructions on the notification displayed to "
+"enable the plugin and the Full Site Editing experiment."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Responsive FSE"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://cyberchimps.com/responsive-fse-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Responsive-FSE is an experimental theme for the next-generation Full Site "
+"Editing (FSE) currently available in Gutenberg. Using this theme, you can "
+"easily change the complete layout of the post or page by editing templates. "
+"There are also useful blocks to play around with like Site Logo, Post "
+"Title, Post Author, Query, etc. The best part of the theme is that it is "
+"WooCommerce ready and you can add pre-defined block patterns to your pages "
+"and then further customize them according to your needs. The theme also "
+"allows users to add Template Parts like header, footer, sidebar, etc. to "
+"the template and also create new template parts. Features: #Block Patterns "
+"#Full Site Editing #Custom Colors #Custom Header #Custom Logo #Custom Menu "
+"#Grid Layout #Wide Blocks #Sticky Post #RTL Language Support #WooCommerce "
+"Ready"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CyberChimps"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://cyberchimps.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth Template"
+msgstr ""
+
+#: comments.php:37
+#. translators: %s: comment count number.
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/responsive-fse-block-patterns.php:232
+msgctxt "Block pattern description"
+msgid ""
+"A block with 3 columns that display contact information and social media "
+"links."
+msgstr ""

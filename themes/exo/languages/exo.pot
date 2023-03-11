@@ -1,0 +1,537 @@
+# Copyright (C) 2022 exo
+# This file is distributed under the same license as the exo package.
+msgid ""
+msgstr ""
+"Project-Id-Version: exo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Olive Themes info@olivethemes.com\n"
+"POT-Creation-Date: 2022-12-11 03:50+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: patterns/call-to-action-two.php:14
+msgid "We Are Creative"
+msgstr ""
+
+#: patterns/call-to-action-two.php:18
+msgid "Consulting Services Worldwide"
+msgstr ""
+
+#: patterns/call-to-action-two.php:23
+msgid "Our Professional Services is based upon more than 20 years of experience zin"
+msgstr ""
+
+#: patterns/call-to-action-two.php:27
+msgid "providing clients with management consulting assistance and..."
+msgstr ""
+
+#: patterns/call-to-action-two.php:33, patterns/header-default.php:64
+msgid "Get A Quote"
+msgstr ""
+
+#: patterns/call-to-action-two.php:37, patterns/footer-default.php:14, patterns/hero-content.php:29, patterns/home-banner.php:33, patterns/primary-sidebar.php:18
+msgid "About Us"
+msgstr ""
+
+#: patterns/call-to-action.php:12
+msgid "24/7 Customer Support Services"
+msgstr ""
+
+#: patterns/call-to-action.php:17, patterns/footer-default.php:86
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/case-studies.php:21, patterns/home-banner.php:29, patterns/what-we-do.php:18
+msgid "Services"
+msgstr ""
+
+#: patterns/case-studies.php:32
+msgid "Our popular case studies"
+msgstr ""
+
+#: patterns/case-studies.php:37
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+msgstr ""
+
+#: patterns/case-studies.php:41, patterns/section-title.php:40, patterns/what-we-do.php:40
+msgid "sed do eiusmod tempor incididunt ut labore"
+msgstr ""
+
+#: patterns/case-studies.php:59
+msgid "Startups"
+msgstr ""
+
+#: patterns/case-studies.php:63, patterns/case-studies.php:89, patterns/case-studies.php:115
+msgid "It is a long established fact that a reader will be distracted by the readable..."
+msgstr ""
+
+#: patterns/case-studies.php:68, patterns/case-studies.php:94, patterns/case-studies.php:120
+msgid "Explore"
+msgstr ""
+
+#: patterns/case-studies.php:85
+msgid "Finance &amp; Investing"
+msgstr ""
+
+#: patterns/case-studies.php:111
+msgid "Growth Strategy"
+msgstr ""
+
+#: patterns/footer-default.php:28
+msgid "It is a long established fact that a reader will be distracted by the readable…"
+msgstr ""
+
+#: patterns/footer-default.php:46
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer-default.php:59
+msgid "Web Design"
+msgstr ""
+
+#: patterns/footer-default.php:59
+msgid "Development"
+msgstr ""
+
+#: patterns/footer-default.php:59
+msgid "Copywriting"
+msgstr ""
+
+#: patterns/footer-default.php:59
+msgid "Marketing"
+msgstr ""
+
+#: patterns/footer-default.php:59
+msgid "Press Releases"
+msgstr ""
+
+#: patterns/footer-default.php:66
+msgid "Terms & Condition"
+msgstr ""
+
+#: patterns/footer-default.php:79
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-default.php:79
+msgid "Terms and Conditions"
+msgstr ""
+
+#: patterns/footer-default.php:79
+msgid "Disclaimer"
+msgstr ""
+
+#: patterns/footer-default.php:79
+msgid "Support"
+msgstr ""
+
+#: patterns/footer-default.php:79
+msgid "FAQ"
+msgstr ""
+
+#: patterns/footer-default.php:100
+msgid "example@mail.com"
+msgstr ""
+
+#: patterns/footer-default.php:104
+msgid "+1 234 567 890"
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgid "457 Morningview Lane, NY"
+msgstr ""
+
+#: patterns/footer-default.php:116
+msgid "Our Office Time"
+msgstr ""
+
+#: patterns/footer-default.php:130
+msgid "Mon - Fri : 08.00 - 20.00"
+msgstr ""
+
+#: patterns/footer-default.php:134
+msgid "Saturday : 09.00 - 18.00"
+msgstr ""
+
+#: patterns/footer-default.php:138
+msgid "Sunday : We are Closed"
+msgstr ""
+
+#: patterns/footer-default.php:148
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer-default.php:148, inc/core/pattern-category.php:20
+msgid "Exo"
+msgstr ""
+
+#: patterns/footer-default.php:148
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:148
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header-default.php:20
+msgid "+123 456 789"
+msgstr ""
+
+#: patterns/header-default.php:32
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/hero-content.php:34
+msgid "Know More About Us"
+msgstr ""
+
+#: patterns/hero-content.php:38
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac lorem pretium, laoreet enim at, malesuada elit. Class aptent taciti sociosqu. Duis congue turpis risus, ac dapibus mi malesuada ut. Duis feugiat nisi orci.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: patterns/hero-content.php:42, patterns/primary-sidebar.php:30
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac lorem pretium, laoreet enim at, malesuada elit."
+msgstr ""
+
+#: patterns/hero-content.php:47
+msgid "Explore Us"
+msgstr ""
+
+#: patterns/hidden-404.php:14, patterns/hidden-404.php:14
+msgid "4"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgid "0"
+msgstr ""
+
+#: patterns/hidden-404.php:22
+msgid "PhotoThis page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-banner.php:12
+msgid "Business Strategy & Planning "
+msgstr ""
+
+#: patterns/home-banner.php:16
+msgid "Better Way To Achieve Success"
+msgstr ""
+
+#: patterns/home-banner.php:20
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac "
+msgstr ""
+
+#: patterns/home-banner.php:24
+msgid "lorem pretium, laoreet enim at, malesuada elit."
+msgstr ""
+
+#: patterns/latest-news.php:20
+msgid "Blogs For"
+msgstr ""
+
+#: patterns/latest-news.php:25
+msgid "More Inspiration"
+msgstr ""
+
+#: patterns/latest-news.php:31, patterns/what-we-do.php:171
+msgid "Explore More"
+msgstr ""
+
+#: patterns/portfolio.php:20
+msgid "Recent Work"
+msgstr ""
+
+#: patterns/portfolio.php:25
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/portfolio.php:31
+msgid "View More"
+msgstr ""
+
+#: patterns/portfolio.php:52, patterns/portfolio.php:184
+msgid "Agency"
+msgstr ""
+
+#: patterns/portfolio.php:58
+msgid "Finance & Investing"
+msgstr ""
+
+#: patterns/portfolio.php:78, patterns/portfolio.php:132
+msgid "Corporate"
+msgstr ""
+
+#: patterns/portfolio.php:84
+msgid "Advanced Analysis"
+msgstr ""
+
+#: patterns/portfolio.php:104
+msgid ""
+msgstr ""
+
+#: patterns/portfolio.php:104, patterns/portfolio.php:158
+msgid "Business"
+msgstr ""
+
+#: patterns/portfolio.php:110
+msgid "Marketing for Branding"
+msgstr ""
+
+#: patterns/portfolio.php:138
+msgid "Strategy & Operation"
+msgstr ""
+
+#: patterns/portfolio.php:164
+msgid "Plan Your Business"
+msgstr ""
+
+#: patterns/portfolio.php:190
+msgid "Low risk and high result"
+msgstr ""
+
+#: patterns/primary-sidebar.php:35
+msgid "Know More"
+msgstr ""
+
+#: patterns/primary-sidebar.php:44
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:62
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:80
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:100
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:118
+msgid "Social Links"
+msgstr ""
+
+#: patterns/search-cover.php:13
+msgid "Search Now"
+msgstr ""
+
+#: patterns/section-title-three.php:17, patterns/section-title-three.php:38, patterns/section-title-two.php:17, patterns/section-title.php:18
+msgid "Top Section Subtitle"
+msgstr ""
+
+#: patterns/section-title-three.php:22, patterns/section-title-three.php:43, patterns/section-title-two.php:22, patterns/section-title.php:30
+msgid "Section Main Title"
+msgstr ""
+
+#: patterns/section-title-three.php:49
+msgid "Exlore More"
+msgstr ""
+
+#: patterns/section-title.php:36, patterns/what-we-do.php:36
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+msgstr ""
+
+#: patterns/what-we-do.php:30
+msgid "What We Offer"
+msgstr ""
+
+#: patterns/what-we-do.php:56
+msgid "Well Success"
+msgstr ""
+
+#: patterns/what-we-do.php:60, patterns/what-we-do.php:80, patterns/what-we-do.php:100, patterns/what-we-do.php:122, patterns/what-we-do.php:142, patterns/what-we-do.php:162
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+msgstr ""
+
+#: patterns/what-we-do.php:76
+msgid "Creative Ideas"
+msgstr ""
+
+#: patterns/what-we-do.php:96
+msgid "Business consulting"
+msgstr ""
+
+#: patterns/what-we-do.php:118
+msgid "Financial Solution"
+msgstr ""
+
+#: patterns/what-we-do.php:138
+msgid "Market Intro"
+msgstr ""
+
+#: patterns/what-we-do.php:158
+msgid "Smart Investment"
+msgstr ""
+
+#: inc/core/theme-info.php:6, inc/core/theme-info.php:6
+msgid "Exo Theme"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:15
+msgid "Howdy, "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Welcome to"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Exo Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:17
+msgid "Explore beautiful hand-crafted site templates and setup your site in few clicks."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Explore Now!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "Learn more about Exo Pro Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:20, inc/core/templates/theme-info.php:19
+msgid "Multipurpose WordPress Full Site Editing Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:35, inc/core/templates/theme-info-pro.php:287, inc/core/templates/theme-info.php:34, inc/core/templates/theme-info.php:307
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:50, inc/core/templates/theme-info.php:69
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:63, inc/core/templates/theme-info.php:82
+msgid "Free"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:66, inc/core/templates/theme-info.php:85
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:69
+msgid "Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:79, inc/core/templates/theme-info.php:98
+msgid "Easy Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:90, inc/core/templates/theme-info.php:109
+msgid "Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:101, inc/core/templates/theme-info.php:120
+msgid "Advance Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:112, inc/core/templates/theme-info.php:131
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:123, inc/core/templates/theme-info.php:142
+msgid "100+ Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:134, inc/core/templates/theme-info.php:153
+msgid "Advance Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:145, inc/core/templates/theme-info.php:164
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:156, inc/core/templates/theme-info.php:175
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:167, inc/core/templates/theme-info.php:186
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:178, inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:189, inc/core/templates/theme-info.php:208
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:200, inc/core/templates/theme-info.php:219
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:211, inc/core/templates/theme-info.php:230
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:222, inc/core/templates/theme-info.php:241
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:233, inc/core/templates/theme-info.php:252
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:253, inc/core/templates/theme-info.php:272
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:256, inc/core/templates/theme-info.php:275
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:262, inc/core/templates/theme-info.php:281
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:267, inc/core/templates/theme-info.php:286
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:271, inc/core/templates/theme-info.php:290
+msgid "Don't hesitate to ask any questions you have regarding our products."
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:274, inc/core/templates/theme-info.php:294
+msgid "Get Support"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid "Download Advanced Site Templates for Free!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Install"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Olive One Click Demo Import"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "and access to all the Olive Demo templates. This plugin will help you download site template in few clicks."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:59
+msgid "Note: Clicking the button will both install and activate Olive One Click Demo Import plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:88
+msgid "Exo Pro"
+msgstr ""

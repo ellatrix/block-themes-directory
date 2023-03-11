@@ -1,0 +1,47 @@
+/* --- Block Services
+-------------------------------------------------------- */
+
+
+/* --- Block Featured Services
+-------------------------------------------------------- */
+
+.wp-block-services-list {
+    background-color: var(--wp--preset--color--primary);
+    padding: var(--wp--custom--spacing--section-pricing-content);
+    transition: all 0.5s ease-in-out;
+}
+
+.wp-block-services-list:hover {
+    background-color: var(--wp--preset--color--text-link);
+    border-radius: 16px;
+}
+
+.wp-block-services-list:hover h2 {
+    color: var(--wp--preset--color--color-dark);
+}
+
+.wp-block-services-list:hover .fse-pro-icons svg {
+    color: var(--wp--preset--color--color-dark);
+    fill: var(--wp--preset--color--color-dark);
+}
+
+.wp-block-services-list .fse-pro-icons svg {
+    color: var(--wp--preset--color--text-link);
+    fill: var(--wp--preset--color--text-link);
+    transition: all 0.3s ease-in-out;
+}
+
+.wp-block-featured-services .wp-block-cover__inner-container .wp-block-media-text__content > .wp-block-columns:last-child {
+    margin-bottom: 0;
+}
+
+.wp-block-featured-services .wp-block-media-text .wp-block-media-text__media:before {
+    content: "";
+    background-color: var(--wp--preset--color--text-link);
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 20%;
+    left: 0;
+}

@@ -1,0 +1,152 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: BlockMe\n"
+"POT-Creation-Date: 2023-02-08 09:38+0530\n"
+"PO-Revision-Date: 2023-02-08 09:38+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Theme Name of the plugin/theme
+#: functions.php:48
+msgid "BlockMe"
+msgstr ""
+
+#: functions.php:57
+msgid "Featured Image"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: patterns/404.php:23
+msgid ""
+"This page could not be found. Try searching posts using the search field."
+msgstr ""
+
+#: patterns/404.php:31
+msgid "Search..."
+msgstr ""
+
+#: patterns/404.php:31
+msgid "Search"
+msgstr ""
+
+#: patterns/footer.php:15
+msgid "About"
+msgstr ""
+
+#: patterns/footer.php:19
+msgid ""
+"Nostrum aliquam occaecati optio optio! Tempore culpa recusandae, adipiscing "
+"inventore officia quod deserunt, nesciunt sollicitudin commodo quo ipsam "
+"dignissim inceptos explicabo elementum sequi semper dignissim quis."
+msgstr ""
+
+#: patterns/footer.php:37
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer.php:41
+msgid "3558 Ford Street, Santa Clara. 2721, IL, USA"
+msgstr ""
+
+#: patterns/footer.php:45
+msgid "(+880) 123 3456 7890"
+msgstr ""
+
+#: patterns/footer.php:49
+msgid "info@companyname.com"
+msgstr ""
+
+#: patterns/footer.php:53
+msgid "Opening Hours: 08:00 20:00"
+msgstr ""
+
+#: patterns/footer.php:59
+msgid "Recent Posts"
+msgstr ""
+
+#. translators: %s: Year and site name.
+#: patterns/footer.php:70
+#, php-format
+msgid "Copyright &copy; %s"
+msgstr ""
+
+#: patterns/footer.php:70
+msgid "Y"
+msgstr ""
+
+#. translators: %s: Theme author.
+#: patterns/footer.php:74
+#, php-format
+msgid "Design by %s"
+msgstr ""
+
+#: patterns/hero.php:14
+msgid "Lorem ipsum dolor sit amet"
+msgstr ""
+
+#: patterns/hero.php:18
+msgid "BlockMe WordPress Theme"
+msgstr ""
+
+#: patterns/hero.php:22
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and type setting industry. "
+"Lorem Ipsum has been the industry's standard dummy text."
+msgstr ""
+
+#: patterns/hero.php:27
+msgid "Get Started"
+msgstr ""
+
+#: patterns/newsletter.php:16
+msgid "Subscribe to Our Newsletter!"
+msgstr ""
+
+#: patterns/newsletter.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: patterns/newsletter.php:25
+msgid "Subscribe Now"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themesdna.com/blockme-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"BlockMe is a minimalist, block based WordPress theme for blogging websites "
+"and writers. It has full site editing features, block patterns, responsive "
+"design and much more. BlockMe theme employs a lightweight design and the "
+"latest codes, which are further optimized to provide you with a faster page "
+"load speed. Theme demo: https://demo.themesdna.com/blockme/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemesDNA"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themesdna.com/"
+msgstr ""

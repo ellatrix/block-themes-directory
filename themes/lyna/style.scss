@@ -1,0 +1,39 @@
+/*
+Theme Name: Lyna
+Theme URI: https://catchthemes.com/themes/lyna
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Lyna is a free multipurpose WordPress block theme for full site editing. This is a multipurpose WordPress theme that comes with a wide range of designs ideal for any purpose. It is best suited for corporate, businesses, blogs, magazines, portfolios, photography, personal, freelance, startup, and many more. The theme is built in with amazing Full Site Editing features that let you customize your site the way you like. This theme is fully responsive that looks beautiful on all the screens. The block patterns are simple and easy to use which let you drag and drop the blocks and build the content perfectly. There are 11 + different block patterns, 10 Templates, and 5 Template Parts available in this free version theme. Some of the block patterns are Header media, Sidebar, Hero content, Contact, Featured content, 404 Header, Archive header, Default footer, Default header, Post Header, and many more.  All of the blocks, block patterns, templates, and template parts in Lyna are fast loading, fully responsive, highly customizable, and adapt to all screen sizes perfectly.  Download Lyna today and start building your site with blocks!
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lyna
+Tags: blog, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Lyna is based on Catch FSE WordPress Theme, 2012-2022 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

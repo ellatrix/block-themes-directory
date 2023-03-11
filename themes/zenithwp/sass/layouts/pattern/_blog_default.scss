@@ -1,0 +1,179 @@
+.blog-post-default {
+    .wp-block-latest-comments__comment-meta {
+        color: rgb(85, 85, 85);
+    }
+
+    .sidebar-default .wp-block-latest-comments li a.wp-block-latest-comments__comment-author {
+        color: rgb(85, 85, 85);
+    }
+
+    .sidebar-default .wp-block-latest-posts {
+        list-style: initial;
+        padding-left: 20px;
+    }
+}
+
+.blog-post-default .mycol-top {
+    position: relative;
+    gap: 0;
+}
+
+.blog-post-default {
+    .wp-block-post-title {
+        a {
+            text-decoration: inherit;
+        }
+    }
+}
+
+.editor-styles-wrapper {
+
+    .blog-post-default .mycol-top .mycat,
+    .blog-post-default .mycol-top .myauthor {
+        display: block;
+    }
+}
+
+.blog-post-default .mycol-top .mycat,
+.blog-post-default .mycol-top .myauthor {
+    display: none;
+}
+
+.blog-post-default .has-post-thumbnail .mycol-top .mycat,
+.blog-post-default .has-post-thumbnail .mycol-top .myauthor {
+    display: block;
+}
+
+.blog-post-default .has-post-thumbnail .mycol-top .wp-block-avatar {
+    position: absolute;
+    bottom: -12px;
+    left: 30px;
+}
+
+.blog-post-default .has-post-thumbnail .mycol-top .mycat {
+    display: block;
+    border-radius: 3px;
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.6em 1.2em;
+}
+
+.blog-post-default .has-post-thumbnail .mycol-top .myauthor {
+    display: block;
+}
+
+.blog-post-default .mycol-bottom>div {
+    position: relative;
+}
+
+.blog-post-default .mycol-bottom>div::after {
+    content: "•";
+    position: absolute;
+    margin: 0 5px;
+    right: -18px;
+    color: var(--wp--preset--color--primary);
+}
+
+.blog-post-default .mycol-bottom>div:last-child::after {
+    content: none;
+}
+
+.blog-post-default .page-numbers {
+    margin: 0 5px;
+}
+
+.blog-post-default {
+    .sidebar-default {
+        a {
+            color: var(--wp--preset--color--primary);
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-post-default {
+        margin-top: 24px !important;
+        padding: 0 30px 30px !important;
+
+        .wp-block-columns {
+            flex-wrap: wrap !important;
+
+            >.wp-block-column {
+                flex-basis: 100% !important;
+
+                .wp-block-post-featured-image {
+                    img {
+                        height: 517px !important;
+                    }
+                }
+            }
+
+            .sidebar-default {
+                flex-basis: 100% !important;
+                padding-left: 0 !important;
+                padding-top: 30px;
+
+                h5 {
+                    font-size: 18px !important;
+                }
+
+                ul:last-child {
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-post-default {
+        .wp-block-columns {
+            >.wp-block-column {
+                .wp-block-post-featured-image {
+                    img {
+                        height: 345px !important;
+                        height: auto !important;
+                    }
+                }
+
+                .wp-block-post-excerpt__excerpt,
+                .wp-block-read-more {
+                    font-size: 14px !important;
+                }
+
+                .wp-block-post-author__name,
+                .wp-block-post-date {
+                    font-size: 11px !important;
+                }
+            }
+
+            .wp-block-query-pagination-numbers {
+
+                a,
+                span {
+                    font-size: 14px !important;
+                }
+            }
+
+            .wp-block-query-pagination-previous,
+            .wp-block-query-pagination-next {
+                font-size: 14px !important;
+            }
+
+            .sidebar-default {
+                font-size: 14px !important;
+
+                h5 {
+                    font-size: 16px !important;
+                }
+
+                li,
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

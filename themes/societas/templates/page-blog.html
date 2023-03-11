@@ -1,0 +1,22 @@
+<!-- wp:template-part {"slug":"header-dark","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
+<main id="main-container" class="wp-block-group">
+    <!-- wp:group {"className":"container","layout":{"inherit":true}} -->
+    <div id="page-container" class="wp-block-group container">
+        <!-- wp:heading {"textAlign":"center","level":1} -->
+        <h1 class="has-text-align-center">Blog Posts</h1>
+        <!-- /wp:heading -->
+
+        <!-- wp:separator {"opacity":"css","backgroundColor":"primary","className":"is-style-default"} -->
+        <hr class="wp-block-separator has-text-color has-primary-color has-css-opacity has-primary-background-color has-background is-style-default"/>
+        <!-- /wp:separator -->
+
+        <!-- wp:template-part {"slug":"blog-query"} /-->
+
+    </div>
+    <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

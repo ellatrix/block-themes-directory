@@ -1,0 +1,14 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.0.1
+i) Reduced image size.
+
+Version 1.0.2
+i) Resolved console log error.
+
+Version 1.0.3
+i) Added skip link button, removed unused files and made some changes.
+
+Version 1.0.4
+i) Minor changes.

@@ -1,0 +1,13 @@
+[
+    {
+        "slug": "section",
+        "title": "Section",
+        "description": "A simple section with two columns.",
+        "blockTypes": [
+            "core/post-content"
+        ],
+        "categories": [
+            "wecodeart"
+        ]
+    }
+]

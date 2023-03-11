@@ -1,0 +1,21 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.0.1
+i) Added translation file.
+
+Version 1.0.2
+i) Removed redirection.
+
+Version 1.0.3
+i) Removed few codes and files.
+
+Version 1.0.4
+i) Minor changes.
+
+Version 1.0.5
+i) Chnaged email domain.
+
+
+
+

@@ -1,0 +1,85 @@
+{
+        "version": 2,
+        "title": "Dark",
+        "settings": {
+                "color": {
+                        "customGradient": true,
+                        "gradients": [
+				{
+					"gradient": "linear-gradient(0deg, rgba(18,18,18,1) 0%, rgba(34,34,34,1) 20%, rgba(42,42,42,1) 50%, rgba(34,34,34,1) 80%, rgba(18,18,18,1) 100%);",
+					"name": "Black tone",
+					"slug": "primary-tone"
+				}
+			],
+                        "palette": [
+                                {
+                                        "slug": "primary",
+                                        "color": "#121212", 
+                                        "name": "Primary"
+                                },
+                                {
+                                        "slug": "secondary",
+                                        "color": "#f7f7f7",
+                                        "name": "Secondary"
+                                },
+                                {
+                                        "slug": "tertiary",
+                                        "color": "#000",
+                                        "name": "Tertiary"
+                                }
+                        ]
+                }
+        },
+        "styles": {
+            "blocks": {
+                    "color": {
+                            "background": "var(--wp--preset--color--secondary)",
+                            "gradient": "var(--wp--preset--gradient--primary-tone)",
+                            "text": "var(--wp--preset--color--primary)"
+                        },
+                        "elements": {
+                                "h1": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--primary)"
+                                        }
+                                },
+                                "h2": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--primary)"
+                                        }
+                                },
+                                "h3": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--primary)"
+                                        }
+                                },
+                                "h4": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--primary)"
+                                        }
+                                },
+                                "h5": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--primary)"
+                                        }
+                                },
+                                "h6": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--primary)"
+                                        }
+                                },
+                                "link": {
+                                        "color": {
+                                                "text": "var(--wp--preset--color--secondary)"
+                                        }
+                                }
+                        }
+            }
+                
+        }
+    }
+    
+    
+    
+    
+    

@@ -1,0 +1,50 @@
+<?php
+/**
+ * Title: Centered Header
+ * Slug: blockette/header-centered
+ * Categories: blockette-header
+ * Block Types: core/template-part
+ * Viewport Width: 1024
+ *
+ * @package blockette
+ * @since 1.0.0
+ */
+
+?>
+
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var(--wp--custom--h-spacing, 2.375rem)","left":"var(--wp--custom--h-spacing, 2.375rem)"}}},"backgroundColor":"background","layout":{"inherit":true}} -->
+<div class="wp-block-group has-background-background-color has-background"
+	style="padding-right:var(--wp--custom--h-spacing, 2.375rem);padding-left:var(--wp--custom--h-spacing, 2.375rem)">
+	<!-- wp:columns {"align":"wide"} -->
+	<div class="wp-block-columns alignwide">
+		<!-- wp:column {"verticalAlignment":"center","width":"100%"} -->
+		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%">
+			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+			<div class="wp-block-group">
+				<!-- wp:pattern {"slug":"blockette/links-social"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"100%","style":{"spacing":{"blockGap":"1vw"}}} -->
+		<div class="wp-block-column" style="flex-basis:100%">
+			<!-- wp:site-logo {"width":70,"shouldSyncIcon":true,"align":"center","className":"is-style-rounded"} /-->
+
+			<!-- wp:site-title {"textAlign":"center","className":"is-style-blockette-text-shadow","fontSize":"large"} /-->
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"verticalAlignment":"center","width":"100%"} -->
+		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%">
+			<!-- wp:group {"className":"blockette-no-collapse","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"fontSize":"small"} -->
+			<div class="wp-block-group blockette-no-collapse has-small-font-size">
+				<!-- wp:pattern {"slug":"blockette/dummy-navigation-overlay"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:column -->
+	</div>
+	<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->

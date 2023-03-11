@@ -1,0 +1,38 @@
+.veu_card {
+	.pageList li {
+		margin-top:0;
+	}
+}
+.veu_pageList_ancestor {
+	.pageList_ancestor_title {
+		margin-bottom:0;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+.veu_socialSet {
+	ul {
+		gap:4px;
+		.sb_copy .sb_icon_inner {
+			padding-bottom:5px;
+		}
+	}
+}
+.veu_socialSet.veu_contentAddSection ul li {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+}
+.veu_sitemap {
+	:is(	
+		.sitemap-post-type-title,
+		li
+	) a {
+		text-decoration: none;
+		&:hover {
+			color:var(--wp--preset--color--primary-hover);
+			text-decoration: underline;
+		}
+	}
+}

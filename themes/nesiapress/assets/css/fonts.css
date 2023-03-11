@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url( ../assets/fonts/MavenPro-Regular.ttf ) format('ttf');
+}
+
+@font-face {
+	font-family: 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url( ../assets/fonts/MavenPro-Medium.ttf ) format('ttf');
+}
+
+@font-face {
+	font-family: 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url( ../assets/fonts/MavenPro-SemiBold.ttf ) format('ttf');
+}
+
+html, body {
+   font-family: 'Maven Pro', sans-serif;
+}

@@ -1,0 +1,389 @@
+.admin-bar {
+
+  .slider-section .swiper-wrapper,
+  .header-media {
+    height: calc(100vh - 46px);
+  }
+}
+
+.slider-section {
+  [class*="vertical-"] {
+    .navigation-wrap {
+      right: 43px;
+      left: auto;
+      width: 40px;
+    }
+
+    .swiper-pagination {
+      &:before {
+        @include transform(rotate(90deg) translate(38px, -10px));
+      }
+
+      &:after {
+        margin-left: 0;
+        @include transform(translate(4px, 39px));
+      }
+
+      .swiper-pagination-bullet {
+        position: absolute;
+      }
+    }
+  }
+}
+
+.slider-section {
+  .social-icons-list {
+    bottom: 45px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.slider-section {
+
+  .horizontal-inside-slider-bottom-right,
+  .horizontal-outside-slider-bottom-right {
+    .navigation-wrap {
+      right: 23px;
+      left: auto;
+    }
+  }
+
+  .horizontal-inside-slider-bottom-right,
+  .horizontal-outside-slider-bottom-right {
+    +.swiper-pagination+.navigation-wrap {
+      right: 23px;
+      left: auto;
+    }
+  }
+
+  .horizontal-inside-slider-bottom-left .swiper-pagination,
+  .horizontal-outside-slider-bottom-left .swiper-pagination {
+    left: 50px;
+  }
+
+  .horizontal-inside-slider-bottom-center .navigation-wrap,
+  .horizontal-outside-slider-bottom-center .navigation-wrap,
+  .horizontal-inside-slider-bottom-center+.navigation-wrap,
+  .horizontal-outside-slider-bottom-center+.navigation-wrap {
+    left: 50%;
+    @include transform(translateX(-50%));
+    right: auto;
+    z-index: 9;
+  }
+
+  position: relative;
+
+  .navigation-wrap {
+    position: absolute;
+    right: 0;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 23px;
+    bottom: 39px;
+    z-index: 999;
+
+    .swiper-button,
+    .swiper-button-next,
+    .swiper-button-prev {
+      box-shadow: none;
+      background: transparent;
+      left: auto;
+      height: auto;
+      padding: 0;
+      position: relative;
+      right: auto;
+      width: auto;
+
+      &:after {
+        color: var(--wp--preset--color--color-light);
+        font-weight: var(--wp--custom--typography--font-weight--normal);
+      }
+
+      &:before {
+        content: none;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .swiper-wrapper {
+    height: 100vh;
+  }
+
+  .wp-block-cover {
+    height: 100%;
+  }
+}
+
+.slider-section .fse-pro-slider {
+
+  .horizontal-inside-slider-bottom-right,
+  .horizontal-outside-slider-bottom-right {
+    .navigation-wrap {
+      right: 23px;
+      left: auto;
+    }
+  }
+
+  .horizontal-inside-slider-bottom-right,
+  .horizontal-outside-slider-bottom-right {
+    +.swiper-pagination+.navigation-wrap {
+      right: 23px;
+      left: auto;
+    }
+  }
+
+  .horizontal-inside-slider-bottom-left .swiper-pagination,
+  .horizontal-outside-slider-bottom-left .swiper-pagination {
+    left: 50px;
+  }
+
+  .horizontal-inside-slider-bottom-center .navigation-wrap,
+  .horizontal-outside-slider-bottom-center .navigation-wrap,
+  .horizontal-inside-slider-bottom-center+.navigation-wrap,
+  .horizontal-outside-slider-bottom-center+.navigation-wrap {
+    left: 50%;
+    @include transform(translateX(-50%));
+    right: auto;
+    z-index: 9;
+  }
+
+  position: relative;
+
+  .navigation-wrap {
+    position: absolute;
+    right: 0;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 23px;
+    bottom: 39px;
+    z-index: 999;
+
+    .swiper-button,
+    .swiper-button-next,
+    .swiper-button-prev {
+      box-shadow: none;
+      background: transparent;
+      left: auto;
+      height: auto;
+      padding: 0;
+      position: relative;
+      right: auto;
+      width: auto;
+
+      &:after {
+        color: var(--wp--preset--color--color-light);
+        font-weight: var(--wp--custom--typography--font-weight--normal);
+      }
+
+      &:before {
+        content: none;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .swiper-wrapper {
+    height: 100vh;
+  }
+}
+
+.slider-content {
+  text-align: left;
+  overflow: hidden;
+
+  .wp-block-buttons {
+    margin-bottom: 25px;
+  }
+
+  h2,
+  h4,
+  .wp-block-button {
+    transform: translateX(-100%);
+    transition: 0.9s ease-in-out;
+    opacity: 0;
+  }
+
+  h4 {
+    transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    opacity: 1;
+  }
+
+  h2 {
+    transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+    opacity: 1;
+  }
+
+  .wp-block-button {
+    transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    -moz-transition-delay: 0.6s;
+    -webkit-transition-delay: 0.6s;
+    opacity: 1;
+  }
+}
+
+.swiper-slide-active {
+  .slider-content {
+    overflow-x: hidden;
+
+    h2,
+    h4,
+    .icon-row,
+    .wp-block-button {
+      transform: translateX(0%);
+    }
+  }
+}
+
+.header-media {
+  height: 100vh;
+
+  .slider-content h2,
+  .slider-content h4,
+  .slider-content .icon-row,
+  .wp-block-button {
+    transform: translateX(0);
+  }
+
+  .slider-content {
+    text-align: left;
+  }
+}
+
+.slider-content {
+  h2 {
+    font-family: var(--wp--preset--font-family--pt-serif);
+    text-shadow: 5px 8.7px 10px rgba(0, 0, 0, 0.2);
+    color: var(--wp--preset--color--color-light);
+    margin-top: 0;
+  }
+
+  .is-style-outline>.wp-block-button__link:not(.has-text-color) {
+    border-color: var(--wp--preset--color--color-light);
+  }
+
+  h4 {
+    color: var(--wp--preset--color--color-light);
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+    font-family: var(--wp--preset--font-family--open-sans);
+    margin-bottom: clamp(21px, 3vw, 47px);
+    text-transform: uppercase;
+  }
+}
+
+.slider-section {
+  .swiper-pagination span {
+    box-shadow: none;
+
+    &.swiper-pagination-bullet-active {
+      box-shadow: none;
+    }
+  }
+
+  .swiper-pagination {
+    counter-reset: slides-num;
+    right: 49px;
+    position: absolute;
+    bottom: 49px;
+    width: auto;
+
+    * {
+      font-family: var(--wp--preset--font-family--pt-serif);
+    }
+
+    &:before {
+      background-color: var(--wp--preset--color--color-light);
+      content: "";
+      height: 23px;
+      position: absolute;
+      top: -10px;
+      @include transform(rotate(25deg) translate(40px, 18px));
+      width: 2px;
+    }
+
+    &:after {
+      color: var(--wp--preset--color--color-light);
+      font-family: var(--wp--preset--font-family--pt-serif);
+      content: counters(slides-num, ".");
+      display: inline-block;
+      font-size: 30px;
+      line-height: 1.56;
+      margin-left: 40px;
+      @include transform(translateY(11px));
+    }
+
+    .swiper-pagination-bullet {
+      counter-increment: slides-num;
+      font-family: var(--wp--preset--font-family--pt-serif);
+      margin: 0;
+      width: 0;
+      display: inline-block;
+      font-size: 0;
+      line-height: 1;
+
+      &.swiper-pagination-bullet-active:before {
+        color: var(--wp--preset--color--color-light);
+        font-family: var(--wp--preset--font-family--pt-serif);
+        content: counters(slides-num, ".");
+        color: transparent;
+        display: inline-block;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 0.67;
+        vertical-align: middle;
+        -webkit-text-stroke: 0.5px var(--wp--preset--color--color-light);
+        -moz-text-stroke: 0.5px var(--wp--preset--color--color-light);
+        @include transform(translate(-6px, -6px));
+      }
+    }
+  }
+}
+
+.swiper-slide-active {
+  img {
+    animation: zoom 15s forwards;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    @include transform(scale(1))
+  }
+
+  100% {
+    @include transform(scale(1.2))
+  }
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    @include transform(scale(1))
+  }
+
+  100% {
+    @include transform(scale(1.2))
+  }
+}

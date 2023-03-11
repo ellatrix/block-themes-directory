@@ -1,0 +1,1028 @@
+# Copyright (C) 2022 ona
+# This file is distributed under the same license as the ona package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blockpress\n"
+"Report-Msgid-Bugs-To: https://blockpresswp.com/\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Motionblocks <mudderbuster@gmail.com>\n"
+"Language-Team: Motionblocks <mudderbuster@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-tgm-plugin-activation.php:333 functions.php:441
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:334 functions.php:442
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:336 functions.php:443
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:338
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:339 functions.php:444
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:342 functions.php:445
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:348 functions.php:446
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:354 functions.php:451
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:360
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:366 functions.php:448
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:372 functions.php:449
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:377 functions.php:453
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:387 functions.php:454
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:391
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:392 class-tgm-plugin-activation.php:918
+#: class-tgm-plugin-activation.php:2624 class-tgm-plugin-activation.php:3671
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:3250
+#: functions.php:456
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3043
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:396
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:398
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:400
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:402
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:403
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:606
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:607
+msgid "Update Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:724
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1025
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1025 class-tgm-plugin-activation.php:1028
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1028
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1212 class-tgm-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2364
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2367
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2383
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2386
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2389
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2406
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2410
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2412
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2418
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2421
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2424
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2433
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2479
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2483
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2487
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2491
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2573
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2581
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2589
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2601
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2624
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2639
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2640
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2644
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3598
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3600
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3600 class-tgm-plugin-activation.php:3608
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3600 class-tgm-plugin-activation.php:3608
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3606
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3608
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions.php:354
+msgid "CSS not saved due the permission!!!"
+msgstr ""
+
+#: functions.php:447
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:450
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:452
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:455
+msgid "Return to Required Plugins Installer and Activate plugins"
+msgstr ""
+
+#: functions.php:457
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/block-patterns.php:16
+msgid "Blockpress"
+msgstr ""
+
+#: inc/block-patterns.php:21
+msgid "Blockpress Footer"
+msgstr ""
+
+#: inc/block-patterns.php:25
+msgid "Blockpress General"
+msgstr ""
+
+#: inc/block-patterns.php:29
+msgid "Blockpress Header"
+msgstr ""
+
+#: inc/block-patterns.php:33
+msgid "Blockpress Hero Headers"
+msgstr ""
+
+#: inc/block-patterns.php:37
+msgid "Blockpress Parts"
+msgstr ""
+
+#: inc/block-patterns.php:41
+msgid "Blockpress Page"
+msgstr ""
+
+#: inc/block-patterns.php:45
+msgid "Blockpress Query"
+msgstr ""
+
+#: inc/block-styles.php:25 inc/block-styles.php:212
+msgid "Fill White"
+msgstr ""
+
+#: inc/block-styles.php:33 inc/block-styles.php:204
+msgid "Outline Black"
+msgstr ""
+
+#: inc/block-styles.php:41 inc/block-styles.php:220
+msgid "Outline White"
+msgstr ""
+
+#: inc/block-styles.php:48
+msgid "System button"
+msgstr ""
+
+#: inc/block-styles.php:55
+msgid "3d Button light"
+msgstr ""
+
+#: inc/block-styles.php:62
+msgid "3d Button dark"
+msgstr ""
+
+#: inc/block-styles.php:71
+msgid "Boxshadow"
+msgstr ""
+
+#: inc/block-styles.php:78
+msgid "Light Shadow"
+msgstr ""
+
+#: inc/block-styles.php:85
+msgid "Middle Shadow"
+msgstr ""
+
+#: inc/block-styles.php:92
+msgid "Hard dark Shadow"
+msgstr ""
+
+#: inc/block-styles.php:99
+msgid "Hard primary Shadow"
+msgstr ""
+
+#: inc/block-styles.php:106
+msgid "Full-height"
+msgstr ""
+
+#: inc/block-styles.php:113 inc/block-styles.php:134
+msgid "Shadow on hover"
+msgstr ""
+
+#: inc/block-styles.php:120
+msgid "Sliding primary hover"
+msgstr ""
+
+#: inc/block-styles.php:127 inc/block-styles.php:143 inc/block-styles.php:165
+msgid "No Margin"
+msgstr ""
+
+#: inc/block-styles.php:150
+msgid "Half negative offset"
+msgstr ""
+
+#: inc/block-styles.php:157 inc/block-styles.php:357
+msgid "Shadow radius"
+msgstr ""
+
+#: inc/block-styles.php:173
+msgid "No underline for links"
+msgstr ""
+
+#: inc/block-styles.php:180
+msgid "Circle shape"
+msgstr ""
+
+#: inc/block-styles.php:187
+msgid "Circle shape small"
+msgstr ""
+
+#: inc/block-styles.php:196
+msgid "Fill Black"
+msgstr ""
+
+#: inc/block-styles.php:227
+msgid "Accent Button"
+msgstr ""
+
+#: inc/block-styles.php:234
+msgid "Primary Color Button"
+msgstr ""
+
+#: inc/block-styles.php:241
+msgid "Secondary Color Button"
+msgstr ""
+
+#: inc/block-styles.php:248
+msgid "Primary 3d Button"
+msgstr ""
+
+#: inc/block-styles.php:256
+msgid "Colored tags"
+msgstr ""
+
+#: inc/block-styles.php:263
+msgid "Colored Secondary tags"
+msgstr ""
+
+#: inc/block-styles.php:270
+msgid "Rounded border"
+msgstr ""
+
+#: inc/block-styles.php:277
+msgid "Underline on hover"
+msgstr ""
+
+#: inc/block-styles.php:284 inc/block-styles.php:291
+msgid "Inline List"
+msgstr ""
+
+#: inc/block-styles.php:298
+msgid "Small image"
+msgstr ""
+
+#: inc/block-styles.php:305
+msgid "Unstyled view"
+msgstr ""
+
+#: inc/block-styles.php:313
+msgid "Line Separator"
+msgstr ""
+
+#: inc/block-styles.php:321
+msgid "Floating search bar on click"
+msgstr ""
+
+#: inc/block-styles.php:327
+msgid "Bordered block"
+msgstr ""
+
+#: inc/block-styles.php:331
+msgid "Inner Border"
+msgstr ""
+
+#: inc/block-styles.php:335
+msgid "No padding for image"
+msgstr ""
+
+#: inc/block-styles.php:339
+msgid "Rounded border box"
+msgstr ""
+
+#: inc/block-styles.php:343
+msgid "Smart scroll carousel"
+msgstr ""
+
+#: inc/block-styles.php:347
+msgid "Box intersection"
+msgstr ""
+
+#: inc/block-styles.php:351
+msgid "Box intersection 2"
+msgstr ""
+
+#: inc/block-styles.php:363
+msgid "No gap"
+msgstr ""
+
+#: inc/block-styles.php:370 inc/block-styles.php:384
+msgid "Show two lines"
+msgstr ""
+
+#: inc/block-styles.php:377 inc/block-styles.php:391
+msgid "Show three lines"
+msgstr ""
+
+#: inc/block-styles.php:398
+msgid "Mega columned menu"
+msgstr ""
+
+#: inc/block-styles.php:405
+msgid "Mega menu Open on left"
+msgstr ""
+
+#: inc/block-styles.php:412
+msgid "Theme search style"
+msgstr ""
+
+#: inc/block-styles.php:419
+msgid "Theme search with round corners"
+msgstr ""
+
+#: inc/block-styles.php:426 inc/block-styles.php:433 inc/block-styles.php:440
+msgid "Hide on mobile and tablets"
+msgstr ""
+
+#: inc/patterns/footer/footer-mega-dark.php:9
+msgid "Dark Footer with text, button, links"
+msgstr ""
+
+#: inc/patterns/footer/footer-mega-four.php:4
+msgid "Mega Footer with 4 columns"
+msgstr ""
+
+#: inc/patterns/footer/footer-mega.php:9
+msgid "Footer with text, button, links"
+msgstr ""
+
+#: inc/patterns/footer/footer-simple-dark.php:4
+msgid "Simple dark footer"
+msgstr ""
+
+#: inc/patterns/footer/footer-simple-dark.php:11
+#: inc/patterns/footer/footer-simple.php:16
+#: inc/patterns/footer/footer-stacked-dark.php:32
+#: inc/patterns/footer/footer-stacked.php:32
+#: inc/patterns/footer/footer-three-columns-dark.php:20
+#: inc/patterns/footer/footer-three-columns.php:20
+msgid "Contact Us"
+msgstr ""
+
+#: inc/patterns/footer/footer-simple.php:9
+msgid "Simple footer"
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked-dark.php:9
+#: inc/patterns/footer/footer-stacked.php:9
+msgid "Footer with heading, text, button."
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked-dark.php:14
+msgid "Let’s Do This"
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked-dark.php:23
+#: inc/patterns/footer/footer-stacked.php:23
+msgid "Get in Touch"
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked.php:14
+msgid "Let’s Do this"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns-dark.php:9
+msgid "Simple 3 column dark footer"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns-dark.php:20
+#: inc/patterns/footer/footer-three-columns.php:20
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns-dark.php:20
+#: inc/patterns/footer/footer-three-columns.php:20
+msgid "Terms of Service"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns.php:9
+msgid "Simple 3 column white footer"
+msgstr ""
+
+#: inc/patterns/general/general-banner-footer.php:8
+msgid "Banner and counters"
+msgstr ""
+
+#: inc/patterns/general/general-banner-negative-top.php:8
+msgid "Banner with top negative margin"
+msgstr ""
+
+#: inc/patterns/general/general-features.php:8
+msgid "Features with 4 columns"
+msgstr ""
+
+#: inc/patterns/general/general-latest-query.php:8
+msgid "Latest 3 posts with heading"
+msgstr ""
+
+#: inc/patterns/general/general-podcast.php:9
+msgid "Podcast episode with media, text."
+msgstr ""
+
+#: inc/patterns/general/general-podcast.php:17
+#: inc/patterns/hero/hero-two-columns.php:13
+msgid "Sample Image"
+msgstr ""
+
+#: inc/patterns/general/general-podcast.php:29
+msgid "Sample Podcast Episode"
+msgstr ""
+
+#: inc/patterns/general/general-pricing-three-columns.php:9
+msgid "Pricing table with list, buttons."
+msgstr ""
+
+#: inc/patterns/general/general-qa.php:8
+msgid "QA section with video"
+msgstr ""
+
+#: inc/patterns/general/general-testimonials-boxes.php:9
+msgid "Testimonials with text."
+msgstr ""
+
+#: inc/patterns/general/general-user-feedback.php:8
+msgid "User feedbacks"
+msgstr ""
+
+#: inc/patterns/header/header-button-search.php:4
+#: inc/patterns/header/header-two-menus.php:4
+msgid "Header with center menu, button and search icon"
+msgstr ""
+
+#: inc/patterns/header/header-center.php:4
+msgid "Centered logo header"
+msgstr ""
+
+#: inc/patterns/header/header-search-icon.php:4
+msgid "Header with center menu and search icon"
+msgstr ""
+
+#: inc/patterns/header/header-simple-dark.php:9
+msgid "Simple dark header"
+msgstr ""
+
+#: inc/patterns/header/header-simple.php:10
+msgid "Simple header"
+msgstr ""
+
+#: inc/patterns/hero/hero-front.php:4
+msgid "Hero section with Video animation"
+msgstr ""
+
+#: inc/patterns/hero/hero-two-columns.php:4
+msgid "Section with media, text, buttons."
+msgstr ""
+
+#: inc/patterns/hidden/hidden-404.php:9
+msgid "404 error content."
+msgstr ""
+
+#: inc/patterns/hidden/hidden-404.php:12
+msgid "Not found, error 404"
+msgstr ""
+
+#: inc/patterns/hidden/hidden-404.php:15
+msgid "Oops, the page you are looking for does not exist or is no longer available. Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+
+#: inc/patterns/page/page-front.php:9
+msgid "Home page Variant"
+msgstr ""
+
+#: inc/patterns/page/query-index.php:4
+msgid "Index page query"
+msgstr ""
+
+#: inc/patterns/parts/parts-commentquery.php:8
+msgid "Comment query"
+msgstr ""
+
+#: inc/patterns/parts/parts-related.php:8
+msgid "Related posts"
+msgstr ""
+
+#: inc/patterns/query/query-cover-featured.php:4
+msgid "Featured section with cover images"
+msgstr ""
+
+#: inc/patterns/query/query-cover-grid.php:9
+msgid "Grid with cover images"
+msgstr ""
+
+#: inc/patterns/query/query-creative-list.php:9
+msgid "List of posts with creative style"
+msgstr ""
+
+#: inc/patterns/query/query-default.php:9
+msgid "List of posts in one column"
+msgstr ""
+
+#: inc/patterns/query/query-grid-excerpt.php:9
+msgid "Grid of posts with excerpt"
+msgstr ""
+
+#: inc/patterns/query/query-grid.php:9
+msgid "Grid of posts in three columns."
+msgstr ""
+
+#: inc/patterns/query/query-list.php:9
+msgid "List of posts in three columns."
+msgstr ""
+
+#: inc/patterns/query/query-listbig.php:9
+msgid "List with big images"
+msgstr ""
+
+#: inc/patterns/query/query-listgrid.php:9
+msgid "List of 3 grid items"
+msgstr ""
+
+#: inc/patterns/query/query-shadowgrid.php:4
+msgid "Shadow grid"
+msgstr ""
+
+#: inc/patterns/query/query-simple-list.php:9
+msgid "Simple post list"
+msgstr ""
+
+#: inc/patterns/query/query-sticky-column-simple.php:9
+msgid "Block with sticky column unstyled"
+msgstr ""
+
+#: inc/patterns/query/query-sticky-column.php:9
+msgid "Block with sticky column"
+msgstr ""
+
+#: inc/woocommerce/functions.php:136
+msgid "PROS:"
+msgstr ""
+
+#: inc/woocommerce/functions.php:136
+msgid "CONS:"
+msgstr ""
+
+#: inc/woocommerce/functions.php:177 inc/woocommerce/functions.php:212
+#: inc/woocommerce/functions.php:262
+msgid "+ PROS:"
+msgstr ""
+
+#: inc/woocommerce/functions.php:185 inc/woocommerce/functions.php:216
+#: inc/woocommerce/functions.php:265
+msgid "- CONS:"
+msgstr ""
+
+#: inc/woocommerce/functions.php:198
+msgid "Pros and Cons"
+msgstr ""
+
+#: inc/woocommerce/functions.php:250
+msgid "Product Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:38
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:40
+msgid "User Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+msgid "out of"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:51
+#, php-format
+msgid "Rated %s out of"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Write a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:137
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:137
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:138
+msgid "Leave a Reply"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:143
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:146
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:152
+#, php-format
+msgid "You must be %s%s%s logged in %s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:168
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:169
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:170
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:171
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:172
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:173
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:174
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:180
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:187
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""

@@ -1,0 +1,192 @@
+/* --- Block Podcast
+-------------------------------------------------------- */
+
+
+/* --- Block Featured Podcast
+-------------------------------------------------------- */
+.wp-block-podcast-title p {
+    color: var(--wp--preset--color--body-text);
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: var(--wp--custom--typography--line-height--paragraph);
+}
+
+.wp-block-featured-podcast .wp-block-section-content h2 {
+    font-size: var(--wp--preset--font-size--normal);
+    line-height: 1.75;
+    font-weight: var(--wp--custom--typography--font-weight--semi-bold);
+    margin-top: 0;
+}
+
+.wp-block-featured-podcast .wp-block-image {
+    overflow: hidden;
+}
+
+.wp-block-featured-podcast .wp-block-image img {
+    opacity: 1;
+    transition: opacity 0.35s;
+    transition: 0.3s;
+}
+
+.wp-block-featured-podcast .wp-block-image:hover img,
+.wp-block-featured-podcast .wp-block-image:focus img {
+    transform: scale(1.05);
+    opacity: 0.6;
+}
+
+ .wp-block-featured-podcast .wp-block-group-heading .wp-block-button .wp-block-button__link {
+    margin-top: 0;
+}
+
+.wp-block-featured-podcast .content > .video-play {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 48.8125em) {
+    .wp-block-featured-podcast .wp-block-group-heading .wp-block-buttons {
+        justify-content: flex-start;
+    }
+}
+
+/* --- Block Favourite Podcast
+-------------------------------------------------------- */
+
+
+.wp-block-favourite-podcast .wp-block-cover .wp-block-cover__background {
+    transition: opacity 0.3s ease-out;
+}
+
+.wp-block-favourite-podcast .wp-block-cover:hover .wp-block-cover__background {
+    opacity: 0.3;
+    transition: opacity 0.3s ease-out;
+}
+
+.wp-block-favourite-podcast .wp-block-cover {
+    overflow: hidden;
+}
+
+.wp-block-favourite-podcast .wp-block-cover .wp-block-cover__image-background {
+    transition: 0.3s ease-out;
+}
+
+.wp-block-favourite-podcast .wp-block-cover:hover .wp-block-cover__image-background {
+    transform: scale(1.05);
+}
+
+.wp-block-favourite-podcast .wp-block-section-content .icon {
+    fill: var(--wp--preset--color--text-link);
+    width: 16px;
+    height: 16px;
+}
+
+.wp-block-featured-podcast .content .video-play svg ,
+.wp-block-favourite-podcast .content .video-play svg {
+    display: none;
+}
+
+.wp-block-featured-podcast .content .video-play:before,
+.wp-block-featured-podcast .content .video-play:after,
+.wp-block-favourite-podcast .content .video-play:before,
+.wp-block-favourite-podcast .content .video-play:after {
+    content: "";
+    border: 2px solid var(--wp--preset--color--foreground);
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+}
+
+.wp-block-featured-podcast .content .video-play,
+.wp-block-favourite-podcast .content .video-play {
+    background: var(--wp--preset--color--color-light);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    text-indent: -9999px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.wp-block-featured-podcast .content .video-play {
+    background: transparent;
+    -webkit-box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--border-color);
+    -moz-box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--border-color);
+    box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--border-color);
+    width: 50px;
+    height: 50px;
+}
+
+.wp-block-featured-podcast .content .video-play:hover,
+.wp-block-favourite-podcast .content .video-play:hover {
+    background: var(--wp--preset--color--text-link);
+    -webkit-box-shadow: inset 0px 0px 0px 1px transparent;
+    -moz-box-shadow: inset 0px 0px 0px 1px transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.wp-block-featured-podcast .content .video-play:hover span,
+.wp-block-favourite-podcast .content .video-play:hover span {
+    border-left-color: var(--wp--preset--color--color-light);
+}
+
+.wp-block-featured-podcast .content .video-play span,
+.wp-block-favourite-podcast .content .video-play span {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid var(--wp--preset--color--color-dark);
+    border-bottom: 15px solid transparent;
+    margin-top: 0;
+    text-indent: -9999px;
+    padding: 0;
+}
+
+.wp-block-featured-podcast .content .video-play span {
+    border-top: 8px solid transparent;
+    border-left: 10px solid var(--wp--preset--color--foreground);
+    border-bottom: 8px solid transparent;
+}
+
+/* Hover Annimation */
+
+.wp-block-featured-podcast .content .video-play:before,
+.wp-block-favourite-podcast .content .video-play:before {
+    border: 2px solid transparent;
+}
+
+.wp-block-featured-podcast .content .video-play:before,
+.wp-block-featured-podcast .content .video-play:after,
+.wp-block-favourite-podcast .content .video-play:before,
+.wp-block-favourite-podcast .content .video-play:after {
+    border-radius: 100%;
+    opacity: 0;
+}
+
+.wp-block-featured-podcast .content .video-play:hover::before,
+.wp-block-favourite-podcast .content .video-play:hover::before {
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+
+.wp-block-featured-podcast .content .video-play:hover::after,
+.wp-block-favourite-podcast .content .video-play:hover::after {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    transform: rotate(270deg);
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s, opacity 0.3s;
+    opacity: 0.8;
+}
+
+/* For Wp Custom Block - Popup Video Overlay Issues */
+
+/* .wp-block-favourite-podcast .wp-block-cover .wp-block-cover__inner-container {
+    z-index: inherit;
+}
+
+.wp-block-favourite-podcast .wp-block-fse-pro-popup-video .content {
+    position: relative;
+}
+ */

@@ -1,0 +1,25 @@
+{
+	"version": 2,
+	"title": "Green",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#115E00"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#efefef"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#115E00"
+				}
+			]
+		}
+	}
+}

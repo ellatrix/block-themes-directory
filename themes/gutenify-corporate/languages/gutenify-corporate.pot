@@ -1,0 +1,1081 @@
+# Copyright (C) 2023 gutenify-corporate
+# This file is distributed under the same license as the gutenify-corporate package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gutenify-corporate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Gutenify info@gutenify.com\n"
+"POT-Creation-Date: 2023-01-05 07:11+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/block-patterns.php:19
+msgid "Default header"
+msgstr ""
+
+#: inc/block-patterns.php:24
+msgid "Header Two "
+msgstr ""
+
+#: inc/block-patterns.php:29
+msgid "Default footer"
+msgstr ""
+
+#: inc/block-patterns.php:34
+msgid "Home Banner"
+msgstr ""
+
+#: inc/block-patterns.php:38
+msgid "Call To Action"
+msgstr ""
+
+#: inc/block-patterns.php:42
+msgid "Gallery"
+msgstr ""
+
+#: inc/block-patterns.php:46
+msgid "Service One"
+msgstr ""
+
+#: inc/block-patterns.php:50
+msgid "Service Two"
+msgstr ""
+
+#: inc/block-patterns.php:54
+msgid "Cases Studies"
+msgstr ""
+
+#: inc/block-patterns.php:58
+msgid "Hero Section"
+msgstr ""
+
+#: inc/block-patterns.php:62
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/block-patterns.php:66
+msgid "404 content"
+msgstr ""
+
+#: inc/block-patterns.php:70
+msgid "Post Single Column"
+msgstr ""
+
+#: inc/block-patterns.php:75
+msgid "Post Two Column"
+msgstr ""
+
+#: inc/block-patterns.php:80
+msgid "Post Three Column"
+msgstr ""
+
+#: inc/block-patterns.php:85
+msgid "Post Four Column"
+msgstr ""
+
+#: inc/block-patterns.php:90
+msgid "Comment Section"
+msgstr ""
+
+#: inc/block-patterns.php:94
+msgid "Cover With Post Title"
+msgstr ""
+
+#: inc/block-patterns.php:98
+msgid "Cover With Archive Title"
+msgstr ""
+
+#: inc/block-patterns.php:102, patterns/section-title.php:25
+msgid "Section Title"
+msgstr ""
+
+#: inc/block-patterns.php:108, patterns/footer-default.php:148, inc/core/block-patterns.php:20, inc/core/theme-info.php:6
+msgid "Gutenify Corporate"
+msgstr ""
+
+#: patterns/call-to-action.php:14
+msgid "Full Site Editing Theme ( FSE ) With Multiple Kits "
+msgstr ""
+
+#: patterns/call-to-action.php:18
+msgid "We Help Our Clients to Achieve Their Business Goal"
+msgstr ""
+
+#: patterns/call-to-action.php:23, patterns/home-banner.php:20
+msgid "Change the workflow for your WordPress site, control everything from Site editor without"
+msgstr ""
+
+#: patterns/call-to-action.php:27
+msgid "using any extra plugins.  Improved speed, web vitals score and SEO to get better positions"
+msgstr ""
+
+#: patterns/call-to-action.php:33, patterns/call-to-action.php:37
+msgid "Get Started"
+msgstr ""
+
+#: patterns/case-studies.php:22
+msgid "Recent Work"
+msgstr ""
+
+#: patterns/case-studies.php:27
+msgid "Case Studies"
+msgstr ""
+
+#: patterns/case-studies.php:33, patterns/section-title.php:31, patterns/service-one.php:31
+msgid "View More"
+msgstr ""
+
+#: patterns/case-studies.php:46
+msgid "Team Work"
+msgstr ""
+
+#: patterns/case-studies.php:50
+msgid "Committed and creative"
+msgstr ""
+
+#: patterns/case-studies.php:66
+msgid "Philosophy"
+msgstr ""
+
+#: patterns/case-studies.php:70
+msgid "Trust pays off"
+msgstr ""
+
+#: patterns/case-studies.php:88
+msgid "Somewhere on earth"
+msgstr ""
+
+#: patterns/case-studies.php:99
+msgid "Who We Are"
+msgstr ""
+
+#: patterns/case-studies.php:103, patterns/case-studies.php:119, patterns/case-studies.php:135
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+msgstr ""
+
+#: patterns/case-studies.php:108, patterns/case-studies.php:124, patterns/case-studies.php:140, patterns/service-one.php:55, patterns/service-one.php:77, patterns/service-one.php:99, patterns/service-one.php:123, patterns/service-one.php:145, patterns/service-one.php:167, patterns/service-two.php:43, patterns/service-two.php:69, patterns/service-two.php:95
+msgid "More Details"
+msgstr ""
+
+#: patterns/case-studies.php:115
+msgid "Our Vision"
+msgstr ""
+
+#: patterns/case-studies.php:131
+msgid "Our Mission"
+msgstr ""
+
+#: patterns/footer-default.php:14, patterns/footer-default.php:31, patterns/home-banner.php:33
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:19
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie orci nec bibendum iaculis."
+msgstr ""
+
+#: patterns/footer-default.php:26
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:31, patterns/home-banner.php:29
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:31
+msgid "Cases"
+msgstr ""
+
+#: patterns/footer-default.php:31, patterns/footer-default.php:31
+msgid "Pricing"
+msgstr ""
+
+#: patterns/footer-default.php:38
+msgid "Terms"
+msgstr ""
+
+#: patterns/footer-default.php:43
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-default.php:43
+msgid "Terms and Conditions"
+msgstr ""
+
+#: patterns/footer-default.php:43
+msgid "Disclaimer"
+msgstr ""
+
+#: patterns/footer-default.php:43
+msgid "Support"
+msgstr ""
+
+#: patterns/footer-default.php:43
+msgid "FAQ"
+msgstr ""
+
+#: patterns/footer-default.php:50
+msgid "News Letter"
+msgstr ""
+
+#: patterns/footer-default.php:55
+msgid "Nsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+msgstr ""
+
+#: patterns/footer-default.php:60
+msgid "SUBSCRIBE"
+msgstr ""
+
+#: patterns/footer-default.php:83
+msgid "Give Us A Call"
+msgstr ""
+
+#: patterns/footer-default.php:87
+msgid "(+021) 645 863 232"
+msgstr ""
+
+#: patterns/footer-default.php:107
+msgid "Send Us A Message"
+msgstr ""
+
+#: patterns/footer-default.php:111
+msgid "support@gutenify.com"
+msgstr ""
+
+#: patterns/footer-default.php:131
+msgid "Address"
+msgstr ""
+
+#: patterns/footer-default.php:135
+msgid "590 Cedar Lane, East Boston"
+msgstr ""
+
+#: patterns/footer-default.php:148
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer-default.php:148
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:148
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header-default.php:13
+msgid "Contact : +123 456 789"
+msgstr ""
+
+#: patterns/header-default.php:21
+msgid "e-mail : support@gutenify.com"
+msgstr ""
+
+#: patterns/header-default.php:55
+msgid "Get A Quote"
+msgstr ""
+
+#: patterns/hero-section.php:29
+msgid "Meet Our Powerful Plugin"
+msgstr ""
+
+#: patterns/hero-section.php:34
+msgid "Why Choose Us ?"
+msgstr ""
+
+#: patterns/hero-section.php:38, patterns/hero-section.php:42
+msgid "Change the workflow for your WordPress site, control everything from Site editor  without using any extra plugins. Improved speed, web vitals score and SEO to get better positions"
+msgstr ""
+
+#: patterns/hero-section.php:51
+msgid "Explore Services"
+msgstr ""
+
+#: patterns/hidden-404.php:15
+msgid "PhotoThis page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-banner.php:12
+msgid "Create And Grow Your"
+msgstr ""
+
+#: patterns/home-banner.php:16
+msgid "New Business Today"
+msgstr ""
+
+#: patterns/home-banner.php:24
+msgid "using any extra plugins. Improved speed, web vitals score and SEO to get better positions"
+msgstr ""
+
+#: patterns/primary-sidebar.php:18
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:54
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:74
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:92
+msgid "Social Links"
+msgstr ""
+
+#: patterns/section-title.php:20
+msgid "Section Top Title"
+msgstr ""
+
+#: patterns/service-one.php:20
+msgid "Our Business &amp; Financial"
+msgstr ""
+
+#: patterns/service-one.php:25
+msgid "Consulting Services"
+msgstr ""
+
+#: patterns/service-one.php:47
+msgid "Digital Strategy "
+msgstr ""
+
+#: patterns/service-one.php:51, patterns/service-one.php:73, patterns/service-one.php:95, patterns/service-one.php:119, patterns/service-one.php:141, patterns/service-one.php:163, patterns/service-two.php:38, patterns/service-two.php:64, patterns/service-two.php:90
+msgid "Elegant Template Kits compatible with WordPress Full Site Editing to help you create the website you always wanted."
+msgstr ""
+
+#: patterns/service-one.php:69
+msgid "UI / UX Design"
+msgstr ""
+
+#: patterns/service-one.php:91
+msgid "Content Writing"
+msgstr ""
+
+#: patterns/service-one.php:115
+msgid "Investment Plan"
+msgstr ""
+
+#: patterns/service-one.php:137
+msgid "Marketing Strategy"
+msgstr ""
+
+#: patterns/service-one.php:159
+msgid "HR Consulting"
+msgstr ""
+
+#: patterns/service-two.php:13
+msgid "We Are Specialist For"
+msgstr ""
+
+#: patterns/service-two.php:17
+msgid "Many Consulting Cases"
+msgstr ""
+
+#: patterns/service-two.php:34
+msgid "How company Started"
+msgstr ""
+
+#: patterns/service-two.php:60
+msgid "Our Successful Journey"
+msgstr ""
+
+#: patterns/service-two.php:86
+msgid "Our unique Challenges"
+msgstr ""
+
+#: inc/core/theme-info.php:6
+msgid "Gutenify Theme"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:386, inc/tgm/class-tgm-plugin-activation.php:827, inc/tgm/class-tgm-plugin-activation.php:2533, inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:387, inc/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:388, inc/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:937, inc/tgm/class-tgm-plugin-activation.php:934
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1121, inc/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3517, inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3517, inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Hey, Thank you for installing "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Gutenify Corporate Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "We recommend installing plugin: "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19, inc/core/templates/admin-plugin-notice.php:20
+msgid "Gutenify"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:20
+msgid "provides multiple site demo and add advance features to your site."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:21
+msgid "Get Site Demo"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:22
+msgid "Learn more about Gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:13
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:21, inc/core/templates/theme-info.php:252, inc/core/templates/theme-info.php:314
+msgid "Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:24, inc/core/templates/theme-info.php:27
+msgid "Import Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:30, inc/core/templates/theme-info.php:102, inc/core/templates/theme-info.php:317
+msgid "https://gutenify.com/pricing"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:31, inc/core/templates/theme-info.php:318
+msgid "Get Gutenify Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:33, inc/core/templates/theme-info.php:320
+msgid "https://gutenify.com/documentations/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:34, inc/core/templates/theme-info.php:322
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:40
+msgid "Gutenify Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid ""
+"Gutenify has pre-built site demos for your site which will give your\n"
+"                                                website a base structure."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:46
+msgid "Learn about site demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:50, inc/core/templates/theme-info.php:55
+msgid "Browse Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:62
+msgid "Import Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:63
+msgid ""
+"From Edit screen of page/post, you can easily import Beautiful\n"
+"                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:68
+msgid ""
+"Learn about\n"
+"                                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:72
+msgid "Create page to add pattern"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:79
+msgid "To add fresh block follow below steps"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:82
+msgid ""
+"At the top left corner of the\n"
+"                                                        page/post edit\n"
+"                                                        Screen, click on Sign"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:86
+msgid ""
+"Type Block name in search bar, if\n"
+"                                                        you already know\n"
+"                                                        the block name."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:90
+msgid ""
+"OR Scroll down and navigate to\n"
+"                                                        Gutenify section and\n"
+"                                                        Add New Block."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:100
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:102
+msgid "Checkout all features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:107
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:110
+msgid "Free Gutenify Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:113, inc/core/upgrade-button/class-customize.php:77
+msgid "Gutenify Pro Plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:120
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:127
+msgid "Painless Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:134, inc/core/templates/theme-info.php:261
+msgid "Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:141
+msgid "Premium site demos"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:148
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:155
+msgid "Premium Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:162
+msgid "Multiple Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:169
+msgid "Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info.php:176
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:183
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:190
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:204
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:211
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:218
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:225
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:232
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:245
+msgid "gutenify Core Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:249
+msgid ""
+"Global page settings(typography,\n"
+"                                                        color, ...)"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:254
+msgid "Predefined sections"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:256
+msgid "Fully Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:258
+msgid "Highly customizable row columns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:263
+msgid "Device specific responsive controls"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:266
+msgid "Google fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:268
+msgid ""
+"Classic &amp; gradient color and\n"
+"                                                        background"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:271
+msgid "Box-shadow"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:273
+msgid "Border"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:275
+msgid "Advanced Typography"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:277
+msgid "Font Awesome 4 icon picker"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:279
+msgid "&amp; More..."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:290
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:292
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:297
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:300
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "We are always ready with all fix issues you stuck to ensure smoothly works with gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "https://gutenify.com/contact/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:304
+msgid "Get Support"
+msgstr ""
+
+#: inc/core/upgrade-button/class-customize.php:78
+msgid "Upgrade Now"
+msgstr ""

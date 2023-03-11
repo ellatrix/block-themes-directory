@@ -1,0 +1,33 @@
+.service-section {
+  .wp-block-column {
+    text-align: center;
+    padding: 25px;
+
+    h4 {
+      font-weight: var(--wp--custom--typography--font-weight--bold);
+      font-family: var(--wp--preset--font-family--open-sans);
+    }
+
+    p {
+      margin-top: clamp(14px, 3vw, 35px);
+    }
+
+    .wp-block-buttons>.wp-block,
+    .wp-block-buttons>.wp-block-button.wp-block-button.wp-block-button.wp-block-button.wp-block-button {
+      margin: 0 auto;
+    }
+
+    figure img {
+      @include transition(0.7s ease-in-out);
+      transform-origin: top;
+    }
+
+    &:hover {
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+      figure img {
+        @include transform(rotateY(720deg) scale(0.8));
+      }
+    }
+  }
+}

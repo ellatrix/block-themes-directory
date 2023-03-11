@@ -1,0 +1,107 @@
+{
+	"version": 2,
+	"title": "Black style",
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#963eff"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#3190ff"
+				},
+				{
+					"name": "Text over primary",
+					"slug": "textonprimary",
+					"color": "#fffffd"
+				},
+				{
+					"name": "Accented Buttons",
+					"slug": "button",
+					"color": "#ffd800"
+				},
+				{
+					"name": "Text over buttons",
+					"slug": "textonbutton",
+					"color": "#010101"
+				},
+				{
+					"name": "Accented Color",
+					"slug": "accent",
+					"color": "#de1414"
+				},
+				{
+					"name": "Accented Secondary",
+					"slug": "accenttwo",
+					"color": "#00d084"
+				},
+				{
+					"name": "Accented Dark Background",
+					"slug": "accentbg",
+					"color": "#41474c"
+				},
+				{
+					"name": "Accented Light Background",
+					"slug": "lightbg",
+					"color": "#f9fafb"
+				},
+				{
+					"name": "Tag color",
+					"slug": "lighttag",
+					"color": "#ffffff4d"
+				},
+				{
+					"name": "Secondary tag color",
+					"slug": "lightsecondarytag",
+					"color": "#cf8afda6"
+				},
+				{
+					"name": "Light Grey (for Meta text)",
+					"slug": "lightgrey",
+					"color": "#b1c4df"
+				},
+				{
+					"name": "Price color (for woocommerce)",
+					"slug": "price",
+					"color": "#444444"
+				},
+				{
+					"name": "Borders, Dividers",
+					"slug": "lightborder",
+					"color": "#cecece6b"
+				},
+				{
+					"name": "Input text",
+					"slug": "inputtext",
+					"color": "#444"
+				},
+				{
+					"name": "Input background",
+					"slug": "inputbg",
+					"color": "#fafbfd"
+				},
+				{
+					"name": "Dark panels (footer, header)",
+					"slug": "dark",
+					"color": "#000001"
+				},
+				{
+					"name": "Text on dark panels",
+					"slug": "textondark",
+					"color": "#fffffe"
+				}
+			]
+		},
+		"custom": {
+			"color": {
+				"black": "#fff",
+				"white": "#000",
+				"light": "#f5f4fe"
+			}
+		}
+    }
+}

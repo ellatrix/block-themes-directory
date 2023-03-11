@@ -1,0 +1,46 @@
+/* --- Block Styles
+-------------------------------------------------------- */
+
+.wp-block-section.is-style-lensation-padding-0 {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+/* --- WP Block Button Style
+-------------------------------------------------------- */
+
+.wp-block-button.is-style-lensation-button .wp-block-button__link {
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+
+.wp-block-button__link.is-style-outline:not(.has-background) {
+  background: transparent !important;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+  color: var(--wp--preset--color--foreground);
+}
+
+/* --- Drop Cap
+-------------------------------------------------------- */
+
+.has-drop-cap:not(:focus)::first-letter {
+  color: var(--wp--preset--color--foreground);
+  font-weight: var(--wp--custom--typography--font-weight--bold);
+  margin: 0.15em 0.15em 0 -0.07em;
+  font-size: 5em;
+}
+
+/* --- Block Quote Plain
+-------------------------------------------------------- */
+
+.wp-block-quote.is-style-plain:before {
+  content: none;
+}
+
+.wp-block-quote.is-style-plain {
+  padding-top: 0;
+}

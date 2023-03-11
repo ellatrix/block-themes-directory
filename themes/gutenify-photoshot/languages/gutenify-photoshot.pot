@@ -1,0 +1,510 @@
+# Copyright (c) 2023 CodeYatri. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gutenify Photoshot 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/gutenify-photoshot\n"
+"Last-Translator: inf@codeyatri.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-16T06:23:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: gutenify-photoshot\n"
+
+#. Theme Name of the theme
+#: css/inc/core/block-patterns.php:20
+#: inc/core/block-patterns.php:20
+#: inc/core/theme-info.php:6
+msgid "Gutenify Photoshot"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://gutenify.com/themes/gutenify-photoshot"
+msgstr ""
+
+#. Description of the theme
+msgid "Gutenify Photoshot is modern block-based theme where you can build your own unique looking photograhphy website by using WordPress Blocks Editor. Gutenify Photoshot is a multipurpose block based free theme, the theme is built in accordance of Full Site Editing features introduced in WordPress 5.9, which means that all the aspects including colors, typography, and the layout of every single page on your site can be customized to suit your need.The true efficiency of Gutenify Photoshot Theme lies in its customizability with combination of Gutenify Plugin. With Gutenify Plugin you can create different customized template, you can also use its in-built template kits and then further customize them according to your needs. Furthermore, using different blocks in combination of Gutenify Plugin’s solid additional blocks, each website will garner an exhibit look. With strong typography, and simple design, we want to achieve unique look for every website. Gutenify Plugin offers a wide variety of flexible and easy to use blocks which will make your website in combination with truly unique spectacle. You can create. A single-page website, a blog, a business website, a portfolio, a construction site, or an education site, Gutenify Corporate with Gutenify Plugin will help you create something unique which you can truly call yours.Official Support Forum: https://gutenify.com/contact/"
+msgstr ""
+
+#. Author of the theme
+msgid "Codeyatri"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://gutenify.com"
+msgstr ""
+
+#: css/functions.php:63
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Hey, Thank you for installing "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Gutenify Photoshot Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "We recommend installing plugin: "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+#: inc/core/templates/admin-plugin-notice.php:20
+#: patterns/footer-default.php:57
+msgid "Gutenify"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:20
+msgid "provides multiple site demo and add advance features to your site."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:21
+msgid "Get Site Demo"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:22
+msgid "Learn more about Gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:13
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:21
+#: inc/core/templates/theme-info.php:252
+#: inc/core/templates/theme-info.php:314
+msgid "Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:24
+#: inc/core/templates/theme-info.php:27
+msgid "Import Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:30
+#: inc/core/templates/theme-info.php:102
+#: inc/core/templates/theme-info.php:317
+msgid "https://gutenify.com/pricing"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:31
+#: inc/core/templates/theme-info.php:318
+msgid "Get Gutenify Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:33
+#: inc/core/templates/theme-info.php:320
+msgid "https://gutenify.com/documentations/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:34
+#: inc/core/templates/theme-info.php:322
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:40
+msgid "Gutenify Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid ""
+"Gutenify has pre-built site demos for your site which will give your\n"
+"                                                website a base structure."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:46
+msgid "Learn about site demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:50
+#: inc/core/templates/theme-info.php:55
+msgid "Browse Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:62
+msgid "Import Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:63
+msgid ""
+"From Edit screen of page/post, you can easily import Beautiful\n"
+"                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:68
+msgid ""
+"Learn about\n"
+"                                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:72
+msgid "Create page to add pattern"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:79
+msgid "To add fresh block follow below steps"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:82
+msgid ""
+"At the top left corner of the\n"
+"                                                        page/post edit\n"
+"                                                        Screen, click on Sign"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:86
+msgid ""
+"Type Block name in search bar, if\n"
+"                                                        you already know\n"
+"                                                        the block name."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:90
+msgid ""
+"OR Scroll down and navigate to\n"
+"                                                        Gutenify section and\n"
+"                                                        Add New Block."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:100
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:102
+msgid "Checkout all features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:107
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:110
+msgid "Free Gutenify Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:113
+msgid "Gutenify Pro Plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:120
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:127
+msgid "Painless Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:134
+#: inc/core/templates/theme-info.php:261
+msgid "Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:141
+msgid "Premium site demos"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:148
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:155
+msgid "Premium Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:162
+msgid "Multiple Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:169
+msgid "Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info.php:176
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:183
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:190
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:204
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:211
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:218
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:225
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:232
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:245
+msgid "gutenify Core Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:249
+msgid ""
+"Global page settings(typography,\n"
+"                                                        color, ...)"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:254
+msgid "Predefined sections"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:256
+msgid "Fully Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:258
+msgid "Highly customizable row columns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:263
+msgid "Device specific responsive controls"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:266
+msgid "Google fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:268
+msgid ""
+"Classic &amp; gradient color and\n"
+"                                                        background"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:271
+msgid "Box-shadow"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:273
+msgid "Border"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:275
+msgid "Advanced Typography"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:277
+msgid "Font Awesome 4 icon picker"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:279
+msgid "&amp; More..."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:290
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:292
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:297
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:300
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "We are always ready with all fix issues you stuck to ensure smoothly works with gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "https://gutenify.com/contact/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:304
+msgid "Get Support"
+msgstr ""
+
+#: inc/core/theme-info.php:6
+msgid "Gutenify Theme"
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr ""
+
+#: patterns/footer-default.php:13
+msgid "About Us "
+msgstr ""
+
+#: patterns/footer-default.php:18
+msgid "Nsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+msgstr ""
+
+#: patterns/footer-default.php:25
+#: patterns/primary-sidebar.php:60
+msgid "Archive"
+msgstr ""
+
+#: patterns/footer-default.php:35
+#: patterns/latest-news.php:25
+msgid "Recent News"
+msgstr ""
+
+#: patterns/footer-default.php:45
+#: patterns/primary-sidebar.php:24
+msgid "Categories"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "WordPress"
+msgstr ""
+
+#: patterns/gallery.php
+msgctxt "Pattern title"
+msgid "Gallery"
+msgstr ""
+
+#: patterns/gallery.php:11
+msgid "Our Gallery"
+msgstr ""
+
+#: patterns/gallery.php:16
+msgid "Our Latest Work"
+msgstr ""
+
+#: patterns/gallery.php:59
+#: patterns/latest-news.php:31
+msgid "Explore More"
+msgstr ""
+
+#: patterns/header-default.php
+msgctxt "Pattern title"
+msgid "Default Header"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgid "4"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgid "0"
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgid "PhotoThis page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-page.php
+msgctxt "Pattern title"
+msgid "Home Page"
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:20
+msgid "From Our Blog"
+msgstr ""
+
+#: patterns/main-banner.php
+msgctxt "Pattern title"
+msgid "Main Banner"
+msgstr ""
+
+#: patterns/main-banner.php:13
+msgid "Photography is  the Art of Catching Retain"
+msgstr ""
+
+#: patterns/main-banner.php:17
+msgid "- \"Bing Your Creativity To Your Life\""
+msgstr ""
+
+#: patterns/primary-sidebar.php
+msgctxt "Pattern title"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: patterns/primary-sidebar.php:16
+msgid "Justen Bieber "
+msgstr ""
+
+#: patterns/primary-sidebar.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:80
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:98
+msgid "Social Links"
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/section-title-two.php
+msgctxt "Pattern title"
+msgid "Section Title Style Two"
+msgstr ""
+
+#: patterns/section-title-two.php:17
+#: patterns/section-title.php:19
+msgid "Section Sub Title Here"
+msgstr ""
+
+#: patterns/section-title-two.php:28
+#: patterns/section-title.php:24
+msgid "Section Main Title Here"
+msgstr ""
+
+#: patterns/section-title.php
+msgctxt "Pattern title"
+msgid "Section Title"
+msgstr ""
+
+#: patterns/section-title.php:30
+msgid "View More"
+msgstr ""

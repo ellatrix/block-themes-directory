@@ -1,0 +1,16 @@
+.wp-block-site-title {
+
+	a {
+		text-decoration: underline;
+		text-decoration-thickness: 2px;
+		text-underline-offset: 0.13em;
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			background-size: 8px 0px;
+		}
+
+	}
+
+}

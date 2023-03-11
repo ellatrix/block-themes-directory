@@ -1,0 +1,225 @@
+#wwwows-tp-page-body {
+    display: inline-block;
+    width: 98%;
+    vertical-align: top;
+}
+#wwwows-tp-page-left {
+    display: inline-block;
+    width:72%;
+    padding-right: 3%;
+    padding-top: 30px;
+    vertical-align: top;
+}
+#wwwows-tp-page-right {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.wwwows-tp-title-area p {
+    margin: 5px 0;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1;
+    color: #ff1a00;
+}
+.wwwows-tp-title-area {
+    background-color: #000;
+    padding: 3%;
+}
+.wwwows-tp-title-area h1 {
+    margin: 0;
+    font-size: 3vw;
+    line-height: 1.1;
+    color: #fff;
+}
+.wwwows-tp-title-area h2 {
+    margin: 4% 0 0;
+    color: #eee;
+    font-size: 1.2vw;
+}
+.wwwows-tp-settings .wet-de-e {
+    display: inline-block;
+    margin-right: 2%;
+    width: 22%;
+}
+.wwwows-tp-s-box {
+    background: #fff;
+    padding: 3% 8% 12%;
+    margin-bottom: 8%;
+}
+.wwwows-tp-s-box h4{
+    color: #ff1a00;
+    font-size: 2vw;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.wwwows-tp-s-box p{
+    color: #000;
+    font-size: 1.1vw;
+    margin: 5% 0 12%;
+}
+.wwwows-tp-s-box a{
+    background-color: #ff1a00;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1vw;
+    padding: 3% 5%;
+    display: block;
+    width: 90%;
+    text-align: center;
+}
+.wwwows-tp-s-box a:hover{
+    background-color: #000000;
+}
+.wwwows-theme-features {
+    background-color: #fff;
+    padding: 0 3% 3%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wwwows-theme-features h3 {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: #000000;
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 700;
+}
+.wwwows-theme-features h3 span {
+    color: #ff1a00;
+}
+.wwwows-theme-features .clearflex {
+    flex-basis: 100%;
+    height: 0;
+}
+.wwwows-theme-features h4 {
+    font-size: 1.4vw;
+    line-height: 1;
+    color: #000000;
+}
+.wwwows-theme-features .wpp-c20 {
+    flex-basis: 20%;
+}
+.wwwows-theme-features .wpp-c20 a {
+    display: block;
+}
+.wwwows-theme-features .wpp-c20 svg {
+    fill: #000;
+    padding-right: 15%;
+    height: 6vw;
+    max-height: 6vw;
+}
+.wwwows-theme-features .wpp-c20 a:hover svg {
+    fill: #ff1a00;
+}
+.wwwows-tp-premium {
+    background-color: #000 
+}
+.wwwows-tp-s-box.wwwows-tp-premium p {
+    color: #fff 
+}
+.wwwows-tp-premium a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.serval-update-button {
+    background-color: #ff1a00;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1vw;
+    padding: 3% 5%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.serval-update-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.serval-update-response p{
+    font-size: 1vw;
+    margin: 15px 0 0;
+}
+.serval-update-response p span, .serval-update-response p.our-res{
+    font-weight: 700;
+}
+.wwwows-tp-add-content h3{
+    margin-bottom: 0;
+}
+.wwwows-tp-add-content h4{
+    line-height: 1.3;
+}
+.wwwows-tp-add-content form {
+    width: 100%;
+}
+.wwwows-tp-add-content form .serval-update-button {
+    padding: 2%;
+    font-size: 1.5vw;
+}
+.wwwows-tp-add-content form .serval-update-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width: 782px) {
+    .wwwows-theme-features .wpp-c20 {
+        flex-basis: 33%;
+        margin-bottom: 4%;
+    }
+    .wwwows-theme-features h4 {
+        font-size: 20px;
+    }
+    .wwwows-theme-features .wpp-c20 svg {
+        height: 70px;
+        max-height: 70px;
+    }
+    #wwwows-tp-page-left, #wwwows-tp-page-right {
+        width: 100%;
+        padding-right: 0;
+    }
+    .wwwows-tp-title-area h1, .wwwows-theme-features h3 {
+        font-size: 28px;
+    }
+    .wwwows-tp-title-area h2, .wwwows-tp-title-area p {
+        font-size: 16px;
+    }
+    .wwwows-tp-settings h3 {
+        margin: 5% 0 3%;
+        font-size: 22px;
+    }
+    .wwwows-tp-settings .wet-de-e {
+        width: 46%;
+    }
+    .wwwows-tp-s-box {
+        padding: 3% 3% 5%;
+        margin-bottom: 3%;
+    }
+    .wwwows-tp-s-box h4 {
+        font-size: 25px;
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    .wwwows-tp-s-box p {
+        font-size: 18px;
+        margin: 2% 0 5%;
+    }
+    .wwwows-tp-s-box a {
+        font-size: 18px;
+    }
+    .serval-update-button {
+        font-size: 18px;
+    }
+    .wwwows-tp-add-content form .serval-update-button {
+        font-size: 20px;
+    }
+}

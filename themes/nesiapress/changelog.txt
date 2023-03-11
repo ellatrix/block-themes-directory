@@ -1,0 +1,171 @@
+== Changelog ==
+
+= 2.1.0 | October 31, 2022 =
+* New: NesiaPress Hooks support
+* New: Function add_theme_support( 'responsive-embeds' );
+* Fix: Not found section on archive page
+* Fix: Post thumbnail width
+* Update: NesiaPress theme tags
+* Update: File structure
+* Tweak: Make google font offline
+
+= 2.0.91 | August 21, 2022 =
+* Fix: Mising editor-style.css file
+
+= 2.0.9 | August 20, 2022 =
+* Fix: Menu navigation dropdown menu is not working in mobile view
+* Fix: Entry card thumbnail image width and height
+* Fix: Comment form container style
+* Fix: Navigation.js script
+* Fix: Editor style
+* Update: Site main background color
+* Update: Related menu class name
+* Update: Thumbnail rounded style
+* Update: Post pagination and page navigation style
+* Update: Mobile screen entry grid column
+* Update: Footer credit text
+* Update: Theme screenshot
+* Remove: Related menu title
+* Tweak: Mobile site branding position and menu toggle icon style
+
+= 2.0.8 | August 18, 2022 =
+* Fix: Post and page template layout
+
+= 2.0.7 | August 9, 2022 =
+* Remove: Unused css property
+* Update: Post and page margin between comments section
+* Fix: Author name url on related post
+
+= 2.0.6 | August 8, 2022 =
+* Remove: Unused css property
+* Update: Comments style
+* Update: Page navigation and post pagination style
+* Fix: Sub-menu footer navigation
+
+= 2.0.5 | August 5, 2022 =
+* Remove: Unused css property
+* Remove: Resources folder
+* Fix: Comments style
+* Tweak: Hide sub-menu footer navigation
+
+= 2.0.4 | August 3, 2022 =
+* Fix: Footer menu breakpoint
+
+= 2.0.3 | August 3, 2022 =
+* Fix: Desktop menu navigation style
+
+= 2.0.2 | August 3, 2022 =
+* Fix: Mobile menu navigation style
+* Tweak: Menu navigation script
+
+= 2.0.1 | July 19, 2021 =
+* Update: Remove full-site-editing tags in style.css
+
+= 2.0 | July 18, 2022 =
+* New: Left sidebar layout
+* New: Author join date
+* New: Random related post by tag
+* Update: Footer menu
+* Update: Pagination style
+* Fix: Menu navigation not showing
+* Fix: Responsive issue
+
+= 1.0.72 | August 17, 2021 =
+* Fix: Footer widget function issue
+
+= 1.0.72 | August 17, 2021 =
+* New: Single post full-width style
+* New: Add thumbnail style in single post center layout
+* New: Add thumbnail style in page default template, center layout, and full width layout
+* Update: Improvement css file for better user experience design
+* Update: Header menu font size
+* Update: GNU General Public License v2 to v3
+* Fix: Comments form width in mobile screen
+* Fix: Footer width issue
+* Tweak: Mobile screen menu button style
+* Tweak: Hide site description
+* Tweak: Footer widget function
+
+= 1.0.71 | July 10, 2021 =
+* New: Add custom background color
+* New: Add custom text color for site-title and site-description
+* New: Add support for core custom logo
+* New: Add selective refresh for widgets
+* New: Add fontawesome for read more, category, tags, comments, edit, back to top, pagination, and post navigation
+* New: Add Footer widget
+* Update: Content grid to flex
+* Update: Footer and Widget default font size
+* Update: Mobile menu navigation icon and text font weight
+* Update: Default breakpoint for padding and margin content wrapper
+* Update: Pagination background color
+* Update: HTML structure and tag 
+* Update: Footer powered by default text description
+* Fix: Widget list issue
+* Fix: Font weight on post content, site description and comments
+* Fix: WordPress editor style form floating issue
+* Remove: "Up" text for back to top on mobile screen
+* Remove: Rounded style in all box
+* Remove: Duplicate css property
+* Remove: Widget Pseudo-elements list style
+
+= 1.0.67 | June 10, 2021 =
+* Remove: Role 'navigation' attribute from header-hook.php
+
+= 1.0.66 | June 10, 2021 =
+* Fix: Typo attribute 'href' for wordpress url in footer-hook.php
+* Fix: Section lacks heading issue with change 'section' tag to 'div' tag in content-hook.php
+* Remove: Role 'banner' attribute from header-hook.php
+* Remove: Role 'main' attribute from header.php
+
+= 1.0.65 | June 9, 2021 =
+* New: Add the archive description function for category, tag and author page
+* New: Add h1 for 'Results for' page title in search.php
+* New: Registering theme support for HTML 5 for script and style
+* Update: Mobile menu button background when dropdown active
+* Update: Author profile image size and layout style in single post
+* Update: Related post author color
+* Update: Default permalink color
+* Update: Site description, content paragraph and content taging default font color
+* Update: Post title, footer and widget default font weight
+* Update: Readme copyright description
+* Update: Pagination underline style when hover
+* Fix: Author section link direction in single post center
+* Fix: Skip link background color and position
+* Fix: Editor block button style
+* Fix: Unclosed element span on template-tag.php
+* Remove: Duplicate css property
+* Remove: Role property (role="contentinfo") from footer-hook.php
+* Tweak: Copyright info using nesiapress_hook_copyright filter function
+
+= 1.0.63 | June 6, 2021 =
+* Fix: Typo readme description
+
+= 1.0.62 | June 6, 2021 =
+* Tweak: Menu navigation function
+
+= 1.0.6 | June 5, 2021 =
+* New: Add Filter function nesiapress_before_header
+* New: Add Filter function nesiapress_after_header
+* New: Add Filter function nesiapress_before_main_content
+* New: Add Filter function nesiapress_before_footer
+* New: Add Filter function nesiapress_after_footer
+* Update: File spacing
+* Tweak: Footer menu breakpoint in mobile screen
+
+= 1.0.5 | June 3, 2021 =
+* New: Add Translation in read more button function
+* Update: Reset custom query in related post function
+* Update: Image license declaration
+* Update: Theme tags
+
+= 1.0.3 | June 3, 2021 =
+* Update: Function prefix name in function.php
+* Update: Accessibility style
+* Update: Screenshot file and theme description
+* Fix: Error function in PHP 5.6 test
+* Fix: Position skip-link button
+* Fix: Escaping woocommerce function
+* Fix: Some buttons don’t have a style when focus
+
+= 1.0.0 | June 1, 2021 =
+* Released: Version 1.0.0

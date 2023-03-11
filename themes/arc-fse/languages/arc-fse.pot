@@ -1,0 +1,509 @@
+# Copyright (C) 2022 arc-fse
+# This file is distributed under the same license as the arc-fse package.
+msgid ""
+msgstr ""
+"Project-Id-Version: arc-fse\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Olive Themes info@olivethemes.com\n"
+"POT-Creation-Date: 2022-12-11 03:59+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: patterns/about-info.php:14
+msgid "Tabs Menu"
+msgstr ""
+
+#: patterns/about-info.php:19
+msgid "Discover Tab Components"
+msgstr ""
+
+#: patterns/about-info.php:28
+msgid "Dedicated Customer"
+msgstr ""
+
+#: patterns/about-info.php:28
+msgid "Success Team"
+msgstr ""
+
+#: patterns/about-info.php:32
+msgid "I’m a subhead that goes with a story."
+msgstr ""
+
+#: patterns/about-info.php:36
+msgid "Project strategy"
+msgstr ""
+
+#: patterns/about-info.php:36
+msgid "Accurate coding (development)"
+msgstr ""
+
+#: patterns/about-info.php:36
+msgid "Creative frontend"
+msgstr ""
+
+#: patterns/about-info.php:36
+msgid "User interface design (UI)"
+msgstr ""
+
+#: patterns/about-info.php:36
+msgid "Interaction design"
+msgstr ""
+
+#: patterns/footer-default.php:14
+msgid "About arc-fse"
+msgstr ""
+
+#: patterns/footer-default.php:20
+msgid "Lorem ipsum dolor sit amet, consect etur adipiscing elit etiam maximus in lorem ipsum dolor sit amet."
+msgstr ""
+
+#: patterns/footer-default.php:28
+msgid "Pages"
+msgstr ""
+
+#: patterns/footer-default.php:33, patterns/primary-sidebar.php:18
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:33
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-default.php:33, patterns/footer-default.php:40, patterns/home-banner.php:34
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:33, patterns/portfolio.php:51, patterns/portfolio.php:67
+msgid ""
+msgstr ""
+
+#: patterns/footer-default.php:33
+msgid "Templates"
+msgstr ""
+
+#: patterns/footer-default.php:45
+msgid "Management"
+msgstr ""
+
+#: patterns/footer-default.php:45
+msgid "Theme Design/Development"
+msgstr ""
+
+#: patterns/footer-default.php:45
+msgid "SEO Optimization"
+msgstr ""
+
+#: patterns/footer-default.php:45
+msgid "Domain"
+msgstr ""
+
+#: patterns/footer-default.php:52
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:58
+msgid "example@mail.com"
+msgstr ""
+
+#: patterns/footer-default.php:62
+msgid "+1 234 567 890"
+msgstr ""
+
+#: patterns/footer-default.php:66
+msgid "457 Morningview Lane, NY"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "Proudly powered by "
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "Olive Themes"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "WordPress"
+msgstr ""
+
+#: patterns/hero-content.php:23
+msgid "About Our Company"
+msgstr ""
+
+#: patterns/hero-content.php:28, patterns/home-banner.php:17
+msgid "The Freedom To"
+msgstr ""
+
+#: patterns/hero-content.php:28
+msgid "Create & Explore"
+msgstr ""
+
+#: patterns/hero-content.php:32
+msgid "I am a subhead that goes with a story."
+msgstr ""
+
+#: patterns/hero-content.php:39, patterns/hero-content.php:51
+msgid "50 K"
+msgstr ""
+
+#: patterns/hero-content.php:43, patterns/hero-content.php:55
+msgid "Agency increased revenue"
+msgstr ""
+
+#: patterns/hero-content.php:43, patterns/hero-content.php:55
+msgid "around 50k with kbiz."
+msgstr ""
+
+#: patterns/hero-content.php:63
+msgid "Explore Us"
+msgstr ""
+
+#: patterns/hidden-404.php:14, patterns/hidden-404.php:14
+msgid "4"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgid "0"
+msgstr ""
+
+#: patterns/hidden-404.php:22
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-banner.php:12
+msgid "Full Site Editing"
+msgstr ""
+
+#: patterns/home-banner.php:21
+msgid "Create &amp; Explore"
+msgstr ""
+
+#: patterns/home-banner.php:26
+msgid "We create unique and efficient digital solutions."
+msgstr ""
+
+#: patterns/home-banner.php:46
+msgid "Video Presentation"
+msgstr ""
+
+#: patterns/latest-news.php:14
+msgid "Featured Content"
+msgstr ""
+
+#: patterns/latest-news.php:19
+msgid "Creative Solutions"
+msgstr ""
+
+#: patterns/latest-news.php:49
+msgid "Explore More"
+msgstr ""
+
+#: patterns/portfolio.php:14
+msgid "Our Case Studies"
+msgstr ""
+
+#: patterns/portfolio.php:19
+msgid "Modern Case Studies"
+msgstr ""
+
+#: patterns/portfolio.php:31, patterns/portfolio.php:81
+msgid "IT Company"
+msgstr ""
+
+#: patterns/portfolio.php:35, patterns/team.php:67
+msgid "Theme Design"
+msgstr ""
+
+#: patterns/portfolio.php:47, patterns/portfolio.php:97
+msgid "Software"
+msgstr ""
+
+#: patterns/portfolio.php:63, patterns/portfolio.php:113, patterns/team.php:63
+msgid "Business Strategy"
+msgstr ""
+
+#: patterns/portfolio.php:85
+msgid "Copy Writing"
+msgstr ""
+
+#: patterns/portfolio.php:101
+msgid "eCommerce "
+msgstr ""
+
+#: patterns/portfolio.php:117
+msgid "Data Analyst"
+msgstr ""
+
+#: patterns/primary-sidebar.php:28
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac lorem pretium, laoreet enim at, malesuada elit."
+msgstr ""
+
+#: patterns/primary-sidebar.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:54
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:66
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:80
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:92
+msgid "Social Links"
+msgstr ""
+
+#: patterns/promotinal-video.php:13
+msgid "Promotional Video"
+msgstr ""
+
+#: patterns/promotinal-video.php:17
+msgid "The Best Solutions"
+msgstr ""
+
+#: patterns/search-cover.php:12
+msgid "Search Now"
+msgstr ""
+
+#: patterns/section-title.php:14
+msgid "Section Sub Title"
+msgstr ""
+
+#: patterns/section-title.php:19
+msgid "Section Main Title"
+msgstr ""
+
+#: patterns/services.php:20
+msgid "Marvelous Design"
+msgstr ""
+
+#: patterns/services.php:24, patterns/services.php:50, patterns/services.php:77
+msgid "Lorem ipsum dolor sit amet, consec"
+msgstr ""
+
+#: patterns/services.php:24, patterns/services.php:50, patterns/services.php:77
+msgid "etur adipiscing elit. Pellentesque un"
+msgstr ""
+
+#: patterns/services.php:24, patterns/services.php:50, patterns/services.php:77
+msgid "erat id magna."
+msgstr ""
+
+#: patterns/services.php:29, patterns/services.php:55, patterns/services.php:82
+msgid "View More"
+msgstr ""
+
+#: patterns/services.php:46
+msgid "Amazing Typography"
+msgstr ""
+
+#: patterns/services.php:73
+msgid "Visual Editing"
+msgstr ""
+
+#: patterns/team.php:14
+msgid "Team Members"
+msgstr ""
+
+#: patterns/team.php:19
+msgid "The Management Team"
+msgstr ""
+
+#: patterns/team.php:31
+msgid "Designer"
+msgstr ""
+
+#: patterns/team.php:35
+msgid "John Smith"
+msgstr ""
+
+#: patterns/team.php:47
+msgid "Co-Founder"
+msgstr ""
+
+#: patterns/team.php:51
+msgid "Miley Cirus"
+msgstr ""
+
+#: inc/core/pattern-category.php:20
+msgid "Arc Fse"
+msgstr ""
+
+#: inc/core/theme-info.php:6, inc/core/theme-info.php:6
+msgid "Arc Fse Theme"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:15
+msgid "Howdy, "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Welcome to"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Arc Fse Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:17
+msgid "Explore beautiful hand-crafted site templates and setup your site in few clicks."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Explore Now!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "Learn more about Arc Pro Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:20, inc/core/templates/theme-info.php:19
+msgid "Multipurpose WordPress Full Site Editing Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:35, inc/core/templates/theme-info-pro.php:287, inc/core/templates/theme-info.php:34, inc/core/templates/theme-info.php:307
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:50, inc/core/templates/theme-info.php:69
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:63, inc/core/templates/theme-info.php:82
+msgid "Free"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:66, inc/core/templates/theme-info.php:85
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:69
+msgid "Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:79, inc/core/templates/theme-info.php:98
+msgid "Easy Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:90, inc/core/templates/theme-info.php:109
+msgid "Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:101, inc/core/templates/theme-info.php:120
+msgid "Advance Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:112, inc/core/templates/theme-info.php:131
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:123, inc/core/templates/theme-info.php:142
+msgid "100+ Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:134, inc/core/templates/theme-info.php:153
+msgid "Advance Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:145, inc/core/templates/theme-info.php:164
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:156, inc/core/templates/theme-info.php:175
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:167, inc/core/templates/theme-info.php:186
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:178, inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:189, inc/core/templates/theme-info.php:208
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:200, inc/core/templates/theme-info.php:219
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:211, inc/core/templates/theme-info.php:230
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:222, inc/core/templates/theme-info.php:241
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:233, inc/core/templates/theme-info.php:252
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:253, inc/core/templates/theme-info.php:272
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:256, inc/core/templates/theme-info.php:275
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:262, inc/core/templates/theme-info.php:281
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:267, inc/core/templates/theme-info.php:286
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:271, inc/core/templates/theme-info.php:290
+msgid "Don't hesitate to ask any questions you have regarding our products."
+msgstr ""
+
+#: inc/core/templates/theme-info-pro.php:274, inc/core/templates/theme-info.php:294
+msgid "Get Support"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid "Download Advanced Site Templates for Free!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Install"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Olive One Click Demo Import"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "and access to all the Olive Demo templates. This plugin will help you download site template in few clicks."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:59
+msgid "Note: Clicking the button will both install and activate Olive One Click Demo Import plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:88
+msgid "Arc Pro"
+msgstr ""

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1024px) {
+    .zenithwp-gallery {
+        padding: 48px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zenithwp-gallery {
+        .wp-block-columns.wp-container-16 {
+            gap: 74px !important
+        }
+
+        .wp-block-column {
+            h4 {
+                margin-bottom: 5px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                margin-left: 0 !important;
+            }
+        }
+
+        .wp-block-column:nth-child(2) {
+            .wp-block-cover {
+                margin-bottom: 30px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .zenithwp-gallery {
+        .wp-block-cover {
+            min-height: 450px !important;
+        }
+    }
+}

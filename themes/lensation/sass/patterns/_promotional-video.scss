@@ -1,0 +1,59 @@
+/* --- Promotional Video
+-------------------------------------------------------- */
+
+.wp-block-section.promotional-video {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.promotional-video .wp-block-cover {
+  z-index: 11;
+}
+.promotional-video .content > .video-play svg {
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+.promotional-video .content > .video-play {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+.promotional-video .content > .video-play::before {
+  width: 100%;
+  height: 100%;
+  border: 3px solid;
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.6s;
+}
+
+.promotional-video .content > .video-play svg path {
+  opacity: 0;
+}
+.promotional-video .content > .video-play svg polygon {
+  transition: all 0.4s;
+  transform-origin: center;
+}
+.promotional-video .content > .video-play:hover {
+  transform: scale(1.1);
+  transform-origin: center center;
+}
+
+.promotional-video .content > .video-play:hover polygon {
+  transform: scale(1.2);
+}
+.promotional-video iframe.player {
+  height: 360px;
+  padding: 30px;
+}
+
+.promotional-video video {
+  height: auto;
+  width: 100%;
+}

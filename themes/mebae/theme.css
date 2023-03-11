@@ -1,0 +1,383 @@
+body {
+    background-color: var(--wp--custom--color--background);
+    color: var(--wp--custom--color--primary);
+    margin: 0;
+}
+
+a {
+    text-decoration-skip-ink: auto;
+    text-underline-offset: 4px;
+    text-decoration: none;
+}
+
+/* Keep underline on the links in the main content area */
+main .entry-content a:not(.wp-block-button__link) {
+    text-decoration: underline;
+}
+
+/* Hover and focus color change */
+a:hover, 
+a:focus,
+main .entry-content a:hover,
+main .entry-content a:focus,
+.wp-block-navigation__responsive-container-open:hover,
+.wp-block-navigation__responsive-container-open:focus,
+.wp-block-navigation-item a.wp-block-navigation-item__content:hover,
+.wp-block-navigation-item a.wp-block-navigation-item__content:focus {
+    color: var(--wp--custom--color--primary); 
+    outline: 2px dotted var(--wp--custom--color--primary);
+    text-decoration: none;
+}
+
+/* Hover and focus for the menu links on mobile view */
+.is-menu-open .wp-block-navigation-item a.wp-block-navigation-item__content:hover,
+.is-menu-open .wp-block-navigation-item a.wp-block-navigation-item__content:focus  {
+    color: var(--wp--custom--color--background); 
+    outline: 2px dotted var(--wp--custom--color--background);
+}
+
+/* Hover and focus for the comments and input fields */
+.wp-block-post-comments .comment-form-comment textarea:hover,
+.wp-block-post-comments .comment-form-comment textarea:focus,
+.wp-block-post-comments input:hover,
+.wp-block-post-comments input:focus,
+.comment-respond input:hover,
+.comment-respond input:focus,
+.wp-block-search .wp-block-search__input:hover,
+.wp-block-search .wp-block-search__input:focus {
+    color: var(--wp--custom--color--primary); 
+    border: 2px solid var(--wp--custom--color--secondary);
+    text-decoration: none;
+    outline: none;
+}
+
+/* Hover and focus for the comments and serch buttons */
+.wp-block-button a.wp-block-button__link:hover,
+.wp-block-button a.wp-block-button__link:focus,
+button.wp-block-search__button:hover,
+button.wp-block-search__button:focus {
+    color: var(--wp--custom--color--background); 
+    outline: none;
+    border: 2px solid var(--wp--custom--color--primary);
+    background-color: var(--wp--custom--color--secondary);
+}
+
+
+/* Navigation - To keep submenu open on desktop view */
+.wp-block-navigation .wp-block-navigation-item {
+    display: block;
+    position: relative;
+}
+
+.wp-block-navigation .has-child :where(.wp-block-navigation__submenu-container) {
+    align-items: center;
+    background-color: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    transition: none;
+    visibility: visible;
+    width: 100%;
+    z-index: 2;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
+
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item, 
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-page-list {
+    align-items: start;
+    text-align: left;
+    width: 75%; 
+}
+
+.is-vertical.mebae-nav .is-menu-open .wp-block-navigation__container, 
+.is-vertical.mebae-nav .is-menu-open .wp-block-page-list {
+    align-items: flex-start;
+}
+
+@media (min-width: 600px) {
+    .wp-block-navigation .has-child :where(.wp-block-navigation__submenu-container) > .wp-block-navigation-item > a {
+        justify-content: center;
+        overflow-wrap: break-word;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: none;
+    }
+}
+
+svg { 
+    text-anchor: middle; 
+    dominant-baseline: middle; 
+    vertical-align: middle; 
+    display: inline-block;
+    width: var(--wp--preset--font-size--large);
+    height: var(--wp--preset--font-size--large);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+pre:not(.wp-block-code) {
+    overflow: scroll;
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .mobile-hidden {
+        display: flex;
+    }
+}
+
+/***  Unique styles to Mebae theme, supplymenting for blocks styles ***/
+
+/* Overall width of the site, center aligned */
+.wp-site-blocks {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Remove underline on some links in the main content */
+.site-header .wp-block-site-title a,
+.mebae-post h2.wp-block-post-title a,
+main .mebae-postnav .wp-block-post-navigation-link a   {
+    text-decoration: none;
+}
+
+/* Keep navigation links in the center */
+.wp-block-navigation.is-vertical.mebae-nav {
+    align-items: center;
+    text-align: center;
+}
+
+.is-vertical.mebae-nav .wp-block-navigation__container, 
+.is-vertical.mebae-nav .wp-block-page-list {
+    align-items: center;
+}
+
+/* Remove padding from the paragraphs */
+.comment-form p,
+.cover-stars p {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.wp-block-cover.cover-stars  img.wp-block-cover__image-background {
+    object-fit: contain;
+}
+
+.gradient-text {
+    background-image: linear-gradient(120deg, var(--wp--preset--color--secondary), var(--wp--preset--color--quaternary));
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0;
+}
+
+@media (min-width: 600px) {
+    h1.wp-block-post-title,
+    .gradient-text {
+        letter-spacing: -3px;
+    }
+}
+
+/* Remove extra padding on the featured image on focus */
+.wp-block-post-template .wp-block-post-featured-image {
+    line-height: 0;
+    text-align: center;
+}
+
+/* Add "start" next to the post categories and terms */
+.category-tag-icon .taxonomy-category:before {
+    content: '\2605';
+    color: var(--wp--custom--color--secondary);
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.category-tag-icon .taxonomy-post_tag:before {
+    content: '\2605';
+    color: var(--wp--custom--color--secondary);
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+/* Block style - Round image  */
+.is-style-mebae-border-radius img,
+.wp-block .is-style-mebae-border-radius img {
+    border: 0px solid transparent;
+    border-radius: 25% 0;
+}
+
+/***  Add-on Additional CSS styls for the blocks styles ***/
+
+/*  Remove padding from <p> on the search result page to align with the post title */
+.search-results p.wp-block-post-excerpt__excerpt,
+.search-results p.wp-block-post-excerpt__more-text {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Add an arrow next to the Read more link */
+.search-results p.wp-block-post-excerpt__more-text a:after {
+    content: '\2192';
+    padding-left: 5px;
+}
+
+/* Post navigation */
+/* Add an arrow next to the post navigation link */
+.post-navigation-link-next a:after { 
+    content:"\00BB";
+    padding-left: 0.5rem;
+ }
+ .post-navigation-link-previous a:before { 
+    content:"\00AB";
+    padding-right: 0.5rem;
+}
+
+/* Comments */
+
+.wp-block-post-comments {
+    margin-top: 2rem;
+}
+.wp-block-post-comments h3 {
+    font-size: var(--wp--preset--font-size--large);
+    color: var(--wp--preset--color--primary);
+    padding-bottom: 1rem;
+}
+
+.wp-block-post-comments .comment-author .avatar {
+    height: 50px;
+    margin-right: 1em;
+    width: 50px;
+}
+
+.wp-block-post-comments .comment-body .commentmetadata {
+    font-size: .75em;
+    padding-left: 55px;
+}
+
+.comment-meta {
+    padding-bottom: 1.5rem;
+}
+
+.comment-awaiting-moderation {
+    font-size: var(--wp--preset--font-size--small);
+    line-height: 2.5;
+}
+
+.reply {
+    padding-bottom: 1rem;
+    text-align: right;
+}
+
+.reply a {
+    font-size:  1.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.wp-block-post-comments .commentlist .comment p {
+    font-size: var(--wp--preset--font-size--normal);
+}
+
+.wp-block-post-comments .commentlist li {
+    border-top: 1px solid #212e30;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+/*** Supplemental CSS styles for the Blocks ***/
+
+/* Quote block */
+.wp-block-quote {
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+/* Code block */
+pre.wp-block-code {
+    background-color: var(--wp--custom--color--primary);
+    overflow: visible;
+}
+
+/* Pullquote block */
+
+.wp-block-pullquote blockquote p {
+    font-size: var(--wp--preset--font-size--xlarge);
+}
+.wp-block-pullquote__citation, .wp-block-pullquote cite {
+    font-size: var(--wp--preset--font-size--small);
+}
+
+/* Search input field &  button */
+
+.wp-block-search .wp-block-search__input {
+    line-height: var(--wp--custom--button--typography--line-height);
+    padding: 0.35rem 0.15rem;
+    border: var(--wp--custom--form--border--width) var(--wp--custom--form--border--style) var(--wp--custom--form--border--color);
+}
+
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button, 
+.wp-block-search .wp-block-search__button,
+.comment-respond input,
+.wp-block-post-comments input, 
+.wp-block-post-comments textarea,
+.wp-block-search .wp-block-search__input{
+    border-width: 2px;
+    padding: 0.5rem 0.75rem;
+    font-weight: var(--wp--custom--button--typography--font-weight);
+    font-family: inherit;
+    font-size: var(--wp--custom--button--typography--font-size);
+    line-height: var(--wp--custom--button--typography--line-height);
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    color: var(--wp--preset--color--primary);
+    background-color: var(--wp--preset--color--background);
+    border-color: var(--wp--preset--color--primary);
+    border-radius: var(--wp--custom--button--border--radius);
+}
+
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button:hover, 
+.wp-block-search .wp-block-search__button:hover,
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button:focus, 
+.wp-block-search .wp-block-search__button:focus,
+.form-submit input:hover,
+.form-submit input:focus{
+    color: var(--wp--preset--color--background);
+    background-color: var(--wp--preset--color--secondary);
+}
+
+
+/* Calender */
+.wp-block-calendar table caption {
+	color: var(--wp--preset--color--primary);
+    font-size: var(--wp--preset--font-size--large);
+}
+
+.wp-block-calendar table th {
+	background-color: transparent;
+	border-color: var(--wp--preset--color--primary);
+}
+
+.wp-block-calendar table td {
+	color: var(--wp--preset--color--primary);
+	border-color: var(--wp--preset--color--primary);
+}

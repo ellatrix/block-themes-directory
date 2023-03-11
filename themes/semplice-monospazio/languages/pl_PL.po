@@ -1,0 +1,130 @@
+# Copyright (C) 2022 Semplice Monospazio
+# This file is distributed under the same license as the Semplice Monospazio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Semplice Monospazio\n"
+"Report-Msgid-Bugs-To: Semplice Monospazio\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s: Search term.
+#: functions.php:61
+msgid "Search results for \"%s\""
+msgstr "Wyniki wyszukiwania frazy: „%s”"
+
+#: functions.php:61
+msgid "Search results"
+msgstr "Wyniki wyszukiwania"
+
+#: functions.php:70
+#, fuzzy
+msgid "Full-height"
+msgstr "Pełna wysokość"
+
+#: functions.php:87
+#, fuzzy
+msgid "JM Web Dev FSE Starter Theme"
+msgstr "JM Web Dev FSE Starter Theme"
+
+#: functions.php:94
+msgid "404"
+msgstr "404"
+
+#: functions.php:98
+#, fuzzy
+msgid "Callouts"
+msgstr "Wywołania"
+
+#: functions.php:102
+msgid "Columns"
+msgstr "Kolumny"
+
+#: functions.php:106
+msgid "Footer"
+msgstr "Stopka"
+
+#: functions.php:110
+msgid "Header"
+msgstr "Nagłówek"
+
+#: functions.php:114
+#, fuzzy
+msgid "Grid Queries"
+msgstr "Zapytania do siatki"
+
+#: functions.php:118
+msgid "Layouts"
+msgstr "Układ"
+
+#: functions.php:122
+#, fuzzy
+msgid "List Queries"
+msgstr "Zapytania do listy"
+
+#: functions.php:126
+msgid "Search"
+msgstr "Szukaj"
+
+#: functions.php:130
+msgid "Sidebar"
+msgstr "Pasek boczny"
+
+#: index.php:12
+#, fuzzy
+msgid ""
+"This theme was built for the WordPress full-site-editing feature. You need "
+"to be using WordPress 5.9 or higher to make it work."
+msgstr ""
+"Ten motyw został stworzony dla funkcji pełnej edycji strony WordPress. "
+"Musisz używać WordPressa 5.9 lub nowszego, aby działał."
+
+#: patterns/default-404.php:11, patterns/layout-404-content-sidebar.php:15
+msgid "Page not found"
+msgstr "Nie znaleziono strony"
+
+#: patterns/default-404.php:16, patterns/layout-404-content-sidebar.php:20
+#, fuzzy
+msgid ""
+"The page that you are looking for isn't here. But that's okay. You can use "
+"the search form below to find what you're looking for or use the links to "
+"navigate to a new page."
+msgstr ""
+"Strony, której szukasz, nie ma tutaj. Ale to nic nie szkodzi. Możesz "
+"skorzystać z poniższego formularza wyszukiwania, aby znaleźć to, czego "
+"szukasz, lub użyć łączy, aby przejść do nowej strony."
+
+#: patterns/default-404.php:24, patterns/layout-404-content-sidebar.php:28
+msgid "Latest posts"
+msgstr "Twoje najnowsze wpisy"
+
+#: patterns/default-404.php:31, patterns/layout-404-content-sidebar.php:35
+msgid "Pages"
+msgstr "Strony"
+
+#: patterns/default-404.php:38, patterns/layout-404-content-sidebar.php:42
+msgid "Categories"
+msgstr "Kategorie"
+
+#: patterns/default-footer.php:12
+msgid "Copyright"
+msgstr "Copyright"
+
+#: patterns/sidebar-widget.php:12
+msgid "Widget Title"
+msgstr "Tytuł widżetu"

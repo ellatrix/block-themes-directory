@@ -1,0 +1,342 @@
+input:not([type=submit]):not([type=checkbox]),
+textarea,
+.wp-block-post-comments textarea,
+.wp-block-search__input,
+.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),
+.wp-block-post-comments textarea {
+	box-sizing: border-box;
+	background-color: var(--global--color--form-background);
+	border: 1px solid var(--global--color--form-border);
+	outline: none;
+	line-height: var(--global--line-height-reset);
+	padding: calc(0.938rem - 2px);
+
+	@include input-placeholder {
+		color: var(--wp--preset--color--font-tertiary);
+	}
+
+	&:active,
+	&:focus {
+		color: var(--wp--preset--color--font-secondary);
+		border-color: var(--global--color--form-border-active);
+		box-shadow: 0 0 0 4px var(--global--color--form-glow);
+	}
+}
+
+.form-fullwidth input:not([type=submit]):not([type=checkbox]) {
+	width: 100%;
+}
+
+// Testarea
+textarea {
+	width: 100%;
+	background-color: transparent;
+	background: var(--global--color--form-background);
+	border: 1px solid var(--global--color--form-border);
+	padding: 1rem 1.5rem;
+	outline: none;
+}
+
+textarea,
+.wp-block-post-comments textarea {
+	line-height: var(--wp--custom--line-height--body);
+}
+
+// Form labels
+form label {
+	position: relative;
+	color: var(--wp--preset--color--font-secondary);
+	@include s-r-2 (margin-bottom);
+	border-radius: var(--global--border-radius-xxs);
+
+	&.checkbox {
+		@include s-r-4 (margin-bottom);
+	}
+}
+
+// Select forms
+select,
+.select2-selection--single {
+	border: 1px solid var(--global--color--form-border);
+	@include s-r-5 (padding);
+	background-repeat:no-repeat;
+	background-position: right 14px top 21px;
+	background-size: 12px 12px;
+	-webkit-appearance: none;
+}
+
+.select2-container
+.select2-selection--single {
+	margin-bottom: 0;
+	height: auto;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.select2-results__options {
+	background: var(--wp--preset--color--font-secondary);
+}
+
+.select2-selection__arrow svg {
+	color: var(--wp--preset--color--font-secondary);
+}
+
+.select2-search--dropdown {
+	display: none;
+}
+
+// Checkboxes
+.checkbox,
+form .comment-form-cookies-consent,
+.woocommerce-form__label-for-checkbox {
+	color: var(--wp--preset--color--font-secondary);
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	-webkit-appearance: none;
+	min-width: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 1px solid var(--global--color--form-border);
+	background-color: var(--global--color--form-background);
+	border-radius:50%;
+	outline:none;
+	@include s-r-2 (margin-right);
+	margin-bottom: 0;
+}
+
+input[type='radio']:before,
+input[type='checkbox']:before {
+	content:'';
+	display:block;
+	width:100%;
+	height:100%;
+	border-radius:50%;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+	position: relative;
+
+	&:focus {
+		border-color: var(--global--color--form-border-active);
+		box-shadow: 0 0 0 4px var(--global--color--form-glow);
+		background: var(--global--color--form-border-active);
+	}
+
+	&:checked:before {
+		border-color: var(--global--color--form-border-active);
+		background: var(--global--color--form-border-active);
+		fill: var(--global--color--form-select-fill);
+		color: var(--global--color--form-select-fill);
+	}
+
+	&:after {
+	content: "";
+	position: absolute;
+	display: none;
+	}
+
+	&:checked:after {
+		display: block;
+	}
+}
+
+input[type='checkbox'] {
+
+	&:after {
+		left: 8px;
+		top: 4px;
+		width: 7px;
+		height: 12px;
+		border: solid white;
+		border-width: 0 2px 2px 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+}
+
+input[type='radio'] {
+
+	&:after {
+		left: 8px;
+		top: 8px;
+		width: 6px;
+		height: 6px;
+		border-radius: 100px;
+		background-color: var(--global--color--form-select-fill);
+	}
+}
+
+.wc_payment_method,
+.comment-form-cookies-consent {
+	label {
+		margin-bottom: 0;
+		color: var(--wp--preset--color--font-secondary);
+	}
+}
+
+/* Form Submit */
+input[type="submit"],
+button[type="submit"] {
+	display: block;
+	clear: both;
+}
+
+.wp-block-post-comments .submit {
+	border: none;
+}
+
+// Default comment form
+.color-notice,
+label.color-notice span {
+	color: var(--global--color--notification);
+}
+
+.comment-respond textarea {
+	min-height: 7.5rem;
+}
+
+form p {
+	@include s-r-7 (padding-top);
+	padding-bottom: 0;
+}
+
+/* Search Form */
+.wp-block-search {
+
+	.wp-block-search {
+
+		&__inside-wrapper {
+			display: block;
+		}
+
+		&__button {
+			margin-top: .5rem;
+			margin-left: 0;
+			background: var(--wp--preset--color--primary);
+			color: var(--wp--preset--color--button-color-primary);
+			border: none;
+			width: 100%;
+
+			&:hover {
+				background-color: var(--wp--preset--color--secondary);
+				text-decoration: none;
+			}
+		}
+
+		&__input {
+			width: 100%;
+			padding: 0.969rem;
+		}
+
+		&__label {
+			width: auto;
+		}
+
+		@include breakpoint(sm) {
+			&__inside-wrapper {
+				display: flex;
+				flex: auto;
+				max-width: 100%;
+			}
+
+			&__button {
+				width: auto;
+				margin-top: 0;
+				margin-left: .5rem;
+			}
+		}
+	}
+}
+
+/* Mailchimp Form */
+.mc4wp-form {
+
+	.mc4wp-form-fields {
+		display: block;
+		width: 100%;
+			p {
+				padding-top: .5rem;
+				width: 100%;
+
+				input[type=email],
+				input[type=submit] {
+					width: 100%;
+				}
+			}
+
+			p:first-of-type {
+				padding-top: 0;
+			}
+
+			.mc4wp-alert p {
+				text-align: center;
+			}
+		
+			.mc4wp-success p {
+				color: var(--global--color--success);
+			}
+		
+			.mc4wp-notice p {
+				color: var(--global--color--notification);
+			}
+	
+	}
+
+	@include breakpoint(sm) {
+		.mc4wp-form-fields {
+			display: flex;
+			justify-content: flex-end;
+
+			p {
+				width: 100%;
+				padding-top: 0;
+
+				&:last-child {
+					width: auto;
+				}
+
+				input[type=submit] {
+					width: auto;
+					margin-left: .5rem;
+				}
+			}
+		}
+	}
+}
+
+/* Form Styles */
+.form-curved,
+.form-rounded {
+	input,
+	textarea,
+	select {
+		border-radius: var(--global--border-radius-xxs);
+	}
+
+	input[type='checkbox'],
+	input[type='radio'] {
+		border-radius: 50%;
+	}
+}
+
+.form-round {
+
+	input,
+	select {
+		border-radius: var(--global--border-radius-round);
+	}
+
+	textarea {
+		border-radius: var(--global--border-radius-s);
+	}
+}

@@ -1,0 +1,503 @@
+.toplevel_page_kemet_panel [class*=notice] {
+  display: none !important;
+}
+
+.kmt-button {
+  display: inline-block;
+  color: var(--buttonColor);
+  background-color: var(--buttonBgColor);
+  border: 0;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 27px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+}
+.kmt-button:hover, .kmt-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+.kmt-button:hover {
+  color: var(--buttonColor);
+}
+.kmt-button.primary {
+  --buttonColor: #ffffff;
+  --buttonBgColor: #2d3747;
+}
+.kmt-button.primary:hover {
+  --buttonBgColor: #4a5568;
+}
+.kmt-button.secondary {
+  border: 1px solid #cbccce;
+  --buttonColor: #2d3747;
+  --buttonBgColor: #f4f6f5;
+}
+.kmt-button.secondary:hover {
+  --buttonBgColor: #e0e1e4;
+  --buttonBorderColor: #e0e1e4;
+}
+.kmt-button.loading::after {
+  content: "\f463";
+  display: inline-block;
+  font: normal 20px/1 dashicons;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  -webkit-animation: spin 2s infinite linear;
+          animation: spin 2s infinite linear;
+  vertical-align: sub;
+  margin-left: 5px;
+}
+.kmt-button:disabled {
+  color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.toplevel_page_kemet_panel {
+  background-color: #fff;
+}
+.toplevel_page_kemet_panel #wpbody-content {
+  padding-bottom: 0;
+}
+.toplevel_page_kemet_panel #wpbody {
+  padding-bottom: 0;
+}
+
+#kmt-dashboard {
+  margin: auto;
+  margin-left: -20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  color: #2d3747;
+  font-size: 14px;
+  min-height: 100%;
+  margin-bottom: 25px;
+}
+#kmt-dashboard .overlay-actions {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+#kmt-dashboard .kmt-google-fonts-container {
+  padding: 60px;
+  border: 1px dashed #cdcdcd;
+  box-sizing: border-box;
+}
+#kmt-dashboard .kmt-google-fonts-title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+#kmt-dashboard .kmt-google-fonts {
+  margin: auto;
+  width: 885px;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-font-variations label {
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-font-card {
+  width: 100%;
+  border: 1px solid #d4d4d4;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-font-card-body {
+  padding: 20px 20px 20px 20px;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-font-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-font-card-header .kmt-delete-font {
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-fonts-list {
+  margin-bottom: 20px;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-fonts-list > div:not(:first-child) {
+  margin-top: 20px;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-google-fonts-actions {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-google-fonts-actions .kmt-button {
+  width: 15%;
+}
+#kmt-dashboard .kmt-google-fonts .kmt-save-fonts {
+  margin-left: 20px;
+}
+#kmt-dashboard .kmt-support .kmt-card {
+  text-align: center;
+}
+#kmt-dashboard .kmt-support .kmt-card .kmt-card-title .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f9bb32;
+  margin-bottom: 20px;
+}
+#kmt-dashboard .kmt-support .kmt-card .kmt-card-title .icon svg {
+  fill: currentColor;
+}
+#kmt-dashboard .kmt-support .kmt-card .kmt-card-title h2 {
+  margin: 0;
+  text-transform: capitalize;
+}
+#kmt-dashboard .kmt-support .kmt-card .kmt-card-body p {
+  margin: 0;
+}
+#kmt-dashboard h2.kmt-section-title {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+#kmt-dashboard h2.kmt-section-title .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2d3747;
+  margin-right: 10px;
+}
+#kmt-dashboard .kmt-addons-tab,
+#kmt-dashboard .kmt-sites-tab {
+  text-align: center;
+}
+#kmt-dashboard .kmt-addons-tab .description,
+#kmt-dashboard .kmt-sites-tab .description {
+  margin: 1em auto;
+}
+#kmt-dashboard .kmt-addons-tab .actions,
+#kmt-dashboard .kmt-sites-tab .actions {
+  margin-top: 2em;
+}
+#kmt-dashboard .options-section.customize-site-options .customize-control-description {
+  height: 55px;
+}
+#kmt-dashboard .options-section.customize-site-options .option-actions > a {
+  border: 1px solid #dcdddf;
+  margin-left: 0 !important;
+}
+#kmt-dashboard .options-section.advanced-options .customize-control-description {
+  height: 75px;
+}
+#kmt-dashboard .kmt-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+#kmt-dashboard .kmt-panel-header > a {
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 15px 20px;
+  box-shadow: none;
+  outline: none;
+}
+#kmt-dashboard .components-panel__body {
+  margin-top: 40px;
+  padding: 16px 0;
+}
+#kmt-dashboard .kmt-card {
+  display: flex;
+  padding: 40px;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px dashed #cdcdcd;
+}
+#kmt-dashboard .kmt-card .card-body {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 20px;
+  flex: 1;
+}
+#kmt-dashboard .kmt-options {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+}
+#kmt-dashboard .kmt-options .kmt-control-title {
+  font-size: 17px !important;
+}
+#kmt-dashboard .kmt-options .customize-control-description {
+  margin: 0;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #2d3747 !important;
+}
+#kmt-dashboard .kmt-options label {
+  position: relative;
+}
+#kmt-dashboard .kmt-options label .dashicon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+}
+#kmt-dashboard .kmt-options .card-body .kmt-loading {
+  color: #687c93;
+}
+#kmt-dashboard .kmt-options .card-body > .option-actions {
+  display: flex;
+  align-items: flex-end;
+  height: 40px;
+}
+#kmt-dashboard .kmt-options .card-body > .option-actions > a {
+  color: var(--buttonColor);
+  line-height: normal;
+  transition: none;
+  --buttonColor: #2d3747;
+  border: 1px solid #dbdde1;
+  margin-left: 10px;
+}
+#kmt-dashboard .kmt-options .card-body > .option-actions > a:hover {
+  --buttonBgColor: #e0e1e4;
+}
+#kmt-dashboard .kmt-options [class*=customize-control] {
+  flex: 1;
+}
+#kmt-dashboard .kmt-options > div {
+  margin-top: 0;
+  border: 1px dashed #cdcdcd;
+}
+#kmt-dashboard .kemet-dashboard-tab-panel .components-tab-panel__tab-content .kmt-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 400px;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#kmt-dashboard .components-tab-panel__tabs,
+#kmt-dashboard .components-panel,
+#kmt-dashboard .components-panel__body {
+  border: 0;
+}
+#kmt-dashboard .components-tab-panel__tabs {
+  border-bottom: 1px solid #f5f6f5;
+  height: auto;
+  overflow: visible;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f6f5;
+}
+#kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3;
+  text-transform: uppercase;
+  color: #7e848c !important;
+  cursor: pointer;
+}
+#kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item:not(:first-child) {
+  margin-left: 35px;
+}
+#kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item.active-tab::after, #kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item:hover::after {
+  height: 3px;
+  bottom: -2px;
+  background-color: #2d3747;
+  opacity: 1;
+  transform: scaleX(1);
+}
+#kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item.active-tab, #kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item:hover {
+  color: #2d3747 !important;
+}
+#kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: opacity 0.25s ease-out, transform 0.36s cubic-bezier(0.51, 0.5, 0.07, 0.99);
+}
+#kmt-dashboard .components-tab-panel__tabs-item {
+  background: none !important;
+  border: 0;
+  line-height: 4;
+  height: auto;
+  box-shadow: none !important;
+  flex: none;
+  font-size: 15px;
+}
+#kmt-dashboard #system-info table:not(:first-child) {
+  margin-top: 25px;
+}
+#kmt-dashboard #system-info table.widefat {
+  border: 0px;
+  box-shadow: none;
+}
+#kmt-dashboard #system-info table.widefat tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+#kmt-dashboard #system-info table.widefat td:first-child {
+  width: 30%;
+}
+#kmt-dashboard .kmt-plugins-list {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+}
+#kmt-dashboard .kmt-plugins-list .kmt-plugin-icon {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #687c93;
+}
+#kmt-dashboard .kmt-plugins-list .kmt-plugin-icon .dashicon {
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+}
+#kmt-dashboard .kmt-plugins-list .plugin-action {
+  height: 40px;
+}
+#kmt-dashboard .kmt-plugins-list .kmt-plugin-title {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+#kmt-dashboard .kmt-plugins-list .kmt-plugin-description {
+  margin: 0;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #2d3747;
+  height: 75px;
+}
+#kmt-dashboard .subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 39px;
+}
+#kmt-dashboard .subscribe-form input {
+  height: 100%;
+  border-radius: 0;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #kmt-dashboard .kemet-dashboard-tab-panel .components-tab-panel__tab-content .kmt-container {
+    padding-left: 30px;
+  }
+  #kmt-dashboard .kmt-panel-header > a {
+    font-size: 15px;
+    padding: 15px 10px;
+  }
+  #kmt-dashboard .options-section .card-body > .option-actions {
+    height: 40px;
+    flex-wrap: wrap;
+  }
+  #kmt-dashboard .options-section .card-body > .option-actions > a {
+    margin-left: 5px;
+    margin-top: 0;
+  }
+  #kmt-dashboard .components-tab-panel__tabs {
+    flex-wrap: wrap;
+    width: auto;
+  }
+  #kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item {
+    font-size: 15px;
+  }
+  #kmt-dashboard .components-tab-panel__tabs .components-tab-panel__tabs-item:not(:first-child) {
+    margin-left: 5px;
+  }
+  #kmt-dashboard .kmt-options {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+  #kmt-dashboard .kmt-plugins-list {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  #kmt-dashboard .kmt-options {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #kmt-dashboard .options-section .card-body > .option-actions {
+    height: 90px;
+    flex-wrap: wrap;
+  }
+  #kmt-dashboard .options-section .card-body > .option-actions > a {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  #kmt-dashboard .kmt-plugins-list {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/

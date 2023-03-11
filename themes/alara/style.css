@@ -1,0 +1,59 @@
+/*
+Theme Name: Alara
+Theme URI: https://uxlthemes.com/theme/alara/
+Author: UXL Themes
+Author URI: https://uxlthemes.com/
+Description: A modern block theme with a hint of vintage styling, Alara is bundled with a plethora of patterns to suit many varieties of website, along with a variety of optional alternative styles and color palettes.
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.3.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alara
+Tags: full-site-editing, block-patterns, block-styles, grid-layout, wide-blocks, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, template-editing, blog
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/*
+ * WP 5.9 limits images to max 100% width of it's container,
+ * but Gutenberg 12.8 removes this for some unknown reason!
+ * We'll put this quick fix here until fixed upstream in Gutenberg.
+ */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 600px) {
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li,
+	.wp-block-latest-posts.columns-2 li {
+		width: calc((50% - .625em) - .1px);
+	}
+
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-3 > li,
+	.wp-block-latest-posts.columns-3 li {
+		width: calc((33.33333% - .83333em) - .1px);
+	}
+
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-4 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-4 > li,
+	.wp-block-latest-posts.columns-4 li {
+		width: calc((25% - .9375em) - .1px);
+	}
+
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-5 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-5 > li,
+	.wp-block-latest-posts.columns-5 li {
+		width: calc((20% - 1em) - .1px);
+	}
+
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-6 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-6 > li,
+	.wp-block-latest-posts.columns-6 li {
+		width: calc((16.66667% - 1.04167em) - .1px);
+	}
+}

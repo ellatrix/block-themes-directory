@@ -1,0 +1,24 @@
+.stat-section .wp-block-column:nth-child(2n) {
+  &:before {
+    display: none;
+  }
+}
+
+.stat-section {
+  margin-bottom: var(--wp--custom--spacing--section-block-bottom);
+  margin-top: var(--wp--custom--spacing--section-block-top);
+  h2 {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 25%);
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+body:not(.wp-admin) {
+  .stat-section,
+  .video-section {
+    margin-bottom: var(--wp--custom--spacing--section-block-bottom);
+    margin-top: var(--wp--custom--spacing--section-block-top);
+  }
+}

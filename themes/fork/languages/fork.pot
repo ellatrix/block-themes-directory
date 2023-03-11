@@ -1,0 +1,424 @@
+# Copyright (C) 2022 ThemeIsle
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fork\n"
+"Report-Msgid-Bugs-To: https://github.com/Codeinwp/fork/issues\n"
+"Last-Translator: friends@themeisle.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-27T13:16:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: fork\n"
+
+#. Theme Name of the theme
+msgid "Fork"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/fork/"
+msgstr ""
+
+#. Description of the theme
+msgid "Fork is a modern, minimalistic theme that is fully compatible with full-site-editing. This powerful theme offers a range of patterns that make it perfect for simple design is suitable for a wide range of purposes, including blogs, small businesses, startups, agencies, firms, e-commerce shops, personal portfolio sites, and more. It also comes with several style variations to suit your unique aesthetic."
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr ""
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:53
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %1$s. Fork's minimal requirement is PHP%2$s."
+msgstr ""
+
+#: functions.php:57
+msgid "upgrading PHP to the latest version"
+msgstr ""
+
+#. translators: %s: commands to run the theme
+#: functions.php:105
+msgid "You appear to be running the Fork theme from source code. Please finish installation by running %s."
+msgstr ""
+
+#: inc/Admin.php:68
+msgid "Activating"
+msgstr ""
+
+#: inc/Admin.php:69
+msgid "Installing"
+msgstr ""
+
+#: inc/Admin.php:70
+msgid "Done"
+msgstr ""
+
+#: inc/Admin.php:78
+msgid "Otter Blocks preview"
+msgstr ""
+
+#. translators: %s: Otter Blocks
+#: inc/Admin.php:84
+msgid "Power up your website building experience with %s!"
+msgstr ""
+
+#: inc/Admin.php:88
+msgid "Otter is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor (also known as Gutenberg) for a better page building experience without the need for traditional page builders."
+msgstr ""
+
+#. translators: %s: Otter Blocks
+#: inc/Admin.php:98
+msgid "Activate %s"
+msgstr ""
+
+#. translators: %s: Otter Blocks
+#: inc/Admin.php:100
+msgid "Install & Activate %s"
+msgstr ""
+
+#: inc/Admin.php:105
+msgid "Learn More"
+msgstr ""
+
+#: inc/Block_Patterns.php:62
+msgid "Fork Patterns"
+msgstr ""
+
+#: inc/Core.php:90
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:16
+msgid "Boxed pricing plans"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:22
+msgid "Pricing Plans"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:34
+msgid "Starter"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:47
+#: inc/patterns/boxed-pricing-plans.php:137
+msgid "Buy Plan"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:56
+#: inc/patterns/boxed-pricing-plans.php:100
+#: inc/patterns/boxed-pricing-plans.php:146
+msgid "One website"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:60
+#: inc/patterns/boxed-pricing-plans.php:104
+#: inc/patterns/boxed-pricing-plans.php:150
+msgid "Premium Support"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:64
+#: inc/patterns/boxed-pricing-plans.php:108
+#: inc/patterns/boxed-pricing-plans.php:154
+msgid "20 actions"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:68
+#: inc/patterns/boxed-pricing-plans.php:112
+#: inc/patterns/boxed-pricing-plans.php:158
+msgid "Limited access to library"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:124
+msgid "Expert"
+msgstr ""
+
+#: inc/patterns/boxed-pricing-plans.php:172
+msgid "All plans come with a 14-day money-back guarantee"
+msgstr ""
+
+#: inc/patterns/call-to-action-inverted.php:16
+msgid "Call to action"
+msgstr ""
+
+#: inc/patterns/call-to-action-inverted.php:26
+msgid "A call to action section"
+msgstr ""
+
+#: inc/patterns/call-to-action-inverted.php:38
+#: inc/patterns/columns-with-icons-and-buttons.php:42
+#: inc/patterns/content-boxes-with-buttons.php:52
+#: inc/patterns/content-boxes-with-buttons.php:90
+#: inc/patterns/content-with-image-and-button.php:52
+#: inc/patterns/front-page-hero.php:39
+#: inc/patterns/hero-with-feature-boxes.php:29
+#: inc/patterns/service-cards-with-buttons.php:51
+#: inc/patterns/service-cards-with-buttons.php:79
+msgid "Learn more"
+msgstr ""
+
+#: inc/patterns/columns-with-icons-and-buttons.php:32
+#: inc/patterns/hero-with-feature-boxes.php:19
+msgid "Feature"
+msgstr ""
+
+#: inc/patterns/columns-with-icons-and-buttons.php:61
+msgid "Boxed columns with icons and buttons"
+msgstr ""
+
+#: inc/patterns/columns-with-icons.php:32
+#: inc/patterns/content-boxes-with-buttons.php:38
+#: inc/patterns/content-boxes-with-buttons.php:76
+msgid "Service"
+msgstr ""
+
+#: inc/patterns/columns-with-icons.php:53
+msgid "Columns with icons"
+msgstr ""
+
+#: inc/patterns/content-boxes-with-buttons.php:18
+msgid "Content boxes with buttons"
+msgstr ""
+
+#: inc/patterns/content-with-image-and-button.php:18
+msgid "Content with image and button"
+msgstr ""
+
+#: inc/patterns/content-with-image-and-button.php:38
+msgid "Subheader"
+msgstr ""
+
+#: inc/patterns/content-with-image-and-button.php:42
+msgid "I’m Joshua Barnes, a freelancer illustrator and writer"
+msgstr ""
+
+#: inc/patterns/front-page-hero.php:18
+#: inc/patterns/hero-with-feature-boxes.php:38
+msgid "Hero with feature boxes"
+msgstr ""
+
+#: inc/patterns/front-page-hero.php:26
+msgid "Fork is a clean &amp; minimal theme for your next Gutenberg project."
+msgstr ""
+
+#: inc/patterns/front-page-hero.php:30
+msgid "Meaningful simplicity, powered by Full-site editing & style variations."
+msgstr ""
+
+#: inc/patterns/front-page-hero.php:35
+msgid "Get in touch"
+msgstr ""
+
+#: inc/patterns/gallery-with-title.php:44
+msgid "Gallery with title"
+msgstr ""
+
+#: inc/patterns/gallery-with-title.php:54
+msgid "An image gallery"
+msgstr ""
+
+#: inc/patterns/hero-cover-with-title-and-button.php:20
+msgid "Hero cover with title and button"
+msgstr ""
+
+#: inc/patterns/hero-cover-with-title-and-button.php:30
+msgid "A hero section with a full-width cover"
+msgstr ""
+
+#: inc/patterns/hero-cover-with-title-and-button.php:34
+msgid "An introduction message for the homepage hero."
+msgstr ""
+
+#: inc/patterns/hero-cover-with-title-and-button.php:40
+msgid "This is a button"
+msgstr ""
+
+#: inc/patterns/posts-section.php:16
+msgid "Posts Section"
+msgstr ""
+
+#: inc/patterns/posts-section.php:23
+msgid "Read these Posts"
+msgstr ""
+
+#: inc/patterns/posts-section.php:37
+msgid "No Posts were found"
+msgstr ""
+
+#: inc/patterns/service-cards-with-buttons.php:18
+msgid "Service cards with buttons"
+msgstr ""
+
+#: inc/patterns/service-cards-with-buttons.php:25
+msgid "My services"
+msgstr ""
+
+#: inc/patterns/testimonials.php:16
+msgid "Testimonials"
+msgstr ""
+
+#: inc/patterns/testimonials.php:28
+msgid "Selected client testimonials"
+msgstr ""
+
+#: inc/patterns/testimonials.php:40
+#: inc/patterns/testimonials.php:52
+msgid "Client name"
+msgstr ""
+
+#: styles/electro-blue.json
+msgctxt "Style variation name"
+msgid "Electro Blue"
+msgstr ""
+
+#: styles/electro-blue.json
+#: styles/light-organic.json
+#: styles/paper-purple.json
+#: styles/Spice-cream.json
+#: styles/Violet-dense.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/electro-blue.json
+#: styles/light-organic.json
+#: styles/paper-purple.json
+#: styles/Spice-cream.json
+#: styles/Violet-dense.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: styles/electro-blue.json
+#: styles/light-organic.json
+#: styles/paper-purple.json
+#: styles/Spice-cream.json
+#: styles/Violet-dense.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background Alt"
+msgstr ""
+
+#: styles/electro-blue.json
+#: styles/light-organic.json
+#: styles/paper-purple.json
+#: styles/Spice-cream.json
+#: styles/Violet-dense.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background Dark"
+msgstr ""
+
+#: styles/electro-blue.json
+#: styles/light-organic.json
+#: styles/paper-purple.json
+#: styles/Spice-cream.json
+#: styles/Violet-dense.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground Alt"
+msgstr ""
+
+#: styles/electro-blue.json
+#: styles/light-organic.json
+#: styles/paper-purple.json
+#: styles/Spice-cream.json
+#: styles/Violet-dense.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: styles/light-organic.json
+msgctxt "Style variation name"
+msgid "Light Organic"
+msgstr ""
+
+#: styles/paper-purple.json
+msgctxt "Style variation name"
+msgid "Paper Purple"
+msgstr ""
+
+#: styles/Spice-cream.json
+msgctxt "Style variation name"
+msgid "Spice Cream"
+msgstr ""
+
+#: styles/Violet-dense.json
+msgctxt "Style variation name"
+msgid "Violet-dense"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Readex Pro"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""

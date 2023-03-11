@@ -1,0 +1,87 @@
+ul, ol {
+	margin: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol ol {
+	list-style: lower-alpha;
+}
+
+.site-footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li > ul, li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5rem;
+
+	@include breakpoint(sm) {
+		margin-left: 1.5rem;
+	}
+}
+
+.entry-content,
+.comment-content,
+.block-editor-block-list__layout {
+
+		ul, ol {
+			padding-left: 1.2rem;
+
+			ul, ol {
+				list-style: circle;
+			}
+		}
+}
+
+// Social Icon List
+.social-links-menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.wp-block-categories-list,
+.menu-social-container ul,
+.social-nav ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+.social-links-menu li {
+	@include s-r-4 (padding-right);
+
+	&:last-child {
+		padding-right: 0;
+	}
+}
+
+.menu-social-container ul {
+
+	li {
+		a {
+			display: block;
+			width: 1.5rem;
+			height: 1.5rem;
+			line-height: 1;
+			margin: 0;
+			overflow: hidden;
+		}
+
+		&.icon-large {
+			a {
+				@include s-r-8 (width);
+				@include s-r-8 (height);
+			}
+		}
+	}
+}

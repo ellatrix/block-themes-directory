@@ -1,0 +1,150 @@
+{
+	"version": 2,
+	"title": "Poppins Green",
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+				{
+					"fontFamily": "Poppins,sans-serif",
+					"name": "System Font",
+					"slug": "system",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Poppins",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [ "file:./assets/fonts/Poppins/Poppins-Regular.ttf" ]
+                        },
+                        {
+                            "fontFamily": "Poppins",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [ "file:./assets/fonts/Poppins/Poppins-Bold.ttf" ]
+                        }
+                    ]
+				},
+				{
+					"fontFamily": "var(--blockpress-primary-fontfamily, var(--wp--preset--font-family--system))",
+					"name": "Primary Custom Font",
+					"slug": "primary"
+				},
+				{
+					"fontFamily": "var(--blockpress-secondary-fontfamily, var(--wp--preset--font-family--system))",
+					"name": "Secondary Custom Font",
+					"slug": "secondary"
+				},
+				{
+					"fontFamily": "var(--blockpress-tertiary-fontfamily, var(--wp--preset--font-family--system))",
+					"name": "Tertiary Custom Font",
+					"slug": "tertiary"
+				},
+				{
+					"fontFamily": "\"Source Serif Pro\", serif",
+					"name": "Source Serif Pro",
+					"slug": "source-serif-pro"
+				},
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				}
+            ]
+        },
+        "color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#4dbc15"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#0a9e38"
+				},
+				{
+					"name": "Text over primary",
+					"slug": "textonprimary",
+					"color": "#fffffd"
+				},
+				{
+					"name": "Accented Buttons",
+					"slug": "button",
+					"color": "#7635f3"
+				},
+				{
+					"name": "Text over buttons",
+					"slug": "textonbutton",
+					"color": "#fffffe"
+				},
+				{
+					"name": "Accented Color",
+					"slug": "accent",
+					"color": "#de1414"
+				},
+				{
+					"name": "Accented Secondary",
+					"slug": "accenttwo",
+					"color": "#00d084"
+				},
+				{
+					"name": "Accented Dark Background",
+					"slug": "accentbg",
+					"color": "#41474c"
+				},
+				{
+					"name": "Accented Light Background",
+					"slug": "lightbg",
+					"color": "#f9fafb"
+				},
+				{
+					"name": "Tag color",
+					"slug": "lighttag",
+					"color": "#94fe5226"
+				},
+				{
+					"name": "Secondary tag color",
+					"slug": "lightsecondarytag",
+					"color": "#b952fe26"
+				},
+				{
+					"name": "Light Grey (for Meta text)",
+					"slug": "lightgrey",
+					"color": "#6f8099"
+				},
+				{
+					"name": "Price color (for woocommerce)",
+					"slug": "price",
+					"color": "#444444"
+				},
+				{
+					"name": "Borders, Dividers",
+					"slug": "lightborder",
+					"color": "#cecece6b"
+				},
+				{
+					"name": "Input text",
+					"slug": "inputtext",
+					"color": "#444"
+				},
+				{
+					"name": "Input background",
+					"slug": "inputbg",
+					"color": "#fafbfd"
+				},
+				{
+					"name": "Dark panels (footer, header)",
+					"slug": "dark",
+					"color": "#000001"
+				},
+				{
+					"name": "Text on dark panels",
+					"slug": "textondark",
+					"color": "#fffffe"
+				}
+			]
+		}
+    }
+}

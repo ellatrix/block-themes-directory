@@ -1,0 +1,210 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonone .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 16px;
+}
+
+.is-style-custombuttonone:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttontwo .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 16px;
+}
+
+.is-style-custombuttontwo:hover .wp-block-button__link {
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttonthree .wp-block-button__link {
+    padding: 15px 20px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 14px;
+}
+
+.is-style-custombuttonthree:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttonfour .wp-block-button__link {
+    padding: 15px 20px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 14px;
+}
+
+.is-style-custombuttonfour:hover .wp-block-button__link {
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttonfive .wp-block-button__link {
+    padding: 15px 20px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 12px;
+}
+
+.is-style-custombuttonfive:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttonsix .wp-block-button__link {
+    padding: 15px 20px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 12px;
+}
+
+.is-style-custombuttonsix:hover .wp-block-button__link {
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--primary);
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 3px 15px 0px #1010101a;
+}
+
+
+/* TRAVEY ADVANCE CLASSES */
+
+.travey-z-index-1 {
+    z-index: 1;
+}
+
+.travey-z-index-10 {
+    z-index: 10;
+}
+
+.travey-z-index-100 {
+    z-index: 100;
+}
+
+.travey-z-index-1000 {
+    z-index: 1000;
+}
+
+.travey-margin-top-n10 {
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.travey-margin-top-n20 {
+    position: relative;
+    margin-top: -20px!important;
+}
+
+.travey-margin-top-n30 {
+    position: relative;
+    margin-top: -30px!important;
+}
+
+.travey-margin-top-n40 {
+    position: relative;
+    margin-top: -40px!important;
+}
+
+.travey-margin-top-n50 {
+    position: relative;
+    margin-top: -50px!important;
+}
+
+.travey-margin-top-n60 {
+    position: relative;
+    margin-top: -60px!important;
+}
+
+.travey-margin-top-n70 {
+    position: relative;
+    margin-top: -70px!important;
+}
+
+.travey-margin-top-n80 {
+    position: relative;
+    margin-top: -80px!important;
+}
+
+.travey-margin-top-n90 {
+    position: relative;
+    margin-top: -90px!important;
+}
+
+.travey-margin-top-n100 {
+    position: relative;
+    margin-top: -100px!important;
+}
+
+.travey-radius-5 {
+    border-radius: 5px;
+}
+
+.travey-radius-10 {
+    border-radius: 10px;
+}
+
+.travey-radius-25 {
+    border-radius: 25px;
+}
+
+.travey-radius-50 {
+    border-radius: 50px;
+}
+
+.travey-img-radius-top-left-10 img{
+    border-top-left-radius: 10px;
+}
+
+.travey-img-radius-top-right-10 img{
+    border-top-right-radius: 10px;
+}
+
+.travey-img-radius-bottom-right-10 img{
+    border-bottom-right-radius: 10px;
+}
+
+.travey-img-radius-bottom-left-10 img{
+    border-bottom-left-radius: 10px;
+}

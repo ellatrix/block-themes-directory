@@ -1,0 +1,16 @@
+/*
+Theme Name: Blockio
+Theme URI: http://blockio.atelierweb.pl
+Author: Mariusz Borkowski
+Author URI: https://profiles.wordpress.org/mariusz88atelierweb/
+Description: Blockio is an experimental full site editing theme. It is simple and minimal. It has its own templates, thanks to which you can quickly create a blog page, portfolio, or even a store.
+Tags: block-patterns, block-styles, blog, custom-background,right-sidebar, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, grid-layout, one-column, template-editing, wide-blocks
+Version: 1.2.1
+Requires at latest: 5.9
+Tested up to: 6.1
+Requires PHP: 7.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blockio
+ */
+@import "assets/css/main.css";

@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FSE Study Lite\n"
+"POT-Creation-Date: 2022-10-10 17:16+0530\n"
+"PO-Revision-Date: 2022-10-10 17:16+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flythemes Team <support@flythemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: inc/about.php:48
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:59
+msgid "Getting Started with FSE Study Lite!"
+msgstr ""
+
+#: inc/about.php:60
+msgid ""
+"Awesome! FSE Study Lite has been installed and activated successfully. Now, "
+"you can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in this "
+"astounding theme."
+msgstr ""
+
+#: inc/about.php:66
+msgid "More Features with Study Pro Theme"
+msgstr ""
+
+#: inc/about.php:67
+msgid ""
+"To get more features and unique home page sections, we recommend you "
+"activate the Study Pro. With the pro theme installed, get more options like "
+"google fonts, colors, sliders, page template, shortcodes and more."
+msgstr ""
+
+#: inc/about.php:68
+msgid "Buy Study Pro"
+msgstr ""
+
+#: inc/about.php:77
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:79
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:80
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:88
+msgid ""
+"Loved FSE Study Lite? Feel free to leave your feedback. Your opinion helps "
+"us reach more audiences!"
+msgstr ""
+
+#: inc/about.php:89
+msgid "Review"
+msgstr ""
+
+#: patterns/404.php:11
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:15
+msgid "This page is not found"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "Sorry but the page you are looking for does not exist."
+msgstr ""
+
+#: patterns/featured-banner.php:14
+msgid "Anchored in Excellence."
+msgstr ""
+
+#: patterns/featured-banner.php:18
+msgid ""
+"Pellentesque bibendum non lorem ut dignissim. Etiam molestie ultrices enim, "
+"sit amet vehicula dui fermentum id. Ut fermentum augue ac varius venenatis. "
+"Nullam luctus pellentesque finibus. Cras eleifend purus iaculis, vulputate "
+"ex id, scelerisque quam."
+msgstr ""
+
+#: patterns/featured-banner.php:27
+msgid "Take a Tour"
+msgstr ""
+
+#: patterns/footer.php:22
+msgid ""
+"Maecenas ac blandit dui. Curabitur consectetur vestibulum scelerisque. Nam "
+"hendrerit fermentum enim sed porttitor."
+msgstr ""
+
+#: patterns/footer.php:42
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "Home"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "Courses"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "Events"
+msgstr ""
+
+#: patterns/footer.php:46
+#: patterns/footer.php:52
+#: patterns/single.php:114
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:61
+#: patterns/header.php:19
+msgid "9 Marine Parade, Sydney, NSW"
+msgstr ""
+
+#: patterns/footer.php:75
+#: patterns/header.php:43
+msgid "+61 (11) 9294 0923"
+msgstr ""
+
+#: patterns/footer.php:89
+#: patterns/header.php:31
+msgid "campus@sitename.com"
+msgstr ""
+
+#: patterns/footer.php:103
+msgid "Mon- Sat: 8 AM to 5 PM / Sun: Closed"
+msgstr ""
+
+#: patterns/footer.php:117
+msgid "© Copyright 2022. Powered by WordPress."
+msgstr ""
+
+#: patterns/footer.php:123
+msgid "Theme Designed by"
+msgstr ""
+
+#: patterns/footer.php:123
+msgid "Fly Themes"
+msgstr ""
+
+#: patterns/header.php:52
+msgid "Login"
+msgstr ""
+
+#: patterns/header.php:52
+msgid "Account"
+msgstr ""
+
+#: patterns/header.php:52
+msgid "Portal"
+msgstr ""
+
+#: patterns/introduction.php:20
+msgid "We Are Experts Learning Institution"
+msgstr ""
+
+#: patterns/introduction.php:24
+msgid ""
+"Suspendisse posuere lorem nulla, at tempus quam vulputate sed. Etiam "
+"placerat tortor ut leo euismod, eu sollicitudin felis egestas. Nullam vitae "
+"ante non lacus luctus consectetur vel ac dolor. Cras enim leo, hendrerit ut "
+"eros at, malesuada finibus velit. Integer eu tristique elit. Mauris at "
+"placerat lacus. Fusce eu laoreet justo. Maecenas ac blandit dui. Curabitur "
+"consectetur vestibulum scelerisque. Nam hendrerit fermentum enim sed "
+"porttitor. In hac habitasse platea dictumst."
+msgstr ""
+
+#: patterns/introduction.php:33
+msgid "Read More"
+msgstr ""
+
+#: patterns/single.php:78
+msgid "Categories"
+msgstr ""
+
+#: patterns/single.php:88
+msgid "Archives"
+msgstr ""
+
+#: patterns/single.php:98
+msgid "Tags"
+msgstr ""
+
+#: patterns/single.php:109
+msgid "To know more"
+msgstr ""

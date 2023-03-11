@@ -1,0 +1,129 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Porto",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#404E5C",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#F8FAF9",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#F87666",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#0D1B1E",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#F8ECEA",
+					"name": "Tertiary"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Inconsolata\", sans-serif",
+					"name": "Inconsolata",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Inconsolata",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Karla\", sans-serif",
+					"name": "Karla",
+					"slug": "heading",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Karla",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": ["file:./assets/fonts/Karla/Karla-VariableFont_wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/comments-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)"
+				}
+			},
+			"core/pullquote": {
+				"border": {
+					"color": "var(--wp--preset--color--primary)",
+					"width": "2px 0"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"width": "0 0 0 2px"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"letterSpacing": "0.02em"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"letterSpacing": "-0.07em"
+				}
+			},
+			"h2": {
+				"typography": {
+					"letterSpacing": "-0.04em"
+				}
+			},
+			"h3": {
+				"typography": {
+					"letterSpacing": "-0.03em"
+				}
+			},
+			"h4": {
+				"typography": {
+					"letterSpacing": "-0.03em"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--bold)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--extra-bold)"
+				}
+			}
+		}
+	}
+}

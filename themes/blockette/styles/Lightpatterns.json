@@ -1,0 +1,122 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [ 
+				{
+					"slug": "background",
+					"color": "#FFFFFF",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#333333",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#ffe6ed",
+					"name": "Secondary"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [ "#333333","#FFFFFF" ],
+					"slug": "primary-background",
+					"name": "Primary and background"
+				},
+				{
+					"colors": [ "#ffe6ed","#FFFFFF" ],
+					"slug": "secondary-background",
+					"name": "Secondary and Background"
+				},
+				{
+					"colors": [ "#000000","#333333" ],
+					"slug": "foreground-primary",
+					"name": "Foreground and primary"
+				},
+				{
+					"colors": ["#000000","#ffe6ed"],
+					"slug": "foreground-secondary",
+					"name": "Foreground and secondary"
+				},
+				{
+					"colors": [ "#000000","#FFFFFF" ],
+					"slug": "foreground-background",
+					"name": "Foreground and background"
+				},
+				{
+					"colors": [ "#333333","#ffe6ed" ],
+					"slug": "primary-secondary",
+					"name": "Primary and secondary"
+				}
+			]
+		},
+		"typography": {
+			"fontSizes":[
+				{
+					"slug": "extra-small",
+					"size": "0.95rem",
+					"name": "Small"
+				},
+				{
+					"slug": "small",
+					"size": "1.15rem",
+					"name": "Small"
+				},
+				{
+					"slug": "normal",
+					"size": "20px !important",
+					"name": "Normal"
+				},
+				{
+					"slug": "medium",
+					"size": "clamp(1.8rem, 2.2vw, 2.4rem) !important",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "clamp(2.4rem, 2.8vw, 3.2rem)",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "clamp(2.8rem, 3.8vw, 4.2rem)",
+					"name": "XL"
+				},
+				{
+					"slug": "big",
+					"size": "clamp(3.2rem, 4.6vw, 6.6rem)",
+					"name": "Big"
+				},
+				{
+					"slug": "enormous",
+					"size": "clamp(6.2rem, 14vw, 11rem)",
+					"name": "Enormous"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--outfit)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontWeight": "400",
+			"letterSpacing": "-0.01em"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "600",
+					"letterSpacing": "var(--wp--custom--heading-spacing)"
+				}
+			}
+		}
+	}
+}

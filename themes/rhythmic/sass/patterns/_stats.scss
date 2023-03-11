@@ -1,0 +1,13 @@
+.stats-section {
+  .wp-block-column {
+      text-align: center;
+      h2 {
+          font-weight: var(--wp--custom--typography--font-weight--bold);
+          line-height: 1.1;
+      }
+      p {
+          text-transform: capitalize;
+          margin-top: clamp(14px,3vw,21px);
+      }
+  }
+}

@@ -1,0 +1,99 @@
+.pricing-section {
+  .pricing-columns {
+    .wp-block-column {
+      color: inherit;
+      text-align: center;
+      padding: var(--wp--custom--spacing--wp-comment-horizontal);
+      position: relative;
+      @include transition(0.5s ease-in-out);
+
+      &:hover {
+        &:before {
+          @include transform(scale(1.1));
+        }
+
+        h2 {
+          @include transition(0.5s ease-in-out);
+          text-shadow: 1px 6px var(--wp--preset--color--title-color);
+        }
+      }
+
+      &:before {
+        content: "";
+        background: var(--wp--preset--gradient--diagonal-top-to-bottom);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        @include transition(0.5s ease-in-out);
+        top: 0;
+        width: 100%;
+        opacity: 0;
+      }
+
+      .pricing-title {
+        font-weight: var(--wp--custom--typography--font-weight--bold);
+        text-transform: uppercase;
+      }
+
+      .wp-block-separator {
+        height: 4px;
+      }
+
+      .price {
+        font-family: var(--wp--preset--font-family--open-sans);
+        font-size: var(--wp--preset--font-size--section-title);
+        font-weight: var(--wp--custom--typography--font-weight--bold);
+        margin-top: var(--wp--custom--spacing--wp-comment-vertical);
+        margin-bottom: var(--wp--custom--spacing--wp-comment-horizontal);
+        @include flex;
+        align-items: center;
+        justify-content: center;
+
+        sub {
+          font-size: 22px;
+          margin-right: 10px;
+          @include transform(translateY(8px));
+        }
+      }
+
+      .pricing-content {
+        padding: 0;
+      }
+
+      .wp-block-button .wp-block-button__link {
+        margin-top: var(--wp--custom--spacing--wp-comment-horizontal);
+      }
+
+      &:hover,
+      &:focus {
+        &:before {
+          opacity: 1;
+        }
+
+        >* {
+          position: relative;
+          z-index: 1;
+        }
+
+        *:not(.wp-block-button__link) {
+          color: var(--wp--preset--color--color-light);
+        }
+
+        .is-style-VisionArt-button {
+          a {
+            color: var(--wp--preset--color--color-light);
+          }
+        }
+      }
+    }
+  }
+}
+
+.pricing-section {
+
+  .wp-block-button:not(.is-style-VisionArt-button):not(.is-style-outline) .wp-block-button__link:hover,
+  .wp-block-button:not(.is-style-VisionArt-button):not(.is-style-outline) .wp-block-button__link:focus {
+    background-color: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--button-bg-color);
+  }
+}

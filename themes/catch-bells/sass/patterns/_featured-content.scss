@@ -1,0 +1,48 @@
+.wp-block-catch-bells-pro-featured-content .wp-block-image,
+.wp-block-catch-bells-featured-content .wp-block-image {
+  overflow: hidden;
+}
+
+.wp-block-catch-bells-pro-featured-content .wp-block-image img,
+.wp-block-catch-bells-featured-content .wp-block-image img {
+  transition: all 0.5s ease;
+}
+
+.wp-block-catch-bells-pro-featured-content .wp-block-image:hover img,
+.wp-block-catch-bells-featured-content .wp-block-image:hover img {
+  filter: blur(0);
+  transform: scale(1.05);
+}
+
+.wp-block-group.entry-meta {
+  gap: 14px;
+}
+
+.wp-block-post-template {
+  li {
+    h2 {
+      font-size: var(--wp--preset--font-size--post-title);
+      margin-top: 14px;
+    }
+  }
+  .alignfull.wp-block-post-container {
+    padding: 0;
+  }
+}
+.wp-block-post-excerpt {
+  margin-top: var(--wp--custom--spacing--extra-small);
+}
+
+.blog-section .wp-block-post-template,
+.wp-block-post-template.alignfull {
+  gap: var(--wp--custom--spacing--column-gap);
+}
+
+.wp-block-post-template figure {
+  margin-bottom: var(--wp--custom--spacing--normal);
+}
+
+figure a,
+.wp-block-post-title a {
+  padding: 0;
+}

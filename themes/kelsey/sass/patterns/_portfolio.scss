@@ -1,0 +1,81 @@
+/* --- Portfolio
+-------------------------------------------------------- */
+
+
+/* Portfolio horizontal drag scroll styles */
+.portfolio-outer {
+  transform: scale(1.02);
+}
+
+.portfolio-columns {
+  transition: all 0.2s;
+  will-change: transform;
+  user-select: none;
+  cursor: url('assets/images/arrow-drag.png'), auto;
+  transform: scale(0.98);
+}
+
+.portfolio-columns.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1);
+}
+
+
+/* Portfolio Ediotr image styles */
+.portfolio-columns .wp-block-image .components-resizable-box__container {
+  display: block;
+}
+
+.portfolio-normal-column .wp-block-image {
+  min-width: 74px;
+  width: 74px;
+}
+
+.portfolio-big-column .wp-block-image {
+  min-width: 134px;
+  width: 134px;
+}
+
+.portfolio-big-column .wp-block-image img {
+  max-height: 87px;
+  width: 100%;
+}
+
+.portfolio-big-column,
+.portfolio-normal-column {
+  .wp-block-image {
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.portfolio-columns {
+  min-width: 290px;
+  overflow-x: auto;
+}
+
+/* width */
+.portfolio-columns::-webkit-scrollbar {
+  width: 20px;
+  height: 10px;
+}
+
+/* Track */
+.portfolio-columns::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px var(--wp--preset--color--border-color); 
+  border-radius: 0;
+}
+ 
+/* Handle */
+.portfolio-columns::-webkit-scrollbar-thumb {
+  background: var(--wp--preset--color--text-link); 
+  border-radius: 0;
+  transition: all 0.4s ease;
+}
+
+/* Handle on hover */
+.portfolio-columns::-webkit-scrollbar-thumb:hover {
+  background: var(--wp--preset--color--tertiary);
+}

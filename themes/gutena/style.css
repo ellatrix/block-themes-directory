@@ -1,0 +1,101 @@
+/*
+Theme Name: Gutena
+Theme URI: https://gutena.io/
+Author: ExpressTech
+Author URI: https://expresstech.io
+Description: Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design elements which suits a variety of use cases. Gutena aims to be the forefont of WordPress FSE (Full Site Editing) philosphy. Building on top of the core editor Gutena promises a performant website with a score of 95 and above on core web vitals for speed. Using Gutena is very easy, just import a pre-built demo via our companion plugin (Gutena Kit) or use fully built block patterns. Our customer love us for our simplicity and following the block standards. 
+Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
+Version: 2.0.0
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gutena
+*/
+html,body{
+   width: 100%;
+   overflow-x: hidden;
+}
+
+/* Prevent group block margin top due to blockGap*/
+main.wp-block-group, 
+body:not(.single-post) .wp-block-group,
+body .wp-block-cover,
+body .wp-block-template-part {
+   margin-top:0;
+}
+
+/* Inline Image gap */
+.wp-block-button__link, h6 a, .wp-block-post-excerpt .wp-block-post-excerpt__more-link strong{
+   display: flex;
+   gap: calc( var(--wp--custom--spacing--small) / 1.5 );
+}
+
+/*On custom width button and text-align-center*/
+.wp-block-buttons > .wp-block-button.has-custom-width .wp-block-button__link, .has-text-align-center, h6.has-text-align-center a {
+   justify-content: center;
+}
+ 
+/*Duotone for style vaiartion*/
+figure.gutena-foreground-and-primary-duotone img {
+   filter: var(--wp--preset--duotone--foreground-and-primary) !important;
+}
+
+/*Line height for font preset*/
+.has-huge-font-size {
+   line-height: var(--wp--custom--typography--line-height--huge);
+   font-family: var(--wp--custom--typography--font-family--primary);
+   font-weight: var(--wp--custom--typography--font-weight--huge);
+}
+
+.has-extra-large-font-size {
+   line-height: var(--wp--custom--typography--line-height--extra-large);
+   font-family: var(--wp--custom--typography--font-family--primary);
+   font-weight: var(--wp--custom--typography--font-weight--heading);
+}
+
+.has-medium-large-font-size {
+   line-height: var(--wp--custom--typography--line-height--medium-large);
+   font-family: var(--wp--custom--typography--font-family--primary);
+   font-weight: var(--wp--custom--typography--font-weight--heading);
+}
+
+.has-large-font-size {
+   line-height: var(--wp--custom--typography--line-height--large);
+}
+
+.has-normal-font-size {
+   line-height: var(--wp--custom--typography--line-height--normal);
+}
+
+.has-small-font-size {
+   line-height: var(--wp--custom--typography--line-height--small);
+}
+
+.has-extra-small-font-size {
+   line-height: var(--wp--custom--typography--line-height--extra-small);
+}
+
+.has-tiny-font-size {
+   line-height: var(--wp--custom--typography--line-height--tiny);
+}
+
+/*Inside row make image block flex for fix alignment issue*/
+.wp-block-group.is-layout-flex > .wp-block-image {
+   display: flex;
+}
+
+/*In tablet query loop*/
+@media only screen and (min-width: 600px) and (max-width: 820px){
+   .hide-in-tablet{
+      display: none !important;
+   }
+}
+
+/*Mobile*/
+@media (max-width: 599px){
+   .hide-in-mobile{
+      display: none !important;
+   }
+}

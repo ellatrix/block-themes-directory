@@ -1,0 +1,136 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Dark",
+  "settings": {
+    "custom": {
+      "darkMode": {
+        "palette": {
+          "contrast": "#0b1127",
+          "heading": "#070a1c",
+          "body": "#284962",
+          "neutral": "#67919b",
+          "surface": "#e0eff1dd",
+          "outline": "#e0eff0",
+          "base": "#ffffff",
+          "shadow": "#a6d9d633"
+        },
+        "gradients": {
+          "dark": "radial-gradient(50% 50% at 50% 0%, var(--wp--preset--color--primary-lighter) 0%, transparent 100%),radial-gradient(75% 75% at 50% 50%, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--heading) 100%)",
+          "text": "linear-gradient(135deg, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--body) 33%, var(--wp--preset--color--heading) 66%)"
+        }
+      }
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#00d8d8",
+          "name": "Primary Dark",
+          "slug": "primary-dark"
+        },
+        {
+          "color": "#06ffff",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#a1ffff",
+          "name": "Primary Light",
+          "slug": "primary-light"
+        },
+        {
+          "color": "#00f3f324",
+          "name": "Primary Lighter",
+          "slug": "primary-lighter"
+        },
+        {
+          "color": "#ffffff",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#f6f6f9",
+          "name": "Heading",
+          "slug": "heading"
+        },
+        {
+          "color": "#c6efff",
+          "name": "Body",
+          "slug": "body"
+        },
+        {
+          "color": "#67919b",
+          "name": "Neutral",
+          "slug": "neutral"
+        },
+        {
+          "color": "#18323d",
+          "name": "Surface",
+          "slug": "surface"
+        },
+        {
+          "color": "#18323d",
+          "name": "Outline",
+          "slug": "outline"
+        },
+        {
+          "color": "#070b1b",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "currentColor",
+          "name": "Current Color",
+          "slug": "currentColor"
+        },
+        {
+          "color": "inherit",
+          "name": "Inherit",
+          "slug": "inherit"
+        },
+        {
+          "color": "transparent",
+          "name": "Transparent",
+          "slug": "transparent"
+        },
+        {
+          "name": "Shadow",
+          "slug": "shadow",
+          "color": "#07121e"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "radial-gradient( circle farthest-corner at 10% 20%,  var(--wp--preset--color--primary-light) 11.3%, var(--wp--preset--color--primary) 41.2%, var(--wp--preset--color--primary-dark) 77.8% )",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "gradient": "radial-gradient(50% 50% at 50% 0%, var(--wp--preset--color--primary-lighter) 0%, transparent 100%)",
+          "name": "Light",
+          "slug": "light"
+        },
+        {
+          "gradient": "radial-gradient(50% 50% at 50% 0%, var(--wp--preset--color--primary-lighter) 0%, transparent 100%),radial-gradient(75% 75% at 50% 50%, var(--wp--preset--color--base) 0%, var(--wp--preset--color--shadow) 100%)",
+          "name": "Dark",
+          "slug": "dark"
+        },
+        {
+          "slug": "text",
+          "name": "Text",
+          "gradient": "var(--wp--preset--gradient--primary)"
+        },
+        {
+          "slug": "pie-chart",
+          "name": "Pie Chart",
+          "gradient": "conic-gradient(var(--wp--preset--color--surface) 0% 35%, var(--wp--preset--color--primary) 35% 60%, var(--wp--preset--color--base) 60% 100%)"
+        },
+        {
+          "gradient": "linear-gradient(0deg, var(--wp--preset--color--base) 0%, transparent 100%)",
+          "name": "Base Transparent Blur",
+          "slug": "base-transparent-blur"
+        }
+      ]
+    }
+  }
+}

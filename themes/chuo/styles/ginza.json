@@ -1,0 +1,666 @@
+{
+	"version": 1,
+	"title": "Ginza",
+	"settings": {
+        "appearanceTools": true,
+        "color": {
+            "duotone": [
+                {
+                    "colors": [
+                        "#fafafa",
+                        "#0c022f"
+                    ],
+                    "slug": "foreground-background",
+                    "name": "Foreground-Background"
+                },
+                {
+                    "colors": [
+                        "#fafafa",
+                        "#2cd4d9"
+                    ],
+                    "slug": "foreground-primary",
+                    "name": "Foreground-Primary"
+                },
+                {
+                    "colors": [
+                        "#fafafa",
+                        "#5333ed"
+                    ],
+                    "slug": "foreground-secondary",
+                    "name": "Foreground-Secondary"
+                },
+                {
+                    "colors": [
+                        "#fafafa",
+                        "#030350"
+                    ],
+                    "slug": "foreground-tertiary",
+                    "name": "Foreground-Tertiary"
+                },
+                {
+                    "colors": [
+                        "#fafafa",
+                        "#4754eb"
+                    ],
+                    "slug": "foreground-link",
+                    "name": "Foreground-Link"
+                },
+                {
+                    "colors": [
+                        "#fafafa",
+                        "#ffffff"
+                    ],
+                    "slug": "foreground-highlight",
+                    "name": "Foreground-Highlight"
+                },
+                {
+                    "colors": [
+                        "#0c022f",
+                        "#fafafa"
+                    ],
+                    "slug": "background-foreground",
+                    "name": "Background-Foreground"
+                },
+                {
+                    "colors": [
+                        "#0c022f",
+                        "#2cd4d9"
+                    ],
+                    "slug": "background-primary",
+                    "name": "Background-Primary"
+                },
+                {
+                    "colors": [
+                        "#0c022f",
+                        "#5333ed"
+                    ],
+                    "slug": "background-secondary",
+                    "name": "Background-Secondary"
+                },
+                {
+                    "colors": [
+                        "#0c022f",
+                        "#030350"
+                    ],
+                    "slug": "background-tertiary",
+                    "name": "Background-Tertiary"
+                },
+                {
+                    "colors": [
+                        "#0c022f",
+                        "#4754eb"
+                    ],
+                    "slug": "background-link",
+                    "name": "Background-Link"
+                },
+                {
+                    "colors": [
+                        "#0c022f",
+                        "#ffffff"
+                    ],
+                    "slug": "background-highlight",
+                    "name": "Background-Highlight"
+                },
+                {
+                    "colors": [
+                        "#2cd4d9",
+                        "#fafafa"
+                    ],
+                    "slug": "primary-foreground",
+                    "name": "Primary-Foreground"
+                },
+                {
+                    "colors": [
+                        "#2cd4d9",
+                        "#0c022f"
+                    ],
+                    "slug": "primary-background",
+                    "name": "Primary-Background"
+                },
+                {
+                    "colors": [
+                        "#2cd4d9",
+                        "#5333ed"
+                    ],
+                    "slug": "primary-secondary",
+                    "name": "Primary-Secondary"
+                },
+                {
+                    "colors": [
+                        "#2cd4d9",
+                        "#030350"
+                    ],
+                    "slug": "primary-tertiary",
+                    "name": "Primary-Tertiary"
+                },
+                {
+                    "colors": [
+                        "#2cd4d9",
+                        "#4754eb"
+                    ],
+                    "slug": "primary-link",
+                    "name": "Primary-Link"
+                },
+                {
+                    "colors": [
+                        "#2cd4d9",
+                        "#ffffff"
+                    ],
+                    "slug": "primary-highlight",
+                    "name": "Primary-Highlight"
+                },
+                {
+                    "colors": [
+                        "#5333ed",
+                        "#fafafa"
+                    ],
+                    "slug": "secondary-foreground",
+                    "name": "Secondary-Foreground"
+                },
+                {
+                    "colors": [
+                        "#5333ed",
+                        "#0c022f"
+                    ],
+                    "slug": "secondary-background",
+                    "name": "Secondary-Background"
+                },
+                {
+                    "colors": [
+                        "#5333ed",
+                        "#2cd4d9"
+                    ],
+                    "slug": "secondary-primary",
+                    "name": "Secondary-Primary"
+                },
+                {
+                    "colors": [
+                        "#5333ed",
+                        "#030350"
+                    ],
+                    "slug": "secondary-tertiary",
+                    "name": "Secondary-Tertiary"
+                },
+                {
+                    "colors": [
+                        "#5333ed",
+                        "#4754eb"
+                    ],
+                    "slug": "secondary-link",
+                    "name": "Secondary-Link"
+                },
+                {
+                    "colors": [
+                        "#5333ed",
+                        "#ffffff"
+                    ],
+                    "slug": "secondary-highlight",
+                    "name": "Secondary-Highlight"
+                },
+                {
+                    "colors": [
+                        "#030350",
+                        "#fafafa"
+                    ],
+                    "slug": "tertiary-foreground",
+                    "name": "Tertiary-Foreground"
+                },
+                {
+                    "colors": [
+                        "#030350",
+                        "#0c022f"
+                    ],
+                    "slug": "tertiary-background",
+                    "name": "Tertiary-Background"
+                },
+                {
+                    "colors": [
+                        "#030350",
+                        "#2cd4d9"
+                    ],
+                    "slug": "tertiary-primary",
+                    "name": "Tertiary-Primary"
+                },
+                {
+                    "colors": [
+                        "#030350",
+                        "#5333ed"
+                    ],
+                    "slug": "tertiary-secondary",
+                    "name": "Tertiary-Secondary"
+                },
+                {
+                    "colors": [
+                        "#030350",
+                        "#4754eb"
+                    ],
+                    "slug": "tertiary-link",
+                    "name": "Tertiary-Link"
+                },
+                {
+                    "colors": [
+                        "#030350",
+                        "#ffffff"
+                    ],
+                    "slug": "tertiary-highlight",
+                    "name": "Tertiary-Highlight"
+                },
+                {
+                    "colors": [
+                        "#4754eb",
+                        "#fafafa"
+                    ],
+                    "slug": "link-foreground",
+                    "name": "Link-Foreground"
+                },
+                {
+                    "colors": [
+                        "#4754eb",
+                        "#0c022f"
+                    ],
+                    "slug": "link-background",
+                    "name": "Link-Background"
+                },
+                {
+                    "colors": [
+                        "#4754eb",
+                        "#2cd4d9"
+                    ],
+                    "slug": "link-primary",
+                    "name": "Link-Primary"
+                },
+                {
+                    "colors": [
+                        "#4754eb",
+                        "#5333ed"
+                    ],
+                    "slug": "link-secondary",
+                    "name": "Link-Secondary"
+                },
+                {
+                    "colors": [
+                        "#4754eb",
+                        "#030350"
+                    ],
+                    "slug": "link-tertiary",
+                    "name": "Link-Tertiary"
+                },
+                {
+                    "colors": [
+                        "#4754eb",
+                        "#ffffff"
+                    ],
+                    "slug": "link-highlight",
+                    "name": "Link-Highlight"
+                },
+                {
+                    "colors": [
+                        "#ffffff",
+                        "#fafafa"
+                    ],
+                    "slug": "highlight-foreground",
+                    "name": "Highlight-Foreground"
+                },
+                {
+                    "colors": [
+                        "#ffffff",
+                        "#0c022f"
+                    ],
+                    "slug": "highlight-background",
+                    "name": "Highlight-Background"
+                },
+                {
+                    "colors": [
+                        "#ffffff",
+                        "#2cd4d9"
+                    ],
+                    "slug": "highlight-primary",
+                    "name": "Highlight-Primary"
+                },
+                {
+                    "colors": [
+                        "#ffffff",
+                        "#5333ed"
+                    ],
+                    "slug": "highlight-secondary",
+                    "name": "Highlight-Secondary"
+                },
+                {
+                    "colors": [
+                        "#ffffff",
+                        "#030350"
+                    ],
+                    "slug": "highlight-tertiary",
+                    "name": "Highlight-Tertiary"
+                },
+                {
+                    "colors": [
+                        "#ffffff",
+                        "#4754eb"
+                    ],
+                    "slug": "highlight-link",
+                    "name": "Highlight-Link"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "horizontal-foreground",
+                    "gradient": "linear-gradient(to right, #fafafa 0%, #ffffff 100%)",
+                    "name": "Horizontal Foreground"
+                },
+                {
+                    "slug": "horizontal-background",
+                    "gradient": "linear-gradient(to right, #0c022f 0%, #1c0e4f 100%)",
+                    "name": "Horizontal Background"
+                },
+                {
+                    "slug": "horizontal-primary",
+                    "gradient": "linear-gradient(to right, #2cd4d9 0%, #7bfbff 100%)",
+                    "name": "Horizontal Primary"
+                },
+                {
+                    "slug": "horizontal-secondary",
+                    "gradient": "linear-gradient(to right, #5333ed 0%, #8e77ff 100%)",
+                    "name": "Horizontal Secondary"
+                },
+                {
+                    "slug": "horizontal-tertiary",
+                    "gradient": "linear-gradient(to right, #030350 0%, #1b1b78 100%)",
+                    "name": "Horizontal Tertiary"
+                },
+                {
+                    "slug": "horizontal-link",
+                    "gradient": "linear-gradient(to right, #4754eb 0%, #7984ff 100%)",
+                    "name": "Horizontal Link"
+                },
+                {
+                    "slug": "horizontal-highlight",
+                    "gradient": "linear-gradient(to right, #ffffff 0%, #ffffff 100%)",
+                    "name": "Horizontal Highlight"
+                }
+            ],
+            "palette": [
+                {
+                    "slug": "foreground",
+                    "name": "Foreground",
+                    "color": "#fafafa"
+                },
+                {
+                    "slug": "background",
+                    "name": "Background",
+                    "color": "#0c022f"
+                },
+                {
+                    "slug": "primary",
+                    "name": "Primary",
+                    "color": "#2cd4d9"
+                },
+                {
+                    "slug": "secondary",
+                    "name": "Secondary",
+                    "color": "#5333ed"
+                },
+                {
+                    "slug": "tertiary",
+                    "name": "Tertiary",
+                    "color": "#030350"
+                },
+                {
+                    "slug": "link",
+                    "name": "Link",
+                    "color": "#4754eb"
+                },
+                {
+                    "slug": "highlight",
+                    "name": "Highlight",
+                    "color": "#ffffff"
+                }
+            ]
+        },
+        "custom": {
+            "spacing": {
+                "xs": "1.25em",
+                "sm": "2.5em",
+                "md": "3.75em",
+                "lg": "5em",
+                "xl": "6.25em"
+            },
+            "typography": {
+                "font-size": {
+                    "tiny": "0.8125rem",
+                    "small": "0.9375rem",
+                    "medium": "1.25rem",
+                    "large": "1.75rem",
+                    "xlarge": "2rem",
+                    "huge": "2.875rem",
+                    "gigantic": "3.25rem",
+                    "colossal": "4rem",
+                    "normal": "1.125rem"
+                },
+                "line-height": {
+                    "tiny": 1.15,
+                    "small": 1.2,
+                    "medium": 1.4,
+                    "normal": 1.6
+                }
+            },
+            "contentSize": {
+                "small": "720px",
+                "medium": "960px",
+                "large": "1200px"
+            },
+            "gap": {
+                "baseline": "0.9375rem",
+                "horizontal": "min(30px, 5vw)",
+                "vertical": "min(30px, 5vw)"
+            }
+        },
+        "spacing": {
+            "units": [
+                "%",
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "dropCap": false,
+            "fontFamilies": [
+                {
+                    "slug": "raleway-serif-font",
+                    "name": "Raleway Serif Font",
+                    "fontFamily": "'Raleway', sans-serif"
+                },
+                {
+                    "slug": "open-sans-serif-font",
+                    "name": "Open Sans Serif Font",
+                    "fontFamily": "'Open Sans', sans-serif"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "tiny",
+                    "name": "Tiny",
+                    "size": "0.8125rem"
+                },
+                {
+                    "slug": "small",
+                    "name": "Small",
+                    "size": "0.9375rem"
+                },
+                {
+                    "slug": "medium",
+                    "name": "Medium",
+                    "size": "1.25rem"
+                },
+                {
+                    "slug": "large",
+                    "name": "Large",
+                    "size": "1.75rem"
+                },
+                {
+                    "slug": "xlarge",
+                    "name": "Xlarge",
+                    "size": "2rem"
+                },
+                {
+                    "slug": "huge",
+                    "name": "Huge",
+                    "size": "2.875rem"
+                },
+                {
+                    "slug": "gigantic",
+                    "name": "Gigantic",
+                    "size": "3.25rem"
+                },
+                {
+                    "slug": "colossal",
+                    "name": "Colossal",
+                    "size": "4rem"
+                },
+                {
+                    "slug": "normal",
+                    "name": "Normal",
+                    "size": "1.125rem"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1200px"
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "border": {
+                    "radius": "0"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--primary)",
+                    "text": "var(--wp--preset--color--background)"
+                },
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": "700",
+                    "lineHeight": "var(--wp--custom--typography--line-height--tiny)",
+                    "fontSize": "var(--wp--custom--typography--font-size--huge)",
+                    "letterSpacing": "-.075rem"
+                }
+            },
+            "core/post-comments": {
+                "spacing": {
+                    "padding": {
+                        "top": "var(--wp--custom--spacing--small)"
+                    }
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "1px 0"
+                }
+            },
+            "core/query-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": "700",
+                    "lineHeight": "var(--wp--custom--typography--line-height--small)",
+                    "fontSize": "var(--wp--custom--typography--font-size--huge)"
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "width": "1px"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "lineHeight": "var(--wp--custom--typography--line-height--normal)",
+                    "fontSize": "var(--wp--preset--font-size--medium)",
+                    "fontStyle": "italic",
+                    "fontWeight": "normal"
+                }
+            },
+            "core/heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--highlight)"
+                }
+            }
+        },
+        "color": {
+            "background": "var(--wp--preset--color--background)",
+            "text": "var(--wp--preset--color--foreground)"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": 700,
+                    "lineHeight": "var(--wp--custom--typography--line-height--medium)",
+                    "fontSize": "var(--wp--custom--typography--font-size--huge)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": 700,
+                    "lineHeight": "var(--wp--custom--typography--line-height--medium)",
+                    "fontSize": "var(--wp--custom--typography--font-size--xlarge)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": 700,
+                    "lineHeight": "var(--wp--custom--typography--line-height--medium)",
+                    "fontSize": "var(--wp--custom--typography--font-size--xlarge)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": 700,
+                    "lineHeight": "var(--wp--custom--typography--line-height--medium)",
+                    "fontSize": "var(--wp--custom--typography--font-size--large)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": 700,
+                    "lineHeight": "var(--wp--custom--typography--line-height--medium)",
+                    "fontSize": "var(--wp--custom--typography--font-size--medium)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway-serif-font)",
+                    "fontWeight": 700,
+                    "lineHeight": "var(--wp--custom--typography--line-height--medium)",
+                    "fontSize": "var(--wp--custom--typography--font-size--small)"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--primary)"
+                }
+            }
+        },
+        "spacing": {
+            "blockGap": "calc(2 * var(--wp--custom--gap--baseline))"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--open-sans-serif-font)",
+            "lineHeight": "var(--wp--custom--typography--line-height--normal)",
+            "fontSize": "var(--wp--preset--font-size--normal)"
+        }
+    }
+}

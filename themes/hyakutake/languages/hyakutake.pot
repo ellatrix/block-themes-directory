@@ -1,0 +1,354 @@
+# Copyright (C) {2022} Firefly Themes
+msgid ""
+msgstr ""
+"Project-Id-Version: Hyakutake 1.0.0\n"
+"Report-Msgid-Bugs-To: https://fireflythemes.com/support/\n"
+"POT-Creation-Date: 2022-11-21 09:47:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Firefly Themes <info@fireflythemes.com>\n"
+"Language-Team: Firefly Themes <info@fireflythemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: patterns/404.php:10
+msgid "0"
+msgstr ""
+
+#: patterns/404.php:10
+msgid "4"
+msgstr ""
+
+#: functions.php:39
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/about-admin/templates/admin-plugin-notice.php:10
+msgid "Howdy, Welcome to"
+msgstr ""
+
+#: inc/about-admin/templates/admin-plugin-notice.php:10
+msgid "Hyakutake!"
+msgstr ""
+
+#: inc/about-admin/templates/admin-plugin-notice.php:11
+msgid ""
+"Do you know you can get more features in Hyakutake? Upgrade to Hyakutake "
+"Pro!!!"
+msgstr ""
+
+#: inc/about-admin/templates/admin-plugin-notice.php:12
+msgid "Hyakutake Pro Details"
+msgstr ""
+
+#: inc/about-admin/templates/admin-plugin-notice.php:13
+msgid "Learn more about Hyakutake Pro Theme"
+msgstr ""
+
+#: inc/about-admin/templates/theme-info.php:18
+msgid "Multipurpose WordPress Full Site Editing Theme"
+msgstr ""
+
+#: inc/about-admin/templates/theme-info.php:31
+#: inc/about-admin/templates/theme-info.php:239
+msgid "Documentation"
+msgstr ""
+
+#: inc/about-admin/templates/theme-info.php:35
+#: inc/about-admin/templates/theme-info.php:243
+msgid "Get Support"
+msgstr ""
+
+#: inc/about-admin/templates/theme-info.php:47
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/about-admin/theme-info.php:6
+msgid "Hyakutake Theme"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hyakutake"
+msgstr ""
+
+#: patterns/404.php:14
+msgid "PhotoThis page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/cases.php:13
+msgid "Our Service"
+msgstr ""
+
+#: patterns/cases.php:17
+msgid "Consulting Cases"
+msgstr ""
+
+#: patterns/cases.php:32
+msgid "Financial Consulting<"
+msgstr ""
+
+#: patterns/cases.php:36 patterns/cases.php:68 patterns/cases.php:100
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt "
+"pulvinar neque, in scelerisque velit auctor ut. Aliquam nec volutpat"
+msgstr ""
+
+#: patterns/cases.php:41 patterns/cases.php:73 patterns/cases.php:105
+#: patterns/hero-content.php:34
+msgid "How to imaprove your business"
+msgstr ""
+
+#: patterns/cases.php:45 patterns/cases.php:77 patterns/cases.php:109
+#: patterns/hero-content.php:38
+msgid "Business is the best plan in the world"
+msgstr ""
+
+#: patterns/cases.php:49 patterns/cases.php:81 patterns/cases.php:113
+#: patterns/hero-content.php:42
+msgid "How to start your own Business"
+msgstr ""
+
+#: patterns/cases.php:55 patterns/cases.php:87 patterns/cases.php:119
+#: patterns/services.php:47 patterns/services.php:73 patterns/services.php:99
+#: patterns/services.php:127 patterns/services.php:153
+#: patterns/services.php:179
+msgid "Know More"
+msgstr ""
+
+#: patterns/cases.php:64
+msgid "Investment Planning"
+msgstr ""
+
+#: patterns/cases.php:96
+msgid "Relationship Buildup"
+msgstr ""
+
+#: patterns/default-footer.php:14 patterns/default-footer.php:32
+#: patterns/main-banner.php:31
+msgid "About Us"
+msgstr ""
+
+#: patterns/default-footer.php:19
+msgid ""
+"There are many variations of passages of Lorem Ipsum available, but the "
+"majority have suffered alteration in some form, by injected humour"
+msgstr ""
+
+#: patterns/default-footer.php:26
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/default-footer.php:36 patterns/services.php:12
+msgid "Services"
+msgstr ""
+
+#: patterns/default-footer.php:40
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/default-footer.php:44
+msgid "FAQ"
+msgstr ""
+
+#: patterns/default-footer.php:48
+msgid "Our Vision"
+msgstr ""
+
+#: patterns/default-footer.php:56
+msgid "Quick Contact"
+msgstr ""
+
+#: patterns/default-footer.php:71 patterns/default-header.php:21
+msgid "+123 456 789"
+msgstr ""
+
+#: patterns/default-footer.php:85 patterns/default-header.php:35
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/default-footer.php:99
+msgid "Sumter, SC 29150"
+msgstr ""
+
+#: patterns/default-footer.php:113
+msgid "9 AM  - 5 PM"
+msgstr ""
+
+#: patterns/default-footer.php:122
+msgid "Gallery"
+msgstr ""
+
+#: patterns/default-footer.php:160
+msgid "Proudly powered by "
+msgstr ""
+
+#: patterns/default-footer.php:160
+msgid "Firefly Themes"
+msgstr ""
+
+#: patterns/default-footer.php:160
+msgid "and"
+msgstr ""
+
+#: patterns/default-footer.php:160
+msgid "WordPress"
+msgstr ""
+
+#: patterns/default-header.php:49
+msgid "Sumter,SC 29150"
+msgstr ""
+
+#: patterns/default-header.php:83
+msgid "Get A Quote"
+msgstr ""
+
+#: patterns/hero-content.php:13
+msgid "25 Years + Experience"
+msgstr ""
+
+#: patterns/hero-content.php:21
+msgid "About the Agency"
+msgstr ""
+
+#: patterns/hero-content.php:25
+msgid "Work Together for a Business Success"
+msgstr ""
+
+#: patterns/hero-content.php:29
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua lonm andhn."
+msgstr ""
+
+#: patterns/hero-content.php:48
+msgid "About More"
+msgstr ""
+
+#: patterns/latest-news.php:12
+msgid "From Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:16
+msgid "Recent News"
+msgstr ""
+
+#: patterns/latest-news.php:43
+msgid "Explore More"
+msgstr ""
+
+#: patterns/main-banner.php:14
+msgid "We Create Digital Product"
+msgstr ""
+
+#: patterns/main-banner.php:18
+msgid "Business Solutions For All Enterprises"
+msgstr ""
+
+#: patterns/main-banner.php:22
+msgid ""
+"We design an elegant set of WordPress Themes &amp; Plugins  t help you "
+"create the website you always wanted!"
+msgstr ""
+
+#: patterns/main-banner.php:27
+msgid "Get Started"
+msgstr ""
+
+#: patterns/services.php:16
+msgid "What We Do?"
+msgstr ""
+
+#: patterns/services.php:38
+msgid "Creative Solutions"
+msgstr ""
+
+#: patterns/services.php:42 patterns/services.php:68 patterns/services.php:94
+#: patterns/services.php:122 patterns/services.php:148
+#: patterns/services.php:174
+msgid ""
+"We design an elegant set of WordPress Themes &amp; Plugins to help you "
+"create"
+msgstr ""
+
+#: patterns/services.php:64
+msgid "Finanancial Strategy"
+msgstr ""
+
+#: patterns/services.php:90
+msgid "Marketing Strategy"
+msgstr ""
+
+#: patterns/services.php:118
+msgid "Keyword Research"
+msgstr ""
+
+#: patterns/services.php:144
+msgid "Web Development"
+msgstr ""
+
+#: patterns/services.php:170
+msgid "Restructuring"
+msgstr ""
+
+#: patterns/sidebar.php:19
+msgid "Recent Categories"
+msgstr ""
+
+#: patterns/sidebar.php:37
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/sidebar.php:55
+msgid "Post Archive"
+msgstr ""
+
+#: patterns/sidebar.php:75
+msgid "Catogery Tags"
+msgstr ""
+
+#: patterns/sidebar.php:93
+msgid "Connect With Us"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://fireflythemes.com/themes/hyakutake"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Hyakutake is a multipurpose business WordPress theme for full site editing, "
+"it comes with different customizable easy to use patterns. Using these "
+"patterns, you can easily use this theme for simple blog, business, "
+"portfolio websites. Along with being full site editing theme, Hyakutake is "
+"built with updated secured codes and elegant fresh design. The theme also "
+"offers ready-made templates too, there are 9 different templates and 3 "
+"template parts. You can easily edit, add remove patterns in each template. "
+"Hyakutake has patterns like 404 Error Page, Archive Title, Cases, Default "
+"Footer, Default Header, Hero Content, Latest News, Services and so on. With "
+"these prebuilt patterns you can easily customize it according to your need. "
+"It gives you the flexibility to customize colors and fonts, header and "
+"footer areas too. Hyakutake is responsive theme which fits perfectly in any "
+"devices. If you want more advance features, you can check out premium "
+"version of Hyakutake. Do check out demo of Hyakutake to have ideas to built "
+"your website and add the content."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ffthemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fireflythemes.org/"
+msgstr ""

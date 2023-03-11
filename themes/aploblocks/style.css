@@ -1,0 +1,84 @@
+/*
+Theme Name: AploBlocks
+Theme URI: http://www.aploweb.com/aploblocks
+Author: aploweb.com
+Author URI: https://www.aploweb.com
+Description: AploBlocks is a block based theme with full support for the Block Editor includng custome colors, typography and full customisation of page layouts.  It comes with over 20 patterns to help you build your pages the way you want them.  This theme includes extra styling options for blocks to allow entrance animations, filters & transforms with no coding knowledge needed.  Suitable for all kinds of websites tailored to exactly fit your needs.
+Requires at least: 6.1
+Tested up to: 6.1.1
+Requires PHP: 7.4
+Version: 0.8.5
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: aploblocks
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+body {
+    --aplo-filter-string:"none";
+    --aplo-filter-hover-string:"none";
+    --aplo-transform-string:"none";
+    --aplo-transform-hover-string:"none";
+
+    /* filter drop-shadow  */
+    --aplo-fdsc:0,0,0; /* color */
+    --aplo-fdso:0.7; /* opacity */
+
+    /* box-shadow values */
+    --aplo-box-shadow-small: 0px 3px 3px 0 rgba(0, 0, 0, 0.6);
+    --aplo-box-shadow-med: 0px 7px 7px 0 rgba(0, 0, 0, 0.6);
+    --aplo-box-shadow-large: 12px 12px 12px 0 rgba(0, 0, 0, 0.6);
+
+    /* the default transition for hover */
+    --aplo-thdu : 350ms;
+    --aplo-thti : ease-out;
+
+    /* the default transition for entrance */
+    --aplo-tedu : 900ms;
+    --aplo-tede : 0ms;
+    --aplo-teti : ease-out;
+
+    /* defaults for animation */
+    --aplo-andu : 5s;
+    --aplo-anit : infinite;
+
+    /* the default clip amount for masks */
+    --aplo-clip:10%;
+
+  }
+
+
+/* general theme styling */
+
+/* responsive nav styling */
+
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open ul.wp-block-navigation__container{
+    width:100%;
+    gap:0.5rem;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .submenu-container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+  padding-left:30px;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+  padding-top:5px;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open ul.wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content {
+    background-color:rgba(255,255,255,0.03)!important;
+    width:100%;
+    padding:5px 10px;
+    border-radius:10px;
+    box-sizing:border-box;
+
+}
+
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open ul.wp-block-navigation__container > li {
+    width:100%;
+    background-color:rgba(255,255,255,0.03)!important;
+    border-radius:10px;
+    padding:0 0 5px 0;
+    margin:3px;
+    box-shadow:var(--aplo-box-shadow-small);
+}

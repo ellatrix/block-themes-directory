@@ -1,0 +1,33 @@
+<?php
+/**
+ * Gutenverse content.
+ */
+return array(
+	'title'      => __( 'Gutenverse Home Progress Bar', 'echelon-fse' ),
+	'categories' => array( 'echelon-fse-gutenverse' ),
+	'content'    => '<!-- wp:gutenverse/section {"width":{"Desktop":"1200"},"gap":"no","elementId":"guten-Q70kDD","border":{"radius":{"Desktop":{}}},"margin":{"Desktop":{},"Mobile":{},"Tablet":{}},"padding":{"Desktop":{"unit":"px","dimension":{"top":"40","bottom":"60","right":"","left":""}},"Mobile":{},"Tablet":{"unit":"px","dimension":{"right":"10","left":"10","bottom":"20"}}},"hideMobile":false} -->
+<div class="section-wrapper" data-id="Q70kDD"><section class="wp-block-gutenverse-section guten-element guten-section guten-Q70kDD layout-boxed align-stretch"><div class="guten-background-overlay"></div><div class="guten-shape-divider guten-shape-divider-top"></div><div class="guten-shape-divider guten-shape-divider-bottom"></div><div class="guten-container guten-column-gap-no"><!-- wp:gutenverse/column {"width":{"Desktop":52.4,"Tablet":51},"elementId":"guten-kN6Ry0","order":{"Tablet":2},"verticalAlign":{"Desktop":"default","Tablet":"center"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"-18","right":"","bottom":"","left":""}},"Tablet":{"unit":"px","dimension":{"top":""}},"Mobile":{}},"padding":{"Desktop":{"unit":"px","dimension":{"right":"60","top":"0","bottom":"0","left":"0"}},"Tablet":{"unit":"px","dimension":{"right":"0","top":"","bottom":"","left":"40"}},"Mobile":{"unit":"px","dimension":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-kN6Ry0"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="kN6Ry0"><div class="guten-column-wrapper"><!-- wp:gutenverse/progress-bar {"elementId":"guten-HlU2Xq","title":"Advertising","percentage":"95","duration":"3500","barColor":{"r":249,"g":249,"b":249,"a":1},"trackColor":{"type":"variable","id":"third"},"trackHeight":{"Desktop":"8"},"barRadius":{"Desktop":{}},"trackRadius":{"Desktop":{}},"barPadding":{"Desktop":{"unit":"px","dimension":{"top":"","right":"","bottom":"","left":""}}},"barMargin":{"Desktop":{"unit":"px","dimension":{"top":"","right":"","bottom":"","left":""}}},"titleColor":{"type":"variable","id":"primary"},"titleTypography":{"type":"variable","id":"title-18-font"},"percentColor":{"r":71,"g":77,"b":83,"a":1},"percentTypography":{"type":"variable","id":"text-font"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"0","right":"0","bottom":"0","left":"0"}}},"padding":{"Desktop":{"unit":"px","dimension":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<div class="guten-element guten-progress-bar guten-HlU2Xq"><div class="progress-group"><div class="progress-skill-bar"><div class="skill-bar-content"><span class="skill-title">Advertising</span></div><div class="skill-bar"><div class="skill-track" data-width="95" data-duration="3500"><div class="number-percentage-wrapper"><span class="number-percentage loaded"></span></div></div></div></div></div></div>
+<!-- /wp:gutenverse/progress-bar -->
+
+<!-- wp:gutenverse/progress-bar {"elementId":"guten-siAFUf","title":"Design","percentage":"92","duration":"3500","barColor":{"r":249,"g":249,"b":249,"a":1},"trackColor":{"type":"variable","id":"third"},"trackHeight":{"Desktop":"8"},"barRadius":{"Desktop":{},"Mobile":{}},"trackRadius":{"Desktop":{},"Mobile":{}},"barPadding":{"Desktop":{},"Mobile":{}},"barMargin":{"Desktop":{},"Mobile":{}},"titleColor":{"type":"variable","id":"primary"},"titleTypography":{"type":"variable","id":"title-18-font"},"percentColor":{"r":71,"g":77,"b":83,"a":1},"percentTypography":{"type":"variable","id":"text-font"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"10"}}},"padding":{"Desktop":{}}} -->
+<div class="guten-element guten-progress-bar guten-siAFUf"><div class="progress-group"><div class="progress-skill-bar"><div class="skill-bar-content"><span class="skill-title">Design</span></div><div class="skill-bar"><div class="skill-track" data-width="92" data-duration="3500"><div class="number-percentage-wrapper"><span class="number-percentage loaded"></span></div></div></div></div></div></div>
+<!-- /wp:gutenverse/progress-bar -->
+
+<!-- wp:gutenverse/progress-bar {"elementId":"guten-CgQj4P","title":"Technology","percentage":"89","duration":"3500","barColor":{"r":249,"g":249,"b":249,"a":1},"trackColor":{"type":"variable","id":"third"},"trackHeight":{"Desktop":"8"},"barRadius":{"Desktop":{},"Tablet":{}},"trackRadius":{"Desktop":{},"Tablet":{}},"barPadding":{"Desktop":{},"Tablet":{}},"barMargin":{"Desktop":{},"Tablet":{}},"titleColor":{"type":"variable","id":"primary"},"titleTypography":{"type":"variable","id":"title-18-font"},"percentColor":{"r":71,"g":77,"b":83,"a":1},"percentTypography":{"type":"variable","id":"text-font"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"10"}}},"padding":{"Desktop":{}}} -->
+<div class="guten-element guten-progress-bar guten-CgQj4P"><div class="progress-group"><div class="progress-skill-bar"><div class="skill-bar-content"><span class="skill-title">Technology</span></div><div class="skill-bar"><div class="skill-track" data-width="89" data-duration="3500"><div class="number-percentage-wrapper"><span class="number-percentage loaded"></span></div></div></div></div></div></div>
+<!-- /wp:gutenverse/progress-bar --></div></div></div>
+<!-- /wp:gutenverse/column -->
+
+<!-- wp:gutenverse/column {"width":{"Desktop":47.6,"Tablet":49,"Mobile":null},"elementId":"guten-N60hAH","order":{"Tablet":1},"verticalAlign":{"Desktop":"center"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"10"}},"Mobile":{}},"padding":{"Desktop":{},"Mobile":{"unit":"px","dimension":{"top":"0","right":"0","left":"0","bottom":"20"}}},"animation":{"type":{"Desktop":"fadeInRight"},"duration":"normal"}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-N60hAH animated guten-element-hide desktop-fadeInRight"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="N60hAH"><div class="guten-column-wrapper"><!-- wp:gutenverse/heading {"elementId":"guten-4l1kOw","type":3,"color":{"type":"variable","id":"secondary"},"typography":{"type":"variable","id":"subtitle-font"}} -->
+<h3 class="wp-block-gutenverse-heading guten-element guten-4l1kOw">What We Do</h3>
+<!-- /wp:gutenverse/heading -->
+
+<!-- wp:gutenverse/heading {"elementId":"guten-1fjmgq","color":{"type":"variable","id":"primary"},"typography":{"type":"variable","id":"h2-font"}} -->
+<h2 class="wp-block-gutenverse-heading guten-element guten-1fjmgq">Make Your Business Always Grow Confidently</h2>
+<!-- /wp:gutenverse/heading --></div></div></div>
+<!-- /wp:gutenverse/column --></div></section></div>
+<!-- /wp:gutenverse/section -->',
+);

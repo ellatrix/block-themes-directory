@@ -1,0 +1,73 @@
+:root {
+	--startupzy-transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+body .startupzy-animate-init {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) translateX(0) scale(1) rotate(0)
+}
+
+.startupzy-animate {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, transform;
+}
+
+.startupzy-move-up {
+    transform: translateY(30px)
+}
+
+.startupzy-move-down {
+    transform: translateY(-30px)
+}
+
+.startupzy-move-right {
+    transform: translateX(-40px)
+}
+
+.startupzy-move-left {
+    transform: translateX(40px)
+}
+
+.startupzy-flip {
+    transform: perspective(500px) translateY(60px) scaleY(.75) rotateX(-40deg)
+}
+
+.startupzy-scale {
+    transform: scale(0.5)
+}
+
+.startupzy-flip,
+.startupzy-move-down,
+.startupzy-move-up,
+.startupzy-move-right,
+.startupzy-move-left,
+.startupzy-scale {
+    transition-duration: .7s;
+    transition-timing-function: var(--startupzy-transition)
+}
+
+.startupzy-delay-1 {
+    transition-delay: .1s
+}
+
+.startupzy-delay-3 {
+    transition-delay: .3s
+}
+
+.startupzy-delay-5 {
+    transition-delay: .5s
+}
+
+.startupzy-delay-7 {
+    transition-delay: .7s
+}
+
+.startupzy-delay-10 {
+    transition-delay: 1s
+}
+
+.startupzy-delay-20 {
+    transition-delay: 2s
+}

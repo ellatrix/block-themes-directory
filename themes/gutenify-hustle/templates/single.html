@@ -1,0 +1,69 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group -->
+<div class="wp-block-group">
+  <!-- wp:pattern {"slug":"gutenify-hustle/cover-with-post-title"} /-->
+
+  <!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"80px","right":"20px","bottom":"80px","left":"20px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+  <main
+    class="wp-block-group"
+    style="
+      padding-top: 80px;
+      padding-right: 20px;
+      padding-bottom: 80px;
+      padding-left: 20px;
+    "
+  >
+    <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background-secondary","className":"has-no-hover-shadow-dark animated animated-fadeInUp","layout":{"type":"default"}} -->
+    <div
+      class="wp-block-group alignwide has-no-hover-shadow-dark animated animated-fadeInUp has-background-secondary-background-color has-background"
+      style="
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+      "
+    >
+      <!-- wp:post-featured-image {"align":"full","style":{"spacing":{"margin":{"bottom":"0px","top":"0px","right":"0px","left":"0px"}}}} /-->
+
+      <!-- wp:group {"align":"full","layout":{"type":"flex","allowOrientation":false,"justifyContent":"left","flexWrap":"wrap"}} -->
+      <div class="wp-block-group alignfull">
+        <!-- wp:post-author {"showBio":false} /-->
+
+        <!-- wp:post-date /-->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:post-content {"align":"full","layout":{"inherit":false}} /-->
+
+      <!-- wp:group {"align":"full","layout":{"inherit":true,"type":"constrained"}} -->
+      <div class="wp-block-group alignfull">
+        <!-- wp:group {"align":"full","layout":{"type":"flex","justifyContent":"space-between"}} -->
+        <div class="wp-block-group alignfull">
+          <!-- wp:post-terms {"term":"category","fontSize":"small"} /-->
+
+          <!-- wp:post-terms {"term":"post_tag","fontSize":"small"} /-->
+        </div>
+        <!-- /wp:group -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"80px","padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background-secondary","className":"has-no-hover-shadow-dark animated animated-fadeInUp fadeInUp","layout":{"inherit":true,"type":"constrained"}} -->
+    <div
+      class="wp-block-group alignwide has-no-hover-shadow-dark animated animated-fadeInUp fadeInUp has-background-secondary-background-color has-background"
+      style="
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+      "
+    >
+      <!-- wp:comments {"legacy":true,"align":"wide","className":"no-margin no-padding"} /-->
+    </div>
+    <!-- /wp:group -->
+  </main>
+  <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

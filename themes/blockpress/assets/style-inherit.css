@@ -1,0 +1,12 @@
+a:focus, button{outline:0}
+input[type=button],
+input[type=email],
+input[type=search],
+input[type=submit],
+input[type=text],
+textarea,
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: 0;
+}

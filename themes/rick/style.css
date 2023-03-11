@@ -1,0 +1,40 @@
+/*
+Theme Name: Rick
+Theme URI: https://www.wpentire.com/fse-theme-for-wordpress/
+Author: wpentire
+Author URI: https://wpentire.com/
+Description: Experemential FSE WordPress theme.
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 7.2
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rick
+Tags: full-site-editing, blog
+*/
+
+a {
+	cursor: pointer;
+	text-underline-offset: 3px;
+	text-decoration-skip-ink: all;
+}
+
+footer.wp-block-template-part {
+    padding: 0;
+    margin: -30px -8px -8px -8px;
+}
+.wp-block-latest-posts.wp-block-latest-posts__list {
+    list-style: auto;
+    padding-left: 19px;
+}
+.wp-block-latest-posts.wp-block-latest-posts__list li{
+    line-height: 2;
+}
+ul.wp-block-categories-list.footer-categories.wp-block-categories {
+    list-style: none;
+    padding-left: 3px;
+}
+ul.wp-block-categories-list.footer-categories.wp-block-categories a{
+    line-height: 2;
+}

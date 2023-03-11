@@ -1,0 +1,52 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"20px","bottom":"80px","left":"20px"},"blockGap":"0px"},"color":{"background":"#fbfbfb"}},"layout":{"inherit":true}} -->
+<div
+	class="wp-block-group has-background"
+	style="
+		background-color: #fbfbfb;
+		padding-top: 40px;
+		padding-right: 20px;
+		padding-bottom: 80px;
+		padding-left: 20px;
+	"
+>
+	<!-- wp:pattern {"slug":"gutenify-magazine/feature-post-column"} /-->
+
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"30px"}}}} -->
+	<div class="wp-block-group alignwide" style="padding-bottom: 30px">
+		<!-- wp:columns {"align":"wide"} -->
+		<div class="wp-block-columns alignwide">
+
+			<!-- wp:column {"width":"75%","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+			<div
+				class="wp-block-column"
+				style="
+					padding-top: 0px;
+					padding-right: 0px;
+					padding-bottom: 0px;
+					padding-left: 0px;
+					flex-basis: 75%;
+				"
+			>
+				<!-- wp:pattern {"slug":"gutenify-magazine/post-listing-hidden-content"} /-->
+				<!-- wp:pattern {"slug":"gutenify-magazine/advertisement-banner"} /-->
+			</div>
+			<!-- /wp:column -->
+			<!-- wp:column -->
+			<div class="wp-block-column"></div>
+			<!-- /wp:column -->
+			<!-- wp:column {"width":"25%"} -->
+			<div class="wp-block-column" style="flex-basis: 25%">
+				<!-- wp:template-part {"slug":"sidebar","theme":"gutenify-magazine","tagName":"div"} /-->
+			</div>
+			<!-- /wp:column -->
+
+
+
+		</div>
+		<!-- /wp:columns -->
+	</div>
+	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

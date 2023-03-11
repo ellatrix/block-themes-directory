@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wp-site-blocks {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+// Push footer to bottom.
+footer {
+	margin-block-start: auto !important;
+}
+
+.wp-block-spacer {
+	margin-block-start: 0 !important;
+}

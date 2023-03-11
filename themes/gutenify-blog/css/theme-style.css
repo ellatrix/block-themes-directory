@@ -1,0 +1,7 @@
+.wp-block-navigation ul li a:hover,
+.wp-block-navigation ul li a:focus,
+.wp-block-navigation ul li a:active {
+    color: #ffc107;
+}
+
+

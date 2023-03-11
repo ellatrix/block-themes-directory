@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+	cursor: pointer;
+}
+
+.wp-block-button__link {
+	border: 1px solid transparent;
+}
+
+.ona-read-more-button:hover,
+.ona-read-more-button:focus,
+.wp-block-button.wp-block-button__link:hover,
+.wp-block-button.wp-block-button__link:focus,
+.wp-block-button.wp-block-button__link.has-focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus,
+.wp-block-button .wp-block-button__link.has-focus {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+.ona-read-more-button:hover,
+.ona-read-more-button:focus {
+	color: #000 !important;
+}
+
+.is-style-outline > :where(.wp-block-button__link),
+:where(.wp-block-button__link).is-style-outline {
+	border: 1px solid;
+
+	&:hover {
+		border-color: transparent !important;
+		color: #fff !important;
+		background-color: var(--wp--preset--color--primary) !important;
+	}
+}
+
+// Fix for outline buttons padding and stroke width
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	padding: calc(1.215em + 2px) calc(2em + 2px);
+	border-width: 1px;
+}

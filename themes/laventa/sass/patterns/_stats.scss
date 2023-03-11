@@ -1,0 +1,33 @@
+/* --- Block Stats
+-------------------------------------------------------- */
+
+.wp-block-stats .wp-block-stats-content h2:before {
+    content: "";
+    border-bottom: 5px solid var(--wp--preset--color--text-link);
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: clamp(7px, 1vw, 13px);
+    left: 0;
+    z-index: -1;
+}
+
+.wp-block-stats .wp-block-stats-content h2 {
+    font-size: clamp(40px, 4.5vw, 70px);
+    line-height: 1.3;
+    position: relative;
+    display: inline-block;
+}
+
+.wp-block-stats .wp-block-stats-content>*+* {
+    margin-block-start: 7px;
+}
+
+.wp-block-stats .wp-block-stats-content p {
+    opacity: 0.5;
+    line-height: var(--wp--custom--typography--line-height--paragraph);
+}
+
+.wp-block-stats .wp-block-column {
+    text-align: center;
+}

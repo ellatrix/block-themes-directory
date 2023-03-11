@@ -1,0 +1,113 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+a:hover {
+  text-decoration: underline!important;
+}
+.wp-block-post-content a, .comment-content a,.wp-block-post-excerpt a{
+  text-decoration: underline!important;
+}
+
+@media (min-width: 568px) {
+  .wp-block-navigation ul li, .wp-block-navigation-item {
+    margin-right: 20px!important;
+  }
+}
+.page-numbers{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.wp-block-query-pagination-numbers .current{
+  font-weight: bolder;
+}
+/*--------------------------------------------------------------
+# Post Comments
+--------------------------------------------------------------*/
+.wp-block-post-comments .comment-meta {
+  margin-left: 0!important;
+}
+
+.wp-block-post-comments .reply {
+  font-size: .75em;
+  margin-bottom: 1.4em;
+  margin-left: 10px;
+}
+
+.wp-block-post-comments {
+  padding-top: 0!important;
+}
+
+.wp-block-post-comments > h3:first-of-type {
+  margin-top: 0!important;
+}
+
+.blog-single-section .comment-respond form textarea {
+  border: 1px solid darkgray!important;
+}
+
+.wp-block-post-comments .commentlist .comment-content p {
+  margin-left: 10px!important;
+
+}
+
+.wp-block-post-comments .commentlist li {
+  padding: 10px !important;
+}
+
+.wp-block-post-comments .form-submit {
+  text-align: center!important;
+}
+
+.wp-block-post-comments .comment-area {
+  max-width: 720px !important;
+}
+
+/*--------------------------------------------------------------
+# Block Post Content
+--------------------------------------------------------------*/
+.post-bottom-area {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+}
+
+/*--------------------------------------------------------------
+# Block Post Content
+--------------------------------------------------------------*/
+.back-to-top {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--background);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border: 2px solid var(--wp--preset--color--background);
+  border-radius: 45px;
+  text-align: center;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 15px;
+  bottom: 15px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media (max-width: 991px) {
+  .back-to-top {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
+
+
+.back-to-top i {
+  font-size: 18px;
+  font-size: 1.2rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

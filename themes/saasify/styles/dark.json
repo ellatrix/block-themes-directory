@@ -1,0 +1,109 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Dark Mode",
+  "settings": {
+    "custom": {
+      "darkMode": {
+        "palette": {
+          "contrast": "#070b1b",
+          "heading": "#1d243c",
+          "body": "#3f4c7c",
+          "shadow": "#b7afff1c",
+          "outline": "#d0d4e3",
+          "surface": "#f6f6f9",
+          "base": "#ffffff"
+        }
+      }
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#fff",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#f6f6f9",
+          "name": "Heading",
+          "slug": "heading"
+        },
+        {
+          "color": "#d0d4e3",
+          "name": "Body",
+          "slug": "body"
+        },
+        {
+          "color": "#3f4c7c",
+          "name": "Outline",
+          "slug": "outline"
+        },
+        {
+          "color": "#1d243c",
+          "name": "Surface",
+          "slug": "surface"
+        },
+        {
+          "color": "#070b1b",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "currentColor",
+          "name": "Current Color",
+          "slug": "currentColor"
+        },
+        {
+          "color": "inherit",
+          "name": "Inherit",
+          "slug": "inherit"
+        },
+        {
+          "color": "transparent",
+          "name": "Transparent",
+          "slug": "transparent"
+        },
+        {
+          "color": "inherit",
+          "name": "Inherit",
+          "slug": "inherit"
+        },
+        {
+          "color": "transparent",
+          "name": "Transparent",
+          "slug": "transparent"
+        },
+        {
+          "color": "#b7afff1c",
+          "name": "Shadow",
+          "slug": "shadow"
+        },
+        {
+          "color": "#4c00ff3b",
+          "name": "Gradient One",
+          "slug": "gradient-one"
+        },
+        {
+          "color": "#00c1ff47",
+          "name": "Gradient Two",
+          "slug": "gradient-two"
+        },
+        {
+          "color": "#00e4ff3b",
+          "name": "Gradient Three",
+          "slug": "gradient-three"
+        },
+        {
+          "color": "#0039FF3D",
+          "name": "Gradient Four",
+          "slug": "gradient-four"
+        },
+        {
+          "color": "#5800ff4a",
+          "name": "Gradient Five",
+          "slug": "gradient-five"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonone .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: var(--wp--preset--color--secondary);
+    color: var(--wp--preset--color--primary);
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.is-style-custombuttonone:hover .wp-block-button__link {
+    background-color: #FFFFFF;
+    color: var(--wp--preset--color--primary);
+}
+
+.is-style-custombuttontwo .wp-block-button__link {
+    padding: 20px 40px;
+    background-color: var(--wp--preset--color--secondary);
+    color: var(--wp--preset--color--primary);
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.is-style-custombuttontwo:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--primary);
+    color: #FFFFFF;
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 3px 15px 0px #1010101a;
+}
+
+
+/* ACCOUNTRA ADVANCE CLASSES */
+
+.accountra-z-index-1 {
+    z-index: 1;
+}
+
+.accountra-z-index-10 {
+    z-index: 10;
+}
+
+.accountra-z-index-100 {
+    z-index: 100;
+}
+
+.accountra-z-index-1000 {
+    z-index: 1000;
+}
+
+.accountra-margin-top-n10 {
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.accountra-margin-top-n20 {
+    position: relative;
+    margin-top: -20px!important;
+}
+
+.accountra-margin-top-n30 {
+    position: relative;
+    margin-top: -30px!important;
+}
+
+.accountra-margin-top-n40 {
+    position: relative;
+    margin-top: -40px!important;
+}
+
+.accountra-margin-top-n50 {
+    position: relative;
+    margin-top: -50px!important;
+}
+
+.accountra-margin-top-n60 {
+    position: relative;
+    margin-top: -60px!important;
+}
+
+.accountra-margin-top-n70 {
+    position: relative;
+    margin-top: -70px!important;
+}
+
+.accountra-margin-top-n80 {
+    position: relative;
+    margin-top: -80px!important;
+}
+
+.accountra-margin-top-n90 {
+    position: relative;
+    margin-top: -90px!important;
+}
+
+.accountra-margin-top-n100 {
+    position: relative;
+    margin-top: -100px!important;
+}
+
+.accountra-margin-top-n300 {
+    position: relative;
+    margin-top: -300px!important;
+}
+
+.accountra-radius-5 {
+    border-radius: 5px;
+}
+
+.accountra-radius-10 {
+    border-radius: 10px;
+}
+
+.accountra-radius-25 {
+    border-radius: 25px;
+}
+
+.accountra-radius-50 {
+    border-radius: 50px;
+}
+
+.accountra-margin-left-n10 {
+    position: relative;
+    margin-left: -10px!important;
+}
+
+.accountra-margin-left-n20 {
+    position: relative;
+    margin-left: -20px!important;
+}
+
+.accountra-margin-left-n30 {
+    position: relative;
+    margin-left: -30px!important;
+}
+
+.accountra-margin-left-n40 {
+    position: relative;
+    margin-left: -40px!important;
+}
+
+.accountra-margin-left-n50 {
+    position: relative;
+    margin-left: -50px!important;
+}
+
+.accountra-margin-left-n60 {
+    position: relative;
+    margin-left: -60px!important;
+}
+
+.accountra-margin-left-n70 {
+    position: relative;
+    margin-left: -70px!important;
+}
+
+.accountra-margin-left-n80 {
+    position: relative;
+    margin-left: -80px!important;
+}
+
+.accountra-margin-left-n90 {
+    position: relative;
+    margin-left: -90px!important;
+}
+
+.accountra-margin-left-n100 {
+    position: relative;
+    margin-left: -100px!important;
+}

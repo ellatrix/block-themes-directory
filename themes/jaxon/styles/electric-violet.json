@@ -1,0 +1,46 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "Electric Violet",
+    "version": 2,
+    "settings": {
+      "color": {
+        "palette": [
+          {
+            "slug": "ti-bg",
+            "color": "#fefaf1",
+            "name": "Background"
+          },
+          {
+            "slug": "ti-fg",
+            "color": "#202020",
+            "name": "Foreground"
+          },
+          {
+            "slug": "ti-bg-alt",
+            "color": "#ffffff",
+            "name": "Background Alt"
+          },
+          {
+            "slug": "ti-bg-inv",
+            "color": "#181818",
+            "name": "Background Dark"
+          },
+          {
+            "slug": "ti-fg-alt",
+            "color": "#f4f4f4",
+            "name": "Foreground Alt"
+          },
+          {
+            "slug": "ti-accent",
+            "color": "#8247FF",
+            "name": "Accent"
+          }
+        ]
+      }
+    },
+    "styles": {
+      "typography": {
+        "fontFamily": "var(--wp--preset--font-family--figtree)"
+      }
+    }
+  }

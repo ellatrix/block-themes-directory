@@ -1,0 +1,70 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"3.5vw"},"padding":{"right":"3.5vw","left":"3.5vw"}}},"className":"site-content","layout":{"contentSize":"1200px"}} -->
+<main class="wp-block-group site-content" style="margin-top:3.5vw;padding-right:3.5vw;padding-left:3.5vw">
+
+	<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"0px"},"blockGap":"3.5vw"}}} -->
+	<div class="wp-block-columns" style="margin-bottom:0px">
+
+		<!-- wp:column {"width":"70%","className":"post-wrapper"} -->
+		<div class="wp-block-column post-wrapper" style="flex-basis: 70%;">
+
+			<!-- wp:group -->
+			<div class="wp-block-group">
+
+				<!-- wp:group {"backgroundColor":"white"} -->
+				<div class="wp-block-group has-white-background-color has-background">
+
+					<!-- wp:heading {"fontSize":"medium"} -->
+					<h2 class="has-medium-font-size" id="search-results">Search Results</h2>
+					<!-- /wp:heading -->
+
+					<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonUseIcon":true} /-->
+
+				</div>
+				<!-- /wp:group -->
+
+				<!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+				<div class="wp-block-query">
+
+					<!-- wp:post-template -->
+
+						<!-- wp:group {"backgroundColor":"white"} -->
+						<div class="wp-block-group has-white-background-color has-background">
+
+							<!-- wp:post-title {"isLink":true} /-->
+							<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e"} /-->
+
+						</div>
+						<!-- /wp:group -->
+
+					<!-- /wp:post-template -->
+
+					<!-- wp:query-pagination {"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+					<!-- wp:query-pagination-numbers /-->
+					<!-- /wp:query-pagination -->
+
+				</div>
+				<!-- /wp:query -->
+				
+			</div>
+			<!-- /wp:group -->
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"30%","className":"sidebar-wrapper"} -->
+		<div class="wp-block-column sidebar-wrapper" style="flex-basis: 30%;">
+
+			<!-- wp:template-part {"slug":"sidebar","tagName":"section"} /-->
+
+		</div>
+		<!-- /wp:column -->
+
+	</div>
+	<!-- /wp:columns -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->

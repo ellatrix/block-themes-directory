@@ -1,0 +1,76 @@
+{
+        "version": 2,
+        "title": "Light",
+        "settings": {
+                "color": {
+                        "gradients": [],
+                        "customGradient": false,
+                    "palette": [
+                            {
+                                    "slug": "primary",
+                                    "color": "#f6f6f6",
+                                    "name": "Primary"
+                            },
+                            {
+                                    "slug": "secondary",
+                                    "color": "#181818",
+                                    "name": "Secondary"
+                            },
+                            {
+                                    "slug": "tertiary",
+                                    "color": "#e7e7e7",
+                                    "name": "Tertiary"
+                            }
+                    ]
+                }
+        },
+        "styles": {
+            "blocks": {
+                    "color": {
+                        "gradients": [],
+                        "customGradient": false,
+                            "background":"var(--wp--preset--color--secondary)",
+                            "text": "var(--wp--preset--color--primary)"
+                    },
+                    "elements": {
+                        "h1": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--primary)"
+                                }
+                        },
+                        "h2": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--primary)"
+                                }
+                        },
+                        "h3": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--primary)"
+                                }
+                        },
+                        "h4": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--primary)"
+                                }
+                        },
+                        "h5": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--primary)"
+                                }
+                        },
+                        "h6": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--primary)"
+                                }
+                        },
+                        "link": {
+                                "color": {
+                                        "text": "var(--wp--preset--color--tertiary)"
+                                }
+                        }
+                }
+            }
+                
+        }
+    }
+    

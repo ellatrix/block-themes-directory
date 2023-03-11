@@ -1,0 +1,19 @@
+/*
+ * Corrections and tweaks.
+ */
+
+/* Theme.json regiested "Enormous" font size needs spacing adjustments */
+.has-enormous-font-size {
+	line-height: 0.78;
+	letter-spacing: -.06em;
+}
+
+/* Row block - change flex-direction for smaller screens */
+@media screen and (max-width: 781px) {
+	.wp-block-group[class*="is-content-justification"]:not(.blockette-no-collapse) {
+		flex-direction: column;
+	}
+	figure {
+		max-width: 100%
+	}
+}

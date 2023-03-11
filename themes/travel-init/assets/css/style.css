@@ -1,0 +1,162 @@
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.search-trip #wp-travel-search{
+	background-color: #f83531;
+}
+/* trip search block */
+.search-trip label{
+	color: white;
+	font-style: italic;
+}
+.search-trip input, .search-trip select{
+	border: none;
+	width: 100%;
+    min-width: 70%;
+    border-radius: 4px;
+    padding: 10px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* for contact form */
+.form-container{
+	margin: 0 auto;
+}
+.travel-init-col textarea{
+	border: none;
+}
+.travel-init-col input{
+	padding: 15px 0;
+	width: 100%;
+	border: none;
+}
+.form-container .travel-init-col{
+	padding: 10px 0;
+}
+.button-submit button{
+	padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+	background-color: lightpink;
+}
+
+/* *************************************************************************************************** */
+.footer-flex-start {
+	align-items: flex-start !important;
+}
+p{
+	font-size: 16px;
+	font-weight:400 ;
+}
+.give-height img{
+	height:30vw;
+}
+
+/* For Responsive */
+.travel-init-min-width-25vw{
+	min-width: 25vw;
+}
+
+/* 	header3 */
+.header3 figure img{
+	height: unset;
+}
+
+/* trip booking with fixed date layout fix */
+.single-itineraries .wptravel-recurring-table{
+	width: 100%;
+}
+/* End */
+/* booking pax button layout */
+.wp-travel-list-view .wp-travel-booking__trip-option-list .qty-spinner span {
+    display: inline-block;
+    min-width: 30px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background: none;
+}
+/* end */
+
+/* checkoutpage summary screen */
+.checkout-page-wrap{
+	margin-top: 0;
+}
+#shopping-cart .cart-summary {
+    position: relative;
+    border: 1px solid #f0f0f0;
+    padding: 1rem;
+    background: #fff;
+}
+.checkout-page-wrap .wp-travel-minicart .sticky-sidebar .checkout-right {
+    padding: 1em;
+    border: 4px solid #eee;
+    border-radius: 5px;
+}
+.checkout-page-wrap .wp-travel-checkout-section {
+    background: #fff;
+    padding-inline: 10px;
+}
+select {
+    border: 1px solid #ccc;
+    background: #fff!important;
+    height: 32px;
+}
+/* end */
+/* widgit  */
+.wp-travel-itinerary-items .wp-travel-post-item-wrapper .post-title a {
+    font-size: 14px;
+}
+.wp-travel-post-item-wrapper .post-title {
+	display: flex !important;
+    padding-left: 20px !important;
+}
+.wp-travel-default-article .wp-travel-entry-content-wrapper .description-left .entry-title a {
+	font-size: 14px;
+}
+
+/* end */
+/* container */
+.container, .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* end */
+
+/* responsive  */
+@media only screen and (max-width: 1200px) {
+  .wp-travel-trips-has-sidebar{
+    flex-wrap: wrap;
+    padding-right: 0;
+  }
+  #page .wp-travel-trips-has-sidebar #wptravel-archive-wrapper{
+    flex: 0 0 100%;
+    padding-right: 0;
+  }
+  #page .wp-travel-trips-has-sidebar #wp-travel-secondary{
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 992px){
+.wp-travel.trip-headline-wrapper .right-plot-inner-wrap {
+    padding: 25px 0px;
+}
+}
+
+
+
+/* end */
+.wptravel-block-breadcrumb a{
+color: white;
+}
+.wptravel-block-breadcrumb a:hover{
+    color: #df1814;
+}

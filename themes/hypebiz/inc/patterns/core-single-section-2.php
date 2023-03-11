@@ -1,0 +1,39 @@
+<?php
+/**
+ * Core Single Section 2 content.
+ */
+return array(
+	'title'      => __( 'Core Single Section 2', 'hypebiz' ),
+	'categories' => array( 'hypebiz-basic' ),
+	'content'    => '<!-- wp:group {"tagName":"main","backgroundColor":"white","textColor":"fourth","layout":{"inherit":false,"contentSize":"800px"}} -->
+			<main class="wp-block-group has-fourth-color has-white-background-color has-text-color has-background"><!-- wp:group {"layout":{"inherit":true}} -->
+			<div class="wp-block-group"><!-- wp:post-featured-image /--></div>
+			<!-- /wp:group -->
+
+			<!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
+			<div class="wp-block-group alignwide"><!-- wp:columns -->
+			<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"100%"} -->
+			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%"><!-- wp:group {"textColor":"third","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+			<div class="wp-block-group has-third-color has-text-color"><!-- wp:post-author {"textAlign":"left","showAvatar":false,"showBio":false,"byline":""} /-->
+
+			<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /-->
+
+			<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /-->
+
+			<!-- wp:post-terms {"term":"post_tag","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /--></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:column --></div>
+			<!-- /wp:columns -->
+
+			<!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
+			<div class="wp-block-group alignwide"><!-- wp:post-content {"align":"wide","layout":{"inherit":false}} /--></div>
+			<!-- /wp:group -->
+
+			<!-- wp:spacer {"height":"10px"} -->
+			<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+
+			<!-- wp:post-comments {"backgroundColor":"white","textColor":"fourth"} /--></div>
+			<!-- /wp:group --></main>
+			<!-- /wp:group -->',
+);

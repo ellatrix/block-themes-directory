@@ -1,0 +1,39 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#007482",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#009AA8",
+					"name": "Secondary"
+				},
+				{
+					"slug": "accent",
+					"color": "#004E5C",
+					"name": "Accent"
+				},
+				{
+					"slug": "light-gray",
+					"color": "#ececec",
+					"name": "Light Gray"
+				},
+				{
+					"slug": "gray",
+					"color": "#9c9c9c",
+					"name": "Gray"
+				},
+				{
+					"slug": "dark-gray",
+					"color": "#3c3c3c",
+					"name": "Dark Grey"
+				}
+			]
+		}
+	}
+}

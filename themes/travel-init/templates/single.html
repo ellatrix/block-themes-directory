@@ -1,0 +1,57 @@
+<!-- wp:template-part {"slug":"header","theme":"travel-init"} /-->
+<!-- wp:template-part {"slug":"single-banner","theme":"travel-init"} /-->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"4vw","bottom":"1.5em"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:4vw;padding-bottom:1.5em">
+    <!-- wp:columns -->
+    <div class="wp-block-columns">
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:post-featured-image /-->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:post-title /-->
+
+            <!-- wp:spacer {"height":"20px"} -->
+            <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+            <!-- /wp:spacer -->
+
+            <!-- wp:post-content /-->
+        </div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+    <!-- wp:columns -->
+    <div class="wp-block-columns">
+        <!-- wp:column -->
+        <div class="wp-block-column">
+            <!-- wp:heading {"textAlign":"left","fontSize":"x-large"} -->
+            <h2 class="has-text-align-left has-x-large-font-size">Related Topics</h2>
+            <!-- /wp:heading -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column -->
+        <div class="wp-block-column"></div>
+        <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+
+    <!-- wp:group {"layout":{"type":"default"}} -->
+    <div class="wp-block-group">
+        <!-- wp:latest-posts {"postsToShow":4,"displayPostContent":true,"excerptLength":24,"postLayout":"grid","columns":4,"displayFeaturedImage":true,"addLinkToFeaturedImage":true} /-->
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"travel-init/travel-init-booknow"} /-->
+
+<!-- wp:template-part {"slug":"footer","theme":"travel-init"} /-->

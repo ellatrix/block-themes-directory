@@ -1,0 +1,61 @@
+/*
+Theme Name: Dablam
+Theme URI: https://www.wpmount.com/themes/dablam/
+Author: wpmount
+Author URI: https://wpmount.com
+Description: Dablam is the minimal and clean WordPress full site editing theme. This theme is particularly developed for the blog. It comes in 3 different variations; default, light, and dark. It is a clean, responsive, and cross-browser-compatible theme. More info : https://www.wpmount.com/themes/dablam/
+Tags: block-patterns, block-styles, blog, custom-background, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, photography, portfolio, template-editing, threaded-comments, translation-ready, wide-blocks
+Requires at least: 6.0
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dablam
+
+*/
+
+.wp-block-site-title a {
+    text-decoration: none;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.journal-section .wp-block-cover,
+.journal-section .wp-block-group.has-background {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+ul.wp-block-page-list, ul.wp-block-categories-list  {
+    list-style: none;
+    padding-left: 0;
+}
+
+.home-banner .fixed-top,
+.home-banner header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.wp-block-image figcaption {
+    color: var(--wp--preset--color--secondary);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        line-height: 1.4;
+    }
+
+    footer *, footer .wp-block-social-links {
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
+

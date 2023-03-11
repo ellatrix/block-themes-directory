@@ -1,0 +1,53 @@
+.mobile-hide {
+	display: none !important;
+}
+
+@include breakpoint(md) {
+
+	.tablet-hide {
+		display: none !important;
+	}
+
+	.tablet-show {
+		display: block !important;
+	}
+
+	.tablet-flex {
+		display: flex;
+	}
+
+	.justify-between {
+		justify-content: space-between;
+	}
+}
+
+@include breakpoint(lg) {
+
+	.desktop-hide {
+		display: none !important;
+	}
+
+	.desktop-show {
+		display: block !important;
+	}
+
+	.desktop-flex {
+		display: flex;
+	}
+}
+
+.no-hyphens {
+	hyphens: none !important;
+}
+
+.no-letterspacing {
+	letter-spacing: 0 !important;
+}
+
+.no-lineheight {
+	line-height: 0;
+}
+
+.wp-block-group:where(.has-background) {
+	padding: inherit;
+}

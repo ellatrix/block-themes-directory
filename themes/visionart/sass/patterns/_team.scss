@@ -1,0 +1,98 @@
+.wp-block-section:nth-child(even).team-section .wp-block-column:hover {
+  background-color: var(--wp--preset--color--secondary-bg-color);
+}
+
+.team-section {
+  .wp-block-column {
+    padding-bottom: 20px;
+
+    figure {
+      position: relative;
+      margin: 0;
+
+      &:before {
+        content: "";
+        background: var(--wp--preset--gradient--diagonal-top-to-bottom);
+        border-radius: 50%;
+        height: 100%;
+        left: 50%;
+        opacity: 0.4;
+        position: absolute;
+        transform: translateX(-50%) scale(3);
+        width: 100%;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      background-color: var(--wp--preset--color--foreground);
+
+      .plus-icon {
+        @include transform(rotate(360deg));
+      }
+    }
+
+    .team-image {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+
+      .social-lists {
+        position: absolute;
+        left: 50%;
+        @include transform(translate(-50%, 0));
+        margin: 0;
+        bottom: 50px;
+        z-index: 1;
+        transform-origin: bottom;
+        transition: 0.3s ease-in-out;
+
+        svg {
+          fill: var(--wp--preset--color--color-light);
+        }
+      }
+    }
+  }
+
+  .team-content {
+    margin-top: 0;
+
+    .author-section {
+      align-items: center;
+    }
+
+    .plus-icon {
+      @include border(50%);
+      @include flex;
+      align-items: center;
+      font-size: var(--wp--preset--font-size--section-title);
+      font-family: var(--wp--preset--font-family--open-sans);
+      font-weight: var(--wp--custom--typography--font-weight--bold);
+      height: 64px;
+      justify-content: center;
+      margin-top: -30px;
+      position: relative;
+      width: 64px;
+      z-index: 1;
+      line-height: 64px;
+    }
+  }
+}
+
+.plus-icon .wp-block-html .block-editor-plain-text {
+  font-size: var(--wp--preset--font-size--section-title) !important;
+  background: transparent !important;
+  height: auto !important;
+  border: 0 !important;
+  padding: 0;
+  text-align: center;
+  color: var(--wp--preset--color--tertiary) !important;
+}
+
+.team-section .wp-block-column:hover .plus-icon .wp-block-html .block-editor-plain-text {
+  color: var(--wp--preset--color--color-light) !important;
+}
+
+.team-image:hover figure {
+  @include transform(scale(1.5));
+}

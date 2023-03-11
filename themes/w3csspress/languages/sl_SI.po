@@ -1,0 +1,1195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: w3csspress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 15:45+0000\n"
+"PO-Revision-Date: 2022-10-31 16:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Slovenian\n"
+"Language: sl_SI\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : "
+"n%100==3||n%100==4 ? 2 : 3;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.0.3\n"
+"X-Domain: w3csspress"
+
+#. border and color
+#: classes/class-w3csspress-constants.php:222
+#, fuzzy, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. arrow
+#. arrow and text
+#: attachment.php:62 template-parts/nav/below.php:19
+#, fuzzy, php-format
+msgid "%s older"
+msgstr "%s starejši"
+
+#: inc/patterns/notfound.php:22
+#, fuzzy
+msgid "404"
+msgstr "404"
+
+#: inc/block-patterns.php:23
+#, fuzzy
+msgid "404 not found"
+msgstr "404 ni mogoče najti"
+
+#: inc/patterns/query.php:43
+#, fuzzy
+msgid "add text or blocks to display when the query returns no results."
+msgstr ""
+"dodajte besedilo ali bloke, ki se prikažejo, ko poizvedba ne vrne rezultatov."
+
+#: classes/class-w3csspress-constants.php:36
+#, fuzzy
+msgid "all borders"
+msgstr "vse meje"
+
+#: classes/class-w3csspress-constants.php:57
+#, fuzzy
+msgid "amber"
+msgstr "jantar"
+
+#. color of the container
+#: inc/patterns/badge.php:30
+#, fuzzy, php-format
+msgid "badge %s"
+msgstr "značko %s"
+
+#: inc/block-patterns.php:24
+#, fuzzy
+msgid "badges"
+msgstr "značke"
+
+#: inc/patterns/navigation.php:37
+#, fuzzy
+msgid "basic navigation"
+msgstr "osnovna navigacija"
+
+#: classes/class-w3csspress-constants.php:58
+#, fuzzy
+msgid "black"
+msgstr "črna"
+
+#: classes/class-w3csspress-constants.php:59
+#, fuzzy
+msgid "blue"
+msgstr "modra"
+
+#: classes/class-w3csspress-constants.php:60
+#, fuzzy
+msgid "blue grey"
+msgstr "modro siva"
+
+#. border and direction
+#: classes/class-w3csspress-constants.php:27
+#, fuzzy, php-format
+msgid "border %s"
+msgstr "meja %s"
+
+#: inc/images.php:134
+#, fuzzy
+msgid "border images on the page."
+msgstr "obrobne slike na strani."
+
+#: inc/patterns/image.php:58
+#, fuzzy
+msgid "bordered image"
+msgstr "obrobljena slika"
+
+#: inc/images.php:133
+#, fuzzy
+msgid "bordered images"
+msgstr "obrobljene slike"
+
+#: inc/block-patterns.php:25
+#, fuzzy
+msgid "borders"
+msgstr "meje"
+
+#: classes/class-w3csspress-constants.php:204
+#, fuzzy
+msgid "bottom"
+msgstr "dno"
+
+#: classes/class-w3csspress-constants.php:61
+#, fuzzy
+msgid "brown"
+msgstr "rjava"
+
+#. color of the card
+#: inc/patterns/card.php:40
+#, fuzzy, php-format
+msgid "card %s"
+msgstr "kartica %s"
+
+#: inc/patterns/image.php:70
+#, fuzzy
+msgid "card image"
+msgstr "slika kartice"
+
+#: inc/images.php:145
+#, fuzzy
+msgid "card images"
+msgstr "slike kartic"
+
+#. color of the card
+#: inc/patterns/card.php:54
+#, fuzzy, php-format
+msgid "card-2 %s"
+msgstr "card-2 %s"
+
+#. color of the card
+#: inc/patterns/card.php:68
+#, fuzzy, php-format
+msgid "card-4 %s"
+msgstr "card-4 %s"
+
+#: inc/block-patterns.php:26 inc/patterns/card.php:26
+#, fuzzy
+msgid "cards"
+msgstr "kartice"
+
+#: template-parts/entry/footer.php:16
+#, fuzzy
+msgid "categories: "
+msgstr "kategorije"
+
+#. index for headings
+#: inc/colors.php:143
+#, fuzzy, php-format
+msgid "change color of h%s."
+msgstr "spremeni barvo h%s."
+
+#: inc/fonts.php:192
+#, fuzzy
+msgid "change font family of headings."
+msgstr "spremenite družino pisave v naslovih."
+
+#: inc/fonts.php:179 inc/fonts.php:204
+#, fuzzy
+msgid "change font family of website."
+msgstr "spremenite družino pisav na spletnem mestu."
+
+#: inc/fonts.php:229
+#, fuzzy
+msgid "change font size of div."
+msgstr "spremenite velikost pisave div."
+
+#. index for headings
+#: inc/fonts.php:397
+#, fuzzy, php-format
+msgid "change font size of h%s."
+msgstr "spremenite velikost pisave h%s."
+
+#: inc/fonts.php:242
+#, fuzzy
+msgid "change font size of inputs."
+msgstr "spremenite velikost pisave vnosov."
+
+#: inc/fonts.php:281
+#, fuzzy
+msgid "change font size of ordered list."
+msgstr "spremenite velikost pisave urejenega seznama."
+
+#: inc/fonts.php:216
+#, fuzzy
+msgid "change font size of paragraphs."
+msgstr "spremenite velikost pisave odstavkov."
+
+#: inc/fonts.php:255
+#, fuzzy
+msgid "change font size of tables."
+msgstr "spremenite velikost pisave v tabelah."
+
+#: inc/fonts.php:268
+#, fuzzy
+msgid "change font size of unordered list."
+msgstr "spremenite velikost pisave neurejenega seznama."
+
+#: inc/fonts.php:307
+#, fuzzy
+msgid "change font weight of div."
+msgstr "spremenite težo pisave div."
+
+#. index for headings
+#: inc/fonts.php:418
+#, fuzzy, php-format
+msgid "change font weight of h%s."
+msgstr "spremenite težo pisave h%s."
+
+#: inc/fonts.php:320
+#, fuzzy
+msgid "change font weight of inputs."
+msgstr "sprememba teže pisave vnosov."
+
+#: inc/fonts.php:359
+#, fuzzy
+msgid "change font weight of ordered list."
+msgstr "spremenite težo pisave urejenega seznama."
+
+#: inc/fonts.php:294
+#, fuzzy
+msgid "change font weight of paragraphs."
+msgstr "spremenite težo pisave odstavkov."
+
+#: inc/fonts.php:333
+#, fuzzy
+msgid "change font weight of tables."
+msgstr "spremenite težo pisave v tabelah."
+
+#: inc/fonts.php:346
+#, fuzzy
+msgid "change font weight of unordered list."
+msgstr "spremenite težo pisave neurejenega seznama."
+
+#: inc/colors.php:122
+#, fuzzy
+msgid "change link color"
+msgstr "spremenite barvo povezave"
+
+#: inc/colors.php:108
+#, fuzzy
+msgid "change theme text color"
+msgstr "spremeniti barvo besedila teme"
+
+#: classes/class-w3csspress-constants.php:190
+#, fuzzy
+msgid "circle"
+msgstr "krog"
+
+#: inc/images.php:121
+#, fuzzy
+msgid "circle images"
+msgstr "slike kroga"
+
+#: inc/images.php:122
+#, fuzzy
+msgid "circle images on the page."
+msgstr "obkrožite slike na strani."
+
+#: inc/patterns/image.php:46
+#, fuzzy
+msgid "circular image"
+msgstr "krožna slika"
+
+#: inc/block-patterns.php:27
+#, fuzzy
+msgid "colors"
+msgstr "barve"
+
+#: comments.php:65
+#, fuzzy
+msgid "comment:"
+msgstr "komentar:"
+
+#: template-parts/entry/footer.php:20
+#, fuzzy
+msgid "comments"
+msgstr "komentarji"
+
+#: comments.php:53
+#, fuzzy
+msgctxt "comments count"
+msgid "Trackback or Pingback"
+msgid_plural "Trackbacks and Pingbacks"
+msgstr[0] "Trackback ali Pingback"
+msgstr[1] "Trackbacks in Pingbacks"
+msgstr[2] ""
+msgstr[3] ""
+
+#. color of the container
+#: inc/patterns/container.php:40
+#, fuzzy, php-format
+msgid "container %s"
+msgstr "vsebnik %s"
+
+#: inc/block-patterns.php:28 inc/patterns/container.php:26
+#, fuzzy
+msgid "containers"
+msgstr "zabojniki"
+
+#: inc/content.php:58
+#, fuzzy
+msgid "content options"
+msgstr "možnosti vsebine"
+
+#: classes/class-w3csspress-constants.php:156
+#, fuzzy
+msgid "cursive"
+msgstr "kurzivna pisava"
+
+#: inc/content.php:59
+#, fuzzy
+msgid "customize content options here."
+msgstr "prilagodite možnosti vsebine tukaj."
+
+#: inc/fonts.php:32
+#, fuzzy
+msgid "customize fonts options here."
+msgstr "prilagodite možnosti pisav tukaj."
+
+#: inc/images.php:28
+#, fuzzy
+msgid "customize images options here."
+msgstr "prilagodite možnosti slik tukaj."
+
+#: inc/layout.php:32
+#, fuzzy
+msgid "customize layout options here."
+msgstr "prilagodite možnosti postavitve tukaj."
+
+#: inc/speed.php:28
+#, fuzzy
+msgid "customize speed options here."
+msgstr "prilagodite možnosti hitrosti tukaj."
+
+#: classes/class-w3csspress-constants.php:62
+#, fuzzy
+msgid "cyan"
+msgstr "cian"
+
+#: classes/class-w3csspress-constants.php:93
+#: classes/class-w3csspress-constants.php:94
+#: classes/class-w3csspress-constants.php:95
+#: classes/class-w3csspress-constants.php:96
+#: classes/class-w3csspress-constants.php:97
+#, fuzzy
+msgid "dark"
+msgstr "temno"
+
+#: classes/class-w3csspress-constants.php:63
+#, fuzzy
+msgid "dark grey"
+msgstr "temno siva"
+
+#: classes/class-w3csspress-constants.php:64
+#, fuzzy
+msgid "deep orange"
+msgstr "temno oranžna"
+
+#: classes/class-w3csspress-constants.php:65
+#, fuzzy
+msgid "deep purple"
+msgstr "temno vijolična"
+
+#: classes/class-w3csspress-constants.php:55
+#: classes/class-w3csspress-constants.php:98
+#: classes/class-w3csspress-constants.php:115
+#: classes/class-w3csspress-constants.php:135
+#: classes/class-w3csspress-constants.php:152
+#: classes/class-w3csspress-constants.php:168
+#: classes/class-w3csspress-constants.php:184
+#, fuzzy
+msgid "default"
+msgstr "privzeto"
+
+#: inc/speed.php:93
+#, fuzzy
+msgid "disable jQuery"
+msgstr "onemogočiti jQuery"
+
+#: inc/speed.php:94
+#, fuzzy
+msgid "disable or enable jQuery (do only if you know what you are doing)."
+msgstr ""
+"onemogočite ali omogočite jQuery (to storite le, če veste, kaj počnete)."
+
+#: inc/speed.php:141
+#, fuzzy
+msgid "enable block styles"
+msgstr "omogočanje slogov blokov"
+
+#: inc/speed.php:142
+#, fuzzy
+msgid "enable block styles."
+msgstr "omogočite sloge blokov."
+
+#: inc/speed.php:105
+#, fuzzy
+msgid "enable Dashicons"
+msgstr "omogočiti črkovne ikone"
+
+#: inc/speed.php:106
+#, fuzzy
+msgid "enable Dashicons on the frontend."
+msgstr "omogočite ikone Dashicons na sprednjem delu."
+
+#: inc/speed.php:153
+#, fuzzy
+msgid "enable full site editor"
+msgstr "omogočiti celoten urejevalnik strani"
+
+#: inc/speed.php:117
+#, fuzzy
+msgid "enable Gutenberg for posts"
+msgstr "omogočiti Gutenberg za objave"
+
+#: inc/speed.php:129
+#, fuzzy
+msgid "enable Gutenberg for widgets"
+msgstr "omogočiti Gutenberg za gradnike"
+
+#: inc/speed.php:118
+#, fuzzy
+msgid "enable Gutenberg to edit posts."
+msgstr "omogočite Gutenbergu urejanje objav."
+
+#: inc/speed.php:130
+#, fuzzy
+msgid "enable Gutenberg to edit widgets."
+msgstr "omogočiti Gutenberg za urejanje gradnikov."
+
+#: inc/speed.php:154
+#, fuzzy
+msgid "enable the full site editor."
+msgstr "omogočite celoten urejevalnik spletnega mesta."
+
+#: inc/fonts.php:31
+#, fuzzy
+msgid "fonts options"
+msgstr "možnosti pisav"
+
+#: functions.php:364
+#, fuzzy
+msgid "foot widgets sidebar"
+msgstr "noge pripomočki stranska vrstica"
+
+#: inc/patterns/footer.php:28
+#, fuzzy
+msgid "footer"
+msgstr "noga"
+
+#: inc/content.php:79
+#, fuzzy
+msgid "footer content"
+msgstr "vsebina noge"
+
+#: inc/block-patterns.php:29
+#, fuzzy
+msgid "footers"
+msgstr "noge"
+
+#: classes/class-w3csspress-constants.php:172
+#, fuzzy
+msgid "four columns"
+msgstr "štirje stolpci"
+
+#. Name of the template
+#, fuzzy
+msgid "Full-Width"
+msgstr "Celotna širina"
+
+#: inc/images.php:169
+#, fuzzy
+msgid "grayscale images"
+msgstr "slike v sivih lestvicah"
+
+#: classes/class-w3csspress-constants.php:66
+#, fuzzy
+msgid "green"
+msgstr "zelena"
+
+#: classes/class-w3csspress-constants.php:67
+#, fuzzy
+msgid "grey"
+msgstr "siva"
+
+#: inc/patterns/image.php:94
+#, fuzzy
+msgid "greyscale image"
+msgstr "slika v sivih lestvicah"
+
+#: inc/layout.php:96
+#, fuzzy
+msgid "grid layout setting"
+msgstr "nastavitev postavitve mreže"
+
+#. index for headings
+#: inc/colors.php:138
+#, fuzzy, php-format
+msgid "h%s color"
+msgstr "h%s barva"
+
+#: functions.php:355
+#, fuzzy
+msgid "head widgets sidebar"
+msgstr "glava gradniki stranska vrstica"
+
+#: inc/patterns/header.php:21
+#, fuzzy
+msgid "header"
+msgstr "naslov"
+
+#: inc/images.php:193
+#, fuzzy
+msgid "header thumbnail"
+msgstr "sličica v glavi"
+
+#: inc/block-patterns.php:30
+#, fuzzy
+msgid "headers"
+msgstr "glave"
+
+#: inc/patterns/header.php:51
+#, fuzzy
+msgid "homepage header"
+msgstr "naslovnica domače strani"
+
+#: inc/block-patterns.php:31
+#, fuzzy
+msgid "hover"
+msgstr "hover"
+
+#. hover border and color
+#: classes/class-w3csspress-constants.php:244
+#, fuzzy, php-format
+msgid "hover %1$s %2$s"
+msgstr "hover %1$s %2$s"
+
+#. Author URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori"
+msgstr "https://github.com/matteomarchiori"
+
+#. URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori/w3csspress"
+msgstr "https://github.com/matteomarchiori/w3csspress"
+
+#: inc/patterns/image.php:22
+#, fuzzy
+msgid "image"
+msgstr "slika"
+
+#: inc/block-patterns.php:32
+#, fuzzy
+msgid "images"
+msgstr "slike"
+
+#: inc/images.php:27
+#, fuzzy
+msgid "images options"
+msgstr "možnosti slik"
+
+#: inc/images.php:146
+#, fuzzy
+msgid "images with card effect."
+msgstr "slike z učinkom kartice."
+
+#: inc/images.php:170
+#, fuzzy
+msgid "images with grayscale effect."
+msgstr "slike z učinkom sivine."
+
+#: inc/images.php:158
+#, fuzzy
+msgid "images with opacity effect."
+msgstr "slike z učinkom neprozornosti."
+
+#: inc/images.php:182
+#, fuzzy
+msgid "images with sepia effect."
+msgstr "slike z učinkom sepije."
+
+#: classes/class-w3csspress-constants.php:68
+#, fuzzy
+msgid "indigo"
+msgstr "indigo"
+
+#: classes/class-w3csspress-constants.php:123
+#, fuzzy
+msgid "jumbo"
+msgstr "jumbo"
+
+#: classes/class-w3csspress-constants.php:69
+#, fuzzy
+msgid "khaki"
+msgstr "kaki"
+
+#: classes/class-w3csspress-constants.php:119
+#, fuzzy
+msgid "large"
+msgstr "velika"
+
+#: inc/layout.php:31
+#, fuzzy
+msgid "layout options"
+msgstr "možnosti postavitve"
+
+#: classes/class-w3csspress-constants.php:205
+#, fuzzy
+msgid "left"
+msgstr "levo"
+
+#: inc/patterns/sidebar.php:26
+#, fuzzy
+msgid "left sidebar"
+msgstr "leva stranska vrstica"
+
+#: classes/class-w3csspress-constants.php:99
+#: classes/class-w3csspress-constants.php:100
+#: classes/class-w3csspress-constants.php:101
+#: classes/class-w3csspress-constants.php:102
+#: classes/class-w3csspress-constants.php:103
+#, fuzzy
+msgid "light"
+msgstr "svetloba"
+
+#: classes/class-w3csspress-constants.php:70
+#, fuzzy
+msgid "light blue"
+msgstr "svetlo modra"
+
+#: classes/class-w3csspress-constants.php:71
+#, fuzzy
+msgid "light green"
+msgstr "svetlo zelena"
+
+#: classes/class-w3csspress-constants.php:72
+#, fuzzy
+msgid "lime"
+msgstr "apno"
+
+#: inc/colors.php:121
+#, fuzzy
+msgid "link color"
+msgstr "barva povezave"
+
+#: functions.php:90
+#, fuzzy
+msgid "main menu"
+msgstr "glavni meni"
+
+#. Author of the theme
+#, fuzzy
+msgid "matteomarchiori97"
+msgstr "matteomarchiori97"
+
+#: classes/class-w3csspress-constants.php:118
+#, fuzzy
+msgid "medium"
+msgstr "srednja"
+
+#: functions.php:147
+#, fuzzy
+msgid "menu"
+msgstr "meni"
+
+#: classes/class-w3csspress-constants.php:155
+#, fuzzy
+msgid "monospace"
+msgstr "monospace"
+
+#: inc/block-patterns.php:33
+#, fuzzy
+msgid "navigation"
+msgstr "navigacija"
+
+#. arrow
+#. arrow and text
+#: attachment.php:75 template-parts/nav/below.php:24
+#, fuzzy, php-format
+msgid "newer %s"
+msgstr "novejši %s"
+
+#: 404.php:19
+#, fuzzy
+msgid "Not Found"
+msgstr "Ni bilo najdeno"
+
+#: inc/patterns/notfound.php:25
+#, fuzzy
+msgid "not found"
+msgstr "ni najden"
+
+#: search.php:62
+#, fuzzy
+msgid "Nothing Found"
+msgstr "Nič najdenega"
+
+#: 404.php:22
+#, fuzzy
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr ""
+"Za zahtevano stran ni bilo najdenega ničesar. Namesto tega poskusite z "
+"iskanjem?"
+
+#: inc/patterns/notfound.php:29
+#, fuzzy
+msgid "nothing found for the requested page. Try a search instead?"
+msgstr ""
+"za zahtevano stran ni bilo najdenega ničesar. Namesto tega poskusite z "
+"iskanjem?"
+
+#: classes/class-w3csspress-constants.php:169
+#, fuzzy
+msgid "one column"
+msgstr "en stolpec"
+
+#: inc/images.php:157
+#, fuzzy
+msgid "opacity images"
+msgstr "slike neprozornosti"
+
+#: inc/patterns/image.php:82
+#, fuzzy
+msgid "opaque image"
+msgstr "nepregledna slika"
+
+#: classes/class-w3csspress-constants.php:73
+#, fuzzy
+msgid "orange"
+msgstr "oranžna"
+
+#: inc/patterns/panel.php:26
+#, fuzzy
+msgid "panel"
+msgstr "plošča"
+
+#. color of the panel
+#: inc/patterns/panel.php:40
+#, fuzzy, php-format
+msgid "panel %s"
+msgstr "plošča %s"
+
+#: inc/block-patterns.php:34
+#, fuzzy
+msgid "panels"
+msgstr "plošče"
+
+#: classes/class-w3csspress-constants.php:74
+#, fuzzy
+msgid "pink"
+msgstr "roza"
+
+#: inc/images.php:205
+#, fuzzy
+msgid "post thumbnail"
+msgstr "sličica objave"
+
+#: inc/images.php:194
+#, fuzzy
+msgid "posts get the thumbnail as header image if they have one."
+msgstr "objave dobijo sličico kot sliko glave, če jo imajo."
+
+#: inc/images.php:206
+#, fuzzy
+msgid "posts show the thumbnail if they have."
+msgstr "objave prikažejo sličico, če jo imajo."
+
+#: functions.php:337
+#, fuzzy
+msgid "primary sidebar"
+msgstr "primarna stranska vrstica"
+
+#: classes/class-w3csspress-constants.php:75
+#, fuzzy
+msgid "purple"
+msgstr "vijolična"
+
+#: inc/block-patterns.php:35
+#, fuzzy
+msgid "query"
+msgstr "poizvedba"
+
+#: inc/patterns/query.php:22
+#, fuzzy
+msgid "query loop"
+msgstr "poizvedovalna zanka"
+
+#: inc/patterns/query.php:33
+#, fuzzy
+msgid "read all"
+msgstr "preberi vse"
+
+#: classes/class-w3csspress-constants.php:76
+#, fuzzy
+msgid "red"
+msgstr "rdeča"
+
+#: classes/class-w3csspress-constants.php:203
+#, fuzzy
+msgid "right"
+msgstr "desno"
+
+#: inc/patterns/sidebar.php:36
+#, fuzzy
+msgid "right sidebar"
+msgstr "desna stranska vrstica"
+
+#: inc/images.php:110
+#, fuzzy
+msgid "round images on the page."
+msgstr "okrogle slike na strani."
+
+#: classes/class-w3csspress-constants.php:187
+#, fuzzy
+msgid "round large"
+msgstr "okrogla velika"
+
+#: classes/class-w3csspress-constants.php:186
+#, fuzzy
+msgid "round medium"
+msgstr "okrogla srednja"
+
+#: classes/class-w3csspress-constants.php:185
+#, fuzzy
+msgid "round small"
+msgstr "okrogla majhna"
+
+#: classes/class-w3csspress-constants.php:188
+#, fuzzy
+msgid "round xlarge"
+msgstr "okrogla velikost xlarge"
+
+#: classes/class-w3csspress-constants.php:189
+#, fuzzy
+msgid "round xxlarge"
+msgstr "okrogla xxlarge"
+
+#: inc/patterns/image.php:34
+#, fuzzy
+msgid "rounded image"
+msgstr "zaokrožena slika"
+
+#: inc/images.php:109
+#, fuzzy
+msgid "rounded images"
+msgstr "zaokrožene slike"
+
+#: classes/class-w3csspress-constants.php:154
+#, fuzzy
+msgid "sans serif"
+msgstr "sans serif"
+
+#: inc/block-patterns.php:36 inc/patterns/search.php:25
+#: inc/patterns/search.php:25
+#, fuzzy
+msgid "search"
+msgstr "iskanje"
+
+#: inc/patterns/search.php:22
+#, fuzzy
+msgid "search bar"
+msgstr "vrstica za iskanje"
+
+#. search text completed with query text
+#: search.php:38
+#, fuzzy, php-format
+msgid "search results for: %s"
+msgstr "rezultati iskanja za: %s"
+
+#: functions.php:346
+#, fuzzy
+msgid "secondary sidebar"
+msgstr "sekundarna stranska vrstica"
+
+#: inc/colors.php:79
+#, fuzzy
+msgid "select color theme"
+msgstr "izberite barvno temo"
+
+#: inc/fonts.php:228
+#, fuzzy
+msgid "select div font size"
+msgstr "izberite velikost pisave div"
+
+#: inc/fonts.php:306
+#, fuzzy
+msgid "select div font weight"
+msgstr "izberite težo pisave div"
+
+#: inc/fonts.php:178
+#, fuzzy
+msgid "select font family"
+msgstr "izberite družino pisav"
+
+#. index for headings
+#: inc/fonts.php:392
+#, fuzzy, php-format
+msgid "select h%s font size"
+msgstr "izberite velikost pisave h%s"
+
+#. index for headings
+#: inc/fonts.php:413
+#, fuzzy, php-format
+msgid "select h%s font weight"
+msgstr "izberite težo pisave h%s"
+
+#: inc/fonts.php:241
+#, fuzzy
+msgid "select input font size"
+msgstr "izberite velikost vhodne pisave"
+
+#: inc/fonts.php:319
+#, fuzzy
+msgid "select input font weight"
+msgstr "izberite težo vhodne pisave"
+
+#: inc/layout.php:70
+#, fuzzy
+msgid "select layout"
+msgstr "izberite postavitev"
+
+#: inc/fonts.php:280
+#, fuzzy
+msgid "select ordered list font size"
+msgstr "izberite velikost pisave naročenega seznama"
+
+#: inc/fonts.php:358
+#, fuzzy
+msgid "select ordered list font weight"
+msgstr "izberite težo pisave naročenega seznama"
+
+#: inc/fonts.php:215
+#, fuzzy
+msgid "select paragraphs font size"
+msgstr "izberite velikost pisave odstavkov"
+
+#: inc/fonts.php:293
+#, fuzzy
+msgid "select paragraphs font weight"
+msgstr "izberite težo pisave odstavkov"
+
+#: inc/layout.php:83
+#, fuzzy
+msgid "select rounded style"
+msgstr "izberite zaokrožen slog"
+
+#: inc/fonts.php:254
+#, fuzzy
+msgid "select table font size"
+msgstr "izberite velikost pisave tabele"
+
+#: inc/fonts.php:332
+#, fuzzy
+msgid "select table font weight"
+msgstr "izberite težo pisave tabele"
+
+#: inc/colors.php:92
+#, fuzzy
+msgid "select theme kind"
+msgstr "izberite vrsto teme"
+
+#: inc/fonts.php:267
+#, fuzzy
+msgid "select unordered list font size"
+msgstr "izberite velikost pisave neurejenega seznama"
+
+#: inc/fonts.php:345
+#, fuzzy
+msgid "select unordered list font weight"
+msgstr "izberite neurejen seznam teža pisave"
+
+#: inc/patterns/image.php:106
+#, fuzzy
+msgid "sepia image"
+msgstr "slika sepije"
+
+#: inc/images.php:181
+#, fuzzy
+msgid "sepia images"
+msgstr "slike sepije"
+
+#: classes/class-w3csspress-constants.php:153
+#, fuzzy
+msgid "serif"
+msgstr "serif"
+
+#: inc/content.php:80
+#, fuzzy
+msgid "set footer content."
+msgstr "nastavite vsebino noge."
+
+#: functions.php:338
+#, fuzzy
+msgid "sidebar on the left."
+msgstr "stranska vrstica na levi strani."
+
+#: functions.php:347
+#, fuzzy
+msgid "sidebar on the right."
+msgstr "stranska vrstica na desni strani."
+
+#: inc/block-patterns.php:37
+#, fuzzy
+msgid "sidebars"
+msgstr "stranske vrstice"
+
+#: inc/content.php:20
+#, fuzzy
+msgid "skip to the content"
+msgstr "preskoči na vsebino"
+
+#: classes/class-w3csspress-constants.php:117
+#, fuzzy
+msgid "small"
+msgstr "majhen"
+
+#: search.php:65
+#, fuzzy
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr ""
+"Žal ni bilo ničesar, kar bi ustrezalo vašemu iskanju. Prosimo, poskusite "
+"znova."
+
+#: inc/speed.php:27
+#, fuzzy
+msgid "speed options"
+msgstr "možnosti hitrosti"
+
+#: classes/class-w3csspress-constants.php:77
+#, fuzzy
+msgid "teal"
+msgstr "teal"
+
+#: inc/colors.php:107
+#, fuzzy
+msgid "text theme color"
+msgstr "barva teme besedila"
+
+#: inc/patterns/query.php:44
+#, fuzzy
+msgid "the query did not return any results."
+msgstr "poizvedba ni vrnila nobenih rezultatov."
+
+#. thick border and direction
+#: classes/class-w3csspress-constants.php:32
+#, fuzzy, php-format
+msgid "thick border %s"
+msgstr "debel rob %s"
+
+#: classes/class-w3csspress-constants.php:171
+#, fuzzy
+msgid "three columns"
+msgstr "trije stolpci"
+
+#: classes/class-w3csspress-constants.php:116
+#, fuzzy
+msgid "tiny"
+msgstr "majhen"
+
+#: classes/class-w3csspress-constants.php:202
+#, fuzzy
+msgid "top"
+msgstr "top"
+
+#: classes/class-w3csspress-constants.php:170
+#, fuzzy
+msgid "two columns"
+msgstr "dva stolpca"
+
+#. Description of the theme
+#, fuzzy
+msgid ""
+"Universal theme with classic mode and blocks mode made to integrate the "
+"W3CSS framework inside WordPress, with global custom options and all of the "
+"W3CSS framework functionalities. The theme has been developed starting from "
+"resources on the w3schools website applied to the blankslate WordPress theme,"
+" slightly modified. The theme is accessibility ready and it is highly "
+"customizable. Please add issues on GitHub or contact me if you are "
+"interested in more options."
+msgstr ""
+"Univerzalna tema s klasičnim načinom in načinom blokov, izdelana za "
+"integracijo ogrodja W3CSS znotraj WordPressa, z globalnimi možnostmi po meri "
+"in vsemi funkcionalnostmi ogrodja W3CSS. Tema je bila razvita na podlagi "
+"virov na spletnem mestu w3schools, ki so bili uporabljeni za temo WordPress "
+"blankslate, rahlo spremenjeno. Tema je pripravljena na dostopnost in je zelo "
+"prilagodljiva. Prosimo, dodajte vprašanja na GitHub ali me kontaktirajte, če "
+"vas zanima več možnosti."
+
+#: inc/fonts.php:203
+#, fuzzy
+msgid "use Google font"
+msgstr "uporaba pisave Google"
+
+#: inc/fonts.php:191
+#, fuzzy
+msgid "use Google font for headings"
+msgstr "uporabite Googlovo pisavo za naslove"
+
+#: inc/layout.php:84
+#, fuzzy
+msgid ""
+"using this option you can change some elements roundness (images have more "
+"controls)."
+msgstr ""
+"s to možnostjo lahko spremenite zaokroženost nekaterih elementov (slike "
+"imajo več nadzora)."
+
+#: inc/layout.php:71
+#, fuzzy
+msgid "using this option you can change the page layout."
+msgstr "s to možnostjo lahko spremenite postavitev strani."
+
+#: inc/colors.php:93
+#, fuzzy
+msgid ""
+"using this option you can change the theme between default, light and dark."
+msgstr "s to možnostjo lahko spremenite temo med privzeto, svetlo in temno."
+
+#: inc/colors.php:80
+#, fuzzy
+msgid "using this option you can change the theme colors."
+msgstr "s to možnostjo lahko spremenite barve teme."
+
+#: inc/layout.php:97
+#, fuzzy
+msgid "using this option you can enable or disable the grid layout."
+msgstr "s to možnostjo lahko omogočite ali onemogočite postavitev mreže."
+
+#. Name of the theme
+#, fuzzy
+msgid "W3CSSPress"
+msgstr "W3CSSPress"
+
+#: classes/class-w3csspress-constants.php:56
+#, fuzzy
+msgid "w3schools"
+msgstr "w3schools"
+
+#: classes/class-w3csspress-constants.php:138
+#, fuzzy
+msgid "weight"
+msgstr "teža"
+
+#: functions.php:365
+#, fuzzy
+msgid "widgets area on the foot of the website."
+msgstr "območje pripomočkov na vznožju spletnega mesta."
+
+#: functions.php:356
+#, fuzzy
+msgid "widgets area on the head of the website."
+msgstr "območje pripomočkov na glavi spletnega mesta."
+
+#: classes/class-w3csspress-constants.php:120
+#, fuzzy
+msgid "XL"
+msgstr "XL"
+
+#: classes/class-w3csspress-constants.php:121
+#, fuzzy
+msgid "XXL"
+msgstr "XXL"
+
+#: classes/class-w3csspress-constants.php:122
+#, fuzzy
+msgid "XXXL"
+msgstr "XXXL"
+
+#: footer.php:27 inc/patterns/footer.php:22
+#, fuzzy
+msgid "Y"
+msgstr "Y"
+
+#: classes/class-w3csspress-constants.php:78
+#, fuzzy
+msgid "yellow"
+msgstr "rumena"

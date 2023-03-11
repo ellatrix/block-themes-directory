@@ -1,0 +1,26 @@
+.portfolio-section {
+  .sub-content {
+    margin-top: 0;
+    font-size: var(--wp--preset--font-size--medium);
+    font-style: italic;
+    font-weight: 700;
+    a {
+      font-weight: 400;
+    }
+  }
+
+  .wp-block-column figure img {
+    transition: 0.3s ease-in-out;
+  }
+
+  .wp-block-column:hover figure img {
+    filter: drop-shadow(2px 4px 6px black);
+    transform: rotateX(-10deg) translateZ(50px);
+    -webkit-transform: rotateX(-10deg) translateZ(50px);
+    -moz-transform: rotateX(-10deg) translateZ(50px);
+  }
+
+  h4 {
+    font-weight: var(--wp--custom--typography--font-weight--medium);
+  }
+}

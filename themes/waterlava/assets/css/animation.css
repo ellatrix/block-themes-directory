@@ -1,0 +1,73 @@
+:root {
+	--waterlava-transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+body .waterlava-animate-init {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) translateX(0) scale(1) rotate(0)
+}
+
+.waterlava-animate {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, transform;
+}
+
+.waterlava-move-up {
+    transform: translateY(30px)
+}
+
+.waterlava-move-down {
+    transform: translateY(-30px)
+}
+
+.waterlava-move-right {
+    transform: translateX(-40px)
+}
+
+.waterlava-move-left {
+    transform: translateX(40px)
+}
+
+.waterlava-flip {
+    transform: perspective(500px) translateY(60px) scaleY(.75) rotateX(-40deg)
+}
+
+.waterlava-scale {
+    transform: scale(0.5)
+}
+
+.waterlava-flip,
+.waterlava-move-down,
+.waterlava-move-up,
+.waterlava-move-right,
+.waterlava-move-left,
+.waterlava-scale {
+    transition-duration: .7s;
+    transition-timing-function: var(--waterlava-transition)
+}
+
+.waterlava-delay-1 {
+    transition-delay: .1s
+}
+
+.waterlava-delay-3 {
+    transition-delay: .3s
+}
+
+.waterlava-delay-5 {
+    transition-delay: .5s
+}
+
+.waterlava-delay-7 {
+    transition-delay: .7s
+}
+
+.waterlava-delay-10 {
+    transition-delay: 1s
+}
+
+.waterlava-delay-20 {
+    transition-delay: 2s
+}

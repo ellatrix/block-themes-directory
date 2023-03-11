@@ -1,0 +1,116 @@
+.wp-block-template-part {
+    padding: 0;
+}
+
+.wp-site-blocks .wp-block-template-part:not(.wp-block-template-part) {
+    transform: translateX(calc(0px - var(--wp--custom--content--padding)));
+    width: calc(100% + 2 * var(--wp--custom--content--padding));
+    max-width: calc(100% + 2 * var(--wp--custom--content--padding));
+    box-sizing: content-box;
+}
+
+.wp-site-blocks .wp-block-template-part > .alignfull {
+    width: 100%;
+}
+/*--------------------------------------------------------------
+# - Posts and pages
+--------------------------------------------------------------*/
+.site-content {
+	padding-top: 1.25rem;
+}
+
+.type-post,
+.type-page,
+.type-attachment {
+	margin-bottom: 30px;
+	padding: 30px;
+	background-color: #fff;
+}
+
+.sticky {
+	background: #eee;
+	padding: 2rem;
+}
+
+/* Entry Header */
+wp-block-column {
+	margin-bottom: 1rem;
+}
+
+.type-post {
+	margin-bottom: 0.75em;
+}
+
+/* Entry Content */
+wp-block-column {
+	font-size: 17px;
+	font-size: 1.0625rem;
+}
+
+wp-block-column > .alignwide,
+wp-block-column > .alignfull {
+	margin-left: calc(-100vw / 2 + 100% / 2 + 8px);
+	margin-right: calc(-100vw / 2 + 100% / 2 + 8px);
+	max-width: 100vw;
+}
+
+/* Featured Images */
+.post-image {
+	margin-bottom: 1rem;
+}
+
+.wp-post-image {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.wp-block-post-date {
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999
+}
+
+.wp-block-post-date time {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999
+}
+
+.wp-block-post-date .updated:not(.published) {
+	display: none;
+}
+.wp-block-post-author__content{
+	display: flex;
+}
+.wp-block-post-author__byline{
+	width:20%;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #999;
+}
+.wp-block-post-author {
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+	text-transform: uppercase;
+}
+
+.wp-block-post-author .wp-block-post-author__avatar img {
+	max-width: 32px;
+}
+
+.wp-block-post-author .wp-block-post-author__name {
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+	text-transform: uppercase;
+}
+.wp-block-post-terms a {
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+	text-transform: uppercase;
+}

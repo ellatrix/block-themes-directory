@@ -1,0 +1,466 @@
+# <!=Copyright (C) 2022 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BlockMag\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2022-12-05 22:23-0800\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:19 inc/about.php:98
+msgid "BlockMag Pro"
+msgstr ""
+
+#: inc/about.php:20
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"50+ Pre-Designed Block Patterns and 10+ Custom Blocks that are highly "
+"customizable and fully responsive."
+msgstr ""
+
+#: inc/about.php:22
+msgid "Get BlockMag Pro"
+msgstr ""
+
+#: inc/about.php:24 inc/about.php:368
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:49 inc/about.php:97 inc/block-patterns.php:18
+msgid "BlockMag"
+msgstr ""
+
+#: inc/about.php:68
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Getting Started with BlockMag!"
+msgstr ""
+
+#: inc/about.php:77
+msgid ""
+"Awesome! BlockMag has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in "
+"this astounding theme."
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:84
+msgid "More Features with BlockMag Pro Theme"
+msgstr ""
+
+#: inc/about.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you "
+"activate the BlockMag Pro. With the pro theme installed, get more options, "
+"blocks, block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:86
+msgid "Buy BlockMag Pro"
+msgstr ""
+
+#: inc/about.php:92
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/about.php:96
+msgid "Features"
+msgstr ""
+
+#: inc/about.php:103
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/about.php:108
+msgid "Super Easy Setup"
+msgstr ""
+
+#: inc/about.php:113
+msgid "Color Options for various sections"
+msgstr ""
+
+#: inc/about.php:118
+msgid "Block : Case Study"
+msgstr ""
+
+#: inc/about.php:123
+msgid "Block : Skills Bar"
+msgstr ""
+
+#: inc/about.php:128
+msgid "Block : Masonry"
+msgstr ""
+
+#: inc/about.php:133
+msgid "Block : Popup Video"
+msgstr ""
+
+#: inc/about.php:138
+msgid "Block : Header Search "
+msgstr ""
+
+#: inc/about.php:143
+msgid "Block : Header Social"
+msgstr ""
+
+#: inc/about.php:148
+msgid "Block : Icons"
+msgstr ""
+
+#: inc/about.php:153
+msgid "Block : Date"
+msgstr ""
+
+#: inc/about.php:158
+msgid "Block : Slider"
+msgstr ""
+
+#: inc/about.php:163
+msgid "Block : Tabs"
+msgstr ""
+
+#: inc/about.php:168
+msgid "Block : Playlist "
+msgstr ""
+
+#: inc/about.php:173
+msgid "404 Header"
+msgstr ""
+
+#: inc/about.php:178
+msgid "About us with Stats"
+msgstr ""
+
+#: inc/about.php:183 patterns/about-us.php:20
+msgid "About Us"
+msgstr ""
+
+#: inc/about.php:188
+msgid "Ad Full Width After Header"
+msgstr ""
+
+#: inc/about.php:193
+msgid "Ad Full Width Second"
+msgstr ""
+
+#: inc/about.php:198
+msgid "Ad Full Width"
+msgstr ""
+
+#: inc/about.php:203
+msgid "Archive Header Without BG"
+msgstr ""
+
+#: inc/about.php:208
+msgid "Archive Header"
+msgstr ""
+
+#: inc/about.php:213
+msgid "Blog Header without BG"
+msgstr ""
+
+#: inc/about.php:218
+msgid "Blog Header"
+msgstr ""
+
+#: inc/about.php:223
+msgid "Category wise News"
+msgstr ""
+
+#: inc/about.php:228
+msgid "Clients Testimonial"
+msgstr ""
+
+#: inc/about.php:233
+msgid "Cover News"
+msgstr ""
+
+#: inc/about.php:238
+msgid "CTA Just Video"
+msgstr ""
+
+#: inc/about.php:243
+msgid "CTA With Video"
+msgstr ""
+
+#: inc/about.php:248
+msgid "CTA"
+msgstr ""
+
+#: inc/about.php:253
+msgid "Featured Categories"
+msgstr ""
+
+#: inc/about.php:258
+msgid "Featured Content"
+msgstr ""
+
+#: inc/about.php:263
+msgid "Featured News"
+msgstr ""
+
+#: inc/about.php:268
+msgid "Featured Videos"
+msgstr ""
+
+#: inc/about.php:273
+msgid "Footer Default"
+msgstr ""
+
+#: inc/about.php:278
+msgid "Footer Three columns"
+msgstr ""
+
+#: inc/about.php:283
+msgid "Footer Four Columns"
+msgstr ""
+
+#: inc/about.php:288
+msgid "Header Default"
+msgstr ""
+
+#: inc/about.php:293
+msgid "Header with Cart"
+msgstr ""
+
+#: inc/about.php:298
+msgid "Header with Logo Center"
+msgstr ""
+
+#: inc/about.php:303
+msgid "How it works"
+msgstr ""
+
+#: inc/about.php:308
+msgid "Latest Products"
+msgstr ""
+
+#: inc/about.php:313
+msgid "Lifestyle News"
+msgstr ""
+
+#: inc/about.php:318
+msgid "Post Header"
+msgstr ""
+
+#: inc/about.php:323
+msgid "Logo Slider"
+msgstr ""
+
+#: inc/about.php:328
+msgid "Logo"
+msgstr ""
+
+#: inc/about.php:333
+msgid "Portfolio"
+msgstr ""
+
+#: inc/about.php:338
+msgid "Servies"
+msgstr ""
+
+#: inc/about.php:343
+msgid "Style news"
+msgstr ""
+
+#: inc/about.php:348
+msgid "Team"
+msgstr ""
+
+#: inc/about.php:353
+msgid "Team slider"
+msgstr ""
+
+#: inc/about.php:367
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:369
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:370
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:371
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:372
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:379
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:380
+msgid ""
+"Loved BlockMag? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:381
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/block-styles.php:44 inc/block-styles.php:62 inc/block-styles.php:71
+#: inc/block-styles.php:80 inc/block-styles.php:89 inc/block-styles.php:99
+#: inc/block-styles.php:109 inc/block-styles.php:118
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:53
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header.php:22
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header.php:25
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/about-us.php:23
+msgid "Fresh ideas for every business"
+msgstr ""
+
+#: patterns/about-us.php:28
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur Integer pretium condimentum "
+"tristique aenean luctus mauris lorem ipsum dolor sit amet consectetur."
+msgstr ""
+
+#: patterns/about-us.php:33
+msgid "Get started"
+msgstr ""
+
+#: patterns/blog-header-without-bg.php:18
+msgid "Recent From Blog"
+msgstr ""
+
+#: patterns/footer-default.php:16
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: patterns/footer-default.php:17
+msgid "Y"
+msgstr ""
+
+#: patterns/footer-three-columns.php:22
+msgid "About"
+msgstr ""
+
+#: patterns/footer-three-columns.php:25
+msgid ""
+"Lorem ipsum dolor sit amet con sect etur adipiscing elit maecenas conse "
+"ctetur dapibus rutrum proin vitae nibh eget adipiscing elit maecenas cons."
+msgstr ""
+
+#: patterns/footer-three-columns.php:36
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-three-columns.php:46
+msgid "374 FA Tower, Williams S Blvd. 2721, IL, USA"
+msgstr ""
+
+#: patterns/footer-three-columns.php:58
+msgid "(+880) 123 3456 7890"
+msgstr ""
+
+#: patterns/footer-three-columns.php:70
+msgid "info@companyname.com"
+msgstr ""
+
+#: patterns/footer-three-columns.php:82
+msgid "Opening Hours: 10:00 18:00"
+msgstr ""
+
+#: patterns/footer-three-columns.php:95 patterns/sidebar.php:35
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/header-with-buttons.php:34
+msgid "Log in"
+msgstr ""
+
+#: patterns/header-with-buttons.php:37
+msgid "Get Started"
+msgstr ""
+
+#: patterns/hidden-404.php:10
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/latest-news.php:21
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:33
+msgid "View All"
+msgstr ""
+
+#: patterns/sidebar.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus commodo, rhoncus et ante."
+msgstr ""
+
+#: patterns/sidebar.php:27
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:43
+msgid "Tags"
+msgstr ""

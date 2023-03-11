@@ -1,0 +1,229 @@
+/* styles for admin page */
+
+.evit-fse--about-page--wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #fff;
+}
+
+/* .evit-fse--about-page--wrapper .olive-one-click-demo-import-banner {
+  text-align: center;
+  padding: 40px 80px;
+  color: #0693e3 !important;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px -7px black;
+}
+.olive-one-click-demo-import-banner h2 {
+  color: #0693e3 !important;
+}
+.admin-grid-1 h3 {
+  color: #0693e3;
+}
+.evit-fse--about-page--wrapper
+  .olive-one-click-demo-import-banner
+  a.evit-fse-admin-button {
+  display: inline-block;
+  margin: 0 auto 30px;
+}
+.evit-fse--about-page--wrapper
+  .olive-one-click-demo-import-banner
+  a.evit-fse-admin-button
+  span {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.evit-fse--about-page--wrapper
+  .olive-one-click-demo-import-banner
+  a.evit-fse-admin-button
+  .dashicons.dashicons-update {
+  animation: evit-fse-spin 2s linear infinite;
+}
+.evit-fse--about-page--wrapper .olive-one-click-demo-import-banner small {
+  display: block;
+  font-style: italic;
+} */
+
+.evit-fse--about-page--wrapper .feature-list {
+  display: block;
+}
+
+.evit-fse--about-page--wrapper .evit-fse-header-left>.fs-notice {
+  display: none !important;
+}
+
+.evit-fse-header-left h2 {
+  color: #0693e3 !important;
+}
+
+.evit-fse--about-page--wrapper .evit-fse-admin-card-header {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 100%;
+  background: rgb(245, 245, 245);
+  box-shadow: 1px 1px 10px -7px black;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+}
+
+.evit-fse-admin-card-header {
+  color: #0693e3;
+}
+
+.evit-fse--about-page--wrapper .evit-fse-admin-card-header h2 {
+  margin: 0;
+
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.evit-fse--about-page--wrapper .evit-fse-admin-card-header p {
+  color: #0693e3;
+}
+
+.evit-fse--about-page--wrapper .evit-fse-header-right {
+  justify-self: flex-end;
+}
+
+#evit-fse-admin-about-page p,
+#evit-fse-admin-about-page {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 15px;
+}
+
+.evit-fse-admin-button {
+  padding: 10px 30px;
+  text-decoration: inherit;
+  background: #D90A2C;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.75;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 35px;
+}
+
+.evit-fse-admin-button.premium-button {
+  margin-left: 5px;
+  color: #fff;
+}
+
+.evit-fse-admin-button:hover {
+  background: #0693e3;
+  color: #fff;
+}
+
+.evit-fse-about-side {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 30px 0;
+  box-shadow: 1px 1px 10px -7px black;
+}
+
+.evit-fse-about-side .evit-fse-admin-card {
+  background: rgb(248, 248, 248);
+  padding: 50px;
+  border-radius: 5px;
+  color: #0693e3;
+  text-align: center;
+}
+
+.evit-fse-about-side .evit-fse-admin-card h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  color: #0693e3;
+}
+
+.evit-fse-about-side .evit-fse-admin-card .evit-fse-admin-button {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.evit-fse-about-side .evit-fse-admin-card p,
+.evit-fse-about-side .evit-fse-admin-card h4 {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 15px;
+}
+
+.evit-fse-card-header-button-group {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.evit-fse-compare-table-subtitle {
+  font-size: 16px;
+}
+
+.evit-fse-compare-table-subtitle a,
+.olive-one-click-demo-import-banner p a {
+  text-decoration: none;
+  color: #D90A2C !important;
+}
+
+.evit-fse-compare-table-subtitle a:hover {
+  color: #0693e3 !important;
+}
+
+.evit-fse-compare-table-subtitle a:hover,
+.olive-one-click-demo-import-banner p a {
+  color: #0693e3;
+}
+
+.evit-fse-compare-table-subtitle a i {
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.evit-fse-compare-table table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 2em;
+  width: 100%;
+  color: #000;
+  box-shadow: 0 0 33px #0000001a;
+}
+
+.evit-fse-compare-table table th {
+  border-bottom: 1px solid #ffffff;
+  padding: 15px;
+  color: #0693e3;
+
+}
+
+.evit-fse-compare-table table td {
+  padding: 1em;
+  text-align: center;
+  color: #0693e3;
+}
+
+.evit-fse-compare-table table td span {
+  font-size: 21px;
+  border-radius: 100%;
+  padding: 5px;
+  color: #d72b2b;
+}
+
+.evit-fse-compare-table table td span.dashicons.dashicons-yes {
+  text-align: center;
+  color: #4caf50;
+}
+
+.evit-fse-compare-table table tr:nth-child(2n) td {
+  background: #def0ff;
+}

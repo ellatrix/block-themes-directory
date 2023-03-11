@@ -1,0 +1,29 @@
+/*
+Theme Name: Bai
+Theme URI: https://seedwebs.com/package/bai/
+Author: Seed Webs
+Author URI: https://seedwebs.com
+Description: Block-Based WordPress Theme with Dark Mode, by Seed Webs.
+Requires at least: 5.8
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bai
+Tags: full-site-editing, blog
+
+Bai WordPress Theme, (C) 2021 Seed Webs.
+Bai is distributed under the terms of the GNU GPL.
+
+
+================================================
+
+This theme use SCSS.
+
+All scss files are located in /bai/assets/scss/ 
+and compiled to /bai/assets/css/.
+
+================================================
+
+*/

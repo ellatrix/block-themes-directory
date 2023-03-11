@@ -1,0 +1,616 @@
+/**
+ *
+ * Welcome Page Styles
+ *
+**/
+
+.clearfix:after,
+.clearfix:before{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.welcome-wrap *{
+    box-sizing: border-box;
+}
+
+.welcome-wrap{
+    position: relative;
+    margin: 25px 15px 2px;
+    /* max-width: 1150px; */
+    font-size: 15px;
+    line-height: 1.5;
+    color: #555d66
+}
+
+.welcome-wrap p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #555d66
+}
+
+.welcome-main-content,
+.welcome-footer-content{
+    background: #FFF;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.welcome-footer-content{
+    margin-bottom: 0;
+}
+
+/** Welcome Header **/
+.welcome-header{
+    margin-bottom: 50px;
+}
+
+.welcome-intro{
+    width: 70%;
+    float: left;
+    font-size: 18px;
+}
+
+.welcome-intro h2{
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+.free-pro-demos{
+    margin-top: 20px;
+}
+
+.free-pro-demos a.button{
+    padding: 0 20px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.free-pro-demos a.button .dashicons{
+    height: auto;
+    width: auto;
+    line-height: 42px;
+    margin-right: 8px;
+}
+
+.welcome-promo-banner{
+    width: 25%;
+    background: #fff;
+    border: 1px solid #EEE;
+    padding: 20px;
+    float: right;
+    text-align: center;
+}
+
+.welcome-promo-banner p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.welcome-promo-banner a.upgrade-btn {
+    display: block !important;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    white-space: normal;
+}
+
+.welcome-promo-offer {
+    display: block !important;
+    margin-bottom: 15px;
+    padding: 25px;
+    border: 2px dashed #dad5d5;
+    background: #f4fcff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+/** Nav **/
+.welcome-nav-wrapper{
+    display: flex;
+    background: #EEE;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 50px;
+}
+
+.welcome-nav-wrapper .welcome-nav-tab{
+    padding: 14px 30px;
+    text-decoration: none;
+    background: #FFF;
+    color: #333;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    box-shadow: none;
+}
+
+.welcome-nav-wrapper .welcome-nav-tab:hover{
+    color: #007cba;
+}
+
+.welcome-nav-wrapper .welcome-nav-tab.welcome-nav-tab-active{
+    background: #23282e;
+    color: #FFF;
+}
+
+/** Getting Started **/
+.welcome-getting-started{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-manual-setup,
+.welcome-demo-import{
+    width: 48%;
+    padding: 30px;
+    border: 1px solid #EEE;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.04);
+}
+
+.welcome-getting-started h3{
+    margin: 0 0 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 20px;
+    line-height: 30px;
+}
+
+.welcome-getting-started ol{
+    margin: 0 0 20px 20px;
+}
+
+.welcome-getting-started p{
+    margin: 0 0 20px;
+}
+
+.welcome-demo-import h3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-theme-thumb{
+    padding-bottom: 72%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.welcome-theme-thumb img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: top center;
+}
+
+/** Recommende Plugins **/
+.recommended_plugins h3{
+    margin: 0 0 15px;
+}
+
+.recomended-plugin-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -2%;
+    margin-top: -20px;
+}
+
+.recommended-plugins{
+    background: #fff;
+    border: 1px solid #EEE;
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+
+.plugin-image img{
+    width: 100%;
+    padding: 10px;
+}
+
+.plugin-title-wrap{
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 10px 15px;
+    border-top: 1px solid #EEE;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.plugin-btn-wrapper{
+    transition: opacity .1s ease-in-out;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 46px;
+    padding: 10px 20px;
+    background: rgba(244,244,244,.7);
+    border-left: 1px solid rgba(0,0,0,.05);
+}
+
+/** Support **/
+.support-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.support-wrap .support-col{
+    width: 50%;
+    border: 1px solid #EEE;
+    padding: 30px;
+    margin: 0 15px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.04);
+}
+
+.support-wrap .support-col h3{
+    margin-top: 0;
+}
+
+/** Free VS Pro **/
+.free-vs-pro-info-wrap{
+    display: flex;
+    margin: 0 -15px 40px;
+}
+
+.free-vs-pro-info{
+    border: 1px solid #EEE;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 0 15px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.04);
+}
+
+.free-vs-pro-info h4{
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.theme-steps:not(:first-child) {
+    margin-top: 30px;
+}
+
+.free-vs-pro-info p{
+    margin: 0;
+}
+
+table.comparison-table {
+    border:#EEE 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.comparison-table th,
+table.comparison-table td{
+    border:1px solid #EEE;
+    padding: 15px;
+    text-align: left;
+}
+
+table.comparison-table th:nth-child(2),
+table.comparison-table td:nth-child(2),
+table.comparison-table th:nth-child(3),
+table.comparison-table td:nth-child(3){
+    text-align: center;
+    width: 140px;
+}
+
+table.comparison-table th {
+    background: #F6F6F6;
+    font-size: 20px;
+    padding: 25px 15px;
+}
+
+table.comparison-table th p:last-child,
+table.comparison-table td p:last-child{
+    margin-bottom: 0;
+}
+
+table.comparison-table td span{
+    font-weight: bold;
+}
+
+table.comparison-table tr:hover{
+    background: #F6F6F6;
+}
+
+table.comparison-table td:nth-child(2) img,
+table.comparison-table td:nth-child(3) img{
+    width: 40px;
+}
+
+a.buy-pro-btn {
+    display: block;
+    background: #b92424;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+a.buy-pro-btn:hover{
+    background: #981f1f
+}
+
+/** Upgrade Section **/
+.welcome-upgrade-header{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.welcome-upgrade-header h3{
+    margin: 0 0 10px;
+}
+
+.welcome-upgrade-header p{
+    font-size: 18px;
+}
+
+.welcome-upgrade-box{
+    border: 2px dashed #DDD;
+    padding: 40px 100px;
+    text-align: center;
+    margin-top: 50px;
+    background: #F6F6F6;
+}
+
+.upgrade-box-text h3{
+    font-size: 26px;
+    margin: 0 0 20px;
+}
+
+.upgrade-box-text p{
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+
+.welcome-upgrade-box .upgrade-button{
+    display: inline-block;
+    padding: 14px 30px;
+    background: #0185ba;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/** Welcome Notice **/
+.sparkle-fse-welcome-notice-wrap{
+    position: relative;
+    padding: 20px;
+}
+
+.sparkle-fse-welcome-notice-wrap h2{
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.notice .sparkle-fse-welcome-notice-wrap > p{
+    font-size: 16px;
+    margin: 0 0 25px;
+}
+
+.sparkle-fse-welcome-info{
+    display: flex;
+}
+
+.sparkle-fse-welcome-info .sparkle-fse-welcome-thumb{
+    width: 200px;
+    margin-right: 40px;
+}
+
+.sparkle-fse-welcome-info > .sparkle-fse-welcome-import,
+.sparkle-fse-welcome-info > .sparkle-fse-welcome-getting-started{
+    width: 340px;
+    margin-right: 40px;
+}
+
+.sparkle-fse-welcome-thumb img{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sparkle-fse-welcome-info h3{
+    margin: 0 0 15px;
+}
+
+.notice .sparkle-fse-welcome-info p{
+    margin: 0 0 20px;
+}
+
+.sparkle-fse-welcome-info .button{
+    margin: 0;
+    padding: 12px 36px;
+    height: auto;
+    line-height: 1.5;
+    white-space: normal;
+}
+
+.sparkle-fse-welcome-info .button-primary.updating-message:before{
+    margin: 0px 5px 0 0;
+    height: auto;
+    font-size: 18px;
+}
+
+.sparkle-fse-welcome-notice-wrap .notice-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px 10px 21px;
+    font-size: 13px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.sparkle-fse-welcome-notice-wrap .notice-close:before{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transition: all .1s ease-in-out;
+    color: #72777c;
+    content: "\f153";
+    display: block;
+    font: normal 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+}
+
+.sparkle-fse-welcome-notice-wrap .notice-close:hover,
+.sparkle-fse-welcome-notice-wrap .notice-close:hover:before{
+    color: #FF0000;
+}
+
+/** Footer Review **/
+body.appearance_page_sparkle-fse-welcome #wpfooter{
+    position: fixed;
+    background: #23282e;
+    color: #FFF;
+    max-width: 1110px;
+    left: 40px;
+    margin-right: 40px;
+}
+
+body.appearance_page_sparkle-fse-welcome #wpfooter a{
+    color: #FFF;
+}
+
+@media screen and (max-width:782px){
+
+    .welcome-wrap{
+        margin: 30px 30px 0 20px;
+    }
+
+    .welcome-main-content, 
+    .welcome-footer-content{
+        padding: 20px;
+    }
+
+    .welcome-intro,
+    .welcome-promo-banner{
+        width: auto;
+        float: none;
+    }
+
+    .welcome-intro{
+        margin-bottom: 40px;
+    }
+
+    .welcome-nav-wrapper{
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .welcome-nav-wrapper .welcome-nav-tab{
+        display: block;
+        margin: 0 0 5px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .recommended-plugins{
+        width: 46%;
+        margin-top: 30px;
+    }
+    
+    .plugin-title-wrap{
+        padding: 16px 15px;
+    }
+    
+    .plugin-btn-wrapper{
+        height: 58px;
+    }
+
+    .welcome-upgrade-box{
+        padding: 40px;
+    }
+    
+    .sparkle-fse-welcome-info .sparkle-fse-welcome-thumb{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:580px){
+    .welcome-getting-started{
+        display: block;
+    }
+
+    .welcome-manual-setup, 
+    .welcome-demo-import{
+        width: auto;
+        padding: 20px;
+    }
+
+    .welcome-manual-setup{
+        margin-bottom: 40px;
+    }
+
+    .recomended-plugin-wrap{
+        margin-left: 0;
+    }
+
+    .recommended-plugins{
+        width: auto;
+        float: none;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .support-wrap,
+    .free-vs-pro-info-wrap{
+        display: block;
+    }
+
+    .support-wrap .support-col,
+    .free-vs-pro-info{
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    .support-wrap .support-col:last-child,
+    .free-vs-pro-info:last-child{
+        margin-bottom: 0;
+    }
+
+    table.comparison-table th, 
+    table.comparison-table td{
+        display: block;
+        width: 100% !important;
+        text-align: left !important;
+    }
+    
+    .sparkle-fse-welcome-info{
+        display: block;
+    }
+    
+    .sparkle-fse-welcome-info > .sparkle-fse-welcome-import, 
+    .sparkle-fse-welcome-info > .sparkle-fse-welcome-getting-started{
+        width: auto;
+        margin: 0 0 30px;
+    }
+    
+    .sparkle-fse-welcome-info > .sparkle-fse-welcome-getting-started{
+        margin-bottom: 0;
+    }
+}

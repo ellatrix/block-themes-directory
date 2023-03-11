@@ -1,0 +1,11 @@
+/* --- Block featured Content
+-------------------------------------------------------- */
+
+.wp-block-feature-content .wp-block-entry-content {
+    padding-top: var(--wp--custom--spacing--testimonial-inner-gap);
+    margin-block-start: 0 !important;
+}
+
+.wp-block-hero-content.wp-block-section .wp-block-group-heading {
+    margin-bottom: 21px;
+}

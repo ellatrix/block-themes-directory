@@ -1,0 +1,37 @@
+/* --- Service Default
+-------------------------------------------------------- */
+.services {
+  .wp-block-separator.is-style-default {
+    margin-left: 0;
+  }
+
+  .section-heading.wp-block-columns,
+  .wp-block-columns.dot-column,
+  .services-columns-wrap.wp-block-columns {
+    background-color: transparent;
+  }
+
+  .wp-block-group {
+    padding: clamp(20px, 5vw, 49px) clamp(20px, 5vw, 42px);
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    &.section-heading {
+      padding: 0;
+    }
+  }
+}
+
+.wp-block-artsylens-service h2,
+.wp-block-artsylens-service h2,
+.services h5 {
+  font-family: var(--wp--preset--font-family--roboto);
+}
+
+.services .wp-block-column:not(.dot-column):not(.section-heading) {
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,497 @@
+# Copyright (C) 2022 paloma-fse
+# This file is distributed under the same license as the paloma-fse package.
+msgid ""
+msgstr ""
+"Project-Id-Version: paloma-fse\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Olive Themes info@olivethemes.com\n"
+"POT-Creation-Date: 2022-12-09 05:14+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: patterns/footer-default.php:14
+msgid "Our Company"
+msgstr ""
+
+#: patterns/footer-default.php:20
+msgid "Lorem ipsum dolor sit amet, consect etur adipiscing elit etiam maximus in lorem ipsum dolor sit amet."
+msgstr ""
+
+#: patterns/footer-default.php:28
+msgid "Pages"
+msgstr ""
+
+#: patterns/footer-default.php:34, patterns/primary-sidebar.php:18
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:38
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-default.php:42, patterns/footer-default.php:58, patterns/home-banner.php:17
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:46
+msgid "FAQ"
+msgstr ""
+
+#: patterns/footer-default.php:50
+msgid "Templates"
+msgstr ""
+
+#: patterns/footer-default.php:64
+msgid "Management"
+msgstr ""
+
+#: patterns/footer-default.php:68
+msgid "Theme Design / Development"
+msgstr ""
+
+#: patterns/footer-default.php:72
+msgid "SEO Optimization"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "Domain"
+msgstr ""
+
+#: patterns/footer-default.php:84
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:90
+msgid "example@mail.com"
+msgstr ""
+
+#: patterns/footer-default.php:94
+msgid "+1 234 567 890"
+msgstr ""
+
+#: patterns/footer-default.php:98
+msgid "457 Morningview Lane, NY"
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgid "Proudly powered by "
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgid "Olive Themes"
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgid "WordPress "
+msgstr ""
+
+#: patterns/header-default.php:19
+msgid "+123 456 789"
+msgstr ""
+
+#: patterns/header-default.php:31
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/header-default.php:67, patterns/promotinal-headline.php:28
+msgid "Get A Quote"
+msgstr ""
+
+#: patterns/hero-content.php:15
+msgid "25 +"
+msgstr ""
+
+#: patterns/hero-content.php:15
+msgid "Years"
+msgstr ""
+
+#: patterns/hero-content.php:26
+msgid "About Our Company"
+msgstr ""
+
+#: patterns/hero-content.php:32
+msgid "Creative vision and digital experience"
+msgstr ""
+
+#: patterns/hero-content.php:36
+msgid "For those who love videos, animation and motion graphics, we have come up with a new cool project!"
+msgstr ""
+
+#: patterns/hero-content.php:41
+msgid "Unlimited sessions"
+msgstr ""
+
+#: patterns/hero-content.php:45
+msgid "Amazing photo &amp; video galleries"
+msgstr ""
+
+#: patterns/hero-content.php:49
+msgid "Huge color scheme selection"
+msgstr ""
+
+#: patterns/hero-content.php:55
+msgid "Explore Us"
+msgstr ""
+
+#: patterns/hidden-404.php:14, patterns/hidden-404.php:14
+msgid "4"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgid "0"
+msgstr ""
+
+#: patterns/hidden-404.php:22
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/home-banner.php:13
+msgid "Grow Your Business"
+msgstr ""
+
+#: patterns/home-banner.php:17
+msgid "Using Our"
+msgstr ""
+
+#: patterns/home-banner.php:21
+msgid "Build a beautiful, modern website with flexible components and"
+msgstr ""
+
+#: patterns/home-banner.php:25
+msgid "modular pages built from scratch."
+msgstr ""
+
+#: patterns/home-banner.php:32
+msgid "Checkout Our Services"
+msgstr ""
+
+#: patterns/latest-news.php:16
+msgid "From Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:22, patterns/services.php:36
+msgid "Creative Solutions"
+msgstr ""
+
+#: patterns/latest-news.php:30, patterns/portfolio.php:110, patterns/team.php:30
+msgid "Explore More"
+msgstr ""
+
+#: patterns/portfolio.php:15
+msgid "Best Services"
+msgstr ""
+
+#: patterns/portfolio.php:21
+msgid "What We Are Offering"
+msgstr ""
+
+#: patterns/portfolio.php:38
+msgid "Startups Business"
+msgstr ""
+
+#: patterns/portfolio.php:42, patterns/portfolio.php:68, patterns/portfolio.php:95
+msgid "It is a long established fact that a reader will be distracted by the readable..."
+msgstr ""
+
+#: patterns/portfolio.php:47, patterns/portfolio.php:73, patterns/portfolio.php:100, patterns/primary-sidebar.php:33
+msgid "Know More"
+msgstr ""
+
+#: patterns/portfolio.php:64
+msgid "Finance &amp; Investing"
+msgstr ""
+
+#: patterns/portfolio.php:90
+msgid "Growth Strategy"
+msgstr ""
+
+#: patterns/primary-sidebar.php:28
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac lorem pretium, laoreet enim at, malesuada elit."
+msgstr ""
+
+#: patterns/primary-sidebar.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:54
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:66
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:80
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:92
+msgid "Social Links"
+msgstr ""
+
+#: patterns/promotinal-headline.php:14
+msgid "Agency Getting Excited From Our Solutions"
+msgstr ""
+
+#: patterns/promotinal-headline.php:19
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt pulvinar neque, in scelerisque velit auctor ut. Aliquam nec volutpat erat"
+msgstr ""
+
+#: patterns/promotinal-headline.php:24
+msgid "View Services"
+msgstr ""
+
+#: patterns/search-cover.php:13
+msgid "Search Now"
+msgstr ""
+
+#: patterns/services.php:14
+msgid "Use full Feature"
+msgstr ""
+
+#: patterns/services.php:20
+msgid "Features we Provide"
+msgstr ""
+
+#: patterns/services.php:40, patterns/services.php:67, patterns/services.php:93, patterns/services.php:121, patterns/services.php:147, patterns/services.php:173
+msgid "Build a beautiful, modern website with flexible components and modular pages built from scratch."
+msgstr ""
+
+#: patterns/services.php:46, patterns/services.php:72, patterns/services.php:98, patterns/services.php:126, patterns/services.php:152, patterns/services.php:178
+msgid "More Details"
+msgstr ""
+
+#: patterns/services.php:63
+msgid "Financial Strategy"
+msgstr ""
+
+#: patterns/services.php:89
+msgid "Marketing Strategy"
+msgstr ""
+
+#: patterns/services.php:117
+msgid ""
+msgstr ""
+
+#: patterns/services.php:143
+msgid "Web Development"
+msgstr ""
+
+#: patterns/services.php:169
+msgid "Restructuring"
+msgstr ""
+
+#: patterns/team.php:16
+msgid "Our Experts Team"
+msgstr ""
+
+#: patterns/team.php:22
+msgid "Foundational pillars of our organization"
+msgstr ""
+
+#: patterns/team.php:48
+msgid "Startups"
+msgstr ""
+
+#: patterns/team.php:52
+msgid "Chief Marketing Officer"
+msgstr ""
+
+#: patterns/team.php:76
+msgid "Justin Hammer"
+msgstr ""
+
+#: patterns/team.php:80
+msgid "Founder/ CEO"
+msgstr ""
+
+#: patterns/team.php:104
+msgid "Ashley Hardy"
+msgstr ""
+
+#: patterns/team.php:108
+msgid "VP Sales and Marketing"
+msgstr ""
+
+#: patterns/team.php:132
+msgid "Clark Roberts"
+msgstr ""
+
+#: patterns/team.php:136
+msgid "Chief Finance Officer"
+msgstr ""
+
+#: inc/core/pattern-category.php:20
+msgid "Paloma FSE"
+msgstr ""
+
+#: inc/core/theme-info.php:6, inc/core/theme-info.php:6
+msgid "Paloma FSE Theme"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:15
+msgid "Howdy, "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Welcome to"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Paloma FSE Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:17
+msgid "Explore beautiful hand-crafted site templates and setup your site in few clicks."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Explore Now!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "Learn more about Paloma FSE Pro Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:19
+msgid "Multipurpose WordPress Full Site Editing Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:34, inc/core/templates/theme-info.php:307
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid "Download Advanced Site Templates for Free!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Install"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Olive One Click Demo Import"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "and access to all the Olive Demo templates. This plugin will help you download site template in few clicks."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:59
+msgid "Note: Clicking the button will both install and activate Olive One Click Demo Import plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:69
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:82
+msgid "Free"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:85
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:88
+msgid "Paloma FSE Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:98
+msgid "Easy Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:109
+msgid "Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:120
+msgid "Advance Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:131
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:142
+msgid "100+ Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:153
+msgid "Advance Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info.php:164
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:175
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:186
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:208
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:219
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:230
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:241
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:252
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:272
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:275
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:281
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:286
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:290
+msgid "Don't hesitate to ask any questions you have regarding our products."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:294
+msgid "Get Support"
+msgstr ""

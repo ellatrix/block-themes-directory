@@ -1,0 +1,14 @@
+.stats-section {
+  .wp-block-column {
+    text-align: center;
+    h2 {
+      font-weight: var(--wp--custom--typography--font-weight--bold);
+      font-size: var(--wp--preset--font-size--section-title) !important;
+      line-height: 1.14;
+    }
+    p {
+      text-transform: capitalize;
+      margin-top: var(--wp--custom--spacing--section-heading);
+    }
+  }
+}

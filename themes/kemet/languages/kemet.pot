@@ -1,0 +1,470 @@
+# Copyright (C) 2022 Kemet Wordpress Block Theme
+# This file is distributed under the same license as the Kemet Wordpress Block Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kemet Wordpress Block Theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: Kemet Wordpress Block Theme\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: functions/classes/class-kemet-admin-settings.php:84, inc/kemet-panel/class-kemet-panel.php:132, inc/kemet-panel/class-kemet-panel.php:132
+msgid "Settings"
+msgstr ""
+
+#: functions/classes/class-kemet-admin-settings.php:84, inc/kemet-panel/class-kemet-panel.php:117, inc/kemet-panel/class-kemet-panel.php:120
+msgid "Kemet"
+msgstr ""
+
+#: functions/classes/class-kemet-enqueue-scripts.php:102
+msgid "The theme identifier"
+msgstr ""
+
+#: inc/block-patterns.php:17
+msgid "Kemet Headers"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Kemet Footers"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Kemet Patterns"
+msgstr ""
+
+#: inc/block-patterns.php:20
+msgid "Kemet Sidebar"
+msgstr ""
+
+#: inc/blocks-styles.php:16
+msgid "Fit to Screen"
+msgstr ""
+
+#: inc/blocks-styles.php:23
+msgid "Sticky"
+msgstr ""
+
+#: inc/blocks-styles.php:30
+msgid "Full Height"
+msgstr ""
+
+#: inc/blocks-styles.php:37
+msgid "Rounded"
+msgstr ""
+
+#: inc/blocks-styles.php:44
+msgid "With Shadow"
+msgstr ""
+
+#: inc/blocks-styles.php:51
+msgid "Mask Flower"
+msgstr ""
+
+#: inc/blocks-styles.php:58
+msgid "Mask Sketch"
+msgstr ""
+
+#: inc/blocks-styles.php:65
+msgid "Mask Blob"
+msgstr ""
+
+#: inc/blocks-styles.php:72, inc/blocks-styles.php:80
+msgid "Shadow"
+msgstr ""
+
+#: inc/blocks-styles.php:88
+msgid "Overlay"
+msgstr ""
+
+#: inc/blocks-styles.php:96
+msgid "Top Border"
+msgstr ""
+
+#: inc/blocks-styles.php:104
+msgid "Bottom Border"
+msgstr ""
+
+#: inc/blocks-styles.php:112
+msgid "Horizontal Border"
+msgstr ""
+
+#: inc/blocks-styles.php:120, inc/blocks-styles.php:130
+msgid "Vertical Border"
+msgstr ""
+
+#: inc/blocks-styles.php:138
+msgid "Dash icon"
+msgstr ""
+
+#: inc/blocks-styles.php:146
+msgid "Checkmark icon"
+msgstr ""
+
+#: inc/blocks-styles.php:154
+msgid "Arrow icon"
+msgstr ""
+
+#: inc/blocks-styles.php:162
+msgid "Border Bottom"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:6
+msgid "3 Columns Footer with Contact Information"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:15, inc/patterns/footer.php:14, inc/patterns/sidebar.php:18
+msgid "About Us"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:19
+msgid "Leap13 is a 5 Stars rated WordPress-focused web development firm specialized in building Premium WordPress Themes and Plugins."
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:24
+msgid "View More"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:31
+msgid "Contact Info"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:35
+msgid "☎ (+132)1-001-234-5678"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:39
+msgid "✉ info@example.com"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:43
+msgid "🏛️ 3 Rockaway St., New Rochelle, NY 10801"
+msgstr ""
+
+#: inc/patterns/3-columns-footer-with-contact-information.php:49
+msgid "Recent Articles"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:6
+msgid "4 Columns Footer With Map"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:15
+msgid "Services"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:23
+msgid "Quick Links"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:31
+msgid "Support"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:39, inc/patterns/hero-scene.php:36
+msgid "Our Location"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:43
+msgid "Fusce varius, dolor tempor interdum tristique."
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:77, inc/patterns/footer.php:56, inc/patterns/minimal-one-column-footer.php:61
+msgid "Copyright © 2022 | "
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:78, inc/patterns/footer.php:57, inc/patterns/minimal-one-column-footer.php:62
+msgid "https://kemet.io/"
+msgstr ""
+
+#: inc/patterns/4-columns-footer-with-map.php:78, inc/patterns/footer.php:57, inc/patterns/minimal-one-column-footer.php:62
+msgid " WordPress Theme"
+msgstr ""
+
+#: inc/patterns/404-content.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/404-content.php:10
+msgid "Oops! This page can't be found."
+msgstr ""
+
+#: inc/patterns/404-content.php:15
+msgid "The page you are looking for does not exist or may have been moved/renamed. Please try a search."
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:7
+msgid "Combined Columns Displays Business Services"
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:14
+msgid "Our Services"
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:18
+msgid "We Have got all your cleaning needs covered."
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:24
+msgid "With over 25 years of experience cleaning everything from houses to offices, you can trust us with your health and safety."
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:33
+msgid "Contact Us"
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:53
+msgid "Carpet Cleaning"
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:57, inc/patterns/combined-columns-displays-business-services.php:77, inc/patterns/combined-columns-displays-business-services.php:97, inc/patterns/combined-columns-displays-business-services.php:117
+msgid "Donec rutrum congue leo eget malesuada praesent sed."
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:73
+msgid "Residential Cleaning"
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:93
+msgid "Window Cleaning"
+msgstr ""
+
+#: inc/patterns/combined-columns-displays-business-services.php:113
+msgid "Company Cleaning"
+msgstr ""
+
+#: inc/patterns/footer.php:6
+msgid "Default Footer"
+msgstr ""
+
+#: inc/patterns/footer.php:18, inc/patterns/footer.php:32, inc/patterns/sidebar.php:22
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: inc/patterns/footer.php:28
+msgid "Join The Community"
+msgstr ""
+
+#: inc/patterns/footer.php:63
+msgid "Kemet WordPress Block Theme"
+msgstr ""
+
+#: inc/patterns/header-with-button-socialicons.php:6
+msgid "Header with Button & Social Icons"
+msgstr ""
+
+#: inc/patterns/header-with-button-socialicons.php:34
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/header-with-contact-information.php:6
+msgid "Header with Contact Information"
+msgstr ""
+
+#: inc/patterns/header-with-contact-information.php:15
+msgid "mail@example.com - 78 Towne Cove St. 289"
+msgstr ""
+
+#: inc/patterns/header-with-contact-information.php:55
+msgid "Free Consultation"
+msgstr ""
+
+#: inc/patterns/header-with-contact-information.php:55
+msgid "(021)123-456-789"
+msgstr ""
+
+#: inc/patterns/header-with-top-bar.php:6
+msgid "Header with top bar"
+msgstr ""
+
+#: inc/patterns/header.php:6, inc/patterns/sidebar.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/header.php:26
+msgid "Click Here"
+msgstr ""
+
+#: inc/patterns/hero-scene.php:7
+msgid "Hero Scene"
+msgstr ""
+
+#: inc/patterns/hero-scene.php:15
+msgid "+200 types of flowers"
+msgstr ""
+
+#: inc/patterns/hero-scene.php:19
+msgid "Provide You With the Most Beautiful Flowers"
+msgstr ""
+
+#: inc/patterns/hero-scene.php:23
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum felis sed ullamcorper tempus faucibus in imperdiet. Semper justo mauris sed fusce erat aenean tristique."
+msgstr ""
+
+#: inc/patterns/hero-scene.php:32
+msgid "Order Now"
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:7
+msgid "Information Blocks for Gardening Services."
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:13
+msgid "Keep Your Property Looking Beautiful"
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:17
+msgid "Customized Garden Services"
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:21
+msgid "Give your property a professional touch and organic atmosphere with our authentic gardening services."
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:44
+msgid "Hedging Services"
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:48
+msgid "Sed ut perspiciatis unde omnis iste natus ipsum."
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:64
+msgid "Irrigation Services"
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:68
+msgid "Accusantium doloremque laudantium totam rem."
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:84
+msgid "Mulching Services"
+msgstr ""
+
+#: inc/patterns/information-blocks-for-gardening-services.php:88
+msgid "Quasi architecto beatae vitae dicta sunt explicabo."
+msgstr ""
+
+#: inc/patterns/kemet-left-right-loop.php:6
+msgid "Left Right Blog"
+msgstr ""
+
+#: inc/patterns/minimal-one-column-footer.php:6
+msgid "Minimal One Column Footer"
+msgstr ""
+
+#: inc/patterns/minimal-one-column-footer.php:39
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+msgstr ""
+
+#: inc/patterns/sidebar.php:30
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/patterns/sidebar.php:40
+msgid "Follow Us"
+msgstr ""
+
+#: inc/patterns/sidebar.php:44
+msgid "Vestibulum ante ipsum primis in faucibus orci luctus et."
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:7
+msgid "Simple Call to Action Section."
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:17
+msgid "Get in Touch"
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:21
+msgid "Contact us"
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:21
+msgid " if you have an inquiry or feedback"
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:27
+msgid "Email: mail@example.com"
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:33
+msgid "Phone:+(223)17620314780"
+msgstr ""
+
+#: inc/patterns/simple-call-to-action-section.php:40
+msgid "Contact With Us"
+msgstr ""
+
+#: inc/patterns/testimonials-section.php:6
+msgid " Testimonials Section"
+msgstr ""
+
+#: inc/patterns/testimonials-section.php:20, inc/patterns/testimonials-section.php:48, inc/patterns/testimonials-section.php:76
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: inc/patterns/testimonials-section.php:20
+msgid "Michael V. Ford"
+msgstr ""
+
+#: inc/patterns/testimonials-section.php:48
+msgid "Tony E. Clark"
+msgstr ""
+
+#: inc/patterns/testimonials-section.php:76
+msgid "Kyle S. Witt"
+msgstr ""
+
+#: inc/patterns/two-columns-with-image-text-and-a-call-to-action.php:7
+msgid "Two Columns with Image, Text, and a Call to Action."
+msgstr ""
+
+#: inc/patterns/two-columns-with-image-text-and-a-call-to-action.php:13
+msgid "Coffee Cups"
+msgstr ""
+
+#: inc/patterns/two-columns-with-image-text-and-a-call-to-action.php:21
+msgid "Coffee is Awesome"
+msgstr ""
+
+#: inc/patterns/two-columns-with-image-text-and-a-call-to-action.php:29
+msgid "Start your day with a cup of coffee"
+msgstr ""
+
+#: inc/patterns/two-columns-with-image-text-and-a-call-to-action.php:33
+msgid "Taste and See Coffee Shop and Gallery offers a unique coffee house environment unlike any other in Macon. We are not only a place to drop in and get your morning cup of coffee, we are a place where you can sit down and enjoy that tailor-made cup of coffee. If you need to work, we have a seating area created specifically for you. If you need to rest, We look forward to serving you at Taste &amp; See Coffee Shop and Gallery."
+msgstr ""
+
+#: inc/patterns/two-columns-with-image-text-and-a-call-to-action.php:42
+msgid "MORE ABOUT US"
+msgstr ""
+
+#: inc/patterns/two-columns-with-overlay-content-and-a-call-to-action.php:7
+msgid "Two Columns with Overlay Content and a Call to Action"
+msgstr ""
+
+#: inc/patterns/two-columns-with-overlay-content-and-a-call-to-action.php:17
+msgid "ABOUT US"
+msgstr ""
+
+#: inc/patterns/two-columns-with-overlay-content-and-a-call-to-action.php:21
+msgid "IT Solutions for You Business"
+msgstr ""
+
+#: inc/patterns/two-columns-with-overlay-content-and-a-call-to-action.php:25
+msgid "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+msgstr ""
+
+#: inc/patterns/two-columns-with-overlay-content-and-a-call-to-action.php:34
+msgid "More About Us"
+msgstr ""

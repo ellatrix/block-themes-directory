@@ -1,0 +1,12 @@
+/* --- FSE Pro Pricing Styles
+-------------------------------------------------------- */
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column.popular-package > h5,
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column.popular-package > h2 {
+    background: var(--wp--preset--color--text-link);
+}
+
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column.popular-package > h5.has-secondary-background-color {
+    background: var(--wp--preset--color--text-link) !important;
+}

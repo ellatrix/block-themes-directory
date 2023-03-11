@@ -1,0 +1,49 @@
+/* Button block overrides for colors and gradients */
+.wp-block-button__link[class*="gradient-background"] {
+	background-color: var(--almost-white) !important;
+}
+
+.is-style-outline a.wp-block-button__link.has-background {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.is-style-outline a.wp-block-button__link.has-background:hover,
+.is-style-outline a.wp-block-button__link.has-background:focus {
+  background-image: var(--white-to-black-gradient) !important;
+  background-color: var(--almost-white) !important;
+  color: var(--wp--preset--color--black);
+}
+
+/* Color overrides for the Cover block */
+.wp-block-cover .has-accent-1-background-color {
+	background-color: var(--wp--preset--color--accent-1);
+}
+
+.wp-block-cover .has-accent-2-background-color {
+	background-color: var(--wp--preset--color--accent-2);
+}
+
+.wp-block-cover .has-accent-3-background-color {
+	background-color: var(--wp--preset--color--accent-3);
+}
+
+.wp-block-cover .has-accent-4-background-color {
+	background-color: var(--wp--preset--color--accent-4);
+}
+
+.wp-block-cover .has-accent-5-background-color {
+	background-color: var(--wp--preset--color--accent-5);
+}
+
+.wp-block-cover .has-accent-6-background-color {
+	background-color: var(--wp--preset--color--accent-6);
+}
+
+.wp-block-cover .has-accent-7-background-color {
+	background-color: var(--wp--preset--color--accent-7);
+}
+
+.wp-block-cover .has-accent-8-background-color {
+	background-color: var(--wp--preset--color--accent-8);
+}

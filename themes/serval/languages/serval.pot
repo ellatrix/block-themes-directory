@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-28 09:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/theme.php:15
+msgid "Serval Premium"
+msgstr ""
+
+#: inc/theme.php:16
+msgid ""
+"If You need the premium features for Your site, check the theme page on "
+"wwwows.com"
+msgstr ""
+
+#: inc/theme.php:17
+msgid "Get Serval Premium"
+msgstr ""
+
+#: inc/theme.php:28
+msgid "Serval WordPress Theme"
+msgstr ""
+
+#: inc/theme.php:29
+msgid "Thank You for using Serval! Check all the theme features."
+msgstr ""
+
+#: inc/theme.php:31
+msgid ""
+"Here You can see the theme features. At the theme page on wwwows.com You can "
+"find more details."
+msgstr ""
+
+#: inc/theme.php:52
+msgid "Full Site Editor"
+msgstr ""
+
+#: inc/theme.php:58
+msgid "Fast Pageload"
+msgstr ""
+
+#: inc/theme.php:64
+msgid "GPL License"
+msgstr ""
+
+#: inc/theme.php:70
+msgid "Partial Block Templates"
+msgstr ""
+
+#: inc/theme.php:76
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/theme.php:89
+msgid "Additional Full Block Templates"
+msgstr ""
+
+#: inc/theme.php:96
+msgid "WooCommerce Ready"
+msgstr ""
+
+#: inc/theme.php:102
+msgid "Google Fonts Options"
+msgstr ""
+
+#: inc/theme.php:109
+msgid "Wwwows Blocks"
+msgstr ""
+
+#: inc/theme.php:122
+msgid "Scroll animations"
+msgstr ""
+
+#: inc/theme.php:129
+msgid "Responsive control"
+msgstr ""
+
+#: inc/theme.php:136
+msgid "Back to top"
+msgstr ""
+
+#: inc/theme.php:143
+msgid "Image cursor"
+msgstr ""
+
+#: inc/theme.php:150
+msgid "Stylish scrollbar"
+msgstr ""
+
+#: inc/theme.php:159
+msgid "Accordion"
+msgstr ""
+
+#: inc/theme.php:166
+msgid "Countdown"
+msgstr ""
+
+#: inc/theme.php:173
+msgid "Icon"
+msgstr ""
+
+#: inc/theme.php:180
+msgid "Progress"
+msgstr ""
+
+#: inc/theme.php:187
+msgid "Scroll text"
+msgstr ""
+
+#: inc/theme.php:196 inc/theme.php:198
+msgid "Wwwows Documentation"
+msgstr ""
+
+#: inc/theme.php:197
+msgid "If You`ve stuck, the documentation may help on Wwwows.com"
+msgstr ""
+
+#: inc/theme.php:201
+msgid "Wwwows on Facebook"
+msgstr ""
+
+#: inc/theme.php:202
+msgid ""
+"If You want to get useful infos and discounts about Wwwows, follow Wwwows on "
+"Facebook."
+msgstr ""
+
+#: inc/theme.php:203
+msgid "Go to Facebook"
+msgstr ""

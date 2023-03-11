@@ -1,0 +1,45 @@
+/*
+Theme Name: Rhythmic
+Theme URI: https://catchthemes.com/themes/rhythmic
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Rhythmic is a clean and modern free music WordPress block theme. This is a full-site editing music theme that comes with many unique customizable features and functionalities. It is a block-based theme perfect for musicians and bands to promote their music and events. The theme is an elegant yet simple design that lets you showcase everything that you have to offer. This theme is fully responsive and retina-ready which makes your music website absolutely beautiful and flawless. All the block patterns are simple and easy to use that lets you drag and drop the blocks easily and build the content. There are 20+ different block patterns, 13 FSE Templates, and 6 Template Parts. Some of the block patterns are Contact, Header Media, Hero Section, Product, Sidebar, Stats, Video Section, 404 Header with Background, Archive Header With Background, 404 Header, Footer, Footer With Four Columns, Post Header, Recent Blog, Search Header With Background, and many more. All the block patterns, templates, and templates parts are fully customizable and responsive. Buy Rhythmic Pro and promote your music.
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rhythmic
+Tags: blog, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Rhythmic is based on Catch FSE WordPress Theme, 2012-2022 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Mixin
+--------------------------------------------------------------*/
+@import 'sass/mixin/mixin';
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+
+@import 'sass/blocks/all-blocks';
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import 'sass/patterns/all-patterns';
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

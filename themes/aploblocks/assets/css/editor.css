@@ -1,0 +1,39 @@
+
+/* for the new new layout - transforms */
+
+.aploranges .components-base-control {
+	margin-bottom:0px;
+	width:47%;
+}
+
+.aploranges h2 {
+	margin-bottom:2px;
+}
+
+.aploranges  button.is-small {
+	min-height:20px;
+	height:20px;
+}
+
+.aploranges .components-input-control__input {
+	min-height:20px;
+	height:20px;
+}
+
+.aplorange {
+	display:flex;
+	justify-content: space-between;
+}
+
+.aplorange .components-range-control__root {
+	flex-flow:row wrap;
+}
+
+.aplorange .components-range-control__wrapper {
+	flex:1 1 100%;
+}
+
+.aplorange .components-range-control__number {
+	width:55px!important;
+	margin-left:0!important;
+}

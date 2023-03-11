@@ -1,0 +1,66 @@
+form.wpcf7-form input:not([type="submit"]),
+form.wpcf7-form textarea {
+  box-sizing: border-box;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid;
+  font-family: var(--wp--preset--font-family--poppins);
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.message-input {
+  margin-bottom: var(--wp--custom--spacing--section-heading);
+  margin-top: 10px;
+}
+
+form.wpcf7-form {
+  max-width: 920px;
+  margin: 0 auto;
+  input[type="submit"] {
+    border-radius: 45px;
+    border-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    font-family: var(--wp--preset--font-family--poppins);
+    
+  }
+
+  textarea {
+    max-height: 200px;
+  }
+}
+
+p.form-submit.wp-block-button {
+  text-align: center;
+}
+
+.wpcf7-form p > .wpcf7-submit {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  position: absolute;
+  -webkit-appearance: none;
+}
+
+.contact-section.wp-block-section
+  .wp-block-button.is-style-fill
+  .wp-block-button__link {
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: var(--wp--preset--color--foreground-color);
+    border-color: var(--wp--preset--color--border-color);
+  }
+}
+
+.wp-block-section.contact-section
+  .wp-block-button.is-style-outline
+  .wp-block-button__link,
+.wp-block-section.contact-section
+  .wp-block-button.is-style-outline
+  .wp-block-button__link {
+  color: var(--wp--preset--color--foreground-color);
+}

@@ -1,0 +1,783 @@
+/*!
+Theme Name: Ballyhoo Blocks
+Theme URI: http://ballyhoo-blocks.calumchilds.com
+Author: Calum Childs
+Author URI: http://calumchilds.com/
+Description:  Ballyhoo Blocks is a simple WordPress theme that is fully compatible with the new Site Editor included with WordPress versions 5.9 and above. It allows you to fully customise how your site looks. This theme comes with 5 block patterns and multiple block styles.
+Version: 1.0.5
+Tested up to: 5.9
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ballyhoo-blocks
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, block-styles, block-patterns, full-site-editing, editor-style, template-editing
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+ballyhoo-blocks is based on Underscores https://underscores.me/, (C) 2012-2022 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Media
+	- Captions
+# Plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+	- Print-friendliness
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+h2.post-title {
+	font-size: 1.7em;
+}
+
+a .post-title {
+	color: #111111;
+	text-decoration-color: #111111 !important;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+blockquote p {
+	font-size: 23px;
+}
+
+blockquote cite {
+	font-size: 15px;
+}
+
+.is-style-ballyhoo-quote-huge p {
+	font-size: 40px;
+}
+
+.is-style-ballyhoo-quote-huge cite {
+	font-size: 18px;
+}
+
+.is-style-ballyhoo-pullquote-huge p {
+	font-size: 60px;
+}
+
+.is-style-ballyhoo-pullquote-huge cite {
+	font-size: 25px;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", courier, monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/* Elements
+--------------------------------------------- */
+body {
+	background: #fff;
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+.site-branding {
+	background-color: #111111;
+	color: white;
+	text-align: center;
+	max-width: 1400px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.site-branding .site-title a,
+.site-branding .site-description {
+	color: white;
+	text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+}
+.has-text-shadow-outline {
+	text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+}
+.site-branding a {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1400px) {
+	.site-branding, nav {
+		margin: 0 auto;
+	}
+}
+
+.custom-logo {
+	width: 65px;
+}
+
+footer {
+	background-color: #111111;
+	color: white;
+	padding: 10px 5px;
+	margin-top: 20px;
+}
+footer a {
+	color: white;
+}
+footer a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	color: blue;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #191970;
+}
+
+a:active, a:focus {
+	outline: thin dotted;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/* Forms
+--------------------------------------------- */
+.button,
+button,
+.wp-block-button__link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 2px solid;
+	border-color: #111111;
+	border-radius: 6px;
+	background: transparent;
+	color: #111111;
+	line-height: 1;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: all 0.5s ease 0s;
+	font-weight: 700;
+}
+
+.wp-block-button__link {
+	background-color: #111111;
+	color: white;
+}
+
+.button:hover,
+button:hover,
+.wp-block-button__link:hover
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background-color: #111111;
+	color: white;
+	transition: all 0.5s ease 0s;
+}
+
+.wp-block-button__link:hover {
+	background-color: transparent;
+	color: #111111;
+}
+
+.button:active,
+button:active,
+.wp-block-button__link:active,
+.button:focus,
+button:focus,
+.wp-block-button__link:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	background-color: #111111;
+	color: white;
+	transition: all 0.5s ease 0s;
+	text-decoration: underline;
+	outline: 1px dotted black;
+}
+
+@media screen and (max-width: 700px) {
+	.button,
+	button,
+	.wp-block-button__link,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"] {
+		width: 95%;
+		text-align: center;
+		display: inline-block;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin: 0 auto;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Navigation
+--------------------------------------------- */
+.main-navigation {
+	display: block;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
+	background-color: white;
+	display: block;
+}
+@media screen and (max-width: 800px) {
+	.main-navigation ul ul {
+		position: unset;
+		float: none;
+		width: auto !important;
+	}
+	.main-navigation ul ul a {
+		box-shadow: none;
+	}
+	.sub-menu a {
+		margin-left: 20px;
+	}
+	.sub-menu .sub-menu a {
+		margin-left: 40px;
+	}
+}
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	/* DO NOT UNCOMMENT THIS LINE unless you like overlapping menu options display: block; */
+	left: 100%;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+	color: #111111;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation li {
+	position: relative;
+}
+
+.main-navigation a, .menu-item a, a.wp-block-navigation-item__content {
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px !important;
+	color: #111111;
+	transition: all 0.5s ease 0s;
+}
+
+.wp-block-navigation__container,
+.wp-block-navigation .wp-block-page-list {
+	gap: 0px;
+}
+
+.main-navigation a:hover, .menu-item a:hover, a.wp-block-navigation-item__content:hover {
+	background-color: #111111;
+	color: white;
+	transition: all 0.5s ease 0s;
+}
+@media screen and (min-width: 800px) {
+	.main-navigation a:focus, .menu-item a:focus, a.wp-block-navigation-item__content:focus {
+		background-color: #111111;
+		color: white;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+}
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul,
+.main-navigation.toggled ul.sub-menu {
+	display: block;
+}
+
+@media screen and (min-width: 800px) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
+
+	.main-navigation ul:first-child {
+		margin-left: 2%;
+		padding-left: 15px;
+	}
+	.main-navigation ul ul {
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	}
+}
+
+.menu-toggle {
+	width: auto;
+	border: none;
+	border-radius: 0px;
+	font-weight: 400;
+	padding: 12px 50px;
+	width: 95%;
+}
+
+.site-main .comment-navigation,
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+}
+
+.comment-navigation .nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+	display: flex;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	flex: 1 0 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	text-align: end;
+	flex: 1 0 50%;
+}
+
+/* Posts and pages
+--------------------------------------------- */
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.page-title,
+.page-info {
+	padding-left: 15px;
+}
+
+.post .col-sm-7,
+.page .col-sm-7 {
+	padding-left: 15px;
+}
+
+@media screen and (max-width: 800px) {
+	.post .col-sm-4,
+	.page .col-sm-4 {
+		/* width: 95%;
+		display: inline-block; */
+		display: none;
+	}
+}
+/* Comments
+--------------------------------------------- */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/* Media
+--------------------------------------------- */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+/* Captions
+--------------------------------------------- */
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/* Alignments
+--------------------------------------------- */
+.alignleft {
+
+	/*rtl:ignore*/
+	float: left;
+
+	/*rtl:ignore*/
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.alignright {
+
+	/*rtl:ignore*/
+	float: right;
+
+	/*rtl:ignore*/
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.5em;
+}
+/* Print-friendliness */
+@media print {
+	.site-description, .menu-toggle, footer, .col-sm-4, .comments-area, .nav-previous, .nav-next, .wp-block-navigation {
+		display: none;
+	}
+	.site-title, .has-text-shadow-outline {
+		text-shadow: none;
+	}
+}
+/* Custom elements */
+.light-heading {
+	font-weight: 300 !important;
+	text-align: center;
+}
+.fact-file, .bh-fact-file {
+	border: 3px solid #111111;
+	border-radius: 15px;
+}
+/* FSE stuff */
+.wp-block-post time::before, .wp-block-post-date time::before {
+	content: '\f017';
+	font-weight: 400;
+	font-family: 'Font Awesome 5 Free';
+	padding-right: 5px;
+}

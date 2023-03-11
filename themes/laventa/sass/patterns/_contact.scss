@@ -1,0 +1,19 @@
+/* --- Block Contact
+-------------------------------------------------------- */
+
+/* --- Block Quick Contact
+-------------------------------------------------------- */
+
+.wp-block-section.wp-block-quick-contact .wp-block-group-heading {
+    margin-bottom: 0;
+}
+
+.wp-block-section.wp-block-quick-contact.wp-block-cover {
+    min-height: auto;
+}
+
+@media screen and (max-width: 48.8125em) {
+    .wp-block-quick-contact .wp-block-column .wp-block-buttons {
+        justify-content: flex-start;
+    }
+}

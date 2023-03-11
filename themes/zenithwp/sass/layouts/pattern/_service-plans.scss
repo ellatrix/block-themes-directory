@@ -1,0 +1,60 @@
+.zenithwp-service-plans {
+    hr.custom {
+        border-bottom: 2px solid #D7DCF2;
+    }
+
+    .position {
+        position: relative;
+        bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .zenithwp-service-plans {
+        hr.custom {
+            display: none !important;
+        }
+
+        .wp-block-cover {
+            min-height: 300px !important;
+        }
+
+        .position {
+            position: static !important;
+            margin-bottom: 48px !important;
+        }
+
+        h2 {
+            font-size: 38px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zenithwp-service-plans {
+        .wp-container-11.wp-block-group {
+            padding-top: 60px !important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+
+            h4 {
+                margin-bottom: 10px !important;
+            }
+        }
+
+        .wp-block-cover {
+            margin-top: 20px !important;
+        }
+
+        .position {
+            h2 {
+                padding: 0 !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                padding: 0 !important;
+            }
+        }
+    }
+}

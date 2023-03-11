@@ -1,0 +1,928 @@
+@charset "UTF-8";
+/*!
+Theme Name: Auto Car Dealership
+Theme URI: https://www.vwthemes.com/themes/free-car-dealership-wordpress-theme/
+Author: VWThemes
+Author URI: https://www.vwthemes.com/
+Description: Auto Car Dealership is a spectacular block based theme for websites designed for car and automobile businesses, car rentals, bike rental, car mechanic, automotive and car dealerships, auto dealers, car listings, electric cars and vehicles, auto part shops, car repair services, etc. This theme is loaded with full site editing features, block patterns, block editor patterns and much more. Crafted by WordPress experts, this theme makes use of lightweight design and the latest HTML codes that are further optimized to give you a faster page load speed. The overall look is elegant and at the same time professional to represent your business in a very presentable manner. This theme is retina-ready and has a responsive design that makes it work well across any device. There is a beautifully designed banner and many sections for displaying information about your Team, showing the client Testimonials, and more. There are plenty of customization options available for you to tweak the design and add your own flavor. To make the design SEO-friendly, developers have implemented the best coding practices so that you don’t need to take extra effort. Call to Action Button (CTA) will ensure that your visitors will get the proper guidance for the next step. There are many social media options available for your website and the theme is also made translation-ready to support multiple languages. Demo: https://www.vwthemes.net/auto-car-dealership/
+Version: 1.1.2
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 7.2
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: auto-car-dealership
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-site-editing, block-patterns, sticky-post, threaded-comments, template-editing, blog, e-commerce, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Auto Car Dealership is based on Twenty Twenty-Two WordPress Theme, (C) 2022 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased; 
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+header a,
+footer a {
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  clear: both;
+  line-height: 1.4; 
+  font-weight: 700;
+}
+
+ul {
+  list-style: disc; }
+
+ol {
+  list-style: decimal; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 0; }
+
+dt {
+  font-weight: 700; }
+
+dd {
+  margin: 0 1.5em 1.5em; }
+
+table {
+  width: 100%;
+  border-spacing: 0; }
+
+th, td {
+  padding: 5px;
+  text-align: center; }
+
+table td,
+table tr,
+table th {
+  border: 1px solid #ddd; }
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%; }
+
+img, .wp-block-image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+figure {
+  margin: 1em 0; }
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic; }
+
+blockquote {
+  margin: 0 1.5em; }
+
+address {
+  margin: 0 0 1.5em; }
+
+pre {
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em; }
+
+code,
+kbd,
+tt,
+var {
+  font-family: 17px; }
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #ddd;
+  cursor: help; }
+
+mark,
+ins {
+  background: #ddd;
+  text-decoration: none; }
+
+big {
+  font-size: 125%; }
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  border-radius: 0;
+  box-sizing: border-box;
+  display: block;
+  font-size: 17px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  line-height: 1.75;
+  padding: 7px 15px;
+  color: #1c1c1c; 
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 15px 20px; }
+
+input[type="checkbox"] {
+  display: inline; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cacaca; }
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: #c3c3c3; }
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #a3a2a2; }
+
+hr {
+  background-color: #999;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em; }
+
+a {
+  color: #23393D;
+  outline: 0 !important; 
+}
+.widget a:not(.wp-block-button__link),
+.entry-summery a:not(.wp-block-button__link),
+.entry-content a:not(.wp-block-button__link) {
+  text-underline-offset: 3px;
+  text-decoration-skip-ink: all;
+  text-decoration-thickness: 1px;
+  text-decoration: underline; 
+}
+.widget a:not(.wp-block-button__link):hover,
+.entry-summery a:not(.wp-block-button__link):hover,
+.entry-content a:not(.wp-block-button__link):hover {
+  color: #f0c541; 
+}
+a:focus-visible, a:focus {
+  outline: thin dotted !important; 
+}
+a:hover, a:active, a:hover {
+  outline: 0;
+  color: #f0c541; 
+}
+
+/*---------------- Woocommerce CSS------------------ */
+.woocommerce .select2-container--default .select2-selection--single{
+  height: 40px;
+}
+.woocommerce .select2-container--default .select2-selection--single .select2-selection__rendered{
+  padding: 5px 8px;
+}
+.woocommerce .select2-container--default .select2-selection--single .select2-selection__arrow{
+  top: -6px;
+}
+.woocommerce form .form-row input.input-text {
+  padding: 8px;
+  border: 1px solid #bcbcbc;
+}
+.related.products h2 {
+  text-align: left;
+}
+.woocommerce .star-rating span::before {
+  color: #f3f321;
+}
+.woocommerce ul.products li.product .star-rating{
+  margin: 0 auto 8px;
+  font-size: 15px !important;
+}
+.woocommerce span.onsale{
+  background: #f0c541;
+  padding: 0;
+  color: #23393D;
+}
+.products li {
+  box-shadow: -2px -2px 5px #bbb;
+  padding: 10px !important;
+  text-align: center;
+}
+.woocommerce ul.products li.product a img{
+  margin: 0;
+}
+h2.woocommerce-loop-product__title,
+.woocommerce div.product li .product_title {
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center !important;
+  font-size: 20px !important;
+  padding: 5px 0 5px 0 !important;
+}
+.woocommerce ul.products li.product .button {
+    margin-top: 5px;
+}
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  color: #000;
+}
+.woocommerce div.product .product_title,.woocommerce div.product p.price, .woocommerce div.product span.price{
+  margin-bottom: 5px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+  background: #f0c541;
+  color: #23393D ;
+  border-radius: 30px;
+  padding: 10px 20px !important;
+  opacity: 1 !important;
+  text-decoration: none;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+  background: #23393D;
+  color: #fff;
+}
+.woocommerce .quantity .qty {
+  width: 5em;
+  padding: 7px;
+  border-radius: 30px;
+  border: solid 1px #000;
+  color: #000;
+  line-height: 1;
+}
+.woocommerce .col2-set .col-1, .woocommerce .col2-set .col-2 {
+   max-width: 100%;
+}
+nav.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+  background: #f0c541;
+  padding: 12px !important;
+  margin-bottom: 10px;
+}
+nav.woocommerce-MyAccount-navigation ul li a{
+  color: #23393D;
+  font-weight: 600;
+}
+nav.woocommerce-MyAccount-navigation ul li a:hover{
+  color: #222 !important;
+}
+span.posted_in {
+  display: block;
+}
+span.woocommerce-input-wrapper {
+  width: 100%;
+}
+select.orderby {
+  padding: 10px;
+}
+.woocommerce-product-gallery__image{
+  padding: 2px;
+}
+.woocommerce .cart .button, .woocommerce .cart input.button{
+  padding: 12px;
+}
+nav.woocommerce-MyAccount-navigation ul li a, .woocommerce-info a, .woocommerce-privacy-policy-text a, td.product-name a, a.shipping-calculator-button{
+  text-decoration: none !important;
+}
+.woocommerce .woocommerce-breadcrumb, .woocommerce .woocommerce-breadcrumb a{
+  margin-top: 20px;
+}
+.woocommerce input#password{
+  border: 1px solid #bcbcbc;
+}
+.woocommerce-page form .password-input{
+  width: 100%;
+}
+.woocommerce nav.woocommerce-pagination ul li a {
+  display: block;
+  padding: 12px 15px;
+  text-decoration: none;
+  width: auto;
+  color: #fff;
+  background: #f0c541;
+  transition: background .15s ease-in-out;
+  font-weight: bold;
+}
+.woocommerce nav.woocommerce-pagination ul li a:hover{
+  background: #000;
+  color: #fff;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current{
+  padding: 12.5px 15px;
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+}
+.woocommerce nav.woocommerce-pagination ul, .woocommerce nav.woocommerce-pagination ul li{
+  border: none;
+  float: none;
+  overflow: unset;
+}
+.woocommerce nav.woocommerce-pagination {
+  text-align: center;
+  margin-bottom: 20px;
+} 
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+  width: 110px !important;
+  padding: 5px 5px 5px !important;
+  margin: 0px 10px 0px 0 !important;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  margin-bottom: 30px;
+}
+#payment{
+  margin: 0 0 30px 0;
+}
+.woocommerce .wp-block-group {
+  margin: 10px 10%;
+}
+
+/*Banner section*/
+.main-banner-section, .main-banner-section .wp-block-columns, .choose-us-section, .choose-us-section .wp-block-columns, .brand-section .wp-block-columns, .featured-car-section .wp-block-columns, .innerpage-banner, .wp-block-group  {
+  margin: 0;
+}
+.main-banner-section figure, .featured-car-section .title-img, .featured-car-section .head-text, .gallery-section .title-img, .innerpage-banner .title-img {
+  margin-top: 10px;
+}
+.main-banner-section h1{
+  letter-spacing: 0px;
+  color: #fff !important;
+}
+.main-banner-section p{
+  color: #fff !important;
+}
+.main-banner-section a.wp-block-button__link{
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid #F0C541 !important;
+}
+.main-banner-section a.wp-block-button__link:hover{
+  color: #ffffff !important;
+  background: transparent !important;
+  border-color: #fff !important;
+}
+
+/*Choose us section*/
+.choose-us-section, .choose-us-section h2, .title-img, .choose-us-section .wp-block-columns, .brand-section, .brand-section .wp-block-columns, .brand-section h3, .featured-car-section, .featured-car-section .wp-block-columns, .featured-car-section h3, .featured-car-section .head-text, .blog-section, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section, .gallery-section .wp-block-columns, .gallery-section h3, .archive-page, .archive-page ul.wp-block-latest-posts{
+  padding: 0 50px;
+}
+.title-img, .brand-section figure {
+  text-align: center;
+}
+.choose-us-section .wp-block-column, .brand-section .title-img, .brand-section .wp-block-column, .featured-car-section .head-text, .featured-car-section .car-col .car-box, .blog-section .head-text, .gallery-section .title-img {
+  margin-bottom: 2rem;
+}
+.choose-us-section .wp-block-column figure{
+  border-radius: 50%;
+  background: #23393D;
+  padding: 20px 20px;
+  position: relative;
+}
+.choose-us-section .wp-block-column figure:hover img {
+  transform: rotateY(360deg);
+  transition: 0.7s all ease-in-out;
+}
+.choose-us-section .wp-block-column figure:hover {
+  background: #F0C541;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.choose-us-section .wp-block-column figure:after {
+  border-color: #23393D transparent transparent transparent !important;
+  top: 95% !important;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  border-style: solid;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  border-width: 10px 10px 0 10px;
+}
+.choose-us-section .wp-block-column figure:hover:after{
+  border-top-color: #F0C541 !important;
+}
+.choose-us-section h3{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/*Featured Car Section*/
+.featured-car-section .car-box {
+  position: relative;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 16%), 0 0 0 0px rgb(0 0 0 / 8%);
+  background-color: #fff;
+  border: solid 1px #eee;
+}
+.featured-car-section .car-box img {
+  width: 100%;
+}
+.featured-car-section .car-box figure {
+  position: relative;
+  overflow: hidden;
+}
+.featured-car-section .car-box figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.featured-car-section .car-box figure:hover::before {
+  -webkit-animation: shine .75s;
+  animation: shine .75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+.featured-car-section .car-box .price-col {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 75%;
+  z-index: 99;
+  opacity: 0;
+  gap: 0;
+  margin: 0;
+  padding: 10px
+}
+.featured-car-section .car-box:hover .price-col {
+  opacity: 1;
+}
+.featured-car-section .car-box .price-col .wp-block-column:first-child {
+  border-right: 1px solid #23393d;
+}
+.featured-car-section .car-box h4, .blog-section .wp-block-latest-posts.is-grid li a.wp-block-latest-posts__post-title {
+  border-left: 3px solid #f0c541;
+}
+.featured-car-section .car-features {
+  padding: 0;
+  margin: 20px 0 0;
+  gap: 4px;
+}
+.featured-car-section .car-box h4, .featured-car-section .car-box p {
+  padding: 0 15px;
+}
+.featured-car-section .car-features p {
+  margin: 10px;
+  padding: 0;
+}
+
+/*Blog Section*/
+.wp-block-latest-posts.is-grid li {
+  width: calc(33.33333% - 1.5em);
+  margin: 0 2em 1.25em 0;
+  position: relative;
+  background: #fff;
+  border: solid 1px #eee;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 16%), 0 0 0 0px rgb(0 0 0 / 8%);
+}
+.blog-section .wp-block-latest-posts.is-grid li {
+  box-shadow: none;
+}
+.wp-block-latest-posts.is-grid li img {
+  width: 100%;
+}
+.wp-block-latest-posts.is-grid li:nth-child(3n) {
+  margin-right: 0;
+}
+.wp-block-latest-posts.is-grid li a.wp-block-latest-posts__post-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  padding: 0 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: block;
+  margin:  15px 0 0;
+}
+.wp-block-latest-posts.is-grid li time.wp-block-latest-posts__post-date{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  background: #f0c541;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #23393d;
+}
+.wp-block-latest-posts.is-grid li .wp-block-latest-posts__post-excerpt {
+  color: #6b6b6b;
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/*Gallery Section*/
+.gallery-section .wp-block-columns figure {
+  overflow: hidden;
+  background: #000;
+}
+.gallery-section .wp-block-columns figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.gallery-section .wp-block-columns figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity: 0.7;
+}
+
+/*Header*/
+.header-section {
+  gap: 0;
+  margin-bottom: 0;
+}
+.header-section .logo .wp-block-cover {
+  padding: 10px 50px;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+.header-section .logo h1 {
+  margin: 0;
+}
+.header-section .topbar-section {
+  padding: 20px 50px 20px 0px;
+  color: #222;
+  margin-bottom: 0;
+  gap: 0.5em;
+  font-size: 14px;
+}
+.header-section .topbar-section i {
+  color: #f0c541;
+}
+.header-section .menu-section {
+  padding: 10px 50px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(125deg, transparent 5%, #23393D 0%) repeat scroll 0 0;
+}
+.header-section .menu-section .wp-block-navigation ul {
+  gap: 2em !important;
+}
+.header-section .menu-section .wp-block-navigation ul li a {
+  color: #fff;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.header-section .menu-section .wp-block-navigation ul li.buynow-btn a {
+  padding: 7px 13px;
+  background: #f0c541;
+  border-radius: 30px;
+  font-size: 12px;
+  color: #23393d;
+}
+.menu-section .wp-block-navigation ul li.has-child .wp-block-navigation__submenu-icon svg {
+  color: #fff;
+  font-size: 14px;
+}
+.menu-section .wp-block-navigation ul li.has-child button.wp-block-navigation__submenu-icon:focus, .menu-section a:focus {
+  outline: 1px solid #fff;
+}
+.menu-section ul ul a:focus {
+  outline-color: #f0c541;
+}
+.header-section .menu-section ul.wp-block-social-links {
+  margin: 0;
+  gap: 9px;
+}
+.header-section .menu-section .wp-block-navigation ul ul li a {
+  color: #222;
+  display: block !important;
+  padding: 10px;
+}
+.header-section .menu-section .wp-block-navigation ul ul li a:hover {
+  background: #f0c541;
+  color: #fff;
+}
+
+/*Footer Section*/
+.footer-section {
+  padding: 0;
+  min-height: auto;
+}
+.footer-section .wp-block-columns {
+  padding: 50px 50px 0;
+  margin: 0 50px;
+}
+.footer-section .wp-block-columns.copyright-section {
+  padding: 20px 50px;
+  margin: 50px 0 0;
+  border-top: 1px solid #999;
+}
+.footer-section .wp-block-columns.copyright-section p a{
+  color: #fff;
+}
+.footer-section .wp-block-columns.copyright-section .wp-block-column:first-child {
+  padding-left: 50px;
+}
+.footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
+  padding-right: 50px;
+}
+.footer-box h3 {
+  margin-bottom: 20px;
+}
+.footer-box h3:after {
+  content: '__';
+  color: #f0c541;
+}
+.footer-box a{
+  text-decoration: none !important;
+}
+.footer-box ul {
+  padding: 0;
+  gap: 0;
+}
+.footer-box ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-box ul li:before {
+  content: '-';
+  margin-right: 10px;
+  color: #fff;
+}
+.footer-box .wp-block-button__link {
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff !important;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.footer-box .wp-block-button__link:hover {
+  background: #f0c541 !important;
+  color: #23393d !important;
+  border-color: #f0c541;
+}
+
+/*404 Page CSS*/
+.wp-block-search__button {
+  border: 0;
+  background: #f0c541;
+}
+
+/*Archive Page*/
+.archive-page {
+  padding: 50px;
+}
+.comment-body .reply a {
+  color: #23393d;
+  text-decoration: none;
+  background: #f0c541;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.comment-body .reply a:hover, .wp-block-post-comments input[type=submit]:hover, .theme-button .wp-block-button__link:hover {
+  background: #23393d !important;
+  color: #fff !important;
+}
+.wp-block-post-comments input[type=submit] {
+  background: #f0c541;
+  color: #23393d;
+  font-weight: 600;
+}
+.wp-block-post-author__content {
+  align-self: center;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+  line-height: 0;
+}
+/*Sidebar CSS*/
+.theme-sidebar .wp-block-group {
+  padding: 15px ;
+  border: 1px solid #eee;
+  color: #6b6b6b;
+}
+.theme-sidebar .wp-block-group h3 {
+  color: #222;
+  padding-bottom: 5px;
+  border-bottom: 3px double #222;
+}
+.theme-sidebar .wp-block-group ul {
+  padding-left: 20px;
+}
+.theme-sidebar .wp-block-group ul li {
+  line-height: 2;
+  font-size: 14px;
+  color: #6b6b6b;
+  list-style: disc;
+}
+.theme-sidebar .wp-block-group ul li a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+.theme-sidebar ul.wp-block-social-links {
+  padding: 0;
+}
+.theme-sidebar ul.wp-block-social-links a{
+  padding: 10px !important;
+}
+.theme-sidebar ul.wp-block-social-links a svg {
+  font-size: 18px;
+}
+.theme-sidebar .wp-block-tag-cloud a{
+  background:#eeeeee; 
+  color: #000; 
+  font-size:15px !important;
+  padding: 5px 18px;
+  margin: 0 0 5px; 
+  display:inline-block;
+  text-decoration: none;
+}
+.theme-sidebar .wp-block-tag-cloud a:hover{
+  background: #23393d;
+  color: #fff;
+}
+.theme-sidebar .wp-block-gallery {
+  gap: 1em;
+}
+.theme-button .wp-block-button__link {
+  font-weight: 600;
+}
+figure.alignfull.wp-block-post-featured-image, .wp-block-audio, .wp-block-audio audio {
+  width: 100% !important;
+}
+.taxonomy-category a, .taxonomy-post_tag a{
+  text-decoration: none;
+}
+.is-layout-flow.entry-content.alignfull.wp-block-post-content, h1.has-text-align-left.alignfull.has-text-color.has-foreground-color.wp-block-post-title {
+    margin-left: calc( -65vw / 2 + 100% / 2);
+    margin-right: calc( -65vw / 2 + 100% / 2);
+    width: 100% !important;
+}
+@media screen and (max-width:767px) {
+  .main-banner-section h1{
+    font-size: 25px !important;
+  }
+  .car-features, .header-section .menu-section  {
+    flex-wrap: nowrap !important;
+  }
+  .header-section .logo .wp-block-cover, .header-section .menu-section {
+    clip-path: none;
+    padding: 10px;
+  }
+  .header-section .logo, .header-section .topbar-section {
+    text-align: center;
+  }
+  .header-section .topbar-section {
+    padding: 0 15px 15px ;
+  }
+  .header-section .menu-section {
+    background: #212121;
+  }
+  .header-section .menu-section button.wp-block-navigation__responsive-container-open svg {
+    fill: #fff;
+  }
+  .header-section .menu-section .wp-block-navigation ul, .header-section .menu-section .wp-block-navigation ul li {
+    display: block !important;
+    width: 100%;
+  }
+  .header-section .menu-section .wp-block-navigation ul li a {
+    color: #000;
+    padding: 10px !important;
+    border-bottom: 1px solid #eee;
+  }
+  .header-section .menu-section .wp-block-navigation ul ul {
+    padding: 0 0 0 25px !important;
+  }
+  .blog-section .wp-block-latest-posts.is-grid li {
+    margin: 0 0 1.25em;
+    width: 100%;
+  }
+  .choose-us-section .wp-block-columns, .choose-us-section h2 .brand-section .wp-block-columns, .title-img, .brand-section h3, .featured-car-section .wp-block-columns, .featured-car-section h3, .featured-car-section .head-text, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section .wp-block-columns, .gallery-section h3, .footer-section .wp-block-columns, .choose-us-section h2, .footer-section .wp-block-columns.copyright-section .wp-block-column:first-child, .footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
+    padding: 0;
+  }
+  .choose-us-section, .brand-section, .featured-car-section, .blog-section, .gallery-section, .footer-section .wp-block-columns {
+    padding: 0 20px;
+  }
+  .footer-section .footer-box {
+    padding: 10px 20px;
+  }
+  .footer-section .wp-block-columns.copyright-section {
+    padding: 20px;
+    text-align: center;
+  }
+  .copyright-section .wp-block-social-links {
+    justify-content: center;
+  }
+  .footer-section .wp-block-columns {
+    margin: 0;
+  }
+  .woocommerce .wp-block-group {
+    margin: 0px 15px;
+  }
+  .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .main-banner-section .wp-block-column.is-vertically-aligned-center:nth-child(2){
+    flex-basis: 100% !important;
+    margin-left: 0;
+  }
+  .choose-us-section .wp-block-columns, .featured-car-section .car-col, .brand-section .wp-block-columns, .header-section, .header-section .topbar-section, .header-section .menu-section, .gallery-section .wp-block-columns, .footer-section .wp-block-columns.copyright-section{
+    flex-wrap: nowrap !important;
+  }
+  .header-section.wp-block-columns:not(.is-not-stacked-on-mobile) .logo {
+    flex-basis: 28% !important;
+  }
+  .header-section .logo .wp-block-cover, .header-section .menu-section {
+    clip-path: none;
+    padding: 10px;
+  }
+  .header-section .topbar-section.wp-block-columns:not(.is-not-stacked-on-mobile) .contact {
+    flex-basis: 33.33% !important;
+  }
+  .header-section .topbar-section.wp-block-columns:not(.is-not-stacked-on-mobile) .wp-block-column:first-child {
+    flex-basis: 0 !important;
+  }
+  .header-section .menu-section {
+    background: #212121;
+  }
+  .header-section .menu-section.wp-block-columns:not(.is-not-stacked-on-mobile) .wp-block-column:first-child, .footer-section .wp-block-columns.copyright-section .wp-block-column:first-child {
+    flex-basis: 70% !important;
+  }
+  .header-section .menu-section.wp-block-columns:not(.is-not-stacked-on-mobile) .wp-block-column:nth-child(2), .footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
+    flex-basis: 30% !important;
+  }
+  .choose-us-section .wp-block-columns, .choose-us-section h2, .choose-us-section .title-img, .brand-section .wp-block-columns, .featured-car-section .wp-block-columns, .blog-section ul.wp-block-latest-posts__list, .blog-section .head-text, .gallery-section .wp-block-columns, .footer-section .wp-block-columns, .footer-section .wp-block-columns.copyright-section .wp-block-column:first-child, .footer-section .wp-block-columns.copyright-section .wp-block-column:nth-child(2) {
+    padding: 0;
+  }
+  .footer-section .wp-block-columns:not(.is-not-stacked-on-mobile) .footer-box {
+    flex-basis: 47% !important;
+  }
+  .woocommerce .wp-block-group {
+    margin: 0px 20px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 1000px) {
+  .woocommerce .wp-block-group {
+    margin: 0px 30px;
+  }
+}

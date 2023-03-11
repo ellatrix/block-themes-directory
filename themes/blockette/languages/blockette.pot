@@ -1,0 +1,487 @@
+# Copyright (C) 2022 Blockette
+# This file is distributed under the same license as the Blockette package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blockette\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Micemade <alen@micemade.com>\n"
+"Last-Translator: Alen Sirola <alen@micemade.com>\n"
+"POT-Creation-Date: 2022-11-16 10:42+0000\n"
+"Report-Msgid-Bugs-To: https://micemade.com/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: patterns/404.php:19
+msgctxt "Sample text for the heading"
+msgid "Page not found"
+msgstr ""
+
+#: patterns/404.php:29
+msgctxt "Sample text for the paragraph"
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: patterns/hero-big-title.php:25
+msgctxt "Sample text for the hero heading"
+msgid "Big sales!"
+msgstr ""
+
+#: patterns/hero-big-title.php:32
+msgctxt "Sample text for the hero paragraph"
+msgid "starting from May 01 - June 01"
+msgstr ""
+
+#: patterns/hero-doutone-big-title.php:30
+msgctxt "Sample text for the hero title"
+msgid "Make Up / Your Mind"
+msgstr ""
+
+#: patterns/hero-doutone-big-title.php:37
+msgctxt "Sample text for the hero paragraph"
+msgid "There are so many things to choose from, so much to learn and discover"
+msgstr ""
+
+#: patterns/hero-doutone-big-title.php:48
+msgctxt "Sample text for the button"
+msgid "Browse clothes"
+msgstr ""
+
+#: patterns/hero-doutone-big-title.php:56
+msgctxt "Sample text for the button"
+msgid "Browse accessories"
+msgstr ""
+
+#: patterns/hero-doutone-gradient-title.php:25
+msgctxt "Sample text for the hero paragraph"
+msgid "Get prepared for the rainy, foggy and brown leafy days"
+msgstr ""
+
+#: patterns/hero-doutone-gradient-title.php:32
+msgctxt "Sample text for the hero title"
+msgid "Fall / Winter"
+msgstr ""
+
+#: patterns/hero-doutone-gradient-title.php:33
+msgctxt "Sample text for the hero title"
+msgid "Season"
+msgstr ""
+
+#: patterns/hero-doutone-gradient-title.php:46
+msgctxt "Sample text for the button"
+msgid "Outdoor clothing"
+msgstr ""
+
+#: patterns/hero-doutone-gradient-title.php:54
+msgctxt "Sample text for the button"
+msgid "Shoes / Accessories"
+msgstr ""
+
+#: patterns/hero-duotone-cta.php:33
+msgctxt "Sample text for the heading"
+msgid "Fashionable accessories for every occasion"
+msgstr ""
+
+#: patterns/hero-duotone-cta.php:46
+msgctxt "Sample text for the button"
+msgid "Browse Accessories"
+msgstr ""
+
+#: patterns/hero-fashion.php:25
+msgctxt "Sample text for the heading"
+msgid "Blockette Store for Apparel"
+msgstr ""
+
+#: patterns/hero-fashion.php:31
+msgctxt "Sample text for the section"
+msgid "Browse our store for newest collection"
+msgstr ""
+
+#: patterns/hero-fashion.php:44
+msgctxt "Sample text for the button"
+msgid "Browse Women"
+msgstr ""
+
+#: patterns/hero-fashion.php:52
+msgctxt "Sample text for the button"
+msgid "Browse Men"
+msgstr ""
+
+#: patterns/posts-big-featured.php:25
+msgctxt "Sample text for the heading"
+msgid "Posts with big featured image"
+msgstr ""
+
+#: patterns/posts-big-featured.php:55
+msgctxt "Sample text for excerpt Read more"
+msgid "Read more"
+msgstr ""
+
+#: patterns/posts-offset.php:25
+msgctxt "Sample text for the heading"
+msgid "News from our stores"
+msgstr ""
+
+#: patterns/posts-offset.php:55, patterns/posts-offset.php:83, patterns/posts-simple.php:58
+msgctxt "Sample text for the excerpt Read more"
+msgid "Read more"
+msgstr ""
+
+#: patterns/posts-simple.php:39
+msgctxt "Sample text for the heading"
+msgid "Our latest stories"
+msgstr ""
+
+#: patterns/section-beauty.php:41
+msgctxt "Sample text for the section"
+msgid "We have"
+msgstr ""
+
+#: patterns/section-beauty.php:45
+msgctxt "Sample text for the heading"
+msgid "Everything you need to stay beautiful"
+msgstr ""
+
+#: patterns/section-beauty.php:53
+msgctxt "Sample text for button"
+msgid "Check out our Beauty products"
+msgstr ""
+
+#: patterns/section-discount.php:48
+msgctxt "Sample text for the paragraph"
+msgid "Spring/Summer Dresses"
+msgstr ""
+
+#: patterns/section-discount.php:54
+msgctxt "Sample text for the paragraph"
+msgid "10%"
+msgstr ""
+
+#: patterns/section-discount.php:60
+msgctxt "Sample text for the paragraph"
+msgid "Browse dresses"
+msgstr ""
+
+#: patterns/section-discount.php:75
+msgctxt "Sample text for the paragraph"
+msgid "All natural and eco-friendly products"
+msgstr ""
+
+#: patterns/section-discount.php:81
+msgctxt "Sample text for the paragraph"
+msgid "15%"
+msgstr ""
+
+#: patterns/section-discount.php:87
+msgctxt "Sample text for the paragraph"
+msgid "Beauty products"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:27
+msgctxt "Sample text for the heading"
+msgid "This season's offer →"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:35
+msgctxt "Sample text for the list item"
+msgid "The duotone dresses"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:36
+msgctxt "Sample text for the list item"
+msgid "The full-tone accessories"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:37
+msgctxt "Sample text for the list item"
+msgid "Missing the points"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:38
+msgctxt "Sample text for the list item"
+msgid "Clearing the floats"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:39
+msgctxt "Sample text for the list item"
+msgid "Floating points and barrels"
+msgstr ""
+
+#: patterns/section-doutone-cta.php:65
+msgctxt "Sample text for the button"
+msgid "See the offer"
+msgstr ""
+
+#: patterns/section-duotone-images.php:38
+msgctxt "Sample text for the title"
+msgid "The duality in doutones"
+msgstr ""
+
+#: patterns/section-duotone-images.php:51
+msgctxt "Sample text for the quote paragaph"
+msgid "The duotone image are looking so cool. Especially in combination with offset columns."
+msgstr ""
+
+#: patterns/section-duotone-images.php:54
+msgctxt "Sample text for the quote cite"
+msgid "The Micemaker"
+msgstr ""
+
+#: patterns/section-exotic.php:38
+msgctxt "Sample text for the heading"
+msgid "Create your exotic look."
+msgstr ""
+
+#: patterns/section-exotic.php:48
+msgctxt "Sample text for the section"
+msgid "Undoubtedly we have no questions to ask which are unanswerable. We must trust the perfection of the creation so far, as to believe that whatever curiosity the order of things has awakened in our minds..."
+msgstr ""
+
+#: patterns/section-featured-categories.php:36, inc/patterns/woocommerce-featured-categories.php:56
+msgctxt "Sample text for the heading"
+msgid "Featured product categories"
+msgstr ""
+
+#: patterns/section-featured-categories.php:57
+msgctxt "Sample text for the heading"
+msgid "Accessories"
+msgstr ""
+
+#: patterns/section-featured-categories.php:66, patterns/section-featured-categories.php:98, patterns/section-featured-categories.php:133, inc/patterns/woocommerce-featured-categories.php:76, inc/patterns/woocommerce-featured-categories.php:99, inc/patterns/woocommerce-featured-categories.php:122
+msgctxt "Sample text for the button"
+msgid "Shop now"
+msgstr ""
+
+#: patterns/section-featured-categories.php:89
+msgctxt "Sample text for the heading"
+msgid "Clothing"
+msgstr ""
+
+#: patterns/section-featured-categories.php:124
+msgctxt "Sample text for the button"
+msgid "Beauty"
+msgstr ""
+
+#: patterns/section-featured-categories.php:151
+msgctxt "Explanation for the missing WooCommerce plugin"
+msgid "Above is a representation of Featured Product Category blocks, using Cover blocks."
+msgstr ""
+
+#: patterns/section-featured-categories.php:152
+msgctxt "Explanation for the missing WooCommerce plugin"
+msgid "To replace Cover blocks with actual WooCommerce Featured Product Category blocks, please install and activate WooCommerce plugin."
+msgstr ""
+
+#: patterns/section-outlet.php:37
+msgctxt "Sample text for the section"
+msgid "Something that should not be ignored ..."
+msgstr ""
+
+#: patterns/section-outlet.php:42
+msgctxt "Sample text for the heading"
+msgid "Last season"
+msgstr ""
+
+#: patterns/section-outlet.php:42
+msgctxt "Sample text for the heading"
+msgid "outlet"
+msgstr ""
+
+#: patterns/section-outlet.php:65
+msgctxt "Sample text for the section"
+msgid "Nature,"
+msgstr ""
+
+#: patterns/section-outlet.php:66
+msgctxt "Sample text for the section"
+msgid " in the common sense, refers to essences unchanged by man; space, the air, the river, the leaf."
+msgstr ""
+
+#: patterns/section-outlet.php:75
+msgctxt "Sample text for the button"
+msgid "Browse Casual Fashion"
+msgstr ""
+
+#: patterns/section-outlet.php:98
+msgctxt "Sample text for the blockquote"
+msgid "\"Beauty is within, but any help is much appreciated...\""
+msgstr ""
+
+#: patterns/section-outlet.php:98
+msgctxt "Sample text for the blockquote"
+msgid "Pablo Goya"
+msgstr ""
+
+#: patterns/section-outlet.php:110
+msgctxt "Sample text for the heading"
+msgid "Hair extensions"
+msgstr ""
+
+#: patterns/section-outlet.php:124
+msgctxt "Sample text for the section"
+msgid "Extend your natural self, be proud of your greater self."
+msgstr ""
+
+#: patterns/section-outlet.php:125
+msgctxt "Sample text for the section"
+msgid " Don't hesitate to fascinate"
+msgstr ""
+
+#: patterns/section-outlet.php:126
+msgctxt "Sample text for the section"
+msgid "Everyone ..."
+msgstr ""
+
+#: patterns/section-outlet.php:135
+msgctxt "Sample text for the button"
+msgid "Browse Hair Extensions"
+msgstr ""
+
+#: patterns/section-simple-cta.php:48
+msgctxt "Sample text for heading"
+msgid "get the idea."
+msgstr ""
+
+#: patterns/section-simple-cta.php:64
+msgctxt "Sample text for paragraph"
+msgid "Get more for your valet → Get your deals"
+msgstr ""
+
+#: patterns/section-simple-cta.php:73
+msgctxt "Sample text for button"
+msgid "Shop women"
+msgstr ""
+
+#: patterns/section-simple-cta.php:87
+msgctxt "Sample text for paragraph"
+msgid "Get excited with quality → Get your coupon"
+msgstr ""
+
+#: patterns/section-simple-cta.php:96
+msgctxt "Sample text for button"
+msgid "Shop men"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:50
+msgid "Blockette featured"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:51
+msgid "Blockette duotones"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:52
+msgid "Blockette heros"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:53
+msgid "Blockette shop"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:54
+msgid "Blockette sections"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:55
+msgid "Blockette header"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:56
+msgid "Blockette footer"
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:57
+msgid "Blockette query"
+msgstr ""
+
+#. translators: %s: Search term.
+#: inc/classes/class-block-patterns.php:104
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: inc/classes/class-block-patterns.php:104
+msgid "Search results"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:59
+msgid "No shadow"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:60
+msgid "Sticky"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:61
+msgid "Sticky, no shadow"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:64
+msgid "Flat button"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:65
+msgid "Pill button"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:66
+msgid "Soft shadow"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:69
+msgid "Button"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:70
+msgid "Button shadow"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:73
+msgid "Inverted"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:76, inc/classes/class-block-styles.php:79, inc/classes/class-block-styles.php:82
+msgid "Box shadow"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:85, inc/classes/class-block-styles.php:88, inc/classes/class-block-styles.php:91, inc/classes/class-block-styles.php:94
+msgid "Text shadow"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:95
+msgid "Gradient 1"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:96
+msgid "Gradient 2"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:97
+msgid "Gradient 3"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:98
+msgid "Gradient 4"
+msgstr ""
+
+#: inc/classes/class-block-styles.php:101
+msgid "Dashed"
+msgstr ""
+
+#: inc/classes/class-init.php:163
+msgctxt "Used if post or pages has no title"
+msgid "(No title)"
+msgstr ""
+
+#: inc/patterns/woocommerce-featured-categories.php:32
+msgctxt "Explanation for missing product categories"
+msgid "No product category found, \"Featured category block\" removed. Please add some product categories, and use the \"Featured category block\" to add category."
+msgstr ""
+
+#: inc/patterns/woocommerce-featured-categories.php:35
+msgid "WooCommerce featured categories"
+msgstr ""

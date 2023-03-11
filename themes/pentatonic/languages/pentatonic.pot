@@ -1,0 +1,383 @@
+# <!=Copyright (C) 2022 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pentatonic\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2022-11-08 00:35-0800\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:19
+msgid "Pentatonic Pro"
+msgstr ""
+
+#: inc/about.php:20
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"25+ Pre-Designed Block Patterns and 10+ Custom Blocks that are highly "
+"customizable and fully responsive."
+msgstr ""
+
+#: inc/about.php:22
+msgid "Get Pentatonic Pro"
+msgstr ""
+
+#: inc/about.php:24 inc/about.php:96
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:49 inc/block-patterns.php:18
+msgid "Pentatonic"
+msgstr ""
+
+#: inc/about.php:68
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Getting Started with Pentatonic!"
+msgstr ""
+
+#: inc/about.php:77
+msgid ""
+"Awesome! Pentatonic has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in "
+"this astounding theme."
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:84
+msgid "More Features with Pentatonic Pro Theme"
+msgstr ""
+
+#: inc/about.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you "
+"activate the Pentatonic Pro. With the pro theme installed, get more "
+"options, blocks, block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:86
+msgid "Buy Pentatonic Pro"
+msgstr ""
+
+#: inc/about.php:95
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:97
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:98
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:99
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:100
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:107
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:108
+msgid ""
+"Loved Pentatonic? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:109
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/block-styles.php:44 inc/block-styles.php:62 inc/block-styles.php:71
+#: inc/block-styles.php:80 inc/block-styles.php:89 inc/block-styles.php:99
+#: inc/block-styles.php:109 inc/block-styles.php:118
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:53
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/patterns/404-header.php:6
+msgid "404 Header"
+msgstr ""
+
+#: inc/patterns/404-header.php:16
+msgid "404 Nothing Found"
+msgstr ""
+
+#: inc/patterns/404-header.php:19
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: inc/patterns/about-us.php:6 inc/patterns/about-us.php:18
+msgid "About Us"
+msgstr ""
+
+#: inc/patterns/about-us.php:22
+msgid "Fresh ideas for every business"
+msgstr ""
+
+#: inc/patterns/about-us.php:26
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur Integer pretium condimentum "
+"tristique aenean luctus mauris lorem ipsum dolor sit amet consectetur."
+msgstr ""
+
+#: inc/patterns/about-us.php:32
+msgid "Get started"
+msgstr ""
+
+#: inc/patterns/archive-header.php:6
+msgid "Archive Header"
+msgstr ""
+
+#: inc/patterns/cta.php:6
+msgid "CTA"
+msgstr ""
+
+#: inc/patterns/cta.php:17
+msgid "Amazing Videos & Presentations"
+msgstr ""
+
+#: inc/patterns/cta.php:21
+msgid "We Create, We Develop, We Inspire."
+msgstr ""
+
+#: inc/patterns/cta.php:28
+msgid "Find Out"
+msgstr ""
+
+#: inc/patterns/featured-content.php:6 inc/patterns/featured-content.php:16
+msgid "Featured Content"
+msgstr ""
+
+#: inc/patterns/featured-content.php:12
+msgid "Tagline"
+msgstr ""
+
+#: inc/patterns/featured-content.php:29
+msgid "Custom Onboarding Strategy: A Guide to Class"
+msgstr ""
+
+#: inc/patterns/featured-content.php:33 inc/patterns/featured-content.php:55
+#: inc/patterns/featured-content.php:77
+msgid ""
+"Lorem ipsum dolor sit amet consecte tur adipiscing elit integer fermentum "
+"in orci lorem ipsum."
+msgstr ""
+
+#: inc/patterns/featured-content.php:38 inc/patterns/featured-content.php:60
+#: inc/patterns/featured-content.php:82
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/featured-content.php:51
+msgid "How Investing in Self-Dependent Increase Business"
+msgstr ""
+
+#: inc/patterns/featured-content.php:73
+msgid "7 Productivity Tips to Avoid Burnout When Working"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:18
+#, php-format
+msgid ". Powered by %s"
+msgstr ""
+
+#: inc/patterns/footer-default.php:19
+msgid "https://catchthemes.com"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:6
+msgid "Footer Three Columns"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:19
+msgid ""
+"Lorem ipsum dolor sit amet con sect etur adipiscing elit maecenas conse "
+"ctetur dapibus rutrum proin vitae nibh eget adipiscing elit maecenas cons."
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:49
+msgid "374 FA Tower, Williams S Blvd. 2721, IL, USA"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:63
+msgid "(+880) 123 3456 7890"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:77
+msgid "info@companyname.com"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:91
+msgid "Opening Hours: 10:00 18:00"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:103
+msgid "Recent Post"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/header-media.php:6
+msgid "Header Media"
+msgstr ""
+
+#: inc/patterns/header-media.php:13
+#: inc/patterns/header-with-header-media-no-video-and-no-social-search.php:45
+msgid "Music Demo"
+msgstr ""
+
+#: inc/patterns/header-media.php:17
+#: inc/patterns/header-with-header-media-no-video-and-no-social-search.php:49
+msgid "Rock Music Podcast"
+msgstr ""
+
+#: inc/patterns/header-media.php:21
+#: inc/patterns/header-with-header-media-no-video-and-no-social-search.php:53
+msgid "A Professional theme libraries for Musicians or Bands."
+msgstr ""
+
+#: inc/patterns/header-media.php:26 inc/patterns/header-with-buttons.php:40
+#: inc/patterns/header-with-header-media-no-video-and-no-social-search.php:58
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/header-with-buttons.php:6
+msgid "Header With Buttons"
+msgstr ""
+
+#: inc/patterns/header-with-buttons.php:36
+msgid "Log in"
+msgstr ""
+
+#: inc/patterns/header-with-header-media-no-video-and-no-social-search.php:6
+msgid "Header With Header Media No Video And No Social Search"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:9
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: inc/patterns/music-podcast.php:6 inc/patterns/music-podcast.php:17
+msgid "Music Podcast"
+msgstr ""
+
+#: inc/patterns/music-podcast.php:13
+msgid "Single Player"
+msgstr ""
+
+#: inc/patterns/music-podcast.php:27
+msgid ""
+"The earliest use of \"podcasting\" was traced to The Guardian columnist and "
+"BBC journalist Ben Hammersley, who coined it in early February 2004 while "
+"writing an article for The Guardian newspaper."
+msgstr ""
+
+#: inc/patterns/music-podcast.php:32
+msgid "Apple  Podcasts"
+msgstr ""
+
+#: inc/patterns/music-podcast.php:36
+msgid "Google  Podcasts"
+msgstr ""
+
+#: inc/patterns/music-podcast.php:40
+msgid "Spotify"
+msgstr ""
+
+#: inc/patterns/music-podcast.php:44
+msgid "Stitcher"
+msgstr ""
+
+#: inc/patterns/post-header.php:6
+msgid "Post Header"
+msgstr ""
+
+#: inc/patterns/recent-blog-with-sidebar.php:6
+msgid "Recent Blog With Sidebar"
+msgstr ""
+
+#: inc/patterns/search-header.php:6
+msgid "Search Header"
+msgstr ""
+
+#: inc/patterns/search-header.php:19
+msgid "Search"
+msgstr ""
+
+#: inc/patterns/search-header.php:19
+msgid "Search...."
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/upgrade-button/class-customize.php:74
+msgid "FSE Pro Plugin"
+msgstr ""
+
+#: inc/upgrade-button/class-customize.php:75
+msgid "Upgrade Now"
+msgstr ""

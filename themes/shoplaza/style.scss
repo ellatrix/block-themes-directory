@@ -1,0 +1,40 @@
+/*
+Theme Name: Shoplaza
+Theme URI: https://catchthemes.com/themes/shoplaza
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Shoplaza is a free eCommerce WordPress block theme for full site editing. This block-based theme comes with a classy, elegant, and minimal design perfect to make your sales strong and steady. It is ideal for all types of eCommerce websites and also online stores. There are WooCommerce patterns available in this theme. So, to use these patterns, you need to install the WooCommerce plugin. You can easily drag and drop the block patterns and customize your website just the way you want. All the features and functionality of this theme are fully customizable. There are 18+ block patterns, 16 Templates, and 9 Template Parts available in this theme to help you build the eCommerce site beautifully. Some of the block patterns are 404 Header, Archive Header, CTA, Featured Product Three Columns, Footer Default, Footer Three Columns, Header Default, Header Media, Header With Cart, Hidden 404, Post Header, Product Category Four Rows, Search Header, Shop Header, Sidebar Products, Sidebar, and WooCommerce Features. All the block patterns, Templates, and Templates Parts are fully responsive, highly customizable, and fast loading. Download Shoplaza today and build a professional-looking eCommerce website and sell the products.
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: shoplaza
+Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Shoplaza is based on Catch FSE WordPress Theme, 2012-2022 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

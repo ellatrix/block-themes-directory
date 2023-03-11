@@ -1,0 +1,19 @@
+/* Button properties not available (yet) in theme.json */
+.wp-block-button__link {
+	transition: background-color .2s linear;
+}
+
+.wp-block-button__link:active {
+	transform: translateY(2px);
+	box-shadow: none;
+}
+
+/* Match the editor properties */
+.wp-block-buttons > .wp-block-button {
+	margin-top: .5em;
+}
+
+.wp-block-button__link svg {
+	vertical-align: middle;
+	fill: currentcolor;
+}

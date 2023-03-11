@@ -1,0 +1,1 @@
+.gs-sticky-enable{transition:all .5s var(--greenshift-transition);position:sticky;top:0;z-index:100000}.gs-sticky-header{transition:all .5s var(--greenshift-transition)}.gs-sticky-enable .gs-sticky-header{box-shadow:0 10px 20px rgba(44,62,80,.05);transition-delay:.1s}

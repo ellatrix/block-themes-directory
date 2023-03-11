@@ -1,0 +1,25 @@
+.woocommerce-cart {
+    .product-name a,
+    .woocommerce-remove-coupon {
+        color: var(--wp--preset--color--primary);
+    }
+    
+    button.wp-element-button,
+    .cart_totals a.checkout-button.button.wp-element-button,
+    button.button:disabled[disabled] {
+        background-color: var(--wp--preset--color--primary);
+        color: var(--wp--preset--color--contrast);
+        
+        &:hover {
+            background-color: var(--wp--preset--color--darken);
+            color: var(--wp--preset--color--contrast);
+        }
+    }
+    
+    .woocommerce-message {
+        border-top-color: var(--wp--preset--color--primary);
+        &::before {
+            color: var(--wp--preset--color--primary)
+        }
+    }
+}

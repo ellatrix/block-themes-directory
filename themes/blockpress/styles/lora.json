@@ -1,0 +1,148 @@
+{
+	"version": 2,
+	"title": "Lora Elegant",
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "System Font",
+					"slug": "system"
+				},
+				{
+					"fontFamily": "Lora,sans-serif",
+					"name": "System Font",
+					"slug": "system",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lora",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [ "file:./assets/fonts/Lora/Lora-VariableFont_wght.ttf" ]
+                        }
+                    ]
+				},
+				{
+					"fontFamily": "var(--blockpress-primary-fontfamily, Lora)",
+					"name": "Primary Custom Font",
+					"slug": "primary"
+				},
+				{
+					"fontFamily": "var(--blockpress-secondary-fontfamily, var(--wp--preset--font-family--system))",
+					"name": "Secondary Custom Font",
+					"slug": "secondary"
+				},
+				{
+					"fontFamily": "var(--blockpress-tertiary-fontfamily, var(--wp--preset--font-family--system))",
+					"name": "Tertiary Custom Font",
+					"slug": "tertiary"
+				},
+				{
+					"fontFamily": "\"Source Serif Pro\", serif",
+					"name": "Source Serif Pro",
+					"slug": "source-serif-pro"
+				},
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				}
+            ]
+        },
+        "color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#b07c01"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#eba501"
+				},
+				{
+					"name": "Text over primary",
+					"slug": "textonprimary",
+					"color": "#fffffd"
+				},
+				{
+					"name": "Accented Buttons",
+					"slug": "button",
+					"color": "#ffd800"
+				},
+				{
+					"name": "Text over buttons",
+					"slug": "textonbutton",
+					"color": "#010101"
+				},
+				{
+					"name": "Accented Color",
+					"slug": "accent",
+					"color": "#de1414"
+				},
+				{
+					"name": "Accented Secondary",
+					"slug": "accenttwo",
+					"color": "#00d084"
+				},
+				{
+					"name": "Accented Dark Background",
+					"slug": "accentbg",
+					"color": "#41474c"
+				},
+				{
+					"name": "Accented Light Background",
+					"slug": "lightbg",
+					"color": "#f9fafb"
+				},
+				{
+					"name": "Tag color",
+					"slug": "lighttag",
+					"color": "#94fe5226"
+				},
+				{
+					"name": "Secondary tag color",
+					"slug": "lightsecondarytag",
+					"color": "#b952fe26"
+				},
+				{
+					"name": "Light Grey (for Meta text)",
+					"slug": "lightgrey",
+					"color": "#6f8099"
+				},
+				{
+					"name": "Price color (for woocommerce)",
+					"slug": "price",
+					"color": "#444444"
+				},
+				{
+					"name": "Borders, Dividers",
+					"slug": "lightborder",
+					"color": "#cecece6b"
+				},
+				{
+					"name": "Input text",
+					"slug": "inputtext",
+					"color": "#444"
+				},
+				{
+					"name": "Input background",
+					"slug": "inputbg",
+					"color": "#fafbfd"
+				},
+				{
+					"name": "Dark panels (footer, header)",
+					"slug": "dark",
+					"color": "#000001"
+				},
+				{
+					"name": "Text on dark panels",
+					"slug": "textondark",
+					"color": "#fffffe"
+				}
+			]
+		}
+    }
+}

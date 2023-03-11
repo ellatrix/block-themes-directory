@@ -1,0 +1,448 @@
+# <!=Copyright (C) 2022 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Catch FSE 1.6.0\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2023-01-29 22:40-0800\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:21
+msgid "Catch FSE + FSE Pro Plugin = Amazing"
+msgstr ""
+
+#: inc/about.php:22
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building your "
+"website with advanced block patterns and custom blocks! Get additional 25+ Pre-"
+"Designed Block Patterns and 10+ Custom Blocks that are highly customizable and "
+"fully responsive."
+msgstr ""
+
+#: inc/about.php:24
+msgid "Get FSE Pro"
+msgstr ""
+
+#: inc/about.php:26 inc/about.php:216
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:54 inc/block-patterns.php:18
+msgid "Catch FSE"
+msgstr ""
+
+#: inc/about.php:73
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:81
+msgid "Getting Started with Catch FSE!"
+msgstr ""
+
+#: inc/about.php:82
+msgid ""
+"Awesome! Catch FSE has been installed and activated successfully. Now, you can "
+"start building your dream website with a wide range of highly-customizable "
+"block patterns, templates, and template parts available in this astounding "
+"theme."
+msgstr ""
+
+#: inc/about.php:83
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:90
+msgid "More Features with FSE Pro plugin"
+msgstr ""
+
+#: inc/about.php:91
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you activate "
+"the FSE Pro plugin by Catch Themes. With the plugin installed, get more "
+"options, blocks, block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:92
+msgid "Buy FSE Pro"
+msgstr ""
+
+#: inc/about.php:98
+msgid "FSE Pro plugin"
+msgstr ""
+
+#: inc/about.php:99
+msgid "FSE Pro plugin is installed and activated. Start using Pro Features Now!!!"
+msgstr ""
+
+#: inc/about.php:105
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/about.php:109
+msgid "Features"
+msgstr ""
+
+#: inc/about.php:110
+msgid "Free FSE Theme"
+msgstr ""
+
+#: inc/about.php:111 inc/upgrade-button/class-customize.php:74
+msgid "FSE Pro Plugin"
+msgstr ""
+
+#: inc/about.php:116
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/about.php:121
+msgid "Super Easy Setup"
+msgstr ""
+
+#: inc/about.php:126
+msgid "Color Options for various sections"
+msgstr ""
+
+#: inc/about.php:131
+msgid "Pattern  : Header Media"
+msgstr ""
+
+#: inc/about.php:136
+msgid "Pattern  : Featured Content"
+msgstr ""
+
+#: inc/about.php:141
+msgid "Pattern  : Featured Content Two/Three"
+msgstr ""
+
+#: inc/about.php:146
+msgid "Pattern  : Homepage One"
+msgstr ""
+
+#: inc/about.php:151
+msgid "Pattern  : Footer Four Column"
+msgstr ""
+
+#: inc/about.php:156
+msgid "Pattern  : Header With Center Logo"
+msgstr ""
+
+#: inc/about.php:161
+msgid "Pattern  : Header With Buttons"
+msgstr ""
+
+#: inc/about.php:166
+msgid "Pattern  : Logo"
+msgstr ""
+
+#: inc/about.php:171
+msgid "Pattern  : Pricing Table One/Two/Three"
+msgstr ""
+
+#: inc/about.php:176
+msgid "Pattern  : Service One/Two/Three/Four"
+msgstr ""
+
+#: inc/about.php:181
+msgid "Pattern  : Testimonial One/Two/Three"
+msgstr ""
+
+#: inc/about.php:186
+msgid "Pattern  : Footer Four Columns"
+msgstr ""
+
+#: inc/about.php:191
+msgid "Block    : Case Study"
+msgstr ""
+
+#: inc/about.php:196
+msgid "Block    : Slider"
+msgstr ""
+
+#: inc/about.php:201
+msgid "Block    : PopUp Video"
+msgstr ""
+
+#: inc/about.php:215
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:217
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:218
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:219
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:220
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:227
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:228
+msgid ""
+"Loved Catch FSE? Feel free to leave your feedback. Your opinion helps us reach "
+"more audiences!"
+msgstr ""
+
+#: inc/about.php:229
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35 inc/block-styles.php:53 inc/block-styles.php:62
+#: inc/block-styles.php:71 inc/block-styles.php:80 inc/block-styles.php:90
+#: inc/block-styles.php:100 inc/block-styles.php:109
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:44
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/patterns/404-header.php:6
+msgid "404 Header"
+msgstr ""
+
+#: inc/patterns/404-header.php:16
+msgid "404 Nothing Found"
+msgstr ""
+
+#: inc/patterns/404-header.php:19
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: inc/patterns/about-us.php:6 inc/patterns/about-us.php:12
+msgid "About Us"
+msgstr ""
+
+#: inc/patterns/about-us.php:16
+msgid "Fresh ideas for every business"
+msgstr ""
+
+#: inc/patterns/about-us.php:20
+msgid "Blocks is a creative template that specializes in strategy creativity."
+msgstr ""
+
+#: inc/patterns/about-us.php:24
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur  Integer pretium condimentum tristique "
+"aenean luctus mauris lorem ipsum dolor sit amet consectetur."
+msgstr ""
+
+#: inc/patterns/about-us.php:28
+msgid "Get started"
+msgstr ""
+
+#: inc/patterns/archive-header.php:6
+msgid "Archive Header"
+msgstr ""
+
+#: inc/patterns/cta.php:6
+msgid "CTA"
+msgstr ""
+
+#: inc/patterns/cta.php:16
+msgid "Amazing Videos & Presentations"
+msgstr ""
+
+#: inc/patterns/cta.php:20
+msgid "We Create, We Develop, We Inspire."
+msgstr ""
+
+#: inc/patterns/cta.php:24
+msgid "Find Out"
+msgstr ""
+
+#: inc/patterns/featured-content.php:6 inc/patterns/featured-content.php:16
+msgid "Featured Content"
+msgstr ""
+
+#: inc/patterns/featured-content.php:12
+msgid "Tagline"
+msgstr ""
+
+#: inc/patterns/featured-content.php:20
+msgid "Subtitle"
+msgstr ""
+
+#: inc/patterns/featured-content.php:32
+msgid "Custom Onboarding Strategy: A Guide to Class"
+msgstr ""
+
+#: inc/patterns/featured-content.php:36 inc/patterns/featured-content.php:58
+#: inc/patterns/featured-content.php:80
+msgid ""
+"Lorem ipsum dolor sit amet consecte tur adipiscing elit integer fermentum in "
+"orci lorem ipsum."
+msgstr ""
+
+#: inc/patterns/featured-content.php:41 inc/patterns/featured-content.php:63
+#: inc/patterns/featured-content.php:85
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/featured-content.php:54
+msgid "How Investing in Self-Dependent Increase Business"
+msgstr ""
+
+#: inc/patterns/featured-content.php:76
+msgid "7 Productivity Tips to Avoid Burnout When Working"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:18
+#, php-format
+msgid ". Powered by %s"
+msgstr ""
+
+#: inc/patterns/footer-default.php:19
+msgid "https://catchthemes.com"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:6
+msgid "Footer Three Columns"
+msgstr ""
+
+#: inc/patterns/grid-blog-post.php:6
+msgid "Grid Blog Post"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/header-media.php:6
+msgid "Header Media"
+msgstr ""
+
+#: inc/patterns/header-media.php:13
+msgid "Build beautiful websites faster."
+msgstr ""
+
+#: inc/patterns/header-media.php:17
+msgid "A professional theme libraries for Individual or Business."
+msgstr ""
+
+#: inc/patterns/header-media.php:22 inc/patterns/header-with-buttons.php:40
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/header-with-buttons.php:6
+msgid "Header With Buttons"
+msgstr ""
+
+#: inc/patterns/header-with-buttons.php:36
+msgid "Log in"
+msgstr ""
+
+#: inc/patterns/header-with-cart.php:6
+msgid "Header With Cart"
+msgstr ""
+
+#: inc/patterns/header-with-cart.php:37
+msgid "My Account"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:9
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: inc/patterns/newsletter.php:6
+msgid "Newsletter"
+msgstr ""
+
+#: inc/patterns/newsletter.php:16
+msgid "Subscribe Now"
+msgstr ""
+
+#: inc/patterns/newsletter.php:20
+msgid "Stay up to date with our newsletter"
+msgstr ""
+
+#: inc/patterns/post-header.php:6
+msgid "Post Header"
+msgstr ""
+
+#: inc/patterns/quick-contact.php:6 inc/patterns/quick-contact.php:16
+msgid "Quick Contact"
+msgstr ""
+
+#: inc/patterns/quick-contact.php:12
+msgid "Lets Talk"
+msgstr ""
+
+#: inc/patterns/quick-contact.php:20
+msgid ""
+"An online quick contact form is a quick and easy way to collect information "
+"from website visitors."
+msgstr ""
+
+#: inc/patterns/recent-blog-with-sidebar.php:6
+msgid "Recent Blog With Sidebar"
+msgstr ""
+
+#: inc/patterns/search-header.php:6
+msgid "Search Header"
+msgstr ""
+
+#: inc/patterns/search-header.php:19
+msgid "Search"
+msgstr ""
+
+#: inc/patterns/search-header.php:19
+msgid "Search...."
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/upgrade-button/class-customize.php:75
+msgid "Upgrade Now"
+msgstr ""

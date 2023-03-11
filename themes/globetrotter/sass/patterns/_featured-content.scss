@@ -1,0 +1,8 @@
+/* --- Block featured Content
+-------------------------------------------------------- */
+
+.wp-block-feature-content .wp-block-entry-content {
+    padding: var(--wp--custom--spacing--testimonial-inner-gap);
+    background-color: var(--wp--preset--color--secondary);
+    margin-block-start: 0 !important;
+}

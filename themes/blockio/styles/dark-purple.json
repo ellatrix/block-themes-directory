@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "title": "Dark Purple",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "background",
+          "color": "#2F1E3B",
+          "name": "background"
+        },
+        {
+          "slug" : "transparent-white",
+          "color": "rgba(47,30,59,0.85)",
+          "name" : "transparent_white"
+        },
+        {
+          "slug": "color-main",
+          "color": "#D3BEFF",
+          "name": "color_main"
+        },
+        {
+          "slug": "secondary-hover",
+          "color": "#A073FF",
+          "name": "secondary_hover"
+        },
+        {
+          "slug": "fly-dark",
+          "color": "#2F1E3B",
+          "name": "fly_dark"
+        },
+        {
+          "slug": "fly-light",
+          "color": "#D3BEFF",
+          "name": "fly_light"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "color-main-to-secondary-hover",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--color-main), var(--wp--preset--color--secondary-hover))",
+          "name": "Main to Light"
+        },
+        {
+          "slug": "fly-gradient",
+          "gradient": "linear-gradient(135deg, var(--wp--preset--color--fly-dark), var(--wp--preset--color--fly-light))",
+          "name": "Fly Gradient"
+        },
+        {
+          "slug": "fly-gradient-invert",
+          "gradient": "linear-gradient(135deg, var(--wp--preset--color--fly-light),var(--wp--preset--color--fly-dark))",
+          "name": "Fly Gradient Invert"
+        }
+      ],
+      "link": true
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--color-main)"
+    }
+  }
+}

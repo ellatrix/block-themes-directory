@@ -1,0 +1,973 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: w3csspress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 15:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.0; wp-5.9.1\n"
+"X-Domain: w3csspress"
+
+#. border and color
+#: classes/class-w3csspress-constants.php:222
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. arrow
+#. arrow and text
+#: attachment.php:62 template-parts/nav/below.php:19
+#, php-format
+msgid "%s older"
+msgstr ""
+
+#: inc/patterns/notfound.php:22
+msgid "404"
+msgstr ""
+
+#: inc/block-patterns.php:23
+msgid "404 not found"
+msgstr ""
+
+#: inc/patterns/query.php:43
+msgid "add text or blocks to display when the query returns no results."
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:36
+msgid "all borders"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:57
+msgid "amber"
+msgstr ""
+
+#. color of the container
+#: inc/patterns/badge.php:30
+#, php-format
+msgid "badge %s"
+msgstr ""
+
+#: inc/block-patterns.php:24
+msgid "badges"
+msgstr ""
+
+#: inc/patterns/navigation.php:37
+msgid "basic navigation"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:58
+msgid "black"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:59
+msgid "blue"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:60
+msgid "blue grey"
+msgstr ""
+
+#. border and direction
+#: classes/class-w3csspress-constants.php:27
+#, php-format
+msgid "border %s"
+msgstr ""
+
+#: inc/images.php:134
+msgid "border images on the page."
+msgstr ""
+
+#: inc/patterns/image.php:58
+msgid "bordered image"
+msgstr ""
+
+#: inc/images.php:133
+msgid "bordered images"
+msgstr ""
+
+#: inc/block-patterns.php:25
+msgid "borders"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:204
+msgid "bottom"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:61
+msgid "brown"
+msgstr ""
+
+#. color of the card
+#: inc/patterns/card.php:40
+#, php-format
+msgid "card %s"
+msgstr ""
+
+#: inc/patterns/image.php:70
+msgid "card image"
+msgstr ""
+
+#: inc/images.php:145
+msgid "card images"
+msgstr ""
+
+#. color of the card
+#: inc/patterns/card.php:54
+#, php-format
+msgid "card-2 %s"
+msgstr ""
+
+#. color of the card
+#: inc/patterns/card.php:68
+#, php-format
+msgid "card-4 %s"
+msgstr ""
+
+#: inc/block-patterns.php:26 inc/patterns/card.php:26
+msgid "cards"
+msgstr ""
+
+#: template-parts/entry/footer.php:16
+msgid "categories: "
+msgstr ""
+
+#. index for headings
+#: inc/colors.php:143
+#, php-format
+msgid "change color of h%s."
+msgstr ""
+
+#: inc/fonts.php:192
+msgid "change font family of headings."
+msgstr ""
+
+#: inc/fonts.php:179 inc/fonts.php:204
+msgid "change font family of website."
+msgstr ""
+
+#: inc/fonts.php:229
+msgid "change font size of div."
+msgstr ""
+
+#. index for headings
+#: inc/fonts.php:397
+#, php-format
+msgid "change font size of h%s."
+msgstr ""
+
+#: inc/fonts.php:242
+msgid "change font size of inputs."
+msgstr ""
+
+#: inc/fonts.php:281
+msgid "change font size of ordered list."
+msgstr ""
+
+#: inc/fonts.php:216
+msgid "change font size of paragraphs."
+msgstr ""
+
+#: inc/fonts.php:255
+msgid "change font size of tables."
+msgstr ""
+
+#: inc/fonts.php:268
+msgid "change font size of unordered list."
+msgstr ""
+
+#: inc/fonts.php:307
+msgid "change font weight of div."
+msgstr ""
+
+#. index for headings
+#: inc/fonts.php:418
+#, php-format
+msgid "change font weight of h%s."
+msgstr ""
+
+#: inc/fonts.php:320
+msgid "change font weight of inputs."
+msgstr ""
+
+#: inc/fonts.php:359
+msgid "change font weight of ordered list."
+msgstr ""
+
+#: inc/fonts.php:294
+msgid "change font weight of paragraphs."
+msgstr ""
+
+#: inc/fonts.php:333
+msgid "change font weight of tables."
+msgstr ""
+
+#: inc/fonts.php:346
+msgid "change font weight of unordered list."
+msgstr ""
+
+#: inc/colors.php:122
+msgid "change link color"
+msgstr ""
+
+#: inc/colors.php:108
+msgid "change theme text color"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:190
+msgid "circle"
+msgstr ""
+
+#: inc/images.php:121
+msgid "circle images"
+msgstr ""
+
+#: inc/images.php:122
+msgid "circle images on the page."
+msgstr ""
+
+#: inc/patterns/image.php:46
+msgid "circular image"
+msgstr ""
+
+#: inc/block-patterns.php:27
+msgid "colors"
+msgstr ""
+
+#: comments.php:65
+msgid "comment:"
+msgstr ""
+
+#: template-parts/entry/footer.php:20
+msgid "comments"
+msgstr ""
+
+#: comments.php:53
+msgctxt "comments count"
+msgid "Trackback or Pingback"
+msgid_plural "Trackbacks and Pingbacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. color of the container
+#: inc/patterns/container.php:40
+#, php-format
+msgid "container %s"
+msgstr ""
+
+#: inc/block-patterns.php:28 inc/patterns/container.php:26
+msgid "containers"
+msgstr ""
+
+#: inc/content.php:58
+msgid "content options"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:156
+msgid "cursive"
+msgstr ""
+
+#: inc/content.php:59
+msgid "customize content options here."
+msgstr ""
+
+#: inc/fonts.php:32
+msgid "customize fonts options here."
+msgstr ""
+
+#: inc/images.php:28
+msgid "customize images options here."
+msgstr ""
+
+#: inc/layout.php:32
+msgid "customize layout options here."
+msgstr ""
+
+#: inc/speed.php:28
+msgid "customize speed options here."
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:62
+msgid "cyan"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:93
+#: classes/class-w3csspress-constants.php:94
+#: classes/class-w3csspress-constants.php:95
+#: classes/class-w3csspress-constants.php:96
+#: classes/class-w3csspress-constants.php:97
+msgid "dark"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:63
+msgid "dark grey"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:64
+msgid "deep orange"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:65
+msgid "deep purple"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:55
+#: classes/class-w3csspress-constants.php:98
+#: classes/class-w3csspress-constants.php:115
+#: classes/class-w3csspress-constants.php:135
+#: classes/class-w3csspress-constants.php:152
+#: classes/class-w3csspress-constants.php:168
+#: classes/class-w3csspress-constants.php:184
+msgid "default"
+msgstr ""
+
+#: inc/speed.php:93
+msgid "disable jQuery"
+msgstr ""
+
+#: inc/speed.php:94
+msgid "disable or enable jQuery (do only if you know what you are doing)."
+msgstr ""
+
+#: inc/speed.php:141
+msgid "enable block styles"
+msgstr ""
+
+#: inc/speed.php:142
+msgid "enable block styles."
+msgstr ""
+
+#: inc/speed.php:105
+msgid "enable Dashicons"
+msgstr ""
+
+#: inc/speed.php:106
+msgid "enable Dashicons on the frontend."
+msgstr ""
+
+#: inc/speed.php:153
+msgid "enable full site editor"
+msgstr ""
+
+#: inc/speed.php:117
+msgid "enable Gutenberg for posts"
+msgstr ""
+
+#: inc/speed.php:129
+msgid "enable Gutenberg for widgets"
+msgstr ""
+
+#: inc/speed.php:118
+msgid "enable Gutenberg to edit posts."
+msgstr ""
+
+#: inc/speed.php:130
+msgid "enable Gutenberg to edit widgets."
+msgstr ""
+
+#: inc/speed.php:154
+msgid "enable the full site editor."
+msgstr ""
+
+#: inc/fonts.php:31
+msgid "fonts options"
+msgstr ""
+
+#: functions.php:364
+msgid "foot widgets sidebar"
+msgstr ""
+
+#: inc/patterns/footer.php:28
+msgid "footer"
+msgstr ""
+
+#: inc/content.php:79
+msgid "footer content"
+msgstr ""
+
+#: inc/block-patterns.php:29
+msgid "footers"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:172
+msgid "four columns"
+msgstr ""
+
+#. Name of the template
+msgid "Full-Width"
+msgstr ""
+
+#: inc/images.php:169
+msgid "grayscale images"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:66
+msgid "green"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:67
+msgid "grey"
+msgstr ""
+
+#: inc/patterns/image.php:94
+msgid "greyscale image"
+msgstr ""
+
+#: inc/layout.php:96
+msgid "grid layout setting"
+msgstr ""
+
+#. index for headings
+#: inc/colors.php:138
+#, php-format
+msgid "h%s color"
+msgstr ""
+
+#: functions.php:355
+msgid "head widgets sidebar"
+msgstr ""
+
+#: inc/patterns/header.php:21
+msgid "header"
+msgstr ""
+
+#: inc/images.php:193
+msgid "header thumbnail"
+msgstr ""
+
+#: inc/block-patterns.php:30
+msgid "headers"
+msgstr ""
+
+#: inc/patterns/header.php:51
+msgid "homepage header"
+msgstr ""
+
+#: inc/block-patterns.php:31
+msgid "hover"
+msgstr ""
+
+#. hover border and color
+#: classes/class-w3csspress-constants.php:244
+#, php-format
+msgid "hover %1$s %2$s"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://github.com/matteomarchiori"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/matteomarchiori/w3csspress"
+msgstr ""
+
+#: inc/patterns/image.php:22
+msgid "image"
+msgstr ""
+
+#: inc/block-patterns.php:32
+msgid "images"
+msgstr ""
+
+#: inc/images.php:27
+msgid "images options"
+msgstr ""
+
+#: inc/images.php:146
+msgid "images with card effect."
+msgstr ""
+
+#: inc/images.php:170
+msgid "images with grayscale effect."
+msgstr ""
+
+#: inc/images.php:158
+msgid "images with opacity effect."
+msgstr ""
+
+#: inc/images.php:182
+msgid "images with sepia effect."
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:68
+msgid "indigo"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:123
+msgid "jumbo"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:69
+msgid "khaki"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:119
+msgid "large"
+msgstr ""
+
+#: inc/layout.php:31
+msgid "layout options"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:205
+msgid "left"
+msgstr ""
+
+#: inc/patterns/sidebar.php:26
+msgid "left sidebar"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:99
+#: classes/class-w3csspress-constants.php:100
+#: classes/class-w3csspress-constants.php:101
+#: classes/class-w3csspress-constants.php:102
+#: classes/class-w3csspress-constants.php:103
+msgid "light"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:70
+msgid "light blue"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:71
+msgid "light green"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:72
+msgid "lime"
+msgstr ""
+
+#: inc/colors.php:121
+msgid "link color"
+msgstr ""
+
+#: functions.php:90
+msgid "main menu"
+msgstr ""
+
+#. Author of the theme
+msgid "matteomarchiori97"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:118
+msgid "medium"
+msgstr ""
+
+#: functions.php:147
+msgid "menu"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:155
+msgid "monospace"
+msgstr ""
+
+#: inc/block-patterns.php:33
+msgid "navigation"
+msgstr ""
+
+#. arrow
+#. arrow and text
+#: attachment.php:75 template-parts/nav/below.php:24
+#, php-format
+msgid "newer %s"
+msgstr ""
+
+#: 404.php:19
+msgid "Not Found"
+msgstr ""
+
+#: inc/patterns/notfound.php:25
+msgid "not found"
+msgstr ""
+
+#: search.php:62
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:22
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr ""
+
+#: inc/patterns/notfound.php:29
+msgid "nothing found for the requested page. Try a search instead?"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:169
+msgid "one column"
+msgstr ""
+
+#: inc/images.php:157
+msgid "opacity images"
+msgstr ""
+
+#: inc/patterns/image.php:82
+msgid "opaque image"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:73
+msgid "orange"
+msgstr ""
+
+#: inc/patterns/panel.php:26
+msgid "panel"
+msgstr ""
+
+#. color of the panel
+#: inc/patterns/panel.php:40
+#, php-format
+msgid "panel %s"
+msgstr ""
+
+#: inc/block-patterns.php:34
+msgid "panels"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:74
+msgid "pink"
+msgstr ""
+
+#: inc/images.php:205
+msgid "post thumbnail"
+msgstr ""
+
+#: inc/images.php:194
+msgid "posts get the thumbnail as header image if they have one."
+msgstr ""
+
+#: inc/images.php:206
+msgid "posts show the thumbnail if they have."
+msgstr ""
+
+#: functions.php:337
+msgid "primary sidebar"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:75
+msgid "purple"
+msgstr ""
+
+#: inc/block-patterns.php:35
+msgid "query"
+msgstr ""
+
+#: inc/patterns/query.php:22
+msgid "query loop"
+msgstr ""
+
+#: inc/patterns/query.php:33
+msgid "read all"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:76
+msgid "red"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:203
+msgid "right"
+msgstr ""
+
+#: inc/patterns/sidebar.php:36
+msgid "right sidebar"
+msgstr ""
+
+#: inc/images.php:110
+msgid "round images on the page."
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:187
+msgid "round large"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:186
+msgid "round medium"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:185
+msgid "round small"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:188
+msgid "round xlarge"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:189
+msgid "round xxlarge"
+msgstr ""
+
+#: inc/patterns/image.php:34
+msgid "rounded image"
+msgstr ""
+
+#: inc/images.php:109
+msgid "rounded images"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:154
+msgid "sans serif"
+msgstr ""
+
+#: inc/block-patterns.php:36 inc/patterns/search.php:25
+#: inc/patterns/search.php:25
+msgid "search"
+msgstr ""
+
+#: inc/patterns/search.php:22
+msgid "search bar"
+msgstr ""
+
+#. search text completed with query text
+#: search.php:38
+#, php-format
+msgid "search results for: %s"
+msgstr ""
+
+#: functions.php:346
+msgid "secondary sidebar"
+msgstr ""
+
+#: inc/colors.php:79
+msgid "select color theme"
+msgstr ""
+
+#: inc/fonts.php:228
+msgid "select div font size"
+msgstr ""
+
+#: inc/fonts.php:306
+msgid "select div font weight"
+msgstr ""
+
+#: inc/fonts.php:178
+msgid "select font family"
+msgstr ""
+
+#. index for headings
+#: inc/fonts.php:392
+#, php-format
+msgid "select h%s font size"
+msgstr ""
+
+#. index for headings
+#: inc/fonts.php:413
+#, php-format
+msgid "select h%s font weight"
+msgstr ""
+
+#: inc/fonts.php:241
+msgid "select input font size"
+msgstr ""
+
+#: inc/fonts.php:319
+msgid "select input font weight"
+msgstr ""
+
+#: inc/layout.php:70
+msgid "select layout"
+msgstr ""
+
+#: inc/fonts.php:280
+msgid "select ordered list font size"
+msgstr ""
+
+#: inc/fonts.php:358
+msgid "select ordered list font weight"
+msgstr ""
+
+#: inc/fonts.php:215
+msgid "select paragraphs font size"
+msgstr ""
+
+#: inc/fonts.php:293
+msgid "select paragraphs font weight"
+msgstr ""
+
+#: inc/layout.php:83
+msgid "select rounded style"
+msgstr ""
+
+#: inc/fonts.php:254
+msgid "select table font size"
+msgstr ""
+
+#: inc/fonts.php:332
+msgid "select table font weight"
+msgstr ""
+
+#: inc/colors.php:92
+msgid "select theme kind"
+msgstr ""
+
+#: inc/fonts.php:267
+msgid "select unordered list font size"
+msgstr ""
+
+#: inc/fonts.php:345
+msgid "select unordered list font weight"
+msgstr ""
+
+#: inc/patterns/image.php:106
+msgid "sepia image"
+msgstr ""
+
+#: inc/images.php:181
+msgid "sepia images"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:153
+msgid "serif"
+msgstr ""
+
+#: inc/content.php:80
+msgid "set footer content."
+msgstr ""
+
+#: functions.php:338
+msgid "sidebar on the left."
+msgstr ""
+
+#: functions.php:347
+msgid "sidebar on the right."
+msgstr ""
+
+#: inc/block-patterns.php:37
+msgid "sidebars"
+msgstr ""
+
+#: inc/content.php:20
+msgid "skip to the content"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:117
+msgid "small"
+msgstr ""
+
+#: search.php:65
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr ""
+
+#: inc/speed.php:27
+msgid "speed options"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:77
+msgid "teal"
+msgstr ""
+
+#: inc/colors.php:107
+msgid "text theme color"
+msgstr ""
+
+#: inc/patterns/query.php:44
+msgid "the query did not return any results."
+msgstr ""
+
+#. thick border and direction
+#: classes/class-w3csspress-constants.php:32
+#, php-format
+msgid "thick border %s"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:171
+msgid "three columns"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:116
+msgid "tiny"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:202
+msgid "top"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:170
+msgid "two columns"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Universal theme with classic mode and blocks mode made to integrate the "
+"W3CSS framework inside WordPress, with global custom options and all of the "
+"W3CSS framework functionalities. The theme has been developed starting from "
+"resources on the w3schools website applied to the blankslate WordPress theme,"
+" slightly modified. The theme is accessibility ready and it is highly "
+"customizable. Please add issues on GitHub or contact me if you are "
+"interested in more options."
+msgstr ""
+
+#: inc/fonts.php:203
+msgid "use Google font"
+msgstr ""
+
+#: inc/fonts.php:191
+msgid "use Google font for headings"
+msgstr ""
+
+#: inc/layout.php:84
+msgid ""
+"using this option you can change some elements roundness (images have more "
+"controls)."
+msgstr ""
+
+#: inc/layout.php:71
+msgid "using this option you can change the page layout."
+msgstr ""
+
+#: inc/colors.php:93
+msgid ""
+"using this option you can change the theme between default, light and dark."
+msgstr ""
+
+#: inc/colors.php:80
+msgid "using this option you can change the theme colors."
+msgstr ""
+
+#: inc/layout.php:97
+msgid "using this option you can enable or disable the grid layout."
+msgstr ""
+
+#. Name of the theme
+msgid "W3CSSPress"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:56
+msgid "w3schools"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:138
+msgid "weight"
+msgstr ""
+
+#: functions.php:365
+msgid "widgets area on the foot of the website."
+msgstr ""
+
+#: functions.php:356
+msgid "widgets area on the head of the website."
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:120
+msgid "XL"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:121
+msgid "XXL"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:122
+msgid "XXXL"
+msgstr ""
+
+#: footer.php:27 inc/patterns/footer.php:22
+msgid "Y"
+msgstr ""
+
+#: classes/class-w3csspress-constants.php:78
+msgid "yellow"
+msgstr ""

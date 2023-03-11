@@ -1,0 +1,10 @@
+{
+	"version": "5.0.0",
+	"items": [
+		{
+			"type": "info",
+			"title": "Next update",
+			"content": "Next update will bring Threaded Comments support and minor fixes to core/post-template and core/comment-template blocks."
+		}
+	]
+}

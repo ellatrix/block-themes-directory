@@ -1,0 +1,71 @@
+/**
+ * Small responsive breakpoint, max width, default is 781px.
+ *
+ * Can be changed in child themes with the 'pria_breakpoint_small' filter.
+ *
+ *
+ * Example:
+ * function themename_breakpoint_small() {
+ *	return 768px;
+ * }
+ * add_filter( 'pria_breakpoint_small', 'themename_breakpoint_small' );
+ *
+ *
+ * Another example using em instead of px:
+ * function themename_breakpoint_small() {
+ *	return 42em;
+ * }
+ * add_filter( 'pria_breakpoint_small', 'themename_breakpoint_small' );
+ *
+ *
+ */
+
+/*--------------------------------------------------------------
+# Block styles - Query Block Offset
+--------------------------------------------------------------*/
+.wp-block-query.is-style-offset .wp-block-post:nth-child(odd) .is-style-offset-wrap .wp-block-post-featured-image,
+.block-editor-block-list__block.wp-block-query.is-style-offset li:nth-child(odd) .is-style-offset-wrap .wp-block-post-featured-image {
+	grid-column: 2/13;
+	grid-row: 1/9;
+}
+
+.wp-block-query.is-style-offset .wp-block-post:nth-child(odd) .is-style-offset-wrap .is-style-offset-inner,
+.block-editor-block-list__block.wp-block-query.is-style-offset li:nth-child(odd) .is-style-offset-wrap .is-style-offset-inner {
+	grid-column: 1/11;
+	grid-row: 7/13;
+}
+
+.wp-block-query.is-style-offset .wp-block-post:nth-child(even) .is-style-offset-wrap .wp-block-post-featured-image,
+.block-editor-block-list__block.wp-block-query.is-style-offset li:nth-child(even) .is-style-offset-wrap .wp-block-post-featured-image {
+	grid-column: 1/12;
+	grid-row: 1/9;
+}
+
+.wp-block-query.is-style-offset .wp-block-post:nth-child(even) .is-style-offset-wrap .is-style-offset-inner,
+.block-editor-block-list__block.wp-block-query.is-style-offset li:nth-child(even) .is-style-offset-wrap .is-style-offset-inner {
+	grid-column: 3/13;
+	grid-row: 7/13;
+}
+
+/*--------------------------------------------------------------
+# Block styles - Group Image & Content Offset
+--------------------------------------------------------------*/
+.wp-block-group.is-style-image-content-offset > .wp-block-image {
+	grid-column: 2/13;
+	grid-row: 1/9;
+}
+
+.wp-block-group.is-style-image-content-offset > .wp-block-group {
+	grid-column: 1/11;
+	grid-row: 7/13;
+}
+
+.wp-block-group.is-style-image-content-offset-right > .wp-block-image {
+	grid-column: 1/12;
+	grid-row: 1/9;
+}
+
+.wp-block-group.is-style-image-content-offset-right > .wp-block-group {
+	grid-column: 3/13;
+	grid-row: 7/13;
+}

@@ -1,0 +1,1191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: w3csspress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 15:45+0000\n"
+"PO-Revision-Date: 2022-10-31 15:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.0.3\n"
+"X-Domain: w3csspress"
+
+#. border and color
+#: classes/class-w3csspress-constants.php:222
+#, fuzzy, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. arrow
+#. arrow and text
+#: attachment.php:62 template-parts/nav/below.php:19
+#, fuzzy, php-format
+msgid "%s older"
+msgstr "%s vanhempi"
+
+#: inc/patterns/notfound.php:22
+#, fuzzy
+msgid "404"
+msgstr "404"
+
+#: inc/block-patterns.php:23
+#, fuzzy
+msgid "404 not found"
+msgstr "404 ei löytynyt"
+
+#: inc/patterns/query.php:43
+#, fuzzy
+msgid "add text or blocks to display when the query returns no results."
+msgstr ""
+"lisätä tekstiä tai lohkoja, jotka näytetään, kun kysely ei tuota tuloksia."
+
+#: classes/class-w3csspress-constants.php:36
+#, fuzzy
+msgid "all borders"
+msgstr "kaikki rajat"
+
+#: classes/class-w3csspress-constants.php:57
+#, fuzzy
+msgid "amber"
+msgstr "meripihka"
+
+#. color of the container
+#: inc/patterns/badge.php:30
+#, fuzzy, php-format
+msgid "badge %s"
+msgstr "merkki %s"
+
+#: inc/block-patterns.php:24
+#, fuzzy
+msgid "badges"
+msgstr "virkamerkit"
+
+#: inc/patterns/navigation.php:37
+#, fuzzy
+msgid "basic navigation"
+msgstr "perusnavigointi"
+
+#: classes/class-w3csspress-constants.php:58
+#, fuzzy
+msgid "black"
+msgstr "musta"
+
+#: classes/class-w3csspress-constants.php:59
+#, fuzzy
+msgid "blue"
+msgstr "sininen"
+
+#: classes/class-w3csspress-constants.php:60
+#, fuzzy
+msgid "blue grey"
+msgstr "sininen harmaa"
+
+#. border and direction
+#: classes/class-w3csspress-constants.php:27
+#, fuzzy, php-format
+msgid "border %s"
+msgstr "raja %s"
+
+#: inc/images.php:134
+#, fuzzy
+msgid "border images on the page."
+msgstr "reunakuvat sivulla."
+
+#: inc/patterns/image.php:58
+#, fuzzy
+msgid "bordered image"
+msgstr "reunustettu kuva"
+
+#: inc/images.php:133
+#, fuzzy
+msgid "bordered images"
+msgstr "reunustetut kuvat"
+
+#: inc/block-patterns.php:25
+#, fuzzy
+msgid "borders"
+msgstr "rajat"
+
+#: classes/class-w3csspress-constants.php:204
+#, fuzzy
+msgid "bottom"
+msgstr "pohja"
+
+#: classes/class-w3csspress-constants.php:61
+#, fuzzy
+msgid "brown"
+msgstr "ruskea"
+
+#. color of the card
+#: inc/patterns/card.php:40
+#, fuzzy, php-format
+msgid "card %s"
+msgstr "kortti %s"
+
+#: inc/patterns/image.php:70
+#, fuzzy
+msgid "card image"
+msgstr "kortin kuva"
+
+#: inc/images.php:145
+#, fuzzy
+msgid "card images"
+msgstr "kortin kuvat"
+
+#. color of the card
+#: inc/patterns/card.php:54
+#, fuzzy, php-format
+msgid "card-2 %s"
+msgstr "kortti-2 %s"
+
+#. color of the card
+#: inc/patterns/card.php:68
+#, fuzzy, php-format
+msgid "card-4 %s"
+msgstr "kortti-4 %s"
+
+#: inc/block-patterns.php:26 inc/patterns/card.php:26
+#, fuzzy
+msgid "cards"
+msgstr "kortit"
+
+#: template-parts/entry/footer.php:16
+#, fuzzy
+msgid "categories: "
+msgstr "luokat"
+
+#. index for headings
+#: inc/colors.php:143
+#, fuzzy, php-format
+msgid "change color of h%s."
+msgstr "muuttaa h%s:n väriä."
+
+#: inc/fonts.php:192
+#, fuzzy
+msgid "change font family of headings."
+msgstr "vaihtaa otsikoiden kirjasintyyppiä."
+
+#: inc/fonts.php:179 inc/fonts.php:204
+#, fuzzy
+msgid "change font family of website."
+msgstr "vaihtaa verkkosivuston fonttiperhettä."
+
+#: inc/fonts.php:229
+#, fuzzy
+msgid "change font size of div."
+msgstr "muuttaa div:n fonttikokoa."
+
+#. index for headings
+#: inc/fonts.php:397
+#, fuzzy, php-format
+msgid "change font size of h%s."
+msgstr "muuttaa h%s:n fonttikokoa."
+
+#: inc/fonts.php:242
+#, fuzzy
+msgid "change font size of inputs."
+msgstr "muuttaa syötteiden fonttikokoa."
+
+#: inc/fonts.php:281
+#, fuzzy
+msgid "change font size of ordered list."
+msgstr "muuttaa järjestetyn luettelon fonttikokoa."
+
+#: inc/fonts.php:216
+#, fuzzy
+msgid "change font size of paragraphs."
+msgstr "muuttaa kappaleiden fonttikokoa."
+
+#: inc/fonts.php:255
+#, fuzzy
+msgid "change font size of tables."
+msgstr "muuttaa taulukoiden fonttikokoa."
+
+#: inc/fonts.php:268
+#, fuzzy
+msgid "change font size of unordered list."
+msgstr "muuttaa järjestämättömän luettelon fonttikokoa."
+
+#: inc/fonts.php:307
+#, fuzzy
+msgid "change font weight of div."
+msgstr "muuttaa div:n fontin painoa."
+
+#. index for headings
+#: inc/fonts.php:418
+#, fuzzy, php-format
+msgid "change font weight of h%s."
+msgstr "muuttaa fontin painoa h%s."
+
+#: inc/fonts.php:320
+#, fuzzy
+msgid "change font weight of inputs."
+msgstr "muuttaa fontin painoarvoa syötteiden osalta."
+
+#: inc/fonts.php:359
+#, fuzzy
+msgid "change font weight of ordered list."
+msgstr "muuttaa järjestetyn listan fontin painoa."
+
+#: inc/fonts.php:294
+#, fuzzy
+msgid "change font weight of paragraphs."
+msgstr "muuttaa kappaleiden fontin painoa."
+
+#: inc/fonts.php:333
+#, fuzzy
+msgid "change font weight of tables."
+msgstr "muuttaa taulukoiden fontin painoa."
+
+#: inc/fonts.php:346
+#, fuzzy
+msgid "change font weight of unordered list."
+msgstr "muuttaa järjestämättömän listan fontin painoa."
+
+#: inc/colors.php:122
+#, fuzzy
+msgid "change link color"
+msgstr "linkin värin muuttaminen"
+
+#: inc/colors.php:108
+#, fuzzy
+msgid "change theme text color"
+msgstr "muuttaa teeman tekstin väriä"
+
+#: classes/class-w3csspress-constants.php:190
+#, fuzzy
+msgid "circle"
+msgstr "ympyrä"
+
+#: inc/images.php:121
+#, fuzzy
+msgid "circle images"
+msgstr "ympyrän kuvat"
+
+#: inc/images.php:122
+#, fuzzy
+msgid "circle images on the page."
+msgstr "ympyröi kuvat sivulla."
+
+#: inc/patterns/image.php:46
+#, fuzzy
+msgid "circular image"
+msgstr "pyöreä kuva"
+
+#: inc/block-patterns.php:27
+#, fuzzy
+msgid "colors"
+msgstr "värit"
+
+#: comments.php:65
+#, fuzzy
+msgid "comment:"
+msgstr "kommentti:"
+
+#: template-parts/entry/footer.php:20
+#, fuzzy
+msgid "comments"
+msgstr "kommentit"
+
+#: comments.php:53
+#, fuzzy
+msgctxt "comments count"
+msgid "Trackback or Pingback"
+msgid_plural "Trackbacks and Pingbacks"
+msgstr[0] "Trackback tai Pingback"
+msgstr[1] "Trackbackit ja Pingbackit"
+
+#. color of the container
+#: inc/patterns/container.php:40
+#, fuzzy, php-format
+msgid "container %s"
+msgstr "säiliö %s"
+
+#: inc/block-patterns.php:28 inc/patterns/container.php:26
+#, fuzzy
+msgid "containers"
+msgstr "säiliöt"
+
+#: inc/content.php:58
+#, fuzzy
+msgid "content options"
+msgstr "sisältövaihtoehdot"
+
+#: classes/class-w3csspress-constants.php:156
+#, fuzzy
+msgid "cursive"
+msgstr "kursivointi"
+
+#: inc/content.php:59
+#, fuzzy
+msgid "customize content options here."
+msgstr "mukauttaa sisältövaihtoehtoja täällä."
+
+#: inc/fonts.php:32
+#, fuzzy
+msgid "customize fonts options here."
+msgstr "mukauttaa fonttien vaihtoehtoja täällä."
+
+#: inc/images.php:28
+#, fuzzy
+msgid "customize images options here."
+msgstr "muokata kuvia vaihtoehtoja täällä."
+
+#: inc/layout.php:32
+#, fuzzy
+msgid "customize layout options here."
+msgstr "mukauttaa asetteluvaihtoehtoja täällä."
+
+#: inc/speed.php:28
+#, fuzzy
+msgid "customize speed options here."
+msgstr "mukauttaa nopeusvaihtoehtoja täällä."
+
+#: classes/class-w3csspress-constants.php:62
+#, fuzzy
+msgid "cyan"
+msgstr "syaani"
+
+#: classes/class-w3csspress-constants.php:93
+#: classes/class-w3csspress-constants.php:94
+#: classes/class-w3csspress-constants.php:95
+#: classes/class-w3csspress-constants.php:96
+#: classes/class-w3csspress-constants.php:97
+#, fuzzy
+msgid "dark"
+msgstr "tumma"
+
+#: classes/class-w3csspress-constants.php:63
+#, fuzzy
+msgid "dark grey"
+msgstr "tummanharmaa"
+
+#: classes/class-w3csspress-constants.php:64
+#, fuzzy
+msgid "deep orange"
+msgstr "syvän oranssi"
+
+#: classes/class-w3csspress-constants.php:65
+#, fuzzy
+msgid "deep purple"
+msgstr "syvä violetti"
+
+#: classes/class-w3csspress-constants.php:55
+#: classes/class-w3csspress-constants.php:98
+#: classes/class-w3csspress-constants.php:115
+#: classes/class-w3csspress-constants.php:135
+#: classes/class-w3csspress-constants.php:152
+#: classes/class-w3csspress-constants.php:168
+#: classes/class-w3csspress-constants.php:184
+#, fuzzy
+msgid "default"
+msgstr "oletus"
+
+#: inc/speed.php:93
+#, fuzzy
+msgid "disable jQuery"
+msgstr "poistaa jQueryn käytöstä"
+
+#: inc/speed.php:94
+#, fuzzy
+msgid "disable or enable jQuery (do only if you know what you are doing)."
+msgstr ""
+"poista jQuery käytöstä tai ota se käyttöön (tee se vain, jos tiedät, mitä "
+"olet tekemässä)."
+
+#: inc/speed.php:141
+#, fuzzy
+msgid "enable block styles"
+msgstr "ota lohkotyylit käyttöön"
+
+#: inc/speed.php:142
+#, fuzzy
+msgid "enable block styles."
+msgstr "ota lohkotyylit käyttöön."
+
+#: inc/speed.php:105
+#, fuzzy
+msgid "enable Dashicons"
+msgstr "ota Dashicons käyttöön"
+
+#: inc/speed.php:106
+#, fuzzy
+msgid "enable Dashicons on the frontend."
+msgstr "ota Dashicons käyttöön frontendissä."
+
+#: inc/speed.php:153
+#, fuzzy
+msgid "enable full site editor"
+msgstr "ota käyttöön koko sivuston editori"
+
+#: inc/speed.php:117
+#, fuzzy
+msgid "enable Gutenberg for posts"
+msgstr "ota Gutenberg käyttöön viestejä varten"
+
+#: inc/speed.php:129
+#, fuzzy
+msgid "enable Gutenberg for widgets"
+msgstr "ota Gutenberg käyttöön widgettejä varten"
+
+#: inc/speed.php:118
+#, fuzzy
+msgid "enable Gutenberg to edit posts."
+msgstr "salli Gutenbergin muokata viestejä."
+
+#: inc/speed.php:130
+#, fuzzy
+msgid "enable Gutenberg to edit widgets."
+msgstr "salli Gutenbergin muokata widgettejä."
+
+#: inc/speed.php:154
+#, fuzzy
+msgid "enable the full site editor."
+msgstr "ota käyttöön koko sivuston editori."
+
+#: inc/fonts.php:31
+#, fuzzy
+msgid "fonts options"
+msgstr "fonttien vaihtoehdot"
+
+#: functions.php:364
+#, fuzzy
+msgid "foot widgets sidebar"
+msgstr "jalka widgetit sivupalkki"
+
+#: inc/patterns/footer.php:28
+#, fuzzy
+msgid "footer"
+msgstr "alatunniste"
+
+#: inc/content.php:79
+#, fuzzy
+msgid "footer content"
+msgstr "alatunnisteen sisältö"
+
+#: inc/block-patterns.php:29
+#, fuzzy
+msgid "footers"
+msgstr "alatunnisteet"
+
+#: classes/class-w3csspress-constants.php:172
+#, fuzzy
+msgid "four columns"
+msgstr "neljä saraketta"
+
+#. Name of the template
+#, fuzzy
+msgid "Full-Width"
+msgstr "Täysleveä"
+
+#: inc/images.php:169
+#, fuzzy
+msgid "grayscale images"
+msgstr "harmaasävykuvat"
+
+#: classes/class-w3csspress-constants.php:66
+#, fuzzy
+msgid "green"
+msgstr "vihreä"
+
+#: classes/class-w3csspress-constants.php:67
+#, fuzzy
+msgid "grey"
+msgstr "harmaa"
+
+#: inc/patterns/image.php:94
+#, fuzzy
+msgid "greyscale image"
+msgstr "harmaasävykuva"
+
+#: inc/layout.php:96
+#, fuzzy
+msgid "grid layout setting"
+msgstr "ruudukon asettelun asetus"
+
+#. index for headings
+#: inc/colors.php:138
+#, fuzzy, php-format
+msgid "h%s color"
+msgstr "h%s väri"
+
+#: functions.php:355
+#, fuzzy
+msgid "head widgets sidebar"
+msgstr "head widgetit sivupalkki"
+
+#: inc/patterns/header.php:21
+#, fuzzy
+msgid "header"
+msgstr "otsikko"
+
+#: inc/images.php:193
+#, fuzzy
+msgid "header thumbnail"
+msgstr "otsikon pikkukuva"
+
+#: inc/block-patterns.php:30
+#, fuzzy
+msgid "headers"
+msgstr "otsikot"
+
+#: inc/patterns/header.php:51
+#, fuzzy
+msgid "homepage header"
+msgstr "kotisivun otsikko"
+
+#: inc/block-patterns.php:31
+#, fuzzy
+msgid "hover"
+msgstr "leijua"
+
+#. hover border and color
+#: classes/class-w3csspress-constants.php:244
+#, fuzzy, php-format
+msgid "hover %1$s %2$s"
+msgstr "hover %1$s %2$s"
+
+#. Author URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori"
+msgstr "https://github.com/matteomarchiori"
+
+#. URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori/w3csspress"
+msgstr "https://github.com/matteomarchiori/w3csspress"
+
+#: inc/patterns/image.php:22
+#, fuzzy
+msgid "image"
+msgstr "kuva"
+
+#: inc/block-patterns.php:32
+#, fuzzy
+msgid "images"
+msgstr "kuvat"
+
+#: inc/images.php:27
+#, fuzzy
+msgid "images options"
+msgstr "kuvien vaihtoehdot"
+
+#: inc/images.php:146
+#, fuzzy
+msgid "images with card effect."
+msgstr "kuvia korttiefektillä."
+
+#: inc/images.php:170
+#, fuzzy
+msgid "images with grayscale effect."
+msgstr "kuvat harmaasävyjen vaikutuksella."
+
+#: inc/images.php:158
+#, fuzzy
+msgid "images with opacity effect."
+msgstr "kuvat peittävyydellä."
+
+#: inc/images.php:182
+#, fuzzy
+msgid "images with sepia effect."
+msgstr "kuvia seepia-efektillä."
+
+#: classes/class-w3csspress-constants.php:68
+#, fuzzy
+msgid "indigo"
+msgstr "indigo"
+
+#: classes/class-w3csspress-constants.php:123
+#, fuzzy
+msgid "jumbo"
+msgstr "jumbo"
+
+#: classes/class-w3csspress-constants.php:69
+#, fuzzy
+msgid "khaki"
+msgstr "khaki"
+
+#: classes/class-w3csspress-constants.php:119
+#, fuzzy
+msgid "large"
+msgstr "suuri"
+
+#: inc/layout.php:31
+#, fuzzy
+msgid "layout options"
+msgstr "asetteluvaihtoehdot"
+
+#: classes/class-w3csspress-constants.php:205
+#, fuzzy
+msgid "left"
+msgstr "vasen"
+
+#: inc/patterns/sidebar.php:26
+#, fuzzy
+msgid "left sidebar"
+msgstr "vasen sivupalkki"
+
+#: classes/class-w3csspress-constants.php:99
+#: classes/class-w3csspress-constants.php:100
+#: classes/class-w3csspress-constants.php:101
+#: classes/class-w3csspress-constants.php:102
+#: classes/class-w3csspress-constants.php:103
+#, fuzzy
+msgid "light"
+msgstr "valo"
+
+#: classes/class-w3csspress-constants.php:70
+#, fuzzy
+msgid "light blue"
+msgstr "vaaleansininen"
+
+#: classes/class-w3csspress-constants.php:71
+#, fuzzy
+msgid "light green"
+msgstr "vaaleanvihreä"
+
+#: classes/class-w3csspress-constants.php:72
+#, fuzzy
+msgid "lime"
+msgstr "kalkki"
+
+#: inc/colors.php:121
+#, fuzzy
+msgid "link color"
+msgstr "linkin väri"
+
+#: functions.php:90
+#, fuzzy
+msgid "main menu"
+msgstr "päävalikko"
+
+#. Author of the theme
+#, fuzzy
+msgid "matteomarchiori97"
+msgstr "matteomarchiori97"
+
+#: classes/class-w3csspress-constants.php:118
+#, fuzzy
+msgid "medium"
+msgstr "medium"
+
+#: functions.php:147
+#, fuzzy
+msgid "menu"
+msgstr "menu"
+
+#: classes/class-w3csspress-constants.php:155
+#, fuzzy
+msgid "monospace"
+msgstr "monospace"
+
+#: inc/block-patterns.php:33
+#, fuzzy
+msgid "navigation"
+msgstr "navigointi"
+
+#. arrow
+#. arrow and text
+#: attachment.php:75 template-parts/nav/below.php:24
+#, fuzzy, php-format
+msgid "newer %s"
+msgstr "uudempi %s"
+
+#: 404.php:19
+#, fuzzy
+msgid "Not Found"
+msgstr "Ei löydy"
+
+#: inc/patterns/notfound.php:25
+#, fuzzy
+msgid "not found"
+msgstr "ei löydy"
+
+#: search.php:62
+#, fuzzy
+msgid "Nothing Found"
+msgstr "Ei löytynyt mitään"
+
+#: 404.php:22
+#, fuzzy
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr "Pyydetyltä sivulta ei löytynyt mitään. Kokeile sen sijaan hakua?"
+
+#: inc/patterns/notfound.php:29
+#, fuzzy
+msgid "nothing found for the requested page. Try a search instead?"
+msgstr "pyydetylle sivulle ei löytynyt mitään. Kokeile sen sijaan hakua?"
+
+#: classes/class-w3csspress-constants.php:169
+#, fuzzy
+msgid "one column"
+msgstr "yksi sarake"
+
+#: inc/images.php:157
+#, fuzzy
+msgid "opacity images"
+msgstr "läpinäkymättömyys kuvat"
+
+#: inc/patterns/image.php:82
+#, fuzzy
+msgid "opaque image"
+msgstr "läpinäkymätön kuva"
+
+#: classes/class-w3csspress-constants.php:73
+#, fuzzy
+msgid "orange"
+msgstr "oranssi"
+
+#: inc/patterns/panel.php:26
+#, fuzzy
+msgid "panel"
+msgstr "paneeli"
+
+#. color of the panel
+#: inc/patterns/panel.php:40
+#, fuzzy, php-format
+msgid "panel %s"
+msgstr "paneeli %s"
+
+#: inc/block-patterns.php:34
+#, fuzzy
+msgid "panels"
+msgstr "paneelit"
+
+#: classes/class-w3csspress-constants.php:74
+#, fuzzy
+msgid "pink"
+msgstr "vaaleanpunainen"
+
+#: inc/images.php:205
+#, fuzzy
+msgid "post thumbnail"
+msgstr "post thumbnail"
+
+#: inc/images.php:194
+#, fuzzy
+msgid "posts get the thumbnail as header image if they have one."
+msgstr "viestit saavat pikkukuvan otsikkokuvaksi, jos niillä on sellainen."
+
+#: inc/images.php:206
+#, fuzzy
+msgid "posts show the thumbnail if they have."
+msgstr "viestit näyttävät pikkukuvan, jos ne ovat."
+
+#: functions.php:337
+#, fuzzy
+msgid "primary sidebar"
+msgstr "ensisijainen sivupalkki"
+
+#: classes/class-w3csspress-constants.php:75
+#, fuzzy
+msgid "purple"
+msgstr "violetti"
+
+#: inc/block-patterns.php:35
+#, fuzzy
+msgid "query"
+msgstr "kysely"
+
+#: inc/patterns/query.php:22
+#, fuzzy
+msgid "query loop"
+msgstr "kyselysilmukka"
+
+#: inc/patterns/query.php:33
+#, fuzzy
+msgid "read all"
+msgstr "lue kaikki"
+
+#: classes/class-w3csspress-constants.php:76
+#, fuzzy
+msgid "red"
+msgstr "punainen"
+
+#: classes/class-w3csspress-constants.php:203
+#, fuzzy
+msgid "right"
+msgstr "oikea"
+
+#: inc/patterns/sidebar.php:36
+#, fuzzy
+msgid "right sidebar"
+msgstr "oikea sivupalkki"
+
+#: inc/images.php:110
+#, fuzzy
+msgid "round images on the page."
+msgstr "pyöreitä kuvia sivulla."
+
+#: classes/class-w3csspress-constants.php:187
+#, fuzzy
+msgid "round large"
+msgstr "pyöreä suuri"
+
+#: classes/class-w3csspress-constants.php:186
+#, fuzzy
+msgid "round medium"
+msgstr "pyöreä keskikokoinen"
+
+#: classes/class-w3csspress-constants.php:185
+#, fuzzy
+msgid "round small"
+msgstr "pyöreä pieni"
+
+#: classes/class-w3csspress-constants.php:188
+#, fuzzy
+msgid "round xlarge"
+msgstr "pyöreä xlarge"
+
+#: classes/class-w3csspress-constants.php:189
+#, fuzzy
+msgid "round xxlarge"
+msgstr "pyöreä xxsuuri"
+
+#: inc/patterns/image.php:34
+#, fuzzy
+msgid "rounded image"
+msgstr "pyöristetty kuva"
+
+#: inc/images.php:109
+#, fuzzy
+msgid "rounded images"
+msgstr "pyöristetyt kuvat"
+
+#: classes/class-w3csspress-constants.php:154
+#, fuzzy
+msgid "sans serif"
+msgstr "sans serif"
+
+#: inc/block-patterns.php:36 inc/patterns/search.php:25
+#: inc/patterns/search.php:25
+#, fuzzy
+msgid "search"
+msgstr "haku"
+
+#: inc/patterns/search.php:22
+#, fuzzy
+msgid "search bar"
+msgstr "hakupalkki"
+
+#. search text completed with query text
+#: search.php:38
+#, fuzzy, php-format
+msgid "search results for: %s"
+msgstr "hakutulokset: %s"
+
+#: functions.php:346
+#, fuzzy
+msgid "secondary sidebar"
+msgstr "toissijainen sivupalkki"
+
+#: inc/colors.php:79
+#, fuzzy
+msgid "select color theme"
+msgstr "valitse väriteema"
+
+#: inc/fonts.php:228
+#, fuzzy
+msgid "select div font size"
+msgstr "valitse div fontin koko"
+
+#: inc/fonts.php:306
+#, fuzzy
+msgid "select div font weight"
+msgstr "valitse div fontin paino"
+
+#: inc/fonts.php:178
+#, fuzzy
+msgid "select font family"
+msgstr "valitse kirjasinperhe"
+
+#. index for headings
+#: inc/fonts.php:392
+#, fuzzy, php-format
+msgid "select h%s font size"
+msgstr "valitse h%s fonttikoko"
+
+#. index for headings
+#: inc/fonts.php:413
+#, fuzzy, php-format
+msgid "select h%s font weight"
+msgstr "valitse h%s fontin paino"
+
+#: inc/fonts.php:241
+#, fuzzy
+msgid "select input font size"
+msgstr "valitse syötetyn fontin koko"
+
+#: inc/fonts.php:319
+#, fuzzy
+msgid "select input font weight"
+msgstr "valitse syötetyn fontin paino"
+
+#: inc/layout.php:70
+#, fuzzy
+msgid "select layout"
+msgstr "valitse ulkoasu"
+
+#: inc/fonts.php:280
+#, fuzzy
+msgid "select ordered list font size"
+msgstr "valitse tilatun luettelon fonttikoko"
+
+#: inc/fonts.php:358
+#, fuzzy
+msgid "select ordered list font weight"
+msgstr "valitse tilatun luettelon fontin paino"
+
+#: inc/fonts.php:215
+#, fuzzy
+msgid "select paragraphs font size"
+msgstr "valitse kappaleiden fonttikoko"
+
+#: inc/fonts.php:293
+#, fuzzy
+msgid "select paragraphs font weight"
+msgstr "valitse kappaleet fontin paino"
+
+#: inc/layout.php:83
+#, fuzzy
+msgid "select rounded style"
+msgstr "valitse pyöristetty tyyli"
+
+#: inc/fonts.php:254
+#, fuzzy
+msgid "select table font size"
+msgstr "valitse taulukon fonttikoko"
+
+#: inc/fonts.php:332
+#, fuzzy
+msgid "select table font weight"
+msgstr "valitse taulukon fontin paino"
+
+#: inc/colors.php:92
+#, fuzzy
+msgid "select theme kind"
+msgstr "valitse teeman laji"
+
+#: inc/fonts.php:267
+#, fuzzy
+msgid "select unordered list font size"
+msgstr "valitse järjestämättömän luettelon fonttikoko"
+
+#: inc/fonts.php:345
+#, fuzzy
+msgid "select unordered list font weight"
+msgstr "valitse järjestämättömän luettelon fontin paino"
+
+#: inc/patterns/image.php:106
+#, fuzzy
+msgid "sepia image"
+msgstr "seepia kuva"
+
+#: inc/images.php:181
+#, fuzzy
+msgid "sepia images"
+msgstr "seepia kuvia"
+
+#: classes/class-w3csspress-constants.php:153
+#, fuzzy
+msgid "serif"
+msgstr "serif"
+
+#: inc/content.php:80
+#, fuzzy
+msgid "set footer content."
+msgstr "asettaa alatunnisteen sisällön."
+
+#: functions.php:338
+#, fuzzy
+msgid "sidebar on the left."
+msgstr "vasemmassa sivupalkissa."
+
+#: functions.php:347
+#, fuzzy
+msgid "sidebar on the right."
+msgstr "sivupalkissa oikealla."
+
+#: inc/block-patterns.php:37
+#, fuzzy
+msgid "sidebars"
+msgstr "sivupalkit"
+
+#: inc/content.php:20
+#, fuzzy
+msgid "skip to the content"
+msgstr "siirry sisältöön"
+
+#: classes/class-w3csspress-constants.php:117
+#, fuzzy
+msgid "small"
+msgstr "pieni"
+
+#: search.php:65
+#, fuzzy
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr "Valitettavasti mikään ei vastannut hakuasi. Yritä uudelleen."
+
+#: inc/speed.php:27
+#, fuzzy
+msgid "speed options"
+msgstr "nopeusvaihtoehdot"
+
+#: classes/class-w3csspress-constants.php:77
+#, fuzzy
+msgid "teal"
+msgstr "teal"
+
+#: inc/colors.php:107
+#, fuzzy
+msgid "text theme color"
+msgstr "tekstin teeman väri"
+
+#: inc/patterns/query.php:44
+#, fuzzy
+msgid "the query did not return any results."
+msgstr "kysely ei tuottanut tuloksia."
+
+#. thick border and direction
+#: classes/class-w3csspress-constants.php:32
+#, fuzzy, php-format
+msgid "thick border %s"
+msgstr "paksu reuna %s"
+
+#: classes/class-w3csspress-constants.php:171
+#, fuzzy
+msgid "three columns"
+msgstr "kolme saraketta"
+
+#: classes/class-w3csspress-constants.php:116
+#, fuzzy
+msgid "tiny"
+msgstr "pikkuinen"
+
+#: classes/class-w3csspress-constants.php:202
+#, fuzzy
+msgid "top"
+msgstr "top"
+
+#: classes/class-w3csspress-constants.php:170
+#, fuzzy
+msgid "two columns"
+msgstr "kaksi saraketta"
+
+#. Description of the theme
+#, fuzzy
+msgid ""
+"Universal theme with classic mode and blocks mode made to integrate the "
+"W3CSS framework inside WordPress, with global custom options and all of the "
+"W3CSS framework functionalities. The theme has been developed starting from "
+"resources on the w3schools website applied to the blankslate WordPress theme,"
+" slightly modified. The theme is accessibility ready and it is highly "
+"customizable. Please add issues on GitHub or contact me if you are "
+"interested in more options."
+msgstr ""
+"Yleismaailmallinen teema, jossa on klassinen tila ja lohkotila, joka on "
+"tehty integroimaan W3CSS-kehys WordPressin sisälle, jossa on globaalit "
+"mukautetut vaihtoehdot ja kaikki W3CSS-kehyksen toiminnallisuudet. Teema on "
+"kehitetty alkaen w3schools-sivuston resursseista, joita on sovellettu "
+"blankslate WordPress-teemaan, hieman muokattuna. Teema on esteettömyysvalmis "
+"ja se on hyvin muokattavissa. Lisää kysymyksiä GitHubiin tai ota minuun "
+"yhteyttä, jos olet kiinnostunut lisävaihtoehdoista."
+
+#: inc/fonts.php:203
+#, fuzzy
+msgid "use Google font"
+msgstr "käytä Google-fonttia"
+
+#: inc/fonts.php:191
+#, fuzzy
+msgid "use Google font for headings"
+msgstr "käytä Google-fonttia otsikoissa"
+
+#: inc/layout.php:84
+#, fuzzy
+msgid ""
+"using this option you can change some elements roundness (images have more "
+"controls)."
+msgstr ""
+"tämän vaihtoehdon avulla voit muuttaa joidenkin elementtien pyöristystä "
+"(kuvissa on enemmän säätömahdollisuuksia)."
+
+#: inc/layout.php:71
+#, fuzzy
+msgid "using this option you can change the page layout."
+msgstr "tämän vaihtoehdon avulla voit muuttaa sivun asettelua."
+
+#: inc/colors.php:93
+#, fuzzy
+msgid ""
+"using this option you can change the theme between default, light and dark."
+msgstr ""
+"tämän vaihtoehdon avulla voit vaihtaa teemaa oletusarvon, vaalean ja tumman "
+"välillä."
+
+#: inc/colors.php:80
+#, fuzzy
+msgid "using this option you can change the theme colors."
+msgstr "tämän vaihtoehdon avulla voit muuttaa teeman värejä."
+
+#: inc/layout.php:97
+#, fuzzy
+msgid "using this option you can enable or disable the grid layout."
+msgstr ""
+"tämän vaihtoehdon avulla voit ottaa ruudukkoasettelun käyttöön tai poistaa "
+"sen käytöstä."
+
+#. Name of the theme
+#, fuzzy
+msgid "W3CSSPress"
+msgstr "W3CSSPress"
+
+#: classes/class-w3csspress-constants.php:56
+#, fuzzy
+msgid "w3schools"
+msgstr "w3schools"
+
+#: classes/class-w3csspress-constants.php:138
+#, fuzzy
+msgid "weight"
+msgstr "paino"
+
+#: functions.php:365
+#, fuzzy
+msgid "widgets area on the foot of the website."
+msgstr "widgetit alue sivuston alareunassa."
+
+#: functions.php:356
+#, fuzzy
+msgid "widgets area on the head of the website."
+msgstr "widgetit alue päällä sivuston pään."
+
+#: classes/class-w3csspress-constants.php:120
+#, fuzzy
+msgid "XL"
+msgstr "XL"
+
+#: classes/class-w3csspress-constants.php:121
+#, fuzzy
+msgid "XXL"
+msgstr "XXL"
+
+#: classes/class-w3csspress-constants.php:122
+#, fuzzy
+msgid "XXXL"
+msgstr "XXXL"
+
+#: footer.php:27 inc/patterns/footer.php:22
+#, fuzzy
+msgid "Y"
+msgstr "Y"
+
+#: classes/class-w3csspress-constants.php:78
+#, fuzzy
+msgid "yellow"
+msgstr "keltainen"

@@ -1,0 +1,32 @@
+footer:not(.wp-block-latest-comments__comment-meta) {
+  padding-top: var(--wp--custom--spacing--section-block-bottom);
+  a,
+  .wp-block-navigation .wp-block-navigation-item__content {
+    color: var(--wp--preset--color--body-text);
+  }
+  h2 {
+    font-family: var(--wp--preset--font-family--roboto);
+    letter-spacing: 1px;
+  }
+  .mid-footer {
+    border-top: 1px solid;
+  }
+}
+
+.wp-block-section + footer .upper-footer {
+  border-top: 1px solid;
+}
+
+footer .upper-footer {
+  border-top: 1px solid;
+}
+
+.newsletter-section + footer .upper-footer {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.wp-block-section + footer,
+.newsletter-section + footer {
+  padding-top: 0;
+}

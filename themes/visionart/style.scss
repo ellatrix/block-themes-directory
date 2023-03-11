@@ -1,0 +1,45 @@
+/*
+Theme Name: VisionArt
+Theme URI: https://catchthemes.com/themes/visionart
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: VisionArt is a free photography WordPress block theme for full site editing. This theme is perfect for photographers, graphic designers, creative artists, photo bloggers, freelancers, and other creative photography-centric websites. It is a block-based theme that offers a range of features and design options for building a perfect photography website. The theme comes with a light color scheme with an amazing design. With Full Site Editing features, you can customize your site the way want. All the block patterns are simple and easy to use so drag and drop the blocks and build the content perfectly. There are 25 + different block patterns, 22 FSE Templates, and 11 Template Parts available in this theme. Some block patterns are Contact, Header Media, Pricing, Services, Sidebar, Stats, Team, 404 Header With Background, Archive Header With Background, Featured Content, Footer, Footer With Three Columns, Header Transparent With Cart, Product Sidebar, Recent Blog, Search Header, and many more. All of the blocks, block patterns, templates, and template parts in VisionArt are highly customizable, fully responsive, fast loading, and adapt to all screen sizes perfectly. Download VisionArt today and build a stunning photography website and let your photos shine.
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: visionart
+Tags: blog, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+VisionArt is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Mixin
+--------------------------------------------------------------*/
+@import "sass/mixin/mixin";
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import "sass/media-query";
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import "sass/color";

@@ -1,0 +1,39 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "bg",
+					"name": "Background",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "fg",
+					"name": "Foreground",
+					"color": "#000000"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#1ab26e"
+				},
+				{
+					"slug": "grey",
+					"name": "Grey",
+					"color": "#686868"
+				},
+				{
+					"slug": "light-grey",
+					"name": "Light grey",
+					"color": "#fafafa"
+				},
+				{
+					"slug": "divider",
+					"name": "Divider / Separator",
+					"color": "#e7e7e7"
+				}
+			]
+		}
+	}
+}

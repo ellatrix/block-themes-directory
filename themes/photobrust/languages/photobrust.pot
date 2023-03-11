@@ -1,0 +1,420 @@
+# <!=Copyright (C) 2022 Wen Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PhotoBrust\n"
+"Report-Msgid-Bugs-To: https://wenthemes.com/contact/\n"
+"POT-Creation-Date: 2022-10-16 00:06-0700\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@wenthemes.com>\n"
+"Language-Team: Catch Themes <info@wenthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/admin.php:18
+msgid "PhotoBrust Pro"
+msgstr ""
+
+#: inc/admin/admin.php:19
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"50+ Pre-Designed Block Patterns, 20 Templates and 11 Template Parts that "
+"are highly customizable and fully responsive."
+msgstr ""
+
+#: inc/admin/admin.php:21
+msgid "Get PhotoBrust Pro"
+msgstr ""
+
+#: inc/admin/admin.php:23
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/admin.php:70
+msgid "Version"
+msgstr ""
+
+#: inc/admin/admin.php:82 inc/admin/admin.php:89
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/admin.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you to "
+"Upgrade to PhotoBrust Pro"
+msgstr ""
+
+#: inc/admin/admin.php:96
+msgid "Full Site Editing"
+msgstr ""
+
+#: inc/admin/admin.php:99
+msgid ""
+"We have used Full Site Editing which will help you preview your changes "
+"live and fast."
+msgstr ""
+
+#: inc/admin/admin.php:103
+msgid "Use Site Editor"
+msgstr ""
+
+#: inc/admin/admin.php:110
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/admin/admin.php:112
+msgid ""
+"We have prepared detailed theme instructions which will help you to "
+"customize theme as you prefer."
+msgstr ""
+
+#: inc/admin/admin.php:116
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin.php:124
+msgid "Help &amp; Support"
+msgstr ""
+
+#: inc/admin/admin.php:127
+msgid ""
+"If you have any question/feedback regarding theme, please post in our "
+"official support forum."
+msgstr ""
+
+#: inc/admin/admin.php:131
+msgid "Get Support"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "PhotoBrust"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:44
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/patterns/404-header.php:6
+msgid "404 Header"
+msgstr ""
+
+#: inc/patterns/404-header.php:21 inc/patterns/hidden-404.php:9
+msgid "404 Nothing Found"
+msgstr ""
+
+#: inc/patterns/404-header.php:24
+msgid "Oops! That page can’t be found"
+msgstr ""
+
+#: inc/patterns/archive-header.php:6
+msgid "Archive Header"
+msgstr ""
+
+#: inc/patterns/blog-header.php:6
+msgid "Blog Header"
+msgstr ""
+
+#: inc/patterns/blog-header.php:21
+msgid "Blog"
+msgstr ""
+
+#: inc/patterns/featured-content.php:6
+msgid "Featured Content"
+msgstr ""
+
+#: inc/patterns/featured-content.php:14
+msgid "Featured"
+msgstr ""
+
+#: inc/patterns/featured-content.php:19
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/patterns/featured-content.php:37
+msgid "Top Tips Best Photograph"
+msgstr ""
+
+#: inc/patterns/featured-content.php:49
+msgid ""
+"A negative effect livens up alsoative effect livens up interrupts, fect "
+"livens up interrupts"
+msgstr ""
+
+#: inc/patterns/featured-content.php:55 inc/patterns/featured-content.php:95
+#: inc/patterns/featured-content.php:135 inc/patterns/hero-content.php:91
+#: inc/patterns/sidebar.php:34
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/featured-content.php:77
+msgid "The Rule of Perfectionist"
+msgstr ""
+
+#: inc/patterns/featured-content.php:89
+msgid ""
+"Faceting effect livens up at inteative effect livens up interruptsfect "
+"livens up."
+msgstr ""
+
+#: inc/patterns/featured-content.php:117
+msgid "Best Ways To Succeed"
+msgstr ""
+
+#: inc/patterns/featured-content.php:129
+msgid ""
+"A positive effect living and enuative effect livens up interruptsover "
+"effect livens up unsuals it."
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:18
+#, php-format
+msgid ". Powered by %s"
+msgstr ""
+
+#: inc/patterns/footer-default.php:19
+msgid "https://wenthemes.com"
+msgstr ""
+
+#: inc/patterns/footer-default.php:19
+msgid "Wen Themes"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:6
+msgid "Footer Three Columns"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:21 inc/patterns/sidebar.php:21
+msgid "About"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:25
+msgid ""
+"Photography is a way of feeling, of touching, of loving. What you have "
+"caught on film is captured forever…"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:49
+msgid "info@companyname.com"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:63
+msgid "(+880) 123 3456 7890"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:77
+msgid "2080 Peaceful Lane, Chicago,IL, USA"
+msgstr ""
+
+#: inc/patterns/footer-three-columns.php:90 inc/patterns/sidebar.php:43
+msgid "Recent Post"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/header-media.php:6
+msgid "Header Media"
+msgstr ""
+
+#: inc/patterns/header-media.php:21
+msgid "Fantastic"
+msgstr ""
+
+#: inc/patterns/header-media.php:25
+msgid "Weaving Feathers"
+msgstr ""
+
+#: inc/patterns/header-media.php:31
+msgid "Make your photos look brilliant"
+msgstr ""
+
+#: inc/patterns/header-media.php:39
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/header-transparent.php:6
+msgid "Header Transparent"
+msgstr ""
+
+#: inc/patterns/hero-content.php:6
+msgid "Hero Content"
+msgstr ""
+
+#: inc/patterns/hero-content.php:25
+msgid "WHO WE ARE"
+msgstr ""
+
+#: inc/patterns/hero-content.php:30
+msgid ""
+"Help Us Protect Our\n"
+"\t\t\t\t\t\t\t\tAnimals"
+msgstr ""
+
+#: inc/patterns/hero-content.php:39
+msgid ""
+"Make your photos look brilliant in today’s article we present tips on how "
+"to use colored\n"
+"\t\t\t\t\t\t\t\tlightning in the scenery. Ghost pipefish yellow bass New "
+"Zealand sand diver eul."
+msgstr ""
+
+#: inc/patterns/hero-content.php:51
+msgid "Poaching Cases"
+msgstr ""
+
+#: inc/patterns/hero-content.php:55
+msgid "850"
+msgstr ""
+
+#: inc/patterns/hero-content.php:64
+msgid "Rescued Animals"
+msgstr ""
+
+#: inc/patterns/hero-content.php:68
+msgid "230"
+msgstr ""
+
+#: inc/patterns/hero-content.php:77
+msgid "Volunteers"
+msgstr ""
+
+#: inc/patterns/hero-content.php:81
+msgid "160"
+msgstr ""
+
+#: inc/patterns/hidden-404-without-title.php:6 inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/hidden-404-without-title.php:9 inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: inc/patterns/post-header-with-img-bg.php:6
+msgid "Post Header with img bg"
+msgstr ""
+
+#: inc/patterns/post-header.php:6
+msgid "Post Header"
+msgstr ""
+
+#: inc/patterns/recent-blog-with-sidebar.php:6
+msgid "Recent Blog With Sidebar"
+msgstr ""
+
+#: inc/patterns/search-header.php:6
+msgid "Search Header"
+msgstr ""
+
+#: inc/patterns/search-header.php:20
+msgid "Search"
+msgstr ""
+
+#: inc/patterns/search-header.php:20
+msgid "Search...."
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/patterns/sidebar.php:12
+msgid "Search A Keyword"
+msgstr ""
+
+#: inc/patterns/sidebar.php:29
+msgid ""
+"Through our best-in-class techniques and bespoke growth plans we assess "
+"digital problems and put in place strategies that lead to commercial "
+"success. This means achieving what matters most to you."
+msgstr ""
+
+#: inc/patterns/sidebar.php:52
+msgid "Instagram"
+msgstr ""
+
+#: inc/patterns/sidebar.php:61
+msgid "Tags"
+msgstr ""
+
+#: inc/patterns/sidebar.php:71
+msgid "Categories"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:6
+msgid "Stats Four Column"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:14
+msgid "Events"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:19
+msgid "Art In Numbers"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:31
+msgid "768"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:35
+msgid "Photographs"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:47
+msgid "47"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:51
+msgid "New Projects"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:63
+msgid "124"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:67
+msgid "Awards"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:79
+msgid "13"
+msgstr ""
+
+#: inc/patterns/stats-four-columns.php:83
+msgid "Lenses"
+msgstr ""

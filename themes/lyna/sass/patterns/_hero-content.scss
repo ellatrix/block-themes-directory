@@ -1,0 +1,16 @@
+.hero-content {
+  .hero-title {
+    h2 {
+      font-size: 150px;
+      font-family: var(--wp--preset--font-family--roboto);
+      display: flex;
+      mark {
+        font-size: 90px;
+        font-family: var(--wp--custom--font-weight--normal);
+      }
+    }
+    h5 {
+      font-family: var(--wp--preset--font-family--roboto);
+    }
+  }
+}

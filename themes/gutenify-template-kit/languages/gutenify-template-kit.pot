@@ -1,0 +1,541 @@
+# Copyright (C) 2022 gutenify-template-kit
+# This file is distributed under the same license as the gutenify-template-kit package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gutenify-template-kit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Gutenify info@gutenify.com\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: gutenify-template-kit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: patterns/cta-1.php:29, patterns/media-text-1.php:28
+msgid "Full Site Editing Theme ( FSE ) With Multiple Kits"
+msgstr ""
+
+#: patterns/cta-1.php:34, patterns/media-text-1.php:32
+msgid "Meet Gutenify Template Kit – Powerful Block theme"
+msgstr ""
+
+#: patterns/cta-1.php:39
+msgid "Change the workflow for your WordPress site, control everything from Site editor without using any extra plugins. Improved speed, web vitals score and SEO to get better positions"
+msgstr ""
+
+#: patterns/cta-1.php:50, patterns/hero-section-1.php:47
+msgid "Get Started"
+msgstr ""
+
+#: patterns/featured-section-1.php:28
+msgid "Meet Our Powerful"
+msgstr ""
+
+#: patterns/featured-section-1.php:32
+msgid "Gutenify Template Kits"
+msgstr ""
+
+#: patterns/featured-section-1.php:36
+msgid ""
+"Change the workflow for your WordPress site, control everything from Site editor\n"
+"                    without using any extra plugins. Improved speed, web vitals score and SEO to get\n"
+"                    better positions"
+msgstr ""
+
+#: patterns/featured-section-1.php:46, patterns/media-text-1.php:45, patterns/services-section-1.php:32
+msgid "More Demo"
+msgstr ""
+
+#: patterns/features-section-1.php:17, patterns/services-section-1.php:55
+msgid "Pre-build Template"
+msgstr ""
+
+#: patterns/features-section-1.php:21, patterns/features-section-1.php:37, patterns/features-section-1.php:53, patterns/features-section-1.php:69
+msgid "Elegant Template Kits compatible with WordPress Full Site Editing to help you create the website you always wanted."
+msgstr ""
+
+#: patterns/features-section-1.php:33, patterns/services-section-1.php:79
+msgid "E-commrece Ready"
+msgstr ""
+
+#: patterns/features-section-1.php:49, patterns/services-section-1.php:103
+msgid "No-coding Required"
+msgstr ""
+
+#: patterns/features-section-1.php:65, patterns/services-section-1.php:127
+msgid "24hr/Support"
+msgstr ""
+
+#: patterns/footer-default.php:19
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:25
+msgid "We create digital experiences for brands and companies by using technology."
+msgstr ""
+
+#: patterns/footer-default.php:45
+msgid "Subscribe Now"
+msgstr ""
+
+#: patterns/footer-default.php:57, patterns/footer-default.php:65
+msgid "Our Mission"
+msgstr ""
+
+#: patterns/footer-default.php:64
+msgid "Start Here"
+msgstr ""
+
+#: patterns/footer-default.php:66
+msgid "Brand Guide"
+msgstr ""
+
+#: patterns/footer-default.php:67
+msgid "Newsletter"
+msgstr ""
+
+#: patterns/footer-default.php:68
+msgid "Blog reviews"
+msgstr ""
+
+#: patterns/footer-default.php:69
+msgid "Contributors"
+msgstr ""
+
+#: patterns/footer-default.php:70
+msgid "Social Media"
+msgstr ""
+
+#: patterns/footer-default.php:85
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:101
+msgid "457 Morningview Lane, NY"
+msgstr ""
+
+#: patterns/footer-default.php:115
+msgid "(+879) 123 3456 7890"
+msgstr ""
+
+#: patterns/footer-default.php:129
+msgid "info@companyname.com"
+msgstr ""
+
+#: patterns/footer-default.php:143
+msgid "Opening Hours: 10:00 18:00"
+msgstr ""
+
+#: patterns/footer-default.php:157
+msgid "Recent Posts"
+msgstr ""
+
+#. translators: WordPress link.
+#: patterns/footer-default.php:178
+msgid "Proudly powered by %s and %s."
+msgstr ""
+
+#: patterns/footer-default.php:179
+msgid "#themes/gutenify-template-kit"
+msgstr ""
+
+#: patterns/footer-default.php:180
+msgid "https://wordpress.org"
+msgstr ""
+
+#: patterns/hero-section-1.php:27
+msgid "Meet Our"
+msgstr ""
+
+#: patterns/hero-section-1.php:32
+msgid ""
+"Powerful Gutenify\n"
+"							Template Kits"
+msgstr ""
+
+#: patterns/hero-section-1.php:37
+msgid ""
+"Change the workflow for your\n"
+"							WordPress site, control everything from Site editor without using any extra plugins.\n"
+"							Improved speed, web vitals score and SEO to get better positions"
+msgstr ""
+
+#: patterns/hidden-404.php:13
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/media-text-1.php:36
+msgid ""
+"Change the workflow for your WordPress site, control everything from Site editor\n"
+"									without using any extra plugins. Improved speed, web vitals score and SEO to get\n"
+"									better positions"
+msgstr ""
+
+#: patterns/services-section-1.php:16
+msgid "OUR SERVICES"
+msgstr ""
+
+#: patterns/services-section-1.php:20
+msgid "Scale your business using our technology"
+msgstr ""
+
+#: patterns/services-section-1.php:59, patterns/services-section-1.php:83, patterns/services-section-1.php:107, patterns/services-section-1.php:131, patterns/services-section-1.php:159, patterns/services-section-1.php:183, patterns/services-section-1.php:207, patterns/services-section-1.php:231
+msgid ""
+"Elegant Template Kits compatible with WordPress\n"
+"                    Full Site Editing to help you create the website you always wanted."
+msgstr ""
+
+#: patterns/services-section-1.php:155
+msgid "One Click Demo"
+msgstr ""
+
+#: patterns/services-section-1.php:179
+msgid "Digital Marketing"
+msgstr ""
+
+#: patterns/services-section-1.php:203
+msgid "Data Analysis"
+msgstr ""
+
+#: patterns/services-section-1.php:227
+msgid "Quality Code"
+msgstr ""
+
+#: patterns/sidebar-1.php:20
+msgid "Archive"
+msgstr ""
+
+#: patterns/sidebar-1.php:34
+msgid "Category"
+msgstr ""
+
+#: patterns/sidebar-1.php:48
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/sidebar-1.php:62
+msgid "Tags"
+msgstr ""
+
+#: patterns/title-section-1.php:12
+msgid "BLOG &amp; NEWS"
+msgstr ""
+
+#: patterns/title-section-1.php:16
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/core/block-patterns.php:20, inc/core/theme-info.php:6
+msgid "Gutenify Template Kit"
+msgstr ""
+
+#: inc/core/theme-info.php:6
+msgid "Gutenify Theme"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Hey, Thank you for installing "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Gutenify Template Kit Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "We recommend installing plugin: "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19, inc/core/templates/admin-plugin-notice.php:20
+msgid "Gutenify"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:20
+msgid "provides multiple site demo and add advance features to your site."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:21
+msgid "Get Site Demo"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:22
+msgid "Learn more about Gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:13
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:21, inc/core/templates/theme-info.php:252, inc/core/templates/theme-info.php:314
+msgid "Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:24, inc/core/templates/theme-info.php:27
+msgid "Import Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:30, inc/core/templates/theme-info.php:102, inc/core/templates/theme-info.php:317
+msgid "https://gutenify.com/pricing"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:31, inc/core/templates/theme-info.php:318
+msgid "Get Gutenify Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:33, inc/core/templates/theme-info.php:320
+msgid "https://gutenify.com/documentations/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:34, inc/core/templates/theme-info.php:322
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:40
+msgid "Gutenify Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid ""
+"Gutenify has pre-built site demos for your site which will give your\n"
+"                                                website a base structure."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:46
+msgid "Learn about site demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:50, inc/core/templates/theme-info.php:55
+msgid "Browse Site Demo"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:62
+msgid "Import Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:63
+msgid ""
+"From Edit screen of page/post, you can easily import Beautiful\n"
+"                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:68
+msgid ""
+"Learn about\n"
+"                                                                Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:72
+msgid "Create page to add pattern"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:79
+msgid "To add fresh block follow below steps"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:82
+msgid ""
+"At the top left corner of the\n"
+"                                                        page/post edit\n"
+"                                                        Screen, click on Sign"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:86
+msgid ""
+"Type Block name in search bar, if\n"
+"                                                        you already know\n"
+"                                                        the block name."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:90
+msgid ""
+"OR Scroll down and navigate to\n"
+"                                                        Gutenify section and\n"
+"                                                        Add New Block."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:100
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:102
+msgid "Checkout all features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:107
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:110
+msgid "Free Gutenify Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:113
+msgid "Gutenify Pro Plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:120
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:127
+msgid "Painless Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:134, inc/core/templates/theme-info.php:261
+msgid "Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:141
+msgid "Premium site demos"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:148
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:155
+msgid "Premium Patterns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:162
+msgid "Multiple Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:169
+msgid "Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info.php:176
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:183
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:190
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:204
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:211
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:218
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:225
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:232
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:245
+msgid "gutenify Core Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:249
+msgid ""
+"Global page settings(typography,\n"
+"                                                        color, ...)"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:254
+msgid "Predefined sections"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:256
+msgid "Fully Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:258
+msgid "Highly customizable row columns"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:263
+msgid "Device specific responsive controls"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:266
+msgid "Google fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:268
+msgid ""
+"Classic &amp; gradient color and\n"
+"                                                        background"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:271
+msgid "Box-shadow"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:273
+msgid "Border"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:275
+msgid "Advanced Typography"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:277
+msgid "Font Awesome 4 icon picker"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:279
+msgid "&amp; More..."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:290
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:292
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:297
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:300
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "We are always ready with all fix issues you stuck to ensure smoothly works with gutenify"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:303
+msgid "https://gutenify.com/contact/"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:304
+msgid "Get Support"
+msgstr ""

@@ -1,0 +1,15 @@
+.event-section {
+  .date-section {
+    font-size: var(--wp--preset--font-size--medium);
+  }
+
+  .wp-block-columns {
+    flex-direction: column;
+
+    .wp-block-column {
+      border-bottom: 1px solid;
+      flex-basis: 100% !important;
+      padding-bottom: 28px;
+    }
+  }
+}

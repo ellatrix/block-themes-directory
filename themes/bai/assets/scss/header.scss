@@ -1,0 +1,210 @@
+.site-header {
+  padding: var(--s-space);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: var(--wp--preset--color--header);
+  font-size: 26px;
+  min-height: 70px;
+  .wp-block-navigation.wp-block-navigation a,
+  a {
+    color: var(--b-title);
+    &:hover,
+    &:focus {
+      color: var(--wp--preset--color--accent);
+    }
+  }
+  nav {
+    margin-left: auto;
+  }
+  @media (min-width: 600px) {
+    padding: 20px 30px;
+    min-height: 90px;
+  }
+  @media (min-width: 992px) {
+    padding: 20px 60px;
+  }
+}
+.site-title {
+  margin: 0;
+  line-height: 1;
+  font-family: var(--s-heading);
+  font-weight: var(--s-heading-weight);
+  letter-spacing: 0.06em;
+  body.home:not(.paged) & {
+    display: none;
+  }
+}
+.site-tagline {
+  display: none;
+  @media (min-width: 1200px) {
+    width: 400px;
+    text-align: right;
+    display: block;
+    position: fixed;
+    top: 35px;
+    left: -139px;
+    height: 80px;
+    margin: 0;
+    font-size: 12px;
+    z-index: 20;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    transform: rotate(-90deg) translateX(-50%);
+  }
+}
+.site-logo {
+  margin-right: 12px;
+  color: var(--b-title);
+  display: flex;
+  @media (min-width: 1200px) {
+    margin-right: 16px;
+  }
+}
+.site-nav {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+@media (max-width: 599px) {
+  .wp-block-navigation__responsive-container {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    z-index: -2;
+    transition: 0.4s;
+    padding: 0 24px;
+    .wp-block-navigation:not(.has-background) &.is-menu-open {
+      background-color: var(--wp--preset--color--header);
+      color: var(--b-title);
+    }
+    &.is-menu-open {
+      opacity: 1;
+    }
+    &-open {
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    &-close {
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    .wp-block-navigation__container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+// INTRO
+.site-intro {
+  background-color: var(--wp--preset--color--header);
+  padding: 0 var(--s-space);
+  text-align: center;
+  body.home.paged & {
+    display: none;
+  }
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.3;
+    margin-bottom: 0;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    animation-name: fadeInUp;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  .wp-block-social-links {
+    justify-content: center;
+    animation-name: fadeInUp;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    .wp-block-social-link {
+      .wp-block-social-link-anchor {
+        color: var(--wp--preset--color--text);
+      }
+    }
+  }
+  .wp-block-image {
+    margin-bottom: 0;
+    line-height: 0;
+    animation-name: fadeIn;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+  @media (min-width: 600px) {
+    text-align: left;
+    padding: 0 30px;
+    margin-top: -20px;
+    .wp-block-social-links {
+      justify-content: unset;
+    }
+  }
+  @media (min-width: 992px) {
+    padding: 0 60px;
+    h1 {
+      font-size: 2.6em;
+    }
+    h2 {
+      font-size: 1.6em;
+    }
+  }
+  @media (min-width: 1100px) {
+    padding: 0 calc(50% - 490px);
+    .wp-block-column {
+      &:first-of-type {
+        padding-bottom: 60px;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    padding: 0 calc(50% - 510px);
+  }
+}
+
+// TITLE
+h1.wp-block-query-title,
+h1.wp-block-post-title {
+  font-size: 2em;
+  letter-spacing: 0.06em;
+}
+h2.sec-title {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.06em;
+}
+
+// MAIN
+main {
+  padding: 0 24px;
+  @media (min-width: 600px) {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+  @media (min-width: 992px) {
+    font-size: 20px;
+  }
+  a {
+    color: var(--wp--preset--color--text);
+    background: linear-gradient(
+        var(--wp--preset--color--text),
+        var(--wp--preset--color--text)
+      )
+      no-repeat left 90%/90% 1px;
+    padding-bottom: 0.3em;
+    &:hover {
+      background-size: 99% 1px;
+    }
+  }
+}

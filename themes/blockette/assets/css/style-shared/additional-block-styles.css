@@ -1,0 +1,89 @@
+/*
+ * Style-shared.css and style-shared.min.css are created from
+ * CSS files in "style-shared" folder using gulp tasks.
+ * Editing style-shared.css and style-shared.min.css are not recommended.
+ */
+
+/* Z indexing elements - add to Block Additional CSS classes */
+.blockette-z-index-zero {
+	z-index: 0;
+	position:relative;
+}
+.blockette-z-index-top {
+	z-index: 5;
+	position:relative;
+}
+
+/******** DECORATIVE SHADOWS, ROUNDED CORNERS, etc ********/
+/* Large shadow - custom style for large text */
+.blockette-txt-shadow-big {
+	text-shadow: 0.07em 0.07em 0 rgba(0,0,0,0.15);
+}
+/* Large shadow for elements */
+.blockette-box-shadow-big {
+	box-shadow: 1vw 1vw 0 rgba(0,0,0,.15)
+}
+/* Spacing for post featured image with shadow */
+.blockette-box-shadow-big.wp-block-post-featured-image {
+	margin-right: 1vw
+}
+
+/* Runded corners for elements */
+.blockette-rounded-corners,
+.wp-block-cover.blockette-rounded-corners .wp-block-cover__image-background,
+.wp-block-cover.blockette-rounded-corners .wp-block-cover__background,
+.wp-block-post-featured-image.blockette-rounded-corners .wp-post-image,
+.wp-block-image.blockette-rounded-corners{
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+/******** Offset elements ********/
+@media ( min-width: 782px ) {
+	.wp-block-image.blockette-offset-left,
+	.wp-block-column.blockette-offset-left,
+	.wp-block-cover.blockette-offset-left {
+		margin-left: -4vw;
+		margin-right: 4vw;
+		z-index: 2;
+	}
+	.wp-block-image.blockette-offset-right,
+	.wp-block-column.blockette-offset-right,
+	.wp-block-cover.blockette-offset-right {
+		margin-right: -4vw;
+		margin-left: 4vw;
+		z-index: 2;
+	}
+	.wp-block-image.blockette-offset-top,
+	.wp-block-column.blockette-offset-top,
+	.wp-block-cover.blockette-offset-top {
+		margin-top: -4vw;
+		margin-bottom: 4vw;
+		z-index: 2;
+	}
+	.wp-block-image.blockette-offset-bottom,
+	.wp-block-column.blockette-offset-bottom,
+	.wp-block-cover.blockette-offset-bottom {
+		margin-top: 4vw;
+		margin-bottom: -4vw;
+		z-index: 2;
+	}
+}
+
+
+/* ============================= */
+/* Tweaks for Gutenberg settings */
+/* ============================= */
+
+/* Set Cover block inner container to 100% width when content position is top center */
+.wp-block-cover-image.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container,
+.wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
+	width: 100%
+}
+
+/* ================================ */
+/* Tweaks for special rare elements */
+/* ================================ */
+mark {
+	background-color: transparent;
+}

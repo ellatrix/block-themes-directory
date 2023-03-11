@@ -1,0 +1,85 @@
+/**
+body がないと
+body .is-layout-constrained > * + * {
+などコアの指定に負ける
+*/
+
+p{
+	&,
+	body :is( .wp-site-blocks, .is-layout-constrained, .is-layout-flow ) + & {
+		// 意図する余白 - この要素の上側のレディング - 上の要素の下側のレディング（要素検出が難しいので同じと仮定）
+		// 意図する余白 - ( line-height - 文字サイズ ) / 2(上下片方だけにする) ) -（上の要素の下側のレディング（同じとして）
+		margin-block-start:calc( var(--wp--custom--spacing--small) - ( ( 1.5rem - 1rem ) / 2 ) -  ( ( 1.5rem - 1rem ) / 2 ) );
+		margin-block-end:calc( var(--wp--custom--spacing--small) - ( ( 1.5rem - 1rem ) / 2 ) -  ( ( 1.5rem - 1rem ) / 2 ) );
+		&:first-child {
+			margin-block-start: 0;
+		}
+		&:last-child {
+			margin-block-end: 0;
+		}
+	}
+}
+:is( h2, h3, h4, h5, h6 ) {
+	&,
+	body :is( .wp-site-blocks, .is-layout-constrained, .is-layout-flow ) > * + &{
+		margin-block-start:1.5em;
+	}
+}
+
+:is( h2, h3, h4, h5, h6 ) + :is( p ) {
+	&,
+	body :is( .wp-site-blocks, .is-layout-constrained, .is-layout-flow ) + & {
+		// 見出しの下の余白は見出しの上側よりも小さめになるように / 通常の p の上側の余白よりは大きくする
+		margin-block-start:1.25em;
+	}
+}
+
+:is( ul,ol,dl ) {
+	margin-block-start: var(--wp--custom--spacing--small);
+	margin-block-end: var(--wp--custom--spacing--small);
+}
+
+body .wp-site-blocks > :is(	
+	header,
+	main,
+	footer,
+	section,
+	article,
+	aside,
+	.wp-block-template-part
+	){
+		margin-block-start: 0;
+		margin-top: 0;
+}
+
+body :is( .wp-site-blocks, .is-layout-constrained, .is-layout-flow ) {
+	// スペーサーブロック / グループ / カバーの 次の要素の上部には margin-top が自動的に 0 になるようにする
+	// Delete margin-top from next element of spacer / group / cover block
+	& > :is( .wp-block-spacer, .vk_spacer, .wp-block-group, .wp-block-cover ) {
+		&,
+		& + * {
+			margin-block-start: 0;
+			margin-top: 0;
+		}
+	}
+	& > * + :is(
+		hr,
+		.wp-block-template-part,
+		.wp-block-post-content,
+		.wp-block-group,
+		.wp-block-cover,
+		.wp-block-navigation,
+		.wp-block-query,
+		.vk_slider,
+		.vk_outer
+	) {
+		margin-block-start: 0;
+		margin-top: 0;
+	}
+	// グループ内の最初の見出しには上部余白がつかないようにする
+	:is( h2, h3, h4, h5, h6 ) {
+		&:first-child {
+			margin-block-start: 0;
+		}
+	}
+}

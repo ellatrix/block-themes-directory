@@ -1,0 +1,18 @@
+.hero-content {
+  h3 {
+    border-bottom: 1px solid;
+    margin-bottom: clamp(21px, 3vw, 35px);
+    margin-top: 14px;
+    padding-bottom: clamp(21px, 3vw, 35px);
+  }
+}
+
+.wp-block-section:not(:nth-of-type(even)):first-child {
+  background-color: transparent;
+  padding-bottom: clamp(25px, 3vw, 45px);
+  padding-top: 0;
+}
+
+.wp-block-section:where(:not(:nth-of-type(even))):first-child {
+  background-color: transparent !important;
+}

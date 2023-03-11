@@ -1,0 +1,1194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: w3csspress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 15:45+0000\n"
+"PO-Revision-Date: 2022-10-31 16:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.0.3\n"
+"X-Domain: w3csspress"
+
+#. border and color
+#: classes/class-w3csspress-constants.php:222
+#, fuzzy, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. arrow
+#. arrow and text
+#: attachment.php:62 template-parts/nav/below.php:19
+#, fuzzy, php-format
+msgid "%s older"
+msgstr "%s staršie"
+
+#: inc/patterns/notfound.php:22
+#, fuzzy
+msgid "404"
+msgstr "404"
+
+#: inc/block-patterns.php:23
+#, fuzzy
+msgid "404 not found"
+msgstr "404 nenájdené"
+
+#: inc/patterns/query.php:43
+#, fuzzy
+msgid "add text or blocks to display when the query returns no results."
+msgstr ""
+"pridať text alebo bloky, ktoré sa zobrazia, keď dotaz nevráti žiadne "
+"výsledky."
+
+#: classes/class-w3csspress-constants.php:36
+#, fuzzy
+msgid "all borders"
+msgstr "všetky hranice"
+
+#: classes/class-w3csspress-constants.php:57
+#, fuzzy
+msgid "amber"
+msgstr "jantár"
+
+#. color of the container
+#: inc/patterns/badge.php:30
+#, fuzzy, php-format
+msgid "badge %s"
+msgstr "odznak %s"
+
+#: inc/block-patterns.php:24
+#, fuzzy
+msgid "badges"
+msgstr "odznaky"
+
+#: inc/patterns/navigation.php:37
+#, fuzzy
+msgid "basic navigation"
+msgstr "základná navigácia"
+
+#: classes/class-w3csspress-constants.php:58
+#, fuzzy
+msgid "black"
+msgstr "čierna"
+
+#: classes/class-w3csspress-constants.php:59
+#, fuzzy
+msgid "blue"
+msgstr "modrá"
+
+#: classes/class-w3csspress-constants.php:60
+#, fuzzy
+msgid "blue grey"
+msgstr "modrá šedá"
+
+#. border and direction
+#: classes/class-w3csspress-constants.php:27
+#, fuzzy, php-format
+msgid "border %s"
+msgstr "hranica %s"
+
+#: inc/images.php:134
+#, fuzzy
+msgid "border images on the page."
+msgstr "okrajové obrázky na stránke."
+
+#: inc/patterns/image.php:58
+#, fuzzy
+msgid "bordered image"
+msgstr "ohraničený obrázok"
+
+#: inc/images.php:133
+#, fuzzy
+msgid "bordered images"
+msgstr "ohraničené obrázky"
+
+#: inc/block-patterns.php:25
+#, fuzzy
+msgid "borders"
+msgstr "hranice"
+
+#: classes/class-w3csspress-constants.php:204
+#, fuzzy
+msgid "bottom"
+msgstr "spodná časť"
+
+#: classes/class-w3csspress-constants.php:61
+#, fuzzy
+msgid "brown"
+msgstr "hnedá"
+
+#. color of the card
+#: inc/patterns/card.php:40
+#, fuzzy, php-format
+msgid "card %s"
+msgstr "karta %s"
+
+#: inc/patterns/image.php:70
+#, fuzzy
+msgid "card image"
+msgstr "obrázok karty"
+
+#: inc/images.php:145
+#, fuzzy
+msgid "card images"
+msgstr "obrázky kariet"
+
+#. color of the card
+#: inc/patterns/card.php:54
+#, fuzzy, php-format
+msgid "card-2 %s"
+msgstr "karta-2 %s"
+
+#. color of the card
+#: inc/patterns/card.php:68
+#, fuzzy, php-format
+msgid "card-4 %s"
+msgstr "karta-4 %s"
+
+#: inc/block-patterns.php:26 inc/patterns/card.php:26
+#, fuzzy
+msgid "cards"
+msgstr "karty"
+
+#: template-parts/entry/footer.php:16
+#, fuzzy
+msgid "categories: "
+msgstr "kategórie"
+
+#. index for headings
+#: inc/colors.php:143
+#, fuzzy, php-format
+msgid "change color of h%s."
+msgstr "zmena farby h%s."
+
+#: inc/fonts.php:192
+#, fuzzy
+msgid "change font family of headings."
+msgstr "zmeniť rodinu písma nadpisov."
+
+#: inc/fonts.php:179 inc/fonts.php:204
+#, fuzzy
+msgid "change font family of website."
+msgstr "zmeniť rodinu písma na webovej stránke."
+
+#: inc/fonts.php:229
+#, fuzzy
+msgid "change font size of div."
+msgstr "zmeniť veľkosť písma div."
+
+#. index for headings
+#: inc/fonts.php:397
+#, fuzzy, php-format
+msgid "change font size of h%s."
+msgstr "zmena veľkosti písma h%s."
+
+#: inc/fonts.php:242
+#, fuzzy
+msgid "change font size of inputs."
+msgstr "zmeniť veľkosť písma vstupov."
+
+#: inc/fonts.php:281
+#, fuzzy
+msgid "change font size of ordered list."
+msgstr "zmeniť veľkosť písma v zozname."
+
+#: inc/fonts.php:216
+#, fuzzy
+msgid "change font size of paragraphs."
+msgstr "zmeniť veľkosť písma odsekov."
+
+#: inc/fonts.php:255
+#, fuzzy
+msgid "change font size of tables."
+msgstr "zmeniť veľkosť písma v tabuľkách."
+
+#: inc/fonts.php:268
+#, fuzzy
+msgid "change font size of unordered list."
+msgstr "zmena veľkosti písma v neusporiadanom zozname."
+
+#: inc/fonts.php:307
+#, fuzzy
+msgid "change font weight of div."
+msgstr "zmeniť váhu písma div."
+
+#. index for headings
+#: inc/fonts.php:418
+#, fuzzy, php-format
+msgid "change font weight of h%s."
+msgstr "zmena váhy písma h%s."
+
+#: inc/fonts.php:320
+#, fuzzy
+msgid "change font weight of inputs."
+msgstr "zmena váhy písma vstupov."
+
+#: inc/fonts.php:359
+#, fuzzy
+msgid "change font weight of ordered list."
+msgstr "zmena váhy písma v usporiadanom zozname."
+
+#: inc/fonts.php:294
+#, fuzzy
+msgid "change font weight of paragraphs."
+msgstr "zmeniť váhu písma odsekov."
+
+#: inc/fonts.php:333
+#, fuzzy
+msgid "change font weight of tables."
+msgstr "zmeniť váhu písma v tabuľkách."
+
+#: inc/fonts.php:346
+#, fuzzy
+msgid "change font weight of unordered list."
+msgstr "zmena váhy písma neusporiadaného zoznamu."
+
+#: inc/colors.php:122
+#, fuzzy
+msgid "change link color"
+msgstr "zmeniť farbu odkazu"
+
+#: inc/colors.php:108
+#, fuzzy
+msgid "change theme text color"
+msgstr "zmena farby textu témy"
+
+#: classes/class-w3csspress-constants.php:190
+#, fuzzy
+msgid "circle"
+msgstr "kruh"
+
+#: inc/images.php:121
+#, fuzzy
+msgid "circle images"
+msgstr "obrázky kruhu"
+
+#: inc/images.php:122
+#, fuzzy
+msgid "circle images on the page."
+msgstr "zakrúžkujte obrázky na stránke."
+
+#: inc/patterns/image.php:46
+#, fuzzy
+msgid "circular image"
+msgstr "kruhový obraz"
+
+#: inc/block-patterns.php:27
+#, fuzzy
+msgid "colors"
+msgstr "farby"
+
+#: comments.php:65
+#, fuzzy
+msgid "comment:"
+msgstr "komentár:"
+
+#: template-parts/entry/footer.php:20
+#, fuzzy
+msgid "comments"
+msgstr "komentáre"
+
+#: comments.php:53
+#, fuzzy
+msgctxt "comments count"
+msgid "Trackback or Pingback"
+msgid_plural "Trackbacks and Pingbacks"
+msgstr[0] "Trackback alebo Pingback"
+msgstr[1] "Spätné odkazy a Pingbacks"
+msgstr[2] ""
+
+#. color of the container
+#: inc/patterns/container.php:40
+#, fuzzy, php-format
+msgid "container %s"
+msgstr "kontajner %s"
+
+#: inc/block-patterns.php:28 inc/patterns/container.php:26
+#, fuzzy
+msgid "containers"
+msgstr "kontajnery"
+
+#: inc/content.php:58
+#, fuzzy
+msgid "content options"
+msgstr "možnosti obsahu"
+
+#: classes/class-w3csspress-constants.php:156
+#, fuzzy
+msgid "cursive"
+msgstr "kurzíva"
+
+#: inc/content.php:59
+#, fuzzy
+msgid "customize content options here."
+msgstr "prispôsobiť možnosti obsahu tu."
+
+#: inc/fonts.php:32
+#, fuzzy
+msgid "customize fonts options here."
+msgstr "prispôsobiť možnosti písma tu."
+
+#: inc/images.php:28
+#, fuzzy
+msgid "customize images options here."
+msgstr "prispôsobiť možnosti obrázkov tu."
+
+#: inc/layout.php:32
+#, fuzzy
+msgid "customize layout options here."
+msgstr "prispôsobiť možnosti rozloženia tu."
+
+#: inc/speed.php:28
+#, fuzzy
+msgid "customize speed options here."
+msgstr "prispôsobiť možnosti rýchlosti tu."
+
+#: classes/class-w3csspress-constants.php:62
+#, fuzzy
+msgid "cyan"
+msgstr "cyan"
+
+#: classes/class-w3csspress-constants.php:93
+#: classes/class-w3csspress-constants.php:94
+#: classes/class-w3csspress-constants.php:95
+#: classes/class-w3csspress-constants.php:96
+#: classes/class-w3csspress-constants.php:97
+#, fuzzy
+msgid "dark"
+msgstr "tmavé"
+
+#: classes/class-w3csspress-constants.php:63
+#, fuzzy
+msgid "dark grey"
+msgstr "tmavosivá"
+
+#: classes/class-w3csspress-constants.php:64
+#, fuzzy
+msgid "deep orange"
+msgstr "tmavo oranžová"
+
+#: classes/class-w3csspress-constants.php:65
+#, fuzzy
+msgid "deep purple"
+msgstr "tmavo fialová"
+
+#: classes/class-w3csspress-constants.php:55
+#: classes/class-w3csspress-constants.php:98
+#: classes/class-w3csspress-constants.php:115
+#: classes/class-w3csspress-constants.php:135
+#: classes/class-w3csspress-constants.php:152
+#: classes/class-w3csspress-constants.php:168
+#: classes/class-w3csspress-constants.php:184
+#, fuzzy
+msgid "default"
+msgstr "predvolené nastavenie"
+
+#: inc/speed.php:93
+#, fuzzy
+msgid "disable jQuery"
+msgstr "zakázať jQuery"
+
+#: inc/speed.php:94
+#, fuzzy
+msgid "disable or enable jQuery (do only if you know what you are doing)."
+msgstr ""
+"vypnúť alebo povoliť jQuery (urobte to len vtedy, ak viete, čo robíte)."
+
+#: inc/speed.php:141
+#, fuzzy
+msgid "enable block styles"
+msgstr "povoliť štýly blokov"
+
+#: inc/speed.php:142
+#, fuzzy
+msgid "enable block styles."
+msgstr "povoliť štýly blokov."
+
+#: inc/speed.php:105
+#, fuzzy
+msgid "enable Dashicons"
+msgstr "povoliť ikony Dashicons"
+
+#: inc/speed.php:106
+#, fuzzy
+msgid "enable Dashicons on the frontend."
+msgstr "povoliť Dashicons vo frontende."
+
+#: inc/speed.php:153
+#, fuzzy
+msgid "enable full site editor"
+msgstr "povoliť úplný editor stránok"
+
+#: inc/speed.php:117
+#, fuzzy
+msgid "enable Gutenberg for posts"
+msgstr "povoliť Gutenberg pre príspevky"
+
+#: inc/speed.php:129
+#, fuzzy
+msgid "enable Gutenberg for widgets"
+msgstr "povoliť Gutenberg pre widgety"
+
+#: inc/speed.php:118
+#, fuzzy
+msgid "enable Gutenberg to edit posts."
+msgstr "povoliť Gutenberg na úpravu príspevkov."
+
+#: inc/speed.php:130
+#, fuzzy
+msgid "enable Gutenberg to edit widgets."
+msgstr "umožniť Gutenbergu upravovať widgety."
+
+#: inc/speed.php:154
+#, fuzzy
+msgid "enable the full site editor."
+msgstr "zapnúť úplný editor stránok."
+
+#: inc/fonts.php:31
+#, fuzzy
+msgid "fonts options"
+msgstr "možnosti písiem"
+
+#: functions.php:364
+#, fuzzy
+msgid "foot widgets sidebar"
+msgstr "widgety na päte bočný panel"
+
+#: inc/patterns/footer.php:28
+#, fuzzy
+msgid "footer"
+msgstr "pätička"
+
+#: inc/content.php:79
+#, fuzzy
+msgid "footer content"
+msgstr "obsah päty"
+
+#: inc/block-patterns.php:29
+#, fuzzy
+msgid "footers"
+msgstr "päty"
+
+#: classes/class-w3csspress-constants.php:172
+#, fuzzy
+msgid "four columns"
+msgstr "štyri stĺpce"
+
+#. Name of the template
+#, fuzzy
+msgid "Full-Width"
+msgstr "Celá šírka"
+
+#: inc/images.php:169
+#, fuzzy
+msgid "grayscale images"
+msgstr "obrázky v odtieňoch sivej"
+
+#: classes/class-w3csspress-constants.php:66
+#, fuzzy
+msgid "green"
+msgstr "zelená"
+
+#: classes/class-w3csspress-constants.php:67
+#, fuzzy
+msgid "grey"
+msgstr "šedá"
+
+#: inc/patterns/image.php:94
+#, fuzzy
+msgid "greyscale image"
+msgstr "obrázok v odtieňoch sivej"
+
+#: inc/layout.php:96
+#, fuzzy
+msgid "grid layout setting"
+msgstr "nastavenie rozloženia mriežky"
+
+#. index for headings
+#: inc/colors.php:138
+#, fuzzy, php-format
+msgid "h%s color"
+msgstr "h%s farba"
+
+#: functions.php:355
+#, fuzzy
+msgid "head widgets sidebar"
+msgstr "hlava widgety bočný panel"
+
+#: inc/patterns/header.php:21
+#, fuzzy
+msgid "header"
+msgstr "záhlavie"
+
+#: inc/images.php:193
+#, fuzzy
+msgid "header thumbnail"
+msgstr "miniatúra záhlavia"
+
+#: inc/block-patterns.php:30
+#, fuzzy
+msgid "headers"
+msgstr "hlavičky"
+
+#: inc/patterns/header.php:51
+#, fuzzy
+msgid "homepage header"
+msgstr "hlavička domovskej stránky"
+
+#: inc/block-patterns.php:31
+#, fuzzy
+msgid "hover"
+msgstr "hover"
+
+#. hover border and color
+#: classes/class-w3csspress-constants.php:244
+#, fuzzy, php-format
+msgid "hover %1$s %2$s"
+msgstr "hover %1$s %2$s"
+
+#. Author URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori"
+msgstr "https://github.com/matteomarchiori"
+
+#. URI of the theme
+#, fuzzy
+msgid "https://github.com/matteomarchiori/w3csspress"
+msgstr "https://github.com/matteomarchiori/w3csspress"
+
+#: inc/patterns/image.php:22
+#, fuzzy
+msgid "image"
+msgstr "obrázok"
+
+#: inc/block-patterns.php:32
+#, fuzzy
+msgid "images"
+msgstr "obrázky"
+
+#: inc/images.php:27
+#, fuzzy
+msgid "images options"
+msgstr "možnosti obrázkov"
+
+#: inc/images.php:146
+#, fuzzy
+msgid "images with card effect."
+msgstr "obrázky s efektom karty."
+
+#: inc/images.php:170
+#, fuzzy
+msgid "images with grayscale effect."
+msgstr "obrázky s efektom odtieňov sivej."
+
+#: inc/images.php:158
+#, fuzzy
+msgid "images with opacity effect."
+msgstr "obrázky s efektom nepriehľadnosti."
+
+#: inc/images.php:182
+#, fuzzy
+msgid "images with sepia effect."
+msgstr "obrázky so sépiovým efektom."
+
+#: classes/class-w3csspress-constants.php:68
+#, fuzzy
+msgid "indigo"
+msgstr "indigo"
+
+#: classes/class-w3csspress-constants.php:123
+#, fuzzy
+msgid "jumbo"
+msgstr "jumbo"
+
+#: classes/class-w3csspress-constants.php:69
+#, fuzzy
+msgid "khaki"
+msgstr "khaki"
+
+#: classes/class-w3csspress-constants.php:119
+#, fuzzy
+msgid "large"
+msgstr "veľké"
+
+#: inc/layout.php:31
+#, fuzzy
+msgid "layout options"
+msgstr "možnosti rozloženia"
+
+#: classes/class-w3csspress-constants.php:205
+#, fuzzy
+msgid "left"
+msgstr "vľavo"
+
+#: inc/patterns/sidebar.php:26
+#, fuzzy
+msgid "left sidebar"
+msgstr "ľavý bočný panel"
+
+#: classes/class-w3csspress-constants.php:99
+#: classes/class-w3csspress-constants.php:100
+#: classes/class-w3csspress-constants.php:101
+#: classes/class-w3csspress-constants.php:102
+#: classes/class-w3csspress-constants.php:103
+#, fuzzy
+msgid "light"
+msgstr "svetlo"
+
+#: classes/class-w3csspress-constants.php:70
+#, fuzzy
+msgid "light blue"
+msgstr "svetlomodrá"
+
+#: classes/class-w3csspress-constants.php:71
+#, fuzzy
+msgid "light green"
+msgstr "svetlozelená"
+
+#: classes/class-w3csspress-constants.php:72
+#, fuzzy
+msgid "lime"
+msgstr "vápno"
+
+#: inc/colors.php:121
+#, fuzzy
+msgid "link color"
+msgstr "farba odkazu"
+
+#: functions.php:90
+#, fuzzy
+msgid "main menu"
+msgstr "hlavné menu"
+
+#. Author of the theme
+#, fuzzy
+msgid "matteomarchiori97"
+msgstr "matteomarchiori97"
+
+#: classes/class-w3csspress-constants.php:118
+#, fuzzy
+msgid "medium"
+msgstr "stredná"
+
+#: functions.php:147
+#, fuzzy
+msgid "menu"
+msgstr "menu"
+
+#: classes/class-w3csspress-constants.php:155
+#, fuzzy
+msgid "monospace"
+msgstr "monospace"
+
+#: inc/block-patterns.php:33
+#, fuzzy
+msgid "navigation"
+msgstr "navigácia"
+
+#. arrow
+#. arrow and text
+#: attachment.php:75 template-parts/nav/below.php:24
+#, fuzzy, php-format
+msgid "newer %s"
+msgstr "novšie %s"
+
+#: 404.php:19
+#, fuzzy
+msgid "Not Found"
+msgstr "Nenájdené"
+
+#: inc/patterns/notfound.php:25
+#, fuzzy
+msgid "not found"
+msgstr "nenájdené"
+
+#: search.php:62
+#, fuzzy
+msgid "Nothing Found"
+msgstr "Nič sa nenašlo"
+
+#: 404.php:22
+#, fuzzy
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr ""
+"Pre požadovanú stránku sa nič nenašlo. Skúsite namiesto toho vyhľadávať?"
+
+#: inc/patterns/notfound.php:29
+#, fuzzy
+msgid "nothing found for the requested page. Try a search instead?"
+msgstr ""
+"pre požadovanú stránku sa nič nenašlo. Skúsite namiesto toho vyhľadávať?"
+
+#: classes/class-w3csspress-constants.php:169
+#, fuzzy
+msgid "one column"
+msgstr "jeden stĺpec"
+
+#: inc/images.php:157
+#, fuzzy
+msgid "opacity images"
+msgstr "nepriehľadnosť obrázkov"
+
+#: inc/patterns/image.php:82
+#, fuzzy
+msgid "opaque image"
+msgstr "nepriehľadný obraz"
+
+#: classes/class-w3csspress-constants.php:73
+#, fuzzy
+msgid "orange"
+msgstr "oranžová"
+
+#: inc/patterns/panel.php:26
+#, fuzzy
+msgid "panel"
+msgstr "panel"
+
+#. color of the panel
+#: inc/patterns/panel.php:40
+#, fuzzy, php-format
+msgid "panel %s"
+msgstr "panel %s"
+
+#: inc/block-patterns.php:34
+#, fuzzy
+msgid "panels"
+msgstr "panely"
+
+#: classes/class-w3csspress-constants.php:74
+#, fuzzy
+msgid "pink"
+msgstr "ružová"
+
+#: inc/images.php:205
+#, fuzzy
+msgid "post thumbnail"
+msgstr "miniatúra príspevku"
+
+#: inc/images.php:194
+#, fuzzy
+msgid "posts get the thumbnail as header image if they have one."
+msgstr "príspevky dostanú miniatúru ako obrázok záhlavia, ak ho majú."
+
+#: inc/images.php:206
+#, fuzzy
+msgid "posts show the thumbnail if they have."
+msgstr "príspevky zobrazujú miniatúru, ak ju majú."
+
+#: functions.php:337
+#, fuzzy
+msgid "primary sidebar"
+msgstr "primárny bočný panel"
+
+#: classes/class-w3csspress-constants.php:75
+#, fuzzy
+msgid "purple"
+msgstr "fialová"
+
+#: inc/block-patterns.php:35
+#, fuzzy
+msgid "query"
+msgstr "dotaz"
+
+#: inc/patterns/query.php:22
+#, fuzzy
+msgid "query loop"
+msgstr "slučka dotazu"
+
+#: inc/patterns/query.php:33
+#, fuzzy
+msgid "read all"
+msgstr "prečítajte si všetko"
+
+#: classes/class-w3csspress-constants.php:76
+#, fuzzy
+msgid "red"
+msgstr "červená"
+
+#: classes/class-w3csspress-constants.php:203
+#, fuzzy
+msgid "right"
+msgstr "vpravo"
+
+#: inc/patterns/sidebar.php:36
+#, fuzzy
+msgid "right sidebar"
+msgstr "pravý bočný panel"
+
+#: inc/images.php:110
+#, fuzzy
+msgid "round images on the page."
+msgstr "okrúhle obrázky na stránke."
+
+#: classes/class-w3csspress-constants.php:187
+#, fuzzy
+msgid "round large"
+msgstr "okrúhly veľký"
+
+#: classes/class-w3csspress-constants.php:186
+#, fuzzy
+msgid "round medium"
+msgstr "okrúhly stredný"
+
+#: classes/class-w3csspress-constants.php:185
+#, fuzzy
+msgid "round small"
+msgstr "okrúhle malé"
+
+#: classes/class-w3csspress-constants.php:188
+#, fuzzy
+msgid "round xlarge"
+msgstr "okrúhly xlarge"
+
+#: classes/class-w3csspress-constants.php:189
+#, fuzzy
+msgid "round xxlarge"
+msgstr "okrúhly xxlarge"
+
+#: inc/patterns/image.php:34
+#, fuzzy
+msgid "rounded image"
+msgstr "zaoblený obrázok"
+
+#: inc/images.php:109
+#, fuzzy
+msgid "rounded images"
+msgstr "zaoblené obrázky"
+
+#: classes/class-w3csspress-constants.php:154
+#, fuzzy
+msgid "sans serif"
+msgstr "sans serif"
+
+#: inc/block-patterns.php:36 inc/patterns/search.php:25
+#: inc/patterns/search.php:25
+#, fuzzy
+msgid "search"
+msgstr "vyhľadávanie"
+
+#: inc/patterns/search.php:22
+#, fuzzy
+msgid "search bar"
+msgstr "vyhľadávací panel"
+
+#. search text completed with query text
+#: search.php:38
+#, fuzzy, php-format
+msgid "search results for: %s"
+msgstr "výsledky vyhľadávania pre: %s"
+
+#: functions.php:346
+#, fuzzy
+msgid "secondary sidebar"
+msgstr "sekundárny bočný panel"
+
+#: inc/colors.php:79
+#, fuzzy
+msgid "select color theme"
+msgstr "vybrať farebnú tému"
+
+#: inc/fonts.php:228
+#, fuzzy
+msgid "select div font size"
+msgstr "vybrať veľkosť písma div"
+
+#: inc/fonts.php:306
+#, fuzzy
+msgid "select div font weight"
+msgstr "vybrať váhu písma div"
+
+#: inc/fonts.php:178
+#, fuzzy
+msgid "select font family"
+msgstr "vybrať rodinu písma"
+
+#. index for headings
+#: inc/fonts.php:392
+#, fuzzy, php-format
+msgid "select h%s font size"
+msgstr "vybrať h%s veľkosť písma"
+
+#. index for headings
+#: inc/fonts.php:413
+#, fuzzy, php-format
+msgid "select h%s font weight"
+msgstr "vybrať h%s hmotnosť písma"
+
+#: inc/fonts.php:241
+#, fuzzy
+msgid "select input font size"
+msgstr "vybrať veľkosť vstupného písma"
+
+#: inc/fonts.php:319
+#, fuzzy
+msgid "select input font weight"
+msgstr "vybrať váhu vstupného písma"
+
+#: inc/layout.php:70
+#, fuzzy
+msgid "select layout"
+msgstr "vybrať rozloženie"
+
+#: inc/fonts.php:280
+#, fuzzy
+msgid "select ordered list font size"
+msgstr "vybrať veľkosť písma v zozname"
+
+#: inc/fonts.php:358
+#, fuzzy
+msgid "select ordered list font weight"
+msgstr "vybrať objednaný zoznam váha písma"
+
+#: inc/fonts.php:215
+#, fuzzy
+msgid "select paragraphs font size"
+msgstr "vyberte veľkosť písma odsekov"
+
+#: inc/fonts.php:293
+#, fuzzy
+msgid "select paragraphs font weight"
+msgstr "vyberte váhu písma odsekov"
+
+#: inc/layout.php:83
+#, fuzzy
+msgid "select rounded style"
+msgstr "vyberte zaoblený štýl"
+
+#: inc/fonts.php:254
+#, fuzzy
+msgid "select table font size"
+msgstr "vybrať veľkosť písma tabuľky"
+
+#: inc/fonts.php:332
+#, fuzzy
+msgid "select table font weight"
+msgstr "vybrať váhu písma tabuľky"
+
+#: inc/colors.php:92
+#, fuzzy
+msgid "select theme kind"
+msgstr "vybrať druh témy"
+
+#: inc/fonts.php:267
+#, fuzzy
+msgid "select unordered list font size"
+msgstr "vybrať veľkosť písma neusporiadaného zoznamu"
+
+#: inc/fonts.php:345
+#, fuzzy
+msgid "select unordered list font weight"
+msgstr "vybrať neusporiadaný zoznam váha písma"
+
+#: inc/patterns/image.php:106
+#, fuzzy
+msgid "sepia image"
+msgstr "sépiový obrázok"
+
+#: inc/images.php:181
+#, fuzzy
+msgid "sepia images"
+msgstr "sépiové obrázky"
+
+#: classes/class-w3csspress-constants.php:153
+#, fuzzy
+msgid "serif"
+msgstr "serif"
+
+#: inc/content.php:80
+#, fuzzy
+msgid "set footer content."
+msgstr "nastaviť obsah päty."
+
+#: functions.php:338
+#, fuzzy
+msgid "sidebar on the left."
+msgstr "bočný panel na ľavej strane."
+
+#: functions.php:347
+#, fuzzy
+msgid "sidebar on the right."
+msgstr "bočný panel vpravo."
+
+#: inc/block-patterns.php:37
+#, fuzzy
+msgid "sidebars"
+msgstr "bočné panely"
+
+#: inc/content.php:20
+#, fuzzy
+msgid "skip to the content"
+msgstr "prejsť na obsah"
+
+#: classes/class-w3csspress-constants.php:117
+#, fuzzy
+msgid "small"
+msgstr "malé"
+
+#: search.php:65
+#, fuzzy
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr ""
+"Je nám ľúto, ale nič nezodpovedá vášmu vyhľadávaniu. Skúste to prosím znova."
+
+#: inc/speed.php:27
+#, fuzzy
+msgid "speed options"
+msgstr "možnosti rýchlosti"
+
+#: classes/class-w3csspress-constants.php:77
+#, fuzzy
+msgid "teal"
+msgstr "teal"
+
+#: inc/colors.php:107
+#, fuzzy
+msgid "text theme color"
+msgstr "farba témy textu"
+
+#: inc/patterns/query.php:44
+#, fuzzy
+msgid "the query did not return any results."
+msgstr "dotaz nevrátil žiadne výsledky."
+
+#. thick border and direction
+#: classes/class-w3csspress-constants.php:32
+#, fuzzy, php-format
+msgid "thick border %s"
+msgstr "hrubý okraj %s"
+
+#: classes/class-w3csspress-constants.php:171
+#, fuzzy
+msgid "three columns"
+msgstr "tri stĺpce"
+
+#: classes/class-w3csspress-constants.php:116
+#, fuzzy
+msgid "tiny"
+msgstr "malý"
+
+#: classes/class-w3csspress-constants.php:202
+#, fuzzy
+msgid "top"
+msgstr "top"
+
+#: classes/class-w3csspress-constants.php:170
+#, fuzzy
+msgid "two columns"
+msgstr "dva stĺpce"
+
+#. Description of the theme
+#, fuzzy
+msgid ""
+"Universal theme with classic mode and blocks mode made to integrate the "
+"W3CSS framework inside WordPress, with global custom options and all of the "
+"W3CSS framework functionalities. The theme has been developed starting from "
+"resources on the w3schools website applied to the blankslate WordPress theme,"
+" slightly modified. The theme is accessibility ready and it is highly "
+"customizable. Please add issues on GitHub or contact me if you are "
+"interested in more options."
+msgstr ""
+"Univerzálna téma s klasickým režimom a režimom blokov vytvorená na "
+"integráciu rámca W3CSS do WordPress, s globálnymi vlastnými možnosťami a "
+"všetkými funkciami rámca W3CSS. Téma bola vyvinutá na základe zdrojov na "
+"webovej lokalite w3schools aplikovaných na tému WordPress blankslate, mierne "
+"upravených. Téma je pripravená na prístupnosť a je vysoko prispôsobiteľná. "
+"Prosím, pridajte problémy na GitHub alebo ma kontaktujte, ak máte záujem o "
+"ďalšie možnosti."
+
+#: inc/fonts.php:203
+#, fuzzy
+msgid "use Google font"
+msgstr "používať písmo Google"
+
+#: inc/fonts.php:191
+#, fuzzy
+msgid "use Google font for headings"
+msgstr "používať písmo Google pre nadpisy"
+
+#: inc/layout.php:84
+#, fuzzy
+msgid ""
+"using this option you can change some elements roundness (images have more "
+"controls)."
+msgstr ""
+"pomocou tejto možnosti môžete zmeniť zaoblenie niektorých prvkov (obrázky "
+"majú viac ovládacích prvkov)."
+
+#: inc/layout.php:71
+#, fuzzy
+msgid "using this option you can change the page layout."
+msgstr "pomocou tejto možnosti môžete zmeniť rozloženie stránky."
+
+#: inc/colors.php:93
+#, fuzzy
+msgid ""
+"using this option you can change the theme between default, light and dark."
+msgstr ""
+"pomocou tejto možnosti môžete zmeniť tému medzi predvolenou, svetlou a "
+"tmavou."
+
+#: inc/colors.php:80
+#, fuzzy
+msgid "using this option you can change the theme colors."
+msgstr "pomocou tejto možnosti môžete zmeniť farby motívu."
+
+#: inc/layout.php:97
+#, fuzzy
+msgid "using this option you can enable or disable the grid layout."
+msgstr "pomocou tejto možnosti môžete zapnúť alebo vypnúť rozloženie mriežky."
+
+#. Name of the theme
+#, fuzzy
+msgid "W3CSSPress"
+msgstr "W3CSSPress"
+
+#: classes/class-w3csspress-constants.php:56
+#, fuzzy
+msgid "w3schools"
+msgstr "w3schools"
+
+#: classes/class-w3csspress-constants.php:138
+#, fuzzy
+msgid "weight"
+msgstr "hmotnosť"
+
+#: functions.php:365
+#, fuzzy
+msgid "widgets area on the foot of the website."
+msgstr "oblasť widgetov v päte webovej stránky."
+
+#: functions.php:356
+#, fuzzy
+msgid "widgets area on the head of the website."
+msgstr "oblasť widgetov v záhlaví webovej stránky."
+
+#: classes/class-w3csspress-constants.php:120
+#, fuzzy
+msgid "XL"
+msgstr "XL"
+
+#: classes/class-w3csspress-constants.php:121
+#, fuzzy
+msgid "XXL"
+msgstr "XXL"
+
+#: classes/class-w3csspress-constants.php:122
+#, fuzzy
+msgid "XXXL"
+msgstr "XXXL"
+
+#: footer.php:27 inc/patterns/footer.php:22
+#, fuzzy
+msgid "Y"
+msgstr "Y"
+
+#: classes/class-w3csspress-constants.php:78
+#, fuzzy
+msgid "yellow"
+msgstr "žltá"

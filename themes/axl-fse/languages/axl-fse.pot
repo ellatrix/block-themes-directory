@@ -1,0 +1,501 @@
+# Copyright (C) 2022 axl-fse
+# This file is distributed under the same license as the axl-fse package.
+msgid ""
+msgstr ""
+"Project-Id-Version: axl-fse\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Olive Themes info@olivethemes.com\n"
+"POT-Creation-Date: 2022-12-15 11:25+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: patterns/error-404.php:13, patterns/error-404.php:13
+msgid "4"
+msgstr ""
+
+#: patterns/error-404.php:13
+msgid "0"
+msgstr ""
+
+#: patterns/error-404.php:20
+msgid "This page could not be found. Maybe try a search? "
+msgstr ""
+
+#: patterns/footer-default.php:14, patterns/primary-sidebar.php:18
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:20
+msgid "Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua tepo the."
+msgstr ""
+
+#: patterns/footer-default.php:28
+msgid "Departments"
+msgstr ""
+
+#: patterns/footer-default.php:36
+msgid ""
+msgstr ""
+
+#: patterns/footer-default.php:36, patterns/footer-default.php:60
+msgid "Home"
+msgstr ""
+
+#: patterns/footer-default.php:40, patterns/footer-default.php:64
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-default.php:44, patterns/footer-default.php:68
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:48, patterns/footer-default.php:72
+msgid "FAQ"
+msgstr ""
+
+#: patterns/footer-default.php:52, patterns/footer-default.php:76
+msgid "Templates"
+msgstr ""
+
+#: patterns/footer-default.php:86
+msgid "Latest Feed"
+msgstr ""
+
+#: patterns/footer-default.php:98
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:104
+msgid "example@mail.com"
+msgstr ""
+
+#: patterns/footer-default.php:108
+msgid "+1 234 567 890"
+msgstr ""
+
+#: patterns/footer-default.php:112
+msgid "457 Morningview Lane, NY"
+msgstr ""
+
+#: patterns/footer-default.php:122
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer-default.php:122
+msgid "https://olivethemes.com/"
+msgstr ""
+
+#: patterns/footer-default.php:122
+msgid "Olive Themes"
+msgstr ""
+
+#: patterns/footer-default.php:122
+msgid "and"
+msgstr ""
+
+#: patterns/footer-default.php:122
+msgid "https://wordpress.org"
+msgstr ""
+
+#: patterns/footer-default.php:122
+msgid "WordPress"
+msgstr ""
+
+#: patterns/hero-content.php:35
+msgid "Since 1998"
+msgstr ""
+
+#: patterns/hero-content.php:55
+msgid "ABOUT US"
+msgstr ""
+
+#: patterns/hero-content.php:60
+msgid "WE ARE TRUSTED BY MORE THAN&nbsp;"
+msgstr ""
+
+#: patterns/hero-content.php:60
+msgid "6,800 CLIENTS."
+msgstr ""
+
+#: patterns/hero-content.php:64
+msgid "He nicked it fantastic well on your bike mate have it a I bum bag I twit easy peasy that, chimney pot amongst are you taking the piss daft show off show off pick"
+msgstr ""
+
+#: patterns/hero-content.php:76
+msgid "PLEASANT CONSULTING"
+msgstr ""
+
+#: patterns/hero-content.php:80, patterns/hero-content.php:98
+msgid "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum."
+msgstr ""
+
+#: patterns/hero-content.php:94
+msgid "TRUSTED SERVICES"
+msgstr ""
+
+#: patterns/hero-content.php:105
+msgid "Learn More"
+msgstr ""
+
+#: patterns/latest-news.php:14
+msgid "Featured Content"
+msgstr ""
+
+#: patterns/latest-news.php:19, patterns/services.php:20
+msgid "Creative Solutions"
+msgstr ""
+
+#: patterns/latest-news.php:49
+msgid "Explore More"
+msgstr ""
+
+#: patterns/main-banner.php:13
+msgid "Out Standing Design"
+msgstr ""
+
+#: patterns/main-banner.php:18
+msgid "The Freedom To"
+msgstr ""
+
+#: patterns/main-banner.php:22
+msgid "Create & Explore"
+msgstr ""
+
+#: patterns/main-banner.php:27
+msgid "We create unique and efficient digital solutions."
+msgstr ""
+
+#: patterns/main-banner.php:35
+msgid "Discover Now"
+msgstr ""
+
+#: patterns/main-banner.php:52
+msgid "https://www.youtube.com/"
+msgstr ""
+
+#: patterns/main-banner.php:59
+msgid "Get A Quote"
+msgstr ""
+
+#: patterns/portfolio.php:14
+msgid "Our Case Studies"
+msgstr ""
+
+#: patterns/portfolio.php:20
+msgid "Modern Case Studies"
+msgstr ""
+
+#: patterns/portfolio.php:33, patterns/portfolio.php:89
+msgid "IT Company"
+msgstr ""
+
+#: patterns/portfolio.php:38
+msgid "Theme Design"
+msgstr ""
+
+#: patterns/portfolio.php:51, patterns/portfolio.php:107
+msgid "Software"
+msgstr ""
+
+#: patterns/portfolio.php:56
+msgid "Website"
+msgstr ""
+
+#: patterns/portfolio.php:69, patterns/portfolio.php:125
+msgid "Business Strategy"
+msgstr ""
+
+#: patterns/portfolio.php:74
+msgid "HTML/CSS"
+msgstr ""
+
+#: patterns/portfolio.php:94
+msgid "Copy Writing"
+msgstr ""
+
+#: patterns/portfolio.php:112
+msgid "eCommerce"
+msgstr ""
+
+#: patterns/portfolio.php:130
+msgid "Data Analyst"
+msgstr ""
+
+#: patterns/primary-sidebar.php:28
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac lorem pretium, laoreet enim at, malesuada elit."
+msgstr ""
+
+#: patterns/primary-sidebar.php:33
+msgid "Know More"
+msgstr ""
+
+#: patterns/primary-sidebar.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:54
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:66
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:80
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:92
+msgid "Social Links"
+msgstr ""
+
+#: patterns/promotinal-video.php:13
+msgid "Promotional Video"
+msgstr ""
+
+#: patterns/promotinal-video.php:17
+msgid "The Best Solutions"
+msgstr ""
+
+#: patterns/search-cover.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/services.php:24, patterns/services.php:50, patterns/services.php:76, patterns/services.php:104, patterns/services.php:130, patterns/services.php:156
+msgid "Build a beautiful, modern website with flexible components and modular pages built from scratch."
+msgstr ""
+
+#: patterns/services.php:29, patterns/services.php:55, patterns/services.php:81, patterns/services.php:109, patterns/services.php:135, patterns/services.php:161
+msgid "More Details"
+msgstr ""
+
+#: patterns/services.php:46
+msgid "Financial Strategy"
+msgstr ""
+
+#: patterns/services.php:72
+msgid "Marketing Strategy"
+msgstr ""
+
+#: patterns/services.php:100
+msgid "Keyword Research"
+msgstr ""
+
+#: patterns/services.php:126
+msgid "Web Development"
+msgstr ""
+
+#: patterns/services.php:152
+msgid "Restructuring"
+msgstr ""
+
+#: patterns/team.php:14
+msgid "Our Experts Team"
+msgstr ""
+
+#: patterns/team.php:19
+msgid "The Management Team"
+msgstr ""
+
+#: patterns/team.php:36
+msgid "Startups"
+msgstr ""
+
+#: patterns/team.php:40
+msgid "Chief Marketing Officer"
+msgstr ""
+
+#: patterns/team.php:64
+msgid "Justin Hammer"
+msgstr ""
+
+#: patterns/team.php:68
+msgid "Founder/ CEO"
+msgstr ""
+
+#: patterns/team.php:92
+msgid "Ashley Hardy"
+msgstr ""
+
+#: patterns/team.php:96
+msgid "VP Sales and Marketing"
+msgstr ""
+
+#: patterns/team.php:120
+msgid "Clark Roberts"
+msgstr ""
+
+#: patterns/team.php:124
+msgid "Chief Finance Officer"
+msgstr ""
+
+#: inc/core/pattern-category.php:20
+msgid "Axl Fse"
+msgstr ""
+
+#: inc/core/theme-info.php:6, inc/core/theme-info.php:6
+msgid "Axl Fse Theme"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:15
+msgid "Howdy, "
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Welcome to"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:16
+msgid "Axl Fse Theme!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:17
+msgid "Explore beautiful hand-crafted site templates and setup your site in few clicks."
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:18
+msgid "Explore Now!"
+msgstr ""
+
+#: inc/core/templates/admin-plugin-notice.php:19
+msgid "Learn more about Axl Pro Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:19
+msgid "Multipurpose WordPress Full Site Editing Theme"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:34, inc/core/templates/theme-info.php:307
+msgid "Documentations"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:41
+msgid "Download Advanced Site Templates for Free!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Install"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "Olive One Click Demo Import"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:42
+msgid "and access to all the Olive Demo templates. This plugin will help you download site template in few clicks."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:59
+msgid "Note: Clicking the button will both install and activate Olive One Click Demo Import plugin"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:69
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:82
+msgid "Free"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:85
+msgid "Features"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:88
+msgid "Axl Pro"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:98
+msgid "Easy Setup"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:109
+msgid "Responsive"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:120
+msgid "Advance Color Options"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:131
+msgid "Multiple Block Layout"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:142
+msgid "100+ Fonts"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:153
+msgid "Advance Slider Block "
+msgstr ""
+
+#: inc/core/templates/theme-info.php:164
+msgid "Post Listing Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:175
+msgid "WooCommerce Filter Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:186
+msgid "Gallery Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:197
+msgid "Star Rating Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:208
+msgid "Icon Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:219
+msgid "Post Carousel Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:230
+msgid "Google Map Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:241
+msgid "Testimonials Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:252
+msgid "Team Block"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:272
+msgid "Love our product?"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:275
+msgid ""
+"Motivate us by\n"
+"                                                giving 5 star on\n"
+"                                                our profile."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:281
+msgid "Rate Us"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:286
+msgid ""
+"Still have question?\n"
+"                                                Ask Us, now!"
+msgstr ""
+
+#: inc/core/templates/theme-info.php:290
+msgid "Don't hesitate to ask any questions you have regarding our products."
+msgstr ""
+
+#: inc/core/templates/theme-info.php:294
+msgid "Get Support"
+msgstr ""

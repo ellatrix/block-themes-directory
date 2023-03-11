@@ -1,0 +1,170 @@
+/* --- Block CTA
+-------------------------------------------------------- */
+
+.wp-block-cta .wp-block-button__link {
+    margin-top: 0;
+    background-color: var(--wp--preset--color--body-text);
+
+    &:hover,
+    &:focus {
+        background-color: var(--wp--preset--color--picton-blue);
+    }
+}
+
+.wp-block-cta-with-video .wp-block-group-heading,
+.wp-block-cta-just-video .wp-block-group-heading,
+.wp-block-cta .wp-block-group-heading {
+    border-top: 0;
+    padding-top: 0;
+}
+
+/* --- Block CTA With Video
+-------------------------------------------------------- */
+
+.wp-block-cta-with-video .content .video-play svg,
+.wp-block-cta-just-video .content .video-play svg,
+.wp-block-featured-video .content > .video-play svg,
+.wp-block-featured-video .wp-block-section-content .wp-block-post-meta svg.icon {
+    display: none;
+}
+
+.wp-block-cta-with-video .content {
+    margin-top: 3em;
+    padding-bottom: 26px;
+}
+
+.wp-block-cta-with-video .content .video-play:before,
+.wp-block-cta-with-video .content .video-play:after,
+.wp-block-cta-just-video .content .video-play:before,
+.wp-block-cta-just-video .content .video-play:after {
+    content: "";
+    border: 1px solid var(--wp--preset--color--background);
+    position: absolute;
+    border-radius: 50%;
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+}
+
+.wp-block-cta-with-video .content .video-play,
+.wp-block-cta-just-video .content .video-play,
+.wp-block-featured-video .content .video-play {
+    background: var(--wp--preset--color--background);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    text-indent: -9999px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.wp-block-featured-video .content .video-play {
+    background: var(--wp--preset--color--background);
+    z-index: 1;
+    span {
+        border-left-color: var(--wp--preset--color--foreground);
+    }
+
+    &:hover,
+    &:focus {
+        background-color: var(--wp--preset--color--picton-blue);
+
+        span {
+            border-left-color: var(--wp--preset--color--background);
+        }
+    }
+}
+
+.wp-block-cta-with-video .content .video-play:hover,
+.wp-block-cta-just-video .content .video-play:hover {
+    background: var(--wp--preset--color--picton-blue);
+}
+
+.wp-block-cta-with-video .content .video-play:hover span,
+.wp-block-cta-just-video .content .video-play:hover span {
+    border-left-color: var(--wp--preset--color--background);
+}
+
+.wp-block-cta-with-video .content .video-play span,
+.wp-block-cta-just-video .content .video-play span,
+.wp-block-featured-video .content .video-play span {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid var(--wp--preset--color--color-dark);
+    border-bottom: 15px solid transparent;
+    margin-top: 0;
+    text-indent: -9999px;
+    padding: 0;
+}
+
+.wp-block-featured-video .content .video-play span {
+    border-left: 20px solid var(--wp--preset--color--dune);
+}
+
+.wp-block-cta-with-video .content .video-play:before,
+.wp-block-cta-just-video .content .video-play:before {
+    border: 1px solid transparent;
+}
+
+.wp-block-cta-with-video .content .video-play:before,
+.wp-block-cta-with-video .content .video-play:after,
+.wp-block-cta-just-video .content .video-play:before,
+.wp-block-cta-just-video .content .video-play:after {
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.wp-block-cta-with-video .content .video-play:hover::before,
+.wp-block-cta-with-video .content .video-play:focus::before,
+.wp-block-cta-with-video .content .video-play:hover::after,
+.wp-block-cta-with-video .content .video-play:focus::after,
+.wp-block-cta-just-video .content .video-play:hover::before,
+.wp-block-cta-just-video .content .video-play:focus::before,
+.wp-block-cta-just-video .content .video-play:hover::after,
+.wp-block-cta-just-video .content .video-play:focus::after {
+    border-radius: 100%;
+    border-color: var(--wp--preset--color--picton-blue);
+}
+
+
+
+
+/* For Wp Custom Block - Popup Video Overlay Issues */
+
+.wp-block-cta-with-video.wp-block-cover .wp-block-cover__inner-container,
+.wp-block-cta-just-video.wp-block-cover .wp-block-cover__inner-container,
+.wp-block-featured-video .wp-block-video-cover.wp-block-cover .wp-block-cover__inner-container {
+    z-index: inherit;
+}
+
+.wp-block-cta-with-video .wp-block-group-heading,
+.wp-block-cta-just-video .wp-block-group-heading {
+    position: relative;
+    z-index: 2;
+}
+
+.wp-block-cta-with-video .wp-block-fse-pro-popup-video .content,
+.wp-block-cta-just-video .wp-block-fse-pro-popup-video .content {
+    position: relative;
+}
+
+.wp-block-featured-video .wp-block-cover-image,
+.wp-block-featured-video .wp-block-cover {
+	min-height: 198px;
+}
+
+.wp-block-featured-video {
+    .wp-block-section-content {
+        margin-top: 21px;
+        h2 {
+            font-weight: var(--wp--custom--typography--font-weight--normal);
+        }
+
+        .wp-block-post-meta {
+            margin-top: 14px;
+        }
+    }
+}

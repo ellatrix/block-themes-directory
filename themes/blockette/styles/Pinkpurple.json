@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [ 
+				{
+					"slug": "background",
+					"color": "#28212b",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#FCE2DB",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#f9a5dc",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#823772",
+					"name": "Secondary"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [ "#28212b","#f9a5dc" ],
+					"slug": "background-primary",
+					"name": "Background and primary"
+				},
+				{
+					"colors": [ "#28212b","#823772" ],
+					"slug": "background-secondary",
+					"name": "Background and secondary"
+				},
+				{
+					"colors": [ "#f9a5dc","#FCE2DB" ],
+					"slug": "primary-foreground",
+					"name": "Primary and foreground"
+				},
+				{
+					"colors": [ "#823772","#FCE2DB" ],
+					"slug": "secondary-foreground",
+					"name": "Secondary and foreground"
+				},
+				{
+					"colors": [ "#28212b","#FCE2DB" ],
+					"slug": "background-foreground",
+					"name": "Background and foreground"
+				},
+				{
+					"colors": [ "#823772","#f9a5dc" ],
+					"slug": "secondary-primary",
+					"name": "Secondary and primary"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontWeight": "300"
+		}
+	}
+}

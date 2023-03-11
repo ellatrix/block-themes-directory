@@ -1,0 +1,81 @@
+/* --- Team
+-------------------------------------------------------- */
+
+.wp-team-detail {
+  .wp-team-name {
+    font-size: (--wp--preset--font-size--normal);
+    line-height: 1.75;
+  }
+  .wp-team-designation {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.62;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-block-start: 7px;
+  }
+}
+.team-section .swiper-horizontal > .swiper-pagination-bullets,
+.team-section .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0;
+  position: relative;
+  margin-top: 35px;
+}
+
+.team-section .fse-slider-wrapper {
+  margin-top: -84px;
+  padding-top: 85px;
+}
+.team-section .fse-slider-wrapper .swiper-button {
+  left: auto;
+  right: 70px;
+  top: 0;
+  transform: none;
+  margin: 0;
+}
+
+.team-section .fse-slider-wrapper .swiper-button-next {
+  right: 0;
+}
+.team-section .fse-slider-wrapper .swiper-button {
+  background: transparent;
+  border: 1px solid;
+  cursor: pointer;
+  font-weight: var(--wp--custom--typography--font-weight--bold);
+  line-height: var(--wp--custom--typography--line-height--paragraph);
+  border-radius: 0;
+  width: 56px;
+  height: 56px;
+  transition: all 0.5s ease;
+  padding: 0;
+  overflow: hidden;
+}
+.team-section .fse-slider-wrapper .swiper-button-prev:after,
+.team-section .fse-slider-wrapper .swiper-button-next:after {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+.team-section .swiper-button.swiper-button-prev::before {
+  left: 100%;
+  transform: translate(100%, 0) rotate(0deg);
+  transition: 0.4s ease-out;
+}
+.team-section .swiper-button.swiper-button-prev:hover::before {
+  left: 0%;
+  transform: translate(0%, 0) rotate(0deg);
+}
+.team-section .swiper-button.swiper-button-prev:hover,
+.team-section .fse-slider-wrapper .swiper-button:hover {
+  transform: scale(1.12);
+  will-change: transform;
+  border: 1px solid transparent;
+}
+
+.team-section .wp-block-group-heading {
+  position: relative;
+  z-index: 2;
+}
+.team-section .navigation-wrap {
+  display: none;
+}

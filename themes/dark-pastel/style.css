@@ -1,0 +1,191 @@
+/*
+Theme Name: Dark Pastel
+Theme URI: https://github.com/andrewserong/dark-pastel-theme
+Author: Andrew Serong
+Author URI: https://andyserong.com
+Description: A simple blogging theme inspired by dark pastel colours and old style books. Includes nine separator block styles for a decorative touch.
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dark-pastel
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, blog, translation-ready
+
+Dark Pastel WordPress Theme, (C) 2022 Andrew Serong.
+Dark Pastel is distributed under the terms of the GNU GPL.
+
+Dark pastel incorporates code from Twenty Twenty-Two WordPress Theme.
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+:root .wp-block-file__button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.wp-block-post-date.has-medium-font-size time {
+	white-space: nowrap;
+}
+
+.wp-block-post-date a,
+.wp-block-site-title a,
+.wp-block-post-title a {
+	text-decoration: none;
+}
+
+.wp-block-post-date a:hover,
+.wp-block-site-title a:hover,
+.wp-block-post-title a:hover,
+.wp-block-post-date a:focus,
+.wp-block-site-title a:focus,
+.wp-block-post-title a:focus {
+	opacity: 0.8;
+}
+
+.blocks-gallery-caption {
+	color: inherit;
+}
+
+.wp-block-image figcaption {
+	color: inherit;
+}
+
+/*
+ * Dark Pastel block styles.
+ */
+
+.wp-block-separator.is-style-star-ornament {
+	width: 92px !important;
+	height: 60px !important;
+	max-width: min(100%, 50vw) !important;
+	-webkit-mask-image: url(./assets/images/separator-ornament-star.svg);
+	mask-image: url(./assets/images/separator-ornament-star.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-double-ornament {
+	width: 332px !important;
+	height: 35px !important;
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-image: url(./assets/images/separator-ornament-double.svg);
+	mask-image: url(./assets/images/separator-ornament-double.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-double-ornament-inverted {
+	width: 332px !important;
+	height: 35px !important;
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-image: url(./assets/images/separator-ornament-double-inverted.svg);
+	mask-image: url(./assets/images/separator-ornament-double-inverted.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-ornament-left {
+	width: 166px !important;
+	height: 35px !important;
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-image: url(./assets/images/separator-ornament-left.svg);
+	mask-image: url(./assets/images/separator-ornament-left.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-ornament-right {
+	width: 166px !important;
+	height: 35px !important;
+	max-width: min(100%, 75vw) !important;
+	-webkit-mask-image: url(./assets/images/separator-ornament-right.svg);
+	mask-image: url(./assets/images/separator-ornament-right.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-narrow-ornament {
+	width: 100px !important;
+	height: 38px !important;
+	max-width: 100% !important;
+	-webkit-mask-image: url(./assets/images/separator-ornament-narrow.svg);
+	mask-image: url(./assets/images/separator-ornament-narrow.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.wp-block-separator.is-style-cutout-circle-up {
+	width: 282px !important;
+	height: 50px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	max-width: min(50%, 50vw) !important;
+	-webkit-mask-image: url(./assets/images/cutout-circle-up.svg);
+	mask-image: url(./assets/images/cutout-circle-up.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: top;
+	mask-position: top;
+	position: relative;
+	top: -1px;
+}
+
+.wp-block-separator.is-style-cutout-circle-down {
+	width: 282px !important;
+	height: 50px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	max-width: min(50%, 50vw) !important;
+	-webkit-mask-image: url(./assets/images/cutout-circle-down.svg);
+	mask-image: url(./assets/images/cutout-circle-down.svg);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: bottom;
+	mask-position: bottom;
+	position: relative;
+	bottom: -1px;
+}
+
+.wp-block-separator.is-style-diamond {
+	width: 25px !important;
+	height: 25px !important;
+	border: none !important;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+:where( .wp-block-separator.is-style-star-ornament ),
+:where( .wp-block-separator.is-style-double-ornament ),
+:where( .wp-block-separator.is-style-double-ornament-inverted ),
+:where( .wp-block-separator.is-style-ornament-left ),
+:where( .wp-block-separator.is-style-ornament-right ),
+:where( .wp-block-separator.is-style-narrow-ornament ),
+:where( .wp-block-separator.is-style-cutout-circle-up ),
+:where( .wp-block-separator.is-style-cutout-circle-down ),
+:where( .wp-block-separator.is-style-diamond ) {
+	background: currentColor;
+}

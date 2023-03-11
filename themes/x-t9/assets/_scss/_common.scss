@@ -1,0 +1,79 @@
+/* Reset Browser User agent margin */
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+html {
+	// 360px : 14px -> 1200px : 16px
+	font-size: clamp(14px, calc((100vw - 360px) * (2 / (1200 - 360)) + 14px), 16px);
+
+}
+
+body {
+	font-weight: 500;
+	line-height: var(--wp--custom--typography--line-height--normal);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25em;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+figure {
+	max-width: 100%;
+	margin: 0;
+}
+
+main {
+
+	ul,
+	ol {
+		padding-left: 1.5em;
+	}
+
+	input,
+	textarea,
+	select {
+		padding: 0.5em;
+		border: 1px solid var(--wp--preset--color--border-normal);
+	}
+}
+
+hr {
+	margin:0;
+}
+
+textarea {
+	width: 100%;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+// お問い合わせフォームなど手打ちした場合用
+table,
+.wp-block-table table {
+	border-collapse: collapse;
+	width: 100%;
+
+	&,
+	th,
+	td {
+		border: 1px solid var(--wp--preset--color--border-normal);
+		padding: 0.5em 0.8em;
+	}
+}

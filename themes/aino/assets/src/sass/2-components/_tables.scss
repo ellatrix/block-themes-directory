@@ -1,0 +1,38 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background: transparent;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	@include s-r-6(margin-bottom);
+}
+
+thead th {
+	border-bottom: 1px solid var(--global--color--border);
+	margin-top: 0;
+	@include s-r-4(padding-bottom);
+	padding-top: 0;
+}
+
+th {
+	@include s-r-8(padding);
+	text-align: left;
+
+	@include breakpoint(sm) {
+		@include s-r-6(padding);
+	}
+}
+
+tr {
+	border-bottom: 1px solid var(--global--color--border);
+}
+
+table tr:last-of-type {
+	border-bottom: none;
+}
+
+td {
+	@include s-r-6(padding);
+	border-right: 0;
+}

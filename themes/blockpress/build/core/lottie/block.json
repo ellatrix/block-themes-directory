@@ -1,0 +1,9 @@
+{
+	"name": "blockpress/lottie",
+	"apiVersion": 2,
+	"title" : "Lottie smart loader",
+	"category":"Blockpress",
+	"editorStyle": "blockpress_global",
+	"editorScript": "blockpress-editor-js",
+	"textdomain": "blockpress"
+}

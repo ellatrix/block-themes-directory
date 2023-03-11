@@ -1,0 +1,40 @@
+/*
+Theme Name: BlockMag
+Theme URI: https://catchthemes.com/themes/blockmag
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: BlockMag is a free magazine WordPress block theme for full site editing. This theme is fully responsive, intuitive, and visually appealing. It is a beautifully designed theme perfect for building magazines and news websites. This block-based theme comes with an array of powerful customization options. The theme includes an eye-catchy light color scheme that looks more appealing. With the help of an intuitive drag-and-drop interface, you can easily customize your site. The theme includes simple and easy-to-use block patterns. There are 19+ block patterns, 11 Templates, and 8 Templates Parts available in this theme to help you build the magazine site the way you want. Some of the block patterns are 404 Header, Ad Full Width After Header, CTA, Cover News, Featured News, Footer Three Columns, Header With Buttons, Header With Logo Center, Recent Blog With Sidebar, Search Header, Post Header Without BG, Logo With No Title, and many more. All the block patterns, Templates, and Templates Parts are fully responsive adapt to all screen sizes, are highly customizable, and have fast loading. Download BlockMag today and start building an amazing magazine website!
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blockmag
+Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+BlockMag is based on Twenty Twenty-Two WordPress Theme, 2021-2022 WordPress.org.
+BlockMag is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

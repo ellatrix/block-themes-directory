@@ -1,0 +1,20 @@
+/* --- Block About Us
+-------------------------------------------------------- */
+
+
+/* --- Block About Us With Stats
+-------------------------------------------------------- */
+
+.about-stat-heading {
+    font-size: var(--wp--custom--typography--font-size--heading-one);
+    line-height: 1.13;
+}
+
+.wp-bloock-about-us-with-stats .wp-block-column > * + * {
+    margin-block-start: 14px;
+}
+
+.wp-bloock-about-us-with-stats {
+   // background-image: linear-gradient(to bottom left, #2B0F07, #030101);
+    background-image: linear-gradient(to bottom left, var(--wp--preset--color--root-beer), var(--wp--preset--color--rich-black));
+}

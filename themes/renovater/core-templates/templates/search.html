@@ -1,0 +1,35 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:pattern {"slug":"renovater/core-search-title"} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","bottom":"0px"}}},"layout":{"inherit":false,"contentSize":"1290px"}} -->
+<div class="wp-block-group" style="padding-top:80px;padding-bottom:0px"><!-- wp:search {"label":"Search","showLabel":false,"width":100,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true,"align":"center","style":{"border":{"width":"1px"}},"backgroundColor":"renovater-accent","textColor":"renovater-body-text"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"layout":{"wideSize":"1140px","contentSize":"1290px"}} -->
+<main class="wp-block-group" style="padding-top:100px;padding-bottom:100px"><!-- wp:query {"queryId":24,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"startupzy-animate startupzy-move-up startupzy-delay-5"} -->
+<!-- wp:post-featured-image {"isLink":true,"align":"wide","style":{"spacing":{"margin":{"bottom":"20px"}}}} /-->
+
+<!-- wp:post-date {"style":{"typography":{"fontSize":"14px"}},"textColor":"renovater-body-text"} /-->
+
+<!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"typography":{"fontStyle":"normal","fontWeight":"500","fontSize":"22px","lineHeight":"1.7"}},"textColor":"renovater-primary"} /-->
+
+<!-- wp:post-excerpt {"moreText":"Read More","style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|renovater-accent"}}}},"textColor":"renovater-body-text"} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|renovater-accent"}}}},"textColor":"renovater-primary","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->

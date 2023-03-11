@@ -1,0 +1,33 @@
+.wp-block-quote {
+	border-left: 1px solid;
+    margin: 0 0 1.75em;
+    padding-left: 1em;
+
+	&.is-style-solid-color .has-text-color a {
+		text-decoration: underline;
+		box-shadow: none;
+	}
+
+	cite {
+		@include s-r-6(padding-top);
+		text-align: left;
+		color: currentColor;
+	}
+
+	&.is-style-plain {
+		padding-left: 0;
+	}
+
+
+	&.has-text-align-left cite {
+		text-align: left;
+	}
+
+	&.has-text-align-right cite {
+		text-align: right;
+	}
+
+	&.has-text-align-center cite {
+		text-align: center;
+	}
+}

@@ -1,0 +1,501 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Astory\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-26 11:41+0000\n"
+"PO-Revision-Date: 2022-05-26 11:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: astory"
+
+#: patterns/footer-mega.php:40
+msgid "About Us"
+msgstr "À Propos De Nous"
+
+#: patterns/footer-mega.php:48
+msgid "Accessibility"
+msgstr "L'accessibilité"
+
+#. Description of the theme
+msgid "An block theme, lightweight and easy to use."
+msgstr "Un bloc de thème, léger et facile à utiliser."
+
+#. Name of the theme
+#: inc/block-styles.php:63
+msgid "Astory"
+msgstr "Astory"
+
+#: inc/block-styles.php:80
+msgid "Astory Call To Action"
+msgstr "Astory Appel À L'Action"
+
+#: inc/block-styles.php:88
+msgid "Astory Clients"
+msgstr "Astory Clients"
+
+#: inc/block-styles.php:68
+msgid "Astory Footer"
+msgstr "Astory Pied De Page"
+
+#: inc/block-styles.php:72
+msgid "Astory General"
+msgstr "Astory Général"
+
+#: inc/block-styles.php:100
+msgid "Astory Header"
+msgstr "Astory En-Tête"
+
+#: inc/block-styles.php:76
+msgid "Astory Hero"
+msgstr "Astory Héros"
+
+#: inc/block-styles.php:104
+msgid "Astory Page"
+msgstr "Astory Page"
+
+#: inc/theme-page.php:74
+msgid "Astory plugin"
+msgstr "Astory plugin"
+
+#: inc/theme-page.php:75
+msgid ""
+"Astory plugin is installed and activated. Start using Pro Features Now!!!"
+msgstr ""
+"Astory plugin est installé et activé. Démarrer à l'aide de Fonctionnalités "
+"de la version Pro Maintenant!!!"
+
+#: inc/block-styles.php:92
+msgid "Astory Price"
+msgstr "Astory Prix"
+
+#: inc/block-styles.php:108
+msgid "Astory Query"
+msgstr "Astory Requête"
+
+#: inc/block-styles.php:96
+msgid "Astory Team Member"
+msgstr "Astory Membre De L'Équipe"
+
+#: inc/block-styles.php:84
+msgid "Astory Testimonials"
+msgstr "Astory Témoignages"
+
+#: inc/block-styles.php:15 inc/block-styles.php:20 inc/block-styles.php:23
+#: inc/block-styles.php:30
+msgid "Box Shadow"
+msgstr "Zone D'Ombre"
+
+#: inc/block-styles.php:16
+msgid "Box Shadow Solid"
+msgstr "Zone D'Ombre Solide"
+
+#: patterns/footer-mega.php:46
+msgid "Brand Guide"
+msgstr "Marque Guide"
+
+#: inc/theme-page.php:68
+msgid "Buy Astory Pro"
+msgstr "Acheter Astory Pro"
+
+#. Author of the theme
+msgid "codeclove"
+msgstr "codeclove"
+
+#: patterns/footer-mega.php:72
+msgid "Connect"
+msgstr "Connecter"
+
+#: patterns/footer-three-columns.php:18
+msgid "Contact Us"
+msgstr "Contactez-Nous"
+
+#: patterns/footer-mega.php:62
+msgid "Copywriting"
+msgstr "La rédaction"
+
+#: patterns/general-pricing-four-columns.php:19
+msgid "Create a four-column table"
+msgstr "Créer un quatre-colonne de la table"
+
+#: patterns/general-pricing-three-columns.php:19
+msgid "Create a three-column table"
+msgstr "Créer un tableau à trois colonnes"
+
+#: patterns/general-pricing-two-columns.php:19
+msgid "Create a two-column table"
+msgstr "Créer un tableau à deux colonnes"
+
+#: patterns/footer-mega.php:61
+msgid "Development"
+msgstr "Développement"
+
+#: patterns/footer-mega.php:80
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: patterns/general-pricing-four-columns.php:132
+#: patterns/general-pricing-three-columns.php:132
+msgid "Enterprise"
+msgstr "L'entreprise"
+
+#: patterns/footer-mega.php:76
+msgid "Facebook"
+msgstr "Facebook"
+
+#: patterns/general-pricing-four-columns.php:35
+#: patterns/general-pricing-four-columns.php:41
+#: patterns/general-pricing-four-columns.php:47
+#: patterns/general-pricing-four-columns.php:53
+#: patterns/general-pricing-four-columns.php:59
+#: patterns/general-pricing-four-columns.php:87
+#: patterns/general-pricing-four-columns.php:93
+#: patterns/general-pricing-four-columns.php:99
+#: patterns/general-pricing-four-columns.php:105
+#: patterns/general-pricing-four-columns.php:111
+#: patterns/general-pricing-four-columns.php:139
+#: patterns/general-pricing-four-columns.php:145
+#: patterns/general-pricing-four-columns.php:151
+#: patterns/general-pricing-four-columns.php:157
+#: patterns/general-pricing-four-columns.php:163
+#: patterns/general-pricing-four-columns.php:191
+#: patterns/general-pricing-four-columns.php:197
+#: patterns/general-pricing-four-columns.php:203
+#: patterns/general-pricing-four-columns.php:209
+#: patterns/general-pricing-four-columns.php:215
+#: patterns/general-pricing-three-columns.php:35
+#: patterns/general-pricing-three-columns.php:41
+#: patterns/general-pricing-three-columns.php:47
+#: patterns/general-pricing-three-columns.php:53
+#: patterns/general-pricing-three-columns.php:59
+#: patterns/general-pricing-three-columns.php:87
+#: patterns/general-pricing-three-columns.php:93
+#: patterns/general-pricing-three-columns.php:99
+#: patterns/general-pricing-three-columns.php:105
+#: patterns/general-pricing-three-columns.php:111
+#: patterns/general-pricing-three-columns.php:139
+#: patterns/general-pricing-three-columns.php:145
+#: patterns/general-pricing-three-columns.php:151
+#: patterns/general-pricing-three-columns.php:157
+#: patterns/general-pricing-three-columns.php:163
+#: patterns/general-pricing-two-columns.php:35
+#: patterns/general-pricing-two-columns.php:41
+#: patterns/general-pricing-two-columns.php:47
+#: patterns/general-pricing-two-columns.php:53
+#: patterns/general-pricing-two-columns.php:59
+#: patterns/general-pricing-two-columns.php:87
+#: patterns/general-pricing-two-columns.php:93
+#: patterns/general-pricing-two-columns.php:99
+#: patterns/general-pricing-two-columns.php:105
+#: patterns/general-pricing-two-columns.php:111
+msgid "Feature Item"
+msgstr "Fonction De L'Élément De"
+
+#: inc/block-styles.php:33
+msgid "Fill"
+msgstr "Remplir"
+
+#: inc/block-styles.php:11 inc/block-styles.php:34
+msgid "Fill Base"
+msgstr "Remplissage De La Base De"
+
+#: inc/theme-page.php:49
+msgid "Free Full Site Editing WordPress Theme"
+msgstr "Complet Gratuit Site De Montage Thème WordPress"
+
+#: inc/block-styles.php:17
+msgid "Full-height"
+msgstr "Pleine hauteur"
+
+#: inc/upgrade-button/class-customize.php:74
+msgid "Get Astory PRO"
+msgstr "Obtenir Astory PRO"
+
+#: patterns/general-cta-stacked.php:23
+msgid "Get in Touch"
+msgstr "Entrer en Contact"
+
+#: patterns/general-cta-buttons.php:29
+msgid "Get Started"
+msgstr "Obtenir Commencé"
+
+#: inc/theme-page.php:57
+msgid "Getting Started"
+msgstr "Prise En Main"
+
+#: inc/theme-page.php:58
+msgid ""
+"Great! Astory has been installed and activated successfully. Now, you can "
+"start building your your website with a Astory theme customizable block "
+"patterns, templates, and template parts."
+msgstr ""
+"Super! Astory a été installé et activé avec succès. Maintenant, vous pouvez "
+"commencer à construire votre site web avec un Astory thème personnalisable "
+"bloc de modèles, des modèles, et le modèle de pièces."
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://codeclove.com/"
+msgstr ""
+
+#: patterns/footer-mega.php:77
+msgid "Instagram"
+msgstr "Instagram"
+
+#: patterns/footer-mega.php:26 patterns/general-boxes-three.php:28
+#: patterns/general-boxes-three.php:45 patterns/general-boxes-three.php:62
+#: patterns/general-boxes-two.php:28 patterns/general-boxes-two.php:45
+#: patterns/general-cta-buttons.php:32
+msgid "Learn More"
+msgstr "En Savoir Plus"
+
+#: inc/theme-page.php:95
+msgid "Leave us a review"
+msgstr "Laissez-nous un examen"
+
+#: patterns/general-cta-stacked.php:15
+msgid "Let’s Connect"
+msgstr "Let's Connect"
+
+#: patterns/general-cta-button.php:29
+msgid "Let’s Get Started"
+msgstr "Let's Get Started"
+
+#: patterns/footer-mega.php:79
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/theme-page.php:96
+msgid ""
+"Loved Astory? Feel free to leave your feedback. Your opinion helps us reach "
+"more audiences!"
+msgstr ""
+"Aimé Astory? N'hésitez pas à laisser vos commentaires. Votre avis nous aide "
+"à atteindre plus de publics!"
+
+#: patterns/footer-mega.php:63
+msgid "Marketing"
+msgstr "Marketing"
+
+#: patterns/general-team-four-columns.php:32
+#: patterns/general-team-four-columns.php:48
+#: patterns/general-team-four-columns.php:64
+#: patterns/general-team-four-columns.php:80
+#: patterns/general-team-two-columns.php:44
+#: patterns/general-team-two-columns.php:65
+#: patterns/general-team-two-columns.php:86
+#: patterns/general-team-two-columns.php:111
+#: patterns/general-team-two-columns.php:132
+#: patterns/general-team-two-columns.php:153
+msgid "Member Name"
+msgstr "Nom De Membre"
+
+#: inc/theme-page.php:66
+msgid "More Features with Astory Pro"
+msgstr "Plus de Fonctionnalités avec Astory Pro"
+
+#: patterns/footer-mega.php:47
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: inc/block-styles.php:27
+msgid "No Disc"
+msgstr "Pas De Disque"
+
+#: patterns/hidden-404.php:10
+msgid "Not found, error 404"
+msgstr "Pas trouvé, erreur 404"
+
+#: patterns/hidden-404.php:13
+msgid ""
+"Oops, the page you are looking for does not exist or is no longer available. "
+"Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+"Oups, la page que vous recherchez n'existe pas ou n'est plus disponible. "
+"Tout est toujours impressionnante. Utilisez simplement le formulaire de "
+"recherche pour trouver votre chemin."
+
+#: patterns/footer-mega.php:17
+msgid "Our Company"
+msgstr "Notre Société"
+
+#: patterns/footer-mega.php:45
+msgid "Our Mission"
+msgstr "Notre Mission"
+
+#: patterns/general-team-four-columns.php:16
+#: patterns/general-team-two-columns.php:18
+msgid "Our Team"
+msgstr "Notre Équipe"
+
+#: inc/block-styles.php:35
+msgid "Outline"
+msgstr "Contour"
+
+#: inc/block-styles.php:12 inc/block-styles.php:36
+msgid "Outline Base"
+msgstr "Le Contour De La Base De"
+
+#: patterns/general-pricing-four-columns.php:28
+#: patterns/general-pricing-three-columns.php:28
+#: patterns/general-pricing-two-columns.php:28
+msgid "Personal"
+msgstr "Personnels"
+
+#: patterns/general-pricing-four-columns.php:16
+#: patterns/general-pricing-three-columns.php:16
+#: patterns/general-pricing-two-columns.php:16
+msgid "Pricing Table"
+msgstr "Le Tableau Des Tarifs"
+
+#: functions.php:32
+msgid "Primary"
+msgstr "Primaire"
+
+#: patterns/footer-three-columns.php:18
+msgid "Privacy Policy"
+msgstr "Politique De Confidentialité"
+
+#: patterns/general-pricing-four-columns.php:80
+#: patterns/general-pricing-three-columns.php:80
+#: patterns/general-pricing-two-columns.php:80
+msgid "Professional"
+msgstr "Professionnel"
+
+#: patterns/general-team-two-columns.php:47
+#: patterns/general-team-two-columns.php:68
+#: patterns/general-team-two-columns.php:89
+#: patterns/general-team-two-columns.php:114
+#: patterns/general-team-two-columns.php:135
+#: patterns/general-team-two-columns.php:156
+msgid "Read more"
+msgstr "Lire plus"
+
+#: inc/theme-page.php:97
+msgid "Review"
+msgstr "Examen"
+
+#: inc/block-styles.php:24
+msgid "Rounded Corner with Box Shadow"
+msgstr "Coins arrondis avec Zone d'Ombre"
+
+#: patterns/general-boxes-three.php:20 patterns/general-boxes-three.php:37
+#: patterns/general-boxes-three.php:54 patterns/general-boxes-two.php:20
+#: patterns/general-boxes-two.php:37 patterns/general-portfolio.php:20
+msgid "Sample Heading"
+msgstr "Exemple De Rubrique"
+
+#: patterns/general-portfolio.php:35 patterns/general-portfolio.php:38
+#: patterns/general-portfolio.php:41 patterns/general-portfolio.php:44
+#: patterns/general-team-four-columns.php:29
+#: patterns/general-team-four-columns.php:45
+#: patterns/general-team-four-columns.php:61
+#: patterns/general-team-four-columns.php:77
+#: patterns/general-team-two-columns.php:37
+#: patterns/general-team-two-columns.php:58
+#: patterns/general-team-two-columns.php:79
+#: patterns/general-team-two-columns.php:104
+#: patterns/general-team-two-columns.php:125
+#: patterns/general-team-two-columns.php:146
+msgid "Sample Image"
+msgstr "Exemple D'Image"
+
+#: patterns/footer-mega.php:56
+msgid "Services"
+msgstr "Services"
+
+#: patterns/general-pricing-four-columns.php:67
+#: patterns/general-pricing-four-columns.php:119
+#: patterns/general-pricing-four-columns.php:171
+#: patterns/general-pricing-four-columns.php:223
+#: patterns/general-pricing-three-columns.php:67
+#: patterns/general-pricing-three-columns.php:119
+#: patterns/general-pricing-three-columns.php:171
+#: patterns/general-pricing-two-columns.php:67
+#: patterns/general-pricing-two-columns.php:119
+msgid "Sign Up Now"
+msgstr "Inscrivez-Vous Maintenant"
+
+#: patterns/footer-mega.php:64
+msgid "Social Media"
+msgstr "Les Médias Sociaux"
+
+#: patterns/footer-mega.php:44
+msgid "Start Here"
+msgstr "Commencez Ici"
+
+#: inc/theme-page.php:88
+msgid "Support"
+msgstr "Soutien"
+
+#: patterns/footer-three-columns.php:18
+msgid "Terms of Service"
+msgstr "Conditions de Service"
+
+#: patterns/general-team-four-columns.php:19
+#: patterns/general-team-two-columns.php:21
+msgid "The people who are ready to serve you."
+msgstr "Les gens qui sont prêts à vous servir."
+
+#: inc/theme-page.php:86
+msgid "Theme Info"
+msgstr "Thème D'Informations"
+
+#: inc/theme-page.php:59
+msgid "Theme instructions"
+msgstr "Thème instructions"
+
+#: patterns/footer-mega.php:78
+msgid "Twitter"
+msgstr "Twitter"
+
+#: patterns/general-pricing-four-columns.php:184
+msgid "Ultimate"
+msgstr "Ultime"
+
+#: inc/upgrade-button/class-customize.php:75
+msgid "Upgrade Now"
+msgstr "Mettre À Niveau Maintenant"
+
+#: inc/theme-page.php:85
+msgid "Useful Links"
+msgstr "Liens Utiles"
+
+#: inc/theme-page.php:87
+msgid "View Demo"
+msgstr "Voir La Démo"
+
+#: patterns/general-team-four-columns.php:38
+#: patterns/general-team-four-columns.php:54
+#: patterns/general-team-four-columns.php:70
+#: patterns/general-team-four-columns.php:86
+msgid "View profile"
+msgstr "Voir le profil"
+
+#: patterns/general-portfolio.php:26
+msgid "View Project"
+msgstr "Visualiser Le Projet"
+
+#: patterns/footer-mega.php:60
+msgid "Web Design"
+msgstr "Web Design"
+
+#: inc/theme-page.php:67
+msgid ""
+"With Astory Pro you get more options, blocks, block patterns, templates and "
+"template parts. Faster support and faster updates with trending and easy to "
+"use patterns."
+msgstr ""
+"Avec Astory Pro, vous obtenez plus d'options, des blocs, bloc de modèles, "
+"des modèles et le modèle de pièces. Un soutien plus rapide et plus rapide "
+"des mises à jour avec les tendances et facile à utiliser des modèles."
+
+#: patterns/footer-three-columns.php:15
+msgid "Your Company LLC"
+msgstr "Votre Company LLC"

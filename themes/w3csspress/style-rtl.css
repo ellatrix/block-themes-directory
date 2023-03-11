@@ -1,0 +1,423 @@
+/*
+Theme Name: W3CSSPress
+Theme URI: https://github.com/matteomarchiori/w3csspress
+Author: matteomarchiori97
+Author URI: https://github.com/matteomarchiori
+Description: Universal theme with classic mode and blocks mode made to integrate the W3CSS framework inside WordPress, with global custom options and all of the W3CSS framework functionalities. The theme has been developed starting from resources on the w3schools website applied to the blankslate WordPress theme, slightly modified. The theme is accessibility ready and it is highly customizable. Please add issues on GitHub or contact me if you are interested in more options.
+Tags: blog, news, e-commerce, accessibility-ready, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, featured-images, featured-image-header, sticky-post, theme-options, threaded-comments, translation-ready, rtl-language-support, flexible-header, footer-widgets, full-width-template, editor-style, post-formats, microformats, custom-colors, block-patterns, full-site-editing, template-editing, wide-blocks, buddypress
+Version: 2022.40
+Requires at least: 4.1
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: w3csspress
+
+W3CSSPress WordPress Theme © 2022 Matteo Marchiori
+W3CSSPress is distributed under the terms of the GNU GPL
+*/
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: auto;
+}
+
+.sticky {}
+
+.bypostauthor {}
+
+.wp-caption {}
+
+.wp-caption-text {}
+
+.gallery-caption {}
+
+.alignright {}
+
+.alignleft {}
+
+.aligncenter {}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+    word-break: normal
+}
+
+.screen-reader-text:focus {
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    color: #007acc;
+    display: block;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000
+}
+
+.skip-link {
+    right: -9999rem;
+    top: 2.5rem;
+    z-index: 999999999;
+    text-decoration: underline
+}
+
+.skip-link:focus {
+    display: block;
+    right: 6px;
+    top: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    z-index: 100000;
+    left: auto
+}
+
+.visually-hidden:not(:focus):not(:active),
+.form-allowed-tags:not(:focus):not(:active) {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap
+}
+
+label {
+    vertical-align: middle;
+}
+
+.w3-dropdown-focus:first-child,
+.w3-dropdown-click:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.w3-weight-100 {
+    font-weight: 100;
+}
+
+.w3-weight-200 {
+    font-weight: 200;
+}
+
+.w3-weight-300 {
+    font-weight: 300;
+}
+
+.w3-weight-400 {
+    font-weight: 400;
+}
+
+.w3-weight-500 {
+    font-weight: 500;
+}
+
+.w3-weight-600 {
+    font-weight: 600;
+}
+
+.w3-weight-700 {
+    font-weight: 700;
+}
+
+.w3-weight-800 {
+    font-weight: 800;
+}
+
+.w3-weight-900 {
+    font-weight: 900;
+}
+
+.w3-no-decoration {
+    text-decoration: none;
+}
+
+.custom-logo {
+    max-width: 15vmax;
+}
+
+#site-title,
+#site-description {
+    display: inline-block;
+}
+
+#site-description,
+#site-title {
+    padding: 1em 1em 1em 0;
+}
+
+.w3-padding-top {
+    padding-top: 8px;
+}
+
+.w3-padding-bottom {
+    padding-bottom: 8px;
+}
+
+.w3-dropdown-content {
+    cursor: auto;
+    clip: inherit;
+    -webkit-clip-path: inherit;
+    clip-path: inherit;
+    overflow: inherit;
+    word-wrap: inherit;
+    word-break: inherit;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+body.home .custom-logo-link,
+body.home h1>a {
+    pointer-events: none;
+    text-decoration: none;
+    border-radius: inherit;
+}
+
+.w3-sidebar {
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    height: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#primary.w3-sidebar {
+    right: 0;
+}
+
+#secondary.w3-sidebar {
+    left: 0;
+}
+
+#headwidgets.w3-sidebar,
+#footwidgets.w3-sidebar {
+    position: relative;
+    width: inherit;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.w3-sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+.format-aside header .entry-meta,
+.format-link header .entry-meta,
+.format-status header .entry-meta,
+.format-quote header .entry-meta,
+.format-image header .entry-meta,
+.format-video header .entry-meta,
+.format-audio header .entry-meta,
+.format-chat header .entry-meta,
+.format-aside footer,
+.format-link footer,
+.format-status footer,
+.format-image footer,
+.format-video footer,
+.format-audio footer,
+.format-quote footer,
+.format-chat footer {
+    display: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.w3-fifth,
+.w3-sixth,
+.w3-seventh,
+.w3-eighth,
+.w3-nineth {
+    float: right
+}
+
+.w3-fifth {
+    width: 19.99999%;
+}
+
+.w3-sixth {
+    width: 16.66666%;
+}
+
+.w3-seventh {
+    width: 14.28000%;
+}
+
+.w3-eighth {
+    width: 12.49999%;
+}
+
+.w3-nineth {
+    width: 11.11111%;
+}
+
+header:not(#header):not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+footer:not(#footer):not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+div:not(#branding):not(#wrapper):not(#content):not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+p:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+form:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+img:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+table:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+article:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+section:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+figure:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+nav:not(#wpadminbar):not(#wpadminbar *):not(.sidebar),
+summary:not(#wpadminbar):not(#wpadminbar *):not(.sidebar) {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+table td,
+table th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: top
+}
+
+table th:first-child,
+table td:first-child {
+    padding-right: 16px
+}
+
+table tr {
+    border-bottom: 1px solid #ddd
+}
+
+table tr th,
+table tr td {
+    text-align: center
+}
+
+#gototop {
+    position: fixed;
+    bottom: 3vmax;
+    left: 3vmax;
+    display: none;
+}
+
+.alignfull {
+    width: 100vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    margin-right: -50vw;
+    margin-left: -50vw;
+}
+
+.alignwide {
+    width: 80vw;
+    max-width: 80vw;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    margin-right: -40vw;
+    margin-left: -40vw;
+}
+
+.wp-block-post-template.w3-ul li:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width:600px) {
+    .menu {
+        display: none;
+    }
+
+    .w3-sidebar {
+        position: relative;
+        width: 100%;
+    }
+
+    .w3-fifth,
+    .w3-sixth,
+    .w3-seventh,
+    .w3-eighth,
+    .w3-nineth {
+        width: 100%;
+    }
+
+    .w3-bar-item.w3-mobile {
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) {
+    body {
+        max-width: 80vw;
+    }
+
+    .w3-dropdown-content {
+        clip: rect(1px, 1px, 1px, 1px);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        overflow: hidden;
+        word-wrap: normal;
+        word-break: normal;
+    }
+
+    .w3-dropdown-content.w3-show {
+        clip: inherit;
+        -webkit-clip-path: inherit;
+        clip-path: inherit;
+        overflow: inherit;
+        word-wrap: inherit;
+        word-break: inherit;
+    }
+}

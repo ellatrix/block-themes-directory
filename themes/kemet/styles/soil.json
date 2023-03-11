@@ -1,0 +1,61 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "foreground",
+                    "color": "#f0e9d3",
+                    "name": "Foreground"
+                },
+                {
+                    "slug": "background",
+                    "color": "#2b2623",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#ca965d",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#c6c0a9",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#37302c",
+                    "name": "Tertiary"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--secondary)"
+        },
+        "elements": {
+            "h1": {
+                "color": {
+                    "text": "var(--wp--preset--color--foreground)"
+                }
+             },
+           "h2": {
+                "color": {
+                    "text": "var(--wp--preset--color--foreground)"
+                }
+           },
+           "h3": {
+                "color": {
+                    "text": "var(--wp--preset--color--foreground)"
+                }
+           },
+           "link": {
+               "color": {
+                   "text": "var(--wp--preset--color--foreground)"
+               }
+           }
+        }
+    }
+}

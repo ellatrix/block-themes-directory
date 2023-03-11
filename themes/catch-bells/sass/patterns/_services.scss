@@ -1,0 +1,70 @@
+/* --- Service Default
+-------------------------------------------------------- */
+.services {
+  .wp-block-separator.is-style-default {
+    margin-left: 0;
+  }
+
+  .section-heading.wp-block-columns,
+  .wp-block-columns.dot-column,
+  .services-columns-wrap.wp-block-columns {
+    background-color: transparent;
+  }
+
+  .wp-block-group {
+    padding: clamp(20px, 5vw, 49px) clamp(20px, 5vw, 42px);
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    &.section-heading {
+      padding: 0;
+    }
+   
+  }
+}
+
+.services-section .wp-block-columns .wp-block-column h4{
+  margin-block-start: 28px;
+}
+
+.services .wp-block-column:not(.dot-column):not(.section-heading) {
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+}
+
+.wp-service-icon {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  transition: all 0.4s;
+
+  img {
+    height: 64px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0 8px 20px 0 rgba(0, 0, 0, 0.11);
+    width: 100%;
+    height: 100%;
+    content: '';
+    border-radius: 50%;
+  }
+}
+
+.services-section .wp-block-column:hover .wp-service-icon {
+  top: -7px;
+
+}

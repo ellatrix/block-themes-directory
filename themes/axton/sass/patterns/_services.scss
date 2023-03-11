@@ -1,0 +1,35 @@
+/* --- Service Default
+-------------------------------------------------------- */
+
+.wp-block-columns.service-columns > .wp-block-column {
+    border-radius: 11px;
+    padding-bottom: var(--wp--custom--spacing--wp-post);
+    padding-top: var(--wp--custom--spacing--wp-post);
+    padding-left: var(--wp--custom--spacing--normal);
+    padding-right: var(--wp--custom--spacing--normal);
+    -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* --- Service Two
+-------------------------------------------------------- */
+
+.service-two-columns .wp-block-image img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* --- Service Three
+-------------------------------------------------------- */
+
+ .wp-block-columns.service-three-columns.wp-block-columns > .wp-block-column,
+  .wp-block-columns.service-four-columns.wp-block-columns > .wp-block-column {
+     background-color: transparent;
+     padding: 0;
+ }
+
+ .service-three-columns .wp-block-image {
+     margin-bottom: 0;
+     margin-top: 0;
+ }

@@ -1,0 +1,26 @@
+/* Responsive CSS Style */
+@media only screen and (max-width: 1180px) {
+  .is-layout-constrained {
+    width: 98%;
+    margin: 0 auto; }
+    .is-layout-constrained .is-layout-constrained {
+      width: 100%; }
+
+  footer.wp-block-template-part .is-layout-constrained {
+    width: 100%; }
+    footer.wp-block-template-part .is-layout-constrained .is-layout-constrained {
+      width: 100%; } }
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  header.wp-block-template-part .wp-block-buttons {
+    display: none !important; }
+  header.wp-block-template-part .wp-block-buttons > .wp-block-button {
+    display: none !important; }
+  header.wp-block-template-part .wp-block-site-title {
+    font-size: 1.4em; } }
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+/*# sourceMappingURL=responsive.css.map */

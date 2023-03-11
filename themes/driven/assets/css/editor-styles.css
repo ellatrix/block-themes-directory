@@ -1,0 +1,35 @@
+/*
+ * Editor Styles
+ *
+ * @package Driven
+ */
+
+/* Font Size */
+.block-editor-page .editor-styles-wrapper {
+	font-size: var(--wp--custom--typography--font-size--text);
+}
+
+/* Fullwidth Template */
+.driven-fullwidth-page .editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper > *,
+.driven-fullwidth-page .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > * {
+	max-width: 1200px;
+}
+
+/* No Title Template */
+.driven-no-title-page.block-editor-page .editor-styles-wrapper {
+	background-color: var(--wp--preset--color--light-background);
+}
+
+.driven-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
+	margin-top: 0;
+	padding: 2rem 0;
+	background-color: #fff;
+	background-image: linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd), linear-gradient(45deg, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%, #ddd);
+	background-size: 20px 20px;
+	background-position: 0 0, 10px 10px;
+}
+
+.driven-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper .editor-post-title__block .editor-post-title__input {
+	border-bottom: none;
+	padding-bottom: 1rem;
+}

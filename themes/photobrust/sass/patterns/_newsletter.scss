@@ -1,0 +1,74 @@
+/* --- Block Newsletter
+-------------------------------------------------------- */
+
+.wp-block-section {
+    .wp-block-tnp-minimal {
+
+        .tnp-subscription-minimal {
+            form {
+                width: auto;
+                input.tnp-email {
+                    font-size: var(--wp--preset--font-size--medium);
+                    width: 100%;
+                    background-color: transparent;
+                    border: 1px solid;
+                    border-color: var(--wp--preset--color--color-light);
+                    color: var(--wp--preset--color--color-light);
+                    border-radius: 8px;
+                    padding: 18px 21px;
+                    margin-top: 28px;
+                    font-family: var(--wp--preset--font-family--poppins);
+                    &:focus {
+                        border-color: var(--wp--preset--color--text-link);
+                    }
+                    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                        color: var(--wp--preset--color--color-light);
+                      }
+                      &::-moz-placeholder { /* Firefox 19+ */
+                        color: var(--wp--preset--color--color-light);
+                      }
+                      &:-ms-input-placeholder { /* IE 10+ */
+                        color: var(--wp--preset--color--color-light);
+                      }
+                      &:-moz-placeholder { /* Firefox 18- */
+                        color: var(--wp--preset--color--color-light);
+                      }
+                }
+
+                input.tnp-submit {
+                    background-color: var(--wp--preset--color--color-light);
+                    border: 1px solid;
+                    border-color: var(--wp--preset--color--color-light);
+                    color: var(--wp--preset--color--text-link);
+                    border-radius: 8px;
+                    font-size: var(--wp--preset--font-size--small);
+                    font-weight: var(--wp--custom--typography--font-weight--bold);
+                    line-height: var(--wp--custom--typography--line-height--paragraph);
+                    padding-top: max(0.7rem, 0.75vw);
+                    padding-right: max(1.5rem, 1.85vw);
+                    padding-bottom: max(0.7rem, 0.75vw);
+                    padding-left: max(1.5rem, 1.85vw);
+                    transition: all .3s ease-in-out;
+                    margin-left: -1px;
+                    font-family: var(--wp--preset--font-family--poppins);
+                    width: auto;
+                    margin-top: 28px;
+                    &:hover,
+                    &:focus {
+                        background-color: var(--wp--preset--color--text-link);
+                        border-color: var(--wp--preset--color--text-link);
+                        color: var(--wp--preset--color--color-light);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wp-block-section .wp-block-tnp-minimal > p,
+.wp-block-section.newsletter-section div[data-type="tnp/minimal"] p {
+    font-size: var(--wp--custom--typography--font-size--heading-two);
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+    line-height: var(--wp--custom--typography--line-height--heading-two);
+    margin: 0;
+}

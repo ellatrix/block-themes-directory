@@ -1,0 +1,16 @@
+.wp-block-comments-title {
+	@include s-r-5 (padding-bottom);
+}
+
+.wp-block-comment-edit-link {
+	@include s-r-3 (padding-left);
+}
+
+.wp-block-comment-content,
+.wp-block-comment-reply-link {
+	@include s-r-3 (padding-top);
+}
+
+.wp-block-column:not(:first-child) {
+	@include s-r-3 (padding-left);
+}

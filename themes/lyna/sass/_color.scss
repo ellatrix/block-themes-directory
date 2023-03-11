@@ -1,0 +1,254 @@
+/* --- Block Color
+-------------------------------------------------------- */
+
+/* Foreground color */
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.wp-block-quote.is-style-large p,
+.wp-block-quote p,
+.testimonial-section .content:before,
+.wp-block-pullquote p,
+.testimonial-section .author-desc .author-name,
+.wp-block-post-author__name,
+.wp-block-quote.is-large p,
+.wp-block-post-comments .comment-meta .fn,
+.comment-author .says,
+.slider .swiper-pagination span,
+.wp-block-post-author__name,
+footer .wp-block-site-generator a,
+.testimonial-section .navigation-wrap .swiper-button-next,
+.testimonial-section .navigation-wrap .swiper-button-prev,
+.wp-block-query-pagination-previous:hover,
+.wp-block-query-pagination-previous:focus,
+.testimonial-three-columns .wp-block-lyna-testimonial .wp-group-content:before,
+.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button,
+.wp-block-search.wp-block-search__button-inside
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button,
+.wp-block-query-pagination-next:hover,
+.wp-block-query-pagination-next:focus {
+  color: var(--wp--preset--color--foreground);
+}
+
+.contact-right-layout a:after,
+.slider .swiper-pagination span.swiper-pagination-bullet-active:after {
+  background-color: var(--wp--preset--color--foreground);
+}
+
+.header svg,
+header svg,
+.social-controller svg,
+.search-controller svg {
+  fill: var(--wp--preset--color--foreground);
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.is-style-lyna-button .wp-block-button__link,
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color),
+.contact-right-layout a:hover,
+.contact-right-layout a:focus,
+.wp-block-button__link.is-style-outline:not(.has-background):hover {
+  color: var(--wp--preset--color--foreground);
+}
+
+/* Background color */
+.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button,
+.wp-block-search.wp-block-search__button-inside
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button {
+  background-color: var(--wp--preset--color--background);
+}
+
+/* alternate-bg-color Color */
+ul li::marker,
+.wp-block-lyna-testimonial .wp-group-content:before,
+.content > .video-play:hover span,
+.wp-block-navigation .current-menu-item > a,
+.testimonial-section .author-desc .author-designate,
+.wp-block-navigation .wp-block-navigation-item__content:hover,
+.wp-block-navigation .wp-block-navigation-item__content:focus,
+.header-dark .wp-block-navigation .wp-block-navigation-item__content:hover,
+.header-dark .wp-block-navigation .wp-block-navigation-item__content:focus {
+  color: var(--wp--preset--color--alternate-bg-color);
+}
+
+.wp-block-widget-area .wp-block-latest-posts__post-author,
+.wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-navigation__responsive-container .wp-block-navigation-link a {
+  color: var(--wp--preset--color--foreground);
+}
+
+/* Body Color */
+
+/* Tertiary color */
+.wp-block-quote cite,
+.wp-block-widget-area .wp-block-latest-posts__post-date,
+.wp-block-post-author__content .wp-block-post-author__name,
+.wp-block-pullquote cite,
+.wp-block-quote footer {
+  color: var(--wp--preset--color--tertiary);
+}
+
+/* Link hover color */
+a,
+footer .wp-block-site-generator a,
+footer:not(.wp-block-latest-comments__comment-meta)
+  .wp-block-navigation
+  .wp-block-navigation-item__content,
+.wp-block-categories a,
+.post-navigation-link__label,
+.header-dark .wp-block-button.is-style-lyna-button .wp-block-button__link,
+.header-light .wp-block-button.is-style-lyna-button .wp-block-button__link,
+.header-light .wp-block-navigation .wp-block-navigation-item__content,
+.is-style-lyna-button .wp-block-button__link,
+.wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-post a,
+.entry-breadcrumbs span.breadcrumb a,
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.wp-block-post-comments .comment-metadata a,
+.tnp.tnp-subscription-minimal input.tnp-submit,
+.wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor {
+  &:hover,
+  &:focus {
+    color: var(--wp--preset--color--alternate-bg-color);
+  }
+}
+
+a:hover .post-navigation-link__label,
+a:focus .post-navigation-link__label {
+  color: var(--wp--preset--color--alternate-bg-color);
+}
+
+a:hover svg.icon,
+a:focus svg.icon,
+.content > .video-play:hover svg {
+  fill: var(--wp--preset--color--alternate-bg-color);
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover + button svg {
+  fill: var(--wp--preset--color--alternate-bg-color);
+  stroke: var(--wp--preset--color--alternate-bg-color);
+}
+
+/* Border Color */
+
+.wp-block-lyna-testimonial .wp-block-separator,
+.wp-block-sidebar .wp-block-latest-posts__list > li:not(:last-child),
+.wp-block-tag-cloud a,
+.wp-block-search .wp-block-search__inside-wrapper,
+.wp-block-search.wp-block-search__button-inside
+  .wp-block-search__inside-wrapper,
+.wp-block-fse-pro-header-social .social-container,
+.wp-block-sidebar > * h2 {
+  border-color: var(--wp--preset--color--border-color);
+}
+
+.header-light {
+  .wp-block-button__link:after {
+    outline-color: var(--wp--preset--color--border-color);
+  }
+}
+
+/* Button Background hover color */
+
+.is-style-outline > .wp-block-button__link:not(.has-background),
+a.wp-block-post-excerpt__more-link,
+.wp-block-search__button,
+.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button,
+.wp-block-search.wp-block-search__button-inside
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button,
+.tnp.tnp-subscription .tnp-field input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.wp-block-query-pagination-previous,
+.form-submit .wp-block-button__link,
+.wp-block-query-pagination-next,
+.wp-block-button__link.is-style-outline:not(.has-background) {
+  &:hover,
+  &:focus {
+    border-color: transparent;
+    color: var(--wp--preset--color--foreground);
+    background-color: var(--wp--preset--color--alternate-bg-color);
+  }
+}
+
+.testimonial-three-columns .wp-block-lyna-testimonial .wp-group-content:before,
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet,
+.wp-block-button__link,
+.wp-block-post-meta > div:not(:first-child):before,
+.entry-meta > div:not(:first-child):before,
+.is-style-fill .wp-block-button__link,
+.testimonial-section .content:before,
+.wp-block-fse-pro-popup-video .content:hover #myBtn:after {
+  background-color: var(--wp--preset--color--alternate-bg-color);
+}
+
+header svg,
+.header svg,
+.social-controller svg,
+.search-controller svg {
+  &:hover,
+  &:focus {
+    fill: var(--wp--preset--color--alternate-bg-color);
+  }
+}
+
+.wp-block-pullquote.alignleft.has-text-align-center,
+.wp-block-pullquote.alignright.has-text-align-center,
+figure.wp-block-pullquote.has-text-align-left,
+figure.wp-block-pullquote.has-text-align-right,
+.wp-block-fse-pro-popup-video #myBtn,
+.wp-block-pullquote {
+  border-color: var(--wp--preset--color--alternate-bg-color);
+}
+
+/* Secondary Background color */
+
+.services .wp-block-column:not(.dot-column):not(.section-heading),
+.wp-block-navigation:not(.has-background)
+  .wp-block-navigation__submenu-container,
+.is-style-lyna-post-author-card,
+.comment-respond,
+.wp-block-navigation:not(.has-background)
+  .wp-block-navigation__responsive-container.is-menu-open,
+.wp-block-fse-pro-header-social .wp-block-social-links {
+  background-color: var(--wp--preset--color--secondary);
+}
+
+form.wpcf7-form input:not([type="submit"]),
+form.wpcf7-form textarea,
+.comment-form input[type="date"],
+.comment-form input[type="time"],
+.comment-form input[type="datetime-local"],
+.comment-form input[type="week"],
+.comment-form input[type="month"],
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form input[type="password"],
+.comment-form input[type="search"],
+.comment-form input[type="tel"],
+.comment-form input[type="number"],
+.comment-form textarea {
+  background-color: var(--wp--preset--color--tertiary-bg-color);
+}
+
+.testimonial-three-columns
+  .wp-block-lyna-testimonial
+  .wp-group-author
+  figure
+  img,
+.wp-block-section + footer .upper-footer,
+footer .upper-footer,
+footer:not(.wp-block-latest-comments__comment-meta) .mid-footer {
+  border-color: var(--wp--preset--color--secondary);
+}
+
+.header-light .wp-block-navigation .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--color-dark);
+}

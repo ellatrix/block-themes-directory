@@ -1,0 +1,67 @@
+form.wpcf7-form input:not([type="submit"]),
+form.wpcf7-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: transparent;
+}
+
+
+p.form-submit.wp-block-button {
+  text-align: center;
+}
+
+.wpcf7-submit {
+background-color: transparent;
+border: 2px solid;
+}
+
+.wp-block-section.contact-section {
+
+  h2 {
+    font-size: var(--wp--preset--font-size--post-title);
+    margin-bottom: 0;
+  }
+}
+
+.contact-section.wp-block-section
+  .wp-block-button.is-style-fill
+  .wp-block-button__link {
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: var(--wp--preset--color--foreground);
+    border-color: var(--wp--preset--color--border-color);
+  }
+}
+
+.contact-section {
+  input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    padding-right: 0;
+    max-height: 100px;
+
+    &::-webkit-input-placeholder { /* Edge */
+        font-family: var(--wp--preset--font-family--lora);
+        font-size: 17px;
+        font-size: 1.0625rem;
+    }
+    &::-ms-input-placeholder { /* Edge */
+        font-family: var(--wp--preset--font-family--lora);
+        font-size: 17px;
+        font-size: 1.0625rem;
+    }
+    &::placeholder { /* Edge */
+        font-family: var(--wp--preset--font-family--lora);
+        font-size: 17px;
+        font-size: 1.0625rem;
+    }
+
+  }
+}
+.footer p {
+  font-size: 18px;
+}

@@ -1,0 +1,121 @@
+/* --- WP Block Header
+-------------------------------------------------------- */
+.header.absolute-header {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+}
+
+header,
+.header {
+  position: relative;
+  z-index: 9;
+}
+
+.header:not(.absolute-header) {
+  padding-top: clamp(10px, 2vw, 35px);
+  padding-bottom: clamp(10px, 2vw, 35px);
+  background-color: transparent;
+}
+
+.wp-block-columns.header-content {
+  max-width: 1020px;
+}
+
+header .wp-block-buttons .wp-block-button__link {
+  margin-top: 0;
+}
+
+.wp-block-centered-menu {
+  .wp-block-site-title,
+  .wp-block-site-tagline {
+    text-align: center;
+  }
+}
+
+.wp-block-fse-pro-header-social .social-container {
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+}
+
+.wp-block-fse-pro-header-search .search-container,
+.wp-block-fse-pro-header-social .social-container {
+  position: absolute;
+  right: 0;
+  top: auto;
+}
+
+.wp-block-fse-pro-header-search,
+.wp-block-fse-pro-header-social {
+  button {
+    transition: 0.3s ease-in-out;
+  }
+  .search-container,
+  .social-container {
+    background-color: transparent;
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 95%;
+  }
+}
+
+.wp-block-fse-pro-header-social {
+  .social-container {
+    border: 1px solid;
+    display: block;
+    padding: 10px;
+    .wp-block-social-links {
+      border-radius: 45px;
+      padding: 15px;
+    }
+  }
+}
+
+.wp-block-navigation__responsive-container-open:not(.always-shown) {
+  display: flex;
+}
+
+.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+  display: none;
+}
+
+html.has-modal-open {
+  overflow: auto;
+}
+
+.nav-row > .wp-block-group {
+  gap: 10px;
+}
+
+.wp-block-group.nav-row,
+.wp-block-group.title-row {
+  gap: 5px;
+}
+
+.wp-block-search .wp-block-search__inside-wrapper,
+.wp-block-fse-pro-header-social .wp-block-group.social-container {
+  margin-top: 20px;
+}
+
+.header
+  button:not(.wp-block-navigation-submenu__toggle):not(.components-button)
+  svg,
+header
+  button:not(.wp-block-navigation-submenu__toggle):not(.components-button)
+  svg,
+footer
+  button:not(.wp-block-navigation-submenu__toggle):not(.components-button)
+  svg {
+  padding: 11px;
+  margin-right: -11px;
+}
+
+.wp-block-group.slider,
+.wp-block-group.banner {
+  margin-top: -90px;
+}

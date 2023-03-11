@@ -1,0 +1,180 @@
+/* --- 6
+-------------------------------------------------------- */
+
+
+/* Foreground color */
+ .wp-block-cover-image.wp-block-newsletter .wp-block-cover__inner-container h2,
+.wp-block-cover.wp-block-newsletter .wp-block-cover__inner-container h2 {
+     color: var(--wp--preset--color--foreground);
+}
+
+.wp-block-social-links.is-style-pill-shape .wp-social-link,
+.wp-block-social-links.is-style-circle-shape .wp-social-link {
+    background-color: var(--wp--preset--color--foreground);
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: var(--wp--preset--color--picton-blue);
+        a svg {
+            color: var(--wp--preset--color--color-white);
+            fill: var(--wp--preset--color--color-white);
+        }
+    }
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link.is-style-outline:not(.has-background):hover,
+.footer-dark .wp-block-footer.wp-block-widget-area .wp-block-navigation a:hover,
+.footer-dark .wp-block-footer.wp-block-widget-area .wp-block-navigation a:focus,
+.footer-dark .wp-block-navigation__responsive-container-open,
+.footer-dark .wp-block-navigation__responsive-container-close,
+.footer-dark .wp-block-navigation .current-menu-item .wp-block-navigation-item__content {
+    color: var(--wp--preset--color--color-white);
+}
+
+
+/* Background color */
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+     background-color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-clients-testimonial .wp-block-testimonial,
+ .service-columns.wp-block-columns>.wp-block-column,
+ .wp-block-rounded-read-more .wp-block-button__link,
+.wp-block-music-playlist .simple-audio-player {
+    background-color: var(--wp--preset--color--background);
+}
+
+.wp-block-section.wp-block-cover-news .wp-block-post-template .wp-block-post-title a,
+.wp-block-section.wp-block-cover-news .wp-block-post-container,
+.wp-block-section.wp-block-cover-news .wp-block-post-author__name,
+.wp-block-section.wp-block-cover-news .wp-block-post-date a,
+.wp-block-section.wp-block-cover-news .wp-block-post-date {
+    color: var(--wp--preset--color--background);
+}
+
+
+/* Primary color */
+.wp-block-navigation .wp-block-navigation-item__content {
+    color: var(--wp--preset--color--text-link);
+}
+
+.topbar-wrapper,
+.current-date-wrapper + .trending-wrapper {
+    border-color: var(--wp--preset--color--text-link);
+}
+
+
+/* Wood Smoke color */
+ footer .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+     background-color: var(--wp--preset--color--woodsmoke);
+}
+
+
+/* Secondary Color */
+.wp-block-tag-cloud > a,
+.service-columns.wp-block-columns > .wp-block-column,
+.pricing-columns.wp-block-columns > .wp-block-column {
+    background-color: var(--wp--preset--color--secondary);
+}
+
+/* Body color */
+.wp-block-widget-area .wp-block-latest-posts__post-author,
+.wp-block-widget-area .wp-block-latest-posts__post-date,
+.footer-dark .wp-block-footer.wp-block-widget-area .wp-block-navigation a {
+	color: var(--wp--preset--color--meta);
+}
+
+
+/* Link color */
+a,
+.wp-block-post a,
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.wp-block-post-comments .comment-metadata a,
+.wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor,
+.wp-block-section.wp-block-cover-news .wp-block-post-date a,
+.wp-block-section.wp-block-cover-news .wp-block-post-template .wp-block-post-title a {
+    &:hover,
+    &:focus {
+        color: var(--wp--preset--color--picton-blue);
+    }
+}
+
+.wp-block-social-links.is-style-logos-only .wp-block-social-link .wp-block-social-link-anchor {
+    &:hover,
+    &:focus {
+        svg {
+            color: var(--wp--preset--color--picton-blue);
+            fill: var(--wp--preset--color--picton-blue);
+        }
+    }
+}
+
+a:hover svg.icon,
+a:focus svg.icon,
+.content > .video-play:hover svg {
+    fill: var(--wp--preset--color--picton-blue);
+}
+
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link .components-button:hover,
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link .components-button:focus,
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link a:hover,
+.wp-block-social-links:not(.is-style-logos-only):not(.is-style-pill-shape):not(.is-style-circle-shape) .wp-social-link a:focus,
+.wp-block-social-links.is-style-default .wp-social-link .components-button:hover,
+.wp-block-social-links.is-style-default .wp-social-link .components-button:focus,
+.wp-block-social-links.is-style-default .wp-social-link a:hover,
+.wp-block-social-links.is-style-default .wp-social-link a:focus {
+    background-color: var(--wp--preset--color--picton-blue);
+    color: var(--wp--preset--color--background);
+}
+
+.wp-block-testimonial .wp-group-content:before,
+.content > .video-play:hover span,
+.wp-block-social-links.is-style-logos-only .wp-block-social-link .wp-block-social-link-anchor svg {
+    color: var(--wp--preset--color--text-link);
+}
+
+.wp-block-social-links.is-style-logos-only .wp-block-social-link .wp-block-social-link-anchor svg {
+    fill: var(--wp--preset--color--text-link);
+}
+
+
+/* Border Color */
+.wp-block-testimonial .wp-block-separator,
+.wp-block-sidebar .wp-block-latest-posts__list > li:not(:last-child),
+.wp-block-sidebar > * h2,
+.topbar-wrapper .wp-block-fse-pro-header-search .search-controller,
+.wp-block-post-comments.is-style-post-comments textarea,
+.wp-block-post-comments.is-style-post-comments input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments.is-style-post-comments .comment-respond,
+.wp-block-section .wp-block-group-heading,
+.wp-block-clients-testimonial .wp-block-testimonial {
+  border-color: var(--wp--preset--color--border-color);
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link.is-style-outline:not(.has-background):hover {
+    border-color: transparent;
+    background-color: var(--wp--preset--color--border-color) !important;
+    opacity: 1;
+}
+
+.wp-block-separator {
+    color: var(--wp--preset--color--border-color);
+}
+
+.wp-block-group-heading h6 {
+    color: var(--wp--preset--color--tertiary);
+}
+
+.wp-block-cover .wp-block-group-heading h6,
+.wp-block-navigation .current-menu-item .wp-block-navigation-item__content {
+    color: var(--wp--preset--color--picton-blue);
+}
+
+.wp-block-cover-image.wp-block-newsletter .wp-block-cover__inner-container,
+.wp-block-cover.wp-block-newsletter .wp-block-cover__inner-container,
+.wp-block-section.wp-block-newsletter .newsletter-inner-wrap .wp-block-group-heading h6 {
+    color: var(--wp--preset--color--body-text);
+}

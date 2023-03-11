@@ -1,0 +1,115 @@
+.sticky-playlist {
+  .simple-audio-player {
+    @include flex;
+    flex-direction: column-reverse;
+    bottom: 0;
+    left: 0;
+    font-size: var(--wp--preset--font-size--tiny);
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+    .simp-player {
+      @include flex;
+      min-height: 70px;
+      .simp-album {
+        padding: 0;
+        flex-wrap: nowrap;
+        @include d-align-item;
+        .simp-cover > div {
+          height: 70px !important;
+          width: 70px !important;
+        }
+        .simp-title {
+          font-weight: var(--wp--custom--typography--font-weight--normal);
+          font-size: var(--wp--preset--font-size--tiny);
+        }
+        .simp-artist {
+          font-size: var(--wp--preset--font-size--medium);
+          color: var(--wp--preset--color--foreground);
+        }
+      }
+    }
+
+    .simp-controls {
+      padding: 0;
+      padding-right: 20px;
+      width: 100%;
+      button:hover {
+        background-color: transparent;
+      }
+      button.simp-plause {
+        left: 28px;
+        position: absolute;
+        padding: 0;
+        width: 24px;
+        @include flex;
+        @include d-align-item;
+        svg {
+          width: 24px;
+        }
+      }
+    }
+  }
+}
+
+.start-time,
+.simp-slash {
+  display: none;
+}
+
+.sticky-playlist .simple-audio-player {
+  ul {
+    margin-top: 0;
+  }
+  .simp-display {
+    min-width: 225px;
+  }
+  .simp-prev,
+  .simp-next,
+  .simp-volume,
+  .simp-random {
+    display: none;
+  }
+}
+
+.sticky-playlist.wp-block-section {
+  padding: 0;
+}
+
+.sticky-playlist .simple-audio-player .simp-controls .simp-volume,
+.simple-audio-player
+  .simp-controls
+  .simp-others
+  .simp-shide
+  button.simp-shide-top {
+  display: none;
+}
+
+.simple-audio-player .simp-controls .simp-others .simp-shide button {
+  @include flex;
+}
+
+.simple-audio-player .simp-controls .simp-others {
+  @include flex;
+  .simp-plext {
+    display: none;
+  }
+}
+
+.simp-cover div:after {
+  content: "";
+  background: var(--wp--preset--color--background);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.simp-cover div {
+  position: relative;
+}
+
+.simple-audio-player {
+  max-width: 100%;
+}

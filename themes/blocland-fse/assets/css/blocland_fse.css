@@ -1,0 +1,27 @@
+.wp-block-outermost-icon-block .icon-container {
+    box-sizing: border-box;
+}
+
+.wp-block-outermost-icon-block {
+    display: flex;
+    line-height: 0;
+}
+
+.has-icon-color > svg {
+    fill: var(--wp--preset--color--tertiary);
+}
+
+.wp-site-blocks > * + * {
+    margin-block-start: 0 !important;
+}
+
+.comment-reply-title {
+    color: var(--wp--preset--color--secondary)
+}
+
+
+@media only screen and (max-width: 600px) {
+    .blocland-hide-small-devices {
+        display: none!important;
+    }
+}

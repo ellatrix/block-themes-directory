@@ -1,0 +1,70 @@
+/* --- Block Contact Us
+-------------------------------------------------------- */
+
+.contact-section .two-col .wp-block-col + .wp-block-col {
+  margin-top: 14px;
+}
+.wp-block-col {
+  margin-block-end: 1em;
+}
+.contact-section textarea,
+.contact-section input[type="email"],
+.contact-section input[type="text"] {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 0;
+  padding-right: 0;
+  color: var(--wp--preset--color--foreground);
+}
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--wp--preset--color--secondary-link);
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--wp--preset--color--secondary-link);
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+textarea:placeholder,
+input::placeholder {
+  color: var(--wp--preset--color--secondary-link);
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+p.wp-block-note {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.87;
+}
+input[type="submit"] {
+  transition: all 0.4s;
+}
+.contact-section form p {
+  margin-block-start: 0;
+}
+
+.contact-section .wp-single-contact-wrap {
+  align-items: flex-start;
+}
+
+.wp-single-contact-wrap .wp-block-image img {
+  vertical-align: middle;
+}
+
+.contact-section .wp-block-column + .wp-block-column {
+  margin-top: 35px;
+}
+.contact-section p strong {
+  font-weight: 500;
+}
+.wp-block-contact-info {
+  font-size: 18px;
+}

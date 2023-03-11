@@ -1,0 +1,15 @@
+<?php
+/**
+ * Gutenverse Contact Section 4 content.
+ */
+return array(
+	'title'      => __( 'Gutenverse Contact Section 4', 'waterlava' ),
+	'categories' => array( 'waterlava-gutenverse' ),
+	'content'    => '<!-- wp:gutenverse/section {"layout":"fullwidth","sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"width":{"Desktop":1140},"height":{},"gap":"no","elementId":"guten-HrmcEJ","background":{},"backgroundHover":{},"border":{"radius":{"Desktop":[]}},"topDivider":{},"bottomDivider":{},"margin":{"Desktop":{"unit":"px","dimension":{"bottom":"-10"}}},"padding":{"Desktop":{"unit":"px","dimension":{"top":"","bottom":"","right":"","left":""}}},"zIndex":{"Desktop":""},"animation":{},"wrapColumn":{"Desktop":false,"Tablet":false,"Mobile":true}} -->
+<div class="section-wrapper" data-id="HrmcEJ"><section class="wp-block-gutenverse-section guten-element guten-section guten-HrmcEJ layout-fullwidth align-stretch"><div class="guten-background-overlay"></div><div class="guten-shape-divider guten-shape-divider-top"></div><div class="guten-shape-divider guten-shape-divider-bottom"></div><div class="guten-container guten-column-gap-no"><!-- wp:gutenverse/column {"width":{"Desktop":100,"Tablet":null},"sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"elementId":"guten-q3lgRr","background":{},"backgroundHover":{},"verticalAlign":{"Desktop":"default"},"horizontalAlign":{"Desktop":"default"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"","bottom":""}},"Tablet":{"unit":"px","dimension":{"top":"-120"}},"Mobile":[]},"padding":{"Desktop":[],"Tablet":{"unit":"px","dimension":{"bottom":""}}},"zIndex":{"Desktop":""},"animation":{}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-q3lgRr"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="q3lgRr"><div class="guten-column-wrapper"><!-- wp:gutenverse/google-maps {"elementId":"guten-oGEFfX","location":"Jl. Raya Legian No.19","zoom":"18","height":{"Desktop":"538"},"border":{"radius":{"Desktop":[]}},"animation":{"type":{"Desktop":"fadeInUp"},"duration":"normal","delay":"200"},"margin":{"Desktop":{"unit":"px","dimension":{"bottom":"-130","top":"","right":"","left":""}},"Tablet":{"unit":"px","dimension":{"top":"","right":"","bottom":"-200","left":""}},"Mobile":{"unit":"px","dimension":{"bottom":"-230","top":"","right":"","left":""}}},"padding":{"Desktop":[],"Tablet":{"unit":"px","dimension":{"top":"0","right":"0","bottom":"","left":"0"}},"Mobile":[]},"zIndex":{"Desktop":"1"}} -->
+<div class="guten-element gutenverse-maps guten-oGEFfX animated guten-element-hide desktop-fadeInUp"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Jl.%20Raya%20Legian%20No.19&amp;z=18&amp;t=m&amp;output=embed&amp;iwloc=near" title="Jl. Raya Legian No.19"></iframe></div>
+<!-- /wp:gutenverse/google-maps --></div></div></div>
+<!-- /wp:gutenverse/column --></div></section></div>
+<!-- /wp:gutenverse/section -->',
+);

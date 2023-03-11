@@ -1,0 +1,150 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Rio",
+	"version": 2,
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": ["#010101", "#fbfbfb"],
+					"slug": "foreground-and-background",
+					"name": "Foreground and background"
+				},
+				{
+					"colors": ["#010101", "#ffd800"],
+					"slug": "foreground-and-primary",
+					"name": "Foreground and primary"
+				},
+				{
+					"colors": ["#ffd800", "#174c2f"],
+					"slug": "primary-and-secondary",
+					"name": "Primary and secondary"
+				},
+				{
+					"colors": ["#ffd800", "#7cb5e3"],
+					"slug": "primary-and-tertiary",
+					"name": "Primary and tertiary"
+				}
+			],
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#010101",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#fbfbfb",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#ffd800",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#174c2f",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#7cb5e3",
+					"name": "Tertiary"
+				}
+			]
+		},
+		"custom": {
+			"typography": {
+				"fontSmoothing": {
+					"moz": "auto",
+					"webkit": "auto"
+				}
+			}
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Space Mono\", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace",
+					"name": "Space Mono",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontFamily": "Space Mono",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": ["file:./assets/fonts/SpaceMono/SpaceMono-Regular.woff2"]
+						},
+						{
+							"fontFamily": "Space Mono",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": ["file:./assets/fonts/SpaceMono/SpaceMono-Bold.woff2"]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Space Mono\", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace",
+					"name": "Space Mono",
+					"slug": "heading"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/comments-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontWeight": "(--wp--custom--typography--font-weight--semi-bold)"
+				}
+			},
+			"core/pullquote": {
+				"border": {
+					"color": "var(--wp--preset--color--primary)"
+				},
+				"color": {
+					"background": "transparent"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--medium)",
+					"letterSpacing": "-0.02em"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)"
+				}
+			}
+		}
+	}
+}

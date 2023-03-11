@@ -1,0 +1,30 @@
+
+
+.wp-block-navigation ul li  a:hover {
+    color: var(--wp--preset--color--white);
+}
+.wp-block-navigation ul li  a:focus, 
+.wp-block-navigation ul li  a:active {
+    color: var(--wp--preset--color--secondary);
+}
+.wp-block-navigation ul li li a:hover, 
+.wp-block-navigation ul li li a:focus, 
+.wp-block-navigation ul li li a:active,
+.wp-block-navigation ul li.current-menu-item > a  {
+    color: var(--wp--preset--color--secondary);
+}
+.widget a:not(.wp-block-button__link):not(.arc-icon-wrapper):hover, .entry-summery a:not(.wp-block-button__link):not(.arc-icon-wrapper):hover, .entry-content a:not(.wp-block-button__link):not(.arc-icon-wrapper):hover {
+    color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-navigation-animation .wp-block-navigation-item a:hover:before, 
+.wp-block-navigation-animation .wp-block-navigation-item .wp-block-navigation-item__content:hover:before {
+    border-bottom-color: var(--wp--preset--color--white);
+    border-right-color: var(--wp--preset--color--white);
+}
+
+.wp-block-navigation-animation .wp-block-navigation-item a:hover:after, .wp-block-navigation-animation .wp-block-navigation-item .wp-block-navigation-item__content:hover:after {
+    border-top-color: var(--wp--preset--color--white);
+    border-left-color: var(--wp--preset--color--white);
+   
+}

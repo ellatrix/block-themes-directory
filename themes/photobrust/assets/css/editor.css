@@ -1,0 +1,12 @@
+:root {
+    --photobrust-pro: #00a192;
+  }
+  
+.block-editor-block-icon svg.photobrust-pro-icon {
+    fill: var( --photobrust-pro );
+}
+
+.editor-block-list-item-photobrust-pro-header-social .dashicon,
+.editor-block-list-item-photobrust-pro-header-search .dashicon {
+    color: var( --photobrust-pro );
+}

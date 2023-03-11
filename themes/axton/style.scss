@@ -1,0 +1,39 @@
+/*
+Theme Name: Axton
+Theme URI: https://catchthemes.com/themes/axton
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Axton is a free minimalist block portfolio WordPress theme for full site editing. With the Global Styles feature introduced in WordPress 6.0, you can pick your site color style from Dark or Light color schemes. This block-based theme is best suited for building a portfolio, blog, photography, personal, freelance, startup, and more website to showcase your work. The theme is built in accordance with Full Site Editing features that let you customize your site as per your need. Axton comes with a portfolio layout that lets you showcase your work beautifully. This theme includes a clean design and simple typography that allow you to build an awesome website among others. With the intuitive drag and drop interface, you can start building your content easily using block patterns. There are 15 + different block patterns, 17 FSE Templates, and 9 Template Parts. Some of the block patterns are Header media, Hero Content, Featured Content, Blog Post, 404 Header, Contact Us, Search Header, Footer, Footer Three Column, and Post Header. All of the blocks, block patterns, templates, and template parts in Axton are fully responsive, highly customizable, and adapt to all screen sizes perfectly. Download Axton today and start building your site with blocks!
+Version: 2.0.5
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: axton
+Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Axton is based on Axton WordPress Theme, 2021-2022 WordPress.org.
+Axton is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import "sass/media-query";
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import "sass/color";

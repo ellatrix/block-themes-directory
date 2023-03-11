@@ -1,0 +1,367 @@
+# <!=Copyright (C) 2023 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VisionArt\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2023-01-19 13:11-0800\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:27 inc/block-patterns.php:18
+msgid "VisionArt"
+msgstr ""
+
+#: inc/about.php:46
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:54
+msgid "Getting Started with VisionArt!"
+msgstr ""
+
+#: inc/about.php:55
+msgid ""
+"Awesome! VisionArt has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in this "
+"astounding theme."
+msgstr ""
+
+#: inc/about.php:56
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:62
+msgid "More Features with VisionArt Pro Theme"
+msgstr ""
+
+#: inc/about.php:63
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you upgrade "
+"to VisionArt Pro. With the pro theme installed, get more options, blocks, "
+"block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:64
+msgid "Buy VisionArt"
+msgstr ""
+
+#: inc/about.php:73
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:74
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:75
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:76
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:77
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:85
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:86
+msgid ""
+"Loved VisionArt? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35 inc/block-styles.php:53 inc/block-styles.php:62
+#: inc/block-styles.php:72 inc/block-styles.php:82 inc/block-styles.php:91
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:44
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header-with-background.php:21 patterns/404-header.php:13
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header-with-background.php:24 patterns/404-header.php:17
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/featured-content.php:13
+msgid "Our Blog"
+msgstr ""
+
+#: patterns/featured-content.php:16
+msgid "Read Our Latest news"
+msgstr ""
+
+#: patterns/footer-default.php:14 patterns/footer-with-three-columns.php:103
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: patterns/footer-default.php:15 patterns/footer-with-three-columns.php:104
+msgid "Y"
+msgstr ""
+
+#: patterns/footer-with-three-columns.php:15
+msgid "Contact us"
+msgstr ""
+
+#: patterns/footer-with-three-columns.php:28
+msgid "111 San Francisco, West, USA"
+msgstr ""
+
+#: patterns/footer-with-three-columns.php:44
+msgid "info@example.com"
+msgstr ""
+
+#: patterns/footer-with-three-columns.php:60
+msgid "+123 456 7890"
+msgstr ""
+
+#: patterns/footer-with-three-columns.php:74
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-with-three-columns.php:82
+msgid "Connect"
+msgstr ""
+
+#: patterns/header-media.php:20
+msgid "Projects The Arts"
+msgstr ""
+
+#: patterns/header-media.php:23
+msgid "Artform"
+msgstr ""
+
+#: patterns/header-media.php:26
+msgid "XXV"
+msgstr ""
+
+#: patterns/header-media.php:30
+msgid "View More"
+msgstr ""
+
+#: patterns/hidden-404.php:9
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-404.php:11
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:11
+msgid "Search..."
+msgstr ""
+
+#: patterns/pricing.php:13
+msgid "Pricing options"
+msgstr ""
+
+#: patterns/pricing.php:16
+msgid "If you are good with good"
+msgstr ""
+
+#: patterns/pricing.php:31
+msgid "Student"
+msgstr ""
+
+#: patterns/pricing.php:39 patterns/pricing.php:69 patterns/pricing.php:99
+msgid "$"
+msgstr ""
+
+#: patterns/pricing.php:39
+msgid "9.99"
+msgstr ""
+
+#: patterns/pricing.php:43 patterns/pricing.php:73 patterns/pricing.php:103
+msgid "Some amazing features Some Student For Exclusive Feat. final one"
+msgstr ""
+
+#: patterns/pricing.php:50 patterns/pricing.php:80 patterns/pricing.php:110
+msgid "View Details"
+msgstr ""
+
+#: patterns/pricing.php:61
+msgid "Professional"
+msgstr ""
+
+#: patterns/pricing.php:69
+msgid "19.99"
+msgstr ""
+
+#: patterns/pricing.php:91
+msgid "Master"
+msgstr ""
+
+#: patterns/pricing.php:99
+msgid "49.99"
+msgstr ""
+
+#: patterns/product-sidebar.php:15
+msgid "Product Categories"
+msgstr ""
+
+#: patterns/product-sidebar.php:26
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/product-sidebar.php:40
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/product-sidebar.php:54
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/recent-blog.php:55 patterns/sidebar.php:18
+msgid "About"
+msgstr ""
+
+#: patterns/recent-blog.php:63 patterns/sidebar.php:26
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus\n"
+"            commodo, rhoncus et ante."
+msgstr ""
+
+#: patterns/recent-blog.php:70 patterns/sidebar.php:33
+msgid "Read More"
+msgstr ""
+
+#: patterns/recent-blog.php:80 patterns/sidebar.php:43
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/recent-blog.php:88 patterns/sidebar.php:51
+msgid "Tags"
+msgstr ""
+
+#: patterns/recent-blog.php:96 patterns/sidebar.php:59
+msgid "Categories"
+msgstr ""
+
+#: patterns/services.php:13
+msgid "Our Services"
+msgstr ""
+
+#: patterns/services.php:16
+msgid "What we Offer"
+msgstr ""
+
+#: patterns/services.php:35
+msgid "Design &amp; Planning"
+msgstr ""
+
+#: patterns/services.php:38 patterns/services.php:65 patterns/services.php:92
+#: patterns/services.php:119
+msgid "Some amazing feature fame"
+msgstr ""
+
+#: patterns/services.php:39 patterns/services.php:66 patterns/services.php:93
+#: patterns/services.php:120
+msgid "student exclusive final one"
+msgstr ""
+
+#: patterns/services.php:40 patterns/services.php:67 patterns/services.php:94
+#: patterns/services.php:121
+msgid "lorem ipsum"
+msgstr ""
+
+#: patterns/services.php:47 patterns/services.php:74 patterns/services.php:101
+#: patterns/services.php:128
+msgid "Read more"
+msgstr ""
+
+#: patterns/services.php:62
+msgid "Videography"
+msgstr ""
+
+#: patterns/services.php:89
+msgid "Author Control"
+msgstr ""
+
+#: patterns/services.php:116
+msgid "Photography"
+msgstr ""
+
+#: patterns/stats.php:15
+msgid "180+"
+msgstr ""
+
+#: patterns/stats.php:18
+msgid "Current Clients"
+msgstr ""
+
+#: patterns/stats.php:25
+msgid "10+"
+msgstr ""
+
+#: patterns/stats.php:28
+msgid "Years of Experience"
+msgstr ""
+
+#: patterns/stats.php:35
+msgid "35+"
+msgstr ""
+
+#: patterns/stats.php:38
+msgid "Awards Winning"
+msgstr ""
+
+#: patterns/stats.php:45
+msgid "5+"
+msgstr ""
+
+#: patterns/stats.php:48
+msgid "Offices Worldwide"
+msgstr ""

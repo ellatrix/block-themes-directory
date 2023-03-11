@@ -1,0 +1,24 @@
+/* --- Stats Four Columns
+-------------------------------------------------------- */
+
+.stat-block {
+    position: relative;
+    text-align: center;
+}
+.stat-block > h2 {
+    font-size: calc(2.5 * var(--wp--preset--font-size--huge));
+    line-height: 1;
+    opacity: 0.1;
+}
+
+.stat-block > p {
+    color: var(--wp--preset--color--foreground);
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+    font-size: var(--wp--custom--typography--font-size--heading-five);
+    margin-top: 0;
+}
+
+.stats-four-columns > .wp-block-column:not(:last-child) {
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    padding-bottom: 24px;
+}

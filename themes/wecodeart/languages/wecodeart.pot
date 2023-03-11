@@ -1,0 +1,489 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WeCodeArt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 12:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1\n"
+"X-Domain: wecodeart"
+
+#: views/meta/comments.tpl.php:61
+#, php-format
+msgid " on %s"
+msgstr ""
+
+#: views/meta/comments.tpl.php:53
+msgid "% Comments"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:155
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: views/meta/author.tpl.php:41
+#, php-format
+msgid "%s`s avatar"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-rss.php:129
+msgid "(no title)"
+msgstr ""
+
+#: views/meta/comments.tpl.php:52
+msgid "1 Comment"
+msgstr ""
+
+#: inc/gutenberg/blocks/post/class-content.php:89
+msgid "[block rendering halted]"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A simple WordPress theme framework focused on SEO and speed (perfect 100% "
+"PageSpeed scores) while still being fully customizable via Full Site Editing."
+" It also works perfectly with all page builder plugins."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-title.php:118
+msgid "add one"
+msgstr ""
+
+#: inc/support/plugins/cf7/class-cf7.php:69
+msgid "Amazing news!"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-rss.php:69
+msgid ""
+"An error has occurred, which probably means the feed is down. Try again "
+"later."
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:163
+#: inc/gutenberg/blocks/widgets/class-archives.php:109
+msgid "Archives"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:136
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#. Author of the theme
+msgid "Bican Marian Valeriu @wecodeart"
+msgstr ""
+
+#: inc/gutenberg/blocks/class-dynamic.php:48
+msgid "Block name is required."
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:161
+msgid "Blog"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:238
+#, php-format
+msgid "By commenting you accept the %s."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:98
+msgid "Cancel reply"
+msgstr ""
+
+#: inc/support/plugins/anr/class-anr.php:90
+msgid "Captcha 4WP support is enabled!"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:126
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:196
+#: inc/gutenberg/blocks/comment/class-form.php:203
+msgid "Comment *"
+msgstr ""
+
+#: views/meta/comments.tpl.php:55
+msgid "Comments are Closed"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-title.php:105
+#, php-format
+msgctxt "comments title"
+msgid "%1$s response"
+msgid_plural "%1$s responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/gutenberg/blocks/comment/class-title.php:92
+#, php-format
+msgctxt "comments title"
+msgid "%1$s response on \"%2$s\""
+msgid_plural "%1$s responses on \"%2$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/gutenberg/blocks/comment/class-title.php:88
+msgctxt "comments title"
+msgid "One response"
+msgid_plural "Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/gutenberg/blocks/comment/class-title.php:99
+#, php-format
+msgctxt "comments title"
+msgid "One response on \"%1$s\""
+msgid_plural "Responses on \"%1$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: patterns/footer-credits.php:15
+#, php-format
+msgid "Copyright %s - All rights reserved. Built on %s."
+msgstr ""
+
+#: inc/support/starter/class-starter.php:71
+msgid "Customizer"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:151
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/admin/class-admin.php:261
+msgid "Developer Mode"
+msgstr ""
+
+#: inc/support/starter/class-starter.php:70
+#, php-format
+msgid ""
+"Don`t know where to start? Go to %s to setup starter content. There you can "
+"find a couple of pages and section examples created with WeCodeArt Framework."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:155
+msgid "Email *"
+msgstr ""
+
+#: views/general/protected.tpl.php:53
+msgid "Enter password"
+msgstr ""
+
+#: inc/gutenberg/blocks/design/class-separator.php:50
+msgid "Faded"
+msgstr ""
+
+#: inc/admin/notifications/class-ajax.php:79
+msgid "Failed to dismiss notification"
+msgstr ""
+
+#: inc/gutenberg/blocks/design/class-buttons.php:50
+msgid "Group"
+msgstr ""
+
+#: inc/support/plugins/cf7/class-cf7.php:72
+msgid "here"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.wecodeart.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.wecodeart.com/about/"
+msgstr ""
+
+#: inc/support/markup/class-markup.php:249
+#, php-format
+msgid "Invalid HTML wrappers for \"%s\"."
+msgstr ""
+
+#: views/admin/notification-locale.tpl.php:22
+#, php-format
+msgid "It looks like WeCodeArt Framework is not translated in %s. "
+msgstr ""
+
+#: views/meta/comments.tpl.php:51
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/gutenberg/blocks/design/class-button.php:50
+msgid "Link"
+msgstr ""
+
+#: inc/gutenberg/blocks/site/class-login.php:113
+msgid "Log In"
+msgstr ""
+
+#: views/general/toggler.tpl.php:27
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/notifications/class-ajax.php:55
+msgid "Missing notification id"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:147
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:146
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:134
+msgid "Name *"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-archives.php:120
+msgid "No archives to show."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-title.php:85
+msgid "No responses"
+msgstr ""
+
+#: views/admin/notification-locale.tpl.php:36
+msgid "No, I don`t care."
+msgstr ""
+
+#: inc/admin/notifications/class-ajax.php:74
+msgid "Notification dismissed"
+msgstr ""
+
+#: inc/gutenberg/blocks/design/class-button.php:56
+msgid "Outline"
+msgstr ""
+
+#: inc/gutenberg/blocks/site/class-login.php:111
+msgid "Password"
+msgstr ""
+
+#: inc/app.php:125 inc/app.php:126
+msgid "Placeholder"
+msgstr ""
+
+#: inc/support/markup/class-markup.php:180
+msgid "Please define a callback function for each of the modules."
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:158
+#, php-format
+msgid "Post Type Archives: %s"
+msgstr ""
+
+#: views/meta/date.tpl.php:65
+#, php-format
+msgid "Post updated on %s."
+msgstr ""
+
+#: views/meta/terms.tpl.php:52
+msgid "Posted in"
+msgstr ""
+
+#: views/meta/date.tpl.php:46
+msgid "Posted on "
+msgstr ""
+
+#: inc/gutenberg/blocks/site/class-login.php:112
+msgid "Remember Me"
+msgstr ""
+
+#. %1$s expands to the request method
+#: inc/admin/request/class-request.php:103
+#, php-format
+msgid "Request method %1$s is not valid."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:275
+#, php-format
+msgid "Required fiels are marked \"%s\"."
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-rss.php:65
+msgid "RSS Error"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-search.php:78
+#: inc/gutenberg/blocks/widgets/class-search.php:79
+msgid "Search"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:121
+#, php-format
+msgid "Search Results for \"%s\"."
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-archives.php:97
+msgid "Select Day"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-archives.php:94
+msgid "Select Month"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-archives.php:103
+msgid "Select Post"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-archives.php:100
+msgid "Select Week"
+msgstr ""
+
+#: inc/gutenberg/blocks/widgets/class-archives.php:91
+msgid "Select Year"
+msgstr ""
+
+#: inc/support/assets/class-assets.php:91
+msgid "Skip to content"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:93
+msgid "Speak Your Mind"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:131
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: inc/init.php:282
+msgid "The file must be of type CSS/JS."
+msgstr ""
+
+#: inc/admin/class-admin.php:212 inc/admin/class-admin.php:213
+msgid "Theme Options"
+msgstr ""
+
+#: inc/support/starter/content/blog.php:7
+msgctxt "Theme starter content"
+msgid "Blog"
+msgstr ""
+
+#: inc/support/starter/content/about.php:7
+msgctxt "Theme starter content"
+msgid "Features"
+msgstr ""
+
+#: inc/support/starter/content/home.php:7
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr ""
+
+#: inc/support/starter/class-starter.php:112
+msgctxt "Theme starter content"
+msgid "Logo"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-template.php:86
+msgid ""
+"This post is password protected. Enter the password to view comments or "
+"leave a comment."
+msgstr ""
+
+#: views/general/protected.tpl.php:35
+msgid ""
+"This post is password protected. To view this post, enter the password below!"
+msgstr ""
+
+#: views/general/toggler.tpl.php:23
+msgid "Toggle navigation"
+msgstr ""
+
+#: views/general/protected.tpl.php:58
+msgid "Unlock"
+msgstr ""
+
+#: inc/admin/class-activation.php:89
+msgid "upgrade PHP"
+msgstr ""
+
+#: inc/gutenberg/blocks/site/class-login.php:110
+msgid "Username or Email Address"
+msgstr ""
+
+#: inc/support/plugins/cf7/class-cf7.php:71
+#, php-format
+msgid ""
+"We have an extension that integrates our theme with Contact Form 7 plugin! "
+"You can get it (soon) from %s."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:176
+msgid "Website"
+msgstr ""
+
+#. Name of the theme
+#: inc/gutenberg/class-gutenberg.php:82
+msgid "WeCodeArt"
+msgstr ""
+
+#: inc/admin/class-activation.php:86
+#, php-format
+msgid ""
+"WeCodeArt Framework requires PHP version %1$s or higher. You are using "
+"version %2$s. Please %3$s to use WeCodeArt Framework."
+msgstr ""
+
+#: inc/admin/class-activation.php:77
+#, php-format
+msgid ""
+"WeCodeArt Framework requires WordPress version %1$s or higher. You are using "
+"version %2$s. Please upgrade WordPress to use WeCodeArt Framework."
+msgstr ""
+
+#: inc/support/markup/class-svg.php:159
+#, php-format
+msgid ""
+"When adding an SVG Icon with %s you must define `viewBox` and `paths` keys."
+msgstr ""
+
+#: views/admin/notification-locale.tpl.php:25
+msgid ""
+"Would you like to contribute by suggesting some translations? To show how "
+"much I appreciate that I will put your name on an upcoming \"Credits and "
+"Contributors\" special page. It will help both you and your clients. "
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:142
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/gutenberg/blocks/query/class-title.php:141
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: views/admin/notification-locale.tpl.php:32
+msgid "Yes, I would love to!"
+msgstr ""
+
+#: inc/support/plugins/wpseo/class-wpseo.php:75
+msgid ""
+"YoastSEO support is enabled! Our theme works seamlessly with the best SEO "
+"plugin."
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:299
+#, php-format
+msgid "You must accept %s to comment!"
+msgstr ""
+
+#: inc/gutenberg/blocks/comment/class-form.php:272
+msgid "Your email address will not be published."
+msgstr ""

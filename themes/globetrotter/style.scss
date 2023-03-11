@@ -1,0 +1,40 @@
+/*
+Theme Name: Globetrotter
+Theme URI: https://catchthemes.com/themes/globetrotter
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Globetrotter is a free multipurpose photography WordPress block theme for full site editing. This block-based theme comes with incredible features and an attractive design. The theme is perfect for photographers, photo bloggers, freelancers, and other photographic-centric websites. With the full site editing features, you can easily drag and drop the block patterns and customize your site. However, since it is a multipurpose theme, it can be used for various purposes like portfolios, personal blogs, and many more. The theme is specially crafted to showcase photography skills beautifully. There are 15+ block patterns, 11 Templates, and 7 Template Parts available in Globetrotter Pro. The block patterns are 404 Header, About Us, Archive Header, Blog Header, CTA, Featured Content, Footer Default, Footer Three Columns, Grid Blog Post, Header Default, Header Media, Header With Buttons, Hero Content, Logo With No Title, Post Header, Recent Blog With Sidebar, Search Header, Sidebar. All of the block patterns, templates, and template parts are fully customizable, fast loading, and responsive that adapt to all screen sizes. Buy Globetrotter Pro today and showcase your photography to the world!
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: globetrotter
+Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Globetrotter is based on Catch FSE WordPress Theme, 2012-2022 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';

@@ -1,0 +1,243 @@
+/* --- Block Case Study
+-------------------------------------------------------- */
+
+/* --- Block Case Study Videos
+-------------------------------------------------------- */
+
+.wp-block-case-study-videos .wp-block-episode-title > div:first-of-type {
+    gap: 0;
+}
+
+.wp-block-case-study-videos .wp-block-episode-title>div:first-of-type * + * {
+    margin-left: 10px;
+}
+
+.wp-block-case-study-videos h2:not(.has-text-color) {
+    font-size: var(--wp--custom--typography--font-size--heading-four);
+    line-height: var(--wp--custom--typography--line-height--heading-four);
+    margin-top: 18px;
+}
+
+.wp-block-case-study-videos .wp-block-episode-title .wp-block-image img {
+    vertical-align: middle;
+}
+
+.wp-block-case-study-videos .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    margin-left: unset;
+    margin-top: 16px;
+    width: 88px;
+}
+
+.wp-block-case-study-videos .wp-block-episode-title p:not(.has-text-color) {
+    color: var(--wp--preset--color--color-light);;
+    text-transform: uppercase;
+}
+
+.wp-block-case-study-videos .wp-block-cover__inner-container.block-editor-block-list__layout {
+    position: static;
+}
+
+.wp-block-case-study-videos .wp-block-episode-content-container {
+    width: auto;
+    align-items: flex-end;
+}
+
+.wp-block-case-study-videos .wp-block-cover .wp-block-cover__background,
+.wp-block-case-study-videos .wp-block-cover .wp-block-cover__image-background {
+    transition: 0.3s ease-out;
+}
+
+.wp-block-case-study-videos .wp-block-cover:hover .wp-block-cover__background {
+    background-image: linear-gradient(to right, #ea6733, #3fe0b3 99%);
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
+}
+
+.wp-block-case-study-videos .wp-block-cover {
+    overflow: hidden;
+}
+
+.wp-block-case-study-videos .wp-block-cover:hover .wp-block-cover__image-background {
+    transform: scale(1.05);
+}
+
+/* Video Icon */
+.wp-block-case-study-videos .content .video-play svg {
+    display: none;
+}
+
+.wp-block-case-study-videos .content .video-play:before,
+.wp-block-case-study-videos .content .video-play:after {
+    content: "";
+    border: 2px solid var(--wp--preset--color--color-light);
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+}
+
+.wp-block-case-study-videos .content .video-play {
+    background: var(--wp--preset--color--color-light);
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    text-indent: -9999px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.wp-block-case-study-videos .content .video-play:hover {
+    background: var(--wp--preset--color--text-link);
+}
+
+.wp-block-case-study-videos .content .video-play:hover span {
+    border-left-color: var(--wp--preset--color--color-light);
+}
+
+.wp-block-case-study-videos .content .video-play span {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid var(--wp--preset--color--color-dark);
+    border-bottom: 10px solid transparent;
+    margin-top: 0;
+    text-indent: -9999px;
+    padding: 0;
+}
+
+
+/* Hover Annimation */
+.wp-block-case-study-videos .content .video-play:before {
+    border: 2px solid transparent;
+}
+
+.wp-block-case-study-videos .content .video-play:before,
+.wp-block-case-study-videos .content .video-play:after {
+    border-radius: 100%;
+    opacity: 0;
+}
+
+.wp-block-case-study-videos .content .video-play:hover::before {
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+
+.wp-block-case-study-videos .content .video-play:hover::after {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    transform: rotate(270deg);
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s, opacity 0.3s;
+    opacity: 0.8;
+}
+
+/* wp-block-rounded-read-more */
+.wp-block-rounded-read-more {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 35px;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: var(--wp--preset--color--secondary);
+    color: var(--wp--preset--color--foreground);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-size: 2.375rem;
+    padding: 0 0 7px 0;
+    margin: 0;
+    position: relative;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link:before,
+.wp-block-rounded-read-more .wp-block-button__link:after {
+    visibility: visible;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link:after {
+    opacity: 1;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link:after {
+    text-decoration: none;
+    -webkit-animation-name: none;
+    -webkit-animation-duration: none;
+    -webkit-animation-iteration-count: none;
+    -webkit-animation-timing-function: none;
+    -webkit-animation-direction: none;
+}
+
+/* wp-block-rounded-read-more-annimation */
+
+.wp-block-rounded-read-more .wp-block-button__link:before {
+    content: '';
+    background: var(--wp--preset--gradient--horizontal-deep-orange-to-eucalyptus);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 100%;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link:hover:before {
+    opacity: 1;
+}
+
+.wp-block-rounded-read-more .wp-block-button__link:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--wp--preset--color--secondary);
+    left: 0;
+    top: 0;
+    border-radius: 100%;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* For Wp Custom Block - Popup Video Overlay Issues */
+
+.wp-block-case-study-videos .wp-block-cover .wp-block-cover__inner-container {
+    z-index: inherit;
+}
+
+.wp-block-case-study-videos .wp-block-episode-title {
+    position: relative;
+    z-index: 2;
+}
+
+.wp-block-case-study-videos .wp-block-fse-pro-popup-video .content {
+    position: relative;
+}
+

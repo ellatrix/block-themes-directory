@@ -1,0 +1,40 @@
+{
+	"version": 2,
+	"title": "Dark Mode",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#101d2d"
+				},
+				{
+					"name": "Main",
+					"slug": "main",
+					"color": "#fff"
+				},
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#e14eca"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#1d8cf8"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#00f2c3"
+				},
+				{
+					"name": "Orange",
+					"slug": "orange",
+					"color": "#ff8d72"
+				}
+			]
+		}
+	}
+}

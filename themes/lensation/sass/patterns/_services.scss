@@ -1,0 +1,64 @@
+/* --- Service Default
+-------------------------------------------------------- */
+
+.wp-block-columns.service-columns > .wp-block-column {
+  border-radius: 11px;
+  padding-bottom: var(--wp--custom--spacing--wp-post);
+  padding-top: var(--wp--custom--spacing--wp-post);
+  padding-left: var(--wp--custom--spacing--normal);
+  padding-right: var(--wp--custom--spacing--normal);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wp-service-block-columns .wp-block-column > * + * {
+  margin-block-start: 14px;
+  margin-block-end: 0;
+}
+
+.wp-block-columns.wp-service-block-columns {
+  padding-top: 28px;
+  margin-top: 28px;
+  border-top: 1px solid;
+}
+
+.wp-block-columns.wp-service-block-columns:first-child {
+  border: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+.wp-block-columns.wp-service-block-columns:last-child {
+  border: none;
+}
+.service-section .wp-block-media-text__content p a {
+  font-weight: 600;
+}
+
+.wp-block-column
+  > .wp-block-group.cta-horizontal-content.wp-block-group-heading:last-child {
+  margin-bottom: 0;
+}
+
+.wp-service-block-columns h4 {
+  font-size: var(--wp--custom--typography--font-size--heading-five);
+}
+/* --- Service Two
+-------------------------------------------------------- */
+
+.service-two-columns .wp-block-image img {
+  width: 100px;
+  height: 100px;
+}
+
+/* --- Service Three
+-------------------------------------------------------- */
+
+.wp-block-columns.service-three-columns.wp-block-columns > .wp-block-column,
+.wp-block-columns.service-four-columns.wp-block-columns > .wp-block-column {
+  background-color: transparent;
+  padding: 0;
+}
+
+.service-three-columns .wp-block-image {
+  margin-bottom: 0;
+  margin-top: 0;
+}

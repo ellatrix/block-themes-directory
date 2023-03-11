@@ -1,0 +1,139 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Glasgow",
+	"version": 2,
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#000000",
+						"#ffffff"
+					],
+					"slug": "grayscale",
+					"name": "Grayscale"
+				},
+				{
+					"colors": [
+						"#dbd3ce",
+						"#3b2300"
+					],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": [
+						"#dbd3ce",
+						"#d4a72c"
+					],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": [
+						"#3b2300",
+						"#d4a72c"
+					],
+					"slug": "primary-secondary",
+					"name": "Primary and Secondary"
+				},
+				{
+					"colors": [
+						"#13100f",
+						"#3b2300"
+					],
+					"slug": "foreground-primary",
+					"name": "Foreground and Primary"
+				},
+				{
+					"colors": [
+						"#13100f",
+						"#d4a72c"
+					],
+					"slug": "foreground-secondary",
+					"name": "Foreground and Secondary"
+				}
+			],
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#dbd3ce",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#13100f",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#3b2300",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#d4a72c",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#c6b6ac",
+					"name": "Background Alt"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Rubik\", sans-serif",
+					"name": "Rubik",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Rubik",
+							"fontWeight": "300 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./assets/fonts/Rubik/Rubik-VariableFont_wght.woff2"]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
+		}
+	}
+}

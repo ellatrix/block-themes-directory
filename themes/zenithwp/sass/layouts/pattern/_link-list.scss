@@ -1,0 +1,23 @@
+.zenith-link-list {
+
+    li {
+        padding-bottom: 12px;
+        position: relative;
+        list-style: circle;
+        
+        &:not(:first-child) {
+            margin-top: calc(24px/2);
+        }
+        
+        &:not(:last-child):after {
+            content: "";
+            border: 1px solid rgba(95, 92, 92, 0.15);
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+    }
+
+} 

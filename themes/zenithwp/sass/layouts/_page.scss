@@ -1,0 +1,56 @@
+.boxes-the-content {
+    margin-bottom: 48px !important;
+}
+
+.boxes-comments {
+    h3#comments {
+        margin-bottom: 48px !important;
+    }
+}
+
+.page-template-default {
+    .zenithwp-page {
+        .boxes-header {
+            max-height: 224px;
+            .wp-block-cover:first-child {
+                min-height: 224px !important;
+                
+            }
+            .wp-block-cover__background {
+                opacity: 1;
+            }
+            .box-title {
+                max-width: 1280px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    body.page {
+        .box-title {
+            h1 {
+                font-size: 50px !important;
+                line-height: 1em !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body.page {
+        .box-title {
+            h1 {
+                font-size: 38px !important;
+            }
+        }
+
+        .boxes-header {
+            .wp-block-cover {
+                min-height: 194px !important;
+                margin-bottom: 48px !important;
+            }
+        }
+    }
+}

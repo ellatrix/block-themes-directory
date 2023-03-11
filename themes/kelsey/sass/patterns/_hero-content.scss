@@ -1,0 +1,33 @@
+/* --- Block Hero Content
+-------------------------------------------------------- */
+
+.section-heading {
+    max-width: 444px;
+}
+
+.section-content {
+    max-width: 600px;
+    margin-top: var(--wp--custom--spacing--extra-small);
+    margin-bottom: var(--wp--custom--spacing--extra-small);
+}
+
+
+.about-stat > .wp-block-column:not(:first-child) {
+    border-top: 1px solid var(--wp--preset--color--border-color);
+    padding-top: var(--wp--custom--spacing--wp-comment-vertical);
+}
+
+.about-stat-heading {
+    margin-top: 0;
+}
+
+.about-stat-count {
+    font-size: var(--wp--custom--typography--font-size--heading-two);
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-us-columns .wp-block-button__link {
+    margin-top: var(--wp--custom--spacing--wp-comment-vertical);
+}

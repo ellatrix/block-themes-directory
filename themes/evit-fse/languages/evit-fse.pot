@@ -1,0 +1,816 @@
+# Copyright (C) 2023 Eagle Vision IT
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Evit FSE 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/evit-fse\n"
+"POT-Creation-Date: 2023-02-01 10:17:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:24
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/pattern-category.php:20
+msgid "Evit FSE"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:66
+msgid "WooCommerce "
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:71
+msgid "Contact Form 7"
+msgstr ""
+
+#: patterns/404.php:25
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:34
+msgid "We’re sorry, but"
+msgstr ""
+
+#: patterns/404.php:34
+msgid "something went wrong."
+msgstr ""
+
+#: patterns/404.php:42
+msgid "Homepage"
+msgstr ""
+
+#: patterns/about-btn.php:73 patterns/contact.php:24
+#: patterns/footer-default.php:45
+msgid "875-758-7584"
+msgstr ""
+
+#: patterns/about-btn.php:77
+msgid "234 Sample Ave, Sampling,"
+msgstr ""
+
+#: patterns/about-btn.php:77 patterns/footer-default.php:25
+msgid "FL, USA 2345"
+msgstr ""
+
+#: patterns/about-btn.php:81 patterns/footer-default.php:41
+msgid "info@email.com"
+msgstr ""
+
+#: patterns/about.php:14 patterns/services.php:13
+msgid "WHAT WE DO"
+msgstr ""
+
+#: patterns/about.php:18
+msgid "We develop"
+msgstr ""
+
+#: patterns/about.php:18
+msgid "create successful strategy."
+msgstr ""
+
+#: patterns/about.php:29
+msgid "Our area of practice is quite wide: design, graphics, branding. The experts at our web design studio know exactly how to make your project unique."
+msgstr ""
+
+#: patterns/about.php:33
+msgid "Contact us today and get a free trial plan to give a new start to your business, or a personal website!"
+msgstr ""
+
+#: patterns/about.php:47
+msgid "Design"
+msgstr ""
+
+#: patterns/about.php:51 patterns/about.php:69 patterns/about.php:87
+msgid "Consectetur adipiscing elit, sed do eiusm od tempor."
+msgstr ""
+
+#: patterns/about.php:65
+msgid "Branding"
+msgstr ""
+
+#: patterns/about.php:83
+msgid "Development"
+msgstr ""
+
+#: patterns/contact.php:12
+msgid "Contact Details"
+msgstr ""
+
+#: patterns/contact.php:16
+msgid "234 Sample Ave, Sampling, FL, USA 2345"
+msgstr ""
+
+#: patterns/contact.php:20
+msgid "www.example.com"
+msgstr ""
+
+#: patterns/creative.php:29
+msgid "CREATIVE APPROACH"
+msgstr ""
+
+#: patterns/creative.php:33
+msgid "Creative vision and digital experience"
+msgstr ""
+
+#: patterns/creative.php:37
+msgid "For those who love videos, animation and motion graphics, we have come up with a new cool project!"
+msgstr ""
+
+#: patterns/creative.php:42
+msgid "Amazing photo"
+msgstr ""
+
+#: patterns/creative.php:42
+msgid "video galleries"
+msgstr ""
+
+#: patterns/creative.php:46
+msgid "Unlimited sessions"
+msgstr ""
+
+#: patterns/creative.php:50
+msgid "Huge color scheme selection"
+msgstr ""
+
+#: patterns/creative.php:56
+msgid "Service"
+msgstr ""
+
+#: patterns/cta.php:13
+msgid "Save 50%"
+msgstr ""
+
+#: patterns/cta.php:17
+msgid "Shop Our Year End Sale - Up To 50% Off"
+msgstr ""
+
+#: patterns/cta.php:23
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/footer-default.php:11
+msgid "We protect &amp; support"
+msgstr ""
+
+#: patterns/footer-default.php:11
+msgid "your business"
+msgstr ""
+
+#: patterns/footer-default.php:18
+msgid "Address"
+msgstr ""
+
+#: patterns/footer-default.php:25
+msgid "234 Sample Ave, Sampling"
+msgstr ""
+
+#: patterns/footer-default.php:34
+msgid "Say Hello"
+msgstr ""
+
+#: patterns/footer-default.php:53
+msgid "Connect Us"
+msgstr ""
+
+#: patterns/footer-default.php:74
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer-default.php:79
+msgid "Home"
+msgstr ""
+
+#: patterns/footer-default.php:83
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:87
+msgid "Shop"
+msgstr ""
+
+#: patterns/footer-default.php:91
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-default.php:100
+msgid "Copyright © 2023 Evit FSE | Evit FSE by "
+msgstr ""
+
+#: patterns/footer-default.php:100
+msgid "Eagle Vision IT"
+msgstr ""
+
+#: patterns/gallary.php:15 patterns/service-page.php:96
+msgid "High Quality Products"
+msgstr ""
+
+#: patterns/gallary.php:33 patterns/service-page.php:114
+msgid "Brand Strategies"
+msgstr ""
+
+#: patterns/gallary.php:51 patterns/service-page.php:132
+msgid "Your Business Consulting"
+msgstr ""
+
+#: patterns/hero.php:20
+msgid "Ecommerce built to perfection."
+msgstr ""
+
+#: patterns/hero.php:24
+msgid "More than just a reliable "
+msgstr ""
+
+#: patterns/hero.php:24
+msgid "e-commerce platform."
+msgstr ""
+
+#: patterns/hero.php:29
+msgid "Shop Now "
+msgstr ""
+
+#: patterns/idea.php:21
+msgid "Business strategies and top"
+msgstr ""
+
+#: patterns/idea.php:21
+msgid "performance ideas"
+msgstr ""
+
+#: patterns/idea.php:39
+msgid "Profitable Marketing"
+msgstr ""
+
+#: patterns/idea.php:48 patterns/idea.php:92 patterns/service-page.php:37
+msgid "Read More"
+msgstr ""
+
+#: patterns/idea.php:61
+msgid "SEO Specialists"
+msgstr ""
+
+#: patterns/idea.php:65
+msgid "We are extremely proud to offer our clients the cleanest products possible."
+msgstr ""
+
+#: patterns/idea.php:70
+msgid "Read More "
+msgstr ""
+
+#: patterns/idea.php:83
+msgid "Audience Analysis"
+msgstr ""
+
+#: patterns/idea.php:87
+msgid "Defining target audience for selling strategies optimization and better results."
+msgstr ""
+
+#: patterns/latest-posts.php:11
+msgid "RECENT ARTICLES"
+msgstr ""
+
+#: patterns/latest-posts.php:15
+msgid "Our latest articles"
+msgstr ""
+
+#: patterns/latest-posts.php:40
+msgid "More Posts"
+msgstr ""
+
+#: patterns/latest-products.php:13
+msgid "LATEST PRODUCTS"
+msgstr ""
+
+#: patterns/popular-category.php:10
+msgid "POPULAR CATEGORY"
+msgstr ""
+
+#: patterns/popular-category.php:14
+msgid "Clothes For Summer"
+msgstr ""
+
+#: patterns/search.php:13
+msgid "Search Now"
+msgstr ""
+
+#: patterns/service-page.php:22 patterns/service-page.php:53
+msgid "CORPORATE SERVICES"
+msgstr ""
+
+#: patterns/service-page.php:26
+msgid "We protect"
+msgstr ""
+
+#: patterns/service-page.php:26
+msgid "support your business."
+msgstr ""
+
+#: patterns/service-page.php:32
+msgid "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab."
+msgstr ""
+
+#: patterns/service-page.php:57
+msgid "Business strategies"
+msgstr ""
+
+#: patterns/service-page.php:57
+msgid "top performance."
+msgstr ""
+
+#: patterns/service-page.php:68
+msgid "We appreciate your trust greatly! Our clients choose us and our products because they know we’re the best."
+msgstr ""
+
+#: patterns/service-page.php:73
+msgid "Endless Possibilities"
+msgstr ""
+
+#: patterns/service-page.php:77
+msgid "Working Strategies"
+msgstr ""
+
+#: patterns/service-page.php:81
+msgid "Process Optimization"
+msgstr ""
+
+#: patterns/services.php:17
+msgid "The best solutions for your business"
+msgstr ""
+
+#: patterns/services.php:34
+msgid "We do our best to implement your ideas into the project to make it successful and profitable. The choices you make define your achievements."
+msgstr ""
+
+#: patterns/services.php:48
+msgid "Rojer Singh"
+msgstr ""
+
+#: patterns/services.php:52
+msgid "CEO Director"
+msgstr ""
+
+#: patterns/services.php:60
+msgid "We can help you establish new company goals, create growth strategies, choose a product roadmap, or schedule your decisions."
+msgstr ""
+
+#: patterns/services.php:64
+msgid "Competence, dependability, honesty, and integrity best describe our workers and establish our business brand."
+msgstr ""
+
+#: patterns/services.php:70
+msgid "Disruptive technology and digitalization trends are enabling businesses to change the way they do business."
+msgstr ""
+
+#: patterns/services.php:74
+msgid "Existing business models are being fundamentally altered by the digital economys growing interconnection of people and things."
+msgstr ""
+
+#: patterns/team.php:13
+msgid "OUR TEAM"
+msgstr ""
+
+#: patterns/team.php:17
+msgid "Meet our team"
+msgstr ""
+
+#: patterns/team.php:21
+msgid "Introducing our group of experienced and competent specialists, who are prepared to boost your output and elevate your companys sustainability and efficiency to new heights."
+msgstr ""
+
+#: patterns/team.php:26
+msgid "Our Team"
+msgstr ""
+
+#: patterns/team.php:30
+msgid "Video Presentation"
+msgstr ""
+
+#: patterns/team.php:42
+msgid "Olivia Dowson"
+msgstr ""
+
+#: patterns/team.php:46
+msgid "Wordpress Specialist"
+msgstr ""
+
+#: patterns/team.php:56
+msgid "Charlotte Jones"
+msgstr ""
+
+#: patterns/team.php:60
+msgid "Creative Designer"
+msgstr ""
+
+#: patterns/top-rated-products.php:13
+msgid "TOP RATED PRODUCTS"
+msgstr ""
+
+#: patterns/top-rated-products.php:17
+msgid "Women Collection"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Evit FSE"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.eaglevisionit.com/downloads/evit-fse"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "EVIT FSE is a block-based WooCommerce-compatible theme with dedicated support,flexible customization options,font and color control,and pre-made demos for various industries. A real demo is available at the provided link: https://demos.eaglevisionit.com/evit-fse"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eagle Vision IT"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.eaglevisionit.com"
+msgstr ""

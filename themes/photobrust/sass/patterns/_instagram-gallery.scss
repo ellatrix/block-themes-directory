@@ -1,0 +1,60 @@
+/* --- Block Instagram Gallery
+-------------------------------------------------------- */
+.wp-block-section {
+    .catch-instagram-feed-gallery-widget-wrapper {
+        margin-top: 0;
+        ul {
+            padding: 0;
+        }
+    }
+
+    &.instagram-gallery-section {
+        .wp-block-group.alignfull {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+/* Editor Styles */
+.is-root-container .instagram-gallery-section .catch-instagram-feed-gallery-widget-image-wrapper ul {
+    float: none;
+    clear: both;
+    box-sizing: border-box;
+    margin: 0;
+    li {
+        max-width: 16.66%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        list-style: none;
+        box-sizing: border-box;
+        display: inline-block;
+    
+        a.pretty {
+    
+            img {
+                width: 100%;
+            }
+    
+            span.cifgw-overlay {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        a.insta-link {
+            height: 35px;
+            bottom: 12px;
+            color: transparent;
+            position: absolute;
+            right: 12px;
+            text-decoration: none;
+            box-shadow: none;
+        }
+    }
+}

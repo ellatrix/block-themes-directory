@@ -1,0 +1,26 @@
+/*!
+Theme Name: Kaneshon
+Theme URI: https://www.cssigniter.com/themes/kaneshon/
+Author: CSSIgniter Team
+Author: The CSSIgniter Team
+Description: Kaneshon is a clean and elegant WordPress theme designed specifically for the new Full Site Editing experience. Through the new Site Editor you can not only customize site colors and typography but also the entire layout including the header, footer and page and post templates. Kaneshon locally hosts 10 popular Google Font families to give you flexible typography while remaining GPDR compliant. It also comes with three custom block patterns for hero sections, post queries and social engagement.
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 7.2
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kaneshon
+Tags: custom-colors, custom-menu, custom-logo, editor-style, grid-layout, one-column, featured-images, full-site-editing, block-patterns, sticky-post, wide-blocks, block-styles, template-editing, full-width-template, blog, news, portfolio
+*/
+
+/* Theme Block Styles
+======================= */
+
+/* -------------------------
+Core Group
+------------------------- */
+.is-style-kaneshon-frontpage-container {
+	--wp--custom--spacing--block-gap: var(--wp--custom--spacing--frontpage-gap);
+}
+

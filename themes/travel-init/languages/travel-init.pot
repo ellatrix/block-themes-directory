@@ -1,0 +1,1041 @@
+# <!=Copyright (C) 2023 WEN Solutions
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Init 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-07 07:12:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WEN Solutions <info@wensolutions.com>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../travel-init\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: patterns/homepage-three.php:84
+msgid "500"
+msgstr ""
+
+#: patterns/homepage-three.php:74
+msgid "3000"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Travel Init"
+msgstr ""
+
+#: functions.php:47
+msgid "Homepage Patterns"
+msgstr ""
+
+#: functions.php:52
+msgid "Navigation Patterns"
+msgstr ""
+
+#: patterns/about-us.php:15
+msgid "Who We Are"
+msgstr ""
+
+#: patterns/about-us.php:33
+msgid "About"
+msgstr ""
+
+#: patterns/about-us.php:37
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout. The point of using "
+"Lorem Ipsum is that it has a more-or-less normal distribution of letters, "
+"as opposed to using Content here, content here, making it look like "
+"readable English. Many desktop publishing packages and web page editors now "
+"use Lorem Ipsum as their default model text, and a search for lorem ipsum "
+"will uncover many web sites still in their infancy. Various versions have "
+"evolved over the years, sometimes by accident, sometimes on purpose "
+"(injected humour and the like)."
+msgstr ""
+
+#: patterns/about-us.php:43 patterns/boudha.php:42 patterns/swyambhu.php:55
+msgid "Learn more"
+msgstr ""
+
+#: patterns/blog.php:23
+msgid "Blog Page"
+msgstr ""
+
+#: patterns/blog.php:57 patterns/contact-booknow.php:14
+msgid "Are you lost? We are here to help"
+msgstr ""
+
+#: patterns/blog.php:63 patterns/contact-booknow.php:18
+msgid "Contact WenSolutions for the enquiry"
+msgstr ""
+
+#: patterns/blog.php:76 patterns/contact-booknow.php:23 patterns/contact.php:21
+#: patterns/homepage-one.php:281 patterns/homepage-one.php:294
+#: patterns/homepage-three.php:448
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/book-now.php:21
+msgid "Book Your Tour Now"
+msgstr ""
+
+#: patterns/book-now.php:33
+msgid ""
+"Reserving a table beforehand means less waiting. Groups of 8 or more must "
+"reserve ahead of time."
+msgstr ""
+
+#: patterns/book-now.php:47
+msgid "Book now"
+msgstr ""
+
+#: patterns/boudha.php:23
+msgid "Boudhanath Stupa"
+msgstr ""
+
+#: patterns/boudha.php:32 patterns/pashupathinath.php:33
+#: patterns/swyambhu.php:43
+msgid ""
+"Pashupatinath Temple is a Hindu temple dedicated to Lord Shiva, and is "
+"located in Kathmandu, Nepal. This temple was classified as a World Heritage "
+"Site in 1979."
+msgstr ""
+
+#: patterns/contact-form.php:17
+msgid "Are you "
+msgstr ""
+
+#: patterns/contact-form.php:17
+msgid "planning"
+msgstr ""
+
+#: patterns/contact-form.php:17
+msgid "something"
+msgstr ""
+
+#: patterns/contact-form.php:17
+msgid "special?"
+msgstr ""
+
+#: patterns/contact-form.php:24
+msgid "Here you go..."
+msgstr ""
+
+#: patterns/contact-form.php:54
+msgid "Send"
+msgstr ""
+
+#: patterns/herobanner-one.php:18
+msgid "Collects Moments"
+msgstr ""
+
+#: patterns/herobanner-one.php:18
+msgid "Not Things"
+msgstr ""
+
+#: patterns/herobanner-one.php:29
+msgid "Call Us"
+msgstr ""
+
+#: patterns/herobanner-one.php:35 patterns/herobanner.php:32
+msgid "Explore"
+msgstr ""
+
+#: patterns/herobanner.php:25
+msgid "Explore beautiful"
+msgstr ""
+
+#: patterns/herobanner.php:25
+msgid "nature of Nepal"
+msgstr ""
+
+#: patterns/homepage-one.php:17 patterns/homepage-one.php:285
+msgid "Travel to the most beautiful"
+msgstr ""
+
+#: patterns/homepage-one.php:17 patterns/homepage-one.php:285
+msgid "places in the world"
+msgstr ""
+
+#: patterns/homepage-one.php:22
+msgid "Explore Tour"
+msgstr ""
+
+#: patterns/homepage-one.php:41
+msgid "About US"
+msgstr ""
+
+#: patterns/homepage-one.php:45
+msgid "Explore All Corners of The World With Us"
+msgstr ""
+
+#: patterns/homepage-one.php:49 patterns/homepage-one.php:200
+#: patterns/homepage-three.php:452
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+msgstr ""
+
+#: patterns/homepage-one.php:53 patterns/homepage-three.php:432
+msgid ""
+"A small river named Duden flows by their place and supplies it with the "
+"necessary regelialia. It is a paradisematic country, in which roasted parts "
+"of sentences fly into your mouth."
+msgstr ""
+
+#: patterns/homepage-one.php:58 patterns/homepage-three.php:30
+msgid "Read More"
+msgstr ""
+
+#: patterns/homepage-one.php:75 patterns/our-services.php:12
+#: patterns/services.php:14
+msgid "Our Services"
+msgstr ""
+
+#: patterns/homepage-one.php:79
+msgid "What We do"
+msgstr ""
+
+#: patterns/homepage-one.php:92 patterns/homepage-one.php:102
+#: patterns/homepage-one.php:114 patterns/homepage-one.php:124
+msgid "Easy"
+msgstr ""
+
+#: patterns/homepage-one.php:92 patterns/homepage-one.php:102
+#: patterns/homepage-one.php:114 patterns/homepage-one.php:124
+msgid "Free Transport"
+msgstr ""
+
+#: patterns/homepage-one.php:96 patterns/homepage-one.php:118
+#: patterns/homepage-one.php:128 patterns/homepage-one.php:235
+#: patterns/homepage-one.php:251 patterns/homepage-one.php:267
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts."
+msgstr ""
+
+#: patterns/homepage-one.php:106
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. "
+msgstr ""
+
+#: patterns/homepage-one.php:139 patterns/homepage-one.php:179
+msgid "Travel Around The World"
+msgstr ""
+
+#: patterns/homepage-one.php:143
+msgid "Popular Destination"
+msgstr ""
+
+#: patterns/homepage-one.php:151 patterns/homepage-one.php:159
+#: patterns/homepage-one.php:167
+msgid "Italy"
+msgstr ""
+
+#: patterns/homepage-one.php:183
+msgid "Popular Trip"
+msgstr ""
+
+#: patterns/homepage-one.php:192
+msgid "Travel Story"
+msgstr ""
+
+#: patterns/homepage-one.php:196
+msgid "Travel Video"
+msgstr ""
+
+#: patterns/homepage-one.php:215
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/homepage-one.php:219
+msgid "What People Tell About Us"
+msgstr ""
+
+#: patterns/homepage-one.php:231 patterns/homepage-one.php:247
+#: patterns/homepage-one.php:263
+msgid "Jhon Denvar"
+msgstr ""
+
+#: patterns/homepage-one.php:289
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Far far away, behind the word "
+"mountains, far from the countries Vokalia and Consonantia, there live the "
+"blind texts. Far far away, behind the word mountains, far from the "
+"countries Vokalia and Consonantia, there live the blind texts."
+msgstr ""
+
+#: patterns/homepage-one.php:311
+msgid "Latest Blog"
+msgstr ""
+
+#: patterns/homepage-one.php:315
+msgid "Travel Blogs"
+msgstr ""
+
+#: patterns/homepage-three.php:17
+msgid "Mountain View"
+msgstr ""
+
+#: patterns/homepage-three.php:21
+msgid "Explore the amazing beauty of great mountain"
+msgstr ""
+
+#: patterns/homepage-three.php:26
+msgid "Explore Now"
+msgstr ""
+
+#: patterns/homepage-three.php:54
+msgid "Make Your Tour Memorable and Safe With Us"
+msgstr ""
+
+#: patterns/homepage-three.php:58
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language "
+"ocean.Far far away, behind the word mountains, far from the countries "
+"Vokalia and Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language ocean. "
+"A small river named Duden flows by their place and supplies it with the "
+"necessary regelialia."
+msgstr ""
+
+#: patterns/homepage-three.php:68
+msgid "Successful Tours"
+msgstr ""
+
+#: patterns/homepage-three.php:78
+msgid "Happy Tourist"
+msgstr ""
+
+#: patterns/homepage-three.php:88
+msgid "Place Explored"
+msgstr ""
+
+#: patterns/homepage-three.php:100
+msgid "Popular Places To Visit"
+msgstr ""
+
+#: patterns/homepage-three.php:112 patterns/homepage-three.php:144
+msgid "Nepal"
+msgstr ""
+
+#: patterns/homepage-three.php:116 patterns/homepage-three.php:132
+#: patterns/homepage-three.php:148
+msgid "( 8 package )"
+msgstr ""
+
+#: patterns/homepage-three.php:159
+msgid "Hot Tour Packages"
+msgstr ""
+
+#: patterns/homepage-three.php:167
+msgid "Thailand Tour Package"
+msgstr ""
+
+#: patterns/homepage-three.php:171 patterns/homepage-three.php:207
+#: patterns/homepage-three.php:227
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language ocean. "
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+msgstr ""
+
+#: patterns/homepage-three.php:176 patterns/homepage-three.php:212
+#: patterns/homepage-three.php:232
+msgid "Book Now"
+msgstr ""
+
+#: patterns/homepage-three.php:203
+msgid "Nepal Tour Package "
+msgstr ""
+
+#: patterns/homepage-three.php:223
+msgid "England Tour Package"
+msgstr ""
+
+#: patterns/homepage-three.php:252
+msgid "Popular Trips"
+msgstr ""
+
+#: patterns/homepage-three.php:262
+msgid "Winter Vacation Offer !! Hurry Up"
+msgstr ""
+
+#: patterns/homepage-three.php:266
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language ocean. "
+"A small river named Duden flows by their place and supplies it with the "
+"necessary regelialia."
+msgstr ""
+
+#: patterns/homepage-three.php:271
+msgid "Grab Now"
+msgstr ""
+
+#: patterns/homepage-three.php:280
+msgid "Travel Memories"
+msgstr ""
+
+#: patterns/homepage-three.php:310
+msgid "What Our Customer Tell About Us"
+msgstr ""
+
+#: patterns/homepage-three.php:320 patterns/homepage-three.php:334
+#: patterns/homepage-three.php:348
+msgid ""
+"\"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout. The point of using "
+"Lorem Ipsum is that it has a more-or-less normal distribution"
+msgstr ""
+
+#: patterns/homepage-three.php:320 patterns/homepage-three.php:334
+#: patterns/homepage-three.php:348
+msgid "\""
+msgstr ""
+
+#: patterns/homepage-three.php:324 patterns/homepage-three.php:338
+#: patterns/homepage-three.php:352
+msgid "- Corey tyler"
+msgstr ""
+
+#: patterns/homepage-three.php:371
+msgid "Trekking"
+msgstr ""
+
+#: patterns/homepage-three.php:375 patterns/homepage-three.php:389
+#: patterns/homepage-three.php:405 patterns/homepage-three.php:419
+msgid ""
+"A small river named Duden flows by their place and supplies it with the "
+"necessary"
+msgstr ""
+
+#: patterns/homepage-three.php:385
+msgid "Bungy"
+msgstr ""
+
+#: patterns/homepage-three.php:401
+msgid "Jungle Safari"
+msgstr ""
+
+#: patterns/homepage-three.php:415
+msgid "Activities"
+msgstr ""
+
+#: patterns/homepage-three.php:428
+msgid "Its time to start your adventure"
+msgstr ""
+
+#: patterns/homepage-three.php:436
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia, there live the blind texts. Separated they live in "
+"Bookmarksgrove right at the coast of the Semantics, a large language ocean. "
+"A small river named Duden flows by their place and supplies it with the "
+"necessary regelialia.<br><br>Far far away, behind the word mountains, far "
+"from the countries Vokalia and Consonantia, there live the blind texts. "
+"Separated they live in Bookmarksgrove right at the coast of the Semantics, "
+"a large language ocean. A small river named Duden flows by their place and "
+"supplies it with the necessary regelialia."
+msgstr ""
+
+#: patterns/homepage-three.php:457
+msgid "Contact US"
+msgstr ""
+
+#: patterns/homepage-three.php:465
+msgid "Email"
+msgstr ""
+
+#: patterns/homepage-three.php:469
+msgid "example@mail.com"
+msgstr ""
+
+#: patterns/homepage-three.php:475
+msgid "Contact Number"
+msgstr ""
+
+#: patterns/homepage-three.php:479
+msgid "+977 9874561230"
+msgstr ""
+
+#: patterns/homepage-three.php:487
+msgid "Address"
+msgstr ""
+
+#: patterns/homepage-three.php:491
+msgid "Location, Abc, Nepal"
+msgstr ""
+
+#: patterns/homepage-three.php:497
+msgid "Fax"
+msgstr ""
+
+#: patterns/homepage-three.php:501
+msgid "555-123-4567"
+msgstr ""
+
+#: patterns/homepage-three.php:552
+msgid "Recent Travel Post"
+msgstr ""
+
+#: patterns/homepage-two.php:32
+msgid "Travel init"
+msgstr ""
+
+#: patterns/homepage-two.php:36
+msgid "The Full SITE EDITING"
+msgstr ""
+
+#: patterns/homepage-two.php:36
+msgid "THEME"
+msgstr ""
+
+#: patterns/homepage-two.php:40
+msgid ""
+"Travel Init  the Site Editor theme that provides a comprehensive solution "
+"for Tour/Travel"
+msgstr ""
+
+#: patterns/homepage-two.php:45
+msgid "Learn More"
+msgstr ""
+
+#: patterns/homepage-two.php:274
+msgid "Gallery Of our Traveling Adventure"
+msgstr ""
+
+#: patterns/homepage-two.php:334
+msgid "View More"
+msgstr ""
+
+#: patterns/lumbini.php:24
+msgid "Lord Buddha Birth Place"
+msgstr ""
+
+#: patterns/lumbini.php:33
+msgid ""
+"Lumbini is one of the district of nepal. it is also the place know as birth "
+"place of the founder of one of the oldest religion of the world that is "
+"buddhism."
+msgstr ""
+
+#: patterns/lumbini.php:43 patterns/pashupathinath.php:43
+#: patterns/services.php:49
+msgid "See More"
+msgstr ""
+
+#: patterns/our-services.php:23
+msgid "transportation"
+msgstr ""
+
+#: patterns/our-services.php:27 patterns/our-services.php:41
+#: patterns/our-services.php:55 patterns/our-services.php:71
+#: patterns/our-services.php:85 patterns/our-services.php:99
+msgid "Lorem Ipsum"
+msgstr ""
+
+#: patterns/our-services.php:27
+msgid ""
+"is simply dummy text of the printing and typesetting industry. Lorem Ipsum "
+"has been the industrys standard"
+msgstr ""
+
+#: patterns/our-services.php:37
+msgid "services"
+msgstr ""
+
+#: patterns/our-services.php:41 patterns/our-services.php:55
+#: patterns/our-services.php:71 patterns/our-services.php:85
+#: patterns/our-services.php:99
+msgid ""
+"is simply dummy text of the printing and typesetting industry. Lorem Ipsum "
+"has been the industry standard"
+msgstr ""
+
+#: patterns/our-services.php:51
+msgid "AdvanceBooking"
+msgstr ""
+
+#: patterns/our-services.php:67
+msgid "SortHotels"
+msgstr ""
+
+#: patterns/our-services.php:81
+msgid "AirConditions"
+msgstr ""
+
+#: patterns/our-services.php:95
+msgid "Catering"
+msgstr ""
+
+#: patterns/pashupathinath.php:24
+msgid "Pashupatinath Temple"
+msgstr ""
+
+#: patterns/section-banner.php:23
+msgid "Get Latest Of Travel Init"
+msgstr ""
+
+#: patterns/services.php:24 patterns/services.php:28
+msgid "Transportation"
+msgstr ""
+
+#: patterns/services.php:28
+msgid ""
+"the movement of goods and persons from place to place and the various means "
+"by which such movement is accomplished. The growth of the ability—and the "
+"need—to transport"
+msgstr ""
+
+#: patterns/services.php:38
+msgid "Tour Guide"
+msgstr ""
+
+#: patterns/services.php:42
+msgid "Tour guides"
+msgstr ""
+
+#: patterns/services.php:42
+msgid ""
+"ensure that itineraries are met and that customers are being informed in an "
+"entertaining manner the location they are touring"
+msgstr ""
+
+#: patterns/services.php:42
+msgid ""
+"They are also responsible for ensuring the safety of the group and ensuring "
+"that tour groups remain together."
+msgstr ""
+
+#: patterns/swyambhu.php:33
+msgid "Swyambhunath Stupa"
+msgstr ""
+
+#: patterns/trip-list.php:15
+msgid "All Available Trip"
+msgstr ""
+
+#: patterns/trip-search.php:15
+msgid "FIND YOUR PERFECT TOUR WITH YOUR PREFERENCES !!"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:330
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:332
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:370
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:386
+#: tgm-plugin/class-tgm-plugin-activation.php:827
+#: tgm-plugin/class-tgm-plugin-activation.php:2533
+#: tgm-plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:387
+#: tgm-plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:388
+#: tgm-plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:390
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:392
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:394
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:934
+#: tgm-plugin/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3509
+#: tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3509
+#: tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm-plugin/tgmpa-hook.php:66
+msgid "WP Travel"
+msgstr ""
+
+#: tgm-plugin/tgmpa-hook.php:71
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel Init is the  Full Site Editor theme that provides a comprehensive "
+"solution for your Tour/Travel and blogging website. It is suitable for any "
+"kind of blog niches: personal, corporate, fashion, food, lifestyle, travel, "
+"news, affiliate, etc.It is fast, light-weighted. travel-init uses available "
+"Gutenberg blocks and makes the experience seamless. Responsive and clean "
+"design provides great readability on any screen size and hence engages your "
+"readers to your content. CHECK OUT THE DEMO SITES HERE: "
+"https://demo.wensolutions.com/travel-init/ | CONTACT FOR SUPPORT: "
+"https://wensolutions.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WEN Solutions"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wensolutions.com/"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:1121
+#: tgm-plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm-plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

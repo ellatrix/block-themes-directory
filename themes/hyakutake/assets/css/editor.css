@@ -1,0 +1,12 @@
+:root {
+    --hyakutake-pro: #8B8000;
+  }
+  
+.block-editor-block-icon svg.hyakutake-icon {
+    fill: var( --hyakutake-pro );
+}
+
+.editor-block-list-item-hyakutake-pro-header-social .dashicon,
+.editor-block-list-item-hyakutake-pro-header-search .dashicon {
+    color: var( --hyakutake-pro );
+}

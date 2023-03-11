@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "ona";
+	src: url("../fonts/icons/ona.ttf?tk3ovz") format("truetype"),
+		url("../fonts/icons/ona.woff?tk3ovz") format("woff"),
+		url("../fonts/icons/ona.svg?tk3ovz#ona") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="ona-icon-"],
+[class*=" ona-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "ona" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ona-icon-heart-empty:before {
+	content: "\e90a";
+}
+.ona-icon-heart-solid:before {
+	content: "\e90b";
+}
+.ona-icon-email:before {
+	content: "\e90c";
+}
+.ona-icon-whatsapp:before {
+	content: "\e90d";
+}
+.ona-icon-pinterest:before {
+	content: "\e90e";
+}
+.ona-icon-twitter:before {
+	content: "\e90f";
+}
+.ona-icon-facebook:before {
+	content: "\e910";
+}
+.ona-icon-check:before {
+	content: "\e911";
+}
+.ona-icon-heart:before {
+	content: "\e913";
+}
+.ona-icon-full-size:before {
+	content: "\e912";
+}
+.ona-icon-chevron-down:before {
+	content: "\e900";
+}
+.ona-icon-chevron-left:before {
+	content: "\e901";
+}
+.ona-icon-chevron-right:before {
+	content: "\e902";
+}
+.ona-icon-chevron-up:before {
+	content: "\e903";
+}
+.ona-icon-paperclip:before {
+	content: "\e909";
+}
+.ona-icon-search:before {
+	content: "\e905";
+}
+.ona-icon-cart:before {
+	content: "\e906";
+}
+.ona-icon-user:before {
+	content: "\e908";
+}
+.ona-icon-close:before {
+	content: "\e907";
+}

@@ -1,0 +1,112 @@
+{
+        "version": 2,
+	"title": "Pinku",
+        "settings": {
+                "color": {
+			"duotone": [
+				{
+					"colors": [
+						"#003353",
+						"#92CCFF"
+					],
+					"slug": "primary-and-secondary",
+					"name": "Primary and Secondary"
+				},
+				{
+					"colors": [
+						"#233240",
+						"#B8C8DA"
+					],
+					"slug": "tertiary-and-quarternary",
+					"name": "Tertiary and Quarternary"
+				},
+				{
+					"colors": [
+						"#382A4A",
+						"#D2BFE6"
+					],
+					"slug": "quinary-and-senary",
+					"name": "Quinary and Senary"
+				},
+				{
+					"colors": [
+						"#1b1b1f",
+						"#ffffff"
+					],
+					"slug": "foreground-and-background",
+					"name": "Foreground and background"
+				},
+				{
+					"colors": [
+						"#ffffff",
+						"#FBFCFF"
+					],
+					"slug": "background-and-background-alt",
+					"name": "Background and Background Alt"
+				}
+			],
+                        "palette": [
+                                {
+                                        "slug": "primary",
+                                        "color": "#5F1129",
+                                        "name": "Accent 1"
+                                },
+                                {
+                                        "slug": "secondary",
+                                        "color": "#FFB2C1",
+                                        "name": "Accent 2"
+                                },
+                                {
+                                        "slug": "tertiary",
+                                        "color": "#E4BDC2",
+                                        "name": "Accent 3"
+                                },
+                                {
+                                        "slug": "quarternary",
+                                        "color": "#43292E",
+                                        "name": "Accent 4"
+                                },
+                                {
+                                        "slug": "quinary",
+                                        "color": "#EABE90",
+                                        "name": "Accent 5"
+                                },
+                                {
+                                        "slug": "senary",
+                                        "color": "#452B08",
+                                        "name": "Accent 6"
+                                },
+                                {
+                                        "slug": "foreground",
+                                        "color": "#1b1b1f",
+                                        "name": "Contrast"
+                                },
+				{
+					"slug": "foreground-alt",
+					"color": "#75767c",
+					"name": "Contrast 2"
+				},
+                                {
+                                        "slug": "background",
+                                        "color": "#ffffff",
+                                        "name": "Base"
+                                },
+                                {
+                                        "slug": "background-alt",
+                                        "color": "#e7e7e9",
+                                        "name": "Base 2"
+                                },
+                                {
+                                        "slug": "accent",
+                                        "color": "var(--wp--custom--color--accent)",
+                                        "name": "Accent"
+                                }
+                        ]
+                },
+                "custom": {
+                        "color": {
+                                "hero-text": "var(--wp--custom--color--accent-alt)"
+                        }
+                }
+        }
+}

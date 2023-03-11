@@ -1,0 +1,504 @@
+# <!=Copyright (C) 2022 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Shoplaza\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2022-12-16 21:01-0800\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:19 inc/about.php:98
+msgid "Shoplaza Pro"
+msgstr ""
+
+#: inc/about.php:20
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"44+ Pre-Designed Block Patterns and 10+ Custom Blocks that are highly "
+"customizable and fully responsive."
+msgstr ""
+
+#: inc/about.php:22
+msgid "Get Shoplaza Pro"
+msgstr ""
+
+#: inc/about.php:24 inc/about.php:403
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:49 inc/about.php:97 inc/block-patterns.php:18
+msgid "Shoplaza"
+msgstr ""
+
+#: inc/about.php:68
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Getting Started with Shoplaza!"
+msgstr ""
+
+#: inc/about.php:77
+msgid ""
+"Awesome! Shoplaza has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in "
+"this astounding theme."
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:84
+msgid "More Features with Shoplaza Pro Theme"
+msgstr ""
+
+#: inc/about.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you "
+"activate the Shoplaza Pro. With the pro theme installed, get more options, "
+"blocks, block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:86
+msgid "Buy Shoplaza Pro"
+msgstr ""
+
+#: inc/about.php:92
+msgid "Compare Free Vs Pro"
+msgstr ""
+
+#: inc/about.php:96
+msgid "Features"
+msgstr ""
+
+#: inc/about.php:103
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/about.php:108
+msgid "Super Easy Setup"
+msgstr ""
+
+#: inc/about.php:113
+msgid "Color Options"
+msgstr ""
+
+#: inc/about.php:118
+msgid "Block : Case Study"
+msgstr ""
+
+#: inc/about.php:123
+msgid "Block : Skills Bar"
+msgstr ""
+
+#: inc/about.php:128
+msgid "Block : Masonry"
+msgstr ""
+
+#: inc/about.php:133
+msgid "Block : Popup Video"
+msgstr ""
+
+#: inc/about.php:138
+msgid "Block : Header Search "
+msgstr ""
+
+#: inc/about.php:143
+msgid "Block : Header Social"
+msgstr ""
+
+#: inc/about.php:148
+msgid "Block : Icons"
+msgstr ""
+
+#: inc/about.php:153
+msgid "Block : Date"
+msgstr ""
+
+#: inc/about.php:158
+msgid "Block : Slider"
+msgstr ""
+
+#: inc/about.php:163
+msgid "Block : Tabs"
+msgstr ""
+
+#: inc/about.php:168
+msgid "Block : Playlist "
+msgstr ""
+
+#: inc/about.php:173
+msgid "404 Header"
+msgstr ""
+
+#: inc/about.php:178
+msgid "Archive Header"
+msgstr ""
+
+#: inc/about.php:183
+msgid "Archive Post Header"
+msgstr ""
+
+#: inc/about.php:188
+msgid "Blog Header"
+msgstr ""
+
+#: inc/about.php:193
+msgid "CTA"
+msgstr ""
+
+#: inc/about.php:198
+msgid "Featured Content"
+msgstr ""
+
+#: inc/about.php:203
+msgid "Featued Product Slider"
+msgstr ""
+
+#: inc/about.php:208
+msgid "Featured Product Three Columns"
+msgstr ""
+
+#: inc/about.php:213
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/about.php:218
+msgid "Footer Default"
+msgstr ""
+
+#: inc/about.php:223
+msgid "Footer Four Columns"
+msgstr ""
+
+#: inc/about.php:228
+msgid "Footer Three Columns"
+msgstr ""
+
+#: inc/about.php:233
+msgid "Grid Blog Post"
+msgstr ""
+
+#: inc/about.php:238
+msgid "Header Default"
+msgstr ""
+
+#: inc/about.php:243
+msgid "Header Media"
+msgstr ""
+
+#: inc/about.php:248
+msgid "Header Transparent"
+msgstr ""
+
+#: inc/about.php:253
+msgid "Header With Both Toggle Social and Search"
+msgstr ""
+
+#: inc/about.php:258
+msgid "Header with Buttons"
+msgstr ""
+
+#: inc/about.php:263
+msgid "Header With Cart and Search"
+msgstr ""
+
+#: inc/about.php:268
+msgid "Header With Cart"
+msgstr ""
+
+#: inc/about.php:273
+msgid "Header with Social And Toggle Search"
+msgstr ""
+
+#: inc/about.php:278
+msgid "Hero Content"
+msgstr ""
+
+#: inc/about.php:283
+msgid "Hidden 404"
+msgstr ""
+
+#: inc/about.php:288
+msgid "How it works"
+msgstr ""
+
+#: inc/about.php:293
+msgid "Latest Products"
+msgstr ""
+
+#: inc/about.php:298
+msgid "Logo Slider"
+msgstr ""
+
+#: inc/about.php:303
+msgid "Logo With No Title"
+msgstr ""
+
+#: inc/about.php:308
+msgid "Logo"
+msgstr ""
+
+#: inc/about.php:313
+msgid "Post Header"
+msgstr ""
+
+#: inc/about.php:318
+msgid "Product Category Four Rows"
+msgstr ""
+
+#: inc/about.php:323
+msgid "Product Category Image on Left"
+msgstr ""
+
+#: inc/about.php:328
+msgid "Product Category Image on Right"
+msgstr ""
+
+#: inc/about.php:333
+msgid "Product Category Three Rows"
+msgstr ""
+
+#: inc/about.php:338
+msgid "Product Category Two Rows"
+msgstr ""
+
+#: inc/about.php:343
+msgid "Product Reviews"
+msgstr ""
+
+#: inc/about.php:348
+msgid "Quick Contact Form"
+msgstr ""
+
+#: inc/about.php:353
+msgid "Quick Contact"
+msgstr ""
+
+#: inc/about.php:358
+msgid "Search Header"
+msgstr ""
+
+#: inc/about.php:363
+msgid "Shop Header"
+msgstr ""
+
+#: inc/about.php:368
+msgid "Sidebar Products"
+msgstr ""
+
+#: inc/about.php:373
+msgid "Stats"
+msgstr ""
+
+#: inc/about.php:378
+msgid "Subscribe"
+msgstr ""
+
+#: inc/about.php:383
+msgid "Testimonials"
+msgstr ""
+
+#: inc/about.php:388
+msgid "Woocommerce Features"
+msgstr ""
+
+#: inc/about.php:402
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:404
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:405
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:406
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:407
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:414
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:415
+msgid ""
+"Loved Shoplaza? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:416
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/block-styles.php:44 inc/block-styles.php:62 inc/block-styles.php:71
+#: inc/block-styles.php:80 inc/block-styles.php:89 inc/block-styles.php:99
+#: inc/block-styles.php:109 inc/block-styles.php:118
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:53
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header.php:22
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header.php:25
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/blog-header.php:22
+msgid "Recent From Blog"
+msgstr ""
+
+#: patterns/cta.php:21
+msgid ""
+"World’s best clothes\n"
+"collections for you."
+msgstr ""
+
+#: patterns/cta.php:25
+msgid ""
+"Unique collections for premium products\n"
+"starting from affordable price."
+msgstr ""
+
+#: patterns/cta.php:33
+msgid "Get Offer"
+msgstr ""
+
+#: patterns/footer-three-columns.php:22
+msgid "about"
+msgstr ""
+
+#: patterns/footer-three-columns.php:25
+msgid ""
+"Commerce WordPress theme with pixel perfect design and extensive functio-"
+"nality to create your very own profess-ional and unique online store."
+msgstr ""
+
+#: patterns/footer-three-columns.php:36
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer-three-columns.php:48 patterns/header-transparent.php:33
+#: patterns/header-with-cart.php:33
+msgid "My Account"
+msgstr ""
+
+#: patterns/header-media.php:20
+msgid "fall-winter Clearance Sales"
+msgstr ""
+
+#: patterns/header-media.php:23
+msgid "All Sale Items are Final Sale / Free Shipping on All Orders"
+msgstr ""
+
+#: patterns/header-media.php:29
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/hidden-404.php:10
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/sidebar-products.php:16 patterns/sidebar.php:27
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar-products.php:26
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/sidebar-products.php:42
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/sidebar-products.php:58
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/sidebar.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus commodo, rhoncus et ante."
+msgstr ""
+
+#: patterns/sidebar.php:35
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/sidebar.php:43
+msgid "Tags"
+msgstr ""
+
+#: patterns/woocommerce-features.php:31
+msgid "Free shipping for"
+msgstr ""
+
+#: patterns/woocommerce-features.php:32
+msgid "order above $200"
+msgstr ""
+
+#: patterns/woocommerce-features.php:57
+msgid "Easy return &amp;"
+msgstr ""
+
+#: patterns/woocommerce-features.php:58
+msgid "refund policy"
+msgstr ""
+
+#: patterns/woocommerce-features.php:83
+msgid "Super fast"
+msgstr ""
+
+#: patterns/woocommerce-features.php:84
+msgid "delivery"
+msgstr ""

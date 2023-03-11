@@ -1,0 +1,29 @@
+@import "header/_headers.scss";
+@import "archive/_archive.scss";
+@import "container/_container_width.scss";
+@import "container/_default-layout.scss";
+@import "container/_content-box-layout.scss";
+@import "container/_box-layout.scss";
+@import "container/_full-width.scss";
+@import "_comment.scss";
+@import "_single.scss";
+@import "_page.scss";
+@import "footer/_footer.scss";
+@import "pattern/_blog_default.scss";
+@import "pattern/_related_posts.scss";
+@import "pattern/_link-list.scss";
+@import "pattern/_4-column-services.scss";
+@import "pattern/_ceo-foreword.scss";
+@import "pattern/_computer-industry.scss";
+@import "pattern/_your-business.scss";
+@import "pattern/_gallery.scss";
+@import "pattern/_our-team.scss";
+@import "pattern/_service-plans.scss";
+
+.wp-site-blocks {
+    padding: 0;
+}
+
+.zenithwp-1200 {
+    width: 1200px;
+}

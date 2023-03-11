@@ -1,0 +1,51 @@
+/* --- Block Featured Content
+-------------------------------------------------------- */
+.featured-content-section {
+    &.style-one {
+        .content-wrapper {
+            margin-top: 0;
+            padding: var(--wp--custom--spacing--section-pricing-content);
+
+            .wp-block-post-date,
+            .wp-block-post-terms {
+                svg.icon {
+                    display: none;
+                }
+                font-size: var(--wp--preset--font-size--tiny);
+                font-weight: var(--wp--custom--typography--font-weight--normal);
+            }
+
+            background-color: var(--wp--preset--color--secondary);
+
+            h2 + .wp-block-group {
+                gap: 0;
+                flex-wrap: wrap;
+
+                .wp-block-post-date + .wp-block-post-terms {
+                    padding-left: 20px;
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        width: 1px;
+                        height: 10px;
+                        left: 10px;
+                        top: 4px;
+                        position: absolute;
+                        background-color: var(--wp--preset--color--border-color-next);
+                    }
+                }
+            }
+        }
+
+        .featured-content-columns {
+            margin-top: var(--wp--custom--spacing--wp-post);
+        }
+    }
+}
+
+.wp-block-section:nth-child(2n + 1).featured-content-section.style-one {
+    .content-wrapper {
+        background-color: var(--wp--preset--color--background);
+    }
+}

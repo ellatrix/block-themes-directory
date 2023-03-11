@@ -1,0 +1,25 @@
+{
+	"version": 2,
+	"title": "Orange",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#B55724"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#efefef"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#B55724"
+				}
+			]
+		}
+	}
+}

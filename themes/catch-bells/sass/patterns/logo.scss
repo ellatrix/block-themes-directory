@@ -1,0 +1,7 @@
+.wp-block-section:not(:nth-of-type(even)).wp-block-logo {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.wp-block-section:last-child.wp-block-logo {
+  border-bottom: none
+}

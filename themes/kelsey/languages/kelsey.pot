@@ -1,0 +1,383 @@
+# <!=Copyright (C) 2022 WEN Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kelsey\n"
+"Report-Msgid-Bugs-To: https://wenthemes.com/contact/\n"
+"POT-Creation-Date: 2022-10-16 00:06-0700\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: WEN Themes <info@wenthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/admin.php:18
+msgid "Kelsey Pro"
+msgstr ""
+
+#: inc/admin/admin.php:19
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"25+ Pre-Designed Block Patterns, 18 Templates and 10 Template Parts that are "
+"highly customizable and fully responsive."
+msgstr ""
+
+#: inc/admin/admin.php:21
+msgid "Get Kelsey Pro"
+msgstr ""
+
+#: inc/admin/admin.php:23
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/admin.php:70
+msgid "Version"
+msgstr ""
+
+#: inc/admin/admin.php:82 inc/admin/admin.php:89
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/admin.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you to "
+"Upgrade to Kelsey Pro"
+msgstr ""
+
+#: inc/admin/admin.php:96
+msgid "Full Site Editing"
+msgstr ""
+
+#: inc/admin/admin.php:99
+msgid ""
+"We have used Full Site Editing which will help you preview your changes live "
+"and fast."
+msgstr ""
+
+#: inc/admin/admin.php:103
+msgid "Use Site Editor"
+msgstr ""
+
+#: inc/admin/admin.php:110
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/admin/admin.php:112
+msgid ""
+"We have prepared detailed theme instructions which will help you to "
+"customize theme as you prefer."
+msgstr ""
+
+#: inc/admin/admin.php:116
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin.php:124
+msgid "Help &amp; Support"
+msgstr ""
+
+#: inc/admin/admin.php:127
+msgid ""
+"If you have any question/feedback regarding theme, please post in our "
+"official support forum."
+msgstr ""
+
+#: inc/admin/admin.php:131
+msgid "Get Support"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Kelsey"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:44
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/patterns/404-header.php:6
+msgid "404 Header"
+msgstr ""
+
+#: inc/patterns/404-header.php:16 inc/patterns/hidden-404.php:9
+msgid "404 Nothing Found"
+msgstr ""
+
+#: inc/patterns/404-header.php:19
+msgid "Oops! That page can’t be found"
+msgstr ""
+
+#: inc/patterns/archive-header-without-bg.php:6
+msgid "Archive Header Without BG"
+msgstr ""
+
+#: inc/patterns/cta-horizontal.php:6
+msgid "CTA Horizontal"
+msgstr ""
+
+#: inc/patterns/cta-horizontal.php:19
+msgid ""
+"Express Your Creativity and Start Bulding\n"
+"\t\t\t\t\t\tYour Design"
+msgstr ""
+
+#: inc/patterns/cta-horizontal.php:32
+msgid "Start A Project"
+msgstr ""
+
+#: inc/patterns/featured-content.php:6 inc/patterns/featured-content.php:20
+msgid "Featured Content"
+msgstr ""
+
+#: inc/patterns/featured-content.php:24
+msgid "Our Most Popular Posts"
+msgstr ""
+
+#: inc/patterns/featured-content.php:37
+msgid "View All Posts"
+msgstr ""
+
+#: inc/patterns/featured-content.php:63
+msgid "Photography Lessons"
+msgstr ""
+
+#: inc/patterns/featured-content.php:67 inc/patterns/featured-content.php:99
+#: inc/patterns/featured-content.php:131
+msgid "Make your photos look brilliant in today’s article we present tips on …"
+msgstr ""
+
+#: inc/patterns/featured-content.php:73 inc/patterns/featured-content.php:105
+#: inc/patterns/featured-content.php:137
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/featured-content.php:95
+msgid "Greek Sculpture"
+msgstr ""
+
+#: inc/patterns/featured-content.php:127
+msgid "Holographic Lenses"
+msgstr ""
+
+#: inc/patterns/footer-contact-info.php:6
+msgid "Footer Contact Info"
+msgstr ""
+
+#: inc/patterns/footer-contact-info.php:21
+msgid "USA"
+msgstr ""
+
+#: inc/patterns/footer-contact-info.php:24
+msgid "621 Hewes Avenue, Lincoln Heights"
+msgstr ""
+
+#: inc/patterns/footer-contact-info.php:27
+msgid "Maryland, 21090"
+msgstr ""
+
+#: inc/patterns/footer-contact-info.php:39
+msgid "(+880) 123 3456 7890"
+msgstr ""
+
+#: inc/patterns/footer-contact-info.php:47
+msgid "info@companyname.com"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:18
+#, php-format
+msgid ". Powered by %s"
+msgstr ""
+
+#: inc/patterns/footer-default.php:19
+msgid "https://wenthemes.com"
+msgstr ""
+
+#: inc/patterns/footer-default.php:19
+msgid "Wen Themes"
+msgstr ""
+
+#: inc/patterns/footer-nav-wide.php:6
+msgid "Footer Nav Wide"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/header-media.php:6
+msgid "Header Media"
+msgstr ""
+
+#: inc/patterns/header-media.php:23
+msgid ""
+"Minimalist\n"
+"\t\t\t\t\t\tat its finest."
+msgstr ""
+
+#: inc/patterns/header-media.php:30
+msgid ""
+"Make your photos look brilliant in today’s article we\n"
+"\t\t\t\t\t\t\tpresent tips on how to use colored lightning in the scenery."
+msgstr ""
+
+#: inc/patterns/header-media.php:39
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/hero-content.php:6
+msgid "Hero Content"
+msgstr ""
+
+#: inc/patterns/hero-content.php:27
+msgid "Design Services"
+msgstr ""
+
+#: inc/patterns/hero-content.php:31
+msgid "We Create Stylish designs."
+msgstr ""
+
+#: inc/patterns/hero-content.php:39
+msgid ""
+"Make your photos look brilliant in today’s article we present tips on how to "
+"use colored\n"
+"\t\t\t\t\t\t\tlightning in the scenery."
+msgstr ""
+
+#: inc/patterns/hero-content.php:51
+msgid "Experience"
+msgstr ""
+
+#: inc/patterns/hero-content.php:55
+msgid "12+"
+msgstr ""
+
+#: inc/patterns/hero-content.php:64
+msgid "Projects"
+msgstr ""
+
+#: inc/patterns/hero-content.php:68
+msgid "1400+"
+msgstr ""
+
+#: inc/patterns/hero-content.php:78
+msgid "Get started"
+msgstr ""
+
+#: inc/patterns/hidden-404-without-title.php:6 inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/hidden-404-without-title.php:9 inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: inc/patterns/post-header-wide-without-bg.php:6
+msgid "Post Header Wide Without BG"
+msgstr ""
+
+#: inc/patterns/post-header-without-bg.php:6
+msgid "Post Header Without BG"
+msgstr ""
+
+#: inc/patterns/recent-blog-with-sidebar.php:6
+msgid "Recent Blog With Sidebar"
+msgstr ""
+
+#: inc/patterns/search-header.php:6
+msgid "Search Header"
+msgstr ""
+
+#: inc/patterns/search-header.php:19
+msgid "Search"
+msgstr ""
+
+#: inc/patterns/search-header.php:19
+msgid "Search...."
+msgstr ""
+
+#: inc/patterns/service.php:6
+msgid "Services"
+msgstr ""
+
+#: inc/patterns/service.php:20
+msgid "UI/UX Design"
+msgstr ""
+
+#: inc/patterns/service.php:24 inc/patterns/service.php:46
+#: inc/patterns/service.php:68
+msgid ""
+"Make your photos look brilliant in today’s article we present tips on how to "
+"use colored …"
+msgstr ""
+
+#: inc/patterns/service.php:30 inc/patterns/service.php:51
+#: inc/patterns/service.php:73
+msgid "Read more"
+msgstr ""
+
+#: inc/patterns/service.php:42
+msgid "Branding"
+msgstr ""
+
+#: inc/patterns/service.php:64
+msgid "E-Commerce"
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/patterns/sidebar.php:13
+msgid "About"
+msgstr ""
+
+#: inc/patterns/sidebar.php:21
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus\n"
+"\t\t\tcommodo, rhoncus et ante."
+msgstr ""
+
+#: inc/patterns/sidebar.php:30
+msgid "Categories"
+msgstr ""
+
+#: inc/patterns/sidebar.php:40
+msgid "Recent Post"
+msgstr ""
+
+#: inc/patterns/sidebar.php:50
+msgid "Tags"
+msgstr ""

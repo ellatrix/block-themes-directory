@@ -1,0 +1,49 @@
+.contact-right-layout {
+  * {
+    font-family: var(--wp--preset--font-family--roboto);
+  }
+  h5 {
+    margin-top: 0;
+  }
+  a {
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0;
+    &:hover,
+    &:focus {
+      &:after {
+        content: none;
+      }
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}
+
+form.wpcf7-form input:not([type="submit"]),
+form.wpcf7-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+p.form-submit.wp-block-button {
+  text-align: center;
+}
+
+.contact-right-layout h2 {
+  margin-bottom: 7px;
+  font-weight: var(--wp--custom--typography--font-weight--normal);
+}
+
+.wpcf7-form p > .wpcf7-submit {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+}

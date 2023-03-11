@@ -1,0 +1,29 @@
+<!-- wp:template-part {"slug":"header","theme":"bergify","tagName":"header"} /-->
+
+<!-- wp:pattern {"slug":"bergify/blog-hero"} /-->
+
+<!-- wp:query {"queryId":2,"query":{"perPage":"12","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"include","inherit":true},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:template-part {"slug":"post","theme":"bergify"} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="has-large-font-size">No posts here. Check out <a href="/blog/">the blog page</a>.</h2>
+<!-- /wp:heading -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
+
+<!-- wp:spacer {"height":"50px"} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:template-part {"slug":"footer","theme":"bergify","tagName":"footer"} /-->

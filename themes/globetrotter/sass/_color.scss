@@ -1,0 +1,102 @@
+/* --- 6
+-------------------------------------------------------- */
+
+
+/* Foreground color */
+ .wp-block-navigation__responsive-container-open,
+ .wp-block-navigation__responsive-container-close,
+ .wp-block-navigation .current-menu-item > .wp-block-navigation-item__content {
+     color: var(--wp--preset--color--foreground);
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link.is-style-outline:not(.has-background):hover {
+    color: var(--wp--preset--color--foreground);
+}
+
+
+/* Primary color */
+.wp-block-section:nth-child(2n-1),
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+     background-color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-section:nth-child(2n-1).wp-block-clients-testimonial .wp-block-testimonial,
+.wp-block-section:nth-child(2n-1).wp-block-feature-content .wp-block-entry-content,
+.wp-block-section:nth-child(2n-1) .service-columns.wp-block-columns>.wp-block-column,
+.wp-block-section:nth-child(2n-1) .wp-block-rounded-read-more .wp-block-button__link,
+.wp-block-section:nth-child(2n-1).wp-block-music-playlist .simple-audio-player {
+    background-color: var(--wp--preset--color--background);
+}
+
+
+/* Wood Smoke color */
+ footer .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+     background-color: var(--wp--preset--color--woodsmoke);
+}
+
+
+/* Secondary Color */
+.wp-block-tag-cloud > a,
+.service-columns.wp-block-columns > .wp-block-column,
+.pricing-columns.wp-block-columns > .wp-block-column {
+    background-color: var(--wp--preset--color--secondary);
+}
+
+/* Body color */
+.wp-block-widget-area .wp-block-latest-posts__post-author,
+.wp-block-widget-area .wp-block-latest-posts__post-date,
+.wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-navigation__responsive-container .wp-block-navigation-link a {
+	color: var(--wp--preset--color--meta);
+}
+
+
+/* Link color */
+a,
+.wp-block-post a,
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.wp-block-post-comments .comment-metadata a,
+.wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor,
+.wp-block-navigation .wp-block-navigation-item__content {
+    &:hover {
+        color: var(--wp--preset--color--foreground);
+    }
+}
+
+.wp-block-testimonial .wp-group-content:before,
+.content > .video-play:hover span {
+    color: var(--wp--preset--color--text-link);
+}
+
+.wp-block-button.is-style-button .wp-block-button__link:hover,
+.wp-block-button.is-style-button .wp-block-button__link:focus {
+    color: var(--wp--preset--color--text-link);
+}
+
+a:hover svg.icon,
+a:focus svg.icon,
+.content > .video-play:hover svg {
+    fill: var(--wp--preset--color--text-link);
+}
+
+
+/* Border Color */
+.wp-block-testimonial .wp-block-separator,
+.wp-block-sidebar .wp-block-latest-posts__list > li:not(:last-child),
+.wp-block-sidebar > * h2 {
+  border-color: var(--wp--preset--color--border-color);
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link.is-style-outline:not(.has-background):hover {
+    border-color: transparent;
+    background-color: var(--wp--preset--color--border-color) !important;
+    opacity: 1;
+}
+
+.wp-block-separator {
+    color: var(--wp--preset--color--border-color);
+}

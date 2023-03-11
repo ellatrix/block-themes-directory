@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Astory\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-26 11:41+0000\n"
+"PO-Revision-Date: 2022-05-26 11:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: astory"
+
+#: patterns/footer-mega.php:40
+msgid "About Us"
+msgstr "हमारे बारे में"
+
+#: patterns/footer-mega.php:48
+msgid "Accessibility"
+msgstr "अभिगम्यता"
+
+#. Description of the theme
+msgid "An block theme, lightweight and easy to use."
+msgstr "एक ब्लॉक विषय, हल्के और प्रयोग करने में आसान । "
+
+#. Name of the theme
+#: inc/block-styles.php:63
+msgid "Astory"
+msgstr "Astory"
+
+#: inc/block-styles.php:80
+msgid "Astory Call To Action"
+msgstr "Astory कार्रवाई के लिए कॉल"
+
+#: inc/block-styles.php:88
+msgid "Astory Clients"
+msgstr "Astory ग्राहकों"
+
+#: inc/block-styles.php:68
+msgid "Astory Footer"
+msgstr "Astory पाद लेख"
+
+#: inc/block-styles.php:72
+msgid "Astory General"
+msgstr "Astory सामान्य"
+
+#: inc/block-styles.php:100
+msgid "Astory Header"
+msgstr "Astory हैडर"
+
+#: inc/block-styles.php:76
+msgid "Astory Hero"
+msgstr "Astory नायक"
+
+#: inc/block-styles.php:104
+msgid "Astory Page"
+msgstr "Astory पृष्ठ"
+
+#: inc/theme-page.php:74
+msgid "Astory plugin"
+msgstr "Astory प्लगइन"
+
+#: inc/theme-page.php:75
+msgid ""
+"Astory plugin is installed and activated. Start using Pro Features Now!!!"
+msgstr ""
+"Astory प्लगइन स्थापित है और सक्रिय है. का उपयोग शुरू प्रो अब सुविधाओं!!!"
+
+#: inc/block-styles.php:92
+msgid "Astory Price"
+msgstr "Astory कीमत"
+
+#: inc/block-styles.php:108
+msgid "Astory Query"
+msgstr "Astory क्वेरी"
+
+#: inc/block-styles.php:96
+msgid "Astory Team Member"
+msgstr "Astory टीम के सदस्य"
+
+#: inc/block-styles.php:84
+msgid "Astory Testimonials"
+msgstr "Astory प्रशंसापत्र"
+
+#: inc/block-styles.php:15 inc/block-styles.php:20 inc/block-styles.php:23
+#: inc/block-styles.php:30
+msgid "Box Shadow"
+msgstr "बॉक्स छाया"
+
+#: inc/block-styles.php:16
+msgid "Box Shadow Solid"
+msgstr "बॉक्स छाया ठोस"
+
+#: patterns/footer-mega.php:46
+msgid "Brand Guide"
+msgstr "ब्रांड गाइड"
+
+#: inc/theme-page.php:68
+msgid "Buy Astory Pro"
+msgstr "खरीदें Astory प्रो"
+
+#. Author of the theme
+msgid "codeclove"
+msgstr "codeclove"
+
+#: patterns/footer-mega.php:72
+msgid "Connect"
+msgstr "कनेक्ट"
+
+#: patterns/footer-three-columns.php:18
+msgid "Contact Us"
+msgstr "हमसे संपर्क करें"
+
+#: patterns/footer-mega.php:62
+msgid "Copywriting"
+msgstr "Copywriting"
+
+#: patterns/general-pricing-four-columns.php:19
+msgid "Create a four-column table"
+msgstr "बनाने के लिए एक चार-स्तंभ टेबल"
+
+#: patterns/general-pricing-three-columns.php:19
+msgid "Create a three-column table"
+msgstr "बनाने के लिए एक तीन कॉलम तालिका"
+
+#: patterns/general-pricing-two-columns.php:19
+msgid "Create a two-column table"
+msgstr "बनाने के लिए एक दो-स्तंभ टेबल"
+
+#: patterns/footer-mega.php:61
+msgid "Development"
+msgstr "विकास"
+
+#: patterns/footer-mega.php:80
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: patterns/general-pricing-four-columns.php:132
+#: patterns/general-pricing-three-columns.php:132
+msgid "Enterprise"
+msgstr "उद्यम"
+
+#: patterns/footer-mega.php:76
+msgid "Facebook"
+msgstr "Facebook"
+
+#: patterns/general-pricing-four-columns.php:35
+#: patterns/general-pricing-four-columns.php:41
+#: patterns/general-pricing-four-columns.php:47
+#: patterns/general-pricing-four-columns.php:53
+#: patterns/general-pricing-four-columns.php:59
+#: patterns/general-pricing-four-columns.php:87
+#: patterns/general-pricing-four-columns.php:93
+#: patterns/general-pricing-four-columns.php:99
+#: patterns/general-pricing-four-columns.php:105
+#: patterns/general-pricing-four-columns.php:111
+#: patterns/general-pricing-four-columns.php:139
+#: patterns/general-pricing-four-columns.php:145
+#: patterns/general-pricing-four-columns.php:151
+#: patterns/general-pricing-four-columns.php:157
+#: patterns/general-pricing-four-columns.php:163
+#: patterns/general-pricing-four-columns.php:191
+#: patterns/general-pricing-four-columns.php:197
+#: patterns/general-pricing-four-columns.php:203
+#: patterns/general-pricing-four-columns.php:209
+#: patterns/general-pricing-four-columns.php:215
+#: patterns/general-pricing-three-columns.php:35
+#: patterns/general-pricing-three-columns.php:41
+#: patterns/general-pricing-three-columns.php:47
+#: patterns/general-pricing-three-columns.php:53
+#: patterns/general-pricing-three-columns.php:59
+#: patterns/general-pricing-three-columns.php:87
+#: patterns/general-pricing-three-columns.php:93
+#: patterns/general-pricing-three-columns.php:99
+#: patterns/general-pricing-three-columns.php:105
+#: patterns/general-pricing-three-columns.php:111
+#: patterns/general-pricing-three-columns.php:139
+#: patterns/general-pricing-three-columns.php:145
+#: patterns/general-pricing-three-columns.php:151
+#: patterns/general-pricing-three-columns.php:157
+#: patterns/general-pricing-three-columns.php:163
+#: patterns/general-pricing-two-columns.php:35
+#: patterns/general-pricing-two-columns.php:41
+#: patterns/general-pricing-two-columns.php:47
+#: patterns/general-pricing-two-columns.php:53
+#: patterns/general-pricing-two-columns.php:59
+#: patterns/general-pricing-two-columns.php:87
+#: patterns/general-pricing-two-columns.php:93
+#: patterns/general-pricing-two-columns.php:99
+#: patterns/general-pricing-two-columns.php:105
+#: patterns/general-pricing-two-columns.php:111
+msgid "Feature Item"
+msgstr "सुविधा आइटम"
+
+#: inc/block-styles.php:33
+msgid "Fill"
+msgstr "भरने"
+
+#: inc/block-styles.php:11 inc/block-styles.php:34
+msgid "Fill Base"
+msgstr "भरने के लिए आधार"
+
+#: inc/theme-page.php:49
+msgid "Free Full Site Editing WordPress Theme"
+msgstr "नि: शुल्क पूर्ण साइट संपादन WordPress विषय"
+
+#: inc/block-styles.php:17
+msgid "Full-height"
+msgstr "पूर्ण ऊंचाई"
+
+#: inc/upgrade-button/class-customize.php:74
+msgid "Get Astory PRO"
+msgstr "प्राप्त Astory प्रो"
+
+#: patterns/general-cta-stacked.php:23
+msgid "Get in Touch"
+msgstr "संपर्क में जाओ"
+
+#: patterns/general-cta-buttons.php:29
+msgid "Get Started"
+msgstr "शुरू हो जाओ"
+
+#: inc/theme-page.php:57
+msgid "Getting Started"
+msgstr "शुरू हो रही है"
+
+#: inc/theme-page.php:58
+msgid ""
+"Great! Astory has been installed and activated successfully. Now, you can "
+"start building your your website with a Astory theme customizable block "
+"patterns, templates, and template parts."
+msgstr ""
+"महान! Astory स्थापित किया गया है और सफलतापूर्वक सक्रिय हो. अब, आप निर्माण "
+"शुरू कर सकते हैं अपने अपनी वेबसाइट के साथ एक Astory विषय अनुकूलन ब्लॉक "
+"पैटर्न, टेम्पलेट्स, और टेम्पलेट भागों."
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://codeclove.com/"
+msgstr ""
+
+#: patterns/footer-mega.php:77
+msgid "Instagram"
+msgstr "Instagram"
+
+#: patterns/footer-mega.php:26 patterns/general-boxes-three.php:28
+#: patterns/general-boxes-three.php:45 patterns/general-boxes-three.php:62
+#: patterns/general-boxes-two.php:28 patterns/general-boxes-two.php:45
+#: patterns/general-cta-buttons.php:32
+msgid "Learn More"
+msgstr "अधिक जानने के लिए"
+
+#: inc/theme-page.php:95
+msgid "Leave us a review"
+msgstr "हमें एक समीक्षा छोड़ दें"
+
+#: patterns/general-cta-stacked.php:15
+msgid "Let’s Connect"
+msgstr "चलो कनेक्ट"
+
+#: patterns/general-cta-button.php:29
+msgid "Let’s Get Started"
+msgstr "चलो शुरू हो जाओ"
+
+#: patterns/footer-mega.php:79
+msgid "LinkedIn"
+msgstr "लिंक्डइन"
+
+#: inc/theme-page.php:96
+msgid ""
+"Loved Astory? Feel free to leave your feedback. Your opinion helps us reach "
+"more audiences!"
+msgstr ""
+"प्यार Astory? करने के लिए स्वतंत्र महसूस अपनी प्रतिक्रिया छोड़. अपनी राय "
+"हमें मदद करता है तक पहुँचने और अधिक दर्शकों को!"
+
+#: patterns/footer-mega.php:63
+msgid "Marketing"
+msgstr "विपणन"
+
+#: patterns/general-team-four-columns.php:32
+#: patterns/general-team-four-columns.php:48
+#: patterns/general-team-four-columns.php:64
+#: patterns/general-team-four-columns.php:80
+#: patterns/general-team-two-columns.php:44
+#: patterns/general-team-two-columns.php:65
+#: patterns/general-team-two-columns.php:86
+#: patterns/general-team-two-columns.php:111
+#: patterns/general-team-two-columns.php:132
+#: patterns/general-team-two-columns.php:153
+msgid "Member Name"
+msgstr "सदस्य का नाम"
+
+#: inc/theme-page.php:66
+msgid "More Features with Astory Pro"
+msgstr "और अधिक सुविधाओं के साथ प्रो Astory"
+
+#: patterns/footer-mega.php:47
+msgid "Newsletter"
+msgstr "समाचार पत्र"
+
+#: inc/block-styles.php:27
+msgid "No Disc"
+msgstr "कोई डिस्क"
+
+#: patterns/hidden-404.php:10
+msgid "Not found, error 404"
+msgstr "नहीं मिला, त्रुटि 404"
+
+#: patterns/hidden-404.php:13
+msgid ""
+"Oops, the page you are looking for does not exist or is no longer available. "
+"Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+"उफ़, पृष्ठ आप के लिए देख रहे हैं मौजूद नहीं है, या अब उपलब्ध नहीं है । सब "
+"कुछ अभी भी है । बस का उपयोग करें खोज के रूप में अपना रास्ता खोजने के लिए."
+
+#: patterns/footer-mega.php:17
+msgid "Our Company"
+msgstr "हमारी कंपनी"
+
+#: patterns/footer-mega.php:45
+msgid "Our Mission"
+msgstr "हमारे मिशन"
+
+#: patterns/general-team-four-columns.php:16
+#: patterns/general-team-two-columns.php:18
+msgid "Our Team"
+msgstr "हमारी टीम"
+
+#: inc/block-styles.php:35
+msgid "Outline"
+msgstr "रूपरेखा"
+
+#: inc/block-styles.php:12 inc/block-styles.php:36
+msgid "Outline Base"
+msgstr "रूपरेखा के आधार"
+
+#: patterns/general-pricing-four-columns.php:28
+#: patterns/general-pricing-three-columns.php:28
+#: patterns/general-pricing-two-columns.php:28
+msgid "Personal"
+msgstr "व्यक्तिगत"
+
+#: patterns/general-pricing-four-columns.php:16
+#: patterns/general-pricing-three-columns.php:16
+#: patterns/general-pricing-two-columns.php:16
+msgid "Pricing Table"
+msgstr "मूल्य निर्धारण तालिका"
+
+#: functions.php:32
+msgid "Primary"
+msgstr "प्राथमिक"
+
+#: patterns/footer-three-columns.php:18
+msgid "Privacy Policy"
+msgstr "गोपनीयता नीति"
+
+#: patterns/general-pricing-four-columns.php:80
+#: patterns/general-pricing-three-columns.php:80
+#: patterns/general-pricing-two-columns.php:80
+msgid "Professional"
+msgstr "पेशेवर"
+
+#: patterns/general-team-two-columns.php:47
+#: patterns/general-team-two-columns.php:68
+#: patterns/general-team-two-columns.php:89
+#: patterns/general-team-two-columns.php:114
+#: patterns/general-team-two-columns.php:135
+#: patterns/general-team-two-columns.php:156
+msgid "Read more"
+msgstr "और अधिक पढ़ें"
+
+#: inc/theme-page.php:97
+msgid "Review"
+msgstr "समीक्षा"
+
+#: inc/block-styles.php:24
+msgid "Rounded Corner with Box Shadow"
+msgstr "गोल कोने, बॉक्स छाया"
+
+#: patterns/general-boxes-three.php:20 patterns/general-boxes-three.php:37
+#: patterns/general-boxes-three.php:54 patterns/general-boxes-two.php:20
+#: patterns/general-boxes-two.php:37 patterns/general-portfolio.php:20
+msgid "Sample Heading"
+msgstr "नमूना शीर्षक"
+
+#: patterns/general-portfolio.php:35 patterns/general-portfolio.php:38
+#: patterns/general-portfolio.php:41 patterns/general-portfolio.php:44
+#: patterns/general-team-four-columns.php:29
+#: patterns/general-team-four-columns.php:45
+#: patterns/general-team-four-columns.php:61
+#: patterns/general-team-four-columns.php:77
+#: patterns/general-team-two-columns.php:37
+#: patterns/general-team-two-columns.php:58
+#: patterns/general-team-two-columns.php:79
+#: patterns/general-team-two-columns.php:104
+#: patterns/general-team-two-columns.php:125
+#: patterns/general-team-two-columns.php:146
+msgid "Sample Image"
+msgstr "नमूना छवि"
+
+#: patterns/footer-mega.php:56
+msgid "Services"
+msgstr "सेवाएं"
+
+#: patterns/general-pricing-four-columns.php:67
+#: patterns/general-pricing-four-columns.php:119
+#: patterns/general-pricing-four-columns.php:171
+#: patterns/general-pricing-four-columns.php:223
+#: patterns/general-pricing-three-columns.php:67
+#: patterns/general-pricing-three-columns.php:119
+#: patterns/general-pricing-three-columns.php:171
+#: patterns/general-pricing-two-columns.php:67
+#: patterns/general-pricing-two-columns.php:119
+msgid "Sign Up Now"
+msgstr "साइन अप"
+
+#: patterns/footer-mega.php:64
+msgid "Social Media"
+msgstr "सामाजिक मीडिया"
+
+#: patterns/footer-mega.php:44
+msgid "Start Here"
+msgstr "यहाँ शुरू करो"
+
+#: inc/theme-page.php:88
+msgid "Support"
+msgstr "समर्थन"
+
+#: patterns/footer-three-columns.php:18
+msgid "Terms of Service"
+msgstr "सेवा की शर्तें"
+
+#: patterns/general-team-four-columns.php:19
+#: patterns/general-team-two-columns.php:21
+msgid "The people who are ready to serve you."
+msgstr "लोगों को तैयार कर रहे हैं जो करने के लिए आप की सेवा."
+
+#: inc/theme-page.php:86
+msgid "Theme Info"
+msgstr "विषय की जानकारी"
+
+#: inc/theme-page.php:59
+msgid "Theme instructions"
+msgstr "विषय के निर्देश"
+
+#: patterns/footer-mega.php:78
+msgid "Twitter"
+msgstr "ट्विटर"
+
+#: patterns/general-pricing-four-columns.php:184
+msgid "Ultimate"
+msgstr "परम"
+
+#: inc/upgrade-button/class-customize.php:75
+msgid "Upgrade Now"
+msgstr "अब अपग्रेड"
+
+#: inc/theme-page.php:85
+msgid "Useful Links"
+msgstr "उपयोगी लिंक"
+
+#: inc/theme-page.php:87
+msgid "View Demo"
+msgstr "देखें डेमो"
+
+#: patterns/general-team-four-columns.php:38
+#: patterns/general-team-four-columns.php:54
+#: patterns/general-team-four-columns.php:70
+#: patterns/general-team-four-columns.php:86
+msgid "View profile"
+msgstr "प्रोफ़ाइल देखें"
+
+#: patterns/general-portfolio.php:26
+msgid "View Project"
+msgstr "देखें परियोजना"
+
+#: patterns/footer-mega.php:60
+msgid "Web Design"
+msgstr "वेब डिजाइन"
+
+#: inc/theme-page.php:67
+msgid ""
+"With Astory Pro you get more options, blocks, block patterns, templates and "
+"template parts. Faster support and faster updates with trending and easy to "
+"use patterns."
+msgstr ""
+"के साथ Astory प्रो आप और अधिक विकल्प मिलता, ब्लॉक, ब्लॉक पैटर्न, टेम्पलेट और "
+"टेम्पलेट भागों. तेजी से समर्थन और तेजी से अद्यतन के साथ ट्रेंडिंग और आसान "
+"उपयोग करने के लिए पैटर्न."
+
+#: patterns/footer-three-columns.php:15
+msgid "Your Company LLC"
+msgstr "अपनी कंपनी एलएलसी"

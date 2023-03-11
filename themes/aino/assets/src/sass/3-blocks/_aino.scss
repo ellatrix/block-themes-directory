@@ -1,0 +1,52 @@
+.ad-circle-fixed {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+
+	@include breakpoint(sd) {
+	bottom: 1.25rem;
+	right: 1.25rem;
+	}
+
+	@include breakpoint(md) {
+	bottom: 1.5rem;
+	right: 1.5rem;
+	}
+
+	@include breakpoint(lg) {
+		bottom: 2rem;
+		right: 2rem;
+	}
+}
+
+.wp-block-ainoblocks-accordion-faq-block {
+
+	&.is-style-toggle.has-background {
+
+		.accordion {
+			&:before {
+				background: var(--wp--preset--color--font-primary);
+			}
+			h3 {
+				color: var(--wp--preset--color--font-primary);
+
+				&:before,
+				&:after {
+					color: var(--wp--preset--color--variant-font-primary);
+				}
+			}
+		}
+
+		&:hover {
+			transition: all 0.25s;
+		}
+	}
+
+	&.alignfull {
+		.accordion {
+			max-width: var(--global--wide-content-width);
+			@include push--auto;
+		}
+	}
+}
+

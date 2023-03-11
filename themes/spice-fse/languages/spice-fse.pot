@@ -1,0 +1,1379 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Spice FSE\n"
+"POT-Creation-Date: 2023-02-23 16:35+0530\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/inc/class-spicethemes-about-page.php:70
+msgid "Installing"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:71
+msgid "Activating"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:72
+msgid "Error"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:111
+msgid "View Theme Info"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:121
+#, php-format
+msgid "About %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:122
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:135
+#, php-format
+msgid ""
+"Spice Fse theme is installed. To take full advantage of the features this theme "
+"has to offer visit our %1$s welcome page %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:136
+msgid "Get started with Spice Fse theme"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:226
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:232
+msgid "Recommended Actions"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:309
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:311
+msgid "Install and activate"
+msgstr ""
+
+#. translators: %s: theme name
+#: admin/inc/class-spicethemes-about-page.php:331
+#, php-format
+msgid "Activate %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:333
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#. translators: %s: theme name
+#: admin/inc/class-spicethemes-about-page.php:337
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:461
+msgid "To display breadcrumbs, please install the Yoast SEO plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:467
+msgid "To display the contact form, please install the Contact Form 7 plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:473
+msgid ""
+"To display a Google Map at contact page or in other pages, install & activate "
+"this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:479
+msgid ""
+"To display the posts in a beautiful slider with multiple options, install & "
+"activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:485
+msgid ""
+"To add social share buttons to your posts you just need to install & activate "
+"this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:491
+msgid ""
+"To develop a beautiful WordPress theme with blocks you just need to install & "
+"activate this plugin."
+msgstr ""
+
+#. translators: %s: theme name
+#: admin/tab-pages/getting-started.php:13
+#, php-format
+msgid "%s Theme Configuration"
+msgstr ""
+
+#. translators: %s: theme name
+#: admin/tab-pages/getting-started.php:23
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:25
+msgid ""
+"Welcome to Spice FSE Theme. It is a  Full Site Editing WordPress theme. It is "
+"based on block patterns that allow you to create stunning blogs and websites. "
+"The theme comes with a clean and modern responsive design having built in  "
+"Business,  About, Service, Portfolio, Team, Testimonial, Contact and Blog "
+"templates."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:27
+msgid "Click here to edit your site"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:27
+msgid "Edit site"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:36
+msgid "Features in Spice FSE"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:41
+msgid "Responsive Design"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:44
+msgid "17 Templates"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:47
+msgid "5 Templates Parts"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:50
+msgid "Header Pattern(Default,Center,Rigt logo,Full width)"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:53
+msgid "4 Hero Banner Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:56
+msgid "About Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:59
+msgid "4 Service Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:62
+msgid "Funfact Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:65
+msgid "4 Portfolio Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:68
+msgid "Features Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:71
+msgid "4 Cta Pattern "
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:74
+msgid "4 Team Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:77
+msgid "4 Testomonial Pattern "
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:80
+msgid "4 Latest Blog Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:83
+msgid "4 Client Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:86
+msgid "Contact Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:89
+msgid "Google Map Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:92
+msgid "Footer Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:95
+msgid "Footer Social Icon Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:98
+msgid "Footer Widget Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:101
+msgid "Sidebar Widget Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:104
+msgid "Post List Pattern"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:107
+msgid "Multiple Blog Templates"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:110
+msgid "About us Template"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:113
+msgid "Service Template"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:116
+msgid "Team Template"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:119
+msgid "Testimonail Template"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:122
+msgid "Contact us Template"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:125
+msgid "Portfolio Template"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:133
+msgid "Useful Links"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:138
+msgid "Spice Fse Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:141
+msgid "Spice Fse Documentation"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:144
+msgid "Pre-sales enquiry"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:147
+msgid "Changelog"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: functions.php:47 patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "Spice FSE"
+msgstr ""
+
+#: functions.php:176
+#, php-format
+msgid "Thank you for installing the %1$s theme."
+msgstr ""
+
+#: functions.php:178
+msgid "We highly recommend you to install and activate the"
+msgstr ""
+
+#: functions.php:179
+msgid "Spice Blocks"
+msgstr ""
+
+#: functions.php:179
+msgid " plugin."
+msgstr ""
+
+#: functions.php:181
+msgid ""
+"This plugin will unlock enhanced features to build a beautiful website. You can "
+"get access:"
+msgstr ""
+
+#: functions.php:183
+msgid "Custom Blocks"
+msgstr ""
+
+#: functions.php:184
+msgid "Free Block Templates, and much more."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386 inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934 inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update Not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Updates Available <span class=\"count\">(%s)</span>"
+msgid_plural "Updates Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: patterns/404-banner.php:13
+msgid "404: Page not found"
+msgstr ""
+
+#: patterns/404.php:14
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "Sorry! the page you requested was not found"
+msgstr ""
+
+#: patterns/404.php:24
+msgid " Check out our help center or head back home"
+msgstr ""
+
+#: patterns/404.php:29
+msgid "Back to Home"
+msgstr ""
+
+#: patterns/about.php:16
+msgid "About us"
+msgstr ""
+
+#: patterns/about.php:21 patterns/contact.php:19 patterns/cta-pattern-2.php:22
+#: patterns/cta-pattern-3.php:22 patterns/cta.php:26 patterns/google-map.php:18
+#: patterns/latest-blog-pattern-2.php:16 patterns/latest-blog-pattern-3.php:16
+#: patterns/latest-blog-pattern-4.php:17 patterns/latest-blog.php:15
+#: patterns/portfolio-pattern-2.php:17 patterns/portfolio-pattern-3.php:17
+#: patterns/portfolio-pattern-4.php:17 patterns/portfolio.php:19
+#: patterns/service-pattern-2.php:19 patterns/service-pattern-3.php:20
+#: patterns/service-pattern-4.php:19 patterns/services.php:19
+#: patterns/team-pattern-2.php:19 patterns/team-pattern-3.php:19
+#: patterns/team-pattern-4.php:19 patterns/team.php:19
+#: patterns/testimonial-pattern-2.php:20 patterns/testimonial-pattern-3.php:16
+#: patterns/testimonial-pattern-4.php:18 patterns/testimonial.php:18
+msgid ""
+"Lorem ipsum dolor sit amet elit aene commodo ligula ru eget eu dolor aenean dis"
+msgstr ""
+
+#: patterns/about.php:37
+msgid "We Provide Solutions To Grow"
+msgstr ""
+
+#: patterns/about.php:37
+msgid "Your Business"
+msgstr ""
+
+#: patterns/about.php:43
+msgid ""
+"Lorem ipsum dolor sit amet elit aene dis commodo ligula ru eget eu dolor pede "
+"aenean massa sociis quis magnis sem donec justo fringilla vel aliquet."
+msgstr ""
+
+#: patterns/about.php:49
+msgid ""
+"Maecenas tempus, tellus eget condimentum rhoncus, quam semper libero, sit amet "
+"adipiscing sem neque ipsum."
+msgstr ""
+
+#: patterns/about.php:56 patterns/hero-banner-pattern-2.php:36
+#: patterns/hero-banner-pattern-3.php:31 patterns/hero-banner-pattern-4.php:28
+#: patterns/hero-banner-pattern-5.php:24 patterns/hero-banner.php:32
+msgid "READ MORE"
+msgstr ""
+
+#: patterns/client-pattern-2.php:14 patterns/client.php:15
+msgid "Our Partners"
+msgstr ""
+
+#: patterns/client-pattern-2.php:18
+msgid "lorem ipsu m doller sit amet"
+msgstr ""
+
+#: patterns/contact.php:15
+msgid "Don't Hesitate to Contact us"
+msgstr ""
+
+#: patterns/contact.php:15
+msgid "for any information"
+msgstr ""
+
+#: patterns/cta-pattern-2.php:18 patterns/cta-pattern-3.php:18
+#: patterns/cta-pattern-4.php:15
+msgid "We'd Love To Hear About Your Project "
+msgstr ""
+
+#: patterns/cta-pattern-2.php:28 patterns/cta-pattern-3.php:28
+#: patterns/cta-pattern-4.php:20 patterns/cta.php:33
+msgid "CONTACT US"
+msgstr ""
+
+#: patterns/cta.php:20
+msgid "We'd Love To Hear"
+msgstr ""
+
+#: patterns/cta.php:20
+msgid "About Your Project"
+msgstr ""
+
+#: patterns/features.php:24
+msgid "Why Choose Us"
+msgstr ""
+
+#: patterns/features.php:28
+msgid "Lorem ipsum dolor sit amet elit aene commodo ligula."
+msgstr ""
+
+#: patterns/features.php:33
+msgid "Innovative solutions"
+msgstr ""
+
+#: patterns/features.php:37 patterns/features.php:47 patterns/features.php:57
+msgid "Lorem ipsum dolor sit amet elit aene commodo ligula eget"
+msgstr ""
+
+#: patterns/features.php:37 patterns/features.php:47 patterns/features.php:57
+msgid "eu dolor aenean dis"
+msgstr ""
+
+#: patterns/features.php:43
+msgid "Certified Experts"
+msgstr ""
+
+#: patterns/features.php:53
+msgid "Planning and Reserch"
+msgstr ""
+
+#: patterns/footer-social-icon.php:13 patterns/footer.php:11
+msgid "Proudly powered by "
+msgstr ""
+
+#: patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "| Theme: "
+msgstr ""
+
+#: patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "https://spicethemes.com/spice-fse"
+msgstr ""
+
+#: patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "by"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "https://spicethemes.com/"
+msgstr ""
+
+#: patterns/footer-social-icon.php:14 patterns/footer.php:12
+msgid "Spicethemes"
+msgstr ""
+
+#: patterns/footer-widgets.php:14
+msgid "Logo Here"
+msgstr ""
+
+#: patterns/footer-widgets.php:19
+msgid ""
+"Lorem ipsum dolor sit amet elit aene commodo ligula ru eget eu dolor aenean "
+"massa sociis dis quis magnis."
+msgstr ""
+
+#: patterns/footer-widgets.php:36
+msgid "Our Category"
+msgstr ""
+
+#: patterns/footer-widgets.php:46
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/footer-widgets.php:55
+msgid "Gallery"
+msgstr ""
+
+#: patterns/funfact.php:18
+msgid "550"
+msgstr ""
+
+#: patterns/funfact.php:23
+msgid "Satisfied customers"
+msgstr ""
+
+#: patterns/funfact.php:29
+msgid "493"
+msgstr ""
+
+#: patterns/funfact.php:33
+msgid "Finished Cases"
+msgstr ""
+
+#: patterns/funfact.php:39
+msgid "30"
+msgstr ""
+
+#: patterns/funfact.php:43
+msgid " Ongoing Projects"
+msgstr ""
+
+#: patterns/funfact.php:49
+msgid "150"
+msgstr ""
+
+#: patterns/funfact.php:53
+msgid "Employees"
+msgstr ""
+
+#: patterns/google-map.php:15
+msgid "Contact Info"
+msgstr ""
+
+#: patterns/google-map.php:29
+msgid "Call Us"
+msgstr ""
+
+#: patterns/google-map.php:32
+msgid "123456789, 0123456789"
+msgstr ""
+
+#: patterns/google-map.php:37
+msgid "Email"
+msgstr ""
+
+#: patterns/google-map.php:40
+msgid "email@companyname.com"
+msgstr ""
+
+#: patterns/google-map.php:45
+msgid "Location"
+msgstr ""
+
+#: patterns/google-map.php:48
+msgid "73 Canal Street, New York, NY"
+msgstr ""
+
+#: patterns/header-center-logo.php:26 patterns/header-default.php:24
+#: patterns/header-full-width.php:24 patterns/header-right-logo.php:16
+msgid "GET STARTED"
+msgstr ""
+
+#: patterns/hero-banner-pattern-2.php:14 patterns/hero-banner-pattern-3.php:15
+#: patterns/hero-banner-pattern-4.php:14
+msgid "Grow Your Business"
+msgstr ""
+
+#: patterns/hero-banner-pattern-2.php:19 patterns/hero-banner-pattern-3.php:20
+#: patterns/hero-banner-pattern-4.php:18 patterns/hero-banner-pattern-5.php:14
+msgid "Make Your"
+msgstr ""
+
+#: patterns/hero-banner-pattern-2.php:19 patterns/hero-banner-pattern-3.php:20
+#: patterns/hero-banner-pattern-4.php:18 patterns/hero-banner-pattern-5.php:14
+msgid "Business Easier"
+msgstr ""
+
+#: patterns/hero-banner-pattern-2.php:25 patterns/hero-banner-pattern-4.php:22
+#: patterns/hero-banner-pattern-5.php:18
+msgid "Lorem ipsum dolor sit amet consectetuer adipiscing"
+msgstr ""
+
+#: patterns/hero-banner-pattern-2.php:25 patterns/hero-banner-pattern-3.php:25
+#: patterns/hero-banner-pattern-4.php:22 patterns/hero-banner-pattern-5.php:18
+#: patterns/hero-banner.php:21
+msgid "elit quam felis ultricies nec pretium quis."
+msgstr ""
+
+#: patterns/hero-banner-pattern-2.php:40 patterns/hero-banner-pattern-3.php:35
+#: patterns/hero-banner-pattern-4.php:32
+msgid "LEARN MORE"
+msgstr ""
+
+#: patterns/hero-banner-pattern-3.php:25 patterns/hero-banner.php:21
+msgid "Lorem ipsum dolor sit amet consectetuer adipiscing "
+msgstr ""
+
+#: patterns/hero-banner-pattern-3.php:44 patterns/hero-banner-pattern-4.php:41
+msgid "Send Us A Message"
+msgstr ""
+
+#: patterns/hero-banner.php:15
+msgid "Welcome to Spice"
+msgstr ""
+
+#: patterns/hero-banner.php:15
+msgid "FSE Theme"
+msgstr ""
+
+#: patterns/image-accordion-pattern.php:132
+msgid "Accordion Image 1"
+msgstr ""
+
+#: patterns/image-accordion-pattern.php:132
+msgid "Accordion Image 2"
+msgstr ""
+
+#: patterns/image-accordion-pattern.php:132
+msgid "Accordion Image 3"
+msgstr ""
+
+#: patterns/latest-blog-pattern-2.php:12 patterns/latest-blog-pattern-3.php:12
+#: patterns/latest-blog-pattern-4.php:13 patterns/latest-blog.php:12
+msgid "Latest News "
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:13 patterns/portfolio-pattern-3.php:13
+#: patterns/portfolio-pattern-4.php:13 patterns/portfolio.php:15
+msgid "Latest Work"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:30 patterns/portfolio-pattern-3.php:35
+#: patterns/portfolio.php:35 patterns/portfolio.php:49 patterns/portfolio.php:63
+#: patterns/portfolio.php:78 patterns/service-pattern-2.php:85
+#: patterns/service-pattern-3.php:102 patterns/service-pattern-4.php:97
+#: patterns/services.php:101
+msgid "Financial Advices"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:34 patterns/portfolio-pattern-2.php:50
+#: patterns/portfolio-pattern-2.php:66 patterns/portfolio-pattern-2.php:82
+#: patterns/portfolio-pattern-2.php:100 patterns/portfolio-pattern-2.php:116
+#: patterns/portfolio-pattern-2.php:132 patterns/portfolio-pattern-2.php:148
+#: patterns/portfolio-pattern-3.php:31 patterns/portfolio-pattern-3.php:47
+#: patterns/portfolio-pattern-3.php:65 patterns/portfolio-pattern-3.php:81
+#: patterns/portfolio-pattern-3.php:99 patterns/portfolio-pattern-3.php:115
+#: patterns/portfolio.php:39 patterns/portfolio.php:53 patterns/portfolio.php:67
+#: patterns/portfolio.php:82
+msgid "Lorem Ipsum"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:46 patterns/portfolio-pattern-3.php:51
+msgid "Organization"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:62 patterns/portfolio-pattern-3.php:119
+msgid "Start Ups"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:78 patterns/portfolio-pattern-3.php:85
+#: patterns/portfolio-pattern-4.php:87
+msgid "Marketing"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:96
+msgid "Online Stores"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:112
+msgid "Business solution"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:128 patterns/portfolio-pattern-3.php:103
+msgid "Digital Photography"
+msgstr ""
+
+#: patterns/portfolio-pattern-2.php:144 patterns/portfolio-pattern-3.php:69
+#: patterns/service-pattern-4.php:49
+msgid "Digital Marketing"
+msgstr ""
+
+#: patterns/portfolio-pattern-4.php:31
+msgid "Business Strategy"
+msgstr ""
+
+#: patterns/portfolio-pattern-4.php:35 patterns/portfolio-pattern-4.php:53
+#: patterns/portfolio-pattern-4.php:71 patterns/portfolio-pattern-4.php:91
+#: patterns/portfolio-pattern-4.php:109 patterns/portfolio-pattern-4.php:127
+msgid "Lorem Ipsum Dolor"
+msgstr ""
+
+#: patterns/portfolio-pattern-4.php:49
+msgid "Marketing Analytics"
+msgstr ""
+
+#: patterns/portfolio-pattern-4.php:67
+msgid "UX Design"
+msgstr ""
+
+#: patterns/portfolio-pattern-4.php:105
+msgid "SEO"
+msgstr ""
+
+#: patterns/portfolio-pattern-4.php:123
+msgid "Management"
+msgstr ""
+
+#: patterns/progress-bar-pattern.php:76
+msgid "Progress Bar Design"
+msgstr ""
+
+#: patterns/progress-bar-pattern.php:94
+msgid ""
+"Create an interactive line bar with a shadow effect Your audience will see a "
+"unique style modern line bar You can use any color shadow shadow effect."
+msgstr ""
+
+#: patterns/progress-bar-pattern.php:315
+msgid "Know More"
+msgstr ""
+
+#: patterns/service-pattern-2.php:15
+msgid "Our Services"
+msgstr ""
+
+#: patterns/service-pattern-2.php:35 patterns/service-pattern-3.php:40
+#: patterns/service-pattern-4.php:35 patterns/services.php:35
+msgid "Creative Design"
+msgstr ""
+
+#: patterns/service-pattern-2.php:39 patterns/service-pattern-2.php:55
+#: patterns/service-pattern-2.php:71 patterns/service-pattern-2.php:89
+#: patterns/service-pattern-2.php:105 patterns/service-pattern-2.php:121
+#: patterns/service-pattern-3.php:44 patterns/service-pattern-3.php:62
+#: patterns/service-pattern-3.php:80 patterns/service-pattern-3.php:106
+#: patterns/service-pattern-3.php:124 patterns/service-pattern-3.php:142
+#: patterns/service-pattern-4.php:39 patterns/service-pattern-4.php:53
+#: patterns/service-pattern-4.php:67 patterns/service-pattern-4.php:81
+#: patterns/service-pattern-4.php:101 patterns/service-pattern-4.php:115
+#: patterns/service-pattern-4.php:129 patterns/service-pattern-4.php:143
+#: patterns/services.php:39 patterns/services.php:59 patterns/services.php:79
+#: patterns/services.php:105 patterns/services.php:125 patterns/services.php:145
+msgid ""
+"Maecenas tempus, tellus eget condimentum rhoncus, quam semper libero sit amet."
+msgstr ""
+
+#: patterns/service-pattern-2.php:51 patterns/service-pattern-3.php:58
+#: patterns/service-pattern-4.php:63 patterns/services.php:55
+msgid "Development"
+msgstr ""
+
+#: patterns/service-pattern-2.php:67 patterns/service-pattern-3.php:76
+#: patterns/service-pattern-4.php:77 patterns/services.php:75
+msgid "Branding"
+msgstr ""
+
+#: patterns/service-pattern-2.php:101 patterns/service-pattern-3.php:120
+#: patterns/service-pattern-4.php:125 patterns/services.php:121
+msgid "Tax Managment"
+msgstr ""
+
+#: patterns/service-pattern-2.php:117 patterns/service-pattern-3.php:138
+#: patterns/service-pattern-4.php:139 patterns/services.php:141
+msgid "Business Consulting"
+msgstr ""
+
+#: patterns/service-pattern-3.php:16 patterns/service-pattern-4.php:15
+#: patterns/services.php:15
+msgid "What We Do"
+msgstr ""
+
+#: patterns/service-pattern-4.php:111
+msgid "24/7 Support"
+msgstr ""
+
+#: patterns/services.php:44 patterns/services.php:64 patterns/services.php:84
+#: patterns/services.php:110 patterns/services.php:130 patterns/services.php:150
+msgid "&#129054;"
+msgstr ""
+
+#: patterns/sidebar-widgets.php:11
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar-widgets.php:17
+msgid "Latest Post"
+msgstr ""
+
+#: patterns/sidebar-widgets.php:23
+msgid "Latest Comments"
+msgstr ""
+
+#: patterns/team-pattern-2.php:15 patterns/team.php:15
+msgid "Meet Our Team"
+msgstr ""
+
+#: patterns/team-pattern-2.php:44 patterns/team-pattern-3.php:37
+#: patterns/team-pattern-3.php:59 patterns/team-pattern-3.php:81
+#: patterns/team-pattern-3.php:103 patterns/team.php:37 patterns/team.php:61
+#: patterns/team.php:85 patterns/team.php:109
+msgid "Developer"
+msgstr ""
+
+#: patterns/team-pattern-2.php:49 patterns/team-pattern-3.php:33
+#: patterns/team-pattern-4.php:41 patterns/team.php:33
+msgid "Jemes Martin"
+msgstr ""
+
+#: patterns/team-pattern-2.php:54 patterns/team-pattern-2.php:86
+#: patterns/team-pattern-2.php:118 patterns/team-pattern-4.php:50
+#: patterns/team-pattern-4.php:88 patterns/team-pattern-4.php:128
+#: patterns/team-pattern-4.php:166
+msgid "Maecenas tempus tellus eget rhonc quam dis semper libero amet."
+msgstr ""
+
+#: patterns/team-pattern-2.php:76 patterns/team-pattern-4.php:46
+#: patterns/team-pattern-4.php:84 patterns/team-pattern-4.php:124
+#: patterns/team-pattern-4.php:162
+msgid "Web Developer"
+msgstr ""
+
+#: patterns/team-pattern-2.php:81 patterns/team-pattern-3.php:55
+#: patterns/team.php:57
+msgid "Sara Miller"
+msgstr ""
+
+#: patterns/team-pattern-2.php:108
+msgid "Fashion Photographer"
+msgstr ""
+
+#: patterns/team-pattern-2.php:113 patterns/team-pattern-3.php:77
+#: patterns/team-pattern-4.php:157 patterns/team.php:81
+msgid "Paul Wilson"
+msgstr ""
+
+#: patterns/team-pattern-3.php:15 patterns/team-pattern-4.php:15
+msgid "Meet Our Experts"
+msgstr ""
+
+#: patterns/team-pattern-3.php:99 patterns/team.php:105
+msgid "Kristina reily"
+msgstr ""
+
+#: patterns/team-pattern-4.php:79
+msgid "Kristina Reily"
+msgstr ""
+
+#: patterns/team-pattern-4.php:119
+msgid "Sara miller"
+msgstr ""
+
+#: patterns/testimonial-pattern-2.php:16 patterns/testimonial-pattern-3.php:12
+#: patterns/testimonial-pattern-4.php:14 patterns/testimonial.php:14
+msgid "Testimonial"
+msgstr ""
+
+#: patterns/testimonial-pattern-2.php:33 patterns/testimonial-pattern-2.php:67
+#: patterns/testimonial-pattern-2.php:101
+msgid ""
+"Lorem ipsum dolor sit ameta elit commodo ligula eget sem dolor aenean quam "
+"semper libero sit amet sem quis."
+msgstr ""
+
+#: patterns/testimonial-pattern-2.php:47 patterns/testimonial-pattern-2.php:81
+#: patterns/testimonial-pattern-2.php:115 patterns/testimonial-pattern-3.php:38
+#: patterns/testimonial-pattern-3.php:64 patterns/testimonial-pattern-3.php:90
+#: patterns/testimonial.php:40 patterns/testimonial.php:66
+#: patterns/testimonial.php:92
+msgid "Gracee Brown"
+msgstr ""
+
+#: patterns/testimonial-pattern-2.php:51 patterns/testimonial-pattern-2.php:85
+#: patterns/testimonial-pattern-2.php:119 patterns/testimonial-pattern-3.php:43
+#: patterns/testimonial-pattern-3.php:69 patterns/testimonial-pattern-3.php:95
+#: patterns/testimonial.php:45 patterns/testimonial.php:71
+#: patterns/testimonial.php:97
+msgid "Manager"
+msgstr ""
+
+#: patterns/testimonial-pattern-3.php:25 patterns/testimonial-pattern-3.php:51
+#: patterns/testimonial-pattern-3.php:77 patterns/testimonial.php:51
+#: patterns/testimonial.php:77 patterns/testimonial.php:103
+msgid ""
+"Lorem ipsum dolor sit ameta elit aene commodo ligula eget sem dolor aenean quam "
+"dis semper libero sit amet sem quis."
+msgstr ""
+
+#: patterns/testimonial-pattern-4.php:31 patterns/testimonial-pattern-4.php:51
+#: patterns/testimonial-pattern-4.php:71 patterns/testimonial-pattern-4.php:91
+msgid ""
+"Lorem ipsum dolor sit dis ame eget consec aenea ligula eget dolor massa sociis "
+"vitae dis natoque penat quis magnis."
+msgstr ""
+
+#: patterns/testimonial-pattern-4.php:36 patterns/testimonial-pattern-4.php:56
+#: patterns/testimonial-pattern-4.php:76
+msgid "Junita Anderson"
+msgstr ""
+
+#: patterns/testimonial-pattern-4.php:40 patterns/testimonial-pattern-4.php:60
+#: patterns/testimonial-pattern-4.php:80 patterns/testimonial-pattern-4.php:100
+msgid "Happy Customer"
+msgstr ""
+
+#: patterns/testimonial-pattern-4.php:96
+msgid "unita Anderson"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/spice-fse-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Spice FSE Theme is a Full Site Editing WordPress theme. It is based on block "
+"patterns that allow you to create stunning blogs and websites. The theme comes "
+"with a clean and modern responsive design having a built-in business, about, "
+"service, portfolio, team, testimonial, contact, and multiple blog templates. "
+"This theme uses modern HTML codes that have been further optimized and a "
+"lightweight design to provide you with a quicker page load time. The whole "
+"appearance is classy and professional at the same time, representing your "
+"business in a highly appealing way. (DEMO: https://spice-fse.spicethemes.com/)"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "spicethemes"
+msgstr ""

@@ -1,0 +1,169 @@
+/*
+Theme Name: Blockline
+Theme URI: https://themehunk.com/blockline/
+Author: ThemeHunk
+Author URI: https://www.themehunk.com
+Description: Blockline is a Fast & lightweight Block Based Full Site Editing WordPress Theme. With FSE, users can create custom templates for different pages or sections of the site, as well as use widgets and other design elements to control the appearance and layout of the site. We believe it will revolutionize the way you create and customize your WordPress site. With Blockline you’ll have access to a range of pre-designed templates and custom block patterns, making it easy to create stunning pages and posts without any coding knowledge.
+Version: 1.0.2
+Requires at least: 6.0
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+WordPress Available:  yes
+Requires License:     no
+Text Domain: blockline
+Tags: full-site-editing, block-patterns, one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+ :root {
+	--wp--custom--core-button--spacing--padding--left: 40px;
+	--wp--custom--core-button--spacing--padding--right: 8px;
+	--wp--custom--core-button--spacing--padding--top: 8px;
+	--wp--custom--core-button--spacing--padding--bottom: 10px;
+	--wp--custom--core-button--color:  var(--wp--preset--color--white);
+	--wp--custom--core-button--color--background: var(--wp--preset--color--primary);
+	--wp--custom--core-button--color-hover:  var(--wp--preset--color--primary);
+	--wp--custom--core-button--color--background-hover: var(--wp--preset--color--secondary);
+	--wp--custom--core-button--box-sizing: border-box;
+	--wp--custom--core-button--word-break: border-box;
+	--wp--custom--core-button--text-align: center;
+	--wp--custom--core-button--border-radius--top-left: 0;
+	--wp--custom--core-button--border-radius--top-right: 0;
+	--wp--custom--core-button--border-radius--bottom-left: 0;
+	--wp--custom--core-button--border-radius--bottom-right: 0;
+	--wp--custom--core-button--typography--font-size: var(--wp--preset--font-size--small);
+	--wp--custom--core-button--typography--font-weight: 500;
+	--wp--custom--core-button--line-height: 1.7; }
+  
+  *,
+  *::before,
+  *::after {
+	box-sizing: inherit; }
+  
+  html {
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased; }
+  
+  header p a,
+  footer p a {
+	text-decoration: none; }
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.editor-styles-wrapper .wp-site-blocks > * + *,
+.editor-styles-wrapper .wp-site-blocks > * + * + *,
+.wp-site-blocks > * + *,
+.wp-site-blocks > * + * + * {
+  margin: 0; }
+
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration-style: solid;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 0;
+	border: none;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+
+/*image border style*/
+.wp-block-image.is-style-blockline-border img{
+    border: calc(3 * 1px) solid var(--wp--preset--color--accent);
+}
+/*tag style*/
+.taxonomy-post_tag.wp-block-post-terms a{ 
+padding:5px 10px;
+margin-right:10px;
+background:var(--wp--preset--color--accent);
+color:var(--wp--preset--color--black);
+border-radius:4px;
+font-size:var(--wp--preset--font-size--tiny);
+}
+
+
+.taxonomy-post_tag.wp-block-post-terms span{
+display:none;
+}
+
+/*
+ * Link Styles
+ */
+
+a:not(
+	.wp-block-search__button,
+	.wp-block-button__link
+) {
+	text-underline-offset: .1rem;
+}
+
+a:not(
+	.wp-block-search__button,
+	.wp-block-button__link
+):focus {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}

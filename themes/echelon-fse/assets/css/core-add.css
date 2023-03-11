@@ -1,0 +1,312 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonone .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    background-color: var(--wp--preset--color--third);
+    border-radius: 0px;
+}
+
+.is-style-custombuttonone:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--eighth);
+}
+
+.is-style-custombuttontwo .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    background-color: #00000000;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+.is-style-custombuttontwo:hover .wp-block-button__link {
+    background-color: var(--wp--preset--color--third);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--wp--preset--color--third);
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 5px 40px #091f3426;
+}
+
+.is-style-customboxshadowtwo,
+.is-style-customboxshadowtwohover:hover {
+    box-shadow: 0px 5px 25px #091f341a;
+}
+
+.is-style-customborder {
+    background-color: #ffffff;
+    border-radius : 0px;
+    border-style : solid;
+    border-width: 1.5px;
+    border-color : #ced2dc;
+}
+
+.is-style-customborder:hover {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color : var(--wp--preset--color--third);
+}
+
+.wp-block-social-links.is-style-customsocial li.wp-block-social-link {
+    border-color: var(--wp--preset--color--third);
+    color: #FFFFFF;
+    background-color: var(--wp--preset--color--third);
+}
+
+.wp-block-social-links.is-style-customsocial li.wp-block-social-link,
+.wp-block-social-links.is-style-customsocial li.wp-block-social-link:hover {
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wp-block-social-links.is-style-customsocial li.wp-block-social-link:hover {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF00; 
+}
+
+@media only screen and (min-width: 600px) {
+    .wp-block-navigation.is-style-customnav > .wp-block-navigation-item,
+    .wp-block-navigation.is-style-customnav .wp-block-navigation__container > .wp-block-navigation-item {
+        height: 80px;
+    }
+}
+
+
+/* ECHELON ADVANCE CLASSES */
+
+.echelon-fse-z-index-1 {
+    z-index: 1;
+}
+
+.echelon-fse-z-index-10 {
+    z-index: 10;
+}
+
+.echelon-fse-z-index-100 {
+    z-index: 100;
+}
+
+.echelon-fse-z-index-1000 {
+    z-index: 1000;
+}
+
+.echelon-fse-margin-top-n10 {
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.echelon-fse-margin-top-n20 {
+    position: relative;
+    margin-top: -20px!important;
+}
+
+.echelon-fse-margin-top-n30 {
+    position: relative;
+    margin-top: -30px!important;
+}
+
+.echelon-fse-margin-top-n40 {
+    position: relative;
+    margin-top: -40px!important;
+}
+
+.echelon-fse-margin-top-n50 {
+    position: relative;
+    margin-top: -50px!important;
+}
+
+.echelon-fse-margin-top-n60 {
+    position: relative;
+    margin-top: -60px!important;
+}
+
+.echelon-fse-margin-top-n70 {
+    position: relative;
+    margin-top: -70px!important;
+}
+
+.echelon-fse-margin-top-n80 {
+    position: relative;
+    margin-top: -80px!important;
+}
+
+.echelon-fse-margin-top-n90 {
+    position: relative;
+    margin-top: -90px!important;
+}
+
+.echelon-fse-margin-top-n100 {
+    position: relative;
+    margin-top: -100px!important;
+}
+
+.echelon-fse-margin-top-n140 {
+    position: relative;
+    margin-top: -140px!important;
+}
+
+.echelon-fse-margin-bottom-n40 {
+    position: relative;
+    margin-bottom: -40px!important;
+}
+
+.echelon-fse-margin-top-n300 {
+    position: relative;
+    margin-top: -300px!important;
+}
+
+.echelon-fse-radius-5 {
+    border-radius: 5px;
+}
+
+.echelon-fse-radius-10 {
+    border-radius: 10px;
+}
+
+.echelon-fse-radius-25 {
+    border-radius: 25px;
+}
+
+.echelon-fse-radius-50 {
+    border-radius: 50px;
+}
+
+.echelon-fse-margin-left-n10 {
+    position: relative;
+    margin-left: -10px!important;
+}
+
+.echelon-fse-margin-left-n20 {
+    position: relative;
+    margin-left: -20px!important;
+}
+
+.echelon-fse-margin-left-n30 {
+    position: relative;
+    margin-left: -30px!important;
+}
+
+.echelon-fse-margin-left-n40 {
+    position: relative;
+    margin-left: -40px!important;
+}
+
+.echelon-fse-margin-left-n50 {
+    position: relative;
+    margin-left: -50px!important;
+}
+
+.echelon-fse-margin-left-n60 {
+    position: relative;
+    margin-left: -60px!important;
+}
+
+.echelon-fse-margin-left-n70 {
+    position: relative;
+    margin-left: -70px!important;
+}
+
+.echelon-fse-margin-left-n80 {
+    position: relative;
+    margin-left: -80px!important;
+}
+
+.echelon-fse-margin-left-n90 {
+    position: relative;
+    margin-left: -90px!important;
+}
+
+.echelon-fse-margin-left-n100 {
+    position: relative;
+    margin-left: -100px!important;
+}
+
+
+.echelon-fse-post-template-gap {
+    margin-left: -17.5px!important;
+    margin-right: -17.5px!important;    
+}
+
+.echelon-fse-post-template-gap .wp-block-post-template {
+    gap: 0!important;
+}
+
+.echelon-fse-post-template-gap .wp-block-post-template > .wp-block-post {
+    padding-left: 17.5px!important;
+    padding-right: 17.5px!important;
+    padding-bottom: 35px!important;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .echelon-fse-post-template-gap .wp-block-post-template.column-2 > .wp-block-post,
+    .echelon-fse-post-template-gap .wp-block-post-template.columns-2 > .wp-block-post {
+        width: calc(50% - 35px)!important;
+    }
+
+    .echelon-fse-post-template-gap .wp-block-post-template.column-3 > .wp-block-post,
+    .echelon-fse-post-template-gap .wp-block-post-template.columns-3 > .wp-block-post {
+        width: calc(33.33333% - 35px)!important;
+    }
+
+    .echelon-fse-post-template-gap .wp-block-post-template.column-4 > .wp-block-post,
+    .echelon-fse-post-template-gap .wp-block-post-template.columns-4 > .wp-block-post {
+        width: calc(25% - 35px)!important;
+    }
+
+    .echelon-fse-post-template-gap .wp-block-post-template.column-5 > .wp-block-post,
+    .echelon-fse-post-template-gap .wp-block-post-template.columns-5 > .wp-block-post {
+        width: calc(20% - 35px)!important;
+    }
+
+    .echelon-fse-post-template-gap .wp-block-post-template.column-6 > .wp-block-post,
+    .echelon-fse-post-template-gap .wp-block-post-template.columns-6 > .wp-block-post {
+        width: calc(16.66667% - 35px)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.column-2 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.columns-2 > .wp-block-post {
+        width: calc(50%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.column-3 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.columns-3 > .wp-block-post {
+        width: calc(33.33333%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.column-4 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.columns-4 > .wp-block-post {
+        width: calc(25%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.column-5 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.columns-5 > .wp-block-post {
+        width: calc(20%)!important;
+    }
+
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.column-6 > .wp-block-post,
+    body:not(.editor-styles-wrapper) .echelon-fse-post-template-gap .wp-block-post-template.columns-6 > .wp-block-post {
+        width: calc(16.66667%)!important;
+    }
+
+}

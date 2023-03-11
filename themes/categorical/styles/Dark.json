@@ -1,0 +1,47 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "bg",
+					"name": "Background",
+					"color": "#121315"
+				},
+				{
+					"slug": "fg",
+					"name": "Foreground",
+					"color": "#fafafa"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#4bc9df"
+				},
+				{
+					"slug": "grey",
+					"name": "Grey",
+					"color": "#979797"
+				},
+				{
+					"slug": "light-grey",
+					"name": "Light grey",
+					"color": "#050505"
+				},
+				{
+					"slug": "divider",
+					"name": "Divider / Separator",
+					"color": "#2a2b2d"
+				}
+			]
+		},
+		"custom": {
+			"divider": {
+				"width": "1px"
+			},
+			"featured-image": {
+				"placeholder": "post-placeholder-dark.png"
+			}
+		}
+	}
+}

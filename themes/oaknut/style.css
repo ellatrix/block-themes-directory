@@ -1,0 +1,148 @@
+/* ---------------------------------------------------------------------------------------------
+
+	Theme Name: Oaknut
+    Text Domain: oaknut
+	Version: 1.0
+	Description: Oaknut is a block theme designed to help you create Linktree-esque profile pages. Get up and running quickly with one of the 23 prebuilt theme styles, or create your own design with the 14 fonts and 8 button styles included in the theme. Oaknut is built to be fast, easy to use, and fun!
+	Tags: one-column, custom-background, custom-colors, custom-logo, editor-style, translation-ready, block-styles, wide-blocks, full-site-editing
+	Author: Anders Norén
+	Author URI: https://andersnoren.se
+	Theme URI: https://andersnoren.se/teman/oaknut-wordpress-theme/
+	License: GNU General Public License version 2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Requires PHP: 5.6
+	Tested up to: 6.1
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+/* --------------------------------------------------------------------------------------------- */
+
+:root {
+	--oaknut-shape-angle: polygon(.44em 0%, 100% 0%, calc(100% - .44em) 100%, 0% 100%);
+	--oaknut-shape-bevel: polygon( .44em 0%, calc(100% - .44em) 0%, 100% .44em, 100% calc(100% - .44em), calc(100% - .44em) 100%, .44em 100%, 0% calc(100% - .44em), 0% .44em );
+	--oaknut-shape-chevron-left: polygon(100% 0%, calc( 100% - .88em ) 50%, 100% 100%, .88em 100%, 0% 50%, .88em 0%);
+	--oaknut-shape-chevron-right: polygon(calc( 100% - .88em ) 0%, 100% 50%, calc( 100% - .88em ) 100%, 0% 100%, .88em 50%, 0% 0%);
+	--oaknut-shape-pointed: polygon(.88em 0%, calc( 100% - .88em ) 0%, 100% 50%, calc( 100% - .88em ) 100%, .88em 100%, 0% 50%);
+	--oaknut-shape-rabbet: polygon(0% .44em, .44em .44em, .44em 0%, calc(100% - .44em) 0%, calc(100% - .44em) .44em, 100% .44em, 100% calc(100% - .44em), calc(100% - .44em) calc(100% - .44em), calc(100% - .44em) 100%, .44em 100%, .44em calc(100% - .44em), 0% calc(100% - .44em));
+	--oaknut-shape-ribbon: polygon(0% 0%, 100% 0%, calc( 100% - .88em ) 50%, 100% 100%, 0% 100%, .88em 50%);
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+a { text-underline-offset: .15em; }
+
+/* ------------------------------------------- */
+/* Blocks
+/* ------------------------------------------- */
+
+/* BLOCK: SHARED */
+
+/* Block Style: Drop Shadow */ 
+
+.wp-block-button.is-style-oaknut-drop-shadow .wp-block-button__link,
+.is-style-oaknut-drop-shadow .wp-block-social-link {
+	border: 2px solid;
+	box-sizing: border-box;
+	box-shadow: 0 1px currentColor, 0 2px currentColor, 0 3px currentColor, 0 4px currentColor, 0 5px currentColor, 0 6px currentColor;
+}
+
+/* Block Style: Angle Shape */ 
+
+.is-style-oaknut-shape-angle .wp-block-button__link,
+.is-style-oaknut-shape-angle .wp-block-social-link {
+	-webkit-clip-path: var( --oaknut-shape-angle );
+	clip-path: var( --oaknut-shape-angle );
+}
+
+/* Block Style: Bevel Shape */ 
+
+.is-style-oaknut-shape-bevel .wp-block-button__link,
+.is-style-oaknut-shape-bevel .wp-block-social-link {
+	-webkit-clip-path: var( --oaknut-shape-bevel );
+	clip-path: var( --oaknut-shape-bevel );
+}
+
+/* Block Style: Rabbet Shape */ 
+
+.is-style-oaknut-shape-rabbet .wp-block-button__link,
+.is-style-oaknut-shape-rabbet .wp-block-social-link {
+	-webkit-clip-path: var( --oaknut-shape-rabbet );
+	clip-path: var( --oaknut-shape-rabbet );
+}
+
+/* BLOCK: BUTTON */
+
+.wp-block-button[class*="shape-angle"] > *:not([style*='border-radius']),
+.wp-block-button[class*="shape-bevel"] > *:not([style*='border-radius']),
+.wp-block-button[class*="shape-chevron"] > *:not([style*='border-radius']),
+.wp-block-button[class*="shape-pointed"] > *:not([style*='border-radius']),
+.wp-block-button[class*="shape-rabbet"] > *:not([style*='border-radius']),
+.wp-block-button[class*="shape-ribbon"] > *:not([style*='border-radius']) {
+	border-radius: 0;
+}
+
+/* Block Style: Chevron Left Shape */ 
+
+.is-style-oaknut-shape-chevron-left .wp-block-button__link {
+	-webkit-clip-path: var( --oaknut-shape-chevron-left );
+	clip-path: var( --oaknut-shape-chevron-left );
+}
+
+/* Block Style: Chevron Right Shape */ 
+
+.is-style-oaknut-shape-chevron-right .wp-block-button__link {
+	-webkit-clip-path: var( --oaknut-shape-chevron-right );
+	clip-path: var( --oaknut-shape-chevron-right );
+}
+
+/* Block Style: Pointed Shape */ 
+
+.is-style-oaknut-shape-pointed .wp-block-button__link {
+	-webkit-clip-path: var( --oaknut-shape-pointed );
+	clip-path: var( --oaknut-shape-pointed );
+}
+
+/* Block Style: Ribbon Shape */ 
+
+.is-style-oaknut-shape-ribbon .wp-block-button__link {
+	-webkit-clip-path: var( --oaknut-shape-ribbon );
+	clip-path: var( --oaknut-shape-ribbon );
+}
+
+/* BLOCK: COVER */
+
+:root .wp-block-cover .wp-block-cover__inner-container {
+	color: inherit;
+}
+
+/* Block Style: Space Between */
+
+.wp-block-cover.is-style-oaknut-space-between .wp-block-cover__inner-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: inherit;
+}
+
+/* BLOCK: SOCIAL LINKS */
+
+.wp-block-social-links.is-style-default .wp-block-social-link-anchor,
+.wp-block-social-links:not([class*="is-style-pill-shape"]):not([class*="is-style-logos-only"]) .wp-block-social-link-anchor {
+	padding: .41em;
+}
+
+/* Block Style: Shapes */
+
+.wp-block-social-links[class*="is-style-oaknut-shape"] .wp-block-social-link {
+	border-radius: 0;
+}
+
+/* Block Style: Rounded Shape */
+
+.wp-block-social-links.is-style-oaknut-shape-rounded .wp-block-social-link {
+	border-radius: 6px;
+}

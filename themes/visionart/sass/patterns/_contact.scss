@@ -1,0 +1,181 @@
+.contact-section {
+  .wp-block-group.section-heading {
+    max-width: 100%;
+    text-align: left;
+
+    .wp-block-separator {
+      margin-left: 0 !important;
+    }
+  }
+
+
+  .wp-block-columns {
+    gap: clamp(30px, 8vw, 170px);
+    padding-bottom: var(--wp--custom--spacing--section-block-top);
+  }
+
+  .location-section {
+    padding: var(--wp--custom--spacing--wp-block-page-numbers);
+
+    >p {
+      font-weight: var(--wp--custom--typography--font-weight--bold);
+    }
+
+    >.wp-block-group {
+      margin-top: calc(var(--wp--custom--spacing--wp-comment-horizontal) - 3px);
+    }
+
+    ul.wp-block-social-links {
+      margin-top: var(--wp--custom--spacing--section-heading);
+    }
+
+    figure {
+      max-width: 20px !important;
+    }
+
+    .wp-block-media-text:not(:last-child) {
+      .wp-block-media-text__content {
+        border-bottom: 1px solid;
+        margin-bottom: 34px;
+        padding: 0;
+        padding-bottom: 20px;
+      }
+    }
+
+
+    .wp-block-media-text {
+      grid-template-columns: max-content !important;
+      margin: 0;
+
+      .wp-block-media-text__media {
+        align-self: flex-start;
+        line-height: 1;
+        margin-right: 26px;
+      }
+
+
+
+      .wp-block-media-text__content {
+        padding: 0;
+
+        .title {
+          color: var(--wp--preset--color--secondary-text-color);
+          font-size: var(--wp--preset--font-size--small);
+          font-weight: var(--wp--custom--typography--font-weight--bold);
+          margin-bottom: var(--wp--custom--spacing--extra-small);
+          text-transform: uppercase;
+        }
+
+        .location-content {
+          color: var(--wp--preset--color--title-color);
+        }
+
+
+      }
+    }
+  }
+}
+
+// FOR CONTACT FORM
+
+.wpcf7-form {
+  label {
+    color: var(--wp--preset--color--secondary-text-color);
+    font-size: var(--wp--preset--font-size--medium);
+    font-size: 13px;
+  }
+
+  textarea {
+    max-height: 120px;
+  }
+
+  br {
+    display: none;
+  }
+
+  span.wpcf7-not-valid-tip {
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  input[type=date],
+  input[type=time],
+  input[type=datetime-local],
+  input[type=week],
+  input[type=month],
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=number],
+  textarea {
+    background-color: transparent;
+    font-family: var(--wp--preset--font-family--open-sans);
+    padding: 21px 0;
+    font-size: var(--wp--preset--font-size--medium);
+    color: #999;
+    border: none;
+    border-bottom: 1px solid;
+    color: var(--wp--preset--color--secondary-text-color);
+  }
+
+  input[type=submit] {
+    padding-top: clamp(10px, 3vw, 21px);
+    padding-right: clamp(32px, 3vw, 40px);
+    padding-bottom: clamp(10px, 3vw, 21px);
+    padding-left: clamp(32px, 3vw, 40px);
+    border: none;
+    margin-top: clamp(32px, 3vw, 40px);
+  }
+
+  p {
+    margin: 20px 0;
+    position: relative;
+  }
+}
+
+// FOR SOCIAL LINKS
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link {
+  background-color: transparent;
+  border: 1px solid;
+  padding: 0;
+  overflow: hidden;
+
+  &:hover,
+  &:focus {
+    svg:not(.clone) {
+      @include transform(translateY(-400%));
+    }
+
+    .clone {
+      @include transform(translateY(0));
+    }
+  }
+
+  a,
+  button {
+    padding: clamp(10px, 3vw, 15px);
+    position: relative;
+    overflow: hidden;
+    @include transition(0.5s ease-in-out);
+
+
+  }
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link .clone {
+  padding: 0;
+  position: absolute;
+  @include transform(translateY(400%));
+}
+
+.contact-map.alignfull {
+  line-height: 1;
+  margin-top: 0;
+  padding: 0;
+}

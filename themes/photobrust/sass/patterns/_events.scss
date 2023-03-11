@@ -1,0 +1,36 @@
+/* --- Block Events
+-------------------------------------------------------- */
+
+.event-list-wrapper {
+    > .event-list {
+        &:nth-child(2n + 1) {
+            background-color: var(--wp--preset--color--secondary);
+        }
+
+        + .event-list {
+            margin-top: 0;
+        }
+
+        display: block;
+        padding: 14px var(--wp--custom--spacing--extra-small);
+        gap: 0;
+
+        min-height: 86px;
+
+        .event-date {
+            > h6 {
+                font-size: var(--wp--preset--font-size--normal);
+            }
+        }
+    }
+
+    margin-top: var(--wp--custom--spacing--wp-comment-vertical);
+}
+
+.wp-block-section:nth-child(2n + 1) {
+    .event-list-wrapper {
+        .event-list:nth-child(2n + 1) {
+            background-color: var(--wp--preset--color--background);
+        }
+    }
+}

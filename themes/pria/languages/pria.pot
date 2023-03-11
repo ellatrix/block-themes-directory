@@ -1,0 +1,136 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pria 0.3\n"
+"POT-Creation-Date: 2022-02-01 18:07+0000\n"
+"PO-Revision-Date: 2021-08-16 11:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: functions.php:125 functions.php:126
+msgid "Additional CSS"
+msgstr ""
+
+#: inc/block-patterns.php:13
+msgid "Pria - Design"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Pria - Blog"
+msgstr ""
+
+#: inc/block-patterns.php:24
+msgid "Image & Content Offset"
+msgstr ""
+
+#: inc/block-patterns.php:57
+msgid "Image & Content Offset 2"
+msgstr ""
+
+#: inc/block-patterns.php:90
+msgid "Call to Action"
+msgstr ""
+
+#: inc/block-patterns.php:142
+msgid "Call to Action 2"
+msgstr ""
+
+#: inc/block-patterns.php:194
+msgid "Latest Posts - Offset"
+msgstr ""
+
+#: inc/block-patterns.php:222
+msgid "Latest Posts - Offset with Rounded Corners"
+msgstr ""
+
+#: inc/block-patterns.php:250
+msgid "Latest Posts - 2 Columns"
+msgstr ""
+
+#: inc/block-styles.php:18
+msgid "Rounded Corners"
+msgstr ""
+
+#: inc/block-styles.php:22
+msgid "No Spacing"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Margin"
+msgstr ""
+
+#: inc/block-styles.php:30
+msgid "Offset"
+msgstr ""
+
+#: inc/block-styles.php:34
+msgid "Button"
+msgstr ""
+
+#: inc/block-styles.php:38
+msgid "Read More Button"
+msgstr ""
+
+#: inc/block-styles.php:42
+msgid "Read More Button (Outline)"
+msgstr ""
+
+#: inc/block-styles.php:46
+msgid "Read More Arrow"
+msgstr ""
+
+#: inc/block-styles.php:50
+msgid "Read More Arrow 2"
+msgstr ""
+
+#: inc/block-styles.php:54
+msgid "Arrow"
+msgstr ""
+
+#: inc/block-styles.php:58
+msgid "Arrow 2"
+msgstr ""
+
+#: inc/block-styles.php:62
+msgid "Rounded"
+msgstr ""
+
+#: inc/block-styles.php:66
+msgid "No Block Gap (zero top margin)"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Pria"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://uxlthemes.com/theme/pria/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A full site editing block theme for bloggers, with various block styles and "
+"patterns."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "UXL Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://uxlthemes.com/"
+msgstr ""

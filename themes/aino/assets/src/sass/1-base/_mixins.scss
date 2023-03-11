@@ -1,0 +1,316 @@
+$var: true !default; // Can be overridden elsewhere
+
+/*--------------------------------------------------------------
+	* Responsive Breakpoints
+
+		 @include breakpoint(768)	{ } sm
+		 @include breakpoint(1024)	{ } md
+		 @include breakpoint(1280)	{ } lg
+		 @include breakpoint(1536)	{ } xl
+		 @include breakpoint(1140)	{ } header
+	* ------------------------------------------------------------ */
+@mixin breakpoint($class) {
+	@if $class==sm {
+		@media (min-width: 48em) {
+			@content;
+		}
+	}
+
+	@else if $class==md {
+		@media (min-width: 64em) {
+			@content;
+		}
+	}
+
+	@else if $class==lg {
+		@media (min-width: 80em) {
+			@content;
+		}
+	}
+
+	@else if $class==xl {
+		@media (min-width: 96em) {
+			@content;
+		}
+	}
+}
+
+/* Centering */
+@mixin push--auto {
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+/* Responsive Spacing */
+@mixin s-r-1($property) {
+	#{$property}: var(--s-r-1);
+}
+
+@mixin s-r-2($property) {
+	#{$property}: var(--s-r-2);
+}
+
+@mixin s-r-3($property) {
+	#{$property}: var(--s-r-3);
+}
+
+@mixin s-r-4($property) {
+	#{$property}: var(--s-r-4);
+}
+
+@mixin s-r-5($property) {
+	#{$property}: var(--s-r-5);
+}
+
+@mixin s-r-6($property) {
+	#{$property}: var(--s-r-6);
+}
+
+@mixin s-r-7($property) {
+	#{$property}: var(--s-r-7);
+}
+
+@mixin s-r-8($property) {
+	#{$property}: var(--s-r-8);
+}
+
+@mixin s-r-9($property) {
+	#{$property}: var(--s-r-9);
+}
+
+@mixin s-r-10($property) {
+	#{$property}: var(--s-r-10);
+}
+
+@mixin s-r-11($property) {
+	#{$property}: var(--s-r-11);
+}
+
+@mixin s-r-12($property) {
+	#{$property}: var(--s-r-12);
+}
+
+@mixin s-r-13($property) {
+	#{$property}: var(--s-r-13);
+}
+
+@mixin s-r-14($property) {
+	#{$property}: var(--s-r-14);
+}
+
+@mixin s-r-15($property) {
+	#{$property}: var(--s-r-15);
+}
+
+@mixin s-r-16($property) {
+	#{$property}: var(--s-r-16);
+}
+
+@mixin s-r-17($property) {
+	#{$property}: var(--s-r-17);
+}
+
+@mixin s-r-18($property) {
+	#{$property}: var(--s-r-18);
+}
+
+/* Buttons */
+@mixin btn {
+	display: inline-block;
+	line-height: var(--global--line-height-reset);
+	font-weight: normal;
+}
+
+@mixin btn-primary {
+	color: var(--wp--preset--color--button-color-primary);
+	fill: var(--wp--preset--color--button-color-primary);
+	background-color: var(--wp--preset--color--primary);
+
+	&:hover {
+		background-color: var(--wp--preset--color--secondary);
+		color: var(--wp--preset--color--button-color-secondary);
+		fill: var(--wp--preset--color--button-color-secondary);
+		text-decoration: none;
+	}
+}
+
+@mixin btn-tab {
+	color: var(--wp--preset--color--font-primary);
+	background-color: transparent;
+	border: 1px solid var(--wp--preset--color--border-primary);
+
+	&:hover {
+		color: var(--wp--preset--color--button-color-secondary);
+		background-color: var(--wp--preset--color--secondary);
+		border: 1px solid var(--wp--preset--color--button-color-secondary);
+	}
+}
+
+@mixin btn-outline {
+	color: var(--wp--preset--color--primary);
+	fill: var(--wp--preset--color--primary);
+	border: 1px solid;
+	border-color: var(--wp--preset--color--primary);
+
+	&:hover {
+		background-color: var(--wp--preset--color--primary);
+		border-color: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--button-color-primary);
+		fill: var(--wp--preset--color--button-color-primary);
+		text-decoration: none;
+	}
+}
+
+@mixin btn-outline-light {
+	color: var(--wp--preset--color--variant-primary);
+	fill: var(--wp--preset--color--variant-primary);
+	border: 1px solid;
+	border-color: var(--wp--preset--color--variant-primary);
+
+	&:hover {
+		background-color: var(--wp--preset--color--variant-primary);
+		border-color: var(--wp--preset--color--variant-primary);
+		color: var(--wp--preset--color--variant-button-color-primary);
+		fill: var(--wp--preset--color--variant-button-color-primary);
+		text-decoration: none;
+	}
+}
+
+/* Button Sizes */
+@mixin btn-xxs {
+	padding: 0.563rem 1.125rem;
+	font-size: 0.875rem;
+}
+
+@mixin btn-xs {
+	padding: 0.75rem 1.5rem;
+	font-size: 1rem;
+}
+
+@mixin btn-s {
+	padding: 0.938rem 1.875rem;
+	font-size: 1.125rem;
+}
+
+@mixin btn-m {
+	padding: 1.125rem 2.25rem;
+	font-size: 1.25rem;
+}
+
+/* Avatars */
+@mixin avatar-l {
+	width: 5rem;
+	height: 5rem;
+	min-width: 5rem;
+	min-height: 5rem;
+
+	@include breakpoint(sm) {
+		width: 6rem;
+		height: 6rem;
+	}
+
+	@include breakpoint(md) {
+		width: 7.5rem;
+		height: 7.5rem;
+	}
+
+	@include breakpoint(lg) {
+		width: 9rem;
+		height: 9rem;
+	}
+}
+
+@mixin avatar-m {
+	width: 3rem;
+	height: 3rem;
+	min-width: 3rem;
+	min-height: 3rem;
+
+	@include breakpoint(md) {
+		width: 4rem;
+		height: 4rem;
+	}
+}
+
+@mixin avatar-s {
+	width: 2rem;
+	height: 2rem;
+	min-width: 2rem;
+	min-height: 2rem;
+}
+
+/* Placeholders */
+@mixin input-placeholder {
+	&.placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		@content;
+	}
+
+	&::-moz-placeholder {
+		@content;
+	}
+
+	&:-ms-input-placeholder {
+		@content;
+	}
+
+	&::-webkit-input-placeholder {
+		@content;
+	}
+}
+
+/* Grid gaps */
+@mixin gap-s {
+	column-gap: 0.5rem;
+
+	@include breakpoint(md) {
+		column-gap: 1rem;
+	}
+}
+
+@mixin gap-m {
+	column-gap: 0.75rem;
+
+	@include breakpoint(sm) {
+		column-gap: 1rem;
+	}
+
+	@include breakpoint(md) {
+		column-gap: 1.5rem;
+	}
+}
+
+@mixin gap-l {
+	column-gap: 1rem;
+
+	@include breakpoint(md) {
+		column-gap: 1.5rem;
+	}
+
+	@include breakpoint(lg) {
+		column-gap: 2rem;
+	}
+}
+
+@mixin gap-xl {
+	column-gap: 1.5rem;
+
+	@include breakpoint(md) {
+		column-gap: 2rem;
+	}
+
+	@include breakpoint(lg) {
+		column-gap: 3rem;
+	}
+}
+
+/* Text underlines */
+@mixin underline-default {
+	text-decoration-line: underline;
+	text-decoration-thickness: 0.09em;
+}

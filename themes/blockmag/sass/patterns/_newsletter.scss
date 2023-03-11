@@ -1,0 +1,64 @@
+/* --- Block Newsletter
+-------------------------------------------------------- */
+
+.wp-block-section.wp-block-newsletter {
+    padding-bottom: var(--wp--custom--spacing--newsletter-inner-gap);
+    padding-top: var(--wp--custom--spacing--newsletter-inner-gap);
+    .newsletter-inner-wrap {
+        background-color: var(--wp--preset--color--background);
+        padding: var(--wp--custom--spacing--wp-footer-vertical) var(--wp--custom--spacing--wp-comment-horizontal);
+        .wp-block-group-heading {
+            padding-top: 0;
+            border-top: 0;
+
+            h2 {
+                font-size: var(--wp--preset--font-size--large);
+                margin-top: 0 !important;
+                line-height: var(--wp--custom--typography--line-height--heading-four);
+            }
+
+            h6 {
+                font-family: var(--wp--preset--font-family--montserrat);
+                font-weight: var(--wp--custom--typography--font-weight--normal);
+                line-height: var(--wp--custom--typography--line-height--paragraph);
+            }
+
+            h2 + h6 {
+                margin-top: 14px;
+            }
+        }
+
+        .tnp-subscription-minimal form input.tnp-email {
+            background-color: var(--wp--preset--color-background);
+            border-color: var(--wp--preset--color--foreground);
+            border-radius: 0;
+            outline: 0;
+            transition: .2s border-color ease-in-out;
+
+            &:focus {
+                border-color: var(--wp--preset--color--picton-blue);
+                color: var(--wp--preset--color--foreground);
+            }
+        }
+
+        .tnp-subscription-minimal input.tnp-email {
+            font-size: var(--wp--preset--font-size--normal);
+        }
+
+        div.wp-block-columns {
+            gap: 0;
+        }
+
+        p.agreement-txt {
+            font-size: var(--wp--preset--font-size--tiny);
+            line-height: var(--wp--custom--typography--line-height--heading-six);
+            color: var(--wp--preset--color--meta);
+            margin-top: 21px;
+        }
+
+        .tnp-subscription-minimal form input.tnp-submit {
+            border-radius: 0;
+            margin-left: -1px;
+        }
+    }
+}

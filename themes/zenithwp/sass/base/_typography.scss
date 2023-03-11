@@ -1,0 +1,31 @@
+@media only screen and (max-width: 767px) {
+
+    .has-xx-large-font-size,
+    h1 {
+        font-size: 38px !important;
+    }
+
+    .has-x-large-font-size,
+    h2 {
+        font-size: 28px !important;
+    }
+
+    .has-large-font-size,
+    h3 {
+        font-size: 21px !important;
+    }
+
+    .has-medium-font-size,
+    h4 {
+        font-size: 18px !important;
+    }
+
+    .has-small-font-size,
+    h5 {
+        font-size: 16px !important;
+    }
+
+    h6 {
+        font-size: 14px !important;
+    }
+}

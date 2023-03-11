@@ -1,0 +1,25 @@
+{
+	"version": 2,
+	"title": "Dark Mode",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#fff"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#000"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#efefef"
+				}
+			]
+		}
+	}
+}

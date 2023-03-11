@@ -1,0 +1,42 @@
+a:where(:not(.wp-element-button)) {
+    text-decoration: underline;
+    color: var(--wp--preset--color--primary);
+}
+
+pre {
+    white-space: break-spaces;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea,
+.wp-block-post-comments-form textarea {
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #dedede;
+    border-radius: 0px 0px 0px 0px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #dcdcde;
+    border-bottom: 1px solid #f6f7f7;
+}

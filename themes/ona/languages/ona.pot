@@ -1,0 +1,3311 @@
+# Copyright (C) 2023 ona
+# This file is distributed under the same license as the ona package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ona\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: DeoThemes <hello@deothemes.com>\n"
+"Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
+"Report-Msgid-Bugs-To: https://deothemes/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/themes/ona/functions.php:217
+msgid "Processing"
+msgstr ""
+
+#: wp-content/themes/ona/functions.php:218
+msgid "Finished"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:19
+msgid "Ona Getting Started"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:20, wp-content/themes/ona/inc/admin/theme-admin.php:178, wp-content/themes/ona/inc/admin/theme-admin.php:562
+msgid "Ona"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:52
+msgid "Main"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:59
+msgid "Minimal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:66
+msgid "Creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:73, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:49
+msgid "Travel"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:80
+msgid "Environmental"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:87
+msgid "Business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:94
+msgid "Magazine"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:101
+msgid "Online Store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:108, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:44
+msgid "Recipes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:115
+msgid "Health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:122, wp-content/themes/ona/inc/patterns/pro/general-hero-coffee-shop.php:12
+msgid "Coffee Shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:129, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:50
+msgid "Fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:136
+msgid "Agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:143
+msgid "Startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:156
+msgid "Theme Installation"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:165
+msgid "Edit Templates and Pages"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:184
+msgid "Made by "
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:185
+msgid "DeoThemes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:197
+msgid "Getting Started"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:199
+msgid "Ona is now installed and ready to use. Get ready to build something beautiful. We hope you enjoy it! If you have any suggestion of how to improve this theme feel free to contact us."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:205
+msgid "Note: The free child themes installed from wordpress.org repository will not work with the Ona Pro. Kindly remove them and install the child themes from the section below. %s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:206, wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:23, wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:36, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:42, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:64, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:86, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:108
+msgid "Learn More"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:212
+msgid " Demos"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:225
+msgid "Update Now"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:236, wp-content/themes/ona/inc/admin/theme-admin.php:360
+msgid "Pro"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:296, wp-content/themes/ona/inc/admin/theme-admin.php:276, wp-content/themes/ona/inc/admin/theme-admin.php:256
+msgid "Preview"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:302, wp-content/themes/ona/inc/merlin/merlin-config.php:46
+msgid "Import"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:276, wp-content/themes/ona/inc/admin/theme-admin.php:283, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:256, wp-content/themes/ona/inc/admin/theme-admin.php:262, wp-content/themes/ona/inc/merlin/merlin-config.php:43, wp-content/themes/ona/inc/merlin/merlin-config.php:44, wp-content/themes/ona/inc/merlin/merlin-config.php:45, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:326, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
+msgid "Useful Links"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:329, wp-content/themes/ona/inc/merlin/merlin-config.php:79
+msgid "Documentation"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:332
+msgid "Rate us ★★★★★"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:337
+msgid "Contact us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:342
+msgid "Follow us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:349
+msgid "Settings"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:352
+msgid "Site Editor"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:355
+msgid "Customizer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:358
+msgid "Edit Fonts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:369
+msgid "Video Tutorials"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:464
+msgid "The existing child theme was activated. Proceed to importing the content."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:455
+msgid "There was an error unzipping the file."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:448
+msgid "Awesome. Your child theme is now activated. Proceed to importing the content."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:503
+msgid "Oops... Something went wrong. Please try again."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:496
+msgid "Awesome. Your child theme is now updated."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:565
+msgid "Thank you for choosing Ona!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:569
+msgid "Follow the steps to configure your new theme and begin customizing your site."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:567
+msgid "Run the Setup Wizard to configure your new theme and begin customizing your site."
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:573
+msgid "Setup Instructions"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:20
+msgid "Tablet align center"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:36
+msgid "Tablet align right"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:52
+msgid "Tablet align left"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:68
+msgid "Mega Menu"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:83
+msgid "Gap 30"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:92
+msgid "Gap 40"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:101
+msgid "Gap 64"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:111, wp-content/themes/ona/inc/patterns/forms-newsletter.php:9
+msgid "Newsletter"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:172
+msgid "Newsletter Style 2"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:281
+msgid "Alt font"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:290
+msgid "Stroke frame"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:303, wp-content/themes/ona/inc/block-styles.php:312, wp-content/themes/ona/inc/block-styles.php:321
+msgid "Offset left"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:330
+msgid "Offset right"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:339, wp-content/themes/ona/inc/block-styles.php:348
+msgid "Offset bottom"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:357, wp-content/themes/ona/inc/block-styles.php:366
+msgid "Offset top"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:375, wp-content/themes/ona/inc/block-styles.php:384
+msgid "Shift right"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:393, wp-content/themes/ona/inc/block-styles.php:402
+msgid "Shift left"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:411, wp-content/themes/ona/inc/block-styles.php:420
+msgid "Hide on Tablet"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:429, wp-content/themes/ona/inc/block-styles.php:438
+msgid "Hide on Mobile"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:445
+msgid "Arrow icon"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:476
+msgid "Grid Gap 70"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:409
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:557
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:562
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:671
+msgid "Welcome"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:685
+msgid "Plugins"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:693, wp-content/themes/ona/inc/merlin/class-merlin.php:1688
+msgid "Content"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:699
+msgid "Ready"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:804
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:884
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:971, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:972
+msgid "req"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1012
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1050
+msgid "Home Preview"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1096
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1176
+msgid "The final step has been displayed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1253
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1270
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1329
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1360
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1396
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1394
+msgid "The child theme screenshot was copied to the child theme, with the following result"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1425
+msgid "Activating"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1441
+msgid "Updating"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1457, wp-content/themes/ona/inc/merlin/class-merlin.php:1473, wp-content/themes/ona/inc/merlin/class-merlin.php:1691, wp-content/themes/ona/inc/merlin/class-merlin.php:1704, wp-content/themes/ona/inc/merlin/class-merlin.php:1717, wp-content/themes/ona/inc/merlin/class-merlin.php:1730, wp-content/themes/ona/inc/merlin/class-merlin.php:1743, wp-content/themes/ona/inc/merlin/class-merlin.php:1756, wp-content/themes/ona/inc/merlin/class-merlin.php:1799
+msgid "Installing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1477
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1486, wp-content/themes/ona/inc/merlin/class-merlin.php:1692, wp-content/themes/ona/inc/merlin/class-merlin.php:1705, wp-content/themes/ona/inc/merlin/class-merlin.php:1718, wp-content/themes/ona/inc/merlin/class-merlin.php:1731, wp-content/themes/ona/inc/merlin/class-merlin.php:1744, wp-content/themes/ona/inc/merlin/class-merlin.php:1757
+msgid "Success"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1465
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1509
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1514
+msgid "Invalid content!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1525
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1567
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1578
+msgid "Error"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1592
+msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1597
+msgid "Invalid data!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1689
+msgid "Demo content data."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1690, wp-content/themes/ona/inc/merlin/class-merlin.php:1703, wp-content/themes/ona/inc/merlin/class-merlin.php:1716, wp-content/themes/ona/inc/merlin/class-merlin.php:1729, wp-content/themes/ona/inc/merlin/class-merlin.php:1742, wp-content/themes/ona/inc/merlin/class-merlin.php:1755
+msgid "Pending"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1701
+msgid "Widgets"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1702
+msgid "Sample widgets data."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1714
+msgid "Revolution Slider"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1715
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1727
+msgid "Options"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1728
+msgid "Sample theme options data."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1740
+msgid "Redux Options"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1741
+msgid "Redux framework options."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1753
+msgid "After import setup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1754
+msgid "After import setup."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1783
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1820
+msgid "The home page was set"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1830
+msgid "The blog page was set"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1845
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/class-merlin.php:1869
+msgid "This predefined demo import does not have the name parameter: import_file_name"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-customizer-importer.php:57
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-customizer-importer.php:70
+msgid "Error: The customizer import file does not have any content in it. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-customizer-importer.php:80
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-customizer-importer.php:86
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-downloader.php:84
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:32
+msgid "Theme Setup"
+msgstr ""
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:35
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:36
+msgid "Return to the dashboard"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:37
+msgid "Disable this wizard"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:39
+msgid "Skip"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:40
+msgid "Next"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:41
+msgid "Start"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:42
+msgid "Cancel"
+msgstr ""
+
+#. translators: Theme Name
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:49
+msgid "Welcome to %s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:50
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:51
+msgid "This wizard will set up your theme, install plugins, and import content. It should take only a few minutes."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:52
+msgid "You may have already run this theme setup wizard. If you would like to proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:54
+msgid "Install Child Theme"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:55
+msgid "You're good to go!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:56
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:57
+msgid "Your child theme has already been installed and is now activated, if it wasn't already."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:58
+msgid "Learn about child themes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:59
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:60
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:62, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:341, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:96
+msgid "Install Plugins"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:63
+msgid "You're up to speed!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:64
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:65
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:66, wp-content/themes/ona/inc/merlin/merlin-config.php:71
+msgid "Advanced"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:68
+msgid "Import Content"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:69
+msgid "Let's import content to your website. This could take some minutes. Please wait."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:70
+msgid "Explore Demos"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:73
+msgid "All done. Have fun!"
+msgstr ""
+
+#. translators: Theme Author
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:76
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:77
+msgid "Extras"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:78
+msgid "View your website"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:80
+msgid "Get Theme Support"
+msgstr ""
+
+#: wp-content/themes/ona/inc/merlin/merlin-config.php:81
+msgid "Start Customizing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:13
+msgid "Ona General"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:17
+msgid "Ona Footers"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:21
+msgid "Ona Headers"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:25
+msgid "Ona Sidebars"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:29
+msgid "Ona Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:33
+msgid "Ona Pages"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/block-patterns.php:37
+msgid "Ona Forms"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:7
+msgid "Footer business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:16
+msgid "Let’s get started on something great"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:20
+msgid "Join over 5876+ startups already growing with untitled."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:25
+msgid "View Demos"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:29
+msgid "Get Started"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:42, wp-content/themes/ona/inc/patterns/footer-creative.php:39, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:82, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/pro/footer-health.php:37, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:82
+msgid "© %d Ona, Made by "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:49, wp-content/themes/ona/inc/patterns/footer-creative.php:43, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:98, wp-content/themes/ona/inc/patterns/footer-minimal.php:74, wp-content/themes/ona/inc/patterns/footer-travel.php:85, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:86, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:79, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:88, wp-content/themes/ona/inc/patterns/pro/footer-health.php:45, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:66, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:84, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:121, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:90
+msgid "Privacy Policy"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-business.php:50, wp-content/themes/ona/inc/patterns/footer-creative.php:44, wp-content/themes/ona/inc/patterns/footer-environmental.php:99, wp-content/themes/ona/inc/patterns/footer-minimal.php:76, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:87, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:91
+msgid "Terms \u0026amp; Conditions"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:6
+msgid "Footer creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:18, wp-content/themes/ona/inc/patterns/footer-environmental.php:57, wp-content/themes/ona/inc/patterns/footer-minimal.php:24, wp-content/themes/ona/inc/patterns/header-business.php:19, wp-content/themes/ona/inc/patterns/header-centered-logo.php:32, wp-content/themes/ona/inc/patterns/header-creative.php:22, wp-content/themes/ona/inc/patterns/header-default.php:21, wp-content/themes/ona/inc/patterns/header-environmental.php:46, wp-content/themes/ona/inc/patterns/header-minimal.php:15, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:24, wp-content/themes/ona/inc/patterns/header-travel.php:15, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:19, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:31, wp-content/themes/ona/inc/patterns/pro/footer-health.php:16, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:39, wp-content/themes/ona/inc/patterns/pro/header-agency.php:20, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:21, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:16, wp-content/themes/ona/inc/patterns/pro/header-health.php:22, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:20, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:20, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:46, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:43, wp-content/themes/ona/inc/patterns/pro/header-startup.php:20
+msgid "Home"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:19, wp-content/themes/ona/inc/patterns/footer-environmental.php:59, wp-content/themes/ona/inc/patterns/footer-minimal.php:26, wp-content/themes/ona/inc/patterns/header-business.php:21, wp-content/themes/ona/inc/patterns/header-centered-logo.php:34, wp-content/themes/ona/inc/patterns/header-creative.php:24, wp-content/themes/ona/inc/patterns/header-default.php:23, wp-content/themes/ona/inc/patterns/header-environmental.php:48, wp-content/themes/ona/inc/patterns/header-minimal.php:17, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:25, wp-content/themes/ona/inc/patterns/header-travel.php:16, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:44, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:32, wp-content/themes/ona/inc/patterns/pro/footer-health.php:17, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:40, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:27, wp-content/themes/ona/inc/patterns/pro/general-page-title-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/header-agency.php:24, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:17, wp-content/themes/ona/inc/patterns/pro/header-health.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:23, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:48, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:45, wp-content/themes/ona/inc/patterns/pro/header-startup.php:24, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:17
+msgid "About"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:20, wp-content/themes/ona/inc/patterns/footer-environmental.php:60, wp-content/themes/ona/inc/patterns/footer-minimal.php:28, wp-content/themes/ona/inc/patterns/header-business.php:22, wp-content/themes/ona/inc/patterns/header-centered-logo.php:35, wp-content/themes/ona/inc/patterns/header-creative.php:25, wp-content/themes/ona/inc/patterns/header-default.php:24, wp-content/themes/ona/inc/patterns/header-environmental.php:49, wp-content/themes/ona/inc/patterns/header-minimal.php:18, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:26, wp-content/themes/ona/inc/patterns/header-travel.php:17, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:45, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:34, wp-content/themes/ona/inc/patterns/pro/footer-health.php:18, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:41, wp-content/themes/ona/inc/patterns/pro/header-agency.php:26, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:23, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:18, wp-content/themes/ona/inc/patterns/pro/header-health.php:24, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:24, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:24, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:20, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:49, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:46, wp-content/themes/ona/inc/patterns/pro/header-startup.php:26, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:17
+msgid "Contact"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-default.php:38
+msgid "© %d Ona — Made by "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-default.php:44, wp-content/themes/ona/inc/patterns/footer-travel.php:86, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:80, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:89, wp-content/themes/ona/inc/patterns/pro/footer-health.php:46, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:67, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:70, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:122
+msgid "Terms & Conditions"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:8
+msgid "Footer environmental"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:17
+msgid "Subscribe to New Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:48, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:20
+msgid "A minimal, functional theme. All the latest news and creative articles are available at our news portal to encourage inspiration."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:58, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:43, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:33
+msgid "Authors"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:69, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:54, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:35
+msgid "Demos"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:70, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:55
+msgid "Team"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:71, wp-content/themes/ona/inc/patterns/header-business.php:20, wp-content/themes/ona/inc/patterns/header-centered-logo.php:33, wp-content/themes/ona/inc/patterns/header-creative.php:23, wp-content/themes/ona/inc/patterns/header-default.php:22, wp-content/themes/ona/inc/patterns/header-environmental.php:47, wp-content/themes/ona/inc/patterns/header-minimal.php:16, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:27, wp-content/themes/ona/inc/patterns/header-travel.php:18, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:56, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:28, wp-content/themes/ona/inc/patterns/pro/header-agency.php:21, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:24, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:19, wp-content/themes/ona/inc/patterns/pro/header-health.php:25, wp-content/themes/ona/inc/patterns/pro/header-startup.php:21
+msgid "News"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:72, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:57, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:36
+msgid "Get Theme"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:81, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:66
+msgid "Facebook"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:82, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:67
+msgid "Twitter"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:83, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:68
+msgid "Linkedin"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:84, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:69
+msgid "Dribbble"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-minimal.php:8
+msgid "Footer minimal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-minimal.php:20
+msgid "For collaboration and service offers feel free to get it touch."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-minimal.php:43, wp-content/themes/ona/inc/patterns/forms-newsletter.php:29, wp-content/themes/ona/inc/patterns/pro/forms-newsletter-coffee-shop.php:32, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:135, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:108, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:296, wp-content/themes/ona/inc/patterns/pro/page-reservation-coffee-shop.php:59
+msgid "Follow"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:8
+msgid "Footer travel"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:23, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:36
+msgid "Goddard Hall 81 Washington Square E,<br>New York, NY 10003, USA"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:27
+msgid "1-888-925-8067 | help@onashop.com"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:34, wp-content/themes/ona/inc/patterns/posts-grid-3-columns-environmental.php:11, wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:11, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:84, wp-content/themes/ona/inc/patterns/sidebar-default.php:50
+msgid "Popular Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:46
+msgid "Amazing Experience"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:47
+msgid "Travel & Tours"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:48
+msgid "Tips & Guide"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:49, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:48
+msgid "Lifestyle"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:50
+msgid "Best Adventures"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:51
+msgid "Sea & Beach"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/forms-newsletter-book.php:8
+msgid "Newsletter book"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/forms-newsletter-book.php:28
+msgid "LEARN MY BEST RECIPES FOR FREE"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/forms-newsletter-book.php:32
+msgid "Grab my free guide on how to cook fresh and healthy meals"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/forms-newsletter-book.php:36
+msgid "I share my best vegan recipes. Sed do eiusmod tempor incididu nt ut labore et dolore minim veniam, quism."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/forms-newsletter.php:16, wp-content/themes/ona/inc/patterns/pro/forms-newsletter-coffee-shop.php:17, wp-content/themes/ona/inc/patterns/pro/forms-newsletter-sidebar.php:14, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:120, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:93, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:281, wp-content/themes/ona/inc/patterns/pro/page-reservation-coffee-shop.php:44, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar-health.php:50, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:92, wp-content/themes/ona/inc/patterns/sidebar-default.php:58
+msgid "SUBSCRIBE NOW"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/forms-newsletter.php:20, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:21, wp-content/themes/ona/inc/patterns/pro/forms-newsletter-coffee-shop.php:21, wp-content/themes/ona/inc/patterns/pro/forms-newsletter-sidebar.php:18, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:124, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:97, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:285, wp-content/themes/ona/inc/patterns/pro/page-reservation-coffee-shop.php:48, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar-health.php:54, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:96, wp-content/themes/ona/inc/patterns/sidebar-default.php:62
+msgid "Join the newsletter to get the daily tips, latest articles and free stuffs delivered directly to your inbox."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:6
+msgid "About business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:16
+msgid "96k"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:20
+msgid "Successful Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:29, wp-content/themes/ona/inc/patterns/pro/general-about-rating-agency.php:29
+msgid "We build &amp; develop digital future"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:33
+msgid "We have been destroying the forests for whatever reasons for many years. Our team consists of the great professionals with years of relevant experience."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:43
+msgid "We invest in innovation"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:53
+msgid "Simple and smart interesting ideas"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:63
+msgid "It is quick, easy and ready to get started design"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-about-business.php:70, wp-content/themes/ona/inc/patterns/header-business.php:30, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:81, wp-content/themes/ona/inc/patterns/pro/general-about-rating-agency.php:73
+msgid "Contact Us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-gallery-5-columns.php:6
+msgid "Gallery 5 columns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-gallery-5-columns.php:11
+msgid "My Art"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-gallery-5-columns.php:15
+msgid "Check my latest photos"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-business.php:6
+msgid "Hero business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-business.php:13
+msgid "We believe in incredible business with Ona"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-cover.php:6
+msgid "Hero cover"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-cover.php:12
+msgid "Hello, I'm Ona. And this is my personal travel journal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-creative.php:6
+msgid "Hero creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-creative.php:12, wp-content/themes/ona/inc/patterns/general-promo-section-travel.php:14
+msgid "Hey There"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-creative.php:16
+msgid "I’m Ona, and this is my travel journal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-minimal.php:6
+msgid "Hero minimal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-minimal.php:13
+msgid "Hey, I’m Ona, and this is my travel journal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:6
+msgid "Icon boxes business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:12, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:13
+msgid "We offer a complete range of a services"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:26, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:28
+msgid "Digital Marketing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:30, wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:54, wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:80, wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:104, wp-content/themes/ona/inc/patterns/general-statistic-business.php:29, wp-content/themes/ona/inc/patterns/general-statistic-business.php:47, wp-content/themes/ona/inc/patterns/general-statistic-business.php:65
+msgid "Our web design team will spend time with our digital marketing team to ensure more."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:34, wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:58, wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:84, wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:108, wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:42, wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:70
+msgid "Read More"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:50
+msgid "UI/UX Product Design"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:76, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:29, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:78, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:76
+msgid "Web Development"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:100
+msgid "SEO and PPC"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-latest-youtube-video.php:6
+msgid "Latest YouTube video"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-latest-youtube-video.php:13
+msgid "Discover my latest video"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-latest-youtube-video.php:17
+msgid "When your life appears so out of balance, ordinary comfort diminishes completely. Anxiety, stress and often depression feel more compelling to us."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-latest-youtube-video.php:22
+msgid "See More Vlogs"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-page-title-with-image.php:6
+msgid "Page title with image"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-page-title-with-image.php:23, wp-content/themes/ona/inc/patterns/page-about.php:23
+msgid "I am a lifestyle and fashion blogger, a person who enjoys travel."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-partner-logos-business.php:6
+msgid "Partner logos business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-partner-logos-business.php:11
+msgid "trusted by hundreds of brands"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-business.php:6
+msgid "Projects business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-business.php:15, wp-content/themes/ona/inc/patterns/pro/general-projects-slider.php:14
+msgid "Featured works you may be interested"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes-creative.php:6
+msgid "Promo boxes creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes-creative.php:20
+msgid "GET IN TOUCH"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes-creative.php:39
+msgid "MY TRAVEL"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes-creative.php:53
+msgid "ABOUT ME"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:6
+msgid "Promo boxes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:12
+msgid "POPULAR TOPICS"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:21
+msgid "FASHION"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:35
+msgid "LIFESTYLE"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:49
+msgid "TRAVEL"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:63
+msgid "STORIES"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-offset.php:6
+msgid "Promo section offset"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-offset.php:15, wp-content/themes/ona/inc/patterns/page-about.php:57
+msgid "I Love working with people who find joy in the little things"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-offset.php:20, wp-content/themes/ona/inc/patterns/general-promo-section.php:22, wp-content/themes/ona/inc/patterns/page-about.php:62, wp-content/themes/ona/inc/patterns/pro/general-promo-health.php:22
+msgid "Some blogs focus more on fashion advice, featuring how-to articles for the lay reader. Articles discuss clothing fit, the matching and complementing of colors, and other information on clothes wearing and care along with prescriptive advice."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-travel.php:6
+msgid "Promo section travel"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-travel.php:18
+msgid "Discover my latest Updates"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-travel.php:22
+msgid "I’m a coffee lover, content creator and influencer who is design obsessed. My husband and I love to help businesses transform them into something amazing."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-travel.php:26
+msgid "When your life appears so out of balance, ordinary comfort diminishes completely. Anxiety, stress and often depression feel more compelling to us than any hope or comfort in life."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section-travel.php:30, wp-content/themes/ona/inc/patterns/general-testimonials-business.php:26, wp-content/themes/ona/inc/patterns/pro/general-promo-health.php:26, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:59, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:67, wp-content/themes/ona/inc/patterns/pro/sidebar-about-widget.php:19, wp-content/themes/ona/inc/patterns/pro/sidebar-about-widget.php:27, wp-content/themes/ona/inc/patterns/sidebar-default.php:25, wp-content/themes/ona/inc/patterns/sidebar-default.php:33
+msgid "Joeby Ragpa"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section.php:6
+msgid "Promo section"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section.php:14
+msgid "My Travel Gear"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-section.php:18, wp-content/themes/ona/inc/patterns/pro/general-promo-health.php:17
+msgid "Some blogs focus more on fashion advice, featuring how-to articles for the lay reader."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:6
+msgid "Statistic business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:11
+msgid "Global Clients Around the World"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:19
+msgid "550k"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:25, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:83, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:175
+msgid "Happy Customers"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:37
+msgid "379+"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:43
+msgid "Dedicated Employees"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:55
+msgid "89+"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-statistic-business.php:61
+msgid "Useful Programs"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:6
+msgid "Team business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:11, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:117
+msgid "Our Experts Team"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:24, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:18, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:101
+msgid "Alex Grey"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:28, wp-content/themes/ona/inc/patterns/general-testimonials-business.php:30
+msgid "Associate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:42, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:42, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:125
+msgid "Ashton Kutsher"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:46
+msgid "Front-end Developer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:60, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:66, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:149
+msgid "Belinda Bing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:64
+msgid "Web Designer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:80, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:92, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:175
+msgid "Camille Alforque"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:84
+msgid "Senior Designer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:98, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:116, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:199
+msgid "Nathaniel Ragpa"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:102
+msgid "Full-stack Developer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:116, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:140, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:223
+msgid "Linda Brown"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-team-business.php:120, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:165
+msgid "Sales Marketing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-business.php:6
+msgid "Testimonials business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-business.php:12
+msgid "Those who already tried our products"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-business.php:36, wp-content/themes/ona/inc/patterns/general-testimonials-business.php:82
+msgid "“I have witnessed and admired the work for years. I highly recommend this work for anyone seeking to increase.”"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-business.php:72, wp-content/themes/ona/inc/patterns/pro/general-quote-agency.php:27
+msgid "John Doe"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-business.php:76, wp-content/themes/ona/inc/patterns/pro/general-quote-agency.php:31
+msgid "Consultant"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:6
+msgid "Testimonials"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:11, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:11
+msgid "TESTIMONIALS"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:22, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:42, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:58, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:74
+msgid "I have witnessed and admired the work for years. I highly recommend this work for anyone seeking to increase."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:26, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:62
+msgid "— Xyrel Paterson"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:42
+msgid "Every detail has been taken care these team are really amazing and talented! I will work only to help your sales goals."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:46, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:24, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:48, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:30
+msgid "— Camille Alforque"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:62, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:26
+msgid "Every detail has been taken care these team are realy amazing and talented! I will work only to help your sales goals."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials.php:66, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:36, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:46, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:78
+msgid "— Xyjan Ragpa"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-business.php:6
+msgid "Header business"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-centered-logo.php:6
+msgid "Header centered logo"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-creative.php:6
+msgid "Header creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-default.php:6
+msgid "Header default"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-environmental.php:6
+msgid "Header environmental"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-minimal.php:6
+msgid "Header minimal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-transparent-creative.php:6
+msgid "Header transparent creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-travel.php:6
+msgid "Header travel"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:6
+msgid "Page about"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:39
+msgid "“To us, a healthy woman is confident in her own skin, flaws and all.”"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:84
+msgid "99"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:88
+msgid "Houses sold in 2021 for my clients"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:96
+msgid "1,500+"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:100
+msgid "Cups of coffee drank in courtrooms in 2021"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:108
+msgid "700K"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about.php:112
+msgid "Profits gained for my clients and money"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-contact.php:6
+msgid "Page contact"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-contact.php:19
+msgid "Feel free to contact me anytime."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-contact.php:27
+msgid "Melbourne's GPO 350 Bourke St Melbourne VIC 3000 Australia"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-contact.php:31
+msgid "Phone: +1-888-1554-456-123"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-contact.php:35
+msgid "Email: "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-no-image.php:6
+msgid "Posts grid 2 columns no image"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-no-image.php:11
+msgid "Trending News"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-sticky-on-scroll.php:6
+msgid "Posts grid 2 columns sticky on scroll"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-environmental.php:6
+msgid "Posts grid 3 columns environmental"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-travel-style-2.php:6
+msgid "Posts grid 3 columns travel style 2"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-travel.php:6
+msgid "Posts grid 3 columns travel"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-with-featured.php:6
+msgid "Posts grid 3 columns with featured"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns.php:6
+msgid "Posts grid 3 columns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns.php:15
+msgid "LATEST NEWS"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-4-columns.php:6
+msgid "Posts grid 4 columns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-4-columns.php:11
+msgid "Editorial Picks"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-list-creative.php:6
+msgid "Posts list creative"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-list-travel.php:6
+msgid "Posts list travel"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-agency.php:8
+msgid "Footer agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-agency.php:20, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:55
+msgid "Enjoy 10% off* your first purchase when you subscribe"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-agency.php:34
+msgid "Make creative solutions for modern brands"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:6
+msgid "Footer coffee-shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:21
+msgid "Menu"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:41
+msgid "Book Reservation"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:49
+msgid "Favorite Picks"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:53
+msgid "Organic Coffee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:54
+msgid "Best Coffee Mocha"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:55, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:42
+msgid "Tips & Guides"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:56
+msgid "Coffee Homemade"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:6
+msgid "Footer fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:43
+msgid "Categories"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:47
+msgid "Design"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:51
+msgid "Beauty"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:52
+msgid "Buy Now"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:59
+msgid "Follow Us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-health.php:6
+msgid "Footer health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:9
+msgid "Footer magazine"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:16
+msgid "Subscribe to "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:16
+msgid "New Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:9
+msgid "Footer online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:51
+msgid "Ona Shop is a very slick and clean e-commerce template with endless possibilities."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:62, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:23
+msgid "Information"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:66
+msgid "Our stores"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:67
+msgid "About us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:68
+msgid "Business with us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:69
+msgid "Delivery information"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:77
+msgid "Help"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:82
+msgid "Track order"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:83
+msgid "F.A.Q"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:85
+msgid "Returns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:92
+msgid "Stores & Services"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:96
+msgid "Find a Store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:97
+msgid "Free Style Help"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:98
+msgid "Alterations & Tailoring"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:99
+msgid "Pop-In Shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:100
+msgid "Virtual Events"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:6
+msgid "Footer recipes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:29
+msgid "Features"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:30
+msgid "Advertise"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:41
+msgid "Healthy Recipes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:43
+msgid "Breakfast Recipes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:44
+msgid "Special Diets"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:8
+msgid "Footer startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:23, wp-content/themes/ona/inc/patterns/pro/header-agency.php:25, wp-content/themes/ona/inc/patterns/pro/header-startup.php:25, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:13
+msgid "Services"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:27
+msgid "UI/UX Experience Policy"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:30
+msgid "Product Design"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:39
+msgid "Contacts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:43
+msgid "Experts 26<br>Division St, New York,<br>NY 10002<br>"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:43
+msgid "+1 800 123 456 586"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:49
+msgid "Subscribe"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/forms-newsletter-coffee-shop.php:9
+msgid "Newsletter coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/forms-newsletter-sidebar.php:9
+msgid "Newsletter sidebar"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-rating-agency.php:6
+msgid "About rating agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-rating-agency.php:33, wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:43
+msgid "We believe we can make a difference to this world, to this very earth on which we live. We have been destroying the forests for whatever reasons for many years. Our team consists of the great professionals with years of relevant experience."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-rating-agency.php:40, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:58
+msgid "4.5"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-rating-agency.php:67, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:85
+msgid "Average Customers Rating"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:6
+msgid "About startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:33
+msgid "Benefits"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:39
+msgid "We build digital future"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:48
+msgid "High standards"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:72, wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:101, wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:130, wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:159
+msgid "Through our years of experience, we've also learned that while each channel has its own set of advantages, they all work best when strategically paired with other channels."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:77
+msgid "Focus on people"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:106
+msgid "Different thinking"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-about-startup.php:135
+msgid "Business Innovation"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-coffee-shop.php:6
+msgid "Benefits coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-coffee-shop.php:22
+msgid "Strong Coffee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-coffee-shop.php:34
+msgid "Unique Flavor"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-coffee-shop.php:50
+msgid "Full Rich Aroma"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:6
+msgid "Benefits online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:14, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:91
+msgid "Worldwide Shipping"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:18, wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:30, wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:42, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:95, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:107, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:119
+msgid "Free shipping on all US order or order above $100"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:26, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:103
+msgid "30 Days Guarantee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-benefits-online-store.php:38, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:115
+msgid "100% Payment Secure"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-contact-locations-coffee-shop.php:6
+msgid "Contact locations coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-contact-locations-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:28
+msgid "Location 1"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-contact-locations-coffee-shop.php:21, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:34
+msgid "103 North Loundoun Street., Winchester, VA<br>+63 9202740366"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-contact-locations-coffee-shop.php:45, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:58
+msgid "Location 2"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-contact-locations-coffee-shop.php:51, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:64
+msgid "Lake House, 13 Hanway Square, London, England<br>+387648592568"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:6
+msgid "Hero agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:14
+msgid "We are Creative Agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:18
+msgid "We continuosly seek between design and technology. Our team hand picked to provide the right balance of skills to work."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:34
+msgid "We’ve helped businesses to craft honest, emotional experiences through strategy, brand development, and web design."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-coffee-shop.php:6
+msgid "Hero coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-health.php:6
+msgid "Hero health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-health.php:21
+msgid "Hey, there!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-health.php:25
+msgid "A Simple Way to Program Yourself For Happiness"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:6
+msgid "Hero magazine post slider"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:12
+msgid "Hey, See our "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:12
+msgid "thoughts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:12
+msgid "stories"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:12
+msgid " and "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:12
+msgid "ideas."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:17, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:17, wp-content/themes/ona/inc/patterns/pro/page-archive-projects.php:15, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:17
+msgid "Ona is a modern classic blog theme. Use this theme for company blog, magazine, niche or personal blog."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:28
+msgid "Get started with our "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-magazine-post-slider.php:28
+msgid "best stories"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-online-store.php:6
+msgid "Hero online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-online-store.php:14
+msgid "New Home Collection"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-online-store.php:19, wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:20, wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:36, wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:52, wp-content/themes/ona/inc/patterns/pro/general-promo-online-store.php:32
+msgid "Shop Now"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:6
+msgid "Hero startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:14
+msgid "Building digital products, Brands and experience"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:27
+msgid "We’ve helped businesses to craft honest, emotional experiences through strategy, brand development, and web design. We continuosly seek between design and technology."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:31, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:41
+msgid "Our team hand picked to provide the right balance of skills to work."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:6
+msgid "Icon boxes agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:19, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:40
+msgid "Our custom-built WordPress themes are beautiful, fast, and search-optimized to help your business succeed. Simple. Powerful. Flexible. Experience. Reliability and choice with 24/7 support that acts as your extended team."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:34, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:42, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:58
+msgid "High-Quality Products"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:38, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:60, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:82, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:104, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:38, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:56, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:74, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:46, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:62, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:80, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:96, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:112, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:128
+msgid "Our design team will spend time to ensure the principles."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:56
+msgid "UI/UX Creative Design"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:100, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:92
+msgid "Marketing Strategy"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:116
+msgid "More Services"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:6
+msgid "Icon boxes startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:14
+msgid "WHAT WE DO"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:20
+msgid "Discover how we work to deliver outstanding results"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:34
+msgid "Effective Strategy Development"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:52
+msgid "Software development process"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-startup.php:70
+msgid "Automated testing and support"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-instagram-feed-health.php:6
+msgid "Instagram feed health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-instagram-feed-health.php:12
+msgid "Instagram"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-instagram-feed-health.php:16
+msgid "@onatheme"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-instagram-feed-online-store.php:6
+msgid "Instagram feed online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-instagram-feed-online-store.php:15
+msgid "Digg the New Looks"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-instagram-feed-online-store.php:20
+msgid "Sed gravida ornare vestibulum turpis quam urna aliquam. Available for a limited time."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-intro-coffee-shop.php:6
+msgid "Intro coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-intro-coffee-shop.php:23, wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:19, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:35
+msgid "Welcome to our"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-intro-coffee-shop.php:27, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:39
+msgid "Coffee Moments That You'll Treasure"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-intro-coffee-shop.php:31, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:43
+msgid "Volutpat maecenas volutpat. Iaculis at erat pellentesque adipiscing. Praesent tristique magna sit amet. Id leo in vitae turpis massa sed diam vel quam elementum."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-intro-coffee-shop.php:35, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:47
+msgid "Praesent tristique magna sit amet purus gravida quis blandit. Cursus in hac habitasse platea dictumst quisque sagittis. Eu turpis egestas pretium aenean pharetra magna ullam corper."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:6
+msgid "Menu coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:24
+msgid "Choose and try"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:28
+msgid "Today’s offer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:24, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:37
+msgid "Cafe Latte"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:28, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:41
+msgid "Fresh brewed coffee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:33, wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:153, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:46, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:210
+msgid "$3.45"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:46, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:59
+msgid "Ice Coffee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:50, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:63
+msgid "Cold brewed espresso"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:56, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:69
+msgid "$2.20"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:61, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:74
+msgid "Exquisite taste"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:72, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:85
+msgid "Espresso"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:76, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:89, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:111, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:133, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:227, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:249
+msgid "Rich espresso with milk"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:81, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:94
+msgid "$2.10"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:96, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:153
+msgid "Cakes / Pastries"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:100, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:157
+msgid "Apple / Mango / Watermelon / Banana / Strawberry."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:106, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:163
+msgid "$10"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:111, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:168, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:122, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:179
+msgid "Mocha"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:126, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:183
+msgid "Espresso, mocha, milk"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:131, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:188
+msgid "$3.80"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:144, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:201
+msgid "Cappucino"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:148, wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:205
+msgid "Espresso and milk"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-page-title-coffee-shop.php:6
+msgid "Page title coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-page-title-online-store.php:6
+msgid "Page title online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-page-title-online-store.php:11, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:53
+msgid "Shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-agency.php:6
+msgid "Partner logos agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-agency.php:12, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:50
+msgid "Trusted by over 250,000+ Clients worldwide"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-fashion.php:6
+msgid "Partner logos fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-online-store.php:6
+msgid "Partner logos online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-startup.php:6
+msgid "Partner logos startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-startup.php:15
+msgid "our clients"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-startup.php:21
+msgid "Trusted by hundreds of brands"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-products-grid-coffee-shop.php:6
+msgid "Products grid coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-products-grid-coffee-shop.php:11
+msgid "available here"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-products-grid-coffee-shop.php:15
+msgid "Coffee Aroma"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-products-grid-online-store.php:6
+msgid "Products grid online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-products-grid-online-store.php:11
+msgid "Featured Collection"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-products-grid-online-store.php:15
+msgid "New Arrivals"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-projects-masonry-startup.php:6
+msgid "Projects masonry startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-projects-masonry-startup.php:14
+msgid "Portfolio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-projects-masonry-startup.php:20
+msgid "Our Completed Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-projects-masonry-startup.php:28, wp-content/themes/ona/inc/patterns/pro/page-archive-projects.php:25
+msgid "Load More"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-projects-slider.php:6
+msgid "Projects slider"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:6
+msgid "Promo boxes online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:14
+msgid "Kitchen &amp; Dinning"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:30
+msgid "Decor &amp; Gifts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-boxes-online-store.php:46
+msgid "Home Furniture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-health.php:6
+msgid "Promo health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-health.php:13
+msgid "Best Stretching Exercises for Better Flexibility"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-online-store.php:6
+msgid "Promo online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-online-store.php:19
+msgid "SUMMER TRENDS"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-online-store.php:23
+msgid "Our Must Haves"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-online-store.php:27
+msgid "Focus on engaging, reusable content that decrease the cost per leads while helps you to increase profits margin."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:6
+msgid "Promo schedule coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:23
+msgid "Premium Coffee Blends for Everyone"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:27
+msgid "Volutpat maecenas volutpat. Iaculis at erat pellentesque adipiscing. Praesent tristique magna sit amet."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:33
+msgid "Monday to Friday"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:37
+msgid "07AM - 18PM"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:47
+msgid "Saturday &amp; Sunday"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:51
+msgid "08AM - 19PM"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-promo-schedule-coffee-shop.php:62
+msgid "1-888-925-8067"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-agency.php:6
+msgid "Quote agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-agency.php:17
+msgid "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Excepteur sint occaecat cupidatat non proident, sunt in. Praesent sit amet purus non nibh commodo convallis."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-coffee-shop.php:6
+msgid "Quote coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:55
+msgid "“Launch your creative ideas. Whatever you imagine we will make it happen with our team of specialists.”"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:59
+msgid "— Matt Mullenweg, 2017"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-fashion.php:6
+msgid "Quote fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-quote-fashion.php:17
+msgid "Fashion is what you're offered four times a year by designers. And style is what you choose."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:6
+msgid "Team agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:31, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:55, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:79, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:105, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:129, wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:153, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:114, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:138, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:162, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:188, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:212, wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:236
+msgid "Non dolere, inquam, istud quam vim habeat postea viderouid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:6
+msgid "Team coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:18, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:72
+msgid "Zander Kline"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:38, wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:54, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:76, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:92, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:108
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing lectus"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:34, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:88
+msgid "Kylia Henderson"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-coffee-shop.php:50, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:104
+msgid "Samantha Wood"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:6
+msgid "Testimonials slider coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:32, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:44
+msgid "Fantastic coffee that was extremely fresh. Everything we ordered was very good and we even indulged in 3 desserts. Every detail has been taken care these team are really amazing and talented!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:6
+msgid "Testimonials slider"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:15
+msgid "Latest Buyers Reviews"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-startup.php:6
+msgid "Testimonials startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-startup.php:17
+msgid "Great theme for marketing, fast and well thought out. Added to the design style, which I think is excellent, for me the choice of FSE makes it almost perfect."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-startup.php:21
+msgid "John Doe, Creative Director"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-video-lightbox-coffee-shop.php:6
+msgid "Video lightbox coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-agency.php:6
+msgid "Header agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-agency.php:22, wp-content/themes/ona/inc/patterns/pro/header-startup.php:22
+msgid "Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-agency.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:22, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:22, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:47, wp-content/themes/ona/inc/patterns/pro/header-startup.php:23
+msgid "Pages"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-agency.php:35
+msgid "Call Us: +1-888-1554"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:6
+msgid "Header coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-fashion.php:6
+msgid "Header fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-health.php:6
+msgid "Header health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:6
+msgid "Header magazine transparent"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:21, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:21
+msgid "Blog"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-magazine.php:6
+msgid "Header magazine"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:6
+msgid "Header online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:12
+msgid "Free shipping over $100 with free returns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:19, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:50, wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:12
+msgid "FAQ"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:54
+msgid "Catalog"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:55, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:74
+msgid "Cart"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:56
+msgid "Checkout"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:57
+msgid "Account"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:75
+msgid "Login"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:85
+msgid "GET "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:85
+msgid "25% SALE"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-online-store.php:85
+msgid " WITH COUPON CODE ONAJKI25"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-recipes.php:6
+msgid "Header recipes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-startup.php:6
+msgid "Header startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/header-startup.php:35
+msgid "Call Us: +1-888-1554-127"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:7
+msgid "Page about agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:13, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:15
+msgid "About Us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-agency.php:26
+msgid "We are here to make sure your business endeavor succeeds."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:9
+msgid "Page about coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:7
+msgid "Page about startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:23
+msgid "We focus on creative and strategically driven innovation."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:37
+msgid "Ona helped businesses to craft honest, emotional experiences through strategy, brand development, and web design. We continuosly seek between design and technology."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:46
+msgid "Let's Work Together"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:59
+msgid "36"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:63, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:161
+msgid "Sucessful Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:69
+msgid "100%"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:73
+msgid "Achieved ROI"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:79
+msgid "550K"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:89
+msgid "3x"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:93
+msgid "Increased Profits"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:111
+msgid "Meet our team"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:129
+msgid "Kate Williams"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:133
+msgid "UI/UX Designer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:145
+msgid "Harry Newman"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:149
+msgid "WordPress Developer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:161
+msgid "Meghan Scott"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-archive-projects.php:6
+msgid "Page archive projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-archive-projects.php:11
+msgid "Our Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:9
+msgid "Page contact agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:16
+msgid "Get in touch,<br>Feel free to contact"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:22
+msgid "We are here to help you with any inquiry. Call us or visit us. Easily accessible customer service is crucial in today's 24-hour, online business environment The company values customer support satisfaction. No question has been left unanswered. We resolve everything!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:44
+msgid "Hotline"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:48
+msgid "+1-888-1554-456-123"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:66
+msgid "Email Us"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:70
+msgid "supportinfo@gmail.com"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:86
+msgid "Address"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:90
+msgid "13 Hanway Square, London"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:9
+msgid "Page contact coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:75
+msgid "Feel Free To Contact Us If You Have Questions"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:6
+msgid "Page FAQ online store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:21
+msgid "What are your shipping and return policies?"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:25
+msgid "Monthly Tracked People are unique visitors that engage in an Event on your website or with your product, that gets tracked by you in Margin. Learn more about Margin Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:31
+msgid "Do you accept international credit cards?"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:35
+msgid "While it sometimes makes sense to work with prospective clients on a trial basis, making sure they can ultimately afford your services is a big consideration when qualifying a lead. Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:41
+msgid "How long does it take for me to get a refund?"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:45
+msgid "Clients with a good history of payments who are easy to work with will save you time and stress down the road and make for a much better business relationship. Learn more about Margin Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:53
+msgid "Do you ship internationally?"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:57
+msgid "Do a quick scan of your available offers to see how you can best serve your prospective clients needs.. Emails are simply the number of emails that you send per month segments you define. Emails are simply the number of emails that you send per month."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:63
+msgid "How can I cancel or change my order?"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:67
+msgid "You use Campaigns to create and manage the delivery of email campaigns to any customer segments you define. Emails are simply the number of emails that you send per month. Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-faq-online-store.php:78
+msgid "Any Question? "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:9
+msgid "Page menu coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:17
+msgid "Our Menu"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:107
+msgid "Greek Coffee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:116
+msgid "$4.10"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:129
+msgid "Americano"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:138
+msgid "$4.95"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:223
+msgid "Irish Coffee"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:232
+msgid "$4.45"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:245
+msgid "Cold Latte"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-menu-coffee-shop.php:254
+msgid "$3.75"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-reservation-coffee-shop.php:9
+msgid "Page reservation coffee shop"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-reservation-coffee-shop.php:17
+msgid "Reservation"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-reservation-coffee-shop.php:25
+msgid "Thank you for choosing to reserve table at our coffeeshop. Choose your date and time and enter your information. If you have any questions, please call <a href=\"tel:+639202740366\">+63 9202740366</a> or email <a href=\"mailto:info@onacoffeeshop.com\">info@onacoffeeshop.com"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:7
+msgid "Page services agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:26
+msgid "Business delivery services"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:30, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:151
+msgid "Our custom-built WordPress themes are beautiful, fast, and search-optimized to help your business succeed."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:108
+msgid "Unique Technologies"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:124
+msgid "Content Writing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:147
+msgid "Branding, websites and digital experiences, crafted with brilliance, love"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:157
+msgid "96k+"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:165, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:179
+msgid "The most comprehensive complete system warranty in the solar industry."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:171
+msgid "550k+"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:197
+msgid "Personal"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:202, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:278
+msgid "$"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:206
+msgid "25"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:210, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:286
+msgid "/  Month"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:215, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:291
+msgid "Access all of our exclusive benefits for this low monthly price"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:224, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:254, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:300, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:330
+msgid "Adipiscing eli sed eiusmod"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:234, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:310
+msgid "Tempor incididunt"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:244, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:320
+msgid "Labore et dolore magna"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:260, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:336
+msgid "Subscribe Now"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:265, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:341
+msgid "Cancel Anytime"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:273
+msgid "Enterprise"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:282
+msgid "275"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:6
+msgid "Page single project"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:27
+msgid "We\’re Awesome"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:31
+msgid "Nulla porttitor accumsan tincidunt praesent sapien massa convallis pellen tesque necp egestas non nisi vivamus suscipite nulla porttitor accumsan tincidunt praesent sapien massa convallisa pellentesque. Lorem ipsum dolor sit met, consectetur adipiscing elit. Integer imperdiet iaculis ipsum aliquet ultricies. Sed a tincidunt enim."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:36
+msgid "Client:</strong> Manhattan"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:40
+msgid "Category:</strong> Branding, Digital"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:44
+msgid "Date:</strong> 17, September 2022"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:48
+msgid "Website:"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-2.php:6
+msgid "Posts grid 2 columns sticky on scroll style 2"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-3.php:9
+msgid "Posts grid 2 columns sticky on scroll style 3"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-3.php:14
+msgid "Thoughts, stories<br>and ideas"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-3.php:21
+msgid "Featured"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-then-3-columns.php:6
+msgid "Posts grid 2 then 3 columns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-then-3-columns.php:19
+msgid "Our "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-then-3-columns.php:19
+msgid "Latest Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:6
+msgid "Posts grid 3 columns fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:16
+msgid "SEE WHAT WE’VE WRITTEN LATELY"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:40, wp-content/themes/ona/inc/patterns/pro/posts-slider-startup.php:42
+msgid "View More Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-health.php:6
+msgid "Posts grid 3 columns health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-health.php:11
+msgid "Editor's Choice"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-health.php:66, wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:82
+msgid "More Posts"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:6
+msgid "Posts grid 4 columns agency"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:13
+msgid "Latest articles from our blogs"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-fashion.php:6
+msgid "Posts grid 4 columns fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-fashion.php:15
+msgid "Can't be missed…"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-health.php:6
+msgid "Posts grid 4 columns health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-health.php:11
+msgid "Trending Articles"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-offset.php:6
+msgid "Posts grid 4 columns offset"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-offset.php:11
+msgid "These are a few of my favorite recipes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-5-columns-style-2.php:6
+msgid "Posts grid 5 columns style 2"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-5-columns-style-2.php:15
+msgid "Don’t Miss our "
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-5-columns-style-2.php:15
+msgid "Story"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-grid-5-columns.php:6
+msgid "Posts grid 5 columns"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar-health.php:8
+msgid "Posts list with sidebar health"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:8
+msgid "Posts list with sidebar"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:51, wp-content/themes/ona/inc/patterns/pro/sidebar-about-widget.php:11, wp-content/themes/ona/inc/patterns/sidebar-default.php:17
+msgid "About Me"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:63, wp-content/themes/ona/inc/patterns/pro/sidebar-about-widget.php:23
+msgid "I am a food lover, traveler, adventurer.<br>I share my impressions and talk about journeys for inspirations."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-slider-startup.php:6
+msgid "Posts slider startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-slider-startup.php:14
+msgid "NEWS &amp; LATEST UPDATES"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/posts-slider-startup.php:20
+msgid "Check our company inside Story"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-about-widget.php:6
+msgid "About widget"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:7
+msgid "Sidebar Online Store"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:14
+msgid "Product Categories"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:20, wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:22
+msgid "Active filters"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:30, wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:32
+msgid "Filter by Season"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:40, wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:42
+msgid "Filter by Color"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:50, wp-content/themes/ona/inc/patterns/pro/sidebar-online-store.php:52
+msgid "Filter by price"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/sidebar-default.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/sidebar-default.php:29
+msgid "I am a food lover, traveler, adventurer. I share my impressions and talk about journeys for inspirations."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:340, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:95
+msgid "Install Required Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:343, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:97
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:345, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:98
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:346, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:99
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:398, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:100
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:400, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3311, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:101
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:401, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3103, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:102
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:403, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:103
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:405, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:104
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:407, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:105
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:408, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:106
+msgid "Dismiss this notice"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:409, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:107
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:410, wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:108
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:1052, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:1243, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2112
+msgid "TGMPA v%s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2490
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2536
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2540
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2544
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2548
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2756
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2762
+msgid "Activate %2$s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2751
+msgid "Install %2$s"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3658
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3660
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3672
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3674
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3677
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3664
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3666
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3669
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:3655
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:37
+msgid "Ona Core"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:45
+msgid "DeoBlocks"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:53
+msgid "Smash Balloon Social Photo Feed"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:59
+msgid "Contact Form 7"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:65
+msgid "WooCommerce"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:71
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: wp-content/themes/ona/inc/tgmpa/tgm-plugin-activation.php:77
+msgid "WooCommerce Variation Swatches"
+msgstr ""
+
+#: wp-content/themes/ona/index.php:9
+msgid "This theme was built for the WordPress experimental full site editing feature. You need to install and activate the Gutenberg plugin to make it work. "
+msgstr ""

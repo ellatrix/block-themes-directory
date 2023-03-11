@@ -1,0 +1,128 @@
+# Copyright (C) 2022 Semplice Monospazio
+# This file is distributed under the same license as the Semplice Monospazio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Semplice Monospazio\n"
+"Report-Msgid-Bugs-To: Semplice Monospazio\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s: Search term.
+#: functions.php:61
+msgid "Search results for \"%s\""
+msgstr "Risultati ricerca per \"%s\""
+
+#: functions.php:61
+msgid "Search results"
+msgstr "Risultati di ricerca"
+
+#: functions.php:70
+#, fuzzy
+msgid "Full-height"
+msgstr "A tutta altezza"
+
+#: functions.php:87
+msgid "JM Web Dev FSE Starter Theme"
+msgstr "JM Web Dev FSE Starter Theme"
+
+#: functions.php:94
+msgid "404"
+msgstr "404"
+
+#: functions.php:98
+msgid "Callouts"
+msgstr "Didascalie"
+
+#: functions.php:102
+msgid "Columns"
+msgstr "Colonne"
+
+#: functions.php:106
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:110
+msgid "Header"
+msgstr "Header"
+
+#: functions.php:114
+#, fuzzy
+msgid "Grid Queries"
+msgstr "Query a griglia"
+
+#: functions.php:118
+msgid "Layouts"
+msgstr "Layout"
+
+#: functions.php:122
+#, fuzzy
+msgid "List Queries"
+msgstr "Elenco Query"
+
+#: functions.php:126
+msgid "Search"
+msgstr "Cerca"
+
+#: functions.php:130
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: index.php:12
+#, fuzzy
+msgid ""
+"This theme was built for the WordPress full-site-editing feature. You need "
+"to be using WordPress 5.9 or higher to make it work."
+msgstr ""
+"Questo tema è stato realizzato per la funzione di modifica completa del "
+"sito di WordPress. È necessario utilizzare WordPress 5.9 o superiore per "
+"farlo funzionare."
+
+#: patterns/default-404.php:11, patterns/layout-404-content-sidebar.php:15
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: patterns/default-404.php:16, patterns/layout-404-content-sidebar.php:20
+#, fuzzy
+msgid ""
+"The page that you are looking for isn't here. But that's okay. You can use "
+"the search form below to find what you're looking for or use the links to "
+"navigate to a new page."
+msgstr ""
+"La pagina che state cercando non è qui. Ma non c'è problema. Potete usare "
+"il modulo di ricerca qui sotto per trovare ciò che state cercando o usare "
+"i link per navigare verso una nuova pagina."
+
+#: patterns/default-404.php:24, patterns/layout-404-content-sidebar.php:28
+msgid "Latest posts"
+msgstr "Ultimi articoli"
+
+#: patterns/default-404.php:31, patterns/layout-404-content-sidebar.php:35
+msgid "Pages"
+msgstr "Pagine"
+
+#: patterns/default-404.php:38, patterns/layout-404-content-sidebar.php:42
+msgid "Categories"
+msgstr "Categorie"
+
+#: patterns/default-footer.php:12
+msgid "Copyright"
+msgstr "Copyright"
+
+#: patterns/sidebar-widget.php:12
+msgid "Widget Title"
+msgstr "Titolo Widget"

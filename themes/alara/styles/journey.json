@@ -1,0 +1,21 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "foreground", "name": "Foreground", "color": "#333141" },
+				{ "slug": "background", "name": "Background", "color": "#f2ffff" },
+				{ "slug": "primary", "name": "Primary", "color": "#f4976c" },
+				{ "slug": "secondary", "name": "Secondary", "color": "#fbe8a6" },
+				{ "slug": "tertiary", "name": "Tertiary", "color": "#303c6c" },
+				{ "slug": "quaternary", "name": "Quaternary", "color": "#f46c6e" },
+				{ "slug": "quinary", "name": "Quinary", "color": "#b6dfe5" },
+				{ "slug": "senary", "name": "Senary", "color": "#c8e5b6" },
+				{ "slug": "septenary", "name": "Septenary", "color": "rgba(0,0,0,0.2)" },
+				{ "slug": "octonary", "name": "Octonary", "color": "rgba(255,255,255,0.4)" },
+				{ "slug": "black", "name": "Black", "color": "#000000" },
+				{ "slug": "white", "name": "White", "color": "#ffffff" }
+			]
+		}
+	}
+}

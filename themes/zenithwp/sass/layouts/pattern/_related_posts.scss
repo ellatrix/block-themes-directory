@@ -1,0 +1,81 @@
+.zenithwp-related-posts {
+    a {
+        text-decoration: inherit;
+    }
+}
+
+.zenithwp-related-posts .wp-block-post-excerpt__excerpt {
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .zenithwp-related-posts {
+        margin-bottom: 64px !important;
+
+        >h3 {
+            font-size: 28px !important;
+        }
+
+        .wp-block-query {
+            .wp-block-post-template {
+                gap: 0 !important;
+                justify-content: space-between !important;
+
+                .wp-block-post {
+                    width: calc(50% - 16px) !important;
+                    margin-bottom: 32px !important;
+
+                    h3.wp-block-post-title {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .zenithwp-related-posts {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+
+        >h3 {
+            font-size: 21px !important;
+        }
+
+        .wp-block-query {
+            .wp-block-post-template {
+                .wp-block-post {
+                    width: 100% !important;
+                    margin-bottom: 45px !important;
+
+                    .wp-block-post-featured-image {
+                        img {
+                            height: auto !important;
+                        }
+                    }
+
+                    h3.wp-block-post-title {
+                        font-size: 14px !important;
+                    }
+
+                    .wp-block-post-date {
+                        font-size: 11px !important;
+                    }
+
+                    p.wp-block-post-excerpt__excerpt {
+                        font-size: 14px !important;
+                    }
+
+                    a.wp-block-read-more {
+                        font-size: 14px !important;
+                    }
+                }
+
+                .wp-block-post {
+                    margin-bottom: 30px !important;
+                }
+            }
+        }
+    }
+}

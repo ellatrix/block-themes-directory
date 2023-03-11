@@ -1,0 +1,38 @@
+// button style
+
+
+input[type="button"],
+input[type="reset"], input[type="submit"],
+input[type=button],
+input[type=reset],
+input[type=submit],
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt  {
+	padding: 7px 30px;
+    cursor: pointer;
+    background: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--white);
+    border-radius: 0;
+    font-weight: normal;
+    line-height: 1.75;
+	font-size: 16px;
+	&:hover,
+	&:focus,
+	&:active {
+		background: var(--wp--preset--color--secondary);
+		color: var(--wp--preset--color--white);
+	}
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"]{
+	border: none;
+}
+

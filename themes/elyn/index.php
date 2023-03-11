@@ -1,0 +1,1 @@
+<?php echo 'This theme requires the Guteneberg Plugin to be activated'; ?>

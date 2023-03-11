@@ -1,0 +1,21 @@
+/**
+ * Medium responsive breakpoint, max width, default is 1024px.
+ *
+ * Can be changed in child themes with the 'pria_breakpoint_medium' filter.
+ *
+ *
+ * Example:
+ * function themename_breakpoint_medium() {
+ *	return 936px;
+ * }
+ * add_filter( 'pria_breakpoint_medium', 'themename_breakpoint_medium' );
+ *
+ *
+ * Another example using em instead of px:
+ * function themename_breakpoint_medium() {
+ *	return 52em;
+ * }
+ * add_filter( 'pria_breakpoint_medium', 'themename_breakpoint_medium' );
+ *
+ *
+ */

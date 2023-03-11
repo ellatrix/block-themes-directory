@@ -1,0 +1,35 @@
+.portfolio-section {
+  .sub-content {
+    margin-top: 0;
+    font-size: var(--wp--preset--font-size--medium);
+    font-style: italic;
+    font-weight: 700;
+    a {
+      font-weight: 400;
+    }
+  }
+
+  .wp-block-column figure img {
+    transition: 0.3s ease-in-out;
+  }
+
+  .wp-block-column figure img:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+   
+  }
+
+  h4 {
+    font-weight: var(--wp--custom--typography--font-weight--medium);
+  }
+}
+
+
+.portfolio-section .section-heading .is-content-justification-space-between .wp-block-button__link {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-section .section-heading .is-content-justification-space-between .wp-block-button__link::before {
+  display: none;
+}

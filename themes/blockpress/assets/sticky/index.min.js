@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("scroll",function(){let e=document.querySelector(".fr-sticky-header");if(e){let t=e.parentNode;t.classList.toggle("fr-sticky-enable",window.scrollY>0),document.body.style="--blockpress-sticky-height:"+t.clientHeight+"px"}});

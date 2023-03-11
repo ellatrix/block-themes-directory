@@ -1,0 +1,274 @@
+# <!=Copyright (C) 2023 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LaVenta\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2023-01-09 20:33-0800\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:27 inc/block-patterns.php:18
+msgid "LaVenta"
+msgstr ""
+
+#: inc/about.php:46
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:54
+msgid "Getting Started with LaVenta!"
+msgstr ""
+
+#: inc/about.php:55
+msgid ""
+"Awesome! LaVenta has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in "
+"this astounding theme."
+msgstr ""
+
+#: inc/about.php:56
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:62
+msgid "More Features with LaVenta Pro Theme"
+msgstr ""
+
+#: inc/about.php:63
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you "
+"activate the LaVenta Pro. With the pro theme installed, get more options, "
+"blocks, block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:64
+msgid "Buy LaVenta Pro"
+msgstr ""
+
+#: inc/about.php:73
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:74
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:75
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:76
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:77
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:85
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:86
+msgid ""
+"Loved LaVenta? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/block-styles.php:44
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/cta.php:21
+msgid "Save 50%"
+msgstr ""
+
+#: patterns/cta.php:24
+msgid "Shop Our Year End Sale - Up To 50% Off"
+msgstr ""
+
+#: patterns/cta.php:32 patterns/header-media.php:30
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/featured-content.php:14
+msgid "Featured Content"
+msgstr ""
+
+#: patterns/featured-content.php:32
+msgid "Agile frameworks prodive robust synopsis lorem ipsum dolor"
+msgstr ""
+
+#: patterns/featured-content.php:35 patterns/featured-content.php:65
+#: patterns/featured-content.php:95
+msgid ""
+"Lorem ipsum dolor sit amet consecte tur adipiscing elit integer fermentum "
+"in orci lorem ipsum."
+msgstr ""
+
+#: patterns/featured-content.php:41 patterns/featured-content.php:71
+#: patterns/featured-content.php:101 patterns/hero-content.php:36
+msgid "Read More"
+msgstr ""
+
+#: patterns/featured-content.php:62
+msgid "How Investing in Self-Dependent Increase Business"
+msgstr ""
+
+#: patterns/featured-content.php:92
+msgid "7 Productivity Tips to Avoid Burnout When Working"
+msgstr ""
+
+#: patterns/footer-dark.php:17
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: patterns/footer-dark.php:18
+msgid "Y"
+msgstr ""
+
+#: patterns/footer-three-columns-dark.php:22
+msgid "about"
+msgstr ""
+
+#: patterns/footer-three-columns-dark.php:25
+msgid ""
+"Commerce WordPress theme with pixel perfect design and extensive functio-"
+"nality to create your very own profess-ional and unique online store."
+msgstr ""
+
+#: patterns/footer-three-columns-dark.php:36
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-three-columns-dark.php:48
+msgid "Customer Support"
+msgstr ""
+
+#: patterns/header-media.php:21
+msgid "Luxury Jewelry"
+msgstr ""
+
+#: patterns/header-media.php:24
+msgid "Your Search For Perfect Jewelry Ends Here"
+msgstr ""
+
+#: patterns/hero-content.php:24
+msgid "Jewellery Store"
+msgstr ""
+
+#: patterns/hero-content.php:30
+msgid ""
+"As a jeweler, your goal is to increase the number of customers who buy from "
+"you, and perhaps to cultivate a long-term relationship in which they make "
+"multiple purchases from your store."
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "Oops! That page can't be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-blog.php:10
+msgid "Recent Blog"
+msgstr ""
+
+#: patterns/hidden-search.php:10
+msgid "Search"
+msgstr ""
+
+#: patterns/product-category.php:16
+msgid "Product Categories"
+msgstr ""
+
+#: patterns/products-recent.php:14
+msgid "Recent Products"
+msgstr ""
+
+#: patterns/recent-blog-posts.php:14
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: patterns/sidebar-products.php:14
+msgid "Search Products"
+msgstr ""
+
+#: patterns/sidebar-products.php:24 patterns/sidebar.php:27
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar-products.php:34
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/sidebar-products.php:50
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/sidebar-products.php:66
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/sidebar.php:20
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus commodo, rhoncus et ante."
+msgstr ""
+
+#: patterns/sidebar.php:35
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/sidebar.php:43
+msgid "Tags"
+msgstr ""

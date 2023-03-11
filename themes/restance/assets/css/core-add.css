@@ -1,0 +1,165 @@
+/* CUSTOM CORE CLASSES */
+
+.is-style-custombuttonone .wp-block-button__link {
+    padding: 18px 24px;
+    background-color: var(--wp--preset--color--secondary);
+    color: #FFFFFF;
+    border: 1px solid var(--wp--preset--color--secondary);
+    border-radius: 0px;
+    font-family: 'Helvetica';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.is-style-custombuttonone:hover .wp-block-button__link {
+    background-color: #ffffff00;
+    color: var(--wp--preset--color--secondary);
+    border-color: var(--wp--preset--color--secondary);
+}
+
+.is-style-customboxshadow,
+.is-style-customboxshadowhover:hover {
+    box-shadow: 0px 3px 15px 0px #1010101a;
+}
+
+
+/* RESTANCE ADVANCE CLASSES */
+
+.restance-z-index-1 {
+    z-index: 1;
+}
+
+.restance-z-index-10 {
+    z-index: 10;
+}
+
+.restance-z-index-100 {
+    z-index: 100;
+}
+
+.restance-z-index-1000 {
+    z-index: 1000;
+}
+
+.restance-margin-top-n10 {
+    position: relative;
+    margin-top: -10px!important;
+}
+
+.restance-margin-top-n20 {
+    position: relative;
+    margin-top: -20px!important;
+}
+
+.restance-margin-top-n30 {
+    position: relative;
+    margin-top: -30px!important;
+}
+
+.restance-margin-top-n40 {
+    position: relative;
+    margin-top: -40px!important;
+}
+
+.restance-margin-top-n50 {
+    position: relative;
+    margin-top: -50px!important;
+}
+
+.restance-margin-top-n60 {
+    position: relative;
+    margin-top: -60px!important;
+}
+
+.restance-margin-top-n70 {
+    position: relative;
+    margin-top: -70px!important;
+}
+
+.restance-margin-top-n80 {
+    position: relative;
+    margin-top: -80px!important;
+}
+
+.restance-margin-top-n90 {
+    position: relative;
+    margin-top: -90px!important;
+}
+
+.restance-margin-top-n100 {
+    position: relative;
+    margin-top: -100px!important;
+}
+
+.restance-margin-right-n70 {
+    position: relative;
+    margin-right: -70px!important;
+}
+
+.restance-radius-5 {
+    border-radius: 5px;
+}
+
+.restance-radius-10 {
+    border-radius: 10px;
+}
+
+.restance-radius-25 {
+    border-radius: 25px;
+}
+
+.restance-radius-50 {
+    border-radius: 50px;
+}
+
+.restance-margin-left-n10 {
+    position: relative;
+    margin-left: -10px!important;
+}
+
+.restance-margin-left-n20 {
+    position: relative;
+    margin-left: -20px!important;
+}
+
+.restance-margin-left-n30 {
+    position: relative;
+    margin-left: -30px!important;
+}
+
+.restance-margin-left-n40 {
+    position: relative;
+    margin-left: -40px!important;
+}
+
+.restance-margin-left-n50 {
+    position: relative;
+    margin-left: -50px!important;
+}
+
+.restance-margin-left-n60 {
+    position: relative;
+    margin-left: -60px!important;
+}
+
+.restance-margin-left-n70 {
+    position: relative;
+    margin-left: -70px!important;
+}
+
+.restance-margin-left-n80 {
+    position: relative;
+    margin-left: -80px!important;
+}
+
+.restance-margin-left-n90 {
+    position: relative;
+    margin-left: -90px!important;
+}
+
+.restance-margin-left-n100 {
+    position: relative;
+    margin-left: -100px!important;
+}

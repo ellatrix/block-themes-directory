@@ -1,0 +1,10 @@
+/*
+Editor Styles
+*/
+.editor-styles-wrapper {
+	margin:0;
+	padding:0!important;
+}
+.editor-styles-wrapper * {
+	box-sizing:border-box;
+}

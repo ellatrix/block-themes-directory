@@ -1,0 +1,27 @@
+<?php
+/**
+ * Gutenverse Hero Projects content.
+ */
+return array(
+	'title'      => __( 'Gutenverse Hero Projects', 'intrace' ),
+	'categories' => array( 'intrace-gutenverse' ),
+	'content'    => '<!-- wp:gutenverse/section {"sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"width":{"Desktop":1140},"height":{},"gap":"no","elementId":"guten-9rsSZi","background":{"type":"default","image":{"Desktop":{"id":1173,"image":"' . esc_url( INTRACE_URI ) . 'assets/img/komfort-kreative-loveseat-interier-kurort-hotel-1632935-pxhere.com.webp"}},"position":{"Desktop":"center center"},"repeat":{"Desktop":"no-repeat"},"size":{"Desktop":"cover"}},"backgroundHover":{},"backgroundOverlay":{"type":"default","color":{"r":3,"g":3,"b":3,"a":0.8},"image":{"Desktop":{"id":1119,"image":"' . esc_url( INTRACE_URI ) . 'assets/img/line.webp"}},"position":{"Desktop":"center center"},"repeat":{"Desktop":"no-repeat"},"size":{"Desktop":"contain"}},"topDivider":{},"bottomDivider":{},"margin":{"Desktop":{"unit":"px","dimension":{"top":"-150"}},"Tablet":[],"Mobile":[]},"padding":{"Desktop":{"unit":"px","dimension":{"top":"380","bottom":"100","right":"0","left":"0"}},"Tablet":{"unit":"px","dimension":{"top":"260","bottom":"60","right":"10","left":"10"}},"Mobile":{"unit":"px","dimension":{"top":"200","bottom":"100","right":"10","left":"10"}}},"animation":{},"wrapColumn":{"Desktop":false,"Tablet":false,"Mobile":true}} -->
+<div class="section-wrapper" data-id="9rsSZi"><section class="wp-block-gutenverse-section guten-element guten-section guten-9rsSZi layout-boxed align-stretch"><div class="guten-background-overlay"></div><div class="guten-shape-divider guten-shape-divider-top"></div><div class="guten-shape-divider guten-shape-divider-bottom"></div><div class="guten-container guten-column-gap-no"><!-- wp:gutenverse/column {"width":{"Desktop":50,"Tablet":null},"sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"elementId":"guten-8F5CTQ","background":{},"backgroundHover":{},"verticalAlign":{"Desktop":"center"},"horizontalAlign":{"Desktop":"center"},"margin":{"Desktop":[]},"padding":{"Desktop":{"unit":"px","dimension":{"top":"10","right":"10","bottom":"10","left":"10"}}},"animation":{}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-8F5CTQ"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="8F5CTQ"><div class="guten-column-wrapper"><!-- wp:gutenverse/heading {"elementId":"guten-gEClE2","type":1,"textAlign":{"Desktop":"left","Tablet":"left","Mobile":"center"},"color":{"type":"variable","id":"white"},"typography":{"type":"variable","id":"h1-alt-font","font":{"label":"Lato","value":"Lato","type":"google"},"size":{"Desktop":{"unit":"px","point":"42"},"Tablet":{"unit":"px","point":"40"},"Mobile":{"unit":"px","point":"28"}},"lineHeight":{"Desktop":{"unit":"em","point":"1"}},"spacing":{"Desktop":"0.1","Mobile":"0.03"},"transform":"uppercase","weight":"600"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"0","right":"0","bottom":"0","left":"0"}}},"padding":{"Desktop":[]},"animation":{"type":{"Desktop":"none"},"duration":"normal"}} -->
+<h1 class="wp-block-gutenverse-heading guten-element guten-gEClE2">Projects</h1>
+<!-- /wp:gutenverse/heading --></div></div></div>
+<!-- /wp:gutenverse/column -->
+
+<!-- wp:gutenverse/column {"width":{"Desktop":50,"Tablet":null,"Mobile":null},"sticky":{"Desktop":false},"topSticky":{"Desktop":{"point":"0","unit":"px"}},"bottomSticky":{"Desktop":{"point":"0","unit":"px"}},"elementId":"guten-HyAi7p","background":{},"backgroundHover":{},"verticalAlign":{"Desktop":"center","Tablet":"center"},"horizontalAlign":{"Desktop":"default"},"margin":{"Desktop":[]},"padding":{"Desktop":{"unit":"px","dimension":{"top":"10","right":"10","bottom":"10","left":"10"}}},"animation":{}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-HyAi7p"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="HyAi7p"><div class="guten-column-wrapper"><!-- wp:gutenverse/icon-list {"elementId":"guten-gMJwuM","displayInline":true,"spaceBetween":{"Desktop":"10"},"alignList":{"Desktop":"flex-end","Mobile":"center"},"iconColor":{"type":"variable","id":"intrace-accent"},"textColor":{"type":"variable","id":"white"},"textIndent":{"Desktop":"10"},"textTypography":{"type":"variable","id":"body-font","font":{"label":"Heebo","value":"Heebo","type":"google"},"size":{"Desktop":{"unit":"px","point":"16"},"Mobile":{"unit":"px","point":"14"}},"lineHeight":{"Desktop":{"unit":"em","point":"1.6"}},"weight":"300"}} -->
+<div class="guten-element guten-icon-list guten-gMJwuM inline-icon-list"><!-- wp:gutenverse/icon-list-item {"elementId":"guten-9rtfCo","hideIcon":true,"margin":{"Desktop":[]},"padding":{"Desktop":[]}} -->
+<div class="guten-element guten-icon-list-item guten-9rtfCo"><a id="guten-9rtfCo"><span class="list-text no-icon">Home </span></a></div>
+<!-- /wp:gutenverse/icon-list-item -->
+
+<!-- wp:gutenverse/icon-list-item {"elementId":"guten-Ey0PP1"} -->
+<div class="guten-element guten-icon-list-item guten-Ey0PP1"><a id="guten-Ey0PP1"><i class="fas fa-chevron-right"></i><span class="list-text ">Projects</span></a></div>
+<!-- /wp:gutenverse/icon-list-item --></div>
+<!-- /wp:gutenverse/icon-list --></div></div></div>
+<!-- /wp:gutenverse/column --></div></section></div>
+<!-- /wp:gutenverse/section -->',
+);

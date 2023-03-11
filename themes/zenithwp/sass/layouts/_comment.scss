@@ -1,0 +1,49 @@
+@media only screen and (max-width: 800px) {
+    .wp-block-comments {
+        .wp-block-comment-template {
+            ol {
+                padding-left: 1.6rem !important;
+            }
+
+            li {
+                .wp-block-columns {
+                    display: flex !important;
+                    flex-wrap: nowrap !important;
+
+                    .wp-block-column {
+                        flex-grow: 0 !important;
+
+                        .wp-block-comment-author-name {
+                            a {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .wp-block-comment-date {
+                            a {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .wp-block-comment-content {
+                            font-size: 14px !important;
+                        }
+
+                        a.comment-reply-link {
+                            font-size: 14px !important;
+                        }
+                    }
+
+                    .wp-block-column:first-child {
+                        flex-basis: auto !important;
+                        margin-right: 12px !important;
+                    }
+
+                    .wp-block-column:last-child {
+                        flex-basis: auto !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+	"version": 2,
+	"title": "Volcan",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#35109D",
+						"#63D9F9"
+					],
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"colors": [
+						"#5D0B98",
+						"#F3D648"
+					],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"colors": [
+						"#043A51",
+						"#5CC976"
+					],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				},
+				{
+					"colors": [
+						"#782800",
+						"#FBB42A"
+					],
+					"slug": "quarternary",
+					"name": "Quarternary"
+				}
+			],
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#f3f3eb",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#2a3637",
+					"name": "Secondary"
+				},
+				{
+					"slug": "background",
+					"color": "#a52a2a",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#2a3637",
+					"name": "Foreground"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"color": "var:preset|color|foreground"
+				},
+				"color": {
+					"background": "var:preset|color|foreground",
+					"text": "var:custom|color|primary"
+				}
+			}
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|primary"
+				}
+			}
+		}
+	}
+}

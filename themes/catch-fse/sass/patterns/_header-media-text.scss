@@ -1,0 +1,50 @@
+/* --- Block Header Media & Text
+-------------------------------------------------------- */
+
+
+.content > .video-play  {
+    display: flex;
+    align-items: center;
+    margin: 14px 0 0 0;
+}
+
+.content > .video-play,
+.content.has-text-align-center > .video-play {
+    justify-content: center;
+    text-decoration: none;
+}
+
+.content.has-text-align-left > .video-play {
+    justify-content: flex-start;
+}
+
+.content.has-text-align-right > .video-play {
+    justify-content: flex-end;
+}
+
+.content > .video-play > span {
+    display: inline-block;
+    padding-left: 7px;
+}
+
+.modal.active .close {
+    left: unset;
+    top: 50px;
+    right: 50px;
+}
+
+/* When Media Left and Right */
+
+.wp-block-media-text:not(.is-stacked-on-mobile).has-media-on-the-right .wp-block-media-text__content  {
+    padding-left: 0;
+}
+
+.wp-block-media-text:not(.is-stacked-on-mobile):not(.has-media-on-the-right) .wp-block-media-text__content  {
+    padding-right: 0;
+}
+
+.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content  {
+    padding-left: 0;
+    padding-right: 0;
+}
+

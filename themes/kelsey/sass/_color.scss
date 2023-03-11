@@ -1,0 +1,228 @@
+/* --- Block Color
+-------------------------------------------------------- */
+
+
+/* Foreground color */
+.wp-block-navigation .current-menu-item > a,
+ .wp-block-navigation .wp-block-navigation-item__content:hover,
+ .wp-block-navigation .wp-block-navigation-item__content:focus,
+.has-drop-cap:not(:focus)::first-letter,
+.header-media-title,
+.wp-block-cover-image.is-light.header-media .wp-block-cover__inner-container,
+.wp-block-cover.is-light.header-media .wp-block-cover__inner-container,
+.wp-block-social-links.is-style-logos-only .wp-block-social-link,
+.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta:not(.wp-block-latest-comments__comment-date),
+.catch-breadcrumb .sep {
+     color: var(--wp--preset--color--foreground);
+}
+
+
+.wp-block-navigation__responsive-container-open:hover,
+.wp-block-navigation__responsive-container-open:focus,
+.wp-block-navigation__responsive-container-close:hover,
+.wp-block-navigation__responsive-container-close:focus {
+    color: var(--wp--preset--color--foreground);
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-block-social-link {
+    background-color: var(--wp--preset--color--foreground);
+}
+
+.wp-block-kelsey-pro-header-search .search-controller:hover > svg > path,
+.wp-block-kelsey-pro-header-search .search-controller:focus > svg > path,
+.wp-block-kelsey-pro-header-social .social-controller:hover > svg > path,
+.wp-block-kelsey-pro-header-social .social-controller:focus > svg > path {
+   fill: var(--wp--preset--color--foreground);
+}
+
+/* Background Color */
+.wp-block-social-links:not(.is-style-logos-only) .wp-block-social-link {
+    color: var(--wp--preset--color--background);
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-block-social-link:hover,
+.wp-block-social-links:not(.is-style-logos-only) .wp-block-social-link:hover a {
+    color: var(--wp--preset--color--foreground);
+}
+
+
+/* Primary color */
+.wp-block-quote,
+.wp-block-quote.has-text-align-left,
+.wp-block-quote.has-text-align-right,
+.wp-block-quote.has-text-align-center {
+    border-color: var(--wp--preset--color--border-color-next);
+}
+
+ins,
+.service-columns.wp-block-columns > .wp-block-column:hover {
+    background-color: var(--wp--preset--color--primary);
+}
+
+/* Secondary Color */
+.service-columns.wp-block-columns > .wp-block-column,
+.pricing-columns.wp-block-columns > .wp-block-column,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,
+.wp-block-kelsey-pro-header-search .search-container,
+.wp-block-kelsey-pro-header-social .social-container {
+    background-color: var(--wp--preset--color--secondary);
+}
+
+/* Body color */
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close,
+.wp-block-widget-area .wp-block-latest-posts__post-author,
+.wp-block-widget-area .wp-block-latest-posts__post-date,
+.wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-navigation__responsive-container .wp-block-navigation-link a,
+.wp-block-table.is-style-kelsey-wp-table figcaption,
+.wp-block-table.is-style-stripes figcaption,
+.wp-block-image figcaption,
+.header-media-content,
+.wp-block-embed figcaption,
+.wp-block-video figcaption,
+.wp-block-audio figcaption,
+.wp-block-table figcaption,
+.blocks-gallery-caption,
+.wp-block-calendar table tbody {
+	color: var(--wp--preset--color--body-text);
+}
+
+.wp-block-kelsey-pro-header-search .search-controller > svg > path,
+.wp-block-kelsey-pro-header-social .social-controller > svg > path {
+   fill: var(--wp--preset--color--body-text);
+}
+
+/* Link color */
+a,
+.wp-block-post a,
+.wp-block-post-comments .comment-metadata a,
+.wp-block-button.is-style-kelsey-button .wp-block-button__link,
+.wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor,
+.wp-block-latest-comments .wp-block-latest-comments__comment .wp-block-latest-comments__comment-author,
+.service-columns.wp-block-columns > .wp-block-column:hover .wp-block-button__link {
+    &:hover,
+    &:focus {
+        color: var(--wp--preset--color--text-link);
+    }
+}
+
+.wp-block-kelsey-testimonial .wp-group-content:before,
+.content > .video-play:hover span,
+li::marker,
+.wp-block-page-list li.current-menu-item a {
+    color: var(--wp--preset--color--text-link);
+}
+
+a:hover svg.icon,
+a:focus svg.icon,
+.content > .video-play:hover svg {
+    fill: var(--wp--preset--color--text-link);
+}
+
+.single .taxonomy-category.wp-block-post-terms > a,
+.single .taxonomy-post_tag.wp-block-post-terms > a {
+    &:hover,
+    &:focus {
+        background-color: var(--wp--preset--color--text-link);
+    }
+}
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-block-social-link {
+    &:hover {
+        background-color: var(--wp--preset--color--text-link);
+    }
+}
+
+
+/* Border Color */
+.wp-block-tag-cloud > a,
+.wp-block-kelsey-testimonial .wp-block-separator,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.wp-block-search__input,
+.wp-block-post-comments.is-style-kelsey-post-comments textarea,
+.wp-block-post-comments.is-style-kelsey-post-comments input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments-form textarea,
+.wp-block-post-comments-form input:not([type=submit]) {
+  border-color: var(--wp--preset--color--border-color);
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.is-style-outline > .wp-block-button__link:not(.has-background):focus,
+.wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-button__link.is-style-outline:not(.has-background):focus,
+.wp-block-tag-cloud > a:hover,
+.wp-block-tag-cloud > a:focus {
+    background-color: var(--wp--preset--color--border-color);
+    opacity: 1;
+}
+
+.single .taxonomy-category.wp-block-post-terms > a,
+.single .taxonomy-post_tag.wp-block-post-terms > a {
+    &:hover,
+    &:focus {
+        border-color: var(--wp--preset--color--text-link);
+    }
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.wp-block-search__input,
+.wp-block-post-comments.is-style-kelsey-post-comments textarea,
+.wp-block-post-comments.is-style-kelsey-post-comments input:not([type="submit"]):not([type="checkbox"]) {
+    &:focus {
+        border-color: var(--wp--preset--color--text-link);
+    }
+}
+
+/* Color Light color */
+ins,
+.is-style-outline > .wp-block-button__link:not(.has-background):hover,
+.is-style-outline > .wp-block-button__link:not(.has-background):focus,
+.wp-block-button__link.is-style-outline:not(.has-background):hover,
+.wp-block-button__link.is-style-outline:not(.has-background):focus,
+.wp-block-tag-cloud > a:hover,
+.wp-block-tag-cloud > a:focus,
+.service-columns.wp-block-columns > .wp-block-column:hover h2,
+.service-columns.wp-block-columns > .wp-block-column:hover .wp-block-button__link,
+.stat-block > h2,
+.stat-block > p,
+.wp-block-query-pagination-previous:hover,
+.wp-block-query-pagination-previous:focus,
+.wp-block-query-pagination-next:hover,
+.wp-block-query-pagination-next:focus,
+.single .taxonomy-category.wp-block-post-terms > a:hover,
+.single .taxonomy-category.wp-block-post-terms > a:focus,
+.single .taxonomy-post_tag.wp-block-post-terms > a:hover,
+.single .taxonomy-post_tag.wp-block-post-terms > a:focus {
+    color: var(--wp--preset--color--color-light);
+}
+
+/* Ironside Grey color */
+.service-columns.wp-block-columns > .wp-block-column:hover p {
+    color: var(--wp--preset--color--ironside-grey);
+}
