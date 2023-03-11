@@ -46,7 +46,7 @@ for ( const theme of themes ) {
         const styleJson = JSON.parse( fs.readFileSync( 'themes/' + theme.slug + '/styles/' + style ) );
         const subVariation = {
             ...lodash.mergeWith( {}, variation, styleJson, mergeTreesCustomizer ),
-            title: theme.name + ' - ' + styleJson.name,
+            title: theme.name + ' - ' + styleJson.title,
         };
 
         variations.push( subVariation );
