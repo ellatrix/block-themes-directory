@@ -4,6 +4,7 @@ const lodash = require( 'lodash' );
 const themes = JSON.parse( fs.readFileSync( 'bypopularity.json' ) );
 
 const variations = [];
+const variationsFromThemesOfferingStyles = [];
 
 function mergeTreesCustomizer( _, srcValue ) {
 	// We only pass as arrays the presets,
@@ -21,12 +22,13 @@ for ( const theme of themes ) {
     }
 
     const themeJson = JSON.parse( fs.readFileSync( 'themes/' + theme.slug + '/theme.json' ) );
-
-    variations.push( {
+    const variation =  {
         title: theme.name,
         styles: themeJson.styles,
         settings: themeJson.settings,
-    } );
+    };
+
+    variations.push( variation );
 
     if ( ! fs.existsSync( 'themes/' + theme.slug + '/styles' ) ) {
         continue;
@@ -38,14 +40,19 @@ for ( const theme of themes ) {
         continue;
     }
 
+    variationsFromThemesOfferingStyles.push( variation );
+
     for ( const style of styles ) {
         const styleJson = JSON.parse( fs.readFileSync( 'themes/' + theme.slug + '/styles/' + style ) );
-
-        variations.push( {
+        const subVariation = {
+            ...lodash.mergeWith( {}, variation, styleJson, mergeTreesCustomizer ),
             title: theme.name + ' - ' + styleJson.name,
-            ...lodash.mergeWith( {}, themeJson, styleJson, mergeTreesCustomizer ),
-        } );
+        };
+
+        variations.push( subVariation );
+        variationsFromThemesOfferingStyles.push( subVariation );
     }
 }
 
 fs.writeFileSync( 'variations.json', JSON.stringify( variations ) );
+fs.writeFileSync( 'variations-from-themes-offering-styles.json', JSON.stringify( variationsFromThemesOfferingStyles ) );
