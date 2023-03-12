@@ -15,15 +15,17 @@ function mergeTreesCustomizer( _, srcValue ) {
 	}
 }
 
+function withPathFix( file, theme ) {
+    return file.toString().replace( /file:\./g, 'https://raw.githubusercontent.com/ellatrix/block-themes-directory/main/themes/' + theme.slug );
+}
+
 for ( const theme of themes ) {
     if ( ! fs.existsSync( 'themes/' + theme.slug + '/theme.json' ) ) {
         console.log( 'No theme.json for ' + theme.slug );
         continue;
     }
 
-    const rawFile = fs.readFileSync( 'themes/' + theme.slug + '/theme.json' );
-    const withFixes = rawFile.toString().replace( /file:\./g, 'https://raw.githubusercontent.com/ellatrix/block-themes-directory/main/themes/' + theme.slug );
-    const themeJson = JSON.parse( withFixes );
+    const themeJson = JSON.parse( withPathFix( fs.readFileSync( 'themes/' + theme.slug + '/theme.json' ), theme ) );
     const variation =  {
         $schema: themeJson.$schema,
         version: themeJson.version,
@@ -47,7 +49,7 @@ for ( const theme of themes ) {
     variationsFromThemesOfferingStyles.push( variation );
 
     for ( const style of styles ) {
-        const styleJson = JSON.parse( fs.readFileSync( 'themes/' + theme.slug + '/styles/' + style ) );
+        const styleJson = JSON.parse( withPathFix( fs.readFileSync( 'themes/' + theme.slug + '/styles/' + style ), theme ) );
         const subVariation = {
             ...lodash.mergeWith( {}, variation, styleJson, mergeTreesCustomizer ),
             title: theme.name + ' - ' + styleJson.title,
