@@ -1,0 +1,1 @@
+[{"title":"W3CSSPress","html":"<!-- wp:pattern {\"slug\":\"header-home\",\"theme\":\"w3csspress\"} /-->\n<main id=\"content\">\n    <!-- wp:query-title {\"type\":\"archive\"} /-->\n    <!-- wp:pattern {\"slug\":\"w3csspress/query\"} /-->\n</main>\n<!-- wp:pattern {\"slug\":\"w3csspress/footer\"} /-->"}]

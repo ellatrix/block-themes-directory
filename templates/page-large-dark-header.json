@@ -1,0 +1,1 @@
+[{"title":"mcms Lite","html":"<!-- wp:template-part {\"slug\":\"header-large-dark\",\"tagName\":\"header\"} /-->\n\n<!-- wp:group {\"tagName\":\"main\"} -->\n<main class=\"wp-block-group\">\n<!-- wp:post-content {\"layout\":{\"inherit\":true}} /-->\n</main>\n<!-- /wp:group -->\n\n<!-- wp:template-part {\"slug\":\"footer\",\"tagName\":\"footer\"} /-->\n"}]
