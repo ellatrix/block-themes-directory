@@ -21,7 +21,9 @@ for ( const theme of themes ) {
         continue;
     }
 
-    const themeJson = JSON.parse( fs.readFileSync( 'themes/' + theme.slug + '/theme.json' ) );
+    const rawFile = fs.readFileSync( 'themes/' + theme.slug + '/theme.json' );
+    const withFixes = rawFile.toString().replace( /file:\./g, 'https://raw.githubusercontent.com/ellatrix/block-themes-directory/main/themes/' + theme.slug );
+    const themeJson = JSON.parse( withFixes );
     const variation =  {
         $schema: themeJson.$schema,
         version: themeJson.version,
