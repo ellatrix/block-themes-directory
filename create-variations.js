@@ -23,6 +23,7 @@ for ( const theme of themes ) {
 
     const themeJson = JSON.parse( fs.readFileSync( 'themes/' + theme.slug + '/theme.json' ) );
     const variation =  {
+        $schema: themeJson.$schema,
         title: theme.name,
         styles: themeJson.styles,
         settings: themeJson.settings,
