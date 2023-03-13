@@ -1,9 +1,25 @@
 const fs = require( 'fs' );
-const lodash = require( 'lodash' );
-
+const path = require( 'path' );
+const { globSync } = require( 'glob' );
 const themes = JSON.parse( fs.readFileSync( 'bypopularity.json' ) );
 
 const allTemplates = {};
+
+function replacePatterns( string, themeSlug ) {
+    return string.toString().replace( /\<\!\-\- wp\:pattern \{"slug"\:"([a-zA-Z0-9-/]+)"\} \/\-\-\>/g, ( match, $1) => {
+        const runner = require( 'child_process' );
+        const fileName = path.basename( $1 + '.php' );
+        const [ file ] = globSync( 'themes/' + themeSlug + '/**/' + fileName );
+        if ( ! file ) return '';
+        console.log( file );
+        try {
+            return runner.execSync( 'php pattern.php ' + file, { encoding: 'utf8' } );
+        } catch ( error ) {
+            console.log( error );
+            return '';
+        }
+    } );
+}
 
 for ( const theme of themes ) {
     if ( ! fs.existsSync( 'themes/' + theme.slug + '/parts' ) ) {
@@ -39,7 +55,7 @@ for ( const theme of themes ) {
             continue;
         }
 
-        const templateHTML = fs.readFileSync( 'themes/' + theme.slug + '/parts/' + template );
+        const templateHTML = replacePatterns( fs.readFileSync( 'themes/' + theme.slug + '/parts/' + template ), theme.slug );
         
         if ( ! allTemplates[ templateInfo.area ] ) {
             allTemplates[ templateInfo.area ] = [];
