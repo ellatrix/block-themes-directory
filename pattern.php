@@ -12,6 +12,6 @@ add_filter( 'template', function() use ( $params ) {
 
 $output = require_once( $params[0] );
 
-if ( $output ) {
+if ( $output && $output['content'] ) {
     echo $output['content'];
 }
