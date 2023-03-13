@@ -10,7 +10,7 @@ add_filter( 'template', function() use ( $params ) {
     return $params[1];
 } );
 
-$output = require_once( $params[0] );
+$output = require( $params[0] );
 
 if ( $output && isset( $output['content'] ) ) {
     echo $output['content'];

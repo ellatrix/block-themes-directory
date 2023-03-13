@@ -13,7 +13,9 @@ function replacePatterns( string, themeSlug ) {
         if ( ! file ) return match;
         console.log( file );
         try {
-            return runner.execSync( 'php pattern.php ' + file + ',' + themeSlug, { encoding: 'utf8' } );
+            const output = runner.execSync( 'php pattern.php ' + file + ',' + themeSlug, { encoding: 'utf8' } );
+            // console.log( output );
+            return output;
         } catch ( error ) {
             console.log( error );
             return '';
