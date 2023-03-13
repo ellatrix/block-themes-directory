@@ -16,7 +16,7 @@ function replacePatterns( string, themeSlug ) {
             return runner.execSync( 'php pattern.php ' + file + ',' + themeSlug, { encoding: 'utf8' } );
         } catch ( error ) {
             console.log( error );
-            return '';
+            return match;
         }
     } );
 }

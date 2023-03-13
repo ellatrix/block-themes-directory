@@ -18,7 +18,23 @@ function replacePatterns( string, themeSlug ) {
             return output;
         } catch ( error ) {
             console.log( error );
-            return '';
+            return match;
+        }
+    } );
+}
+
+function replaceTemplateParts( string, themeSlug ) {
+    return string.toString().replace( /\<\!\-\- wp\:template-part (\{[^\}]+\}) \/\-\-\>/g, ( match, $1 ) => {
+        const runner = require( 'child_process' );
+        try {
+            $1 = Buffer.from($1).toString('base64');
+            console.log( 'php template-part.php ' + $1 + ',' + themeSlug );
+            const output = runner.execSync( 'php template-part.php ' + $1 + ',' + themeSlug, { encoding: 'utf8' } );
+            console.log( output );
+            return output;
+        } catch ( error ) {
+            console.log( error );
+            return match;
         }
     } );
 }
@@ -57,7 +73,7 @@ for ( const theme of themes ) {
             continue;
         }
 
-        const templateHTML = replacePatterns( fs.readFileSync( 'themes/' + theme.slug + '/parts/' + template ), theme.slug );
+        const templateHTML = replaceTemplateParts( replacePatterns( fs.readFileSync( 'themes/' + theme.slug + '/parts/' + template ), theme.slug ), theme.slug );
         
         if ( ! allTemplates[ templateInfo.area ] ) {
             allTemplates[ templateInfo.area ] = [];
