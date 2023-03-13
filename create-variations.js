@@ -27,6 +27,7 @@ for ( const theme of themes ) {
 
     const themeJson = JSON.parse( withPathFix( fs.readFileSync( 'themes/' + theme.slug + '/theme.json' ), theme ) );
     const variation =  {
+        slug: theme.slug,
         $schema: themeJson.$schema,
         version: themeJson.version,
         title: theme.name,
