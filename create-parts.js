@@ -10,10 +10,10 @@ function replacePatterns( string, themeSlug ) {
         const runner = require( 'child_process' );
         const fileName = path.basename( $1 + '.php' );
         const [ file ] = globSync( 'themes/' + themeSlug + '/**/' + fileName );
-        if ( ! file ) return '';
+        if ( ! file ) return match;
         console.log( file );
         try {
-            return runner.execSync( 'php pattern.php ' + file, { encoding: 'utf8' } );
+            return runner.execSync( 'php pattern.php ' + file + ',' + themeSlug, { encoding: 'utf8' } );
         } catch ( error ) {
             console.log( error );
             return '';
